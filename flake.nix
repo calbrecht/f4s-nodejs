@@ -12,6 +12,7 @@
         inherit system;
         overlays = [ self.overlay ];
       };
+      pkgs-dir = pkgs-src + /pkgs;
       node-packages = [
         "eslint"
         "eslint_d"
@@ -49,10 +50,10 @@
         #nodejs = prev.nodejs_latest;
         #
         nodePackages = prev.nodePackages //
-          (prev.callPackage pkgs-src { pkgs = final; });
+          (prev.callPackage pkgs-dir { pkgs = final; });
 
         nodePackages_latest = prev.nodePackages_latest //
-          (prev.callPackage pkgs-src { pkgs = final; nodejs = final.nodejs_latest; }) // {
+          (prev.callPackage pkgs-dir { pkgs = final; nodejs = final.nodejs_latest; }) // {
           # npm tries to fetch dev dependencies nowadays despite --production is given
           # https://github.com/npm/cli/issues/1969
           node2nix = (prev.nodePackages_latest.node2nix.override {
