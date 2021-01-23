@@ -8,13 +8,29 @@
         inherit system;
         overlays = [ self.overlay ];
       };
+      node-packages = [
+        "eslint"
+        "eslint_d"
+        "import-js"
+        "jsonlint"
+        "node-gyp"
+        "node-gyp-build"
+        "node-pre-gyp"
+        "prettier"
+        "standardx"
+        "tslint"
+        "typescript"
+        "testcafe-browser-tools"
+      ];
     in
     {
       apps."${system}".node2nixup = {
         type = "app";
         program = (pkgs.writeScriptBin "node2nix-update-node-packages.sh" ''
           set -e
+          cd ./pkgs
           rm ./node-env.nix
+          echo '${builtins.toJSON node-packages}' > node-packages.json
           ${pkgs.nodePackages.node2nix}/bin/node2nix \
             -i node-packages.json -o node-packages.nix -c composition.nix
         '') + /bin/node2nix-update-node-packages.sh;
