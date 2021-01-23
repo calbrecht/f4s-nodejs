@@ -1,4 +1,4 @@
-name: Build new Firefox nightly release info and update repo.
+name: Update node-packages.
 
 on:
   schedule:
