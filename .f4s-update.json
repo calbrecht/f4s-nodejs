@@ -1,0 +1,5 @@
+{
+  "ignore": {
+    "repo": ["f4s-nodejs"]
+  }
+}
