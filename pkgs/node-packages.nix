@@ -1417,13 +1417,13 @@ let
         sha512 = "Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==";
       };
     };
-    "fastq-1.10.0" = {
+    "fastq-1.10.1" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.10.0";
+      version = "1.10.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.10.0.tgz";
-        sha512 = "NL2Qc5L3iQEsyYzweq7qfgy5OtXCmGzGvhElGEd/SoFWEMOEczNh5s5ocaF01HDetxz+p8ecjNPA6cZxxIHmzA==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.10.1.tgz";
+        sha512 = "AWuv6Ery3pM+dY7LYS8YIaCiQvUaos9OB1RyNgaOWnaX+Tik7Onvcsf8x8c+YtDeT0maYLniBip2hox5KtEXXA==";
       };
     };
     "fb-watchman-2.0.1" = {
@@ -5131,7 +5131,7 @@ in
       sources."end-of-stream-1.4.4"
       sources."execa-3.4.0"
       sources."fast-glob-3.2.5"
-      sources."fastq-1.10.0"
+      sources."fastq-1.10.1"
       sources."fill-range-7.0.1"
       sources."fs.realpath-1.0.0"
       sources."get-stream-5.2.0"
