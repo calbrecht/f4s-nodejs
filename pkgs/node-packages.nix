@@ -877,13 +877,13 @@ let
         sha1 = "b5fd54220aa2bc5ab57aab7140c940754503c1a7";
       };
     };
-    "core_d-2.0.0" = {
+    "core_d-3.0.0" = {
       name = "core_d";
       packageName = "core_d";
-      version = "2.0.0";
+      version = "3.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core_d/-/core_d-2.0.0.tgz";
-        sha512 = "oIb3QJj/ayYNbg2WYTYM1h3d8XvKF/RBUFhNeVVOfXDskeQC43fypCwnvdGqgTK7rbJ/a8tvxeErCr8vJhJ4vA==";
+        url = "https://registry.npmjs.org/core_d/-/core_d-3.0.0.tgz";
+        sha512 = "6DM/spZ6j+Yha93TMdK+uz/ws82eDcYefPv2dKZBlMT5mFoJNG+zNPaqSpb5xFvrZh90KFXdSuau1Z+Jql2Tsg==";
       };
     };
     "cross-spawn-7.0.3" = {
@@ -3658,6 +3658,15 @@ let
         sha512 = "qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==";
       };
     };
+    "supports-color-8.1.1" = {
+      name = "supports-color";
+      packageName = "supports-color";
+      version = "8.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/supports-color/-/supports-color-8.1.1.tgz";
+        sha512 = "MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==";
+      };
+    };
     "table-5.4.6" = {
       name = "table";
       packageName = "table";
@@ -4153,10 +4162,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "9.1.2";
+    version = "10.0.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-9.1.2.tgz";
-      sha512 = "HJ7n92z+gSBLPP/en2pse1SLsFfwOXb8aqHn3FyXwYaE+J5wSM+raBbSmvE9Ttq20IF6Rq/dXxjhiIjuxAUjpw==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.0.0.tgz";
+      sha512 = "rMZDE3kiJ2JXv1qk3i3xa5lzelEVQuTNRF5nMHQNX2SDzHKucisbNQh9ExvXU3Wd+jNjeVOSmZ6Ir0gY3COf2w==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4164,6 +4173,8 @@ in
       (sources."@babel/highlight-7.10.4" // {
         dependencies = [
           sources."chalk-2.4.2"
+          sources."has-flag-3.0.0"
+          sources."supports-color-5.5.0"
         ];
       })
       sources."@eslint/eslintrc-0.3.0"
@@ -4183,14 +4194,13 @@ in
           sources."ansi-styles-4.3.0"
           sources."color-convert-2.0.1"
           sources."color-name-1.1.4"
-          sources."has-flag-4.0.0"
           sources."supports-color-7.2.0"
         ];
       })
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
       sources."concat-map-0.0.1"
-      sources."core_d-2.0.0"
+      sources."core_d-3.0.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.2"
       sources."deep-is-0.1.3"
@@ -4235,7 +4245,7 @@ in
       sources."glob-7.1.6"
       sources."glob-parent-5.1.1"
       sources."globals-12.4.0"
-      sources."has-flag-3.0.0"
+      sources."has-flag-4.0.0"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
@@ -4282,7 +4292,7 @@ in
       sources."string-width-4.2.0"
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
-      sources."supports-color-5.5.0"
+      sources."supports-color-8.1.1"
       (sources."table-6.0.7" // {
         dependencies = [
           sources."ajv-7.0.3"
