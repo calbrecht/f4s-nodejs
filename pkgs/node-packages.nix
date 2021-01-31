@@ -1156,13 +1156,13 @@ let
         sha512 = "uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==";
       };
     };
-    "eslint-7.18.0" = {
+    "eslint-7.19.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.18.0";
+      version = "7.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.18.0.tgz";
-        sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.19.0.tgz";
+        sha512 = "CGlMgJY56JZ9ZSYhJuhow61lMPPjUzWmChFya71Z/jilVos7mR/jPgaEfVGgMBY5DshbKdG8Ezb8FDCHcoMEMg==";
       };
     };
     "eslint-config-standard-16.0.2" = {
@@ -4006,10 +4006,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "7.18.0";
+    version = "7.19.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-7.18.0.tgz";
-      sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-7.19.0.tgz";
+      sha512 = "CGlMgJY56JZ9ZSYhJuhow61lMPPjUzWmChFya71Z/jilVos7mR/jPgaEfVGgMBY5DshbKdG8Ezb8FDCHcoMEMg==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4208,7 +4208,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-1.0.5"
-      sources."eslint-7.18.0"
+      sources."eslint-7.19.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
