@@ -26,6 +26,7 @@
         "tslint"
         "typescript"
         "testcafe-browser-tools"
+        "trepan-ni"
       ];
     in
     {
