@@ -1759,13 +1759,13 @@ let
         sha512 = "7dUi7RvCoT/xast/o/dLN53oqND4yk0nsHkhRgn9w65C4PofCLOoJ39iSOg+qVDdWQPIEj+eszMHQ+aLVwwQSg==";
       };
     };
-    "graceful-fs-4.2.5" = {
+    "graceful-fs-4.2.6" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.5";
+      version = "4.2.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.5.tgz";
-        sha512 = "kBBSQbz2K0Nyn+31j/w36fUfxkBW9/gfwRWdUY1ULReH3iokVJgddZAFcD1D0xlgTmFxJCbUkUclAlc6/IDJkw==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.6.tgz";
+        sha512 = "nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==";
       };
     };
     "har-schema-2.0.0" = {
@@ -4701,7 +4701,7 @@ in
       sources."gauge-2.7.4"
       sources."getpass-0.1.7"
       sources."glob-7.1.6"
-      sources."graceful-fs-4.2.5"
+      sources."graceful-fs-4.2.6"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-unicode-2.0.1"
@@ -5025,7 +5025,7 @@ in
       sources."glob-7.1.6"
       sources."glob-parent-5.1.1"
       sources."globals-12.4.0"
-      sources."graceful-fs-4.2.5"
+      sources."graceful-fs-4.2.6"
       sources."has-1.0.3"
       sources."has-flag-3.0.0"
       sources."has-symbols-1.0.1"
@@ -5230,10 +5230,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.1.3";
+    version = "4.1.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.1.3.tgz";
-      sha512 = "B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.1.4.tgz";
+      sha512 = "+Uru0t8qIRgjuCpiSPpfGuhHecMllk5Zsazj5LZvVsEStEjmIRRBZe+jHjGQvsgS7M1wONy2PQXd67EMyV6acg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -5283,7 +5283,7 @@ in
       sources."glob-7.1.6"
       sources."glob-parent-5.1.1"
       sources."globby-10.0.2"
-      sources."graceful-fs-4.2.5"
+      sources."graceful-fs-4.2.6"
       sources."human-signals-1.1.1"
       sources."ignore-5.1.8"
       sources."indent-string-4.0.0"
