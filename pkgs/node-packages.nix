@@ -310,13 +310,13 @@ let
         sha512 = "tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==";
       };
     };
-    "@types/node-14.14.29" = {
+    "@types/node-14.14.31" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "14.14.29";
+      version = "14.14.31";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-14.14.29.tgz";
-        sha512 = "z1PF7SVwqolmqu21eoWM82FPx699C2sCmrxTcCRotRn+2gt9Ve4dwmZsDntxgGyEHFHXYaqMcMMCdPKUeTKXsA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-14.14.31.tgz";
+        sha512 = "vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==";
       };
     };
     "JSV-4.0.2" = {
@@ -769,13 +769,13 @@ let
         sha512 = "4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==";
       };
     };
-    "cli-table-0.3.4" = {
+    "cli-table-0.3.5" = {
       name = "cli-table";
       packageName = "cli-table";
-      version = "0.3.4";
+      version = "0.3.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cli-table/-/cli-table-0.3.4.tgz";
-        sha512 = "1vinpnX/ZERcmE443i3SZTmU5DF0rPO9DrL4I2iVAllhxzCM9SzPlHnz19fsZB78htkKZvYBvj6SZ6vXnaxmTA==";
+        url = "https://registry.npmjs.org/cli-table/-/cli-table-0.3.5.tgz";
+        sha512 = "7uo2+RMNQUZ13M199udxqwk1qxTOS53EUak4gmu/aioUpdH5RvBz0JkJslcWz6ABKedZNqXXzikMZgHh+qF16A==";
       };
     };
     "code-point-at-1.1.0" = {
@@ -839,6 +839,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/color-string/-/color-string-1.5.4.tgz";
         sha512 = "57yF5yt8Xa3czSEW1jfQDE79Idk0+AkN/4KWad6tbdxUmAs3MvjxlWSWD4deYytcRfoZ9nhKyFl1kj5tBvidbw==";
+      };
+    };
+    "colors-1.0.3" = {
+      name = "colors";
+      packageName = "colors";
+      version = "1.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/colors/-/colors-1.0.3.tgz";
+        sha1 = "0433f44d809680fdeb60ed260f1b0c262e82a40b";
       };
     };
     "colors-1.4.0" = {
@@ -5277,7 +5286,7 @@ in
       sources."@nodelib/fs.walk-1.2.6"
       sources."@types/glob-7.1.3"
       sources."@types/minimatch-3.0.3"
-      sources."@types/node-14.14.29"
+      sources."@types/node-14.14.31"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -5386,22 +5395,12 @@ in
       sources."ansicolors-0.2.1"
       sources."cardinal-1.0.0"
       sources."chalk-1.1.3"
-      (sources."cli-table-0.3.4" // {
-        dependencies = [
-          sources."ansi-styles-3.2.1"
-          sources."chalk-2.4.2"
-          sources."supports-color-5.5.0"
-        ];
-      })
-      sources."color-convert-1.9.3"
-      sources."color-name-1.1.3"
+      sources."cli-table-0.3.5"
+      sources."colors-1.0.3"
       sources."consolehighlighter-0.1.5"
-      sources."emoji-regex-8.0.0"
       sources."escape-string-regexp-1.0.5"
       sources."esprima-3.0.0"
       sources."has-ansi-2.0.0"
-      sources."has-flag-3.0.0"
-      sources."is-fullwidth-code-point-3.0.0"
       sources."lodash.assign-4.2.0"
       sources."lodash.toarray-4.4.0"
       sources."marked-0.3.19"
@@ -5409,12 +5408,6 @@ in
       sources."nan-2.14.2"
       sources."node-emoji-1.10.0"
       sources."redeyed-1.0.1"
-      (sources."string-width-4.2.0" // {
-        dependencies = [
-          sources."ansi-regex-5.0.0"
-          sources."strip-ansi-6.0.0"
-        ];
-      })
       sources."strip-ansi-3.0.1"
       sources."supports-color-2.0.0"
     ];
