@@ -499,13 +499,13 @@ let
         sha1 = "6c8e286d11ed768327f8e62ecee87353ca3e78b8";
       };
     };
-    "array-includes-3.1.2" = {
+    "array-includes-3.1.3" = {
       name = "array-includes";
       packageName = "array-includes";
-      version = "3.1.2";
+      version = "3.1.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/array-includes/-/array-includes-3.1.2.tgz";
-        sha512 = "w2GspexNQpx+PutG3QpT437/BenZBj0M/MZGn5mzv/MofYqo0xmRHzn4lFsoDlWJ+THYsGJmFlW68WlDFx7VRw==";
+        url = "https://registry.npmjs.org/array-includes/-/array-includes-3.1.3.tgz";
+        sha512 = "gcem1KlBU7c9rB+Rq8/3PPKsK2kjqeEBa3bD5kkQo4nYlOHQCJqIJFqBXDEfwaRuYTT4E+FxA9xez7Gf/e3Q7A==";
       };
     };
     "array-union-2.1.0" = {
@@ -1534,13 +1534,13 @@ let
         sha512 = "bCg29ictuBaKUwwArK4ouCaqDgLZcysCFLmM/Yn/FDoqndh/9vNuQfXRDvTuXKLxfD/JtZQGKFT8MGcJBK644g==";
       };
     };
-    "file-entry-cache-6.0.0" = {
+    "file-entry-cache-6.0.1" = {
       name = "file-entry-cache";
       packageName = "file-entry-cache";
-      version = "6.0.0";
+      version = "6.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.0.tgz";
-        sha512 = "fqoO76jZ3ZnYrXLDRxBR1YvOvc0k844kcOg40bgsPrE25LAb/PDqTY+ho64Xh2c8ZXgIKldchCFHczG2UVRcWA==";
+        url = "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz";
+        sha512 = "7Gps/XWymbLk2QLYK4NzpMOrYjMhdIxXuIvy2QBsLE6ljuodKvdkWs/cpyJJ3CVIVpH0Oi1Hvg1ovbMzLdFBBg==";
       };
     };
     "fill-range-7.0.1" = {
@@ -2380,13 +2380,13 @@ let
         sha512 = "7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==";
       };
     };
-    "lodash-4.17.20" = {
+    "lodash-4.17.21" = {
       name = "lodash";
       packageName = "lodash";
-      version = "4.17.20";
+      version = "4.17.21";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz";
-        sha512 = "PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==";
+        url = "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz";
+        sha512 = "v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==";
       };
     };
     "lodash.assign-4.2.0" = {
@@ -4240,7 +4240,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
-      sources."file-entry-cache-6.0.0"
+      sources."file-entry-cache-6.0.1"
       sources."flat-cache-3.0.4"
       sources."flatted-3.1.1"
       sources."fs.realpath-1.0.0"
@@ -4263,7 +4263,7 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."levn-0.4.1"
-      sources."lodash-4.17.20"
+      sources."lodash-4.17.21"
       sources."lru-cache-6.0.0"
       sources."minimatch-3.0.4"
       sources."ms-2.1.2"
@@ -4399,7 +4399,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
-      sources."file-entry-cache-6.0.0"
+      sources."file-entry-cache-6.0.1"
       sources."flat-cache-3.0.4"
       sources."flatted-3.1.1"
       sources."fs.realpath-1.0.0"
@@ -4422,7 +4422,7 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."levn-0.4.1"
-      sources."lodash-4.17.20"
+      sources."lodash-4.17.21"
       sources."lru-cache-6.0.0"
       sources."minimatch-3.0.4"
       sources."ms-2.1.2"
@@ -4577,7 +4577,7 @@ in
       sources."jsesc-2.5.2"
       sources."json5-2.2.0"
       sources."kuler-2.0.0"
-      sources."lodash-4.17.20"
+      sources."lodash-4.17.21"
       sources."logform-2.2.0"
       sources."minimatch-3.0.4"
       sources."minimist-1.2.5"
@@ -4945,7 +4945,7 @@ in
       sources."ansi-regex-5.0.0"
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
-      sources."array-includes-3.1.2"
+      sources."array-includes-3.1.3"
       sources."array.prototype.flat-1.2.4"
       sources."array.prototype.flatmap-1.2.4"
       sources."astral-regex-1.0.0"
@@ -5086,7 +5086,7 @@ in
       sources."levn-0.4.1"
       sources."load-json-file-2.0.0"
       sources."locate-path-2.0.0"
-      sources."lodash-4.17.20"
+      sources."lodash-4.17.21"
       sources."loose-envify-1.4.0"
       sources."lru-cache-6.0.0"
       sources."minimatch-3.0.4"
@@ -5324,7 +5324,7 @@ in
       sources."is-stream-2.0.0"
       sources."isexe-2.0.0"
       sources."linux-platform-info-0.0.3"
-      sources."lodash-4.17.20"
+      sources."lodash-4.17.21"
       sources."merge-stream-2.0.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.2"
