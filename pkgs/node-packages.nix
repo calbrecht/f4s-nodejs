@@ -2830,13 +2830,13 @@ let
         sha512 = "ym7h7OZebNS96hn5IJeyUmaWhaSM4SVtAPPfNLQEI2MYWCO2egsITb9nab2+i/Pwibx+R0mtn+ltKJXRSeTMGg==";
       };
     };
-    "object.fromentries-2.0.3" = {
+    "object.fromentries-2.0.4" = {
       name = "object.fromentries";
       packageName = "object.fromentries";
-      version = "2.0.3";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.3.tgz";
-        sha512 = "IDUSMXs6LOSJBWE++L0lzIbSqHl9KDCfff2x/JSEIDtEUavUnyMYC2ZGay/04Zq4UT8lvd4xNhU4/YHKibAOlw==";
+        url = "https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.4.tgz";
+        sha512 = "EsFBshs5RUUpQEY1D4q/m59kMfz4YJvxuNCJcv/jWwOJr34EaVnG11ZrZa0UHB3wnzV1wx8m58T4hQL8IuNXlQ==";
       };
     };
     "object.values-1.1.2" = {
@@ -3685,13 +3685,13 @@ let
         sha512 = "zUz5JD+tgqtuDjMhwIg5uFVV3dtqZ9yQJlZVfq4I01/K5Paj5UHj7VyrQOJvzawSVlKpObApbfD0Ed6yJc+1eg==";
       };
     };
-    "string.prototype.matchall-4.0.3" = {
+    "string.prototype.matchall-4.0.4" = {
       name = "string.prototype.matchall";
       packageName = "string.prototype.matchall";
-      version = "4.0.3";
+      version = "4.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.3.tgz";
-        sha512 = "OBxYDA2ifZQ2e13cP82dWFMaCV9CGF8GzmN4fljBVw5O5wep0lu4gacm1OL6MjROoUnB8VbkWRThqkV2YFLNxw==";
+        url = "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.4.tgz";
+        sha512 = "pknFIWVachNcyqRfaQSeu/FUfpvJTe4uskUSZ9Wc1RijsPuzbZ8TyYT8WCNnntCjUEqQ3vUHMAfVj2+wLAisPQ==";
       };
     };
     "string.prototype.trimend-1.0.3" = {
@@ -5104,7 +5104,7 @@ in
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.2"
       sources."object.entries-1.1.3"
-      sources."object.fromentries-2.0.3"
+      sources."object.fromentries-2.0.4"
       sources."object.values-1.1.2"
       sources."once-1.4.0"
       sources."optionator-0.9.1"
@@ -5163,7 +5163,7 @@ in
           sources."strip-ansi-5.2.0"
         ];
       })
-      sources."string.prototype.matchall-4.0.3"
+      sources."string.prototype.matchall-4.0.4"
       sources."string.prototype.trimend-1.0.3"
       sources."string.prototype.trimstart-1.0.3"
       sources."strip-ansi-6.0.0"
