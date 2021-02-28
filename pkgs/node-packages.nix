@@ -3757,13 +3757,13 @@ let
         sha512 = "vafcv6KjVZKSgz06oM/H6GDBrAtz8vdhQakGjFIvNrHA6y3HCF1CInLy+QLq8dTJPQ1b+KDUqDFctkdRW44e1w==";
       };
     };
-    "string-width-4.2.1" = {
+    "string-width-4.2.2" = {
       name = "string-width";
       packageName = "string-width";
-      version = "4.2.1";
+      version = "4.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string-width/-/string-width-4.2.1.tgz";
-        sha512 = "LL0OLyN6AnfV9xqGQpDBwedT2Rt63737LxvsRxbcwpa2aIeynBApG2Sm//F3TaLHIR1aJBN52DWklc06b94o5Q==";
+        url = "https://registry.npmjs.org/string-width/-/string-width-4.2.2.tgz";
+        sha512 = "XBJbT3N4JhVumXE0eoLU9DCjcaF92KLNqTmFCnG1pf8duUxFGwtP6AD6nkjw9a3IdiRtL3E2w3JDiE/xi3vOeA==";
       };
     };
     "string.prototype.matchall-4.0.4" = {
@@ -4372,7 +4372,7 @@ in
         ];
       })
       sources."sprintf-js-1.0.3"
-      sources."string-width-4.2.1"
+      sources."string-width-4.2.2"
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
@@ -4405,10 +4405,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.0.3";
+    version = "10.0.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.0.3.tgz";
-      sha512 = "dCow8tP9Z8/x3Bx/N0uTk0EKPpfLmGF+Uhu7wy8mEJSzaUp7b8Op6Pre8M/x3RTQKN3wTGfoEsgfUYHBGbpFEQ==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.0.4.tgz";
+      sha512 = "DEJaGxP6VDs3byYKQYw6Py8l2b1KH9S5vUo4IjvhWIEcdo5gjNkJjjzUCoExTIb0Bo7/GbKyNRI/dctUQ5f+7w==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4532,7 +4532,7 @@ in
         ];
       })
       sources."sprintf-js-1.0.3"
-      sources."string-width-4.2.1"
+      sources."string-width-4.2.2"
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
