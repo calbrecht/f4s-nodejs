@@ -724,13 +724,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001192" = {
+    "caniuse-lite-1.0.30001194" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001192";
+      version = "1.0.30001194";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001192.tgz";
-        sha512 = "63OrUnwJj5T1rUmoyqYTdRWBqFFxZFlyZnRRjDR8NSUQFB6A+j/uBORU/SyJ5WzDLg4SPiZH40hQCBNdZ/jmAw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001194.tgz";
+        sha512 = "iDUOH+oFeBYk5XawYsPtsx/8fFpndAPUQJC7gBTfxHM8xw5nOZv7ceAD4frS1MKCLUac7QL5wdAJiFQlDRjXlA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1183,13 +1183,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "electron-to-chromium-1.3.676" = {
+    "electron-to-chromium-1.3.678" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.676";
+      version = "1.3.678";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.676.tgz";
-        sha512 = "t0eEgYCP+XEbH/KwxWYZDY0XKwzmokDAsjFJ2rBstp2XuwuBCUZ+ni5qXI6XDRNkvDpVJcAOp2aJxkSkshKkmw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.678.tgz";
+        sha512 = "E5ha1pE9+aWWrT2fUD5wdPBWUnYtKnEnloewbtVyrkAs79HvodOiNO4rMR94+hKbxgMFQG4fnPQACOc1cfMfBg==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -1255,13 +1255,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.18.0-next.2" = {
+    "es-abstract-1.18.0-next.3" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.18.0-next.2";
+      version = "1.18.0-next.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.18.0-next.2.tgz";
-        sha512 = "Ih4ZMFHEtZupnUh6497zEL4y2+w8+1ljnCyaTa+adcoafI1GOvMwFlDjBLfWR7y9VLfrjRJe9ocuHY1PSR9jjw==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.18.0-next.3.tgz";
+        sha512 = "VMzHx/Bczjg59E6jZOQjHeN3DEoptdhejpARgflAViidlqSpjdq9zA6lKwlhRRs/lOw1gHJv2xkkSFRgvEwbQg==";
       };
     };
     "es-to-primitive-1.2.1" = {
@@ -1894,6 +1894,15 @@ let
         sha1 = "34f5049ce1ecdf2b0649af3ef24e45ed35416d91";
       };
     };
+    "has-bigints-1.0.1" = {
+      name = "has-bigints";
+      packageName = "has-bigints";
+      version = "1.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/has-bigints/-/has-bigints-1.0.1.tgz";
+        sha512 = "LSBS2LjbNBTf6287JEbEzvJgftkF5qFkmCo9hDRpAzKhUOlJ+hx8dd4USs00SgsUNwc4617J9ki5YtEClM2ffA==";
+      };
+    };
     "has-color-0.1.7" = {
       name = "has-color";
       packageName = "has-color";
@@ -2083,6 +2092,24 @@ let
         sha512 = "eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==";
       };
     };
+    "is-bigint-1.0.1" = {
+      name = "is-bigint";
+      packageName = "is-bigint";
+      version = "1.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/is-bigint/-/is-bigint-1.0.1.tgz";
+        sha512 = "J0ELF4yHFxHy0cmSxZuheDOz2luOdVvqjwmEcj8H/L1JHeuEDSDbeRP+Dk9kFVk5RTFzbucJ2Kb9F7ixY2QaCg==";
+      };
+    };
+    "is-boolean-object-1.1.0" = {
+      name = "is-boolean-object";
+      packageName = "is-boolean-object";
+      version = "1.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.1.0.tgz";
+        sha512 = "a7Uprx8UtD+HWdyYwnD1+ExtTgqQtD2k/1yJgtXP6wnMm8byhkoTZRl+95LLThpzNZJ5aEvi46cdH+ayMFRwmA==";
+      };
+    };
     "is-callable-1.2.3" = {
       name = "is-callable";
       packageName = "is-callable";
@@ -2171,6 +2198,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz";
         sha512 = "41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==";
+      };
+    };
+    "is-number-object-1.0.4" = {
+      name = "is-number-object";
+      packageName = "is-number-object";
+      version = "1.0.4";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.4.tgz";
+        sha512 = "zohwelOAur+5uXtk8O3GPQ1eAcu4ZX3UwxQhUlfFFMNpUd83gXgjbhJh6HmB6LUNV/ieOLQuDwJO3dWJosUeMw==";
       };
     };
     "is-path-cwd-2.2.0" = {
@@ -4072,6 +4108,15 @@ let
         sha512 = "4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==";
       };
     };
+    "unbox-primitive-1.0.0" = {
+      name = "unbox-primitive";
+      packageName = "unbox-primitive";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.0.0.tgz";
+        sha512 = "P/51NX+JXyxK/aigg1/ZgyccdAxm5K1+n8+tvqSntjOivPt19gvm1VC49RWYetsiub8WViUchdxl/KWHHB0kzA==";
+      };
+    };
     "underscore-1.6.0" = {
       name = "underscore";
       packageName = "underscore";
@@ -4151,6 +4196,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/which/-/which-2.0.2.tgz";
         sha512 = "BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==";
+      };
+    };
+    "which-boxed-primitive-1.0.2" = {
+      name = "which-boxed-primitive";
+      packageName = "which-boxed-primitive";
+      version = "1.0.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz";
+        sha512 = "bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==";
       };
     };
     "which-promise-1.0.0" = {
@@ -4613,7 +4667,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.3"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001192"
+      sources."caniuse-lite-1.0.30001194"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -4633,7 +4687,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.676"
+      sources."electron-to-chromium-1.3.678"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5060,7 +5114,7 @@ in
       sources."emoji-regex-7.0.3"
       sources."enquirer-2.3.6"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.18.0-next.2"
+      sources."es-abstract-1.18.0-next.3"
       sources."es-to-primitive-1.2.1"
       sources."escape-string-regexp-1.0.5"
       sources."eslint-7.13.0"
@@ -5140,6 +5194,7 @@ in
       sources."globals-12.4.0"
       sources."graceful-fs-4.2.6"
       sources."has-1.0.3"
+      sources."has-bigints-1.0.1"
       sources."has-flag-3.0.0"
       sources."has-symbols-1.0.2"
       sources."hosted-git-info-2.8.8"
@@ -5150,6 +5205,8 @@ in
       sources."inherits-2.0.4"
       sources."internal-slot-1.0.3"
       sources."is-arrayish-0.2.1"
+      sources."is-bigint-1.0.1"
+      sources."is-boolean-object-1.1.0"
       sources."is-callable-1.2.3"
       sources."is-core-module-2.2.0"
       sources."is-date-object-1.0.2"
@@ -5157,6 +5214,7 @@ in
       sources."is-fullwidth-code-point-2.0.0"
       sources."is-glob-4.0.1"
       sources."is-negative-zero-2.0.1"
+      sources."is-number-object-1.0.4"
       sources."is-regex-1.1.2"
       sources."is-string-1.0.5"
       sources."is-symbol-1.0.3"
@@ -5261,10 +5319,12 @@ in
       sources."tsconfig-paths-3.9.0"
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
+      sources."unbox-primitive-1.0.0"
       sources."uri-js-4.4.1"
       sources."v8-compile-cache-2.2.0"
       sources."validate-npm-package-license-3.0.4"
       sources."which-2.0.2"
+      sources."which-boxed-primitive-1.0.2"
       sources."word-wrap-1.2.3"
       sources."wrappy-1.0.2"
       sources."write-1.0.3"
