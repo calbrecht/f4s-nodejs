@@ -1183,13 +1183,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "electron-to-chromium-1.3.678" = {
+    "electron-to-chromium-1.3.679" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.678";
+      version = "1.3.679";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.678.tgz";
-        sha512 = "E5ha1pE9+aWWrT2fUD5wdPBWUnYtKnEnloewbtVyrkAs79HvodOiNO4rMR94+hKbxgMFQG4fnPQACOc1cfMfBg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.679.tgz";
+        sha512 = "PNF7JSPAEa/aV2nQLvflRcnIMy31EOuCY87Jbdz0KsUf8O/eFNGpuwgQn2DmyJkKzfQb0zrieanRGWvf/4H+BA==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4687,7 +4687,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.678"
+      sources."electron-to-chromium-1.3.679"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
