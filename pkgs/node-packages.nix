@@ -877,13 +877,13 @@ let
         sha512 = "dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==";
       };
     };
-    "color-string-1.5.4" = {
+    "color-string-1.5.5" = {
       name = "color-string";
       packageName = "color-string";
-      version = "1.5.4";
+      version = "1.5.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/color-string/-/color-string-1.5.4.tgz";
-        sha512 = "57yF5yt8Xa3czSEW1jfQDE79Idk0+AkN/4KWad6tbdxUmAs3MvjxlWSWD4deYytcRfoZ9nhKyFl1kj5tBvidbw==";
+        url = "https://registry.npmjs.org/color-string/-/color-string-1.5.5.tgz";
+        sha512 = "jgIoum0OfQfq9Whcfc2z/VhCNcmQjWbey6qBX0vqt7YICflUmBCh9E9CiQD5GSJ+Uehixm3NUwHVhqUAWRivZg==";
       };
     };
     "colorette-1.2.2" = {
@@ -4674,7 +4674,7 @@ in
       sources."color-3.0.0"
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
-      sources."color-string-1.5.4"
+      sources."color-string-1.5.5"
       sources."colorette-1.2.2"
       sources."colors-1.4.0"
       sources."colorspace-1.1.2"
@@ -5403,10 +5403,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.2.2";
+    version = "4.2.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.2.2.tgz";
-      sha512 = "tbb+NVrLfnsJy3M59lsDgrzWIflR4d4TIUjz+heUnHZwdF7YsrMTKoRERiIvI2lvBG95dfpLxB21WZhys1bgaQ==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.2.3.tgz";
+      sha512 = "qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -5421,10 +5421,10 @@ in
   testcafe-browser-tools = nodeEnv.buildNodePackage {
     name = "testcafe-browser-tools";
     packageName = "testcafe-browser-tools";
-    version = "2.0.14";
+    version = "2.0.15";
     src = fetchurl {
-      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.14.tgz";
-      sha512 = "mWTLCtvPnAJfKNb3xxa3AW0RzIciEZkMIe14o3rPO3H55JRj90nicIkg79vGSKUQ4hvHD9wu48DtIkz0Ak5Ryg==";
+      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.15.tgz";
+      sha512 = "bzkh5B1+Ws/I3YZL+9M4TSUq3aAewjvF2oue2l7T7eROIvqwPDE22ZFfPuLew6VIZcotCFZj432s1EgJDFyH7g==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.4"
