@@ -337,13 +337,13 @@ let
         sha512 = "tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==";
       };
     };
-    "@types/node-14.14.31" = {
+    "@types/node-14.14.32" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "14.14.31";
+      version = "14.14.32";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-14.14.31.tgz";
-        sha512 = "vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-14.14.32.tgz";
+        sha512 = "/Ctrftx/zp4m8JOujM5ZhwzlWLx22nbQJiVqz8/zE15gOeEW+uly3FSX4fGFpcfEvFzXcMCJwq9lGVWgyARXhg==";
       };
     };
     "JSV-4.0.2" = {
@@ -400,13 +400,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-7.1.1" = {
+    "ajv-7.2.1" = {
       name = "ajv";
       packageName = "ajv";
-      version = "7.1.1";
+      version = "7.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-7.1.1.tgz";
-        sha512 = "ga/aqDYnUy/o7vbsRTFhhTsNeXiYb5JWDIcRIeZfwRNCefwjNTVYCGdGSUrEmiu3yDK3vFvNbgJxvrQW4JXrYQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-7.2.1.tgz";
+        sha512 = "+nu0HDv7kNSOua9apAVc979qd932rrZeb3WOvoiD31A/p1mIE5/9bN2027pE2rOPYEdS3UHzsvof4hY+lM9/WQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -4432,7 +4432,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.0.7" // {
         dependencies = [
-          sources."ajv-7.1.1"
+          sources."ajv-7.2.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4592,7 +4592,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.7" // {
         dependencies = [
-          sources."ajv-7.1.1"
+          sources."ajv-7.2.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -5432,7 +5432,7 @@ in
       sources."@nodelib/fs.walk-1.2.6"
       sources."@types/glob-7.1.3"
       sources."@types/minimatch-3.0.3"
-      sources."@types/node-14.14.31"
+      sources."@types/node-14.14.32"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
