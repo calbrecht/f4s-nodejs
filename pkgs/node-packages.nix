@@ -1183,13 +1183,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "electron-to-chromium-1.3.691" = {
+    "electron-to-chromium-1.3.692" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.691";
+      version = "1.3.692";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.691.tgz";
-        sha512 = "ZqiO69KImmOGCyoH0icQPU3SndJiW93juEvf63gQngyhODO6SpQIPMTOHldtCs5DS5GMKvAkquk230E2zt2vpw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.692.tgz";
+        sha512 = "Ix+zDUAXWZuUzqKdhkgN5dP7ZM+IwMG4yAGFGDLpGJP/3vNEEwuHG1LIhtXUfW0FFV0j38t5PUv2n/3MFSRviQ==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -1840,13 +1840,13 @@ let
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
       };
     };
-    "globals-13.6.0" = {
+    "globals-13.7.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.6.0";
+      version = "13.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.6.0.tgz";
-        sha512 = "YFKCX0SiPg7l5oKYCJ2zZGxcXprVXHcSnVuvzrT3oSENQonVLqM5pf9fN5dLGZGyCjhw8TN8Btwe/jKnZ0pjvQ==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.7.0.tgz";
+        sha512 = "Aipsz6ZKRxa/xQkZhNg0qIWXT6x6rD46f6x/PCnBomlttdIyAPak4YD9jTmKpZ72uROSMU87qJtcgpgHaVchiA==";
       };
     };
     "globby-10.0.2" = {
@@ -4404,7 +4404,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.6"
       sources."glob-parent-5.1.2"
-      (sources."globals-13.6.0" // {
+      (sources."globals-13.7.0" // {
         dependencies = [
           sources."type-fest-0.20.2"
         ];
@@ -4571,7 +4571,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.6"
       sources."glob-parent-5.1.2"
-      (sources."globals-13.6.0" // {
+      (sources."globals-13.7.0" // {
         dependencies = [
           sources."type-fest-0.20.2"
         ];
@@ -4721,7 +4721,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.691"
+      sources."electron-to-chromium-1.3.692"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
