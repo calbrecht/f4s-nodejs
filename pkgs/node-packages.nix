@@ -400,13 +400,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-7.2.1" = {
+    "ajv-7.2.3" = {
       name = "ajv";
       packageName = "ajv";
-      version = "7.2.1";
+      version = "7.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-7.2.1.tgz";
-        sha512 = "+nu0HDv7kNSOua9apAVc979qd932rrZeb3WOvoiD31A/p1mIE5/9bN2027pE2rOPYEdS3UHzsvof4hY+lM9/WQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-7.2.3.tgz";
+        sha512 = "idv5WZvKVXDqKralOImQgPM9v6WOdLNa0IY3B3doOjw/YxRGT8I+allIJ6kd7Uaj+SF1xZUSU+nPM5aDNBVtnw==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -4458,7 +4458,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.0.7" // {
         dependencies = [
-          sources."ajv-7.2.1"
+          sources."ajv-7.2.3"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4626,7 +4626,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.7" // {
         dependencies = [
-          sources."ajv-7.2.1"
+          sources."ajv-7.2.3"
           sources."json-schema-traverse-1.0.0"
         ];
       })
