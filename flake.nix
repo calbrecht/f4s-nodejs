@@ -46,6 +46,8 @@
         inherit (pkgs) nodejs nodejs_latest nodePackages nodePackages_latest;
       };
 
+      defaultPackage."${system}" = self.legacyPackages."${system}".nodejs;
+
       overlay = final: prev:
         let
           _nodePackages = (prev.callPackage pkgs-dir { pkgs = final; });
