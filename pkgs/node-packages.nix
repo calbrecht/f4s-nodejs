@@ -400,13 +400,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.0.1" = {
+    "ajv-8.0.2" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.0.1";
+      version = "8.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.1.tgz";
-        sha512 = "46ZA4TalFcLLqX1dEU3dhdY38wAtDydJ4e7QQTVekLUTzXkb1LfqU6VOBXC/a9wiv4T094WURqJH6ZitF92Kqw==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.2.tgz";
+        sha512 = "V0HGxJd0PiDF0ecHYIesTOqfd1gJguwQUOYfMfAWnRsWQEXfc5ifbUFhD3Wjc+O+y7VAqL+g07prq9gHQ/JOZQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -724,13 +724,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001204" = {
+    "caniuse-lite-1.0.30001205" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001204";
+      version = "1.0.30001205";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001204.tgz";
-        sha512 = "JUdjWpcxfJ9IPamy2f5JaRDCaqJOxDzOSKtbdx4rH9VivMd1vIzoPumsJa9LoMIi4Fx2BV2KZOxWhNkBjaYivQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001205.tgz";
+        sha512 = "TL1GrS5V6LElbitPazidkBMD9sa448bQDDLrumDqaggmKFcuU2JW1wTOHJPukAcOMtEmLcmDJEzfRrf+GjM0Og==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1183,13 +1183,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "electron-to-chromium-1.3.703" = {
+    "electron-to-chromium-1.3.704" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.703";
+      version = "1.3.704";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.703.tgz";
-        sha512 = "SVBVhNB+4zPL+rvtWLw7PZQkw/Eqj1HQZs22xtcqW36+xoifzEOEEDEpkxSMfB6RFeSIOcG00w6z5mSqLr1Y6w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.704.tgz";
+        sha512 = "6cz0jvawlUe4h5AbfQWxPzb+8LzVyswGAWiGc32EJEmfj39HTQyNPkLXirc7+L4x5I6RgRkzua8Ryu5QZqc8cA==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4496,7 +4496,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.1"
+          sources."ajv-8.0.2"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4675,7 +4675,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.1"
+          sources."ajv-8.0.2"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4750,7 +4750,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.3"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001204"
+      sources."caniuse-lite-1.0.30001205"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -4770,7 +4770,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.703"
+      sources."electron-to-chromium-1.3.704"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
