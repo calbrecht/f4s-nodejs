@@ -400,13 +400,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.0.2" = {
+    "ajv-8.0.3" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.0.2";
+      version = "8.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.2.tgz";
-        sha512 = "V0HGxJd0PiDF0ecHYIesTOqfd1gJguwQUOYfMfAWnRsWQEXfc5ifbUFhD3Wjc+O+y7VAqL+g07prq9gHQ/JOZQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.3.tgz";
+        sha512 = "Df6NAivu9KpZw+q8ySijAgLvr1mUA5ihkRvCLCxpdYR21ann5yIuN+PpFxmweSj7i3yjJ0x5LN5KVs0RRzskAQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1183,13 +1183,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "electron-to-chromium-1.3.704" = {
+    "electron-to-chromium-1.3.705" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.704";
+      version = "1.3.705";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.704.tgz";
-        sha512 = "6cz0jvawlUe4h5AbfQWxPzb+8LzVyswGAWiGc32EJEmfj39HTQyNPkLXirc7+L4x5I6RgRkzua8Ryu5QZqc8cA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.705.tgz";
+        sha512 = "agtrL5vLSOIK89sE/YSzAgqCw76eZ60gf3J7Tid5RfLbSp5H4nWL28/dIV+H+ZhNNi1JNiaF62jffwYsAyXc0g==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4496,7 +4496,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.2"
+          sources."ajv-8.0.3"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4675,7 +4675,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.2"
+          sources."ajv-8.0.3"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4770,7 +4770,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.704"
+      sources."electron-to-chromium-1.3.705"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
