@@ -400,13 +400,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.0.3" = {
+    "ajv-8.0.5" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.0.3";
+      version = "8.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.3.tgz";
-        sha512 = "Df6NAivu9KpZw+q8ySijAgLvr1mUA5ihkRvCLCxpdYR21ann5yIuN+PpFxmweSj7i3yjJ0x5LN5KVs0RRzskAQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.0.5.tgz";
+        sha512 = "RkiLa/AeJx7+9OvniQ/qeWu0w74A8DiPPBclQ6ji3ZQkv5KamO+QGpqmi7O4JIw3rHGUXZ6CoP9tsAkn3gyazg==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1183,13 +1183,13 @@ let
         sha1 = "3a83a904e54353287874c564b7549386849a98c9";
       };
     };
-    "electron-to-chromium-1.3.705" = {
+    "electron-to-chromium-1.3.706" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.705";
+      version = "1.3.706";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.705.tgz";
-        sha512 = "agtrL5vLSOIK89sE/YSzAgqCw76eZ60gf3J7Tid5RfLbSp5H4nWL28/dIV+H+ZhNNi1JNiaF62jffwYsAyXc0g==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.706.tgz";
+        sha512 = "IcXgNXeW6+ObrvHnQtjhokjdOPI/DQ5j0f9M6gUy82kc9GNTMxq/mTkxWlPBSpqO1mAomR1uPDsssKDMj1V4Cw==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -2623,22 +2623,22 @@ let
         sha512 = "y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==";
       };
     };
-    "mime-db-1.46.0" = {
+    "mime-db-1.47.0" = {
       name = "mime-db";
       packageName = "mime-db";
-      version = "1.46.0";
+      version = "1.47.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.46.0.tgz";
-        sha512 = "svXaP8UQRZ5K7or+ZmfNhg2xX3yKDMUzqadsSqi4NCH/KomcH75MAMYAGVlvXn4+b/xOPhS3I2uHKRUzvjY7BQ==";
+        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.47.0.tgz";
+        sha512 = "QBmA/G2y+IfeS4oktet3qRZ+P5kPhCKRXxXnQEudYqUaEioAU1/Lq2us3D/t1Jfo4hE9REQPrbB7K5sOczJVIw==";
       };
     };
-    "mime-types-2.1.29" = {
+    "mime-types-2.1.30" = {
       name = "mime-types";
       packageName = "mime-types";
-      version = "2.1.29";
+      version = "2.1.30";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.29.tgz";
-        sha512 = "Y/jMt/S5sR9OaqteJtslsFZKWOIIqMACsJSiHghlCAyhf7jfVYjKBmLiX8OgpWeW+fjJ2b+Az69aPFPkUOY6xQ==";
+        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.30.tgz";
+        sha512 = "crmjA4bLtR8m9qLpHvgxSChT+XoSlZi8J4n/aIdn3z92e/U47Z0V/yl+Wh9W046GgFVAmoNR/fmdbZYcSSIUeg==";
       };
     };
     "mimic-fn-2.1.0" = {
@@ -4496,7 +4496,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.3"
+          sources."ajv-8.0.5"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4675,7 +4675,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.0.9" // {
         dependencies = [
-          sources."ajv-8.0.3"
+          sources."ajv-8.0.5"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4770,7 +4770,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.705"
+      sources."electron-to-chromium-1.3.706"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -4969,8 +4969,8 @@ in
       sources."json-stringify-safe-5.0.1"
       sources."jsprim-1.4.1"
       sources."lru-cache-6.0.0"
-      sources."mime-db-1.46.0"
-      sources."mime-types-2.1.29"
+      sources."mime-db-1.47.0"
+      sources."mime-types-2.1.30"
       sources."minimatch-3.0.4"
       sources."minipass-3.1.3"
       sources."minizlib-2.1.2"
