@@ -625,13 +625,13 @@ let
         sha512 = "TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==";
       };
     };
-    "balanced-match-1.0.0" = {
+    "balanced-match-1.0.2" = {
       name = "balanced-match";
       packageName = "balanced-match";
-      version = "1.0.0";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz";
-        sha1 = "89b4d199ab2bee49de164ea02b89ce462d71b767";
+        url = "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz";
+        sha512 = "3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==";
       };
     };
     "brace-expansion-1.1.11" = {
@@ -1138,13 +1138,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.708" = {
+    "electron-to-chromium-1.3.709" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.708";
+      version = "1.3.709";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.708.tgz";
-        sha512 = "+A8ggYZ5riOLMcVAuzHx6bforaPzaiLnW1QOMD2SlMYQVi7QQTyQ/WrlZoebIH9ikmgr+tLJGpNITFFCUiQcPw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.709.tgz";
+        sha512 = "LolItk2/ikSGQ7SN8UkuKVNMBZp3RG7Itgaxj1npsHRzQobj9JjMneZOZfLhtwlYBe5fCJ75k+cVCiDFUs23oA==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4320,7 +4320,7 @@ in
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
       sources."astral-regex-2.0.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."call-bind-1.0.2"
       sources."callsites-3.1.0"
@@ -4497,7 +4497,7 @@ in
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
       sources."astral-regex-2.0.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."call-bind-1.0.2"
       sources."callsites-3.1.0"
@@ -4692,7 +4692,7 @@ in
       sources."aproba-1.2.0"
       sources."are-we-there-yet-1.1.5"
       sources."async-3.2.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.3"
       sources."bser-2.1.1"
@@ -4716,7 +4716,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.708"
+      sources."electron-to-chromium-1.3.709"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -4870,7 +4870,7 @@ in
       sources."ansi-regex-2.1.1"
       sources."aproba-1.2.0"
       sources."are-we-there-yet-1.1.5"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."cacache-15.0.6"
       sources."chownr-2.0.0"
@@ -4993,7 +4993,7 @@ in
       sources."ansi-regex-2.1.1"
       sources."aproba-1.2.0"
       sources."are-we-there-yet-1.1.5"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -5112,7 +5112,7 @@ in
       sources."array.prototype.flat-1.2.4"
       sources."array.prototype.flatmap-1.2.4"
       sources."astral-regex-1.0.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."call-bind-1.0.2"
       sources."callsites-3.1.0"
@@ -5378,7 +5378,7 @@ in
       sources."@babel/highlight-7.13.10"
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."builtin-modules-1.1.1"
       sources."chalk-2.4.2"
@@ -5459,7 +5459,7 @@ in
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
-      sources."balanced-match-1.0.0"
+      sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."braces-3.0.2"
       sources."callsite-1.0.0"
