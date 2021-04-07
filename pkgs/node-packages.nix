@@ -1138,13 +1138,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.709" = {
+    "electron-to-chromium-1.3.710" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.709";
+      version = "1.3.710";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.709.tgz";
-        sha512 = "LolItk2/ikSGQ7SN8UkuKVNMBZp3RG7Itgaxj1npsHRzQobj9JjMneZOZfLhtwlYBe5fCJ75k+cVCiDFUs23oA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.710.tgz";
+        sha512 = "b3r0E2o4yc7mNmBeJviejF1rEx49PUBi+2NPa7jHEX3arkAXnVgLhR0YmV8oi6/Qf3HH2a8xzQmCjHNH0IpXWQ==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -1867,13 +1867,13 @@ let
         sha1 = "e0e6fe6a28cf51138855e086d1691e771de2a8b9";
       };
     };
-    "hosted-git-info-2.8.8" = {
+    "hosted-git-info-2.8.9" = {
       name = "hosted-git-info";
       packageName = "hosted-git-info";
-      version = "2.8.8";
+      version = "2.8.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.8.tgz";
-        sha512 = "f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==";
+        url = "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz";
+        sha512 = "mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==";
       };
     };
     "http-cache-semantics-4.1.0" = {
@@ -4716,7 +4716,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.709"
+      sources."electron-to-chromium-1.3.710"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5220,7 +5220,7 @@ in
       sources."has-bigints-1.0.1"
       sources."has-flag-3.0.0"
       sources."has-symbols-1.0.2"
-      sources."hosted-git-info-2.8.8"
+      sources."hosted-git-info-2.8.9"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
@@ -5426,10 +5426,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.2.3";
+    version = "4.2.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.2.3.tgz";
-      sha512 = "qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz";
+      sha512 = "V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
