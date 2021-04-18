@@ -715,13 +715,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001209" = {
+    "caniuse-lite-1.0.30001210" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001209";
+      version = "1.0.30001210";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001209.tgz";
-        sha512 = "2Ktt4OeRM7EM/JaOZjuLzPYAIqmbwQMNnYbgooT+icoRGrKOyAxA1xhlnotBD1KArRSPsuJp3TdYcZYrL7qNxA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001210.tgz";
+        sha512 = "avmGf0Jo00I8vB0I89J4Pba48kddasErV7slu7wrkyM5uY9gE5P+B+V3hjABv8Hp4YNG2nBqIUFUXlnqNteXEA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2893,13 +2893,13 @@ let
         sha1 = "2109adc7965887cfc05cbbd442cac8bfbb360863";
       };
     };
-    "object-inspect-1.10.1" = {
+    "object-inspect-1.10.2" = {
       name = "object-inspect";
       packageName = "object-inspect";
-      version = "1.10.1";
+      version = "1.10.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.10.1.tgz";
-        sha512 = "WQUIkCSDPWm5ing/PTUkLr2KaOXX2uV/vz1hLGW2XbZ/RDUmtgcsOyEqA1ox0rkyNx9mJX4kxX+YWceje3pmag==";
+        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.10.2.tgz";
+        sha512 = "gz58rdPpadwztRrPjZE9DZLOABUpTGdcANUgOwBFO1C+HZZhePoP83M65WGDmbpwFYJSWqavbl4SgDn4k8RYTA==";
       };
     };
     "object-keys-1.1.1" = {
@@ -3667,13 +3667,13 @@ let
         sha512 = "iVICrxOzCynf/SNaBQCw34eM9jROU/s5rzIhpOvzhzuYHfJR/DhZfDkXiZSgKXfgv26HT3Yni3AV/DGw0cGnnw==";
       };
     };
-    "socks-2.6.0" = {
+    "socks-2.6.1" = {
       name = "socks";
       packageName = "socks";
-      version = "2.6.0";
+      version = "2.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks/-/socks-2.6.0.tgz";
-        sha512 = "mNmr9owlinMplev0Wd7UHFlqI4ofnBnNzFuzrm63PPaHgbkqCFe4T5LzwKmtQ/f2tX0NTpcdVLyD/FHxFBstYw==";
+        url = "https://registry.npmjs.org/socks/-/socks-2.6.1.tgz";
+        sha512 = "kLQ9N5ucj8uIcxrDwjm0Jsqk06xdpBjGNQtpXy4Q8/QY2k+fY7nZH8CARy+hkbG+SGAovmzzuauCpBlb8FrnBA==";
       };
     };
     "socks-proxy-agent-5.0.0" = {
@@ -4696,7 +4696,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.4"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001209"
+      sources."caniuse-lite-1.0.30001210"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -4937,7 +4937,7 @@ in
       sources."set-blocking-2.0.0"
       sources."signal-exit-3.0.3"
       sources."smart-buffer-4.1.0"
-      sources."socks-2.6.0"
+      sources."socks-2.6.1"
       sources."socks-proxy-agent-5.0.0"
       sources."ssri-8.0.1"
       sources."string-width-1.0.2"
@@ -5267,7 +5267,7 @@ in
         ];
       })
       sources."object-assign-4.1.1"
-      sources."object-inspect-1.10.1"
+      sources."object-inspect-1.10.2"
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.2"
       sources."object.entries-1.1.3"
