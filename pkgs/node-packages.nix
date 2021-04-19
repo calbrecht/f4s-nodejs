@@ -715,13 +715,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001210" = {
+    "caniuse-lite-1.0.30001211" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001210";
+      version = "1.0.30001211";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001210.tgz";
-        sha512 = "avmGf0Jo00I8vB0I89J4Pba48kddasErV7slu7wrkyM5uY9gE5P+B+V3hjABv8Hp4YNG2nBqIUFUXlnqNteXEA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001211.tgz";
+        sha512 = "v3GXWKofIkN3PkSidLI5d1oqeKNsam9nQkqieoMhP87nxOY0RPDC8X2+jcv8pjV4dRozPLSoMqNii9sDViOlIg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -3964,13 +3964,13 @@ let
         sha512 = "wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==";
       };
     };
-    "table-6.1.0" = {
+    "table-6.3.0" = {
       name = "table";
       packageName = "table";
-      version = "6.1.0";
+      version = "6.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.1.0.tgz";
-        sha512 = "T4G5KMmqIk6X87gLKWyU5exPpTjLjY5KyrFWaIjv3SvgaIUGXV7UEzGEnZJdTA38/yUS6f9PlKezQ0bYXG3iIQ==";
+        url = "https://registry.npmjs.org/table/-/table-6.3.0.tgz";
+        sha512 = "gM9kB7aNIuSagW89Fh+SdL49uhKnVSORxMcV72u/dfptFdqExInNn5M21wgq/Uf5UdJpsboFhNe/0SoNKjaxzg==";
       };
     };
     "tar-4.4.13" = {
@@ -4440,7 +4440,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
-      (sources."table-6.1.0" // {
+      (sources."table-6.3.0" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
@@ -4619,7 +4619,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
-      (sources."table-6.1.0" // {
+      (sources."table-6.3.0" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
@@ -4696,7 +4696,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.4"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001210"
+      sources."caniuse-lite-1.0.30001211"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
