@@ -3964,13 +3964,13 @@ let
         sha512 = "wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==";
       };
     };
-    "table-6.3.2" = {
+    "table-6.5.1" = {
       name = "table";
       packageName = "table";
-      version = "6.3.2";
+      version = "6.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.3.2.tgz";
-        sha512 = "I9/Ca6Huf2oxFag7crD0DhA+arIdfLtWunSn0NIXSzjtUlDgIBGVZY7SsMkNPNT3Psd/z4gza0nuEpmra9eRbg==";
+        url = "https://registry.npmjs.org/table/-/table-6.5.1.tgz";
+        sha512 = "xGDXWTBJxahkzPQCsn1S9ESHEenU7TbMD5Iv4FeopXv/XwJyWatFjfbor+6ipI10/MNPXBYUamYukOrbPZ9L/w==";
       };
     };
     "tar-4.4.13" = {
@@ -4322,7 +4322,6 @@ in
       sources."astral-regex-2.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."call-bind-1.0.2"
       sources."callsites-3.1.0"
       (sources."chalk-4.1.1" // {
         dependencies = [
@@ -4375,9 +4374,7 @@ in
       sources."flat-cache-3.0.4"
       sources."flatted-3.1.1"
       sources."fs.realpath-1.0.0"
-      sources."function-bind-1.1.1"
       sources."functional-red-black-tree-1.0.1"
-      sources."get-intrinsic-1.1.1"
       sources."glob-7.1.6"
       sources."glob-parent-5.1.2"
       (sources."globals-13.8.0" // {
@@ -4385,20 +4382,15 @@ in
           sources."type-fest-0.20.2"
         ];
       })
-      sources."has-1.0.3"
       sources."has-flag-3.0.0"
-      sources."has-symbols-1.0.2"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-boolean-object-1.1.0"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-glob-4.0.1"
-      sources."is-number-object-1.0.4"
-      sources."is-string-1.0.5"
       sources."isexe-2.0.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
@@ -4440,7 +4432,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
-      (sources."table-6.3.2" // {
+      (sources."table-6.5.1" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
@@ -4499,7 +4491,6 @@ in
       sources."astral-regex-2.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."call-bind-1.0.2"
       sources."callsites-3.1.0"
       (sources."chalk-4.1.1" // {
         dependencies = [
@@ -4553,9 +4544,7 @@ in
       sources."flat-cache-3.0.4"
       sources."flatted-3.1.1"
       sources."fs.realpath-1.0.0"
-      sources."function-bind-1.1.1"
       sources."functional-red-black-tree-1.0.1"
-      sources."get-intrinsic-1.1.1"
       sources."glob-7.1.6"
       sources."glob-parent-5.1.2"
       (sources."globals-13.8.0" // {
@@ -4563,20 +4552,15 @@ in
           sources."type-fest-0.20.2"
         ];
       })
-      sources."has-1.0.3"
       sources."has-flag-4.0.0"
-      sources."has-symbols-1.0.2"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-boolean-object-1.1.0"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-glob-4.0.1"
-      sources."is-number-object-1.0.4"
-      sources."is-string-1.0.5"
       sources."isexe-2.0.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
@@ -4619,7 +4603,7 @@ in
       sources."strip-ansi-6.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
-      (sources."table-6.3.2" // {
+      (sources."table-6.5.1" // {
         dependencies = [
           sources."ajv-8.1.0"
           sources."json-schema-traverse-1.0.0"
