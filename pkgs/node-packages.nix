@@ -40,13 +40,13 @@ let
         sha512 = "8YqpRig5NmIHlMLw09zMlPTvUVMILjqCOtVgu+TVNWEBvy9b5I3RRyhqnrV4hjgEK7n8P9OqvkWJAFmEL6Wwfw==";
       };
     };
-    "@babel/generator-7.14.0" = {
+    "@babel/generator-7.14.1" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.14.0";
+      version = "7.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.14.0.tgz";
-        sha512 = "C6u00HbmsrNPug6A+CiNl8rEys7TsdcXwg12BHi2ca5rUfAs3+UwZsuDQSXnc+wCElCXMB8gMaJ3YXDdh8fAlg==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.14.1.tgz";
+        sha512 = "TMGhsXMXCP/O1WtQmZjpEYDhCYC9vFhayWZPJSZCGkPJgUqX0rF0wwtrYvnzVxIjcF80tkUertXVk5cwqi5cAQ==";
       };
     };
     "@babel/helper-compilation-targets-7.13.16" = {
@@ -184,13 +184,13 @@ let
         sha512 = "YSCOwxvTYEIMSGaBQb5kDDsCopDdiUGsqpatp3fOlI4+2HQSkTmEVWnVuySdAC5EWCqSWWTv0ib63RjR7dTBdg==";
       };
     };
-    "@babel/parser-7.14.0" = {
+    "@babel/parser-7.14.1" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.14.0";
+      version = "7.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.14.0.tgz";
-        sha512 = "AHbfoxesfBALg33idaTBVUkLnfXtsgvJREf93p4p0Lwsz4ppfE7g1tpEXVm4vrxUcH4DVhAa9Z1m1zqf9WUC7Q==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.14.1.tgz";
+        sha512 = "muUGEKu8E/ftMTPlNp+mc6zL3E9zKWmF5sDHZ5MSsoTP9Wyz64AhEf9kD08xYJ7w6Hdcu8H550ircnPyWSIF0Q==";
       };
     };
     "@babel/plugin-syntax-flow-7.12.13" = {
@@ -247,13 +247,13 @@ let
         sha512 = "dZ/a371EE5XNhTHomvtuLTUyx6UEoJmYX+DT5zBCQN3McHemsuIaKKYqsc/fs26BEkHs/lBZy0J571LP5z9kQA==";
       };
     };
-    "@babel/types-7.14.0" = {
+    "@babel/types-7.14.1" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.14.0";
+      version = "7.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.14.0.tgz";
-        sha512 = "O2LVLdcnWplaGxiPBz12d0HcdN8QdxdsWYhz5LSeuukV/5mn2xUUc3gBeU4QBYPJ18g/UToe8F532XJ608prmg==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.14.1.tgz";
+        sha512 = "S13Qe85fzLs3gYRUnrpyeIrBJIMYv33qSTg1qoBwiG6nPKwUWAD9odSzWhEedpwOIzSEI6gbdQIWEMiCI42iBA==";
       };
     };
     "@dabh/diagnostics-2.0.2" = {
@@ -715,13 +715,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001220" = {
+    "caniuse-lite-1.0.30001221" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001220";
+      version = "1.0.30001221";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001220.tgz";
-        sha512 = "pjC2T4DIDyGAKTL4dMvGUQaMUHRmhvPpAgNNTa14jaBWHu+bLQgvpFqElxh9L4829Fdx0PlKiMp3wnYldRtECA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001221.tgz";
+        sha512 = "b9TOZfND3uGSLjMOrLh8XxSQ41x8mX+9MLJYDM4AAHLfaZHttrLNPrScWjVnBITRZbY5sPpCt7X85n7VSLZ+/g==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1138,13 +1138,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.725" = {
+    "electron-to-chromium-1.3.726" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.725";
+      version = "1.3.726";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.725.tgz";
-        sha512 = "2BbeAESz7kc6KBzs7WVrMc1BY5waUphk4D4DX5dSQXJhsc3tP5ZFaiyuL0AB7vUKzDYpIeYwTYlEfxyjsGUrhw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.726.tgz";
+        sha512 = "dw7WmrSu/JwtACiBzth8cuKf62NKL1xVJuNvyOg0jvruN/n4NLtGYoTzciQquCPNaS2eR+BT5GrxHbslfc/w1w==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -1390,13 +1390,13 @@ let
         sha512 = "6J72N8UNa462wa/KFODt/PJ3IU60SDpC3QXC1Hjc1BXXpfL2C9R5+AU7jhe0F6GREqVMh4Juu+NY7xn+6dipUQ==";
       };
     };
-    "eslint-visitor-keys-2.0.0" = {
+    "eslint-visitor-keys-2.1.0" = {
       name = "eslint-visitor-keys";
       packageName = "eslint-visitor-keys";
-      version = "2.0.0";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz";
-        sha512 = "QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==";
+        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz";
+        sha512 = "0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==";
       };
     };
     "espree-7.3.1" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==";
       };
     };
-    "is-bigint-1.0.1" = {
+    "is-bigint-1.0.2" = {
       name = "is-bigint";
       packageName = "is-bigint";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-bigint/-/is-bigint-1.0.1.tgz";
-        sha512 = "J0ELF4yHFxHy0cmSxZuheDOz2luOdVvqjwmEcj8H/L1JHeuEDSDbeRP+Dk9kFVk5RTFzbucJ2Kb9F7ixY2QaCg==";
+        url = "https://registry.npmjs.org/is-bigint/-/is-bigint-1.0.2.tgz";
+        sha512 = "0JV5+SOCQkIdzjBK9buARcV804Ddu7A0Qet6sHi3FimE9ne6m4BGQZfRn+NZiXbBk4F4XmHfDZIipLj9pX8dSA==";
       };
     };
     "is-boolean-object-1.1.0" = {
@@ -4348,7 +4348,7 @@ in
           sources."eslint-visitor-keys-1.3.0"
         ];
       })
-      sources."eslint-visitor-keys-2.0.0"
+      sources."eslint-visitor-keys-2.1.0"
       (sources."espree-7.3.1" // {
         dependencies = [
           sources."eslint-visitor-keys-1.3.0"
@@ -4518,7 +4518,7 @@ in
           sources."eslint-visitor-keys-1.3.0"
         ];
       })
-      sources."eslint-visitor-keys-2.0.0"
+      sources."eslint-visitor-keys-2.1.0"
       (sources."espree-7.3.1" // {
         dependencies = [
           sources."eslint-visitor-keys-1.3.0"
@@ -4641,7 +4641,7 @@ in
       sources."@babel/code-frame-7.12.13"
       sources."@babel/compat-data-7.14.0"
       sources."@babel/core-7.14.0"
-      sources."@babel/generator-7.14.0"
+      sources."@babel/generator-7.14.1"
       sources."@babel/helper-compilation-targets-7.13.16"
       sources."@babel/helper-function-name-7.12.13"
       sources."@babel/helper-get-function-arity-7.12.13"
@@ -4657,7 +4657,7 @@ in
       sources."@babel/helper-validator-option-7.12.17"
       sources."@babel/helpers-7.14.0"
       sources."@babel/highlight-7.14.0"
-      sources."@babel/parser-7.14.0"
+      sources."@babel/parser-7.14.1"
       sources."@babel/plugin-syntax-flow-7.12.13"
       sources."@babel/plugin-syntax-jsx-7.12.13"
       sources."@babel/plugin-syntax-typescript-7.12.13"
@@ -4668,7 +4668,7 @@ in
           sources."globals-11.12.0"
         ];
       })
-      sources."@babel/types-7.14.0"
+      sources."@babel/types-7.14.1"
       sources."@dabh/diagnostics-2.0.2"
       sources."abbrev-1.1.1"
       sources."ansi-regex-2.1.1"
@@ -4680,7 +4680,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.6"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001220"
+      sources."caniuse-lite-1.0.30001221"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -4700,7 +4700,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.725"
+      sources."electron-to-chromium-1.3.726"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5165,7 +5165,7 @@ in
           sources."eslint-visitor-keys-1.3.0"
         ];
       })
-      sources."eslint-visitor-keys-2.0.0"
+      sources."eslint-visitor-keys-2.1.0"
       (sources."espree-7.3.1" // {
         dependencies = [
           sources."eslint-visitor-keys-1.3.0"
@@ -5212,7 +5212,7 @@ in
       sources."inherits-2.0.4"
       sources."internal-slot-1.0.3"
       sources."is-arrayish-0.2.1"
-      sources."is-bigint-1.0.1"
+      sources."is-bigint-1.0.2"
       sources."is-boolean-object-1.1.0"
       sources."is-callable-1.2.3"
       sources."is-core-module-2.3.0"
