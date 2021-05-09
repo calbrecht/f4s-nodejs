@@ -436,13 +436,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.2.0" = {
+    "ajv-8.3.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.2.0";
+      version = "8.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.2.0.tgz";
-        sha512 = "WSNGFuyWd//XO8n/m/EaOlNLtO0yL8EXT/74LqT4khdhpZjP7lkj/kT5uwRmGitKEVp/Oj7ZUHeGfPtgHhQ5CA==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.3.0.tgz";
+        sha512 = "RYE7B5An83d7eWnDR8kbdaIFqmKCNsP16ay1hDbJEU+sa0e3H9SebskCt0Uufem6cfAVu7Col6ubcn/W+Sm8/Q==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -976,13 +976,13 @@ let
         sha1 = "b5fd54220aa2bc5ab57aab7140c940754503c1a7";
       };
     };
-    "core_d-3.0.0" = {
+    "core_d-3.1.0" = {
       name = "core_d";
       packageName = "core_d";
-      version = "3.0.0";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core_d/-/core_d-3.0.0.tgz";
-        sha512 = "6DM/spZ6j+Yha93TMdK+uz/ws82eDcYefPv2dKZBlMT5mFoJNG+zNPaqSpb5xFvrZh90KFXdSuau1Z+Jql2Tsg==";
+        url = "https://registry.npmjs.org/core_d/-/core_d-3.1.0.tgz";
+        sha512 = "lYd/ZmUU4pciyaNOLk5jaJx9BqpmBFdtjx0EB0c4YYQsrTfdrrzjlDFGmH7oq9OdYwTEbrhOGghlbmDOx1Vrpg==";
       };
     };
     "cross-spawn-7.0.3" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "J1DcMe8UYTBSrKezuIUTUwjXsho29693unXM2YhJUTR2txK/eG47bvNa/wipPFmZFgr/N6f1GA66dv0mEyTIyQ==";
       };
     };
-    "is-core-module-2.3.0" = {
+    "is-core-module-2.4.0" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.3.0";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.3.0.tgz";
-        sha512 = "xSphU2KG9867tsYdLD4RWQ1VqdFl4HTO9Thf3I/3dLEfr0dbPTWKsuCKrgqMljg4nPE+Gq0VCnzT3gr0CyBmsw==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.4.0.tgz";
+        sha512 = "6A2fkfq1rfeQZjxrZJGerpLCTHRNEBiSgnu0+obeJpEPZRUooHgsizvzv0ZjJwOz3iWIHdJtVWJ/tmPr3D21/A==";
       };
     };
     "is-date-object-1.0.4" = {
@@ -4424,7 +4424,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.7.0" // {
         dependencies = [
-          sources."ajv-8.2.0"
+          sources."ajv-8.3.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4451,10 +4451,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.0.4";
+    version = "10.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.0.4.tgz";
-      sha512 = "DEJaGxP6VDs3byYKQYw6Py8l2b1KH9S5vUo4IjvhWIEcdo5gjNkJjjzUCoExTIb0Bo7/GbKyNRI/dctUQ5f+7w==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.0.tgz";
+      sha512 = "cPVyErdihWmBRmG7+xMyYUFzyJo49j/3B2IyeUkC287AuijR6a0GpmVs7FmlHwVnJFUSLu0fUWBm94UAEYQT3A==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4493,7 +4493,7 @@ in
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
       sources."concat-map-0.0.1"
-      sources."core_d-3.0.0"
+      sources."core_d-3.1.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.2"
       sources."deep-is-0.1.3"
@@ -4594,7 +4594,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.7.0" // {
         dependencies = [
-          sources."ajv-8.2.0"
+          sources."ajv-8.3.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -5041,10 +5041,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "2.2.1";
+    version = "2.3.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-2.2.1.tgz";
-      sha512 = "PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-2.3.0.tgz";
+      sha512 = "kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -5204,7 +5204,7 @@ in
       sources."is-bigint-1.0.2"
       sources."is-boolean-object-1.1.1"
       sources."is-callable-1.2.3"
-      sources."is-core-module-2.3.0"
+      sources."is-core-module-2.4.0"
       sources."is-date-object-1.0.4"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-2.0.0"
@@ -5369,7 +5369,7 @@ in
       sources."has-flag-3.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-core-module-2.3.0"
+      sources."is-core-module-2.4.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."minimatch-3.0.4"
