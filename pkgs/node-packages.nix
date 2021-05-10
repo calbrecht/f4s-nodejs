@@ -715,13 +715,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001223" = {
+    "caniuse-lite-1.0.30001228" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001223";
+      version = "1.0.30001228";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001223.tgz";
-        sha512 = "k/RYs6zc/fjbxTjaWZemeSmOjO0JJV+KguOBA3NwPup8uzxM1cMhR2BD9XmO86GuqaqTCO8CgkgH9Rz//vdDiA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001228.tgz";
+        sha512 = "QQmLOGJ3DEgokHbMSA8cj2a+geXqmnpyOFT0lhQV6P3/YOJvGDEwoedcwxEQ30gJIwIIunHIicunJ2rzK5gB2A==";
       };
     };
     "cardinal-1.0.0" = {
@@ -976,13 +976,13 @@ let
         sha1 = "b5fd54220aa2bc5ab57aab7140c940754503c1a7";
       };
     };
-    "core_d-3.1.0" = {
+    "core_d-3.2.0" = {
       name = "core_d";
       packageName = "core_d";
-      version = "3.1.0";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core_d/-/core_d-3.1.0.tgz";
-        sha512 = "lYd/ZmUU4pciyaNOLk5jaJx9BqpmBFdtjx0EB0c4YYQsrTfdrrzjlDFGmH7oq9OdYwTEbrhOGghlbmDOx1Vrpg==";
+        url = "https://registry.npmjs.org/core_d/-/core_d-3.2.0.tgz";
+        sha512 = "waKkgHU2P19huhuMjCqCDWTYjxCIHoB+nnYjI7pVMUOC1giWxMNDrXkPw9QjWY+PWCFm49bD3wA/J+c7BGZ+og==";
       };
     };
     "cross-spawn-7.0.3" = {
@@ -4493,7 +4493,7 @@ in
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
       sources."concat-map-0.0.1"
-      sources."core_d-3.1.0"
+      sources."core_d-3.2.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.2"
       sources."deep-is-0.1.3"
@@ -4669,7 +4669,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.6"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001223"
+      sources."caniuse-lite-1.0.30001228"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
