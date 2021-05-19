@@ -679,13 +679,13 @@ let
         sha1 = "270f076c5a72c02f5b65a47df94c5fe3a278892f";
       };
     };
-    "cacache-15.0.6" = {
+    "cacache-15.1.0" = {
       name = "cacache";
       packageName = "cacache";
-      version = "15.0.6";
+      version = "15.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-15.0.6.tgz";
-        sha512 = "g1WYDMct/jzW+JdWEyjaX2zoBkZ6ZT9VpOyp2I/VMtDsNLffNat3kqPFfi1eDRSK9/SuKGyORDHcQMcPF8sQ/w==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-15.1.0.tgz";
+        sha512 = "mfx0C+mCfWjD1PnwQ9yaOrwG1ou9FkKnx0SvzUHWdFt7r7GaRtzT+9M8HAvLu62zIHtnpQ/1m93nWNDCckJGXQ==";
       };
     };
     "call-bind-1.0.2" = {
@@ -1138,13 +1138,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.731" = {
+    "electron-to-chromium-1.3.733" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.731";
+      version = "1.3.733";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.731.tgz";
-        sha512 = "dn1Nyd0DuFa3xhqZJr6/L9phyk+YXJpvrz6Vcu6mFxFqr5TQ9r/F3yvOYFUrEwY4Tbb1YBjN19TDKnSVCQvalA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.733.tgz";
+        sha512 = "6VUgcqRBo7FC+SG08arfFwr9qKVnBSmagXN332SWvvG2j/26Xy7AfQMqPsVq3vVW4fw20SrnmBedQzTD3slVEQ==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4689,7 +4689,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.731"
+      sources."electron-to-chromium-1.3.733"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -4845,7 +4845,7 @@ in
       sources."are-we-there-yet-1.1.5"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."cacache-15.0.6"
+      sources."cacache-15.1.0"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
       sources."code-point-at-1.1.0"
