@@ -355,13 +355,13 @@ let
         sha512 = "1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA==";
       };
     };
-    "@types/node-15.3.0" = {
+    "@types/node-15.3.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "15.3.0";
+      version = "15.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-15.3.0.tgz";
-        sha512 = "8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-15.3.1.tgz";
+        sha512 = "weaeiP4UF4XgF++3rpQhpIJWsCTS4QJw5gvBhQu6cFIxTwyxWIe3xbnrY/o2lTCQ0lsdb8YIUDUvLR4Vuz5rbw==";
       };
     };
     "JSV-4.0.2" = {
@@ -436,13 +436,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.4.0" = {
+    "ajv-8.5.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.4.0";
+      version = "8.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.4.0.tgz";
-        sha512 = "7QD2l6+KBSLwf+7MuYocbWvRPdOu63/trReTLu2KFwkgctnub1auoF+Y1WYcm09CTM7quuscrzqmASaLHC/K4Q==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.5.0.tgz";
+        sha512 = "Y2l399Tt1AguU3BPRP9Fn4eN+Or+StUGWCUpbnFyXSo8NZ9S4uj+AG2pjs5apK+ZMOwYOz1+a+VKvKH7CudXgQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1138,13 +1138,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.733" = {
+    "electron-to-chromium-1.3.735" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.733";
+      version = "1.3.735";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.733.tgz";
-        sha512 = "6VUgcqRBo7FC+SG08arfFwr9qKVnBSmagXN332SWvvG2j/26Xy7AfQMqPsVq3vVW4fw20SrnmBedQzTD3slVEQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.735.tgz";
+        sha512 = "cp7MWzC3NseUJV2FJFgaiesdrS+A8ZUjX5fLAxdRlcaPDkaPGFplX930S5vf84yqDp4LjuLdKouWuVOTwUfqHQ==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4424,7 +4424,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.4.0"
+          sources."ajv-8.5.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4594,7 +4594,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.4.0"
+          sources."ajv-8.5.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4689,7 +4689,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.733"
+      sources."electron-to-chromium-1.3.735"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5427,7 +5427,7 @@ in
       sources."@nodelib/fs.walk-1.2.6"
       sources."@types/glob-7.1.3"
       sources."@types/minimatch-3.0.4"
-      sources."@types/node-15.3.0"
+      sources."@types/node-15.3.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
