@@ -355,13 +355,13 @@ let
         sha512 = "1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA==";
       };
     };
-    "@types/node-15.3.1" = {
+    "@types/node-15.6.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "15.3.1";
+      version = "15.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-15.3.1.tgz";
-        sha512 = "weaeiP4UF4XgF++3rpQhpIJWsCTS4QJw5gvBhQu6cFIxTwyxWIe3xbnrY/o2lTCQ0lsdb8YIUDUvLR4Vuz5rbw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-15.6.0.tgz";
+        sha512 = "gCYSfQpy+LYhOFTKAeE8BkyGqaxmlFxe+n4DKM6DR0wzw/HISUE/hAmkC/KT8Sw5PCJblqg062b3z9gucv3k0A==";
       };
     };
     "JSV-4.0.2" = {
@@ -4451,10 +4451,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.1.1";
+    version = "10.1.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.1.tgz";
-      sha512 = "pWZFDw8ku0cWwLMAQo71i3NE6eESl/w/UqwB9uhdM2IMAFNUFSGHt34UOxg2o8gcRCM85Xwo2rj4AAV7jwKjkA==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.2.tgz";
+      sha512 = "SCkQfCkOjhvIA1nSSl2f420h9bwLEg11rIo0+szBk+LICEDrh9muXmilkCSQ31eA53Wt34gL6RsX3bwtlS4SVA==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -5427,7 +5427,7 @@ in
       sources."@nodelib/fs.walk-1.2.6"
       sources."@types/glob-7.1.3"
       sources."@types/minimatch-3.0.4"
-      sources."@types/node-15.3.1"
+      sources."@types/node-15.6.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
