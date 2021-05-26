@@ -1138,13 +1138,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.738" = {
+    "electron-to-chromium-1.3.739" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.738";
+      version = "1.3.739";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.738.tgz";
-        sha512 = "vCMf4gDOpEylPSLPLSwAEsz+R3ShP02Y3cAKMZvTqule3XcPp7tgc/0ESI7IS6ZeyBlGClE50N53fIOkcIVnpw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.739.tgz";
+        sha512 = "+LPJVRsN7hGZ9EIUUiWCpO7l4E3qBYHNadazlucBfsXBbccDFNKUBAgzE68FnkWGJPwD/AfKhSzL+G+Iqb8A4A==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4709,7 +4709,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.738"
+      sources."electron-to-chromium-1.3.739"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5418,10 +5418,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.2.4";
+    version = "4.3.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz";
-      sha512 = "V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.3.2.tgz";
+      sha512 = "zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
