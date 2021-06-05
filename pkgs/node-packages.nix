@@ -1282,13 +1282,13 @@ let
         sha512 = "uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==";
       };
     };
-    "eslint-7.27.0" = {
+    "eslint-7.28.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.27.0";
+      version = "7.28.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.27.0.tgz";
-        sha512 = "JZuR6La2ZF0UD384lcbnd0Cgg6QJjiCwhMD6eU4h/VGPcVGwawNNzKU41tgokGXnfjOOyI6QIffthhJTPzzuRA==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.28.0.tgz";
+        sha512 = "UMfH0VSjP0G4p3EWirscJEQ/cHqnT/iuH6oNZOB94nBjWbMnhGEPxsZm1eyIW0C/9jLI0Fow4W5DXLjEI7mn1g==";
       };
     };
     "eslint-config-standard-16.0.2" = {
@@ -4303,10 +4303,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "7.27.0";
+    version = "7.28.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-7.27.0.tgz";
-      sha512 = "JZuR6La2ZF0UD384lcbnd0Cgg6QJjiCwhMD6eU4h/VGPcVGwawNNzKU41tgokGXnfjOOyI6QIffthhJTPzzuRA==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-7.28.0.tgz";
+      sha512 = "UMfH0VSjP0G4p3EWirscJEQ/cHqnT/iuH6oNZOB94nBjWbMnhGEPxsZm1eyIW0C/9jLI0Fow4W5DXLjEI7mn1g==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4509,7 +4509,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-7.27.0"
+      sources."eslint-7.28.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -5045,10 +5045,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "2.3.0";
+    version = "2.3.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-2.3.0.tgz";
-      sha512 = "kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-2.3.1.tgz";
+      sha512 = "p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
