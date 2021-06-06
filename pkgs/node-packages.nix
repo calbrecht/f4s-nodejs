@@ -436,13 +436,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.5.0" = {
+    "ajv-8.6.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.5.0";
+      version = "8.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.5.0.tgz";
-        sha512 = "Y2l399Tt1AguU3BPRP9Fn4eN+Or+StUGWCUpbnFyXSo8NZ9S4uj+AG2pjs5apK+ZMOwYOz1+a+VKvKH7CudXgQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.0.tgz";
+        sha512 = "cnUG4NSBiM4YFBxgZIj/In3/6KX+rQ2l2YPRVcvAMQGWEPKuXoPIhxzwqh31jA3IPbI4qEOp/5ILI4ynioXsGQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -715,13 +715,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001234" = {
+    "caniuse-lite-1.0.30001235" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001234";
+      version = "1.0.30001235";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001234.tgz";
-        sha512 = "a3gjUVKkmwLdNysa1xkUAwN2VfJUJyVW47rsi3aCbkRCtbHAfo+rOsCqVw29G6coQ8gzAPb5XBXwiGHwme3isA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001235.tgz";
+        sha512 = "zWEwIVqnzPkSAXOUlQnPW2oKoYb2aLQ4Q5ejdjBcnH63rfypaW34CxaeBn1VMya2XaEU3P/R2qHpWyj+l0BT1A==";
       };
     };
     "cardinal-1.0.0" = {
@@ -4435,7 +4435,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.5.0"
+          sources."ajv-8.6.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4598,7 +4598,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.5.0"
+          sources."ajv-8.6.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4673,7 +4673,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.6"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001234"
+      sources."caniuse-lite-1.0.30001235"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
