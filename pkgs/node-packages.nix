@@ -5412,10 +5412,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.3.2";
+    version = "4.3.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.3.2.tgz";
-      sha512 = "zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.3.4.tgz";
+      sha512 = "uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==";
     };
     buildInputs = globalBuildInputs;
     meta = {
