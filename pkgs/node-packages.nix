@@ -364,13 +364,13 @@ let
         sha512 = "1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA==";
       };
     };
-    "@types/node-15.12.2" = {
+    "@types/node-15.12.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "15.12.2";
+      version = "15.12.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-15.12.2.tgz";
-        sha512 = "zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==";
+        url = "https://registry.npmjs.org/@types/node/-/node-15.12.4.tgz";
+        sha512 = "zrNj1+yqYF4WskCMOHwN+w9iuD12+dGm0rQ35HLl9/Ouuq52cEtd0CH9qMgrdNmi5ejC1/V7vKEXYubB+65DkA==";
       };
     };
     "JSV-4.0.2" = {
@@ -724,13 +724,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001237" = {
+    "caniuse-lite-1.0.30001238" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001237";
+      version = "1.0.30001238";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001237.tgz";
-        sha512 = "pDHgRndit6p1NR2GhzMbQ6CkRrp4VKuSsqbcLeOQppYPKOYkKT/6ZvZDvKJUqcmtyWIAHuZq3SVS2vc1egCZzw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001238.tgz";
+        sha512 = "bZGam2MxEt7YNsa2VwshqWQMwrYs5tR5WZQRYSuFxsBQunWjBuXhN4cS9nV5FFb1Z9y+DoQcQ0COyQbv6A+CKw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -967,13 +967,13 @@ let
         sha1 = "fe8cf184ff6670b6baef01a9d4861a5cbec4120a";
       };
     };
-    "convert-source-map-1.7.0" = {
+    "convert-source-map-1.8.0" = {
       name = "convert-source-map";
       packageName = "convert-source-map";
-      version = "1.7.0";
+      version = "1.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.7.0.tgz";
-        sha512 = "4FJkXzKXEDB1snCFZlLP4gpC3JILicCpGbzG9f9G7tGqGCzETQ2hWPrcinA9oU4wtf2biUaEH5065UnMeR33oA==";
+        url = "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.8.0.tgz";
+        sha512 = "+OQdjP49zViI/6i7nIJpA8rAl4sV/JdPfU9nZs3VqOwGIgizICvuN2ru6fMd+4llL0tar18UYJXfZ/TWtmhUjA==";
       };
     };
     "core-util-is-1.0.2" = {
@@ -1291,13 +1291,13 @@ let
         sha512 = "uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==";
       };
     };
-    "eslint-7.28.0" = {
+    "eslint-7.29.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.28.0";
+      version = "7.29.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.28.0.tgz";
-        sha512 = "UMfH0VSjP0G4p3EWirscJEQ/cHqnT/iuH6oNZOB94nBjWbMnhGEPxsZm1eyIW0C/9jLI0Fow4W5DXLjEI7mn1g==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.29.0.tgz";
+        sha512 = "82G/JToB9qIy/ArBzIWG9xvvwL3R86AlCjtGw+A29OMZDqhTybz/MByORSukGxeI+YPCR4coYyITKk8BFH9nDA==";
       };
     };
     "eslint-config-standard-16.0.2" = {
@@ -4312,10 +4312,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "7.28.0";
+    version = "7.29.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-7.28.0.tgz";
-      sha512 = "UMfH0VSjP0G4p3EWirscJEQ/cHqnT/iuH6oNZOB94nBjWbMnhGEPxsZm1eyIW0C/9jLI0Fow4W5DXLjEI7mn1g==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-7.29.0.tgz";
+      sha512 = "82G/JToB9qIy/ArBzIWG9xvvwL3R86AlCjtGw+A29OMZDqhTybz/MByORSukGxeI+YPCR4coYyITKk8BFH9nDA==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4518,7 +4518,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-7.28.0"
+      sources."eslint-7.29.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4683,7 +4683,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.6"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001237"
+      sources."caniuse-lite-1.0.30001238"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -4697,7 +4697,7 @@ in
       sources."commander-4.1.1"
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
-      sources."convert-source-map-1.7.0"
+      sources."convert-source-map-1.8.0"
       sources."core-util-is-1.0.2"
       sources."debug-4.3.2"
       sources."deep-extend-0.6.0"
@@ -5441,7 +5441,7 @@ in
       sources."@nodelib/fs.walk-1.2.7"
       sources."@types/glob-7.1.3"
       sources."@types/minimatch-3.0.4"
-      sources."@types/node-15.12.2"
+      sources."@types/node-15.12.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
