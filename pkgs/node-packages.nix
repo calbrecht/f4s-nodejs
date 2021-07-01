@@ -364,13 +364,13 @@ let
         sha512 = "1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA==";
       };
     };
-    "@types/node-15.12.5" = {
+    "@types/node-15.14.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "15.12.5";
+      version = "15.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-15.12.5.tgz";
-        sha512 = "se3yX7UHv5Bscf8f1ERKvQOD6sTyycH3hdaoozvaLxgUiY5lIGEeH37AD0G0Qi9kPqihPn0HOfd2yaIEN9VwEg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-15.14.0.tgz";
+        sha512 = "um/+/ip3QZmwLfIkWZSNtQIJNVAqrJ92OkLMeuZrjZMTAJniI7fh8N8OICyDhAJ2mzgk/fmYFo72jRr5HyZ1EQ==";
       };
     };
     "JSV-4.0.2" = {
@@ -1147,13 +1147,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.762" = {
+    "electron-to-chromium-1.3.764" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.762";
+      version = "1.3.764";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.762.tgz";
-        sha512 = "LehWjRpfPcK8F1Lf/NZoAwWLWnjJVo0SZeQ9j/tvnBWYcT99qDqgo4raAfS2oTKZjPrR/jxruh85DGgDUmywEA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.764.tgz";
+        sha512 = "nI8fb0ePu2LjzGQMoJ2j4wCnpbSMtuXmOZz/dFAduroICL/B9rU6Iwck/oTvXdzZCfN3ZdU5mpY4XCizU2saow==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -1642,13 +1642,13 @@ let
         sha512 = "r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==";
       };
     };
-    "flatted-3.1.1" = {
+    "flatted-3.2.0" = {
       name = "flatted";
       packageName = "flatted";
-      version = "3.1.1";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flatted/-/flatted-3.1.1.tgz";
-        sha512 = "zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==";
+        url = "https://registry.npmjs.org/flatted/-/flatted-3.2.0.tgz";
+        sha512 = "XprP7lDrVT+kE2c2YlfiV+IfS9zxukiIOvNamPNsImNhXadSsQEbosItdL9bUQlCZXR13SvPk20BjWSWLA7m4A==";
       };
     };
     "fn.name-1.1.0" = {
@@ -4387,7 +4387,7 @@ in
       sources."fast-levenshtein-2.0.6"
       sources."file-entry-cache-6.0.1"
       sources."flat-cache-3.0.4"
-      sources."flatted-3.1.1"
+      sources."flatted-3.2.0"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.7"
@@ -4549,7 +4549,7 @@ in
       sources."fast-levenshtein-2.0.6"
       sources."file-entry-cache-6.0.1"
       sources."flat-cache-3.0.4"
-      sources."flatted-3.1.1"
+      sources."flatted-3.2.0"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.1.7"
@@ -4703,7 +4703,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.762"
+      sources."electron-to-chromium-1.3.764"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5412,10 +5412,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.3.4";
+    version = "4.3.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.3.4.tgz";
-      sha512 = "uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.3.5.tgz";
+      sha512 = "DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -5441,7 +5441,7 @@ in
       sources."@nodelib/fs.walk-1.2.7"
       sources."@types/glob-7.1.3"
       sources."@types/minimatch-3.0.4"
-      sources."@types/node-15.12.5"
+      sources."@types/node-15.14.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
