@@ -292,6 +292,24 @@ let
         sha512 = "8nmGq/4ycLpIwzvhI4tNDmQztZ8sp+hI7cyG8i1nQDhkAbRzHpXPidRAHlNvCZQpJTKw5ItIpMw9RSToGF00mg==";
       };
     };
+    "@humanwhocodes/config-array-0.5.0" = {
+      name = "_at_humanwhocodes_slash_config-array";
+      packageName = "@humanwhocodes/config-array";
+      version = "0.5.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.5.0.tgz";
+        sha512 = "FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==";
+      };
+    };
+    "@humanwhocodes/object-schema-1.2.0" = {
+      name = "_at_humanwhocodes_slash_object-schema";
+      packageName = "@humanwhocodes/object-schema";
+      version = "1.2.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz";
+        sha512 = "wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==";
+      };
+    };
     "@nodelib/fs.scandir-2.1.5" = {
       name = "_at_nodelib_slash_fs.scandir";
       packageName = "@nodelib/fs.scandir";
@@ -1147,13 +1165,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.764" = {
+    "electron-to-chromium-1.3.766" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.764";
+      version = "1.3.766";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.764.tgz";
-        sha512 = "nI8fb0ePu2LjzGQMoJ2j4wCnpbSMtuXmOZz/dFAduroICL/B9rU6Iwck/oTvXdzZCfN3ZdU5mpY4XCizU2saow==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.766.tgz";
+        sha512 = "u2quJ862q9reRKh/je3GXis3w38+RoXH1J9N3XjtsS6NzmUAosNsyZgUVFZPN/ZlJ3v6T0rTyZR3q/J5c6Sy5w==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -1291,13 +1309,13 @@ let
         sha512 = "uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==";
       };
     };
-    "eslint-7.29.0" = {
+    "eslint-7.30.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.29.0";
+      version = "7.30.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.29.0.tgz";
-        sha512 = "82G/JToB9qIy/ArBzIWG9xvvwL3R86AlCjtGw+A29OMZDqhTybz/MByORSukGxeI+YPCR4coYyITKk8BFH9nDA==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.30.0.tgz";
+        sha512 = "VLqz80i3as3NdloY44BQSJpFw534L9Oh+6zJOUaViV4JPd+DaHwutqP7tcpkW3YiXbK6s05RZl7yl7cQn+lijg==";
       };
     };
     "eslint-config-standard-16.0.2" = {
@@ -2767,13 +2785,13 @@ let
         sha1 = "4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7";
       };
     };
-    "needle-2.6.0" = {
+    "needle-2.7.0" = {
       name = "needle";
       packageName = "needle";
-      version = "2.6.0";
+      version = "2.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/needle/-/needle-2.6.0.tgz";
-        sha512 = "KKYdza4heMsEfSWD7VPUIz3zX2XDwOyX2d+geb4vrERZMT5RMU6ujjaD+I5Yr54uZxQ2w6XRTAhHBbSCyovZBg==";
+        url = "https://registry.npmjs.org/needle/-/needle-2.7.0.tgz";
+        sha512 = "b4f4JgOl7GZVM1p+xuWBAsHwflng1s2yOu9lOThKAzULRW7eqSFYfN4gbuUFOMuE0hVAPWJnSz/90LMOlEGErw==";
       };
     };
     "node-emoji-1.10.0" = {
@@ -4312,10 +4330,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "7.29.0";
+    version = "7.30.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-7.29.0.tgz";
-      sha512 = "82G/JToB9qIy/ArBzIWG9xvvwL3R86AlCjtGw+A29OMZDqhTybz/MByORSukGxeI+YPCR4coYyITKk8BFH9nDA==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-7.30.0.tgz";
+      sha512 = "VLqz80i3as3NdloY44BQSJpFw534L9Oh+6zJOUaViV4JPd+DaHwutqP7tcpkW3YiXbK6s05RZl7yl7cQn+lijg==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4327,6 +4345,8 @@ in
         ];
       })
       sources."@eslint/eslintrc-0.4.2"
+      sources."@humanwhocodes/config-array-0.5.0"
+      sources."@humanwhocodes/object-schema-1.2.0"
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.1"
       sources."ajv-6.12.6"
@@ -4488,6 +4508,8 @@ in
         ];
       })
       sources."@eslint/eslintrc-0.4.2"
+      sources."@humanwhocodes/config-array-0.5.0"
+      sources."@humanwhocodes/object-schema-1.2.0"
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.1"
       sources."ajv-6.12.6"
@@ -4518,7 +4540,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-7.29.0"
+      sources."eslint-7.30.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4703,7 +4725,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.764"
+      sources."electron-to-chromium-1.3.766"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -4741,7 +4763,7 @@ in
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
       sources."nan-2.14.2"
-      (sources."needle-2.6.0" // {
+      (sources."needle-2.7.0" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -5009,7 +5031,7 @@ in
       sources."minizlib-1.3.3"
       sources."mkdirp-0.5.5"
       sources."ms-2.1.3"
-      sources."needle-2.6.0"
+      sources."needle-2.7.0"
       sources."nopt-4.0.3"
       sources."npm-bundled-1.1.2"
       sources."npm-normalize-package-bin-1.0.1"
