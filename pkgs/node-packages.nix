@@ -463,13 +463,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.6.0" = {
+    "ajv-8.6.1" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.6.0";
+      version = "8.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.0.tgz";
-        sha512 = "cnUG4NSBiM4YFBxgZIj/In3/6KX+rQ2l2YPRVcvAMQGWEPKuXoPIhxzwqh31jA3IPbI4qEOp/5ILI4ynioXsGQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.1.tgz";
+        sha512 = "42VLtQUOLefAvKFAQIxIZDaThq6om/PrfP0CYk3/vn+y4BMNkKnbli8ON2QCiHov4KkzOSJ/xSoBJdayiiYvVQ==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -742,13 +742,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001241" = {
+    "caniuse-lite-1.0.30001242" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001241";
+      version = "1.0.30001242";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001241.tgz";
-        sha512 = "1uoSZ1Pq1VpH0WerIMqwptXHNNGfdl7d1cJUFs80CwQ/lVzdhTvsFZCeNFslze7AjsQnb4C85tzclPa1VShbeQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001242.tgz";
+        sha512 = "KvNuZ/duufelMB3w2xtf9gEWCSxJwUgoxOx5b6ScLXC4kPc9xsczUVCPrQU26j5kOsHM4pSUL54tAZt5THQKug==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1561,13 +1561,13 @@ let
         sha512 = "Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==";
       };
     };
-    "fastq-1.11.0" = {
+    "fastq-1.11.1" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.11.0";
+      version = "1.11.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.11.0.tgz";
-        sha512 = "7Eczs8gIPDrVzT+EksYBcupqMyxSHXXrHOLRRxU2/DicV8789MRBRR8+Hc2uWzUupOs4YS4JzBmBxjjCVBxD/g==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.11.1.tgz";
+        sha512 = "HOnr8Mc60eNYl1gzwp6r5RoUyAn5/glBolUzP/Ez6IFVPMPirxn/9phgL6zhOtaTy7ISwPvQ+wT+hfcRZh/bzw==";
       };
     };
     "fb-watchman-2.0.1" = {
@@ -4464,7 +4464,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.6.0"
+          sources."ajv-8.6.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4629,7 +4629,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.6.0"
+          sources."ajv-8.6.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -4705,7 +4705,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.6"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001241"
+      sources."caniuse-lite-1.0.30001242"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -5480,7 +5480,7 @@ in
       sources."end-of-stream-1.4.4"
       sources."execa-3.4.0"
       sources."fast-glob-3.2.6"
-      sources."fastq-1.11.0"
+      sources."fastq-1.11.1"
       sources."fill-range-7.0.1"
       sources."fs.realpath-1.0.0"
       sources."get-stream-5.2.0"
