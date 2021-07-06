@@ -355,22 +355,13 @@ let
         sha512 = "RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==";
       };
     };
-    "@types/glob-7.1.3" = {
+    "@types/glob-7.1.4" = {
       name = "_at_types_slash_glob";
       packageName = "@types/glob";
-      version = "7.1.3";
+      version = "7.1.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/glob/-/glob-7.1.3.tgz";
-        sha512 = "SEYeGAIQIQX8NN6LDKprLjbrd5dARM5EXsd8GI/A5l0apYI1fGMWgPHSe4ZKL4eozlAyI+doUE9XbYS4xCkQ1w==";
-      };
-    };
-    "@types/json5-0.0.29" = {
-      name = "_at_types_slash_json5";
-      packageName = "@types/json5";
-      version = "0.0.29";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz";
-        sha1 = "ee28707ae94e11d2b827bcbe5270bcea7f3e71ee";
+        url = "https://registry.npmjs.org/@types/glob/-/glob-7.1.4.tgz";
+        sha512 = "w+LsMxKyYQm347Otw+IfBXOv9UWVjpHpCDdbBMt8Kz/xbvCYNjP+0qPh91Km3iKfSRLBB0P7fAMf0KHrPu+MyA==";
       };
     };
     "@types/minimatch-3.0.4" = {
@@ -1165,13 +1156,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.767" = {
+    "electron-to-chromium-1.3.768" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.767";
+      version = "1.3.768";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.767.tgz";
-        sha512 = "KYFEZ581N+ovKHR6PJawl+ei5tm0ikX9lKQ+tJnbJhamqve/iowMUiF9073g6A2AVAxqpXp9/gELRQYIdg4pzg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.768.tgz";
+        sha512 = "I4UMZHhVSK2pwt8jOIxTi3GIuc41NkddtKT/hpuxp9GO5UWJgDKTBa4TACppbVAuKtKbMK6BhQZvT5tFF1bcNA==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -2360,15 +2351,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz";
         sha1 = "9db7b59496ad3f3cfef30a75142d2d930ad72651";
-      };
-    };
-    "json5-1.0.1" = {
-      name = "json5";
-      packageName = "json5";
-      version = "1.0.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/json5/-/json5-1.0.1.tgz";
-        sha512 = "aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==";
       };
     };
     "json5-2.2.0" = {
@@ -4072,13 +4054,13 @@ let
         sha512 = "XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==";
       };
     };
-    "tsconfig-paths-3.9.0" = {
+    "tsconfig-paths-3.10.1" = {
       name = "tsconfig-paths";
       packageName = "tsconfig-paths";
-      version = "3.9.0";
+      version = "3.10.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.9.0.tgz";
-        sha512 = "dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==";
+        url = "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.10.1.tgz";
+        sha512 = "rETidPDgCpltxF7MjBZlAFPUHv5aHH2MymyPvh+vEyWAED4Eb/WeMbsnD/JDr4OKPOA1TssDHgIcpTN5Kh0p6Q==";
       };
     };
     "tslib-1.14.1" = {
@@ -4725,7 +4707,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.767"
+      sources."electron-to-chromium-1.3.768"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5109,7 +5091,6 @@ in
         ];
       })
       sources."@eslint/eslintrc-0.2.2"
-      sources."@types/json5-0.0.29"
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.1"
       sources."ajv-6.12.6"
@@ -5256,7 +5237,7 @@ in
       sources."json-parse-better-errors-1.0.2"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
-      sources."json5-1.0.1"
+      sources."json5-2.2.0"
       sources."jsx-ast-utils-3.2.0"
       sources."levn-0.4.1"
       sources."load-json-file-2.0.0"
@@ -5347,7 +5328,7 @@ in
       sources."supports-color-5.5.0"
       sources."table-5.4.6"
       sources."text-table-0.2.0"
-      sources."tsconfig-paths-3.9.0"
+      sources."tsconfig-paths-3.10.1"
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
       sources."unbox-primitive-1.0.1"
@@ -5461,7 +5442,7 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.7"
-      sources."@types/glob-7.1.3"
+      sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.4"
       sources."@types/node-16.0.0"
       sources."aggregate-error-3.1.0"
