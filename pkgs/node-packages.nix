@@ -373,13 +373,13 @@ let
         sha512 = "Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==";
       };
     };
-    "@types/node-16.3.2" = {
+    "@types/node-16.3.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.3.2";
+      version = "16.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.3.2.tgz";
-        sha512 = "jJs9ErFLP403I+hMLGnqDRWT0RYKSvArxuBVh2veudHV7ifEC1WAmjJADacZ7mRbA2nWgHtn8xyECMAot0SkAw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.3.3.tgz";
+        sha512 = "8h7k1YgQKxKXWckzFCMfsIwn0Y61UK6tlD6y2lOb3hTOIMlK3t9/QwHOhc81TwU+RMf0As5fj7NPjroERCnejQ==";
       };
     };
     "JSV-4.0.2" = {
@@ -1156,13 +1156,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "electron-to-chromium-1.3.777" = {
+    "electron-to-chromium-1.3.779" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.777";
+      version = "1.3.779";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.777.tgz";
-        sha512 = "gO0VEU2esNUOu51DTtp7E7xy0d+yZdbC06EACvou1cbPM9Wwyz8ixPa6T1tqDXlT4/AefXtzx0i9OLwKkLOHQA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.779.tgz";
+        sha512 = "nreave0y/1Qhmo8XtO6C/LpawNyC6U26+q7d814/e+tIqUK073pM+4xW7WUXyqCRa5K4wdxHmNMBAi8ap9nEew==";
       };
     };
     "emoji-regex-7.0.3" = {
@@ -4707,7 +4707,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.777"
+      sources."electron-to-chromium-1.3.779"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -5444,7 +5444,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.3.2"
+      sources."@types/node-16.3.3"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
