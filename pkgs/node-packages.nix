@@ -283,13 +283,13 @@ let
         sha512 = "EfB5OHNYp1F4px/LI/FEnGylop7nOqkQ1LRzCM0KccA2U8tvV8w01KBv37LbO7nW4H+YhKyo2LcJhRwjjV17QQ==";
       };
     };
-    "@eslint/eslintrc-0.4.2" = {
+    "@eslint/eslintrc-0.4.3" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "0.4.2";
+      version = "0.4.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.4.2.tgz";
-        sha512 = "8nmGq/4ycLpIwzvhI4tNDmQztZ8sp+hI7cyG8i1nQDhkAbRzHpXPidRAHlNvCZQpJTKw5ItIpMw9RSToGF00mg==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-0.4.3.tgz";
+        sha512 = "J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==";
       };
     };
     "@humanwhocodes/config-array-0.5.0" = {
@@ -877,13 +877,13 @@ let
         sha512 = "dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==";
       };
     };
-    "color-string-1.5.5" = {
+    "color-string-1.6.0" = {
       name = "color-string";
       packageName = "color-string";
-      version = "1.5.5";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/color-string/-/color-string-1.5.5.tgz";
-        sha512 = "jgIoum0OfQfq9Whcfc2z/VhCNcmQjWbey6qBX0vqt7YICflUmBCh9E9CiQD5GSJ+Uehixm3NUwHVhqUAWRivZg==";
+        url = "https://registry.npmjs.org/color-string/-/color-string-1.6.0.tgz";
+        sha512 = "c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA==";
       };
     };
     "colorette-1.2.2" = {
@@ -1300,13 +1300,13 @@ let
         sha512 = "uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==";
       };
     };
-    "eslint-7.30.0" = {
+    "eslint-7.31.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "7.30.0";
+      version = "7.31.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-7.30.0.tgz";
-        sha512 = "VLqz80i3as3NdloY44BQSJpFw534L9Oh+6zJOUaViV4JPd+DaHwutqP7tcpkW3YiXbK6s05RZl7yl7cQn+lijg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-7.31.0.tgz";
+        sha512 = "vafgJpSh2ia8tnTkNUkwxGmnumgckLh5aAbLa1xRmIn9+owi8qBNGKL+B881kNKNTy7FFqTEkpNkUvmw0n6PkA==";
       };
     };
     "eslint-config-standard-16.0.2" = {
@@ -4312,10 +4312,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "7.30.0";
+    version = "7.31.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-7.30.0.tgz";
-      sha512 = "VLqz80i3as3NdloY44BQSJpFw534L9Oh+6zJOUaViV4JPd+DaHwutqP7tcpkW3YiXbK6s05RZl7yl7cQn+lijg==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-7.31.0.tgz";
+      sha512 = "vafgJpSh2ia8tnTkNUkwxGmnumgckLh5aAbLa1xRmIn9+owi8qBNGKL+B881kNKNTy7FFqTEkpNkUvmw0n6PkA==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -4326,7 +4326,7 @@ in
           sources."escape-string-regexp-1.0.5"
         ];
       })
-      sources."@eslint/eslintrc-0.4.2"
+      sources."@eslint/eslintrc-0.4.3"
       sources."@humanwhocodes/config-array-0.5.0"
       sources."@humanwhocodes/object-schema-1.2.0"
       sources."acorn-7.4.1"
@@ -4489,7 +4489,7 @@ in
           sources."supports-color-5.5.0"
         ];
       })
-      sources."@eslint/eslintrc-0.4.2"
+      sources."@eslint/eslintrc-0.4.3"
       sources."@humanwhocodes/config-array-0.5.0"
       sources."@humanwhocodes/object-schema-1.2.0"
       sources."acorn-7.4.1"
@@ -4522,7 +4522,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-7.30.0"
+      sources."eslint-7.31.0"
       sources."eslint-scope-5.1.1"
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
@@ -4694,7 +4694,7 @@ in
       sources."color-3.0.0"
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
-      sources."color-string-1.5.5"
+      sources."color-string-1.6.0"
       sources."colorette-1.2.2"
       sources."colors-1.4.0"
       sources."colorspace-1.1.2"
