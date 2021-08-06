@@ -24,10 +24,11 @@
         "node-pre-gyp"
         "prettier"
         "standardx"
-        "tslint"
-        "typescript"
         "testcafe-browser-tools"
         "trepan-ni"
+        "tslint"
+        "typescript"
+        "typescript-language-server"
       ];
     in
     {
@@ -165,6 +166,14 @@
                 mkdir -p $modules/.bin
                 ln -s $modules/typescript/bin/tsc $modules/.bin/tsc
                 ln -s $modules/typescript/bin/tsserver $modules/.bin/tsserver
+              '';
+            });
+            typescript-language-server = (_nodePackages_latest.typescript-language-server.override {
+              dontNpmInstall = true;
+              preRebuild = ''
+                modules=$out/lib/node_modules
+                mkdir -p $modules/.bin
+                ln -s $modules/typescript-language-server/lib/cli.js $modules/.bin/typescript-language-server
               '';
             });
             testcafe-browser-tools = (_nodePackages_latest.testcafe-browser-tools.override {
