@@ -174,6 +174,7 @@
                 modules=$out/lib/node_modules
                 mkdir -p $modules/.bin
                 ln -s $modules/typescript-language-server/lib/cli.js $modules/.bin/typescript-language-server
+                chmod 755 $modules/.bin/typescript-language-server
               '';
             });
             testcafe-browser-tools = (_nodePackages_latest.testcafe-browser-tools.override {
