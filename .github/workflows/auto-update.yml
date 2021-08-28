@@ -3,6 +3,7 @@ name: Update node-packages.
 on:
   schedule:
   - cron: "0 22 * * *"
+  push:
 
 jobs:
   auto-update:
