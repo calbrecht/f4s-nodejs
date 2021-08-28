@@ -1,6 +1,10 @@
 {
   description = "Update node-packages.";
 
+  inputs = {
+    nixpkgs.url = github:NixOS/nixpkgs/master;
+  };
+
   outputs = { self, nixpkgs }:
     let
       system = "x86_64-linux";
