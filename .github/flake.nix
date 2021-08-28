@@ -2,7 +2,7 @@
   description = "Update node-packages.";
 
   inputs = {
-    nixpkgs.url = github:NixOS/nixpkgs/master;
+    nixpkgs.url = github:NixOS/nixpkgs/83bc698fba4d05ef37826fb1fe732647f420c8ab;
   };
 
   outputs = { self, nixpkgs }:

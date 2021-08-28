@@ -3,6 +3,7 @@
 
   inputs = {
     pkgs-src = { url = github:calbrecht/f4s-nodejs?dir=pkgs; flake = false; };
+    nixpkgs.url = github:NixOS/nixpkgs/83bc698fba4d05ef37826fb1fe732647f420c8ab;
   };
 
   outputs = { self, nixpkgs, pkgs-src }:
