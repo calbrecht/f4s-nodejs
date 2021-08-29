@@ -30,6 +30,9 @@
         "tslint"
         "typescript"
         "typescript-language-server"
+        "bash-language-server"
+        "intelephense"
+        "yaml-language-server"
       ];
     in
     {
@@ -193,6 +196,32 @@
                 mkdir -p $modules/.bin
                 ln -s $modules/trepan-ni/cli.js $modules/.bin/trepan-ni
                 ln -s $modules/trepan-ni/cli.js $modules/.bin/cli.js
+              '';
+            });
+            bash-language-server = (_nodePackages_latest.bash-language-server.override {
+              dontNpmInstall = true;
+              preRebuild = ''
+                modules=$out/lib/node_modules
+                mkdir -p $modules/.bin
+                ln -s $modules/bash-language-server/bin/main.js $modules/.bin/bash-language-server
+              '';
+            });
+            intelephense = (_nodePackages_latest.intelephense.override {
+              dontNpmInstall = true;
+              preRebuild = ''
+                modules=$out/lib/node_modules
+                mkdir -p $modules/.bin
+                ln -s $modules/intelephense/lib/intelephense.js $modules/.bin/intelephense
+                ln -s $modules/intelephense/lib/intelephense.js $modules/.bin/intelephense.js
+                chmod 755 $modules/.bin/intelephense
+              '';
+            });
+            yaml-language-server = (_nodePackages_latest.yaml-language-server.override {
+              dontNpmInstall = true;
+              preRebuild = ''
+                modules=$out/lib/node_modules
+                mkdir -p $modules/.bin
+                ln -s $modules/yaml-language-server/bin/yaml-language-server $modules/.bin/yaml-language-server
               '';
             });
           };
