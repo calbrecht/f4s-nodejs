@@ -216,14 +216,17 @@
                 chmod 755 $modules/.bin/intelephense
               '';
             });
-            yaml-language-server = (_nodePackages_latest.yaml-language-server.override {
+            yaml-language-server = (_nodePackages_latest.yaml-language-server.override (oldAttrs: {
               dontNpmInstall = true;
+              dependencies = [
+                _nodePackages_latest.prettier
+              ] ++ oldAttrs.dependencies;
               preRebuild = ''
                 modules=$out/lib/node_modules
                 mkdir -p $modules/.bin
                 ln -s $modules/yaml-language-server/bin/yaml-language-server $modules/.bin/yaml-language-server
               '';
-            });
+            }));
           };
         };
     };
