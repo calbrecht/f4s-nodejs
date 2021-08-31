@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.7.8" = {
+    "@types/node-16.7.9" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.7.8";
+      version = "16.7.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.7.8.tgz";
-        sha512 = "8upnoQU0OPzbIkm+ZMM0zCeFCkw2s3mS0IWdx0+AAaWqm4fkBb0UJp8Edl7FVKRamYbpJC/aVsHpKWBIbiC7Zg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.7.9.tgz";
+        sha512 = "KktxVzS4FPDFVHUUOWyZMvRo//8vqOLITtLMhFSW9IdLsYT/sPyXj3wXtaTcR7A7olCe7R2Xy7R+q5pg2bU46g==";
       };
     };
     "JSV-4.0.2" = {
@@ -1417,6 +1417,15 @@ let
         sha1 = "b5fd54220aa2bc5ab57aab7140c940754503c1a7";
       };
     };
+    "core-util-is-1.0.3" = {
+      name = "core-util-is";
+      packageName = "core-util-is";
+      version = "1.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz";
+        sha512 = "ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==";
+      };
+    };
     "core_d-3.2.0" = {
       name = "core_d";
       packageName = "core_d";
@@ -1750,13 +1759,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.823" = {
+    "electron-to-chromium-1.3.825" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.823";
+      version = "1.3.825";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.823.tgz";
-        sha512 = "jbwqBmqo9ZBWNfz6EKDTx66rqRDt87ZbOxtUegYNpkVMX6z93PMaFbDy7/LIPRwMI/5T4GVcYkROWDPQm9Ni7A==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.825.tgz";
+        sha512 = "BO3FfWVeH8GQ0DBbi4HCL09OPgvN+0goqWlgKOCmCXcnrlgL5GA69nb7ZyjpWgpFUacBftg8BrXU2WLOSuHAxQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3586,13 +3595,13 @@ let
         sha512 = "6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==";
       };
     };
-    "minipass-fetch-1.3.4" = {
+    "minipass-fetch-1.4.1" = {
       name = "minipass-fetch";
       packageName = "minipass-fetch";
-      version = "1.3.4";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-1.3.4.tgz";
-        sha512 = "TielGogIzbUEtd1LsjZFs47RWuHHfhl6TiCx1InVxApBAmQ8bL0dL5ilkLGcRvuyW/A9nE+Lvn855Ewz8S0PnQ==";
+        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-1.4.1.tgz";
+        sha512 = "CGH1eblLq26Y15+Azk7ey4xh0J/XfJfrCox5LDJiKqI2Q2iwOLOKrlmIaODiSQS8d18jalF6y2K2ePUm0CmShw==";
       };
     };
     "minipass-flush-1.0.5" = {
@@ -6295,12 +6304,12 @@ in
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
       sources."convert-source-map-1.8.0"
-      sources."core-util-is-1.0.2"
+      sources."core-util-is-1.0.3"
       sources."debug-4.3.2"
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.823"
+      sources."electron-to-chromium-1.3.825"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6468,7 +6477,7 @@ in
       sources."code-point-at-1.1.0"
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
-      sources."core-util-is-1.0.2"
+      sources."core-util-is-1.0.3"
       sources."debug-4.3.2"
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
@@ -6501,7 +6510,7 @@ in
       sources."minimatch-3.0.4"
       sources."minipass-3.1.3"
       sources."minipass-collect-1.0.2"
-      sources."minipass-fetch-1.3.4"
+      sources."minipass-fetch-1.4.1"
       sources."minipass-flush-1.0.5"
       sources."minipass-pipeline-1.2.4"
       sources."minipass-sized-1.0.3"
@@ -6589,7 +6598,7 @@ in
       sources."code-point-at-1.1.0"
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
-      sources."core-util-is-1.0.2"
+      sources."core-util-is-1.0.3"
       sources."debug-3.2.7"
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
@@ -6971,7 +6980,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.7.8"
+      sources."@types/node-16.7.9"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
