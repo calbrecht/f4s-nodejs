@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.7.9" = {
+    "@types/node-16.7.10" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.7.9";
+      version = "16.7.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.7.9.tgz";
-        sha512 = "KktxVzS4FPDFVHUUOWyZMvRo//8vqOLITtLMhFSW9IdLsYT/sPyXj3wXtaTcR7A7olCe7R2Xy7R+q5pg2bU46g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.7.10.tgz";
+        sha512 = "S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==";
       };
     };
     "JSV-4.0.2" = {
@@ -796,13 +796,13 @@ let
         sha512 = "Y9J6ZjXtoYh8RnXVCMOU/ttDmk1aBjunq9vO0ta5x85WDQiQfUF9sIPBITdbiiIVcBo03Hi3jMxigBtsddlXRw==";
       };
     };
-    "are-we-there-yet-1.1.5" = {
+    "are-we-there-yet-1.1.6" = {
       name = "are-we-there-yet";
       packageName = "are-we-there-yet";
-      version = "1.1.5";
+      version = "1.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/are-we-there-yet/-/are-we-there-yet-1.1.5.tgz";
-        sha512 = "5hYdAkZlcG8tOLujVDTgCT+uPX0VnpAH28gWsLfzpXYm7wP6mp5Q/gYyR7YQ0cKVJcXJnl3j2kpBan13PtQf6w==";
+        url = "https://registry.npmjs.org/are-we-there-yet/-/are-we-there-yet-1.1.6.tgz";
+        sha512 = "+1byPnimWdGcKFRS48zG73nxM08kamPFReUYvEmRXI3E8E4YhF4voMRDaGlfGD1UeRHEgs4NhQCE28KI8JVj1A==";
       };
     };
     "argparse-1.0.10" = {
@@ -1759,13 +1759,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.825" = {
+    "electron-to-chromium-1.3.827" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.825";
+      version = "1.3.827";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.825.tgz";
-        sha512 = "BO3FfWVeH8GQ0DBbi4HCL09OPgvN+0goqWlgKOCmCXcnrlgL5GA69nb7ZyjpWgpFUacBftg8BrXU2WLOSuHAxQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.827.tgz";
+        sha512 = "ye+4uQOY/jbjRutMcE/EmOcNwUeo1qo9aKL2tPyb09cU3lmxNeyDF4RWiemmkknW+p29h7dyDqy02higTxc9/A==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3739,13 +3739,13 @@ let
         sha1 = "4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7";
       };
     };
-    "needle-2.9.0" = {
+    "needle-2.9.1" = {
       name = "needle";
       packageName = "needle";
-      version = "2.9.0";
+      version = "2.9.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/needle/-/needle-2.9.0.tgz";
-        sha512 = "UBLC4P8w9to3rAhWOQYXIXzTUio9yVnDzIeKxfGbF+Hngy+2bXTqqFK+6nF42EAQKfJdezXK6vzMsefUa1Y3ag==";
+        url = "https://registry.npmjs.org/needle/-/needle-2.9.1.tgz";
+        sha512 = "6R9fqJ5Zcmf+uYaFgdIHmLwNldn5HbK8L5ybn7Uz+ylX/rnOsSp1AHcvQSrCaFN+qNM1wpymHqD7mVasEOlHGQ==";
       };
     };
     "node-emoji-1.11.0" = {
@@ -5062,6 +5062,15 @@ let
         sha512 = "n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==";
       };
     };
+    "string_decoder-1.3.0" = {
+      name = "string_decoder";
+      packageName = "string_decoder";
+      version = "1.3.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/string_decoder/-/string_decoder-1.3.0.tgz";
+        sha512 = "hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==";
+      };
+    };
     "strip-ansi-0.1.1" = {
       name = "strip-ansi";
       packageName = "strip-ansi";
@@ -6283,7 +6292,7 @@ in
       sources."ansi-regex-2.1.1"
       sources."ansi-styles-3.2.1"
       sources."aproba-1.2.0"
-      sources."are-we-there-yet-1.1.5"
+      sources."are-we-there-yet-1.1.6"
       sources."async-3.2.1"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
@@ -6309,7 +6318,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.825"
+      sources."electron-to-chromium-1.3.827"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6347,7 +6356,7 @@ in
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
       sources."nan-2.15.0"
-      (sources."needle-2.9.0" // {
+      (sources."needle-2.9.1" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -6374,7 +6383,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."process-nextick-args-2.0.1"
       sources."rc-1.2.8"
-      sources."readable-stream-2.3.7"
+      sources."readable-stream-3.6.0"
       sources."regenerator-runtime-0.13.9"
       sources."require-relative-0.8.7"
       sources."rimraf-2.7.1"
@@ -6389,7 +6398,11 @@ in
       sources."sqlite3-4.2.0"
       sources."stack-trace-0.0.10"
       sources."string-width-1.0.2"
-      sources."string_decoder-1.1.1"
+      (sources."string_decoder-1.3.0" // {
+        dependencies = [
+          sources."safe-buffer-5.2.1"
+        ];
+      })
       sources."strip-ansi-3.0.1"
       sources."strip-json-comments-2.0.1"
       sources."supports-color-5.5.0"
@@ -6404,12 +6417,13 @@ in
       sources."type-fest-0.8.1"
       sources."util-deprecate-1.0.2"
       sources."wide-align-1.1.3"
-      (sources."winston-3.3.3" // {
+      sources."winston-3.3.3"
+      (sources."winston-transport-4.4.0" // {
         dependencies = [
-          sources."readable-stream-3.6.0"
+          sources."readable-stream-2.3.7"
+          sources."string_decoder-1.1.1"
         ];
       })
-      sources."winston-transport-4.4.0"
       sources."wrappy-1.0.2"
       sources."yallist-3.1.1"
     ];
@@ -6468,7 +6482,7 @@ in
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-2.1.1"
       sources."aproba-1.2.0"
-      sources."are-we-there-yet-1.1.5"
+      sources."are-we-there-yet-1.1.6"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."cacache-15.3.0"
@@ -6477,7 +6491,6 @@ in
       sources."code-point-at-1.1.0"
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
-      sources."core-util-is-1.0.3"
       sources."debug-4.3.2"
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
@@ -6503,7 +6516,6 @@ in
       sources."ip-1.1.5"
       sources."is-fullwidth-code-point-1.0.0"
       sources."is-lambda-1.0.1"
-      sources."isarray-1.0.0"
       sources."isexe-2.0.0"
       sources."lru-cache-6.0.0"
       sources."make-fetch-happen-8.0.14"
@@ -6524,13 +6536,12 @@ in
       sources."once-1.4.0"
       sources."p-map-4.0.0"
       sources."path-is-absolute-1.0.1"
-      sources."process-nextick-args-2.0.1"
       sources."promise-inflight-1.0.1"
       sources."promise-retry-2.0.1"
-      sources."readable-stream-2.3.7"
+      sources."readable-stream-3.6.0"
       sources."retry-0.12.0"
       sources."rimraf-3.0.2"
-      sources."safe-buffer-5.1.2"
+      sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."semver-7.3.5"
       sources."set-blocking-2.0.0"
@@ -6540,7 +6551,7 @@ in
       sources."socks-proxy-agent-5.0.1"
       sources."ssri-8.0.1"
       sources."string-width-1.0.2"
-      sources."string_decoder-1.1.1"
+      sources."string_decoder-1.3.0"
       sources."strip-ansi-3.0.1"
       sources."tar-6.1.11"
       sources."unique-filename-1.1.1"
@@ -6591,14 +6602,13 @@ in
       sources."abbrev-1.1.1"
       sources."ansi-regex-2.1.1"
       sources."aproba-1.2.0"
-      sources."are-we-there-yet-1.1.5"
+      sources."are-we-there-yet-1.1.6"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
-      sources."core-util-is-1.0.3"
       sources."debug-3.2.7"
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
@@ -6614,14 +6624,13 @@ in
       sources."inherits-2.0.4"
       sources."ini-1.3.8"
       sources."is-fullwidth-code-point-1.0.0"
-      sources."isarray-1.0.0"
       sources."minimatch-3.0.4"
       sources."minimist-1.2.5"
       sources."minipass-2.9.0"
       sources."minizlib-1.3.3"
       sources."mkdirp-0.5.5"
       sources."ms-2.1.3"
-      sources."needle-2.9.0"
+      sources."needle-2.9.1"
       sources."nopt-4.0.3"
       sources."npm-bundled-1.1.2"
       sources."npm-normalize-package-bin-1.0.1"
@@ -6634,25 +6643,20 @@ in
       sources."os-tmpdir-1.0.2"
       sources."osenv-0.1.5"
       sources."path-is-absolute-1.0.1"
-      sources."process-nextick-args-2.0.1"
       sources."rc-1.2.8"
-      sources."readable-stream-2.3.7"
+      sources."readable-stream-3.6.0"
       sources."rimraf-2.7.1"
-      sources."safe-buffer-5.1.2"
+      sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."sax-1.2.4"
       sources."semver-5.7.1"
       sources."set-blocking-2.0.0"
       sources."signal-exit-3.0.3"
       sources."string-width-1.0.2"
-      sources."string_decoder-1.1.1"
+      sources."string_decoder-1.3.0"
       sources."strip-ansi-3.0.1"
       sources."strip-json-comments-2.0.1"
-      (sources."tar-4.4.19" // {
-        dependencies = [
-          sources."safe-buffer-5.2.1"
-        ];
-      })
+      sources."tar-4.4.19"
       sources."util-deprecate-1.0.2"
       sources."wide-align-1.1.3"
       sources."wrappy-1.0.2"
@@ -6980,7 +6984,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.7.9"
+      sources."@types/node-16.7.10"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
