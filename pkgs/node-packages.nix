@@ -31,13 +31,13 @@ let
         sha512 = "0NqAC1IJE0S0+lL1SWFMxMkz1pKCNCjI4tr2Zx4LJSXxCLAdr6KyArnY+sno5m3yH9g737ygOyPABDsnXkpxiA==";
       };
     };
-    "@babel/core-7.15.4" = {
+    "@babel/core-7.15.5" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.15.4";
+      version = "7.15.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.15.4.tgz";
-        sha512 = "Lkcv9I4a8bgUI8LJOLM6IKv6hnz1KOju6KM1lceqVMKlKKqNRopYd2Pc9MgIurqvMJ6BooemrnJz8jlIiQIpsA==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.15.5.tgz";
+        sha512 = "pYgXxiwAgQpgM1bNkZsDEq85f0ggXMA5L7c+o3tskGMh2BunCI9QUwB9Z4jpvXUOuMdyGKiGKQiRe11VS6Jzvg==";
       };
     };
     "@babel/generator-7.15.4" = {
@@ -193,13 +193,13 @@ let
         sha512 = "qf9u2WFWVV0MppaL877j2dBtQIDgmidgjGk5VIMw3OadXvYaXn66U1BFlH2t4+t3i+8PhedppRv+i40ABzd+gg==";
       };
     };
-    "@babel/parser-7.15.4" = {
+    "@babel/parser-7.15.5" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.15.4";
+      version = "7.15.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.15.4.tgz";
-        sha512 = "xmzz+7fRpjrvDUj+GV7zfz/R3gSK2cOxGlazaXooxspCr539cbTXJKvBJzSVI2pPhcRGquoOtaIkKCsHQUiO3w==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.15.5.tgz";
+        sha512 = "2hQstc6I7T6tQsWzlboMh3SgMRPaS4H6H7cPQsJkdzTzEGqQrpLDsE2BGASU5sBPoEQyHzeqU6C8uKbFeEk6sg==";
       };
     };
     "@babel/plugin-syntax-flow-7.14.5" = {
@@ -1093,13 +1093,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001252" = {
+    "caniuse-lite-1.0.30001254" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001252";
+      version = "1.0.30001254";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001252.tgz";
-        sha512 = "I56jhWDGMtdILQORdusxBOH+Nl/KgQSdDmpJezYddnAkVOmnoU8zwjTV9xAjMIYxr0iPreEAVylCGcmHCjfaOw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001254.tgz";
+        sha512 = "GxeHOvR0LFMYPmFGA+NiTOt9uwYDxB3h154tW2yBYwfz2EMX3i1IBgr6gmJGfU0K8KQsqPa5XqLD8zVdP5lUzA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1543,13 +1543,13 @@ let
         sha512 = "LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==";
       };
     };
-    "deep-is-0.1.3" = {
+    "deep-is-0.1.4" = {
       name = "deep-is";
       packageName = "deep-is";
-      version = "0.1.3";
+      version = "0.1.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz";
-        sha1 = "b369d6fb5dbc13eecf524f91b070feedc357cf34";
+        url = "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz";
+        sha512 = "oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==";
       };
     };
     "deepmerge-4.2.2" = {
@@ -5956,7 +5956,7 @@ in
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.2"
-      sources."deep-is-0.1.3"
+      sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
@@ -6075,10 +6075,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "10.1.3";
+    version = "11.0.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-10.1.3.tgz";
-      sha512 = "B8ESWH1KrLNgV0CR9r/Mc4lbgArnbWIuHnHrJlmuWx+02UriPXNnk4+nNFakzXHRh/sTHeCA4LiArkSfIqsfsw==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-11.0.0.tgz";
+      sha512 = "eR6yaJepLQ8hMGIfW2Bj41e4ZnxbsbMZvYjDxWl98YnUlqn46qoUi20N3VB0xq9mv1IKsOO+Rqfnjov5Y93zLg==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -6119,7 +6119,7 @@ in
       sources."core_d-3.2.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.2"
-      sources."deep-is-0.1.3"
+      sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
@@ -6248,7 +6248,7 @@ in
     dependencies = [
       sources."@babel/code-frame-7.14.5"
       sources."@babel/compat-data-7.15.0"
-      sources."@babel/core-7.15.4"
+      sources."@babel/core-7.15.5"
       sources."@babel/generator-7.15.4"
       sources."@babel/helper-compilation-targets-7.15.4"
       sources."@babel/helper-function-name-7.15.4"
@@ -6266,7 +6266,7 @@ in
       sources."@babel/helper-validator-option-7.14.5"
       sources."@babel/helpers-7.15.4"
       sources."@babel/highlight-7.14.5"
-      sources."@babel/parser-7.15.4"
+      sources."@babel/parser-7.15.5"
       sources."@babel/plugin-syntax-flow-7.14.5"
       sources."@babel/plugin-syntax-jsx-7.14.5"
       sources."@babel/plugin-syntax-typescript-7.14.5"
@@ -6289,7 +6289,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.16.8"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001252"
+      sources."caniuse-lite-1.0.30001254"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -6734,7 +6734,7 @@ in
       sources."contains-path-0.1.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.2"
-      sources."deep-is-0.1.3"
+      sources."deep-is-0.1.4"
       sources."define-properties-1.1.3"
       sources."doctrine-3.0.0"
       sources."emoji-regex-7.0.3"
@@ -7316,7 +7316,7 @@ in
           sources."whatwg-url-7.1.0"
         ];
       })
-      sources."deep-is-0.1.3"
+      sources."deep-is-0.1.4"
       sources."delayed-stream-1.0.0"
       sources."domexception-1.0.1"
       sources."ecc-jsbn-0.1.2"
