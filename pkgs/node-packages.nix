@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.7.10" = {
+    "@types/node-16.7.11" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.7.10";
+      version = "16.7.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.7.10.tgz";
-        sha512 = "S63Dlv4zIPb8x6MMTgDq5WWRJQe56iBEY0O3SOFA9JrRienkOVDXSXBjjJw6HTNQYSE2JI6GMCR6LVbIMHJVvA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.7.11.tgz";
+        sha512 = "OtOGO+DYmNNqJQG9HG4e5a6iqoRcNfdCf4ha3div7XF5w/uOa3YVpb5aRGClwSDKLmfOysv2hFIvoklffnQi4w==";
       };
     };
     "JSV-4.0.2" = {
@@ -1093,13 +1093,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001254" = {
+    "caniuse-lite-1.0.30001255" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001254";
+      version = "1.0.30001255";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001254.tgz";
-        sha512 = "GxeHOvR0LFMYPmFGA+NiTOt9uwYDxB3h154tW2yBYwfz2EMX3i1IBgr6gmJGfU0K8KQsqPa5XqLD8zVdP5lUzA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001255.tgz";
+        sha512 = "F+A3N9jTZL882f/fg/WWVnKSu6IOo3ueLz4zwaOPbPYHNmM/ZaDUyzyJwS1mZhX7Ex5jqTyW599Gdelh5PDYLQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6289,7 +6289,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.17.0"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001254"
+      sources."caniuse-lite-1.0.30001255"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -6980,7 +6980,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.7.10"
+      sources."@types/node-16.7.11"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
