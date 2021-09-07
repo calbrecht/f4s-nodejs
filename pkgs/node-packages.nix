@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.7.11" = {
+    "@types/node-16.7.13" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.7.11";
+      version = "16.7.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.7.11.tgz";
-        sha512 = "OtOGO+DYmNNqJQG9HG4e5a6iqoRcNfdCf4ha3div7XF5w/uOa3YVpb5aRGClwSDKLmfOysv2hFIvoklffnQi4w==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.7.13.tgz";
+        sha512 = "pLUPDn+YG3FYEt/pHI74HmnJOWzeR+tOIQzUx93pi9M7D8OE7PSLr97HboXwk5F+JS+TLtWuzCOW97AHjmOXXA==";
       };
     };
     "JSV-4.0.2" = {
@@ -1264,13 +1264,13 @@ let
         sha512 = "c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA==";
       };
     };
-    "colorette-1.3.0" = {
+    "colorette-1.4.0" = {
       name = "colorette";
       packageName = "colorette";
-      version = "1.3.0";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/colorette/-/colorette-1.3.0.tgz";
-        sha512 = "ecORCqbSFP7Wm8Y6lyqMJjexBQqXSF7SSeaTyGGphogUjBlFP9m9o08wy86HL2uB7fMTxtOUzLMk7ogKcxMg1w==";
+        url = "https://registry.npmjs.org/colorette/-/colorette-1.4.0.tgz";
+        sha512 = "Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==";
       };
     };
     "colors-1.0.3" = {
@@ -1759,13 +1759,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.830" = {
+    "electron-to-chromium-1.3.832" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.830";
+      version = "1.3.832";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.830.tgz";
-        sha512 = "gBN7wNAxV5vl1430dG+XRcQhD4pIeYeak6p6rjdCtlz5wWNwDad8jwvphe5oi1chL5MV6RNRikfffBBiFuj+rQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.832.tgz";
+        sha512 = "x7lO8tGoW0CyV53qON4Lb5Rok9ipDelNdBIAiYUZ03dqy4u9vohMM1qV047+s/hiyJiqUWX/3PNwkX3kexX5ig==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2209,13 +2209,13 @@ let
         sha1 = "3d8a5c66883a16a30ca8643e851f19baa7797917";
       };
     };
-    "fast-safe-stringify-2.0.8" = {
+    "fast-safe-stringify-2.1.0" = {
       name = "fast-safe-stringify";
       packageName = "fast-safe-stringify";
-      version = "2.0.8";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.0.8.tgz";
-        sha512 = "lXatBjf3WPjmWD6DpIZxkeSsCOwqI0maYMpgDlx8g4U2qi4lbjA9oH/HD2a87G+KfsUmo5WbJFmqBZlPxtptag==";
+        url = "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.1.0.tgz";
+        sha512 = "xHSIyDJTOVQjtMBGcUokl3tpaOKgTyVTjlHj255V4Q4J1oho3cnrWrf5sCx8z1jq7gzNMv8y0PH53pYYuZUFPQ==";
       };
     };
     "fastq-1.12.0" = {
@@ -6297,7 +6297,7 @@ in
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
       sources."color-string-1.6.0"
-      sources."colorette-1.3.0"
+      sources."colorette-1.4.0"
       sources."colors-1.4.0"
       sources."colorspace-1.1.2"
       sources."commander-4.1.1"
@@ -6309,11 +6309,11 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.830"
+      sources."electron-to-chromium-1.3.832"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
-      sources."fast-safe-stringify-2.0.8"
+      sources."fast-safe-stringify-2.1.0"
       sources."fb-watchman-2.0.1"
       sources."fecha-4.2.1"
       sources."fn.name-1.1.0"
@@ -6980,7 +6980,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.7.11"
+      sources."@types/node-16.7.13"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
