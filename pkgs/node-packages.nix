@@ -688,13 +688,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.6.2" = {
+    "ajv-8.6.3" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.6.2";
+      version = "8.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.2.tgz";
-        sha512 = "9807RlWAgT564wT+DjeyU5OFMPjmzxVobvDFmNAhY+5zD6A2ly3jDp6sgnfyDtlIQ+7H97oc/DGCzzfu9rjw9w==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.3.tgz";
+        sha512 = "SMJOdDP6LqTkD0Uq8qLi+gMwSt0imXLSV080qFVwJCpH9U6Mb+SUGHAXM0KNbcBPguytWyvFxcHgMLe2D2XSpw==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -6057,7 +6057,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.6.2"
+          sources."ajv-8.6.3"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -6222,7 +6222,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.7.1" // {
         dependencies = [
-          sources."ajv-8.6.2"
+          sources."ajv-8.6.3"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -6573,10 +6573,10 @@ in
   node-gyp-build = nodeEnv.buildNodePackage {
     name = "node-gyp-build";
     packageName = "node-gyp-build";
-    version = "4.2.3";
+    version = "4.3.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.2.3.tgz";
-      sha512 = "MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==";
+      url = "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.3.0.tgz";
+      sha512 = "iWjXZvmboq0ja1pUGULQBexmxq8CV4xBhX7VDOTbL7ZR4FOowwY/VOtRxBN/yKxmdGoIp4j5ysNT4u3S2pDQ3Q==";
     };
     buildInputs = globalBuildInputs;
     meta = {
