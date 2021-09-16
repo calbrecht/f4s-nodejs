@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.9.1" = {
+    "@types/node-16.9.2" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.9.1";
+      version = "16.9.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.9.1.tgz";
-        sha512 = "QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.9.2.tgz";
+        sha512 = "ZHty/hKoOLZvSz6BtP1g7tc7nUeJhoCf3flLjh8ZEv1vFKBWHXcnMbJMyN/pftSljNyy0kNW/UqI3DccnBnZ8w==";
       };
     };
     "JSV-4.0.2" = {
@@ -1759,13 +1759,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.840" = {
+    "electron-to-chromium-1.3.841" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.840";
+      version = "1.3.841";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.840.tgz";
-        sha512 = "yRoUmTLDJnkIJx23xLY7GbSvnmDCq++NSuxHDQ0jiyDJ9YZBUGJcrdUqm+ZwZFzMbCciVzfem2N2AWiHJcWlbw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.841.tgz";
+        sha512 = "0w3dJaRfl4A+LfbdvZaGT3JPm6TbTYKeJj8y5YWaEI9Z4WBNIshlzxL3S1msMGpuhiMZQE9cfgAV8oMib+Z4Tg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4801,13 +4801,13 @@ let
         sha1 = "3ff21f198cad2175f9f3b781853fd94d0d19b590";
       };
     };
-    "signal-exit-3.0.3" = {
+    "signal-exit-3.0.4" = {
       name = "signal-exit";
       packageName = "signal-exit";
-      version = "3.0.3";
+      version = "3.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.3.tgz";
-        sha512 = "VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==";
+        url = "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.4.tgz";
+        sha512 = "rqYhcAnZ6d/vTPGghdrw7iumdcbXpsk1b8IG/rz+VWV51DM0p7XCtMoJ3qhPLIbp3tvyt3pKRbaaEMZYpHto8Q==";
       };
     };
     "simple-swizzle-0.2.2" = {
@@ -6318,7 +6318,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.840"
+      sources."electron-to-chromium-1.3.841"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6392,7 +6392,7 @@ in
       sources."sax-1.2.4"
       sources."semver-6.3.0"
       sources."set-blocking-2.0.0"
-      sources."signal-exit-3.0.3"
+      sources."signal-exit-3.0.4"
       sources."simple-swizzle-0.2.2"
       sources."source-map-0.5.7"
       sources."sqlite3-4.2.0"
@@ -6543,7 +6543,7 @@ in
       sources."safer-buffer-2.1.2"
       sources."semver-7.3.5"
       sources."set-blocking-2.0.0"
-      sources."signal-exit-3.0.3"
+      sources."signal-exit-3.0.4"
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.1"
       sources."socks-proxy-agent-5.0.1"
@@ -6652,7 +6652,7 @@ in
       sources."sax-1.2.4"
       sources."semver-5.7.1"
       sources."set-blocking-2.0.0"
-      sources."signal-exit-3.0.3"
+      sources."signal-exit-3.0.4"
       sources."string-width-1.0.2"
       sources."string_decoder-1.1.1"
       sources."strip-ansi-3.0.1"
@@ -6680,10 +6680,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "2.4.0";
+    version = "2.4.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-2.4.0.tgz";
-      sha512 = "DsEPLY1dE5HF3BxCRBmD4uYZ+5DCbvatnolqTqcxEgKVZnL2kUfyu7b8pPQ5+hTBkdhU9SLUmK0/pHb07RE4WQ==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-2.4.1.tgz";
+      sha512 = "9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6990,7 +6990,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.9.1"
+      sources."@types/node-16.9.2"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7065,7 +7065,7 @@ in
       sources."run-parallel-1.2.0"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
-      sources."signal-exit-3.0.3"
+      sources."signal-exit-3.0.4"
       sources."slash-3.0.0"
       sources."strip-final-newline-2.0.0"
       sources."to-regex-range-5.0.1"
