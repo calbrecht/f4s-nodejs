@@ -1030,13 +1030,13 @@ let
         sha512 = "9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==";
       };
     };
-    "browserslist-4.17.0" = {
+    "browserslist-4.17.1" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.17.0";
+      version = "4.17.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.17.0.tgz";
-        sha512 = "g2BJ2a0nEYvEFQC208q8mVAhfNwpZ5Mu8BwgtCdZKO3qx98HChmeg448fPdUzld8aFmfLgVh7yymqV+q1lJZ5g==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.17.1.tgz";
+        sha512 = "aLD0ZMDSnF4lUt4ZDNgqi5BUn9BZ7YdQdI/cYlILrhdSSZJLU9aNZoD5/NBmM4SK34APB2e83MOsRt1EnkuyaQ==";
       };
     };
     "bser-2.1.1" = {
@@ -1262,15 +1262,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/color-string/-/color-string-1.6.0.tgz";
         sha512 = "c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA==";
-      };
-    };
-    "colorette-1.4.0" = {
-      name = "colorette";
-      packageName = "colorette";
-      version = "1.4.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/colorette/-/colorette-1.4.0.tgz";
-        sha512 = "Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==";
       };
     };
     "colors-1.0.3" = {
@@ -1759,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.846" = {
+    "electron-to-chromium-1.3.847" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.846";
+      version = "1.3.847";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.846.tgz";
-        sha512 = "2jtSwgyiRzybHRxrc2nKI+39wH3AwQgn+sogQ+q814gv8hIFwrcZbV07Ea9f8AmK0ufPVZUvvAG1uZJ+obV4Jw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.847.tgz";
+        sha512 = "u2VQOKACHgflbu9TAAiJ9UPaQj6AD0dijL79wdqTAzFz86GXSTTPyaoxP3gZflH+r0DAlY0jD4G0TqzHzLN6Vg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2207,15 +2198,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz";
         sha1 = "3d8a5c66883a16a30ca8643e851f19baa7797917";
-      };
-    };
-    "fast-safe-stringify-2.1.1" = {
-      name = "fast-safe-stringify";
-      packageName = "fast-safe-stringify";
-      version = "2.1.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz";
-        sha512 = "W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA==";
       };
     };
     "fastq-1.13.0" = {
@@ -3433,13 +3415,13 @@ let
         sha1 = "5a350da0b1113b837ecfffd5812cbe58d6eae193";
       };
     };
-    "logform-2.2.0" = {
+    "logform-2.3.0" = {
       name = "logform";
       packageName = "logform";
-      version = "2.2.0";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/logform/-/logform-2.2.0.tgz";
-        sha512 = "N0qPlqfypFx7UHNn4B3lzS/b0uLqt2hmuoa+PpuXNYgozdJYAyauF5Ky0BWVjrxDlMWiT3qN4zPq3vVAfZy7Yg==";
+        url = "https://registry.npmjs.org/logform/-/logform-2.3.0.tgz";
+        sha512 = "graeoWUH2knKbGthMtuG1EfaSPMZFZBIrhuJHhkS5ZseFBrc7DupCzihOQAzsK/qIKPQaPJ/lFQFctILUY5ARQ==";
       };
     };
     "long-4.0.0" = {
@@ -3719,6 +3701,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/nan/-/nan-2.15.0.tgz";
         sha512 = "8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==";
+      };
+    };
+    "nanocolors-0.1.6" = {
+      name = "nanocolors";
+      packageName = "nanocolors";
+      version = "0.1.6";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/nanocolors/-/nanocolors-0.1.6.tgz";
+        sha512 = "2pvTw6vYRaBLGir2xR7MxaJtyWkrn+C53EpW8yPotG+pdAwBvt0Xwk4VJ6VHLY0aLthVZPvDfm9TdZvrvAm5UQ==";
       };
     };
     "nanoid-2.1.11" = {
@@ -4700,6 +4691,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz";
         sha512 = "rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==";
+      };
+    };
+    "safe-stable-stringify-1.1.1" = {
+      name = "safe-stable-stringify";
+      packageName = "safe-stable-stringify";
+      version = "1.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-1.1.1.tgz";
+        sha512 = "ERq4hUjKDbJfE4+XtZLFPCDi8Vb1JqaxAPTxWFLBx8XcAlf9Bda/ZJdVezs/NAfsMQScyIlUMx+Yeu7P7rx5jw==";
       };
     };
     "safer-buffer-2.1.2" = {
@@ -6296,7 +6296,7 @@ in
       sources."async-3.2.1"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.17.0"
+      sources."browserslist-4.17.1"
       sources."bser-2.1.1"
       sources."caniuse-lite-1.0.30001259"
       sources."chalk-2.4.2"
@@ -6306,7 +6306,6 @@ in
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
       sources."color-string-1.6.0"
-      sources."colorette-1.4.0"
       sources."colors-1.4.0"
       sources."colorspace-1.1.2"
       sources."commander-4.1.1"
@@ -6318,11 +6317,10 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.846"
+      sources."electron-to-chromium-1.3.847"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
-      sources."fast-safe-stringify-2.1.1"
       sources."fb-watchman-2.0.1"
       sources."fecha-4.2.1"
       sources."fn.name-1.1.0"
@@ -6348,7 +6346,7 @@ in
       sources."json5-2.2.0"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
-      sources."logform-2.2.0"
+      sources."logform-2.3.0"
       sources."minimatch-3.0.4"
       sources."minimist-1.2.5"
       sources."minipass-2.9.0"
@@ -6356,6 +6354,7 @@ in
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
       sources."nan-2.15.0"
+      sources."nanocolors-0.1.6"
       (sources."needle-2.9.1" // {
         dependencies = [
           sources."debug-3.2.7"
@@ -6388,6 +6387,7 @@ in
       sources."require-relative-0.8.7"
       sources."rimraf-2.7.1"
       sources."safe-buffer-5.1.2"
+      sources."safe-stable-stringify-1.1.1"
       sources."safer-buffer-2.1.2"
       sources."sax-1.2.4"
       sources."semver-6.3.0"
