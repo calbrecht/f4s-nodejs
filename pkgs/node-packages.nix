@@ -1093,13 +1093,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001259" = {
+    "caniuse-lite-1.0.30001260" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001259";
+      version = "1.0.30001260";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001259.tgz";
-        sha512 = "V7mQTFhjITxuk9zBpI6nYsiTXhcPe05l+364nZjK7MFK/E7ibvYBSAXr4YcA6oPR8j3ZLM/LN+lUqUVAQEUZFg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001260.tgz";
+        sha512 = "Fhjc/k8725ItmrvW5QomzxLeojewxvqiYCKeFcfFEhut28IVLdpHU19dneOmltZQIE5HNbawj1HYD+1f2bM1Dg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.847" = {
+    "electron-to-chromium-1.3.849" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.847";
+      version = "1.3.849";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.847.tgz";
-        sha512 = "u2VQOKACHgflbu9TAAiJ9UPaQj6AD0dijL79wdqTAzFz86GXSTTPyaoxP3gZflH+r0DAlY0jD4G0TqzHzLN6Vg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.849.tgz";
+        sha512 = "RweyW60HPOqIcxoKTGr38Yvtf2aliSUqX8dB3e9geJ0Bno0YLjcOX5F7/DPVloBkJWaPZ7xOM1A0Yme2T1A34w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2470,13 +2470,13 @@ let
         sha1 = "5eff8e3e684d569ae4cb2b1282604e8ba62149fa";
       };
     };
-    "glob-7.1.7" = {
+    "glob-7.2.0" = {
       name = "glob";
       packageName = "glob";
-      version = "7.1.7";
+      version = "7.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-7.1.7.tgz";
-        sha512 = "OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==";
+        url = "https://registry.npmjs.org/glob/-/glob-7.2.0.tgz";
+        sha512 = "lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==";
       };
     };
     "glob-parent-5.1.2" = {
@@ -3703,13 +3703,13 @@ let
         sha512 = "8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==";
       };
     };
-    "nanocolors-0.1.6" = {
+    "nanocolors-0.1.12" = {
       name = "nanocolors";
       packageName = "nanocolors";
-      version = "0.1.6";
+      version = "0.1.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nanocolors/-/nanocolors-0.1.6.tgz";
-        sha512 = "2pvTw6vYRaBLGir2xR7MxaJtyWkrn+C53EpW8yPotG+pdAwBvt0Xwk4VJ6VHLY0aLthVZPvDfm9TdZvrvAm5UQ==";
+        url = "https://registry.npmjs.org/nanocolors/-/nanocolors-0.1.12.tgz";
+        sha512 = "2nMHqg1x5PU+unxX7PGY7AuYxl2qDx7PSrTRjizr8sxdd3l/3hBuWWaki62qmtYm2U5i4Z5E7GbjlyDFhs9/EQ==";
       };
     };
     "nanoid-2.1.11" = {
@@ -5026,13 +5026,13 @@ let
         sha512 = "vafcv6KjVZKSgz06oM/H6GDBrAtz8vdhQakGjFIvNrHA6y3HCF1CInLy+QLq8dTJPQ1b+KDUqDFctkdRW44e1w==";
       };
     };
-    "string-width-4.2.2" = {
+    "string-width-4.2.3" = {
       name = "string-width";
       packageName = "string-width";
-      version = "4.2.2";
+      version = "4.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string-width/-/string-width-4.2.2.tgz";
-        sha512 = "XBJbT3N4JhVumXE0eoLU9DCjcaF92KLNqTmFCnG1pf8duUxFGwtP6AD6nkjw9a3IdiRtL3E2w3JDiE/xi3vOeA==";
+        url = "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz";
+        sha512 = "wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==";
       };
     };
     "string.prototype.matchall-4.0.5" = {
@@ -5098,13 +5098,13 @@ let
         sha512 = "DuRs1gKbBqsMKIZlrffwlug8MHkcnpjs5VPmL1PAh+mA30U0DTotfDZ0d2UUsXpPmPmMMJ6W773MaA3J+lbiWA==";
       };
     };
-    "strip-ansi-6.0.0" = {
+    "strip-ansi-6.0.1" = {
       name = "strip-ansi";
       packageName = "strip-ansi";
-      version = "6.0.0";
+      version = "6.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.0.tgz";
-        sha512 = "AuvKTrTfQNYNIctbR1K/YGTR1756GycPsg7b9bdV9Duqur4gv6aKqHXah67Z8ImS7WEz5QVcOtlfW2rZEugt6w==";
+        url = "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz";
+        sha512 = "Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==";
       };
     };
     "strip-bom-3.0.0" = {
@@ -6003,7 +6003,7 @@ in
       sources."flatted-3.2.2"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globals-13.11.0"
       sources."has-flag-3.0.0"
@@ -6051,8 +6051,8 @@ in
         ];
       })
       sources."sprintf-js-1.0.3"
-      sources."string-width-4.2.2"
-      sources."strip-ansi-6.0.0"
+      sources."string-width-4.2.3"
+      sources."strip-ansi-6.0.1"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
       (sources."table-6.7.1" // {
@@ -6167,7 +6167,7 @@ in
       sources."flatted-3.2.2"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globals-13.11.0"
       sources."has-flag-4.0.0"
@@ -6216,8 +6216,8 @@ in
         ];
       })
       sources."sprintf-js-1.0.3"
-      sources."string-width-4.2.2"
-      sources."strip-ansi-6.0.0"
+      sources."string-width-4.2.3"
+      sources."strip-ansi-6.0.1"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
       (sources."table-6.7.1" // {
@@ -6298,7 +6298,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.17.1"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001259"
+      sources."caniuse-lite-1.0.30001260"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -6317,7 +6317,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.847"
+      sources."electron-to-chromium-1.3.849"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6328,7 +6328,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."gauge-2.7.4"
       sources."gensync-1.0.0-beta.2"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."globals-12.4.0"
       sources."has-flag-3.0.0"
       sources."has-unicode-2.0.1"
@@ -6354,7 +6354,7 @@ in
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
       sources."nan-2.15.0"
-      sources."nanocolors-0.1.6"
+      sources."nanocolors-0.1.12"
       (sources."needle-2.9.1" // {
         dependencies = [
           sources."debug-3.2.7"
@@ -6496,7 +6496,7 @@ in
       sources."fs-minipass-2.1.0"
       sources."fs.realpath-1.0.0"
       sources."gauge-2.7.4"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."graceful-fs-4.2.8"
       sources."has-unicode-2.0.1"
       sources."http-cache-semantics-4.1.0"
@@ -6615,7 +6615,7 @@ in
       sources."fs-minipass-1.2.7"
       sources."fs.realpath-1.0.0"
       sources."gauge-2.7.4"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."has-unicode-2.0.1"
       sources."iconv-lite-0.4.24"
       sources."ignore-walk-3.0.4"
@@ -6823,7 +6823,7 @@ in
       sources."get-intrinsic-1.1.1"
       sources."get-stdin-8.0.0"
       sources."get-symbol-description-1.0.0"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globals-12.4.0"
       sources."graceful-fs-4.2.8"
@@ -6945,7 +6945,7 @@ in
       sources."string.prototype.matchall-4.0.5"
       sources."string.prototype.trimend-1.0.4"
       sources."string.prototype.trimstart-1.0.4"
-      sources."strip-ansi-6.0.0"
+      sources."strip-ansi-6.0.1"
       sources."strip-bom-3.0.0"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
@@ -7012,7 +7012,7 @@ in
       sources."fill-range-7.0.1"
       sources."fs.realpath-1.0.0"
       sources."get-stream-5.2.0"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globby-10.0.2"
       sources."graceful-fs-4.2.8"
@@ -7154,7 +7154,7 @@ in
       sources."esprima-4.0.1"
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."has-1.0.3"
       sources."has-flag-3.0.0"
       sources."inflight-1.0.6"
@@ -7233,7 +7233,7 @@ in
       sources."fill-range-7.0.1"
       sources."fs-extra-10.0.0"
       sources."fs.realpath-1.0.0"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globby-11.0.4"
       sources."graceful-fs-4.2.8"
@@ -7344,7 +7344,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."fuzzy-search-3.2.1"
       sources."getpass-0.1.7"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."html-encoding-sniffer-1.0.2"
@@ -7533,7 +7533,7 @@ in
       sources."fs-extra-9.1.0"
       sources."fs.realpath-1.0.0"
       sources."getpass-0.1.7"
-      sources."glob-7.1.7"
+      sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."graceful-fs-4.2.8"
       sources."har-schema-2.0.0"
