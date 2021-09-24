@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.849" = {
+    "electron-to-chromium-1.3.850" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.849";
+      version = "1.3.850";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.849.tgz";
-        sha512 = "RweyW60HPOqIcxoKTGr38Yvtf2aliSUqX8dB3e9geJ0Bno0YLjcOX5F7/DPVloBkJWaPZ7xOM1A0Yme2T1A34w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.850.tgz";
+        sha512 = "ZzkDcdzePeF4dhoGZQT77V2CyJOpwfTZEOg4h0x6R/jQhGt/rIRpbRyVreWLtD7B/WsVxo91URm2WxMKR9JQZA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6317,7 +6317,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.849"
+      sources."electron-to-chromium-1.3.850"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
