@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.9.6" = {
+    "@types/node-16.10.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.9.6";
+      version = "16.10.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.9.6.tgz";
-        sha512 = "YHUZhBOMTM3mjFkXVcK+WwAcYmyhe1wL4lfqNtzI0b3qAy7yuSetnM7QJazgE5PFmgVTNGiLOgRFfJMqW7XpSQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.10.1.tgz";
+        sha512 = "4/Z9DMPKFexZj/Gn3LylFgamNKHm4K3QDi0gz9B26Uk0c8izYf97B5fxfpspMNkWlFupblKM/nV8+NA9Ffvr+w==";
       };
     };
     "JSV-4.0.2" = {
@@ -6990,7 +6990,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.9.6"
+      sources."@types/node-16.10.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
