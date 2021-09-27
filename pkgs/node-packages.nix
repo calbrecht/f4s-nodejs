@@ -2929,13 +2929,13 @@ let
         sha512 = "nsuwtxZfMX67Oryl9LCQ+upnC0Z0BgpwntpS89m1H/TLF0zNfzfLMV/9Wa/6MZsj0acpEjAO0KF1xT6ZdLl95w==";
       };
     };
-    "is-core-module-2.6.0" = {
+    "is-core-module-2.7.0" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.6.0";
+      version = "2.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.6.0.tgz";
-        sha512 = "wShG8vs60jKfPWpF2KZRaAtvt3a20OAn7+IJ6hLPECpSABLcKtFKTTI4ZtH5QcBruBHlq+WsdHWyz0BCZW7svQ==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.7.0.tgz";
+        sha512 = "ByY+tjCciCr+9nLryBYcSD50EOGWt95c7tIsKTG1J2ixKKXPvF7Ej3AVd+UfDydAJom3biBGDBALaO79ktwgEQ==";
       };
     };
     "is-date-object-1.0.5" = {
@@ -2983,13 +2983,13 @@ let
         sha512 = "zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==";
       };
     };
-    "is-glob-4.0.1" = {
+    "is-glob-4.0.2" = {
       name = "is-glob";
       packageName = "is-glob";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-glob/-/is-glob-4.0.1.tgz";
-        sha512 = "5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==";
+        url = "https://registry.npmjs.org/is-glob/-/is-glob-4.0.2.tgz";
+        sha512 = "ZZTOjRcDjuAAAv2cTBQP/lL59ZTArx77+7UzHdWW/XB1mrfp7DEaVpKmZ0XIzx+M7AxfhKcqV+nMetUQmFifwg==";
       };
     };
     "is-lambda-1.0.1" = {
@@ -5539,31 +5539,31 @@ let
         sha1 = "3a105ca17053af55d6e270c1f8288682e18da400";
       };
     };
-    "vscode-css-languageservice-5.1.5" = {
+    "vscode-css-languageservice-5.1.6" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "5.1.5";
+      version = "5.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.5.tgz";
-        sha512 = "c1hhsbnZ7bBvj10vMDLmkOk/n9r0rXQYDj4kbBi59bZaaEZ3e81zURx76/618NZM5NytlZmGfvmxQtB7mb03Ow==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.6.tgz";
+        sha512 = "n2R//bNzAIIhE60ELNjOWVrQrUxzd9zHv+MfotCJo5KpjMQ5n5+OU8s5yMLImEjrKmIhlWBxb5I7NMKpg01bFA==";
       };
     };
-    "vscode-html-languageservice-4.0.8" = {
+    "vscode-html-languageservice-4.1.0" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "4.0.8";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-4.0.8.tgz";
-        sha512 = "VJ4boG3uOD5Ls0pCvml7ZkHY+f1uDuxr+wR39XrerPr7qQFAu91DRTBuOzBsp6lV3x5Vz2S835AS2ZzLNmezbg==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-4.1.0.tgz";
+        sha512 = "QQrEKfpfbeglD8Jcai4fQDQ7vOJrN6LyiOs47Y6qAxnhve+ervw1kP2UCt9ohHe/6teNWJDYTGxLDgs5iAvitw==";
       };
     };
-    "vscode-json-languageservice-4.1.7" = {
+    "vscode-json-languageservice-4.1.8" = {
       name = "vscode-json-languageservice";
       packageName = "vscode-json-languageservice";
-      version = "4.1.7";
+      version = "4.1.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.1.7.tgz";
-        sha512 = "cwG5TwZyHYthsk2aS3W1dVgVP6Vwn3o+zscwN58uMgZt/nKuyxd9vdEB1F58Ix+S5kSKAnkUCP6hvulcoImQQQ==";
+        url = "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.1.8.tgz";
+        sha512 = "0vSpg6Xd9hfV+eZAaYN63xVVMOTmJ4GgHxXnkLCh+9RsQBkWKIghzLhW2B9ebfG+LQQg8uLtsQ2aUKjTgE+QOg==";
       };
     };
     "vscode-jsonrpc-6.0.0" = {
@@ -6014,7 +6014,7 @@ in
       sources."inherits-2.0.4"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
-      sources."is-glob-4.0.1"
+      sources."is-glob-4.0.2"
       sources."isexe-2.0.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
@@ -6178,7 +6178,7 @@ in
       sources."inherits-2.0.4"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
-      sources."is-glob-4.0.1"
+      sources."is-glob-4.0.2"
       sources."isexe-2.0.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
@@ -6843,11 +6843,11 @@ in
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
       sources."is-callable-1.2.4"
-      sources."is-core-module-2.6.0"
+      sources."is-core-module-2.7.0"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-2.0.0"
-      sources."is-glob-4.0.1"
+      sources."is-glob-4.0.2"
       sources."is-negative-zero-2.0.1"
       sources."is-number-object-1.0.6"
       sources."is-regex-1.1.4"
@@ -7022,7 +7022,7 @@ in
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."is-extglob-2.1.1"
-      sources."is-glob-4.0.1"
+      sources."is-glob-4.0.2"
       sources."is-number-7.0.0"
       sources."is-path-cwd-2.2.0"
       sources."is-path-inside-3.0.3"
@@ -7159,7 +7159,7 @@ in
       sources."has-flag-3.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-core-module-2.6.0"
+      sources."is-core-module-2.7.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."minimatch-3.0.4"
@@ -7207,10 +7207,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "0.6.2";
+    version = "0.6.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.6.2.tgz";
-      sha512 = "JiLQ5G7CWlswUFhBhudoX4jbfgyo/CIIED3CIrrlwcl/QSTt1gDZX+3sx1H/yTwzJRhnKgKS/AnbzbU9tgSVEA==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.6.3.tgz";
+      sha512 = "AJux8qVVoXcu1pSG7CwpxzTWGUy92pXFIG1iSsbC4YPajYmP/CNERPL1jHW+8cHHKgpHWKAxJmYpEB0twqw/2Q==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7242,7 +7242,7 @@ in
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."is-extglob-2.1.1"
-      sources."is-glob-4.0.1"
+      sources."is-glob-4.0.2"
       sources."is-number-7.0.0"
       sources."is-path-cwd-2.2.0"
       sources."is-path-inside-3.0.3"
@@ -7546,7 +7546,7 @@ in
       sources."inherits-2.0.4"
       sources."ini-1.3.8"
       sources."is-extglob-2.1.1"
-      sources."is-glob-4.0.1"
+      sources."is-glob-4.0.2"
       sources."is-number-7.0.0"
       sources."is-typedarray-1.0.0"
       sources."isstream-0.1.2"
@@ -7603,12 +7603,12 @@ in
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-5.1.5" // {
+      (sources."vscode-css-languageservice-5.1.6" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      (sources."vscode-html-languageservice-4.0.8" // {
+      (sources."vscode-html-languageservice-4.1.0" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
@@ -7662,7 +7662,7 @@ in
       sources."jsonc-parser-3.0.0"
       sources."ms-2.0.0"
       sources."request-light-0.2.5"
-      (sources."vscode-json-languageservice-4.1.7" // {
+      (sources."vscode-json-languageservice-4.1.8" // {
         dependencies = [
           sources."vscode-nls-5.0.0"
           sources."vscode-uri-3.0.2"
