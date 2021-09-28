@@ -1093,13 +1093,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001260" = {
+    "caniuse-lite-1.0.30001261" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001260";
+      version = "1.0.30001261";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001260.tgz";
-        sha512 = "Fhjc/k8725ItmrvW5QomzxLeojewxvqiYCKeFcfFEhut28IVLdpHU19dneOmltZQIE5HNbawj1HYD+1f2bM1Dg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001261.tgz";
+        sha512 = "vM8D9Uvp7bHIN0fZ2KQ4wnmYFpJo/Etb4Vwsuc+ka0tfGDHvOPrFm6S/7CCNLSOkAUjenT2HnUPESdOIL91FaA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.850" = {
+    "electron-to-chromium-1.3.853" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.850";
+      version = "1.3.853";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.850.tgz";
-        sha512 = "ZzkDcdzePeF4dhoGZQT77V2CyJOpwfTZEOg4h0x6R/jQhGt/rIRpbRyVreWLtD7B/WsVxo91URm2WxMKR9JQZA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.853.tgz";
+        sha512 = "W4U8n+U8I5/SUaFcqZgbKRmYZwcyEIQVBDf+j5QQK6xChjXnQD+wj248eGR9X4u+dDmDR//8vIfbu4PrdBBIoQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.18.6" = {
+    "es-abstract-1.18.7" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.18.6";
+      version = "1.18.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.18.6.tgz";
-        sha512 = "kAeIT4cku5eNLNuUKhlmtuk1/TRZvQoYccn6TO0cSVdf1kzB0T7+dYuVK9MWM7l+/53W2Q8M7N2c6MQvhXFcUQ==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.18.7.tgz";
+        sha512 = "uFG1gyVX91tZIiDWNmPsL8XNpiCk/6tkB7MZphoSJflS4w+KgWyQ2gjCVDnsPxFAo9WjRXG3eqONNYdfbJjAtw==";
       };
     };
     "es-to-primitive-1.2.1" = {
@@ -5539,13 +5539,13 @@ let
         sha1 = "3a105ca17053af55d6e270c1f8288682e18da400";
       };
     };
-    "vscode-css-languageservice-5.1.6" = {
+    "vscode-css-languageservice-5.1.7" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "5.1.6";
+      version = "5.1.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.6.tgz";
-        sha512 = "n2R//bNzAIIhE60ELNjOWVrQrUxzd9zHv+MfotCJo5KpjMQ5n5+OU8s5yMLImEjrKmIhlWBxb5I7NMKpg01bFA==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.7.tgz";
+        sha512 = "h4oafcZaGFe2VtbNIlkZDmLEP0GQha3E5Ct2YMH4p/p9xYC8yWDNQ5CD+VF3UnSijKPSKmA+oc4cKjhJBowGKw==";
       };
     };
     "vscode-html-languageservice-4.1.0" = {
@@ -6298,7 +6298,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.17.1"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001260"
+      sources."caniuse-lite-1.0.30001261"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -6317,7 +6317,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.850"
+      sources."electron-to-chromium-1.3.853"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6749,7 +6749,7 @@ in
       sources."emoji-regex-7.0.3"
       sources."enquirer-2.3.6"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.18.6"
+      sources."es-abstract-1.18.7"
       sources."es-to-primitive-1.2.1"
       sources."escape-string-regexp-1.0.5"
       sources."eslint-7.13.0"
@@ -7603,7 +7603,7 @@ in
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-5.1.6" // {
+      (sources."vscode-css-languageservice-5.1.7" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
