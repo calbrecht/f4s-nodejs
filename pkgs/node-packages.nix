@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.864" = {
+    "electron-to-chromium-1.3.865" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.864";
+      version = "1.3.865";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.864.tgz";
-        sha512 = "v4rbad8GO6/yVI92WOeU9Wgxc4NA0n4f6P1FvZTY+jyY7JHEhw3bduYu60v3Q1h81Cg6eo4ApZrFPuycwd5hGw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.865.tgz";
+        sha512 = "okGcCKfihgGlaROMFNPQ6eaU3bk9Xa68rLYSnVD2PyIqM5B/vyQoXCpB3p1HI3AXio097ROVBlSO4JZVilUWuA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1957,13 +1957,13 @@ let
         sha512 = "0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==";
       };
     };
-    "eslint-module-utils-2.6.2" = {
+    "eslint-module-utils-2.7.0" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.6.2";
+      version = "2.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.6.2.tgz";
-        sha512 = "QG8pcgThYOuqxupd06oYTZoNOGaUdTY1PqK+oS6ElF6vs4pBdk/aYxFVQQXzcrAqp9m7cl7lb2ubazX+g16k2Q==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.7.0.tgz";
+        sha512 = "hqSE88MmHl3ru9SYvDyGrlo0JwROlf9fiEMplEV7j/EAuq9iSlIlyCFbBT6pdULQBSnBYtYKiMLps+hKkyP7Gg==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -6258,7 +6258,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.864"
+      sources."electron-to-chromium-1.3.865"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6700,7 +6700,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.6.2" // {
+      (sources."eslint-module-utils-2.7.0" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
