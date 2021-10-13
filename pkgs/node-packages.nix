@@ -571,13 +571,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.10.4" = {
+    "@types/node-16.10.9" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.10.4";
+      version = "16.10.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.10.4.tgz";
-        sha512 = "EITwVTX5B4nDjXjGeQAfXOrm+Jn+qNjDmyDRtWoD+wZsl/RDPRTFRKivs4Mt74iOFlLOrE5+Kf+p5yjyhm3+cA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.10.9.tgz";
+        sha512 = "H9ReOt+yqIJPCutkTYjFjlyK6WEMQYT9hLZMlWtOjFQY2ItppsWZ6RJf8Aw+jz5qTYceuHvFgPIaKOHtLAEWBw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1039,13 +1039,13 @@ let
         sha512 = "9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==";
       };
     };
-    "browserslist-4.17.3" = {
+    "browserslist-4.17.4" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.17.3";
+      version = "4.17.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.17.3.tgz";
-        sha512 = "59IqHJV5VGdcJZ+GZ2hU5n4Kv3YiASzW6Xk5g9tf5a/MAzGeFwgGWU39fVzNIOVcgB3+Gp+kiQu0HEfTVU/3VQ==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.17.4.tgz";
+        sha512 = "Zg7RpbZpIJRW3am9Lyckue7PLytvVxxhJj1CaJVlCWENsGEAOlnlt8X0ZxGRPp7Bt9o8tIRM5SEXy4BCPMJjLQ==";
       };
     };
     "bser-2.1.1" = {
@@ -1957,13 +1957,13 @@ let
         sha512 = "0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==";
       };
     };
-    "eslint-module-utils-2.7.0" = {
+    "eslint-module-utils-2.7.1" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.7.0";
+      version = "2.7.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.7.0.tgz";
-        sha512 = "hqSE88MmHl3ru9SYvDyGrlo0JwROlf9fiEMplEV7j/EAuq9iSlIlyCFbBT6pdULQBSnBYtYKiMLps+hKkyP7Gg==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.7.1.tgz";
+        sha512 = "fjoetBXQZq2tSTWZ9yWVl2KuFrTZZH3V+9iD1V1RfpDgxzJR+mPd/KZmMiA8gbPqdBzpNiEHOuT7IYEWxrH0zQ==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -3775,13 +3775,13 @@ let
         sha512 = "TwWAOZb0j7e9eGaf9esRx3ZcLaE5tQ2lvYy1pb5IAaG1a2e2Kv5Lms1Y4hpj+ciXJRofIxxlt5haeQ/2ANeE0Q==";
       };
     };
-    "node-releases-1.1.77" = {
+    "node-releases-2.0.0" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "1.1.77";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-1.1.77.tgz";
-        sha512 = "rB1DUFUNAN4Gn9keO2K1efO35IDK7yKHCdCaIMvFO7yUYmmZYeDjnGKle26G4rwj+LKRQpjyUUvMkPglwGCYNQ==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.0.tgz";
+        sha512 = "aA87l0flFYMzCHpTM3DERFSYxc6lv/BltdbRTOMZuxZ0cwZCD3mejE5n9vLhSJCN++/eOqr77G1IO5uXxlQYWA==";
       };
     };
     "nomnom-1.8.1" = {
@@ -4234,13 +4234,13 @@ let
         sha1 = "6309f4e0e5fa913ec1c69307ae364b4b377c9e7b";
       };
     };
-    "picocolors-0.2.1" = {
+    "picocolors-1.0.0" = {
       name = "picocolors";
       packageName = "picocolors";
-      version = "0.2.1";
+      version = "1.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picocolors/-/picocolors-0.2.1.tgz";
-        sha512 = "cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==";
+        url = "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz";
+        sha512 = "1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==";
       };
     };
     "picomatch-2.3.0" = {
@@ -6237,7 +6237,7 @@ in
       sources."async-3.2.1"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.17.3"
+      sources."browserslist-4.17.4"
       sources."bser-2.1.1"
       sources."caniuse-lite-1.0.30001265"
       sources."chalk-2.4.2"
@@ -6306,7 +6306,7 @@ in
           sources."semver-5.7.1"
         ];
       })
-      sources."node-releases-1.1.77"
+      sources."node-releases-2.0.0"
       sources."nopt-4.0.3"
       sources."npm-bundled-1.1.2"
       sources."npm-normalize-package-bin-1.0.1"
@@ -6320,7 +6320,7 @@ in
       sources."os-tmpdir-1.0.2"
       sources."osenv-0.1.5"
       sources."path-is-absolute-1.0.1"
-      sources."picocolors-0.2.1"
+      sources."picocolors-1.0.0"
       sources."process-nextick-args-2.0.1"
       sources."rc-1.2.8"
       sources."readable-stream-2.3.7"
@@ -6700,7 +6700,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.7.0" // {
+      (sources."eslint-module-utils-2.7.1" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -6941,7 +6941,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.1.4"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.10.4"
+      sources."@types/node-16.10.9"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
