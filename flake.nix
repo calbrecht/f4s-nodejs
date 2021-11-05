@@ -77,7 +77,12 @@
             });
           };
 
-          nodePackages_latest = prev.nodePackages_latest // _nodePackages_latest // {
+          nodejs_latest = pkgs.nodejs-17_x;
+
+          nodePackages_latest = prev.nodePackages_latest
+          // (pkgs.lib.dontRecurseIntoAttrs final.nodejs_latest.pkgs)
+          // _nodePackages_latest
+          // {
             # npm tries to fetch dev dependencies nowadays despite --production is given
             # https://github.com/npm/cli/issues/1969
             node2nix = (prev.nodePackages_latest.node2nix.override {
