@@ -48,7 +48,9 @@
       };
 
       legacyPackages."${system}" = {
-        inherit (pkgs) nodejs nodejs_latest nodePackages nodePackages_latest;
+        inherit (pkgs) nodejs nodePackages;
+        nodejs_latest = pkgs.nodejs-17_x;
+        nodePackages_latest = pkgs.lib.dontRecurseIntoAttrs pkgs.nodejs-17_x.pkgs;
       };
 
       defaultPackage."${system}" = self.legacyPackages."${system}".nodejs;
