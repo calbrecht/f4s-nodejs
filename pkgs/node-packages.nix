@@ -1723,13 +1723,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.889" = {
+    "electron-to-chromium-1.3.890" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.889";
+      version = "1.3.890";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.889.tgz";
-        sha512 = "suEUoPTD1mExjL9TdmH7cvEiWJVM2oEiAi+Y1p0QKxI2HcRlT44qDTP2c1aZmVwRemIPYOpxmV7CxQCOWcm4XQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.890.tgz";
+        sha512 = "VWlVXSkv0cA/OOehrEyqjUTHwV8YXCPTfPvbtoeU2aHR21vI4Ejh5aC4AxUwOmbLbBgb6Gd3URZahoCxtBqCYQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5842,10 +5842,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.1.0";
+    version = "8.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.1.0.tgz";
-      sha512 = "JZvNneArGSUsluHWJ8g8MMs3CfIEzwaLx9KyH4tZ2i+R2/rPWzL8c0zg3rHdwYVpN/1sB9gqnjHwz9HoeJpGHw==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.2.0.tgz";
+      sha512 = "erw7XmM+CLxTOickrimJ1SiF55jiNlVSp2qqm0NuBWPtHYQCegD5ZMaW0c3i5ytPqL+SSLaCxdvQXFPLJn+ABw==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.0.4"
@@ -6184,7 +6184,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.889"
+      sources."electron-to-chromium-1.3.890"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
