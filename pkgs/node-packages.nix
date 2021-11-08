@@ -571,13 +571,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.11.6" = {
+    "@types/node-16.11.7" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.11.6";
+      version = "16.11.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.11.6.tgz";
-        sha512 = "ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.11.7.tgz";
+        sha512 = "QB5D2sqfSjCmTuWcBWyJ+/44bcjO7VbjSbOE0ucoVbAsSNQc4Lt6QkgkVXkTDwkL4z/beecZNDvVX15D4P8Jbw==";
       };
     };
     "JSV-4.0.2" = {
@@ -706,13 +706,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.6.3" = {
+    "ajv-8.7.1" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.6.3";
+      version = "8.7.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.6.3.tgz";
-        sha512 = "SMJOdDP6LqTkD0Uq8qLi+gMwSt0imXLSV080qFVwJCpH9U6Mb+SUGHAXM0KNbcBPguytWyvFxcHgMLe2D2XSpw==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.7.1.tgz";
+        sha512 = "gPpOObTO1QjbnN1sVMjJcp1TF9nggMfO4MBR5uQl6ZVTOaEPq5i4oq/6R9q2alMMPB3eg53wFv1RuJBLuxf3Hw==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1723,13 +1723,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.890" = {
+    "electron-to-chromium-1.3.891" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.890";
+      version = "1.3.891";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.890.tgz";
-        sha512 = "VWlVXSkv0cA/OOehrEyqjUTHwV8YXCPTfPvbtoeU2aHR21vI4Ejh5aC4AxUwOmbLbBgb6Gd3URZahoCxtBqCYQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.891.tgz";
+        sha512 = "3cpwR82QkIS01CN/dup/4Yr3BiOiRLlZlcAFn/5FbNCunMO9ojqDgEP9JEo1QNLflu3pEnPWve50gHOEKc7r6w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2029,13 +2029,13 @@ let
         sha512 = "0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==";
       };
     };
-    "eslint-visitor-keys-3.0.0" = {
+    "eslint-visitor-keys-3.1.0" = {
       name = "eslint-visitor-keys";
       packageName = "eslint-visitor-keys";
-      version = "3.0.0";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.0.0.tgz";
-        sha512 = "mJOZa35trBTb3IyRmo8xmKBZlxf+N7OnUl4+ZhJHs/r+0770Wh/LEACE2pqMGMe27G/4y8P2bYGk4J70IC5k1Q==";
+        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.1.0.tgz";
+        sha512 = "yWJFpu4DtjsWKkt5GeNBBuZMlNcYVs6vRCLoCVEJrTjaSB6LC98gFipNK/erM2Heg/E8mIK+hXG/pJMLK+eRZA==";
       };
     };
     "espree-7.3.1" = {
@@ -5877,7 +5877,7 @@ in
           sources."eslint-visitor-keys-2.1.0"
         ];
       })
-      sources."eslint-visitor-keys-3.0.0"
+      sources."eslint-visitor-keys-3.1.0"
       sources."espree-9.0.0"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
@@ -6089,7 +6089,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.7.3" // {
         dependencies = [
-          sources."ajv-8.6.3"
+          sources."ajv-8.7.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -6184,7 +6184,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.890"
+      sources."electron-to-chromium-1.3.891"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6824,7 +6824,7 @@ in
       sources."supports-color-5.5.0"
       (sources."table-6.7.3" // {
         dependencies = [
-          sources."ajv-8.6.3"
+          sources."ajv-8.7.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -6867,7 +6867,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.11.6"
+      sources."@types/node-16.11.7"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
