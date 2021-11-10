@@ -1723,13 +1723,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.893" = {
+    "electron-to-chromium-1.3.894" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.893";
+      version = "1.3.894";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.893.tgz";
-        sha512 = "ChtwF7qB03INq1SyMpue08wc6cve+ktj2UC/Y7se9vB+JryfzziJeYwsgb8jLaCA5GMkHCdn5M62PfSMWhifZg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.894.tgz";
+        sha512 = "WY8pA4irAZ4cm/Pr7YFPtPLVqj3nU6d0SbfoHF6M7HZNONfPdAnYAarumqQ75go2LuN72uO9wGuCEqnfya/ytg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6184,7 +6184,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.893"
+      sources."electron-to-chromium-1.3.894"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7084,10 +7084,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "0.6.5";
+    version = "0.7.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.6.5.tgz";
-      sha512 = "gcNm+rxgehKU6Vy+UWwWOHjPAtyqsxAquslzlS1JdmvsRb//nzFXbwIsGRZ8DDaZ5mijfH7PR2BCTysg2nBAIQ==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.7.1.tgz";
+      sha512 = "pxPFvsDQolUTJTBdr8e9Qo+SBCYU8RIUO0l8eODMjBDvG9rTl6NTME+OEzMiR8LQ8siZ2jdQUq4K+6a/+20JCQ==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7125,6 +7125,7 @@ in
       sources."is-path-inside-3.0.3"
       sources."is-stream-2.0.1"
       sources."jsonfile-6.1.0"
+      sources."lru-cache-6.0.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.4"
       sources."minimatch-3.0.4"
@@ -7138,6 +7139,7 @@ in
       sources."reusify-1.0.4"
       sources."rimraf-3.0.2"
       sources."run-parallel-1.2.0"
+      sources."semver-7.3.5"
       sources."slash-3.0.0"
       sources."temp-dir-2.0.0"
       sources."tempy-1.0.1"
@@ -7152,6 +7154,7 @@ in
       sources."vscode-languageserver-types-3.16.0"
       sources."vscode-uri-1.0.8"
       sources."wrappy-1.0.2"
+      sources."yallist-4.0.0"
     ];
     buildInputs = globalBuildInputs;
     meta = {
@@ -7522,10 +7525,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.1.1";
+    version = "1.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.1.1.tgz";
-      sha512 = "YevHn6Y3gAUfh98KynXQYclU8oh1Kk+JYX/oZxqKUK2Y6P16+8v8sYg+3H0vXw2D0gjzXaorwJnPoU6a9Ft/7A==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.2.0.tgz";
+      sha512 = "ZsQ2uONwleQbFJFdKWBicHmM21jxkzfLI3gLmr7qKBnnRI3ZG4r3gsGbMPASnKTBLBW3l+e8c7KfzS7H3iAQMQ==";
     };
     dependencies = [
       sources."jsonc-parser-3.0.0"
