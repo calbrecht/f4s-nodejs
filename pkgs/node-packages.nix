@@ -1093,13 +1093,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001279" = {
+    "caniuse-lite-1.0.30001280" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001279";
+      version = "1.0.30001280";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001279.tgz";
-        sha512 = "VfEHpzHEXj6/CxggTwSFoZBBYGQfQv9Cf42KPlO79sWXCD1QNKWKsKzFeWL7QpZHJQYAvocqV6Rty1yJMkqWLQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001280.tgz";
+        sha512 = "kFXwYvHe5rix25uwueBxC569o53J6TpnGu0BEEn+6Lhl2vsnAumRFWEBhDft1fwyo6m1r4i+RqA4+163FpeFcA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1723,13 +1723,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.894" = {
+    "electron-to-chromium-1.3.896" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.894";
+      version = "1.3.896";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.894.tgz";
-        sha512 = "WY8pA4irAZ4cm/Pr7YFPtPLVqj3nU6d0SbfoHF6M7HZNONfPdAnYAarumqQ75go2LuN72uO9wGuCEqnfya/ytg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.896.tgz";
+        sha512 = "NcGkBVXePiuUrPLV8IxP43n1EOtdg+dudVjrfVEUd/bOqpQUFZ2diL5PPYzbgEhZFEltdXV3AcyKwGnEQ5lhMA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5494,13 +5494,13 @@ let
         sha512 = "rrDyCiOgMwOPgchpPGAeLzjYVVEW/Ror2/a1BWUEI3S9+NQhA9vj4SQkzmH6g2Bq9S9SV0OQeadD+xphOf1N3w==";
       };
     };
-    "vscode-json-languageservice-4.1.9" = {
+    "vscode-json-languageservice-4.1.10" = {
       name = "vscode-json-languageservice";
       packageName = "vscode-json-languageservice";
-      version = "4.1.9";
+      version = "4.1.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.1.9.tgz";
-        sha512 = "kxNHitUy2fCxmP6vAp0SRLrUSuecUYzzxlC+85cC3jJlFHWmvtCJOzikC+kcUnIdls9fQSB8n0yHs8Sl6taxJw==";
+        url = "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.1.10.tgz";
+        sha512 = "IHliMEEYSY0tJjJt0ECb8ESx/nRXpoy9kN42WVQXgaqGyizFAf3jibSiezDQTrrY7f3kywXggCU+kkJEM+OLZQ==";
       };
     };
     "vscode-jsonrpc-6.0.0" = {
@@ -6165,7 +6165,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.17.6"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001279"
+      sources."caniuse-lite-1.0.30001280"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."code-point-at-1.1.0"
@@ -6184,7 +6184,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.894"
+      sources."electron-to-chromium-1.3.896"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7533,7 +7533,7 @@ in
     dependencies = [
       sources."jsonc-parser-3.0.0"
       sources."request-light-0.5.4"
-      sources."vscode-json-languageservice-4.1.9"
+      sources."vscode-json-languageservice-4.1.10"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
       sources."vscode-languageserver-protocol-3.16.0"
