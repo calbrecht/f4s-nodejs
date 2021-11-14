@@ -1030,13 +1030,13 @@ let
         sha512 = "9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==";
       };
     };
-    "browserslist-4.17.6" = {
+    "browserslist-4.18.0" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.17.6";
+      version = "4.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.17.6.tgz";
-        sha512 = "uPgz3vyRTlEiCv4ee9KlsKgo2V6qPk7Jsn0KAn2OBqbqKo3iNcPEC1Ti6J4dwnz+aIRfEEEuOzC9IBk8tXUomw==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.18.0.tgz";
+        sha512 = "ER2M0g5iAR84fS/zjBDqEgU6iO5fS9JI2EkHr5zxDxYEFk3LjhU9Vpp/INb6RMQphxko7PDV1FH38H/qVP5yCA==";
       };
     };
     "bser-2.1.1" = {
@@ -6163,7 +6163,7 @@ in
       sources."async-3.2.2"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.17.6"
+      sources."browserslist-4.18.0"
       sources."bser-2.1.1"
       sources."caniuse-lite-1.0.30001280"
       sources."chalk-2.4.2"
