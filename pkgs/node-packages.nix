@@ -571,13 +571,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.11.9" = {
+    "@types/node-16.11.10" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.11.9";
+      version = "16.11.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.11.9.tgz";
-        sha512 = "MKmdASMf3LtPzwLyRrFjtFFZ48cMf8jmX5VRYrDQiJa8Ybu5VAmkqBWqKU8fdCwD8ysw4mQ9nrEHvzg6gunR7A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.11.10.tgz";
+        sha512 = "3aRnHa1KlOEEhJ6+CvyHKK5vE9BcLGjtUpwvqYLRvYNQKMfabu3BwfJaA/SLW8dxe28LsNDjtHwePTuzn3gmOA==";
       };
     };
     "JSV-4.0.2" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.905" = {
+    "electron-to-chromium-1.3.907" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.905";
+      version = "1.3.907";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.905.tgz";
-        sha512 = "jTjkycBMCCMk86PAucHtqicZ6dKlgPw+gAXMI9xxH5ua0+60dH+PVR7efwQMqCOQxmhHSo4aF4f37Idb5XBAcA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.907.tgz";
+        sha512 = "xoUPSkjimw51d9ryeH38XUwmR3HmCA+eky4hk0YEgsWeBWGyhb35OCvT3lWAdmvIkcGYCRNOB8LvtO00dJQpOA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6229,7 +6229,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.905"
+      sources."electron-to-chromium-1.3.907"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6908,7 +6908,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.11.9"
+      sources."@types/node-16.11.10"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7579,10 +7579,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.2.0";
+    version = "1.2.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.2.0.tgz";
-      sha512 = "ZsQ2uONwleQbFJFdKWBicHmM21jxkzfLI3gLmr7qKBnnRI3ZG4r3gsGbMPASnKTBLBW3l+e8c7KfzS7H3iAQMQ==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.2.1.tgz";
+      sha512 = "YAfvorH/uv7HZ/eHOr4inwr6D9WhNg7Z/kUvdxsxM9nRPyTPd960Z7noL4YWO9elPh1ZOnOwYNoInISXAz3eqg==";
     };
     dependencies = [
       sources."jsonc-parser-3.0.0"
