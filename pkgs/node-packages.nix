@@ -1201,13 +1201,13 @@ let
         sha512 = "4diC9HaTE+KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ/SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A==";
       };
     };
-    "cli-table-0.3.8" = {
+    "cli-table-0.3.9" = {
       name = "cli-table";
       packageName = "cli-table";
-      version = "0.3.8";
+      version = "0.3.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cli-table/-/cli-table-0.3.8.tgz";
-        sha512 = "5IO15fJRzgM+hHZjvQlqD6UPRuVGWR4Ny5ZzaM5VJxJEQqSIEVyVh9dMAUN6CBAVfMc4/6CFEzbhnRftLRCyug==";
+        url = "https://registry.npmjs.org/cli-table/-/cli-table-0.3.9.tgz";
+        sha512 = "7eA6hFtAZwVx3dWAGoaBqTrzWko5jRUFKpHT64ZHkJpaA3y5wf5NlLjguqTRmqycatJZiwftODYYyGNLbQ7MuA==";
       };
     };
     "cls-hooked-4.2.2" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.3.907" = {
+    "electron-to-chromium-1.4.0" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.3.907";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.907.tgz";
-        sha512 = "xoUPSkjimw51d9ryeH38XUwmR3HmCA+eky4hk0YEgsWeBWGyhb35OCvT3lWAdmvIkcGYCRNOB8LvtO00dJQpOA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.0.tgz";
+        sha512 = "+oXCt6SaIu8EmFTPx8wNGSB0tHQ5biDscnlf6Uxuz17e9CjzMRtGk9B8705aMPnj0iWr3iC74WuIkngCsLElmA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6229,7 +6229,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.3.907"
+      sources."electron-to-chromium-1.4.0"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7019,7 +7019,7 @@ in
       sources."ansicolors-0.2.1"
       sources."cardinal-1.0.0"
       sources."chalk-1.1.3"
-      (sources."cli-table-0.3.8" // {
+      (sources."cli-table-0.3.9" // {
         dependencies = [
           sources."ansi-regex-5.0.1"
           sources."strip-ansi-6.0.1"
