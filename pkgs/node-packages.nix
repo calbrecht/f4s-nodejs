@@ -1273,13 +1273,13 @@ let
         sha512 = "dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==";
       };
     };
-    "color-string-1.6.0" = {
+    "color-string-1.7.4" = {
       name = "color-string";
       packageName = "color-string";
-      version = "1.6.0";
+      version = "1.7.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/color-string/-/color-string-1.6.0.tgz";
-        sha512 = "c/hGS+kRWJutUBEngKKmk4iH3sD59MBkoxVapS/0wgpCz2u7XsNloxknyvBhzwEs1IbV36D9PwqLPJ2DTu3vMA==";
+        url = "https://registry.npmjs.org/color-string/-/color-string-1.7.4.tgz";
+        sha512 = "nVdUvPVgZMpRQad5dcsCMOSB5BXLljklTiaxS6ehhKxDsAI5sD7k5VmFuBt1y3Rlym8uulc/ANUN/bMWtBu6Sg==";
       };
     };
     "color-support-1.1.3" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.2" = {
+    "electron-to-chromium-1.4.4" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.2";
+      version = "1.4.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.2.tgz";
-        sha512 = "SxHMmlSvpT83M/MLxTXQBqfqo3bK+UOk6Uup6w1paX86l+af1xwwTMLlyK3xJwE3Kq8/QnecuFKmnmRlAUJCXw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.4.tgz";
+        sha512 = "teHtgwcmVcL46jlFvAaqjyiTLWuMrUQO1JqV303JKB4ysXG6m8fXSFhbjal9st0r9mNskI22AraJZorb1VcLVg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5997,10 +5997,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "11.1.0";
+    version = "11.1.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-11.1.0.tgz";
-      sha512 = "uhrQhFPG7L/81j90+QKaDImDJriqCdPY4ZcN9exFs9sdeF28Cdv/vD2XuRhjD5FxVbA/nNpFL37QsTSQwtjdjA==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-11.1.1.tgz";
+      sha512 = "PaNWblwIa10KZUt9EObGBzrsaxB+CPtk5d99sTveXmAtQrPSmrntKpWqxN/Mwot0qnI5gCllzkPZi6tO710KUA==";
     };
     dependencies = [
       sources."@babel/code-frame-7.12.11"
@@ -6217,7 +6217,7 @@ in
       sources."color-3.2.1"
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
-      sources."color-string-1.6.0"
+      sources."color-string-1.7.4"
       sources."colors-1.4.0"
       sources."colorspace-1.1.4"
       sources."commander-4.1.1"
@@ -6229,7 +6229,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
-      sources."electron-to-chromium-1.4.2"
+      sources."electron-to-chromium-1.4.4"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7130,10 +7130,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "0.8.0";
+    version = "0.8.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.8.0.tgz";
-      sha512 = "b58jKxffILXp7jCiYSLNFgmOKKkEE/+wpZkdKYneP45abu3f7XbaqREyOB+qVeJVUgq96458QyBnZIvGqbaqNg==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.8.1.tgz";
+      sha512 = "n2KwWC8fNKzEyTz+H2HXbVCCoqaEvzgVeR6ERL6DYQe2Rdynj+s/YkyuStVzV2MqW9j+v4xV2xFik+kTOYpkGg==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
