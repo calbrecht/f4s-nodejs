@@ -1507,13 +1507,13 @@ let
         sha512 = "CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==";
       };
     };
-    "debug-4.3.2" = {
+    "debug-4.3.3" = {
       name = "debug";
       packageName = "debug";
-      version = "4.3.2";
+      version = "4.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/debug/-/debug-4.3.2.tgz";
-        sha512 = "mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==";
+        url = "https://registry.npmjs.org/debug/-/debug-4.3.3.tgz";
+        sha512 = "/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==";
       };
     };
     "dedent-0.7.0" = {
@@ -5911,7 +5911,7 @@ in
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.2"
+      sources."debug-4.3.3"
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."enquirer-2.3.6"
@@ -6040,7 +6040,7 @@ in
       sources."concat-map-0.0.1"
       sources."core_d-3.2.0"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.2"
+      sources."debug-4.3.3"
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
@@ -6225,7 +6225,7 @@ in
       sources."console-control-strings-1.1.0"
       sources."convert-source-map-1.8.0"
       sources."core-util-is-1.0.3"
-      sources."debug-4.3.2"
+      sources."debug-4.3.3"
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
@@ -6398,7 +6398,7 @@ in
       sources."color-support-1.1.3"
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
-      sources."debug-4.3.2"
+      sources."debug-4.3.3"
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."emoji-regex-8.0.0"
@@ -6650,7 +6650,7 @@ in
       sources."color-name-1.1.3"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.2"
+      sources."debug-4.3.3"
       sources."deep-is-0.1.4"
       sources."define-properties-1.1.3"
       sources."doctrine-3.0.0"
@@ -6919,7 +6919,7 @@ in
       sources."clean-stack-2.2.0"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.2"
+      sources."debug-4.3.3"
       sources."dedent-0.7.0"
       sources."del-5.1.0"
       sources."dir-glob-3.0.1"
