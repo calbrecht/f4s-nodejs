@@ -571,13 +571,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-16.11.10" = {
+    "@types/node-16.11.11" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "16.11.10";
+      version = "16.11.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-16.11.10.tgz";
-        sha512 = "3aRnHa1KlOEEhJ6+CvyHKK5vE9BcLGjtUpwvqYLRvYNQKMfabu3BwfJaA/SLW8dxe28LsNDjtHwePTuzn3gmOA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-16.11.11.tgz";
+        sha512 = "KB0sixD67CeecHC33MYn+eYARkqTheIRNuu97y2XMjR7Wu3XibO1vaY6VBV6O/a89SPI81cEUIYT87UqUWlZNw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1273,13 +1273,13 @@ let
         sha512 = "dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==";
       };
     };
-    "color-string-1.7.4" = {
+    "color-string-1.8.2" = {
       name = "color-string";
       packageName = "color-string";
-      version = "1.7.4";
+      version = "1.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/color-string/-/color-string-1.7.4.tgz";
-        sha512 = "nVdUvPVgZMpRQad5dcsCMOSB5BXLljklTiaxS6ehhKxDsAI5sD7k5VmFuBt1y3Rlym8uulc/ANUN/bMWtBu6Sg==";
+        url = "https://registry.npmjs.org/color-string/-/color-string-1.8.2.tgz";
+        sha512 = "w5ZkKRdLsc5NOYsmnpS2DpyRW71npwZGwbRpLrJTuqjfTs2Bhrba7UiV59IX9siBlCPl2pne5NtiwnVWUzvYFA==";
       };
     };
     "color-support-1.1.3" = {
@@ -1705,13 +1705,13 @@ let
         sha512 = "J1C5rIANUbuYK+FuFL98650rihynUOEzRLxW+90bKZRWB6A1X1Tf82GxR1qAWLyfNPRvjqfip3Q5tdYlmAa9lA==";
       };
     };
-    "domhandler-4.2.2" = {
+    "domhandler-4.3.0" = {
       name = "domhandler";
       packageName = "domhandler";
-      version = "4.2.2";
+      version = "4.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/domhandler/-/domhandler-4.2.2.tgz";
-        sha512 = "PzE9aBMsdZO8TK4BnuJwH0QT41wgMbRzuZrHUcpYncEjmQazq8QEaBWgLG7ZyC/DAZKEgglpIA6j4Qn/HmxS3w==";
+        url = "https://registry.npmjs.org/domhandler/-/domhandler-4.3.0.tgz";
+        sha512 = "fC0aXNQXqKSFTr2wDNZDhsEYjCiYsDWl3D01kwt25hm1YIPyDGHvvi3rw+PLqHAl/m71MaiF7d5zvBr0p5UB2g==";
       };
     };
     "domutils-2.8.0" = {
@@ -6217,7 +6217,7 @@ in
       sources."color-3.2.1"
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
-      sources."color-string-1.7.4"
+      sources."color-string-1.8.2"
       sources."colors-1.4.0"
       sources."colorspace-1.1.4"
       sources."commander-4.1.1"
@@ -6908,7 +6908,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-16.11.10"
+      sources."@types/node-16.11.11"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7436,14 +7436,14 @@ in
       sources."diagnostic-channel-publishers-0.4.4"
       (sources."dom-serializer-1.3.2" // {
         dependencies = [
-          sources."domhandler-4.2.2"
+          sources."domhandler-4.3.0"
         ];
       })
       sources."domelementtype-2.2.0"
       sources."domhandler-3.3.0"
       (sources."domutils-2.8.0" // {
         dependencies = [
-          sources."domhandler-4.2.2"
+          sources."domhandler-4.3.0"
         ];
       })
       sources."ecc-jsbn-0.1.2"
@@ -7579,10 +7579,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.2.1";
+    version = "1.2.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.2.1.tgz";
-      sha512 = "YAfvorH/uv7HZ/eHOr4inwr6D9WhNg7Z/kUvdxsxM9nRPyTPd960Z7noL4YWO9elPh1ZOnOwYNoInISXAz3eqg==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.2.2.tgz";
+      sha512 = "wjMlqjhg6hNMT8EgYYkfUaM0aXwjWSQDmPO18doWLxIXG7LGBuzb+Vm/MjLrP9LPblSEhE2WWHQFfGW+Odb7vw==";
     };
     dependencies = [
       sources."jsonc-parser-3.0.0"
