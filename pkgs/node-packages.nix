@@ -5449,13 +5449,13 @@ let
         sha512 = "4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==";
       };
     };
-    "typescript-4.5.4" = {
+    "typescript-4.5.5" = {
       name = "typescript";
       packageName = "typescript";
-      version = "4.5.4";
+      version = "4.5.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-4.5.4.tgz";
-        sha512 = "VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz";
+        sha512 = "TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==";
       };
     };
     "unbox-primitive-1.0.1" = {
@@ -7216,10 +7216,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.5.4";
+    version = "4.5.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.5.4.tgz";
-      sha512 = "VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz";
+      sha512 = "TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7636,7 +7636,7 @@ in
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."typescript-4.5.4"
+      sources."typescript-4.5.5"
       sources."universalify-2.0.0"
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
