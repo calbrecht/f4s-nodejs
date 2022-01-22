@@ -31,13 +31,13 @@ let
         sha512 = "m7OkX0IdKLKPpBlJtF561YJal5y/jyI5fNfWbPxh2D/nbzzGI4qRyrD8xO2jB24u7l+5I2a43scCG2IrfjC50Q==";
       };
     };
-    "@babel/core-7.16.10" = {
+    "@babel/core-7.16.12" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.16.10";
+      version = "7.16.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.16.10.tgz";
-        sha512 = "pbiIdZbCiMx/MM6toR+OfXarYix3uz0oVsnNtfdAGTcCTu3w/JGF8JhirevXLBJUu0WguSZI12qpKnx7EeMyLA==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.16.12.tgz";
+        sha512 = "dK5PtG1uiN2ikk++5OzSYsitZKny4wOCD0nrO4TqnW4BVBTQ2NGS3NgilvT/TEyxTST7LNyWV/T4tXDoD3fOgg==";
       };
     };
     "@babel/generator-7.16.8" = {
@@ -175,13 +175,13 @@ let
         sha512 = "5FnTQLSLswEj6IkgVw5KusNUUFY9ZGqe/TRFnP/BKYHYgfh7tc+C7mwiy95/yNP7Dh9x580Vv8r7u7ZfTBFxdw==";
       };
     };
-    "@babel/parser-7.16.10" = {
+    "@babel/parser-7.16.12" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.16.10";
+      version = "7.16.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.16.10.tgz";
-        sha512 = "Sm/S9Or6nN8uiFsQU1yodyDW3MWXQhFeqzMPM+t8MJjM+pLsnFVxFZzkpXKvUXh+Gz9cbMoYYs484+Jw/NTEFQ==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.16.12.tgz";
+        sha512 = "VfaV15po8RiZssrkPweyvbGVSe4x2y+aciFCgn0n0/SJMR22cwofRV1mtnJQYcSB1wUTaA/X1LnA3es66MCO5A==";
       };
     };
     "@babel/plugin-syntax-flow-7.16.7" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.50" = {
+    "electron-to-chromium-1.4.51" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.50";
+      version = "1.4.51";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.50.tgz";
-        sha512 = "g5X/6oVoqLyzKfsZ1HsJvxKoUAToFMCuq1USbmp/GPIwJDRYV1IEcv+plYTdh6h11hg140hycCBId0vf7rL0+Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.51.tgz";
+        sha512 = "JNEmcYl3mk1tGQmy0EvL5eik/CKSBuzAyGP0QFdG6LIgxQe3II0BL1m2zKc2MZMf3uGqHWE1TFddJML0RpjSHQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4639,13 +4639,13 @@ let
         sha1 = "7999539fc9e047a37928fa196f8e1563dabd36de";
       };
     };
-    "resolve-1.21.1" = {
+    "resolve-1.22.0" = {
       name = "resolve";
       packageName = "resolve";
-      version = "1.21.1";
+      version = "1.22.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-1.21.1.tgz";
-        sha512 = "lfEImVbnolPuaSZuLQ52cAxPBHeI77sPwCOWRdy12UG/CNa8an7oBHH1R+Fp1/mUqSJi4c8TIP6FOIPSZAUrEQ==";
+        url = "https://registry.npmjs.org/resolve/-/resolve-1.22.0.tgz";
+        sha512 = "Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==";
       };
     };
     "resolve-2.0.0-next.3" = {
@@ -6212,7 +6212,7 @@ in
     dependencies = [
       sources."@babel/code-frame-7.16.7"
       sources."@babel/compat-data-7.16.8"
-      sources."@babel/core-7.16.10"
+      sources."@babel/core-7.16.12"
       sources."@babel/generator-7.16.8"
       sources."@babel/helper-compilation-targets-7.16.7"
       sources."@babel/helper-environment-visitor-7.16.7"
@@ -6228,7 +6228,7 @@ in
       sources."@babel/helper-validator-option-7.16.7"
       sources."@babel/helpers-7.16.7"
       sources."@babel/highlight-7.16.10"
-      sources."@babel/parser-7.16.10"
+      sources."@babel/parser-7.16.12"
       sources."@babel/plugin-syntax-flow-7.16.7"
       sources."@babel/plugin-syntax-jsx-7.16.7"
       sources."@babel/plugin-syntax-typescript-7.16.7"
@@ -6283,7 +6283,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.50"
+      sources."electron-to-chromium-1.4.51"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6938,7 +6938,7 @@ in
       sources."regexp.prototype.flags-1.4.1"
       sources."regexpp-3.2.0"
       sources."require-from-string-2.0.2"
-      sources."resolve-1.21.1"
+      sources."resolve-1.22.0"
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."semver-7.3.5"
@@ -7194,7 +7194,7 @@ in
       sources."once-1.4.0"
       sources."path-is-absolute-1.0.1"
       sources."path-parse-1.0.7"
-      sources."resolve-1.21.1"
+      sources."resolve-1.22.0"
       sources."semver-5.7.1"
       sources."sprintf-js-1.0.3"
       sources."supports-color-5.5.0"
