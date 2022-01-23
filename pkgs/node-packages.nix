@@ -3712,13 +3712,13 @@ let
         sha512 = "6R9fqJ5Zcmf+uYaFgdIHmLwNldn5HbK8L5ybn7Uz+ylX/rnOsSp1AHcvQSrCaFN+qNM1wpymHqD7mVasEOlHGQ==";
       };
     };
-    "negotiator-0.6.2" = {
+    "negotiator-0.6.3" = {
       name = "negotiator";
       packageName = "negotiator";
-      version = "0.6.2";
+      version = "0.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz";
-        sha512 = "hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==";
+        url = "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz";
+        sha512 = "+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==";
       };
     };
     "node-addon-api-3.2.1" = {
@@ -6542,7 +6542,7 @@ in
       sources."minizlib-2.1.2"
       sources."mkdirp-1.0.4"
       sources."ms-2.1.2"
-      sources."negotiator-0.6.2"
+      sources."negotiator-0.6.3"
       sources."nopt-5.0.0"
       sources."npmlog-6.0.0"
       sources."once-1.4.0"
