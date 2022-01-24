@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.51" = {
+    "electron-to-chromium-1.4.52" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.51";
+      version = "1.4.52";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.51.tgz";
-        sha512 = "JNEmcYl3mk1tGQmy0EvL5eik/CKSBuzAyGP0QFdG6LIgxQe3II0BL1m2zKc2MZMf3uGqHWE1TFddJML0RpjSHQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.52.tgz";
+        sha512 = "JGkh8HEh5PnVrhU4HbpyyO0O791dVY6k7AdqfDeqbcRMeoGxtNHWT77deR2nhvbLe4dKpxjlDEvdEwrvRLGu2Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5575,13 +5575,13 @@ let
         sha1 = "3a105ca17053af55d6e270c1f8288682e18da400";
       };
     };
-    "vscode-css-languageservice-5.1.9" = {
+    "vscode-css-languageservice-5.1.12" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "5.1.9";
+      version = "5.1.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.9.tgz";
-        sha512 = "/tFOWeZBL3Oc9Zc+2MAi3rEwiXJTSZsvjB+M7nSjWLbGPUIjukUA7YzLgsBoUfR35sPJYnXWUkL56PdfIYM8GA==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.12.tgz";
+        sha512 = "293C5C2732Rbhh3opTs+nQBpC5Dd+oYrEA8lc0OWdyt40oYmJ331FV7NMF1SLFSIcOFB5XveLiWUZak2oyc49Q==";
       };
     };
     "vscode-html-languageservice-4.2.1" = {
@@ -6283,7 +6283,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.51"
+      sources."electron-to-chromium-1.4.52"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7641,7 +7641,7 @@ in
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-5.1.9" // {
+      (sources."vscode-css-languageservice-5.1.12" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
