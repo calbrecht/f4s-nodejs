@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.10" = {
+    "@types/node-17.0.12" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.10";
+      version = "17.0.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.10.tgz";
-        sha512 = "S/3xB4KzyFxYGCppyDt68yzBU9ysL88lSdIah4D6cptdcltc4NCPCAMc0+PCpg/lLIyC7IPvj2Z52OJWeIUkog==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.12.tgz";
+        sha512 = "4YpbAsnJXWYK/fpTVFlMIcUIho2AYCi4wg5aNPrG1ng7fn/1/RZfCIpRCiBX+12RVa34RluilnvCqD+g3KiSiA==";
       };
     };
     "JSV-4.0.2" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.52" = {
+    "electron-to-chromium-1.4.53" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.52";
+      version = "1.4.53";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.52.tgz";
-        sha512 = "JGkh8HEh5PnVrhU4HbpyyO0O791dVY6k7AdqfDeqbcRMeoGxtNHWT77deR2nhvbLe4dKpxjlDEvdEwrvRLGu2Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.53.tgz";
+        sha512 = "rFveSKQczlcav+H3zkKqykU6ANseFwXwkl855jOIap5/0gnEcuIhv2ecz6aoTrXavF6I/CEBeRnBnkB51k06ew==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3676,13 +3676,13 @@ let
         sha512 = "8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==";
       };
     };
-    "nanoid-2.1.11" = {
+    "nanoid-3.2.0" = {
       name = "nanoid";
       packageName = "nanoid";
-      version = "2.1.11";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nanoid/-/nanoid-2.1.11.tgz";
-        sha512 = "s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==";
+        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.2.0.tgz";
+        sha512 = "fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==";
       };
     };
     "nanolru-1.0.0" = {
@@ -6283,7 +6283,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.52"
+      sources."electron-to-chromium-1.4.53"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7002,10 +7002,10 @@ in
   testcafe-browser-tools = nodeEnv.buildNodePackage {
     name = "testcafe-browser-tools";
     packageName = "testcafe-browser-tools";
-    version = "2.0.21";
+    version = "2.0.22";
     src = fetchurl {
-      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.21.tgz";
-      sha512 = "dsaUgUY4i/VLKSexh0w8ZyvDGWd3+LfoEysN/nFCUufseiwGvvbBpsNSAV7XZN12GpExG3mCilaQDuJNBKs4CQ==";
+      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.22.tgz";
+      sha512 = "ABzKV3h+yrbxC0WfqqCjWP+/XFBH66VY8Nuz3IqDu4/9mbrn2sJpcEdcoxLVRVkIxcLUgCejF38Rorumh9iHvw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7013,7 +7013,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.10"
+      sources."@types/node-17.0.12"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7064,7 +7064,7 @@ in
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
       sources."mustache-2.3.2"
-      sources."nanoid-2.1.11"
+      sources."nanoid-3.2.0"
       sources."npm-run-path-4.0.1"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
