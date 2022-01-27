@@ -553,13 +553,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.12" = {
+    "@types/node-17.0.13" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.12";
+      version = "17.0.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.12.tgz";
-        sha512 = "4YpbAsnJXWYK/fpTVFlMIcUIho2AYCi4wg5aNPrG1ng7fn/1/RZfCIpRCiBX+12RVa34RluilnvCqD+g3KiSiA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.13.tgz";
+        sha512 = "Y86MAxASe25hNzlDbsviXl8jQHb0RDvKt4c40ZJQ1Don0AAL0STLZSs4N+6gLEO55pedy7r2cLwS+ZDxPm/2Bw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.54" = {
+    "electron-to-chromium-1.4.55" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.54";
+      version = "1.4.55";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.54.tgz";
-        sha512 = "jRAoneRdSxnpRHO0ANpnEUtQHXxlgfVjrLOnQSisw1ryjXJXvS0pJaR/v2B7S++/tRjgEDp4Sjn5nmgb6uTySw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.55.tgz";
+        sha512 = "AoCDEVElLY8mwe4TuDDkr1jxvSh/Ih5PFlEXCpmwFkq9JOXn4K58CScgBl+R1ghFW9cPJ7VeWo30nAHSRCe6rw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1930,13 +1930,13 @@ let
         sha512 = "0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==";
       };
     };
-    "eslint-module-utils-2.7.2" = {
+    "eslint-module-utils-2.7.3" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.7.2";
+      version = "2.7.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.7.2.tgz";
-        sha512 = "zquepFnWCY2ISMFwD/DqzaM++H+7PDzOpUvotJWm/y1BAFt5R4oeULgdrTejKqLkz7MA/tgstsUMNYc7wNdTrg==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.7.3.tgz";
+        sha512 = "088JEC7O3lDZM9xGe0RerkOMd0EjFl+Yvd1jPWIkMT5u3H9+HC34mWWPnqPrN13gieT9pBOO+Qt07Nb/6TresQ==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -6292,7 +6292,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.54"
+      sources."electron-to-chromium-1.4.55"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6786,7 +6786,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.7.2" // {
+      (sources."eslint-module-utils-2.7.3" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -7026,7 +7026,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.12"
+      sources."@types/node-17.0.13"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
