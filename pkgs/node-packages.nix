@@ -346,13 +346,13 @@ let
         sha512 = "FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==";
       };
     };
-    "@humanwhocodes/config-array-0.9.2" = {
+    "@humanwhocodes/config-array-0.9.3" = {
       name = "_at_humanwhocodes_slash_config-array";
       packageName = "@humanwhocodes/config-array";
-      version = "0.9.2";
+      version = "0.9.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.2.tgz";
-        sha512 = "UXOuFCGcwciWckOpmfKDq/GyhlTf9pN/BzG//x8p8zTOFEcGuA68ANXheFS0AGvy3qgZqLBUkMs7hqzqCKOVwA==";
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.3.tgz";
+        sha512 = "3xSMlXHh03hCcCmFc0rbKp3Ivt2PFEJnQUJDDMTJQ2wkECZWdq4GePs2ctc5H8zV+cHPaq8k2vU8mrQjA6iHdQ==";
       };
     };
     "@humanwhocodes/object-schema-1.2.1" = {
@@ -1102,13 +1102,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001302" = {
+    "caniuse-lite-1.0.30001303" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001302";
+      version = "1.0.30001303";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001302.tgz";
-        sha512 = "YYTMO+tfwvgUN+1ZnRViE53Ma1S/oETg+J2lISsqi/ZTNThj3ZYBOKP2rHwJc37oCsPqAzJ3w2puZHn0xlLPPw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001303.tgz";
+        sha512 = "/Mqc1oESndUNszJP0kx0UaQU9kEv9nNtJ7Kn8AdA0mNnH8eR1cj0kG+NbNuC1Wq/b21eA8prhKRA3bbkjONegQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.53" = {
+    "electron-to-chromium-1.4.54" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.53";
+      version = "1.4.54";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.53.tgz";
-        sha512 = "rFveSKQczlcav+H3zkKqykU6ANseFwXwkl855jOIap5/0gnEcuIhv2ecz6aoTrXavF6I/CEBeRnBnkB51k06ew==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.54.tgz";
+        sha512 = "jRAoneRdSxnpRHO0ANpnEUtQHXxlgfVjrLOnQSisw1ryjXJXvS0pJaR/v2B7S++/tRjgEDp4Sjn5nmgb6uTySw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4738,6 +4738,15 @@ let
         sha512 = "ERq4hUjKDbJfE4+XtZLFPCDi8Vb1JqaxAPTxWFLBx8XcAlf9Bda/ZJdVezs/NAfsMQScyIlUMx+Yeu7P7rx5jw==";
       };
     };
+    "safe-stable-stringify-2.3.1" = {
+      name = "safe-stable-stringify";
+      packageName = "safe-stable-stringify";
+      version = "2.3.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz";
+        sha512 = "kYBSfT+troD9cDA85VDnHZ1rpHC50O0g1e6WlGHVCz/g+JS+9WKLj+XwFYyR8UbrZN8ll9HUpDAAddY58MGisg==";
+      };
+    };
     "safer-buffer-2.1.2" = {
       name = "safer-buffer";
       packageName = "safer-buffer";
@@ -5827,13 +5836,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.4.0" = {
+    "winston-3.5.0" = {
       name = "winston";
       packageName = "winston";
-      version = "3.4.0";
+      version = "3.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.4.0.tgz";
-        sha512 = "FqilVj+5HKwCfIHQzMxrrd5tBIH10JTS3koFGbLVWBODjiIYq7zir08rFyBT4rrTYG/eaTqDcfSIbcjSM78YSw==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.5.0.tgz";
+        sha512 = "OQMbmLsIdVHvm2hSurrYZs+iZNIImXneYJ6pX7LseSMEq20HdTETXiNnNX3FDwN4LB/xDRZLF6JYOY+AI112Kw==";
       };
     };
     "winston-transport-4.4.2" = {
@@ -5943,7 +5952,7 @@ in
           sources."ignore-4.0.6"
         ];
       })
-      sources."@humanwhocodes/config-array-0.9.2"
+      sources."@humanwhocodes/config-array-0.9.3"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.0"
       sources."acorn-jsx-5.3.2"
@@ -6259,7 +6268,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.19.1"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001302"
+      sources."caniuse-lite-1.0.30001303"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -6283,7 +6292,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.53"
+      sources."electron-to-chromium-1.4.54"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6332,7 +6341,11 @@ in
       sources."jsprim-1.4.2"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
-      sources."logform-2.3.2"
+      (sources."logform-2.3.2" // {
+        dependencies = [
+          sources."safe-stable-stringify-1.1.1"
+        ];
+      })
       sources."mime-db-1.51.0"
       sources."mime-types-2.1.34"
       sources."minimatch-3.0.4"
@@ -6388,7 +6401,7 @@ in
       sources."require-relative-0.8.7"
       sources."rimraf-2.7.1"
       sources."safe-buffer-5.1.2"
-      sources."safe-stable-stringify-1.1.1"
+      sources."safe-stable-stringify-2.3.1"
       sources."safer-buffer-2.1.2"
       sources."sax-1.2.4"
       sources."semver-6.3.0"
@@ -6426,7 +6439,7 @@ in
       })
       sources."which-1.3.1"
       sources."wide-align-1.1.5"
-      (sources."winston-3.4.0" // {
+      (sources."winston-3.5.0" // {
         dependencies = [
           sources."readable-stream-3.6.0"
         ];
@@ -7234,10 +7247,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "0.9.4";
+    version = "0.9.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.9.4.tgz";
-      sha512 = "Ku40l2JQyj4rB/qHLRMm/k2nqAppR6equ4LCqiLSOH/tDypsSPjgQfeYJ+gterQbdYOpCqLimiL2AP1BeHpTQw==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.9.5.tgz";
+      sha512 = "ixEYxmOFUfbx5soEDQpPDlOlOqyLZBmtyO4IhJPmRIxxcK0lNqQThOqtgJ8M7W//cMtU0sRhWzYlb9GRNCeK2A==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
