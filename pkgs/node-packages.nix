@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.57" = {
+    "electron-to-chromium-1.4.58" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.57";
+      version = "1.4.58";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.57.tgz";
-        sha512 = "FNC+P5K1n6pF+M0zIK+gFCoXcJhhzDViL3DRIGy2Fv5PohuSES1JHR7T+GlwxSxlzx4yYbsuzCZvHxcBSRCIOw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.58.tgz";
+        sha512 = "7LXwnKyqcEaMFVXOer+2JPfFs1D+ej7yRRrfZoIH1YlLQZ81OvBNwSCBBLtExVkoMQQgOWwO0FbZVge6U/8rhQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5674,13 +5674,13 @@ let
         sha512 = "LFZ6WMB3iPezQAU9OnGoERzcIVKhcs0OLfD/NHcqSj3g1wgxuLUL5kSlZbbjFySQCmhzm6b0yb3hjTSeBtq1+w==";
       };
     };
-    "vscode-languageserver-textdocument-1.0.3" = {
+    "vscode-languageserver-textdocument-1.0.4" = {
       name = "vscode-languageserver-textdocument";
       packageName = "vscode-languageserver-textdocument";
-      version = "1.0.3";
+      version = "1.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.3.tgz";
-        sha512 = "ynEGytvgTb6HVSUwPJIAZgiHQmPCx8bZ8w5um5Lz+q5DjP0Zj8wTFhQpyg8xaMvefDytw2+HH5yzqS+FhsR28A==";
+        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.4.tgz";
+        sha512 = "/xhqXP/2A2RSs+J8JNXpiiNVvvNM0oTosNVmQnunlKvq9o4mupHOBAnnzH0lwIPKazXKvAKsVp1kr+H/K4lgoQ==";
       };
     };
     "vscode-languageserver-types-3.16.0" = {
@@ -5836,13 +5836,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.5.0" = {
+    "winston-3.5.1" = {
       name = "winston";
       packageName = "winston";
-      version = "3.5.0";
+      version = "3.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.5.0.tgz";
-        sha512 = "OQMbmLsIdVHvm2hSurrYZs+iZNIImXneYJ6pX7LseSMEq20HdTETXiNnNX3FDwN4LB/xDRZLF6JYOY+AI112Kw==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.5.1.tgz";
+        sha512 = "tbRtVy+vsSSCLcZq/8nXZaOie/S2tPXPFt4be/Q3vI/WtYwm7rrwidxVw2GRa38FIXcJ1kUM6MOZ9Jmnk3F3UA==";
       };
     };
     "winston-transport-4.4.2" = {
@@ -6292,7 +6292,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.57"
+      sources."electron-to-chromium-1.4.58"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6439,7 +6439,7 @@ in
       })
       sources."which-1.3.1"
       sources."wide-align-1.1.5"
-      (sources."winston-3.5.0" // {
+      (sources."winston-3.5.1" // {
         dependencies = [
           sources."readable-stream-3.6.0"
         ];
@@ -7320,7 +7320,7 @@ in
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
       sources."vscode-languageserver-protocol-3.16.0"
-      sources."vscode-languageserver-textdocument-1.0.3"
+      sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.16.0"
       sources."vscode-uri-3.0.3"
       sources."which-2.0.2"
@@ -7453,7 +7453,7 @@ in
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-6.1.1"
       sources."vscode-languageserver-protocol-3.16.0"
-      sources."vscode-languageserver-textdocument-1.0.3"
+      sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.16.0"
       sources."w3c-hr-time-1.0.2"
       sources."web-tree-sitter-0.19.4"
@@ -7676,7 +7676,7 @@ in
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      sources."vscode-languageserver-textdocument-1.0.3"
+      sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.17.0-next.1"
       sources."vscode-nls-5.0.0"
       sources."vscode-uri-3.0.3"
@@ -7708,7 +7708,7 @@ in
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
       sources."vscode-languageserver-protocol-3.16.0"
-      sources."vscode-languageserver-textdocument-1.0.3"
+      sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.16.0"
       sources."vscode-nls-5.0.0"
       sources."vscode-uri-3.0.3"
