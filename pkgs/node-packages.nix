@@ -1102,13 +1102,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001304" = {
+    "caniuse-lite-1.0.30001305" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001304";
+      version = "1.0.30001305";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001304.tgz";
-        sha512 = "bdsfZd6K6ap87AGqSHJP/s1V+U6Z5lyrcbBu3ovbCCf8cSYpwTtGrCBObMpJqwxfTbLW6YTIdbb1jEeTelcpYQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001305.tgz";
+        sha512 = "p7d9YQMji8haf0f+5rbcv9WlQ+N5jMPfRAnUmZRlNxsNeBO3Yr7RYG6M2uTY1h9tCVdlkJg6YNNc4kiAiBLdWA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1336,13 +1336,13 @@ let
         sha512 = "NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==";
       };
     };
-    "commander-8.3.0" = {
+    "commander-9.0.0" = {
       name = "commander";
       packageName = "commander";
-      version = "8.3.0";
+      version = "9.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz";
-        sha512 = "OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==";
+        url = "https://registry.npmjs.org/commander/-/commander-9.0.0.tgz";
+        sha512 = "JJfP2saEKbQqvW+FI93OYUB4ByV5cizMpFMiiJI8xDbBvQvSkIk0VvQdn1CZ8mqAO8Loq2h0gYTYtDFUZUeERw==";
       };
     };
     "concat-map-0.0.1" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.60" = {
+    "electron-to-chromium-1.4.62" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.60";
+      version = "1.4.62";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.60.tgz";
-        sha512 = "h53hbEiKC6hijelDgxgkgAUC3PKyR7TmIfvjHnBjUGPMg/3sBuTyG6eDormw+lY24uUJvHkUPzB8dpK8b2u3Sw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.62.tgz";
+        sha512 = "fWc/zAThqZzl7fbuLzar+x6bqZBWHrsBXQOqv//yrgdTLY/G3JGTPOWhPKIhbhynJJhqE9QNzKzlpCINUmUMoA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2497,13 +2497,13 @@ let
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
       };
     };
-    "globals-13.12.0" = {
+    "globals-13.12.1" = {
       name = "globals";
       packageName = "globals";
-      version = "13.12.0";
+      version = "13.12.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.12.0.tgz";
-        sha512 = "uS8X6lSKN2JumVoXrbUz+uG4BYG+eiawqm3qFcT7ammfbUHeCBoJMlHcec/S3krSk73/AE/f0szYFmgAA3kYZg==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.12.1.tgz";
+        sha512 = "317dFlgY2pdJZ9rspXDks7073GpDmXdfbM3vYYp0HAMKGDh1FfWPleI2ljVNLQX5M5lXcAslTcPTrOrMEFOjyw==";
       };
     };
     "globby-10.0.2" = {
@@ -5994,7 +5994,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.0"
       sources."glob-parent-6.0.2"
-      sources."globals-13.12.0"
+      sources."globals-13.12.1"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.0"
       sources."import-fresh-3.3.0"
@@ -6134,7 +6134,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
-      sources."globals-13.12.0"
+      sources."globals-13.12.1"
       sources."has-flag-4.0.0"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
@@ -6268,7 +6268,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.19.1"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001304"
+      sources."caniuse-lite-1.0.30001305"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -6292,7 +6292,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.60"
+      sources."electron-to-chromium-1.4.62"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7247,10 +7247,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "0.9.5";
+    version = "0.9.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.9.5.tgz";
-      sha512 = "ixEYxmOFUfbx5soEDQpPDlOlOqyLZBmtyO4IhJPmRIxxcK0lNqQThOqtgJ8M7W//cMtU0sRhWzYlb9GRNCeK2A==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-0.9.6.tgz";
+      sha512 = "nLB9qvCFq/jRj21tC6SPZgde8JkNbCQZVjoeBHYsCZvzBgSyNh1A1k5puAM9g/kWlEvAlN/G4J8tETbnJySVpg==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7262,7 +7262,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."braces-3.0.2"
       sources."clean-stack-2.2.0"
-      sources."commander-8.3.0"
+      sources."commander-9.0.0"
       sources."concat-map-0.0.1"
       sources."crypto-random-string-2.0.0"
       sources."del-6.0.0"
