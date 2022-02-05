@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@ampproject/remapping-2.0.2" = {
+    "@ampproject/remapping-2.0.3" = {
       name = "_at_ampproject_slash_remapping";
       packageName = "@ampproject/remapping";
-      version = "2.0.2";
+      version = "2.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.0.2.tgz";
-        sha512 = "sE8Gx+qSDMLoJvb3QarJJlDQK7SSY4rK3hxp4XsiANeFOmjU46ZI7Y9adAQRJrmbz8zbtZkp3mJTT+rGxtF0XA==";
+        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.0.3.tgz";
+        sha512 = "DmIAguV77yFP0MGVFWknCMgSLAtsLR3VlRTteR6xgMpIfYtwaZuMvjGv5YlpiqN7S/5q87DHyuIx8oa15kiyag==";
       };
     };
     "@babel/code-frame-7.12.11" = {
@@ -382,13 +382,22 @@ let
         sha512 = "cz8HFjOFfUBtvN+NXYSFMHYRdxZMaEl0XypVrhzxBgadKIXhIkRd8aMeHhmF56Sl7SuS8OnUpQ73/k9LE4VnLg==";
       };
     };
-    "@jridgewell/trace-mapping-0.2.6" = {
+    "@jridgewell/sourcemap-codec-1.4.10" = {
+      name = "_at_jridgewell_slash_sourcemap-codec";
+      packageName = "@jridgewell/sourcemap-codec";
+      version = "1.4.10";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.10.tgz";
+        sha512 = "Ht8wIW5v165atIX1p+JvKR5ONzUyF4Ac8DZIQ5kZs9zrb6M8SJNXpx1zn04rn65VjBMygRoMXcyYwNK0fT7bEg==";
+      };
+    };
+    "@jridgewell/trace-mapping-0.2.7" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.2.6";
+      version = "0.2.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.2.6.tgz";
-        sha512 = "rVJf5dSMEBxnDEwtAT5x8+p6tZ+xU6Ocm+cR1MYL2gMsRi4MMzVf9Pvq6JaxIsEeKAyYmo2U+yPQN4QfdTfFnA==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.2.7.tgz";
+        sha512 = "ZKfRhw6eK2vvdWqpU7DQq49+BZESqh5rmkYpNhuzkz01tapssl2sNNy6uMUIgrTtUWQDijomWJzJRCoevVrfgw==";
       };
     };
     "@nodelib/fs.scandir-2.1.5" = {
@@ -580,13 +589,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.14" = {
+    "@types/node-17.0.15" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.14";
+      version = "17.0.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.14.tgz";
-        sha512 = "SbjLmERksKOGzWzPNuW7fJM7fk3YXVTFiZWB/Hs99gwhk+/dnrQRPBQjPW9aO+fi1tAffi9PrwFvsmOKmDTyng==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.15.tgz";
+        sha512 = "zWt4SDDv1S9WRBNxLFxFRHxdD9tvH8f5/kg5/IaLFdnSNXsDY4eL3Q3XXN+VxUnWIhyVFDwcsmAprvwXoM/ClA==";
       };
     };
     "JSV-4.0.2" = {
@@ -1759,13 +1768,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.64" = {
+    "electron-to-chromium-1.4.65" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.64";
+      version = "1.4.65";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.64.tgz";
-        sha512 = "8mec/99xgLUZCIZZq3wt61Tpxg55jnOSpxGYapE/1Ma9MpFEYYaz4QNYm0CM1rrnCo7i3FRHhbaWjeCLsveGjQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.65.tgz";
+        sha512 = "0/d8Skk8sW3FxXP0Dd6MnBlrwx7Qo9cqQec3BlIAlvKnrmS3pHsIbaroEi+nd0kZkGpQ6apMEre7xndzjlEnLw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4963,15 +4972,6 @@ let
         sha512 = "UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==";
       };
     };
-    "sourcemap-codec-1.4.8" = {
-      name = "sourcemap-codec";
-      packageName = "sourcemap-codec";
-      version = "1.4.8";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz";
-        sha512 = "9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==";
-      };
-    };
     "spdx-correct-3.1.1" = {
       name = "spdx-correct";
       packageName = "spdx-correct";
@@ -5881,13 +5881,13 @@ let
         sha512 = "tbRtVy+vsSSCLcZq/8nXZaOie/S2tPXPFt4be/Q3vI/WtYwm7rrwidxVw2GRa38FIXcJ1kUM6MOZ9Jmnk3F3UA==";
       };
     };
-    "winston-transport-4.4.2" = {
+    "winston-transport-4.5.0" = {
       name = "winston-transport";
       packageName = "winston-transport";
-      version = "4.4.2";
+      version = "4.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston-transport/-/winston-transport-4.4.2.tgz";
-        sha512 = "9jmhltAr5ygt5usgUTQbEiw/7RYXpyUbEAFRCSicIacpUzPkrnQsQZSPGEI12aLK9Jth4zNcYJx3Cvznwrl8pw==";
+        url = "https://registry.npmjs.org/winston-transport/-/winston-transport-4.5.0.tgz";
+        sha512 = "YpZzcUzBedhlTAfJg6vJDlyEai/IFMIVcaEZZyl3UXIl4gmqRpU7AE89AHLkbzLUsv0NVmw7ts+iztqKxxPW1Q==";
       };
     };
     "word-wrap-1.2.3" = {
@@ -6255,7 +6255,7 @@ in
       sha512 = "8sVqR50yMXoS/yC6vLEsXzrOtVN6yMutdS4FpCOt7ak+xUdZUeiUakXzkBFox44whfNupB7WcBx6gAHr+8lJmw==";
     };
     dependencies = [
-      sources."@ampproject/remapping-2.0.2"
+      sources."@ampproject/remapping-2.0.3"
       sources."@babel/code-frame-7.16.7"
       sources."@babel/compat-data-7.17.0"
       sources."@babel/core-7.17.0"
@@ -6288,7 +6288,8 @@ in
       sources."@babel/types-7.17.0"
       sources."@dabh/diagnostics-2.0.2"
       sources."@jridgewell/resolve-uri-3.0.4"
-      sources."@jridgewell/trace-mapping-0.2.6"
+      sources."@jridgewell/sourcemap-codec-1.4.10"
+      sources."@jridgewell/trace-mapping-0.2.7"
       sources."abbrev-1.1.1"
       sources."ajv-6.12.6"
       sources."ansi-regex-2.1.1"
@@ -6331,7 +6332,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.64"
+      sources."electron-to-chromium-1.4.65"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6448,7 +6449,6 @@ in
       sources."signal-exit-3.0.7"
       sources."simple-swizzle-0.2.2"
       sources."source-map-0.5.7"
-      sources."sourcemap-codec-1.4.8"
       sources."sqlite3-5.0.2"
       sources."sshpk-1.17.0"
       sources."stack-trace-0.0.10"
@@ -6484,7 +6484,7 @@ in
           sources."readable-stream-3.6.0"
         ];
       })
-      (sources."winston-transport-4.4.2" // {
+      (sources."winston-transport-4.5.0" // {
         dependencies = [
           sources."readable-stream-3.6.0"
         ];
@@ -7066,7 +7066,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.14"
+      sources."@types/node-17.0.15"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
