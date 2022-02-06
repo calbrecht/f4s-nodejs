@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@ampproject/remapping-2.0.3" = {
+    "@ampproject/remapping-2.0.4" = {
       name = "_at_ampproject_slash_remapping";
       packageName = "@ampproject/remapping";
-      version = "2.0.3";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.0.3.tgz";
-        sha512 = "DmIAguV77yFP0MGVFWknCMgSLAtsLR3VlRTteR6xgMpIfYtwaZuMvjGv5YlpiqN7S/5q87DHyuIx8oa15kiyag==";
+        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.0.4.tgz";
+        sha512 = "zU3pj3pf//YhaoozRTYKaL20KopXrzuZFc/8Ylc49AuV8grYKH23TTq9JJoR70F8zQbil58KjSchZTWeX+jrIQ==";
       };
     };
     "@babel/code-frame-7.12.11" = {
@@ -391,13 +391,13 @@ let
         sha512 = "Ht8wIW5v165atIX1p+JvKR5ONzUyF4Ac8DZIQ5kZs9zrb6M8SJNXpx1zn04rn65VjBMygRoMXcyYwNK0fT7bEg==";
       };
     };
-    "@jridgewell/trace-mapping-0.2.7" = {
+    "@jridgewell/trace-mapping-0.3.2" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.2.7";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.2.7.tgz";
-        sha512 = "ZKfRhw6eK2vvdWqpU7DQq49+BZESqh5rmkYpNhuzkz01tapssl2sNNy6uMUIgrTtUWQDijomWJzJRCoevVrfgw==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.2.tgz";
+        sha512 = "9KzzH4kMjA2XmBRHfqG2/Vtl7s92l6uNDd0wW7frDE+EUvQFGqNXhWp0UGJjSkt3v2AYjzOZn1QO9XaTNJIt1Q==";
       };
     };
     "@nodelib/fs.scandir-2.1.5" = {
@@ -4936,13 +4936,13 @@ let
         sha512 = "94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==";
       };
     };
-    "socks-2.6.1" = {
+    "socks-2.6.2" = {
       name = "socks";
       packageName = "socks";
-      version = "2.6.1";
+      version = "2.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks/-/socks-2.6.1.tgz";
-        sha512 = "kLQ9N5ucj8uIcxrDwjm0Jsqk06xdpBjGNQtpXy4Q8/QY2k+fY7nZH8CARy+hkbG+SGAovmzzuauCpBlb8FrnBA==";
+        url = "https://registry.npmjs.org/socks/-/socks-2.6.2.tgz";
+        sha512 = "zDZhHhZRY9PxRruRMR7kMhnf3I8hDs4S3f9RecfnGxvcBHQcKcIH/oUcEWffsfl1XxdYlA7nnlGbbTvPz9D8gA==";
       };
     };
     "socks-proxy-agent-6.1.1" = {
@@ -6255,7 +6255,7 @@ in
       sha512 = "8sVqR50yMXoS/yC6vLEsXzrOtVN6yMutdS4FpCOt7ak+xUdZUeiUakXzkBFox44whfNupB7WcBx6gAHr+8lJmw==";
     };
     dependencies = [
-      sources."@ampproject/remapping-2.0.3"
+      sources."@ampproject/remapping-2.0.4"
       sources."@babel/code-frame-7.16.7"
       sources."@babel/compat-data-7.17.0"
       sources."@babel/core-7.17.0"
@@ -6289,7 +6289,7 @@ in
       sources."@dabh/diagnostics-2.0.2"
       sources."@jridgewell/resolve-uri-3.0.4"
       sources."@jridgewell/sourcemap-codec-1.4.10"
-      sources."@jridgewell/trace-mapping-0.2.7"
+      sources."@jridgewell/trace-mapping-0.3.2"
       sources."abbrev-1.1.1"
       sources."ajv-6.12.6"
       sources."ansi-regex-2.1.1"
@@ -6612,7 +6612,7 @@ in
       sources."set-blocking-2.0.0"
       sources."signal-exit-3.0.7"
       sources."smart-buffer-4.2.0"
-      sources."socks-2.6.1"
+      sources."socks-2.6.2"
       sources."socks-proxy-agent-6.1.1"
       sources."ssri-8.0.1"
       sources."string-width-4.2.3"
