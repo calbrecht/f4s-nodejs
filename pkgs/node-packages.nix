@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@ampproject/remapping-2.0.4" = {
+    "@ampproject/remapping-2.1.0" = {
       name = "_at_ampproject_slash_remapping";
       packageName = "@ampproject/remapping";
-      version = "2.0.4";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.0.4.tgz";
-        sha512 = "zU3pj3pf//YhaoozRTYKaL20KopXrzuZFc/8Ylc49AuV8grYKH23TTq9JJoR70F8zQbil58KjSchZTWeX+jrIQ==";
+        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.1.0.tgz";
+        sha512 = "d5RysTlJ7hmw5Tw4UxgxcY3lkMe92n8sXCcuLPAyIAHK6j8DefDwtGnVVDgOnv+RnEosulDJ9NPKQL27bDId0g==";
       };
     };
     "@babel/code-frame-7.12.11" = {
@@ -589,13 +589,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.15" = {
+    "@types/node-17.0.16" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.15";
+      version = "17.0.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.15.tgz";
-        sha512 = "zWt4SDDv1S9WRBNxLFxFRHxdD9tvH8f5/kg5/IaLFdnSNXsDY4eL3Q3XXN+VxUnWIhyVFDwcsmAprvwXoM/ClA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.16.tgz";
+        sha512 = "ydLaGVfQOQ6hI1xK2A5nVh8bl0OGoIfYMxPWHqqYe9bTkWCfqiVvZoh2I/QF2sNSkZzZyROBoTefIEI+PB6iIA==";
       };
     };
     "JSV-4.0.2" = {
@@ -1138,13 +1138,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001307" = {
+    "caniuse-lite-1.0.30001309" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001307";
+      version = "1.0.30001309";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001307.tgz";
-        sha512 = "+MXEMczJ4FuxJAUp0jvAl6Df0NI/OfW1RWEE61eSmzS7hw6lz4IKutbhbXendwq8BljfFuHtu26VWsg4afQ7Ng==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001309.tgz";
+        sha512 = "Pl8vfigmBXXq+/yUz1jUwULeq9xhMJznzdc/xwl4WclDAuebcTHVefpz8lE/bMI+UN7TOkSSe7B7RnZd6+dzjA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1768,13 +1768,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.65" = {
+    "electron-to-chromium-1.4.66" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.65";
+      version = "1.4.66";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.65.tgz";
-        sha512 = "0/d8Skk8sW3FxXP0Dd6MnBlrwx7Qo9cqQec3BlIAlvKnrmS3pHsIbaroEi+nd0kZkGpQ6apMEre7xndzjlEnLw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.66.tgz";
+        sha512 = "f1RXFMsvwufWLwYUxTiP7HmjprKXrqEWHiQkjAYa9DJeVIlZk5v8gBGcaV+FhtXLly6C1OTVzQY+2UQrACiLlg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6255,7 +6255,7 @@ in
       sha512 = "8sVqR50yMXoS/yC6vLEsXzrOtVN6yMutdS4FpCOt7ak+xUdZUeiUakXzkBFox44whfNupB7WcBx6gAHr+8lJmw==";
     };
     dependencies = [
-      sources."@ampproject/remapping-2.0.4"
+      sources."@ampproject/remapping-2.1.0"
       sources."@babel/code-frame-7.16.7"
       sources."@babel/compat-data-7.17.0"
       sources."@babel/core-7.17.0"
@@ -6308,7 +6308,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.19.1"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001307"
+      sources."caniuse-lite-1.0.30001309"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -6332,7 +6332,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.65"
+      sources."electron-to-chromium-1.4.66"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7066,7 +7066,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.15"
+      sources."@types/node-17.0.16"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
