@@ -391,13 +391,13 @@ let
         sha512 = "Ht8wIW5v165atIX1p+JvKR5ONzUyF4Ac8DZIQ5kZs9zrb6M8SJNXpx1zn04rn65VjBMygRoMXcyYwNK0fT7bEg==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.2" = {
+    "@jridgewell/trace-mapping-0.3.4" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.2";
+      version = "0.3.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.2.tgz";
-        sha512 = "9KzzH4kMjA2XmBRHfqG2/Vtl7s92l6uNDd0wW7frDE+EUvQFGqNXhWp0UGJjSkt3v2AYjzOZn1QO9XaTNJIt1Q==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.4.tgz";
+        sha512 = "vFv9ttIedivx0ux3QSjhgtCVjPZd5l46ZOMDSCwnH1yUO2e964gO8LZGyv2QkqcgR6TnBU1v+1IFqmeoG+0UJQ==";
       };
     };
     "@nodelib/fs.scandir-2.1.5" = {
@@ -841,13 +841,13 @@ let
         sha512 = "nxwy40TuMiUGqMyRHgCSWZ9FM4VAoRP4xUYSTv5ImRog+h9yISPbVH7H8fASCIzYn9wlEv4zvFL7uKDMCFQm3g==";
       };
     };
-    "are-we-there-yet-2.0.0" = {
+    "are-we-there-yet-3.0.0" = {
       name = "are-we-there-yet";
       packageName = "are-we-there-yet";
-      version = "2.0.0";
+      version = "3.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/are-we-there-yet/-/are-we-there-yet-2.0.0.tgz";
-        sha512 = "Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==";
+        url = "https://registry.npmjs.org/are-we-there-yet/-/are-we-there-yet-3.0.0.tgz";
+        sha512 = "0GWpv50YSOcLXaN6/FAKY3vfRbllXWV2xvfA/oKJF8pzFhWXPV+yjhJXDBbjscDYowv7Yw1A3uigpzn5iEGTyw==";
       };
     };
     "argparse-1.0.10" = {
@@ -1138,13 +1138,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001309" = {
+    "caniuse-lite-1.0.30001310" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001309";
+      version = "1.0.30001310";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001309.tgz";
-        sha512 = "Pl8vfigmBXXq+/yUz1jUwULeq9xhMJznzdc/xwl4WclDAuebcTHVefpz8lE/bMI+UN7TOkSSe7B7RnZd6+dzjA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001310.tgz";
+        sha512 = "cb9xTV8k9HTIUA3GnPUJCk0meUnrHL5gy5QePfDjxHyNBcnzPzrHFv5GqfP7ue5b1ZyzZL0RJboD6hQlPXjhjg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1768,13 +1768,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.67" = {
+    "electron-to-chromium-1.4.68" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.67";
+      version = "1.4.68";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.67.tgz";
-        sha512 = "A6a2jEPLueEDfb7kvh7/E94RKKnIb01qL+4I7RFxtajmo+G9F5Ei7HgY5PRbQ4RDrh6DGDW66P0hD5XI2nRAcg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.68.tgz";
+        sha512 = "cId+QwWrV8R1UawO6b9BR1hnkJ4EJPCPAr4h315vliHUtVUJDk39Sg1PMNnaWKfj5x+93ssjeJ9LKL6r8LaMiA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3901,13 +3901,13 @@ let
         sha512 = "2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==";
       };
     };
-    "npmlog-6.0.0" = {
+    "npmlog-6.0.1" = {
       name = "npmlog";
       packageName = "npmlog";
-      version = "6.0.0";
+      version = "6.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/npmlog/-/npmlog-6.0.0.tgz";
-        sha512 = "03ppFRGlsyUaQFbGC2C8QWJN/C/K7PsfyD9aQdhVKAQIH4sQBc8WASqFBP7O+Ut4d2oo5LoeoboB3cGdBZSp6Q==";
+        url = "https://registry.npmjs.org/npmlog/-/npmlog-6.0.1.tgz";
+        sha512 = "BTHDvY6nrRHuRfyjt1MAufLxYdVXZfd099H4+i1f0lPywNQyI4foeNXJRObB/uy+TYqUW0vAD9gbdSOXPst7Eg==";
       };
     };
     "number-is-nan-1.0.1" = {
@@ -6289,7 +6289,7 @@ in
       sources."@dabh/diagnostics-2.0.2"
       sources."@jridgewell/resolve-uri-3.0.4"
       sources."@jridgewell/sourcemap-codec-1.4.10"
-      sources."@jridgewell/trace-mapping-0.3.2"
+      sources."@jridgewell/trace-mapping-0.3.4"
       sources."abbrev-1.1.1"
       sources."ajv-6.12.6"
       sources."ansi-regex-2.1.1"
@@ -6308,7 +6308,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.19.1"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001309"
+      sources."caniuse-lite-1.0.30001310"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -6332,7 +6332,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.67"
+      sources."electron-to-chromium-1.4.68"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6547,7 +6547,7 @@ in
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
       sources."aproba-2.0.0"
-      sources."are-we-there-yet-2.0.0"
+      sources."are-we-there-yet-3.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."cacache-15.3.0"
@@ -6597,7 +6597,7 @@ in
       sources."ms-2.1.2"
       sources."negotiator-0.6.3"
       sources."nopt-5.0.0"
-      sources."npmlog-6.0.0"
+      sources."npmlog-6.0.1"
       sources."once-1.4.0"
       sources."p-map-4.0.0"
       sources."path-is-absolute-1.0.1"
