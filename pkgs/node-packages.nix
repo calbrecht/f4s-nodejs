@@ -589,13 +589,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.16" = {
+    "@types/node-17.0.17" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.16";
+      version = "17.0.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.16.tgz";
-        sha512 = "ydLaGVfQOQ6hI1xK2A5nVh8bl0OGoIfYMxPWHqqYe9bTkWCfqiVvZoh2I/QF2sNSkZzZyROBoTefIEI+PB6iIA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.17.tgz";
+        sha512 = "e8PUNQy1HgJGV3iU/Bp2+D/DXh3PYeyli8LgIwsQcs1Ar1LoaWHSIT6Rw+H2rNJmiq6SNWiDytfx8+gYj7wDHw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1138,13 +1138,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001310" = {
+    "caniuse-lite-1.0.30001311" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001310";
+      version = "1.0.30001311";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001310.tgz";
-        sha512 = "cb9xTV8k9HTIUA3GnPUJCk0meUnrHL5gy5QePfDjxHyNBcnzPzrHFv5GqfP7ue5b1ZyzZL0RJboD6hQlPXjhjg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001311.tgz";
+        sha512 = "mleTFtFKfykEeW34EyfhGIFjGCqzhh38Y0LhdQ9aWF+HorZTtdgKV/1hEE0NlFkG2ubvisPV6l400tlbPys98A==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5620,13 +5620,13 @@ let
         sha1 = "3a105ca17053af55d6e270c1f8288682e18da400";
       };
     };
-    "vscode-css-languageservice-5.1.12" = {
+    "vscode-css-languageservice-5.1.13" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "5.1.12";
+      version = "5.1.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.12.tgz";
-        sha512 = "293C5C2732Rbhh3opTs+nQBpC5Dd+oYrEA8lc0OWdyt40oYmJ331FV7NMF1SLFSIcOFB5XveLiWUZak2oyc49Q==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.13.tgz";
+        sha512 = "FA0foqMzMmEoO0WJP+MjoD4dRERhKS+Ag+yBrtmWQDmw2OuZ1R/5FkvI/XdTkCpHmTD9VMczugpHRejQyTXCNQ==";
       };
     };
     "vscode-html-languageservice-4.2.1" = {
@@ -6308,7 +6308,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.19.1"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001310"
+      sources."caniuse-lite-1.0.30001311"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -7066,7 +7066,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.16"
+      sources."@types/node-17.0.17"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7694,7 +7694,7 @@ in
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-5.1.12" // {
+      (sources."vscode-css-languageservice-5.1.13" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
