@@ -301,6 +301,15 @@ let
         sha512 = "WUwXC5pOHNuSzFUpzh0KpbuTfAtbPAU5DLKdYIWhWSrs4iof7Qxq25dkWfiA6Ksp/AmM2tnCTLDWaU7AxpCQOQ==";
       };
     };
+    "@colors/colors-1.5.0" = {
+      name = "_at_colors_slash_colors";
+      packageName = "@colors/colors";
+      version = "1.5.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz";
+        sha512 = "ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==";
+      };
+    };
     "@dabh/diagnostics-2.0.2" = {
       name = "_at_dabh_slash_diagnostics";
       packageName = "@dabh/diagnostics";
@@ -328,13 +337,13 @@ let
         sha512 = "J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==";
       };
     };
-    "@eslint/eslintrc-1.0.5" = {
+    "@eslint/eslintrc-1.1.0" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.0.5";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.0.5.tgz";
-        sha512 = "BLxsnmK3KyPunz5wmCCpqy0YelEoxxGmH73Is+Z74oOTMtExcjkr3dDR6quwrjh1YspA8DH9gnX1o069KiS9AQ==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.1.0.tgz";
+        sha512 = "C1DfL7XX4nPqGd6jcP01W9pVM1HYCuUkFk1432D7F0v3JSlUIeOYn9oCoi3eoLZ+iwBSb29BMFxxny0YrrEZqg==";
       };
     };
     "@gar/promisify-1.1.2" = {
@@ -1327,15 +1336,6 @@ let
         sha1 = "0433f44d809680fdeb60ed260f1b0c262e82a40b";
       };
     };
-    "colors-1.4.0" = {
-      name = "colors";
-      packageName = "colors";
-      version = "1.4.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/colors/-/colors-1.4.0.tgz";
-        sha512 = "a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==";
-      };
-    };
     "colorspace-1.1.4" = {
       name = "colorspace";
       packageName = "colorspace";
@@ -2029,13 +2029,13 @@ let
         sha512 = "2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==";
       };
     };
-    "eslint-scope-7.1.0" = {
+    "eslint-scope-7.1.1" = {
       name = "eslint-scope";
       packageName = "eslint-scope";
-      version = "7.1.0";
+      version = "7.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.1.0.tgz";
-        sha512 = "aWwkhnS0qAXqNOgKOK0dJ2nvzEbhEvpy8OlJ9kZ0FeZnA6zpjv1/Vei+puGFFX7zkPCkHHXb7IDX3A+7yPrRWg==";
+        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.1.1.tgz";
+        sha512 = "QKQM/UXpIiHcLqJ5AOyIW7XZmzjkzQXYE54n1++wb0u9V/abW3l9uQnxX8Z5Xd18xyKIMTUAyQ0k1e8pz6LUrw==";
       };
     };
     "eslint-utils-2.1.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==";
       };
     };
-    "espree-9.3.0" = {
+    "espree-9.3.1" = {
       name = "espree";
       packageName = "espree";
-      version = "9.3.0";
+      version = "9.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.3.0.tgz";
-        sha512 = "d/5nCsb0JcqsSEeQzFZ8DH1RmxPcglRWh24EFTlUEmCKoehXGdpsx0RkHDubqUI8LSAIKMQp4r9SzQ3n+sm4HQ==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.3.1.tgz";
+        sha512 = "bvdyLmJMfwkV3NCRl5ZhJf22zBFo1y8bYh3VYb+bfzqNB4Je68P2sSuXyuFquzWLebHpNd2/d5uv7yoP9ISnGQ==";
       };
     };
     "esprima-3.0.0" = {
@@ -3424,13 +3424,13 @@ let
         sha1 = "5a350da0b1113b837ecfffd5812cbe58d6eae193";
       };
     };
-    "logform-2.3.2" = {
+    "logform-2.4.0" = {
       name = "logform";
       packageName = "logform";
-      version = "2.3.2";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/logform/-/logform-2.3.2.tgz";
-        sha512 = "V6JiPThZzTsbVRspNO6TmHkR99oqYTs8fivMBYQkjZj6rxW92KxtDCPE6IkAk1DNBnYKNkjm4jYBm6JDUcyhOA==";
+        url = "https://registry.npmjs.org/logform/-/logform-2.4.0.tgz";
+        sha512 = "CPSJw4ftjf517EhXZGGvTHHkYobo7ZCc0kvwUoOYcjfR2UVrI66RHj8MCrfAdEitdmFqbu2BYdYs8FHHZSb6iw==";
       };
     };
     "long-4.0.0" = {
@@ -4765,15 +4765,6 @@ let
         sha512 = "rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==";
       };
     };
-    "safe-stable-stringify-1.1.1" = {
-      name = "safe-stable-stringify";
-      packageName = "safe-stable-stringify";
-      version = "1.1.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-1.1.1.tgz";
-        sha512 = "ERq4hUjKDbJfE4+XtZLFPCDi8Vb1JqaxAPTxWFLBx8XcAlf9Bda/ZJdVezs/NAfsMQScyIlUMx+Yeu7P7rx5jw==";
-      };
-    };
     "safe-stable-stringify-2.3.1" = {
       name = "safe-stable-stringify";
       packageName = "safe-stable-stringify";
@@ -5872,13 +5863,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.5.1" = {
+    "winston-3.6.0" = {
       name = "winston";
       packageName = "winston";
-      version = "3.5.1";
+      version = "3.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.5.1.tgz";
-        sha512 = "tbRtVy+vsSSCLcZq/8nXZaOie/S2tPXPFt4be/Q3vI/WtYwm7rrwidxVw2GRa38FIXcJ1kUM6MOZ9Jmnk3F3UA==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.6.0.tgz";
+        sha512 = "9j8T75p+bcN6D00sF/zjFVmPp+t8KMPB1MzbbzYjeN9VWxdsYnTB40TkbNUEXAmILEfChMvAMgidlX64OG3p6w==";
       };
     };
     "winston-transport-4.5.0" = {
@@ -5977,13 +5968,13 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.8.0";
+    version = "8.9.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.8.0.tgz";
-      sha512 = "H3KXAzQGBH1plhYS3okDix2ZthuYJlQQEGE5k0IKuEqUSiyu4AmxxlJ2MtTYeJ3xB4jDhcYCwGOg2TXYdnDXlQ==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.9.0.tgz";
+      sha512 = "PB09IGwv4F4b0/atrbcMFboF/giawbBLVC7fyDamk5Wtey4Jh2K+rYaBhCAbUyEI4QzB1ly09Uglc9iCtFaG2Q==";
     };
     dependencies = [
-      (sources."@eslint/eslintrc-1.0.5" // {
+      (sources."@eslint/eslintrc-1.1.0" // {
         dependencies = [
           sources."ignore-4.0.6"
         ];
@@ -6008,14 +5999,14 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-scope-7.1.0"
+      sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
           sources."eslint-visitor-keys-2.1.0"
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.3.0"
+      sources."espree-9.3.1"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6286,6 +6277,7 @@ in
         ];
       })
       sources."@babel/types-7.17.0"
+      sources."@colors/colors-1.5.0"
       sources."@dabh/diagnostics-2.0.2"
       sources."@jridgewell/resolve-uri-3.0.5"
       sources."@jridgewell/sourcemap-codec-1.4.11"
@@ -6317,7 +6309,6 @@ in
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
       sources."color-string-1.9.0"
-      sources."colors-1.4.0"
       sources."colorspace-1.1.4"
       sources."combined-stream-1.0.8"
       sources."commander-4.1.1"
@@ -6381,11 +6372,7 @@ in
       sources."jsprim-1.4.2"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
-      (sources."logform-2.3.2" // {
-        dependencies = [
-          sources."safe-stable-stringify-1.1.1"
-        ];
-      })
+      sources."logform-2.4.0"
       sources."mime-db-1.51.0"
       sources."mime-types-2.1.34"
       sources."minimatch-3.0.5"
@@ -6479,7 +6466,7 @@ in
       })
       sources."which-1.3.1"
       sources."wide-align-1.1.5"
-      (sources."winston-3.5.1" // {
+      (sources."winston-3.6.0" // {
         dependencies = [
           sources."readable-stream-3.6.0"
         ];
