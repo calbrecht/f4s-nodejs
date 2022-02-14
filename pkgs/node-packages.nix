@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.17" = {
+    "@types/node-17.0.18" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.17";
+      version = "17.0.18";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.17.tgz";
-        sha512 = "e8PUNQy1HgJGV3iU/Bp2+D/DXh3PYeyli8LgIwsQcs1Ar1LoaWHSIT6Rw+H2rNJmiq6SNWiDytfx8+gYj7wDHw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.18.tgz";
+        sha512 = "eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==";
       };
     };
     "JSV-4.0.2" = {
@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.68" = {
+    "electron-to-chromium-1.4.69" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.68";
+      version = "1.4.69";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.68.tgz";
-        sha512 = "cId+QwWrV8R1UawO6b9BR1hnkJ4EJPCPAr4h315vliHUtVUJDk39Sg1PMNnaWKfj5x+93ssjeJ9LKL6r8LaMiA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.69.tgz";
+        sha512 = "0rxK21MqWhN/fVUXNOeBksRlw79Wq26y6R8lxEEL2v7vwzRWbYhXI7Id5msee7/q1NNgu4mG78qaablN2xtfTQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3730,13 +3730,13 @@ let
         sha512 = "8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==";
       };
     };
-    "nanoid-3.2.0" = {
+    "nanoid-3.3.0" = {
       name = "nanoid";
       packageName = "nanoid";
-      version = "3.2.0";
+      version = "3.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.2.0.tgz";
-        sha512 = "fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==";
+        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.0.tgz";
+        sha512 = "JzxqqT5u/x+/KOFSd7JP15DOo9nOoHpx6DYatqIHUW2+flybkm+mdcraotSQR5WcnZr+qhGVh8Ted0KdfSMxlg==";
       };
     };
     "nanolru-1.0.0" = {
@@ -6395,7 +6395,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.68"
+      sources."electron-to-chromium-1.4.69"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -7125,7 +7125,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.17"
+      sources."@types/node-17.0.18"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7176,7 +7176,7 @@ in
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
       sources."mustache-2.3.2"
-      sources."nanoid-3.2.0"
+      sources."nanoid-3.3.0"
       sources."npm-run-path-4.0.1"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
