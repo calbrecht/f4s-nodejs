@@ -40,22 +40,22 @@ let
         sha512 = "392byTlpGWXMv4FbyWw3sAZ/FrW/DrwqLGXpy0mbyNe9Taqv1mg9yON5/o0cnr8XYCkFTZbC1eV+c+LAROgrng==";
       };
     };
-    "@babel/core-7.17.2" = {
+    "@babel/core-7.17.3" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.17.2";
+      version = "7.17.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.17.2.tgz";
-        sha512 = "R3VH5G42VSDolRHyUO4V2cfag8WHcZyxdq5Z/m8Xyb92lW/Erm/6kM+XtRFGf3Mulre3mveni2NHfEUws8wSvw==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.17.3.tgz";
+        sha512 = "TolSoY0D/G6/e5bufjUK7wqQeHdcK4NbdxHg0hrhx/zN6boloG52oNpxbZuil/GqmAIz2qEnJ0s8ay24j2YwVg==";
       };
     };
-    "@babel/generator-7.17.0" = {
+    "@babel/generator-7.17.3" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.17.0";
+      version = "7.17.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.17.0.tgz";
-        sha512 = "I3Omiv6FGOC29dtlZhkfXO6pgkmukJSlT26QjVvS1DGZe/NzSVCPG41X0tS21oZkJYlovfj9qDWgKP+Cn4bXxw==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.17.3.tgz";
+        sha512 = "+R6Dctil/MgUsZsZAkYgK+ADNSZzJRRy0TvY65T71z/CR854xHQ1EweBYXdfT+HNeN7w0cSJJEzgxZMv40pxsg==";
       };
     };
     "@babel/helper-compilation-targets-7.16.7" = {
@@ -184,13 +184,13 @@ let
         sha512 = "5FnTQLSLswEj6IkgVw5KusNUUFY9ZGqe/TRFnP/BKYHYgfh7tc+C7mwiy95/yNP7Dh9x580Vv8r7u7ZfTBFxdw==";
       };
     };
-    "@babel/parser-7.17.0" = {
+    "@babel/parser-7.17.3" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.17.0";
+      version = "7.17.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.17.0.tgz";
-        sha512 = "VKXSCQx5D8S04ej+Dqsr1CzYvvWgf20jIw2D+YhQCrIlr2UZGaDds23Y0xg75/skOxpLCRpUZvk/1EAVkGoDOw==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.17.3.tgz";
+        sha512 = "7yJPvPV+ESz2IUTPbOL+YkIGyCqOyNIzdguKQuJGnH7bg1WTIifuM21YqokFt/THWh1AkCRn9IgoykTRCBVpzA==";
       };
     };
     "@babel/plugin-syntax-flow-7.16.7" = {
@@ -238,13 +238,13 @@ let
         sha512 = "I8j/x8kHUrbYRTUxXrrMbfCa7jxkE7tZre39x3kjr9hvI82cK1FfqLygotcWN5kdPGWcLdWMHpSBavse5tWw3w==";
       };
     };
-    "@babel/traverse-7.17.0" = {
+    "@babel/traverse-7.17.3" = {
       name = "_at_babel_slash_traverse";
       packageName = "@babel/traverse";
-      version = "7.17.0";
+      version = "7.17.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.17.0.tgz";
-        sha512 = "fpFIXvqD6kC7c7PUNnZ0Z8cQXlarCLtCUpt2S1Dx7PjoRtCFffvOkHHSom+m5HIxMZn5bIBVb71lhabcmjEsqg==";
+        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.17.3.tgz";
+        sha512 = "5irClVky7TxRWIRtxlh2WPUUOLhcPN06AGgaQSB8AEwuyEBgJVuJ5imdHm5zxk8w0QS5T+tDfnDxAlhWjpb7cw==";
       };
     };
     "@babel/types-7.17.0" = {
@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.69" = {
+    "electron-to-chromium-1.4.71" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.69";
+      version = "1.4.71";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.69.tgz";
-        sha512 = "0rxK21MqWhN/fVUXNOeBksRlw79Wq26y6R8lxEEL2v7vwzRWbYhXI7Id5msee7/q1NNgu4mG78qaablN2xtfTQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.71.tgz";
+        sha512 = "Hk61vXXKRb2cd3znPE9F+2pLWdIOmP7GjiTj45y6L3W/lO+hSnUSUhq+6lEaERWBdZOHbk2s3YV5c9xVl3boVw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2434,13 +2434,13 @@ let
         sha1 = "2c03405c7538c39d7eb37b317022e325fb018bf7";
       };
     };
-    "gauge-4.0.0" = {
+    "gauge-4.0.1" = {
       name = "gauge";
       packageName = "gauge";
-      version = "4.0.0";
+      version = "4.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gauge/-/gauge-4.0.0.tgz";
-        sha512 = "F8sU45yQpjQjxKkm1UOAhf0U/O0aFt//Fl7hsrNVto+patMHjs7dPI9mFOGUKbhrgKm0S3EjW3scMFuQmWSROw==";
+        url = "https://registry.npmjs.org/gauge/-/gauge-4.0.1.tgz";
+        sha512 = "zJ4jePUHR8cceduZ53b6temRalyGpkC2Kc2r3ecNphmL+uWNoJ3YcOcUjpbG6WwoE/Ef6/+aEZz63neI2WIa1Q==";
       };
     };
     "gensync-1.0.0-beta.2" = {
@@ -3559,13 +3559,13 @@ let
         sha512 = "OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==";
       };
     };
-    "minimatch-3.1.1" = {
+    "minimatch-3.1.2" = {
       name = "minimatch";
       packageName = "minimatch";
-      version = "3.1.1";
+      version = "3.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minimatch/-/minimatch-3.1.1.tgz";
-        sha512 = "reLxBcKUPNBnc/sVtAbxgRVFSegoGeLaSjmphNhcwcolhYLRgtJscn5mRl6YRZNQv40Y7P6JM2YhSIsbL9OB5A==";
+        url = "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz";
+        sha512 = "J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==";
       };
     };
     "minimist-1.2.5" = {
@@ -5629,13 +5629,13 @@ let
         sha512 = "7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==";
       };
     };
-    "urijs-1.19.7" = {
+    "urijs-1.19.8" = {
       name = "urijs";
       packageName = "urijs";
-      version = "1.19.7";
+      version = "1.19.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/urijs/-/urijs-1.19.7.tgz";
-        sha512 = "Id+IKjdU0Hx+7Zx717jwLPsPeUqz7rAtuVBRLLs+qn+J2nf9NGITWVCxcijgYxBqe83C7sqsQPs6H1pyz3x9gA==";
+        url = "https://registry.npmjs.org/urijs/-/urijs-1.19.8.tgz";
+        sha512 = "iIXHrjomQ0ZCuDRy44wRbyTZVnfVNLVo3Ksz1yxNyE5wV1IDZW2S5Jszy45DTlw/UdsnRT7DyDhIz7Gy+vJumw==";
       };
     };
     "util-deprecate-1.0.2" = {
@@ -6108,7 +6108,7 @@ in
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."levn-0.4.1"
       sources."lodash.merge-4.6.2"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."ms-2.1.2"
       sources."natural-compare-1.4.0"
       sources."once-1.4.0"
@@ -6252,7 +6252,7 @@ in
       sources."lodash.merge-4.6.2"
       sources."lodash.truncate-4.4.2"
       sources."lru-cache-6.0.0"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."ms-2.1.2"
       sources."nanolru-1.0.0"
       sources."natural-compare-1.4.0"
@@ -6321,8 +6321,8 @@ in
       sources."@ampproject/remapping-2.1.1"
       sources."@babel/code-frame-7.16.7"
       sources."@babel/compat-data-7.17.0"
-      sources."@babel/core-7.17.2"
-      sources."@babel/generator-7.17.0"
+      sources."@babel/core-7.17.3"
+      sources."@babel/generator-7.17.3"
       sources."@babel/helper-compilation-targets-7.16.7"
       sources."@babel/helper-environment-visitor-7.16.7"
       sources."@babel/helper-function-name-7.16.7"
@@ -6337,13 +6337,13 @@ in
       sources."@babel/helper-validator-option-7.16.7"
       sources."@babel/helpers-7.17.2"
       sources."@babel/highlight-7.16.10"
-      sources."@babel/parser-7.17.0"
+      sources."@babel/parser-7.17.3"
       sources."@babel/plugin-syntax-flow-7.16.7"
       sources."@babel/plugin-syntax-jsx-7.16.7"
       sources."@babel/plugin-syntax-typescript-7.16.7"
       sources."@babel/runtime-7.17.2"
       sources."@babel/template-7.16.7"
-      (sources."@babel/traverse-7.17.0" // {
+      (sources."@babel/traverse-7.17.3" // {
         dependencies = [
           sources."globals-11.12.0"
         ];
@@ -6395,7 +6395,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.69"
+      sources."electron-to-chromium-1.4.71"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6447,7 +6447,7 @@ in
       sources."logform-2.4.0"
       sources."mime-db-1.51.0"
       sources."mime-types-2.1.34"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."minipass-2.9.0"
       sources."minizlib-1.3.3"
@@ -6624,7 +6624,7 @@ in
       sources."err-code-2.0.3"
       sources."fs-minipass-2.1.0"
       sources."fs.realpath-1.0.0"
-      sources."gauge-4.0.0"
+      sources."gauge-4.0.1"
       sources."glob-7.2.0"
       sources."graceful-fs-4.2.9"
       sources."has-unicode-2.0.1"
@@ -6644,7 +6644,7 @@ in
       sources."isexe-2.0.0"
       sources."lru-cache-6.0.0"
       sources."make-fetch-happen-9.1.0"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-1.4.1"
@@ -6750,7 +6750,7 @@ in
       sources."ini-1.3.8"
       sources."is-fullwidth-code-point-1.0.0"
       sources."isarray-1.0.0"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."minipass-2.9.0"
       sources."minizlib-1.3.3"
@@ -6997,7 +6997,7 @@ in
       sources."lodash.truncate-4.4.2"
       sources."loose-envify-1.4.0"
       sources."lru-cache-6.0.0"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."ms-2.1.2"
       sources."natural-compare-1.4.0"
@@ -7171,7 +7171,7 @@ in
       sources."merge2-1.4.1"
       sources."micromatch-4.0.4"
       sources."mimic-fn-2.1.0"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
@@ -7300,7 +7300,7 @@ in
       sources."is-core-module-2.8.1"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."mkdirp-0.5.5"
       sources."once-1.4.0"
@@ -7392,7 +7392,7 @@ in
       sources."lru-cache-6.0.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.4"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."once-1.4.0"
       sources."p-debounce-2.1.0"
       sources."p-limit-2.3.0"
@@ -7516,7 +7516,7 @@ in
       sources."lodash.sortby-4.7.0"
       sources."mime-db-1.51.0"
       sources."mime-types-2.1.34"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."nwsapi-2.2.0"
       sources."oauth-sign-0.9.0"
       sources."once-1.4.0"
@@ -7546,7 +7546,7 @@ in
       sources."tweetnacl-0.14.5"
       sources."type-check-0.3.2"
       sources."uri-js-4.4.1"
-      sources."urijs-1.19.7"
+      sources."urijs-1.19.8"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
       sources."vscode-jsonrpc-6.0.0"
@@ -7710,7 +7710,7 @@ in
       sources."micromatch-4.0.4"
       sources."mime-db-1.51.0"
       sources."mime-types-2.1.34"
-      sources."minimatch-3.1.1"
+      sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."mkdirp-1.0.4"
       sources."moo-0.5.1"
