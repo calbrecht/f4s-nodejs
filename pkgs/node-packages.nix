@@ -40,13 +40,13 @@ let
         sha512 = "392byTlpGWXMv4FbyWw3sAZ/FrW/DrwqLGXpy0mbyNe9Taqv1mg9yON5/o0cnr8XYCkFTZbC1eV+c+LAROgrng==";
       };
     };
-    "@babel/core-7.17.4" = {
+    "@babel/core-7.17.5" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.17.4";
+      version = "7.17.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.17.4.tgz";
-        sha512 = "R9x5r4t4+hBqZTmioSnkrW+I6NmbojwjGT8p4G2Gw1thWbXIHGDnmGdLdFw0/7ljucdIrNRp7Npgb4CyBYzzJg==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.17.5.tgz";
+        sha512 = "/BBMw4EvjmyquN5O+t5eh0+YqB3XXJkYD2cjKpYtWOfFy4lQ4UozNSmxAcWT8r2XtZs0ewG+zrfsqeR15i1ajA==";
       };
     };
     "@babel/generator-7.17.3" = {
@@ -3730,13 +3730,13 @@ let
         sha512 = "8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==";
       };
     };
-    "nanoid-3.3.0" = {
+    "nanoid-3.3.1" = {
       name = "nanoid";
       packageName = "nanoid";
-      version = "3.3.0";
+      version = "3.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.0.tgz";
-        sha512 = "JzxqqT5u/x+/KOFSd7JP15DOo9nOoHpx6DYatqIHUW2+flybkm+mdcraotSQR5WcnZr+qhGVh8Ted0KdfSMxlg==";
+        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.1.tgz";
+        sha512 = "n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==";
       };
     };
     "nanolru-1.0.0" = {
@@ -6321,7 +6321,7 @@ in
       sources."@ampproject/remapping-2.1.2"
       sources."@babel/code-frame-7.16.7"
       sources."@babel/compat-data-7.17.0"
-      sources."@babel/core-7.17.4"
+      sources."@babel/core-7.17.5"
       sources."@babel/generator-7.17.3"
       sources."@babel/helper-compilation-targets-7.16.7"
       sources."@babel/helper-environment-visitor-7.16.7"
@@ -7176,7 +7176,7 @@ in
       sources."mkdirp-0.5.5"
       sources."ms-2.1.2"
       sources."mustache-2.3.2"
-      sources."nanoid-3.3.0"
+      sources."nanoid-3.3.1"
       sources."npm-run-path-4.0.1"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
