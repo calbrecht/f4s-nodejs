@@ -1093,13 +1093,13 @@ let
         sha512 = "9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==";
       };
     };
-    "browserslist-4.19.2" = {
+    "browserslist-4.19.3" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.19.2";
+      version = "4.19.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.19.2.tgz";
-        sha512 = "97XU1CTZ5TwU9Qy/Taj+RtiI6SQM1WIhZ9osT7EY0oO2aWXGABZT2OZeRL+6PfaQsiiMIjjwIoYFPq4APgspgQ==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.19.3.tgz";
+        sha512 = "XK3X4xtKJ+Txj8G5c30B4gsm71s69lqXlkYui4s6EkKxuv49qjYlY6oVd+IFJ73d4YymtM3+djvvt/R/iJwwDg==";
       };
     };
     "bser-2.1.1" = {
@@ -6370,7 +6370,7 @@ in
       sources."bcrypt-pbkdf-1.0.2"
       sources."block-stream-0.0.9"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.19.2"
+      sources."browserslist-4.19.3"
       sources."bser-2.1.1"
       sources."caniuse-lite-1.0.30001312"
       sources."caseless-0.12.0"
