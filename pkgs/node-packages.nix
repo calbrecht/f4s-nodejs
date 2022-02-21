@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.18" = {
+    "@types/node-17.0.19" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.18";
+      version = "17.0.19";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.18.tgz";
-        sha512 = "eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.19.tgz";
+        sha512 = "PfeQhvcMR4cPFVuYfBN4ifG7p9c+Dlh3yUZR6k+5yQK7wX3gDgVxBly4/WkBRs9x4dmcy1TVl08SY67wwtEvmA==";
       };
     };
     "JSV-4.0.2" = {
@@ -715,13 +715,13 @@ let
         sha512 = "RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==";
       };
     };
-    "agentkeepalive-4.2.0" = {
+    "agentkeepalive-4.2.1" = {
       name = "agentkeepalive";
       packageName = "agentkeepalive";
-      version = "4.2.0";
+      version = "4.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.2.0.tgz";
-        sha512 = "0PhAp58jZNw13UJv7NVdTGb0ZcghHUb3DrZ046JiiJY/BOaTTpbwdHq2VObPCBV8M2GPh7sgrJ3AQ8Ey468LJw==";
+        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.2.1.tgz";
+        sha512 = "Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA==";
       };
     };
     "aggregate-error-3.1.0" = {
@@ -6602,7 +6602,7 @@ in
       sources."@tootallnate/once-1.1.2"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
-      sources."agentkeepalive-4.2.0"
+      sources."agentkeepalive-4.2.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
       sources."aproba-2.0.0"
@@ -7125,7 +7125,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.18"
+      sources."@types/node-17.0.19"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
