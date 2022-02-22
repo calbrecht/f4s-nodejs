@@ -2344,13 +2344,13 @@ let
         sha512 = "1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==";
       };
     };
-    "fs-extra-10.0.0" = {
+    "fs-extra-10.0.1" = {
       name = "fs-extra";
       packageName = "fs-extra";
-      version = "10.0.0";
+      version = "10.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fs-extra/-/fs-extra-10.0.0.tgz";
-        sha512 = "C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==";
+        url = "https://registry.npmjs.org/fs-extra/-/fs-extra-10.0.1.tgz";
+        sha512 = "NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==";
       };
     };
     "fs-extra-9.1.0" = {
@@ -2434,13 +2434,13 @@ let
         sha1 = "2c03405c7538c39d7eb37b317022e325fb018bf7";
       };
     };
-    "gauge-4.0.1" = {
+    "gauge-4.0.2" = {
       name = "gauge";
       packageName = "gauge";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gauge/-/gauge-4.0.1.tgz";
-        sha512 = "zJ4jePUHR8cceduZ53b6temRalyGpkC2Kc2r3ecNphmL+uWNoJ3YcOcUjpbG6WwoE/Ef6/+aEZz63neI2WIa1Q==";
+        url = "https://registry.npmjs.org/gauge/-/gauge-4.0.2.tgz";
+        sha512 = "aSPRm2CvA9R8QyU5eXMFPd+cYkyxLsXHd2l5/FOH2V/eml//M04G6KZOmTap07O1PvEwNcl2NndyLfK8g3QrKA==";
       };
     };
     "gensync-1.0.0-beta.2" = {
@@ -5692,13 +5692,13 @@ let
         sha512 = "FA0foqMzMmEoO0WJP+MjoD4dRERhKS+Ag+yBrtmWQDmw2OuZ1R/5FkvI/XdTkCpHmTD9VMczugpHRejQyTXCNQ==";
       };
     };
-    "vscode-html-languageservice-4.2.1" = {
+    "vscode-html-languageservice-4.2.2" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "4.2.1";
+      version = "4.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-4.2.1.tgz";
-        sha512 = "PgaToZVXJ44nFWEBuSINdDgVV6EnpC3MnXBsysR3O5TKcAfywbYeRGRy+Y4dVR7YeUgDvtb+JkJoSkaYC0mxXQ==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-4.2.2.tgz";
+        sha512 = "4ICwlpplGbiNQq6D/LZr4qLbPZuMmnSQeX/57UAYP7jD1LOvKeru4lVI+f6d6Eyd7uS46nLJ5DUY4AAlq35C0g==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6624,7 +6624,7 @@ in
       sources."err-code-2.0.3"
       sources."fs-minipass-2.1.0"
       sources."fs.realpath-1.0.0"
-      sources."gauge-4.0.1"
+      sources."gauge-4.0.2"
       sources."glob-7.2.0"
       sources."graceful-fs-4.2.9"
       sources."has-unicode-2.0.1"
@@ -7145,7 +7145,7 @@ in
       sources."fast-glob-3.2.11"
       sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
-      sources."fs-extra-10.0.0"
+      sources."fs-extra-10.0.1"
       sources."fs.realpath-1.0.0"
       sources."get-stream-5.2.0"
       sources."glob-7.2.0"
@@ -7370,7 +7370,7 @@ in
       sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
       sources."find-up-3.0.0"
-      sources."fs-extra-10.0.0"
+      sources."fs-extra-10.0.1"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
@@ -7578,10 +7578,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.8.1";
+    version = "1.8.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.8.1.tgz";
-      sha512 = "fbyGBN90QJX4cRkCQtxWltYp/8c/0QCPZrHCQmZJX9iGN91bq/QmggjPbh5/jdHB6johHGxB/LamJIyFFwOVxQ==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.8.2.tgz";
+      sha512 = "u7n8UdvFlZcE8LpGDPpc2miBD0zOd9fBMKajeF04KkVCOX7s6Ua+qK9r+zvQBjQT53O7p9XGSEVAUvB4q98b5w==";
     };
     dependencies = [
       sources."@bmewburn/js-beautify-1.13.0"
@@ -7758,7 +7758,7 @@ in
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      (sources."vscode-html-languageservice-4.2.1" // {
+      (sources."vscode-html-languageservice-4.2.2" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
