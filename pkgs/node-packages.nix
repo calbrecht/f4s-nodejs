@@ -364,13 +364,13 @@ let
         sha512 = "FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==";
       };
     };
-    "@humanwhocodes/config-array-0.9.3" = {
+    "@humanwhocodes/config-array-0.9.5" = {
       name = "_at_humanwhocodes_slash_config-array";
       packageName = "@humanwhocodes/config-array";
-      version = "0.9.3";
+      version = "0.9.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.3.tgz";
-        sha512 = "3xSMlXHh03hCcCmFc0rbKp3Ivt2PFEJnQUJDDMTJQ2wkECZWdq4GePs2ctc5H8zV+cHPaq8k2vU8mrQjA6iHdQ==";
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.5.tgz";
+        sha512 = "ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==";
       };
     };
     "@humanwhocodes/object-schema-1.2.1" = {
@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.19" = {
+    "@types/node-17.0.21" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.19";
+      version = "17.0.21";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.19.tgz";
-        sha512 = "PfeQhvcMR4cPFVuYfBN4ifG7p9c+Dlh3yUZR6k+5yQK7wX3gDgVxBly4/WkBRs9x4dmcy1TVl08SY67wwtEvmA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.21.tgz";
+        sha512 = "DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==";
       };
     };
     "JSV-4.0.2" = {
@@ -6051,7 +6051,7 @@ in
           sources."ignore-4.0.6"
         ];
       })
-      sources."@humanwhocodes/config-array-0.9.3"
+      sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.0"
       sources."acorn-jsx-5.3.2"
@@ -7125,7 +7125,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.19"
+      sources."@types/node-17.0.21"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
