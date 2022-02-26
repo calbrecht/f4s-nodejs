@@ -337,13 +337,13 @@ let
         sha512 = "J6KFFz5QCYUJq3pf0mjEcCJVERbzv71PUIDczuh9JkwGEzced6CO5ADLHB1rbf/+oPBtoPfMYNOpGDzCANlbXw==";
       };
     };
-    "@eslint/eslintrc-1.1.0" = {
+    "@eslint/eslintrc-1.2.0" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.1.0";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.1.0.tgz";
-        sha512 = "C1DfL7XX4nPqGd6jcP01W9pVM1HYCuUkFk1432D7F0v3JSlUIeOYn9oCoi3eoLZ+iwBSb29BMFxxny0YrrEZqg==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.2.0.tgz";
+        sha512 = "igm9SjJHNEJRiUnecP/1R5T3wKLEJ7pL6e2P+GUSfCd0dGjPYYZve08uzw8L2J8foVHFz+NGu12JxRcU2gGo6w==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -6040,13 +6040,13 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.9.0";
+    version = "8.10.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.9.0.tgz";
-      sha512 = "PB09IGwv4F4b0/atrbcMFboF/giawbBLVC7fyDamk5Wtey4Jh2K+rYaBhCAbUyEI4QzB1ly09Uglc9iCtFaG2Q==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.10.0.tgz";
+      sha512 = "tcI1D9lfVec+R4LE1mNDnzoJ/f71Kl/9Cv4nG47jOueCMBrCCKYXr4AUVS7go6mWYGFD4+EoN6+eXSrEbRzXVw==";
     };
     dependencies = [
-      (sources."@eslint/eslintrc-1.1.0" // {
+      (sources."@eslint/eslintrc-1.2.0" // {
         dependencies = [
           sources."ignore-4.0.6"
         ];
