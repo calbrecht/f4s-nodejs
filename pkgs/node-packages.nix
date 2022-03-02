@@ -3487,13 +3487,13 @@ let
         sha512 = "YOfuyWa/Ee+PXbDm40j9WXyJrzQUynVbgn4Km643UYcWNcrSfRkKL0WaiUcxcIbkXcVTgNpDqSnPXntWXT75cw==";
       };
     };
-    "make-fetch-happen-10.0.3" = {
+    "make-fetch-happen-10.0.4" = {
       name = "make-fetch-happen";
       packageName = "make-fetch-happen";
-      version = "10.0.3";
+      version = "10.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.0.3.tgz";
-        sha512 = "CzarPHynPpHjhF5in/YapnO44rSZeYX5VCMfdXa99+gLwpbfFLh20CWa6dP/taV9Net9PWJwXNKtp/4ZTCQnag==";
+        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.0.4.tgz";
+        sha512 = "CiReW6usy3UXby5N46XjWfLPFPq1glugCszh18I0NYJCwr129ZAx9j3Dlv+cRsK0q3VjlVysEzhdtdw2+NhdYA==";
       };
     };
     "marked-0.3.19" = {
@@ -3613,13 +3613,13 @@ let
         sha512 = "6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==";
       };
     };
-    "minipass-fetch-1.4.1" = {
+    "minipass-fetch-2.0.2" = {
       name = "minipass-fetch";
       packageName = "minipass-fetch";
-      version = "1.4.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-1.4.1.tgz";
-        sha512 = "CGH1eblLq26Y15+Azk7ey4xh0J/XfJfrCox5LDJiKqI2Q2iwOLOKrlmIaODiSQS8d18jalF6y2K2ePUm0CmShw==";
+        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-2.0.2.tgz";
+        sha512 = "M63u5yWX0yxY1C3DcLVY1xWai0pNM3qa1xCMXFgdejY5F/NTmyzNVHGcBxKerX51lssqxwWWTjpg/ZPuD39gOQ==";
       };
     };
     "minipass-flush-1.0.5" = {
@@ -6656,11 +6656,11 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."lru-cache-7.4.0"
-      sources."make-fetch-happen-10.0.3"
+      sources."make-fetch-happen-10.0.4"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
       sources."minipass-collect-1.0.2"
-      sources."minipass-fetch-1.4.1"
+      sources."minipass-fetch-2.0.2"
       sources."minipass-flush-1.0.5"
       sources."minipass-pipeline-1.2.4"
       sources."minipass-sized-1.0.3"
