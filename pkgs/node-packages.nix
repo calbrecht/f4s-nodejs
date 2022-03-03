@@ -5638,13 +5638,13 @@ let
         sha512 = "7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==";
       };
     };
-    "urijs-1.19.8" = {
+    "urijs-1.19.9" = {
       name = "urijs";
       packageName = "urijs";
-      version = "1.19.8";
+      version = "1.19.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/urijs/-/urijs-1.19.8.tgz";
-        sha512 = "iIXHrjomQ0ZCuDRy44wRbyTZVnfVNLVo3Ksz1yxNyE5wV1IDZW2S5Jszy45DTlw/UdsnRT7DyDhIz7Gy+vJumw==";
+        url = "https://registry.npmjs.org/urijs/-/urijs-1.19.9.tgz";
+        sha512 = "v0V+v5F3NQFt6TX0GpA2NKyrpythDJI+PHRo66sUIDP/U6cXbm6NqLVcXylQGwiwW5VYNj+OAei3EU0ALj9AWg==";
       };
     };
     "util-deprecate-1.0.2" = {
@@ -7563,7 +7563,7 @@ in
       sources."tweetnacl-0.14.5"
       sources."type-check-0.3.2"
       sources."uri-js-4.4.1"
-      sources."urijs-1.19.8"
+      sources."urijs-1.19.9"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
       sources."vscode-jsonrpc-6.0.0"
