@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001312" = {
+    "caniuse-lite-1.0.30001313" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001312";
+      version = "1.0.30001313";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001312.tgz";
-        sha512 = "Wiz1Psk2MEK0pX3rUzWaunLTZzqS2JYZFzNKqAiJGiuxIjRPLgV6+VDPOg6lQOUxmDwhTlh198JsTTi8Hzw6aQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz";
+        sha512 = "rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5458,13 +5458,13 @@ let
         sha512 = "XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==";
       };
     };
-    "tsconfig-paths-3.12.0" = {
+    "tsconfig-paths-3.13.0" = {
       name = "tsconfig-paths";
       packageName = "tsconfig-paths";
-      version = "3.12.0";
+      version = "3.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.12.0.tgz";
-        sha512 = "e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg==";
+        url = "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.13.0.tgz";
+        sha512 = "nWuffZppoaYK0vQ1SQmkSsQzJoHA4s6uzdb2waRpD806x9yfq153AdVsWz4je2qZcW+pENrMQXbGQ3sMCkXuhw==";
       };
     };
     "tslib-1.14.1" = {
@@ -6381,7 +6381,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.19.3"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001312"
+      sources."caniuse-lite-1.0.30001313"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -7104,7 +7104,7 @@ in
         ];
       })
       sources."text-table-0.2.0"
-      sources."tsconfig-paths-3.12.0"
+      sources."tsconfig-paths-3.13.0"
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
       sources."unbox-primitive-1.0.1"
