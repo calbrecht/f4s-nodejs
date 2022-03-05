@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.75" = {
+    "electron-to-chromium-1.4.76" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.75";
+      version = "1.4.76";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.75.tgz";
-        sha512 = "LxgUNeu3BVU7sXaKjUDD9xivocQLxFtq6wgERrutdY/yIOps3ODOZExK1jg8DTEg4U8TUCb5MLGeWFOYuxjF3Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.76.tgz";
+        sha512 = "3Vftv7cenJtQb+k00McEBZ2vVmZ/x+HEF7pcZONZIkOsESqAqVuACmBxMv0JhzX7u0YltU0vSqRqgBSTAhFUjA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3478,13 +3478,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.4.0" = {
+    "lru-cache-7.4.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.4.0";
+      version = "7.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.0.tgz";
-        sha512 = "YOfuyWa/Ee+PXbDm40j9WXyJrzQUynVbgn4Km643UYcWNcrSfRkKL0WaiUcxcIbkXcVTgNpDqSnPXntWXT75cw==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.1.tgz";
+        sha512 = "NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ==";
       };
     };
     "make-fetch-happen-10.0.4" = {
@@ -5638,13 +5638,13 @@ let
         sha512 = "7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==";
       };
     };
-    "urijs-1.19.9" = {
+    "urijs-1.19.10" = {
       name = "urijs";
       packageName = "urijs";
-      version = "1.19.9";
+      version = "1.19.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/urijs/-/urijs-1.19.9.tgz";
-        sha512 = "v0V+v5F3NQFt6TX0GpA2NKyrpythDJI+PHRo66sUIDP/U6cXbm6NqLVcXylQGwiwW5VYNj+OAei3EU0ALj9AWg==";
+        url = "https://registry.npmjs.org/urijs/-/urijs-1.19.10.tgz";
+        sha512 = "EzauQlgKuJgsXOqoMrCiePBf4At5jVqRhXykF3Wfb8ZsOBMxPcfiVBcsHXug4Aepb/ICm2PIgqAUGMelgdrWEg==";
       };
     };
     "util-deprecate-1.0.2" = {
@@ -6404,7 +6404,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.75"
+      sources."electron-to-chromium-1.4.76"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6655,7 +6655,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.4.0"
+      sources."lru-cache-7.4.1"
       sources."make-fetch-happen-10.0.4"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
@@ -7563,7 +7563,7 @@ in
       sources."tweetnacl-0.14.5"
       sources."type-check-0.3.2"
       sources."uri-js-4.4.1"
-      sources."urijs-1.19.9"
+      sources."urijs-1.19.10"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
       sources."vscode-jsonrpc-6.0.0"
