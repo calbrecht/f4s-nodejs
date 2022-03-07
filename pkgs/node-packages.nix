@@ -1093,13 +1093,13 @@ let
         sha512 = "9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==";
       };
     };
-    "browserslist-4.19.3" = {
+    "browserslist-4.20.0" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.19.3";
+      version = "4.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.19.3.tgz";
-        sha512 = "XK3X4xtKJ+Txj8G5c30B4gsm71s69lqXlkYui4s6EkKxuv49qjYlY6oVd+IFJ73d4YymtM3+djvvt/R/iJwwDg==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.20.0.tgz";
+        sha512 = "bnpOoa+DownbciXj0jVGENf8VYQnE2LNWomhYuCsMmmx9Jd9lwq0WXODuwpSsp8AVdKM2/HorrzxAfbKvWTByQ==";
       };
     };
     "bser-2.1.1" = {
@@ -6379,7 +6379,7 @@ in
       sources."bcrypt-pbkdf-1.0.2"
       sources."block-stream-0.0.9"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.19.3"
+      sources."browserslist-4.20.0"
       sources."bser-2.1.1"
       sources."caniuse-lite-1.0.30001313"
       sources."caseless-0.12.0"
@@ -7812,10 +7812,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.4.0";
+    version = "1.5.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.4.0.tgz";
-      sha512 = "NgUzbSbRQvIH++P303a6Y20qLRqM8qhPESoJ/n26NBXA+GITozV1/JRl2FLEt9oPSR9WkQ1a9J3EsToHfKGQWA==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.5.0.tgz";
+      sha512 = "tQA0M1HisyjoW6Y5beUlZ8x9Yil+pIMT4I1ox94erp9Jbm4ZHEPGxOD53TuA/e8CXxy8tX35vf/QqofnDr1/Gg==";
     };
     dependencies = [
       sources."jsonc-parser-3.0.0"
