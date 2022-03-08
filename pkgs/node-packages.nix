@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001313" = {
+    "caniuse-lite-1.0.30001314" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001313";
+      version = "1.0.30001314";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001313.tgz";
-        sha512 = "rI1UN0koZUiKINjysQDuRi2VeSCce3bYJNmDcj3PIKREiAmjakugBul1QSkg/fPrlULYl6oWfGg3PbgOSY9X4Q==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001314.tgz";
+        sha512 = "0zaSO+TnCHtHJIbpLroX7nsD+vYuOVjl3uzFbJO1wMVbuveJA0RK2WcQA9ZUIOiO0/ArMiMgHJLxfEZhQiC0kw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.76" = {
+    "electron-to-chromium-1.4.77" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.76";
+      version = "1.4.77";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.76.tgz";
-        sha512 = "3Vftv7cenJtQb+k00McEBZ2vVmZ/x+HEF7pcZONZIkOsESqAqVuACmBxMv0JhzX7u0YltU0vSqRqgBSTAhFUjA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.77.tgz";
+        sha512 = "fiDxw8mO9Ph1Z0bjX2sFTPpi0J0QkOiwOJF+5Q0J0baNc/F9lLePAvDPlnoxvbUYYMizqrKPeotRRkJ9LtxAew==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3487,13 +3487,13 @@ let
         sha512 = "NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ==";
       };
     };
-    "make-fetch-happen-10.0.4" = {
+    "make-fetch-happen-10.0.5" = {
       name = "make-fetch-happen";
       packageName = "make-fetch-happen";
-      version = "10.0.4";
+      version = "10.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.0.4.tgz";
-        sha512 = "CiReW6usy3UXby5N46XjWfLPFPq1glugCszh18I0NYJCwr129ZAx9j3Dlv+cRsK0q3VjlVysEzhdtdw2+NhdYA==";
+        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.0.5.tgz";
+        sha512 = "0JQ0daMRDFEv14DelmcFlprdhSDNG7WEgInTjBeWYWZ78W0jfDqygZdPLhcrQ4s/G8skNhBrS4fiF6xA+YlFjQ==";
       };
     };
     "marked-0.3.19" = {
@@ -3613,13 +3613,13 @@ let
         sha512 = "6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==";
       };
     };
-    "minipass-fetch-2.0.2" = {
+    "minipass-fetch-2.0.3" = {
       name = "minipass-fetch";
       packageName = "minipass-fetch";
-      version = "2.0.2";
+      version = "2.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-2.0.2.tgz";
-        sha512 = "M63u5yWX0yxY1C3DcLVY1xWai0pNM3qa1xCMXFgdejY5F/NTmyzNVHGcBxKerX51lssqxwWWTjpg/ZPuD39gOQ==";
+        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-2.0.3.tgz";
+        sha512 = "VA+eiiUtaIvpQJXISwE3OiMvQwAWrgKb97F0aXlCS1Ahikr8fEQq8m3Hf7Kv9KT3nokuHigJKsDMB6atU04olQ==";
       };
     };
     "minipass-flush-1.0.5" = {
@@ -6381,7 +6381,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.20.0"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001313"
+      sources."caniuse-lite-1.0.30001314"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -6404,7 +6404,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.76"
+      sources."electron-to-chromium-1.4.77"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6656,11 +6656,11 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."lru-cache-7.4.1"
-      sources."make-fetch-happen-10.0.4"
+      sources."make-fetch-happen-10.0.5"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
       sources."minipass-collect-1.0.2"
-      sources."minipass-fetch-2.0.2"
+      sources."minipass-fetch-2.0.3"
       sources."minipass-flush-1.0.5"
       sources."minipass-pipeline-1.2.4"
       sources."minipass-sized-1.0.3"
@@ -7812,10 +7812,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.5.0";
+    version = "1.5.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.5.0.tgz";
-      sha512 = "tQA0M1HisyjoW6Y5beUlZ8x9Yil+pIMT4I1ox94erp9Jbm4ZHEPGxOD53TuA/e8CXxy8tX35vf/QqofnDr1/Gg==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.5.1.tgz";
+      sha512 = "rTrsKFF2G6vY9oInUoMWHuRjdQi/AAeWkt2H4N9TYKMiQPzEWnz91MufNkNwlXCA26JCDFStwqNjaYPUdI6SDw==";
     };
     dependencies = [
       sources."jsonc-parser-3.0.0"
