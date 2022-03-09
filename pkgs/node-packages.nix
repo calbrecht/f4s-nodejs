@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.77" = {
+    "electron-to-chromium-1.4.79" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.77";
+      version = "1.4.79";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.77.tgz";
-        sha512 = "fiDxw8mO9Ph1Z0bjX2sFTPpi0J0QkOiwOJF+5Q0J0baNc/F9lLePAvDPlnoxvbUYYMizqrKPeotRRkJ9LtxAew==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.79.tgz";
+        sha512 = "nWfAxof87mGHkbORCwVRPst4FlSVdprOKS6dBMrcwn3sjwf8iHXEhsu1+FU5Psd7Ps3KKeBufAdfsPK5BmbSUg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3478,13 +3478,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.4.1" = {
+    "lru-cache-7.4.2" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.4.1";
+      version = "7.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.1.tgz";
-        sha512 = "NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.2.tgz";
+        sha512 = "Xs3+hFPDSKQmL05Gs6NhvAADol1u9TmLoNoE03ZjszX6a5iYIO3rPUM4jIjoBUJeTaWEBMozjjmV70gvdRfIdw==";
       };
     };
     "make-fetch-happen-10.0.5" = {
@@ -6404,7 +6404,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.77"
+      sources."electron-to-chromium-1.4.79"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6655,7 +6655,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.4.1"
+      sources."lru-cache-7.4.2"
       sources."make-fetch-happen-10.0.5"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
