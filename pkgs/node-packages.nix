@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.79" = {
+    "electron-to-chromium-1.4.81" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.79";
+      version = "1.4.81";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.79.tgz";
-        sha512 = "nWfAxof87mGHkbORCwVRPst4FlSVdprOKS6dBMrcwn3sjwf8iHXEhsu1+FU5Psd7Ps3KKeBufAdfsPK5BmbSUg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.81.tgz";
+        sha512 = "Gs7xVpIZ7tYYSDA+WgpzwpPvfGwUk3KSIjJ0akuj5XQHFdyQnsUoM76EA4CIHXNLPiVwTwOFay9RMb0ChG3OBw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2434,13 +2434,13 @@ let
         sha1 = "2c03405c7538c39d7eb37b317022e325fb018bf7";
       };
     };
-    "gauge-4.0.2" = {
+    "gauge-4.0.3" = {
       name = "gauge";
       packageName = "gauge";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/gauge/-/gauge-4.0.2.tgz";
-        sha512 = "aSPRm2CvA9R8QyU5eXMFPd+cYkyxLsXHd2l5/FOH2V/eml//M04G6KZOmTap07O1PvEwNcl2NndyLfK8g3QrKA==";
+        url = "https://registry.npmjs.org/gauge/-/gauge-4.0.3.tgz";
+        sha512 = "ICw1DhAwMtb22rYFwEHgJcx1JCwJGv3x6G0OQUq56Nge+H4Q8JEwr8iveS0XFlsUNSI67F5ffMGK25bK4Pmskw==";
       };
     };
     "gensync-1.0.0-beta.2" = {
@@ -3478,13 +3478,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.4.2" = {
+    "lru-cache-7.4.4" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.4.2";
+      version = "7.4.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.2.tgz";
-        sha512 = "Xs3+hFPDSKQmL05Gs6NhvAADol1u9TmLoNoE03ZjszX6a5iYIO3rPUM4jIjoBUJeTaWEBMozjjmV70gvdRfIdw==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.4.tgz";
+        sha512 = "2XbUJmlpIbmc9JvNNmtLzHlF31srxoDxuiQiwBHic7RZyHyltbTdzoO6maRqpdEhOOG5GD80EXvzAU0wR15ccg==";
       };
     };
     "make-fetch-happen-10.0.5" = {
@@ -6404,7 +6404,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.79"
+      sources."electron-to-chromium-1.4.81"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6637,7 +6637,7 @@ in
       sources."err-code-2.0.3"
       sources."fs-minipass-2.1.0"
       sources."fs.realpath-1.0.0"
-      sources."gauge-4.0.2"
+      sources."gauge-4.0.3"
       sources."glob-7.2.0"
       sources."graceful-fs-4.2.9"
       sources."has-unicode-2.0.1"
@@ -6655,7 +6655,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.4.2"
+      sources."lru-cache-7.4.4"
       sources."make-fetch-happen-10.0.5"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
