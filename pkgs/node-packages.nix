@@ -3541,22 +3541,22 @@ let
         sha512 = "pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==";
       };
     };
-    "mime-db-1.51.0" = {
+    "mime-db-1.52.0" = {
       name = "mime-db";
       packageName = "mime-db";
-      version = "1.51.0";
+      version = "1.52.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.51.0.tgz";
-        sha512 = "5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g==";
+        url = "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz";
+        sha512 = "sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==";
       };
     };
-    "mime-types-2.1.34" = {
+    "mime-types-2.1.35" = {
       name = "mime-types";
       packageName = "mime-types";
-      version = "2.1.34";
+      version = "2.1.35";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.34.tgz";
-        sha512 = "6cP692WwGIs9XXdOO4++N+7qjqv0rqxxVvJ3VHPh/Sc9mVZcQP+ZGhkKiTvWMQRr2tbHkJP/Yn7Y0npb3ZBs4A==";
+        url = "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz";
+        sha512 = "ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==";
       };
     };
     "mimic-fn-2.1.0" = {
@@ -6049,10 +6049,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.10.0";
+    version = "8.11.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.10.0.tgz";
-      sha512 = "tcI1D9lfVec+R4LE1mNDnzoJ/f71Kl/9Cv4nG47jOueCMBrCCKYXr4AUVS7go6mWYGFD4+EoN6+eXSrEbRzXVw==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.11.0.tgz";
+      sha512 = "/KRpd9mIRg2raGxHRGwW9ZywYNAClZrHjdueHcrVDuO3a6bj83eoTirCCk0M0yPwOjWYKHwRVRid+xK4F/GHgA==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.2.1"
@@ -6450,8 +6450,8 @@ in
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
       sources."logform-2.4.0"
-      sources."mime-db-1.51.0"
-      sources."mime-types-2.1.34"
+      sources."mime-db-1.52.0"
+      sources."mime-types-2.1.35"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."minipass-2.9.0"
@@ -7527,8 +7527,8 @@ in
       sources."levn-0.3.0"
       sources."lodash-4.17.21"
       sources."lodash.sortby-4.7.0"
-      sources."mime-db-1.51.0"
-      sources."mime-types-2.1.34"
+      sources."mime-db-1.52.0"
+      sources."mime-types-2.1.35"
       sources."minimatch-3.1.2"
       sources."nwsapi-2.2.0"
       sources."oauth-sign-0.9.0"
@@ -7721,8 +7721,8 @@ in
       })
       sources."merge2-1.4.1"
       sources."micromatch-4.0.4"
-      sources."mime-db-1.51.0"
-      sources."mime-types-2.1.34"
+      sources."mime-db-1.52.0"
+      sources."mime-types-2.1.35"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.5"
       sources."mkdirp-1.0.4"
