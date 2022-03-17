@@ -1120,13 +1120,13 @@ let
         sha1 = "270f076c5a72c02f5b65a47df94c5fe3a278892f";
       };
     };
-    "cacache-16.0.1" = {
+    "cacache-16.0.2" = {
       name = "cacache";
       packageName = "cacache";
-      version = "16.0.1";
+      version = "16.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.1.tgz";
-        sha512 = "tHPtfdZDqQpZ15eaEZeLspIqS5mK5fOBDZi6AjuqaIi53QNVXH3dQv6uKT3YuUu6uxV/8pjU9in0CoJ8fgaHqw==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.2.tgz";
+        sha512 = "Q17j7s8X81i/QYVrKVQ/qwWGT+pYLfpTcZ+X+p/Qw9FULy9JEfb2FECYTTt6mPV6A/vk92nRZ80ncpKxiGTrIA==";
       };
     };
     "call-bind-1.0.2" = {
@@ -1543,13 +1543,13 @@ let
         sha512 = "CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==";
       };
     };
-    "debug-4.3.3" = {
+    "debug-4.3.4" = {
       name = "debug";
       packageName = "debug";
-      version = "4.3.3";
+      version = "4.3.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/debug/-/debug-4.3.3.tgz";
-        sha512 = "/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==";
+        url = "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz";
+        sha512 = "PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==";
       };
     };
     "dedent-0.7.0" = {
@@ -3478,13 +3478,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.5.1" = {
+    "lru-cache-7.6.0" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.5.1";
+      version = "7.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.5.1.tgz";
-        sha512 = "q1TS8IqKvcg3aScamKCHpepSrHF537Ww7nHahBOxhDu9D2YoBXAsj/7uFdZFj1xJr9LmyeJ62AdyofCHafUbIA==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.6.0.tgz";
+        sha512 = "zjOf6cyMI7rcN+5MtLsT4GnDjc6D9XHi8kYcsfXTqWC+yLdSiU3/jtEPX9wZE77+XLtnmdIWu3+291hkizfH+Q==";
       };
     };
     "make-fetch-happen-10.0.6" = {
@@ -6072,7 +6072,7 @@ in
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.3"
+      sources."debug-4.3.4"
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
@@ -6196,7 +6196,7 @@ in
       sources."concat-map-0.0.1"
       sources."core_d-3.2.0"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.3"
+      sources."debug-4.3.4"
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
@@ -6394,7 +6394,7 @@ in
       sources."convert-source-map-1.8.0"
       sources."core-util-is-1.0.3"
       sources."dashdash-1.14.1"
-      sources."debug-4.3.3"
+      sources."debug-4.3.4"
       sources."deep-extend-0.6.0"
       sources."delayed-stream-1.0.0"
       sources."delegates-1.0.0"
@@ -6614,13 +6614,13 @@ in
       sources."are-we-there-yet-3.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."cacache-16.0.1"
+      sources."cacache-16.0.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
       sources."color-support-1.1.3"
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
-      sources."debug-4.3.3"
+      sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."emoji-regex-8.0.0"
@@ -6647,7 +6647,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.5.1"
+      sources."lru-cache-7.6.0"
       sources."make-fetch-happen-10.0.6"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
@@ -6876,7 +6876,7 @@ in
       sources."color-name-1.1.3"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.3"
+      sources."debug-4.3.4"
       sources."deep-is-0.1.4"
       sources."define-properties-1.1.3"
       sources."doctrine-3.0.0"
@@ -7145,7 +7145,7 @@ in
       sources."clean-stack-2.2.0"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.3"
+      sources."debug-4.3.4"
       sources."dedent-0.7.0"
       sources."del-5.1.0"
       sources."dir-glob-3.0.1"
