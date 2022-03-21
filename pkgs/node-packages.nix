@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.21" = {
+    "@types/node-17.0.22" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.21";
+      version = "17.0.22";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.21.tgz";
-        sha512 = "DBZCJbhII3r90XbQxI8Y9IjjiiOGlZ0Hr32omXIZvwwZ7p4DMMXGrKXVyPfuoBOri9XNtL0UK69jYIBIsRX3QQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.22.tgz";
+        sha512 = "8FwbVoG4fy+ykY86XCAclKZDORttqE5/s7dyWZKLXTdv3vRy5HozBEinG5IqhvPXXzIZEcTVbuHlQEI6iuwcmw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.88" = {
+    "electron-to-chromium-1.4.89" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.88";
+      version = "1.4.89";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.88.tgz";
-        sha512 = "oA7mzccefkvTNi9u7DXmT0LqvhnOiN2BhSrKerta7HeUC1cLoIwtbf2wL+Ah2ozh5KQd3/1njrGrwDBXx6d14Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.89.tgz";
+        sha512 = "z1Axg0Fu54fse8wN4fd+GAINdU5mJmLtcl6bqIcYyzNVGONcfHAeeJi88KYMQVKalhXlYuVPzKkFIU5VD0raUw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3262,13 +3262,13 @@ let
         sha512 = "aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==";
       };
     };
-    "json5-2.2.0" = {
+    "json5-2.2.1" = {
       name = "json5";
       packageName = "json5";
-      version = "2.2.0";
+      version = "2.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/json5/-/json5-2.2.0.tgz";
-        sha512 = "f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==";
+        url = "https://registry.npmjs.org/json5/-/json5-2.2.1.tgz";
+        sha512 = "1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==";
       };
     };
     "jsonc-parser-3.0.0" = {
@@ -6400,7 +6400,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.88"
+      sources."electron-to-chromium-1.4.89"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6445,7 +6445,7 @@ in
       sources."json-schema-0.4.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stringify-safe-5.0.1"
-      sources."json5-2.2.0"
+      sources."json5-2.2.1"
       sources."jsprim-1.4.2"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
@@ -7134,7 +7134,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.21"
+      sources."@types/node-17.0.22"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
