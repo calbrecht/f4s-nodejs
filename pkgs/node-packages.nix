@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.22" = {
+    "@types/node-17.0.23" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.22";
+      version = "17.0.23";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.22.tgz";
-        sha512 = "8FwbVoG4fy+ykY86XCAclKZDORttqE5/s7dyWZKLXTdv3vRy5HozBEinG5IqhvPXXzIZEcTVbuHlQEI6iuwcmw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.23.tgz";
+        sha512 = "UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==";
       };
     };
     "JSV-4.0.2" = {
@@ -742,13 +742,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.10.0" = {
+    "ajv-8.11.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.10.0";
+      version = "8.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.10.0.tgz";
-        sha512 = "bzqAEZOjkrUMl2afH8dknrq5KEk2SrwdBROR+vH1EKVQTqaUbJVPdc/gEdggTMM0Se+s+Ja4ju4TlNcStKl2Hw==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.11.0.tgz";
+        sha512 = "wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg==";
       };
     };
     "ansi-colors-4.1.1" = {
@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.89" = {
+    "electron-to-chromium-1.4.91" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.89";
+      version = "1.4.91";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.89.tgz";
-        sha512 = "z1Axg0Fu54fse8wN4fd+GAINdU5mJmLtcl6bqIcYyzNVGONcfHAeeJi88KYMQVKalhXlYuVPzKkFIU5VD0raUw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.91.tgz";
+        sha512 = "Z7Jkc4+ouEg8F6RrrgLOs0kkJjI0cnyFQmnGVpln8pPifuKBNbUr37GMgJsCTSwy6Z9TK7oTwW33Oe+3aERYew==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3667,13 +3667,13 @@ let
         sha512 = "bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==";
       };
     };
-    "mkdirp-0.5.5" = {
+    "mkdirp-0.5.6" = {
       name = "mkdirp";
       packageName = "mkdirp";
-      version = "0.5.5";
+      version = "0.5.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.5.tgz";
-        sha512 = "NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==";
+        url = "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz";
+        sha512 = "FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==";
       };
     };
     "mkdirp-1.0.4" = {
@@ -5692,13 +5692,13 @@ let
         sha1 = "3a105ca17053af55d6e270c1f8288682e18da400";
       };
     };
-    "vscode-css-languageservice-5.2.0" = {
+    "vscode-css-languageservice-5.3.0" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "5.2.0";
+      version = "5.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.2.0.tgz";
-        sha512 = "FR5yDEfzbXJtYmZYrA7JWFcRSLHsJw3nv55XAmx7qdwRpFj9yy0ulKfN/NUUdiZW2jZU2fD/+Y4VJYPdafHDag==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.3.0.tgz";
+        sha512 = "ujWW855AoJlE4ETU17Gff7unlZZTHDA0w26itk9EQFMfJqi9lE6S67zOsMvcPmJf55MrnGQbojDYZRiDVaFjdA==";
       };
     };
     "vscode-html-languageservice-4.2.4" = {
@@ -6290,7 +6290,7 @@ in
       sources."supports-color-8.1.1"
       (sources."table-6.8.0" // {
         dependencies = [
-          sources."ajv-8.10.0"
+          sources."ajv-8.11.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -6400,7 +6400,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.89"
+      sources."electron-to-chromium-1.4.91"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6456,7 +6456,7 @@ in
       sources."minimist-1.2.6"
       sources."minipass-2.9.0"
       sources."minizlib-1.3.3"
-      sources."mkdirp-0.5.5"
+      sources."mkdirp-0.5.6"
       sources."ms-2.1.2"
       (sources."needle-2.9.1" // {
         dependencies = [
@@ -6763,7 +6763,7 @@ in
       sources."minimist-1.2.6"
       sources."minipass-2.9.0"
       sources."minizlib-1.3.3"
-      sources."mkdirp-0.5.5"
+      sources."mkdirp-0.5.6"
       sources."ms-2.1.3"
       sources."needle-2.9.1"
       sources."nopt-4.0.3"
@@ -7091,7 +7091,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       (sources."table-6.8.0" // {
         dependencies = [
-          sources."ajv-8.10.0"
+          sources."ajv-8.11.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -7134,7 +7134,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.22"
+      sources."@types/node-17.0.23"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7182,7 +7182,7 @@ in
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.6"
-      sources."mkdirp-0.5.5"
+      sources."mkdirp-0.5.6"
       sources."ms-2.1.2"
       sources."mustache-2.3.2"
       sources."nanoid-3.3.1"
@@ -7311,7 +7311,7 @@ in
       sources."js-yaml-3.14.1"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.6"
-      sources."mkdirp-0.5.5"
+      sources."mkdirp-0.5.6"
       sources."once-1.4.0"
       sources."path-is-absolute-1.0.1"
       sources."path-parse-1.0.7"
@@ -7762,7 +7762,7 @@ in
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-5.2.0" // {
+      (sources."vscode-css-languageservice-5.3.0" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
@@ -7804,10 +7804,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.5.1";
+    version = "1.6.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.5.1.tgz";
-      sha512 = "rTrsKFF2G6vY9oInUoMWHuRjdQi/AAeWkt2H4N9TYKMiQPzEWnz91MufNkNwlXCA26JCDFStwqNjaYPUdI6SDw==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.6.0.tgz";
+      sha512 = "4L8vgCuqRZgfjVnAPW8nKKj5dq4QBSc8LoceCaqtufVxHK+G6MVjI5aT9wHLO1/W07RXSyr0vYqSap7B1GFZ6w==";
     };
     dependencies = [
       sources."jsonc-parser-3.0.0"
