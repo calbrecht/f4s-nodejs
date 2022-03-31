@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001322" = {
+    "caniuse-lite-1.0.30001323" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001322";
+      version = "1.0.30001323";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001322.tgz";
-        sha512 = "neRmrmIrCGuMnxGSoh+x7zYtQFFgnSY2jaomjU56sCkTA6JINqQrxutF459JpWcWRajvoyn95sOXq4Pqrnyjew==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001323.tgz";
+        sha512 = "e4BF2RlCVELKx8+RmklSEIVub1TWrmdhvA5kEUueummz1XyySW0DVk+3x9HyhU9MuWTa2BhqLgEuEmUwASAdCA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1777,13 +1777,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.102" = {
+    "electron-to-chromium-1.4.103" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.102";
+      version = "1.4.103";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.102.tgz";
-        sha512 = "MuWg3/gLTk6PSjC7ZrTgT8aAYZmUYd+gRtD95vN77KMBwZXiGdHHa8Y7ppMc/zwNumZtoIBLS0rzZyjEHd7sNw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.103.tgz";
+        sha512 = "c/uKWR1Z/W30Wy/sx3dkZoj4BijbXX85QKWu9jJfjho3LBAXNEGAEW3oWiGb+dotA6C6BzCTxL2/aLes7jlUeg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3298,13 +3298,13 @@ let
         sha512 = "P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==";
       };
     };
-    "jsx-ast-utils-3.2.1" = {
+    "jsx-ast-utils-3.2.2" = {
       name = "jsx-ast-utils";
       packageName = "jsx-ast-utils";
-      version = "3.2.1";
+      version = "3.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.2.1.tgz";
-        sha512 = "uP5vu8xfy2F9A6LGC22KO7e2/vGTS1MhP+18f++ZNlf0Ohaxbc9nIEwHAsejlJKyzfZzU5UIhe5ItYkitcZnZA==";
+        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.2.2.tgz";
+        sha512 = "HDAyJ4MNQBboGpUnHAVUNJs6X0lh058s6FuixsFGP7MgJYpD6Vasd6nzSG5iIfXu1zAYlHJ/zsOKNlrenTUBnw==";
       };
     };
     "kuler-2.0.0" = {
@@ -6377,7 +6377,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.20.2"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001322"
+      sources."caniuse-lite-1.0.30001323"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -6400,7 +6400,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.102"
+      sources."electron-to-chromium-1.4.103"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6998,7 +6998,7 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."json5-1.0.1"
-      sources."jsx-ast-utils-3.2.1"
+      sources."jsx-ast-utils-3.2.2"
       sources."levn-0.4.1"
       sources."load-json-file-4.0.0"
       sources."locate-path-2.0.0"
