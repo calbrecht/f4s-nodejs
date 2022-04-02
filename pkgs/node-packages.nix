@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001323" = {
+    "caniuse-lite-1.0.30001324" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001323";
+      version = "1.0.30001324";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001323.tgz";
-        sha512 = "e4BF2RlCVELKx8+RmklSEIVub1TWrmdhvA5kEUueummz1XyySW0DVk+3x9HyhU9MuWTa2BhqLgEuEmUwASAdCA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001324.tgz";
+        sha512 = "/eYp1J6zYh1alySQB4uzYFkLmxxI8tk0kxldbNHXp8+v+rdMKdUBNjRLz7T7fz6Iox+1lIdYpc7rq6ZcXfTukg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -3028,13 +3028,13 @@ let
         sha512 = "41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==";
       };
     };
-    "is-number-object-1.0.6" = {
+    "is-number-object-1.0.7" = {
       name = "is-number-object";
       packageName = "is-number-object";
-      version = "1.0.6";
+      version = "1.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.6.tgz";
-        sha512 = "bEVOqiRcvo3zO1+G2lVMy+gkkEm9Yh7cDMRusKKu5ZJKPUYSJwICTKZrNKHA2EbSP0Tu0+6B/emsYNHZyn6K8g==";
+        url = "https://registry.npmjs.org/is-number-object/-/is-number-object-1.0.7.tgz";
+        sha512 = "k1U0IRzLMo7ZlYIfzRu23Oh6MiIFasgpb9X76eqfFZAqwH44UI4KTBvBYIZ1dSL9ZzChTB9ShHfLkR4pdW5krQ==";
       };
     };
     "is-path-cwd-2.2.0" = {
@@ -3064,13 +3064,13 @@ let
         sha512 = "kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==";
       };
     };
-    "is-shared-array-buffer-1.0.1" = {
+    "is-shared-array-buffer-1.0.2" = {
       name = "is-shared-array-buffer";
       packageName = "is-shared-array-buffer";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.1.tgz";
-        sha512 = "IU0NmyknYZN0rChcKhRO1X8LYz5Isj/Fsqh8NJOSf+N/hCOTwy29F32Ik7a+QszE63IdvmwdTPDd6cZ5pg4cwA==";
+        url = "https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.2.tgz";
+        sha512 = "sqN2UDu1/0y6uvXyStCOzyhAjCSlHceFoMKJW8W9EU9cvic/QdsZ0kEU93HEy3IUEFZIiH/3w+AH/UQbPHNdhA==";
       };
     };
     "is-stream-2.0.1" = {
@@ -6377,7 +6377,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.20.2"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001323"
+      sources."caniuse-lite-1.0.30001324"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
@@ -6815,10 +6815,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "2.6.1";
+    version = "2.6.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-2.6.1.tgz";
-      sha512 = "8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-2.6.2.tgz";
+      sha512 = "PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6985,9 +6985,9 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-glob-4.0.3"
       sources."is-negative-zero-2.0.2"
-      sources."is-number-object-1.0.6"
+      sources."is-number-object-1.0.7"
       sources."is-regex-1.1.4"
-      sources."is-shared-array-buffer-1.0.1"
+      sources."is-shared-array-buffer-1.0.2"
       sources."is-string-1.0.7"
       sources."is-symbol-1.0.4"
       sources."is-weakref-1.0.2"
