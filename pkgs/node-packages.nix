@@ -2569,13 +2569,13 @@ let
         sha512 = "jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==";
       };
     };
-    "graceful-fs-4.2.9" = {
+    "graceful-fs-4.2.10" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.9";
+      version = "4.2.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.9.tgz";
-        sha512 = "NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz";
+        sha512 = "9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==";
       };
     };
     "har-schema-2.0.0" = {
@@ -5944,13 +5944,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.6.0" = {
+    "winston-3.7.1" = {
       name = "winston";
       packageName = "winston";
-      version = "3.6.0";
+      version = "3.7.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.6.0.tgz";
-        sha512 = "9j8T75p+bcN6D00sF/zjFVmPp+t8KMPB1MzbbzYjeN9VWxdsYnTB40TkbNUEXAmILEfChMvAMgidlX64OG3p6w==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.7.1.tgz";
+        sha512 = "qKLMQVWMOvY0h9H4BA8Sfh79+KdnKi8gsyCSvfQgc+6teSlq92j82WK+zAJc6fLbAA2jwQuqkANLpQeOFA4Kug==";
       };
     };
     "winston-transport-4.5.0" = {
@@ -6421,7 +6421,7 @@ in
       sources."getpass-0.1.7"
       sources."glob-7.2.0"
       sources."globals-12.4.0"
-      sources."graceful-fs-4.2.9"
+      sources."graceful-fs-4.2.10"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-flag-3.0.0"
@@ -6543,7 +6543,7 @@ in
       })
       sources."which-1.3.1"
       sources."wide-align-1.1.5"
-      (sources."winston-3.6.0" // {
+      (sources."winston-3.7.1" // {
         dependencies = [
           sources."readable-stream-3.6.0"
         ];
@@ -6631,7 +6631,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."gauge-4.0.4"
       sources."glob-7.2.0"
-      sources."graceful-fs-4.2.9"
+      sources."graceful-fs-4.2.10"
       sources."has-unicode-2.0.1"
       sources."http-cache-semantics-4.1.0"
       sources."http-proxy-agent-5.0.0"
@@ -6962,7 +6962,7 @@ in
       sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globals-12.4.0"
-      sources."graceful-fs-4.2.9"
+      sources."graceful-fs-4.2.10"
       sources."has-1.0.3"
       sources."has-bigints-1.0.1"
       sources."has-flag-3.0.0"
@@ -7160,7 +7160,7 @@ in
       sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globby-10.0.2"
-      sources."graceful-fs-4.2.9"
+      sources."graceful-fs-4.2.10"
       sources."human-signals-1.1.1"
       sources."ignore-5.2.0"
       sources."indent-string-4.0.0"
@@ -7384,7 +7384,7 @@ in
       sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
       sources."globby-11.1.0"
-      sources."graceful-fs-4.2.9"
+      sources."graceful-fs-4.2.10"
       sources."ignore-5.2.0"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"
@@ -7688,7 +7688,7 @@ in
       sources."getpass-0.1.7"
       sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
-      sources."graceful-fs-4.2.9"
+      sources."graceful-fs-4.2.10"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."he-1.2.0"
