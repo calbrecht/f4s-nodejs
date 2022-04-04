@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001324" = {
+    "caniuse-lite-1.0.30001325" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001324";
+      version = "1.0.30001325";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001324.tgz";
-        sha512 = "/eYp1J6zYh1alySQB4uzYFkLmxxI8tk0kxldbNHXp8+v+rdMKdUBNjRLz7T7fz6Iox+1lIdYpc7rq6ZcXfTukg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001325.tgz";
+        sha512 = "sB1bZHjseSjDtijV1Hb7PB2Zd58Kyx+n/9EotvZ4Qcz2K3d0lWB8dB4nb8wN/TsOGFq3UuAm0zQZNQ4SoR7TrQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6377,7 +6377,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.20.2"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001324"
+      sources."caniuse-lite-1.0.30001325"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
