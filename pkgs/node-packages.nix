@@ -445,13 +445,13 @@ let
         sha512 = "DmfBvNXGaetMxj9LTp8NAN9vEidXURrf5ZTslQzEAi/6GbW+4yjaLFQc6Tue5cpZ9Frlk4OBo/Snf1Bh/S7qTQ==";
       };
     };
-    "@npmcli/move-file-1.1.2" = {
+    "@npmcli/move-file-2.0.0" = {
       name = "_at_npmcli_slash_move-file";
       packageName = "@npmcli/move-file";
-      version = "1.1.2";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@npmcli/move-file/-/move-file-1.1.2.tgz";
-        sha512 = "1SUf/Cg2GzGDyaf15aR9St9TWlb+XvbZXWpDx8YKs7MLzMH/BCeopv+y9vzrzgkfykCGuWOlSu3mZhj2+FQcrg==";
+        url = "https://registry.npmjs.org/@npmcli/move-file/-/move-file-2.0.0.tgz";
+        sha512 = "UR6D5f4KEGWJV6BGPH3Qb2EtgH+t+1XQ1Tt85c7qicN6cezzuHPdZwwAxqZr4JLtnQu0LZsTza/5gmNmSl8XLg==";
       };
     };
     "@protobufjs/aspromise-1.1.2" = {
@@ -1120,13 +1120,13 @@ let
         sha1 = "270f076c5a72c02f5b65a47df94c5fe3a278892f";
       };
     };
-    "cacache-16.0.3" = {
+    "cacache-16.0.4" = {
       name = "cacache";
       packageName = "cacache";
-      version = "16.0.3";
+      version = "16.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.3.tgz";
-        sha512 = "eC7wYodNCVb97kuHGk5P+xZsvUJHkhSEOyNwkenqQPAsOtrTjvWOE5vSPNBpz9d8X3acIf6w2Ub5s4rvOCTs4g==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.4.tgz";
+        sha512 = "U0D4wF3/W8ZgK4qDA5fTtOVSr0gaDfd5aa7tUdAV0uukVWKsAIn6SzXQCoVlg7RWZiJa+bcsM3/pXLumGaL2Ug==";
       };
     };
     "call-bind-1.0.2" = {
@@ -3487,13 +3487,13 @@ let
         sha512 = "WY9wjJNQt9+PZilnLbuFKM+SwDull9+6IAguOrarOMoOHTcJ9GnXSO11+Gw6c7xtDkBkthR57OZMtZKYr+1CEw==";
       };
     };
-    "make-fetch-happen-10.1.1" = {
+    "make-fetch-happen-10.1.2" = {
       name = "make-fetch-happen";
       packageName = "make-fetch-happen";
-      version = "10.1.1";
+      version = "10.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.1.1.tgz";
-        sha512 = "3/mCljDQNjmrP7kl0vhS5WVlV+TvSKoZaFhdiYV7MOijEnrhrjaVnqbp/EY/7S+fhUB2KpH7j8c1iRsIOs+kjw==";
+        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.1.2.tgz";
+        sha512 = "GWMGiZsKVeJACQGJ1P3Z+iNec7pLsU6YW1q11eaPn3RR8nRXHppFWfP7Eu0//55JK3hSjrAQRl8sDa5uXpq1Ew==";
       };
     };
     "marked-0.3.19" = {
@@ -5107,13 +5107,13 @@ let
         sha512 = "/9HIEs1ZXGhSPE8X6Ccm7Nam1z8KcoCqPdI7ecm1N33EzAetWahvQWVqLZtaZQ+IDKX4IyA2o0gBzqIMkAagHQ==";
       };
     };
-    "ssri-8.0.1" = {
+    "ssri-9.0.0" = {
       name = "ssri";
       packageName = "ssri";
-      version = "8.0.1";
+      version = "9.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ssri/-/ssri-8.0.1.tgz";
-        sha512 = "97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ==";
+        url = "https://registry.npmjs.org/ssri/-/ssri-9.0.0.tgz";
+        sha512 = "Y1Z6J8UYnexKFN1R/hxUaYoY2LVdKEzziPmVAFKiKX8fiwvCJTVzn/xYE9TEWod5OVyNfIHHuVfIEuBClL/uJQ==";
       };
     };
     "stack-chain-1.3.7" = {
@@ -5944,13 +5944,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.7.1" = {
+    "winston-3.7.2" = {
       name = "winston";
       packageName = "winston";
-      version = "3.7.1";
+      version = "3.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.7.1.tgz";
-        sha512 = "qKLMQVWMOvY0h9H4BA8Sfh79+KdnKi8gsyCSvfQgc+6teSlq92j82WK+zAJc6fLbAA2jwQuqkANLpQeOFA4Kug==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.7.2.tgz";
+        sha512 = "QziIqtojHBoyzUOdQvQiar1DH0Xp9nF1A1y7NVy2DGEsz82SBDtOalS0ulTRGVT14xPX3WRWkCsdcJKqNflKng==";
       };
     };
     "winston-transport-4.5.0" = {
@@ -6543,7 +6543,7 @@ in
       })
       sources."which-1.3.1"
       sources."wide-align-1.1.5"
-      (sources."winston-3.7.1" // {
+      (sources."winston-3.7.2" // {
         dependencies = [
           sources."readable-stream-3.6.0"
         ];
@@ -6603,7 +6603,7 @@ in
     dependencies = [
       sources."@gar/promisify-1.1.3"
       sources."@npmcli/fs-2.1.0"
-      sources."@npmcli/move-file-1.1.2"
+      sources."@npmcli/move-file-2.0.0"
       sources."@tootallnate/once-2.0.0"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
@@ -6614,7 +6614,7 @@ in
       sources."are-we-there-yet-3.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."cacache-16.0.3"
+      sources."cacache-16.0.4"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
       sources."color-support-1.1.3"
@@ -6648,7 +6648,7 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."lru-cache-7.7.3"
-      sources."make-fetch-happen-10.1.1"
+      sources."make-fetch-happen-10.1.2"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
       sources."minipass-collect-1.0.2"
@@ -6682,7 +6682,7 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
       sources."socks-proxy-agent-6.1.1"
-      sources."ssri-8.0.1"
+      sources."ssri-9.0.0"
       sources."string-width-4.2.3"
       sources."string_decoder-1.3.0"
       sources."strip-ansi-6.0.1"
