@@ -1687,13 +1687,13 @@ let
         sha512 = "5c54Bk5Dw4qAxNOI1pFEizPSjVsx5+bpJKmL2kPn8JhBUq2q09tTCa3mjijun2NfK78NMouDYNMBkOrPZiS+ig==";
       };
     };
-    "domelementtype-2.2.0" = {
+    "domelementtype-2.3.0" = {
       name = "domelementtype";
       packageName = "domelementtype";
-      version = "2.2.0";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/domelementtype/-/domelementtype-2.2.0.tgz";
-        sha512 = "DtBMo82pv1dFtUmHyr48beiuq792Sxohr+8Hm9zoxklYPfa6n0Z3Byjj2IV7bmr2IyqClnqEQhfgHJJ5QF0R5A==";
+        url = "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz";
+        sha512 = "OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==";
       };
     };
     "domexception-1.0.1" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.104" = {
+    "electron-to-chromium-1.4.106" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.104";
+      version = "1.4.106";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.104.tgz";
-        sha512 = "2kjoAyiG7uMyGRM9mx25s3HAzmQG2ayuYXxsFmYugHSDcwxREgLtscZvbL1JcW9S/OemeQ3f/SG6JhDwpnCclQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.106.tgz";
+        sha512 = "ZYfpVLULm67K7CaaGP7DmjyeMY4naxsbTy+syVVxT6QHI1Ww8XbJjmr9fDckrhq44WzCrcC5kH3zGpdusxwwqg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2668,13 +2668,13 @@ let
         sha512 = "71lZziiDnsuabfdYiUeWdCVyKuqwWi23L8YeIgV9jSSZHCtb6wB1BKWooH7L3tn4/FuZJMVWyNaIDr4RGmaSYw==";
       };
     };
-    "html-to-text-8.1.0" = {
+    "html-to-text-8.1.1" = {
       name = "html-to-text";
       packageName = "html-to-text";
-      version = "8.1.0";
+      version = "8.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/html-to-text/-/html-to-text-8.1.0.tgz";
-        sha512 = "Z9iYAqYK2c18GswSbnxJSeMs7lyJgwR2oIkDOyOHGBbYsPsG4HvT379jj3Lcbfko8A5ceyyMHAfkmp/BiXA9/Q==";
+        url = "https://registry.npmjs.org/html-to-text/-/html-to-text-8.1.1.tgz";
+        sha512 = "uHdOmIGMy0Z1tJdcJzhbUQm3+V+6Q8YmFYCr1+SxjjwlO2Ha9S/D2eq1P8NLjH5fTzJCLQTL9xCXZNuIwraipw==";
       };
     };
     "htmlparser2-6.1.0" = {
@@ -3442,13 +3442,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.7.3" = {
+    "lru-cache-7.8.0" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.7.3";
+      version = "7.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.7.3.tgz";
-        sha512 = "WY9wjJNQt9+PZilnLbuFKM+SwDull9+6IAguOrarOMoOHTcJ9GnXSO11+Gw6c7xtDkBkthR57OZMtZKYr+1CEw==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.8.0.tgz";
+        sha512 = "AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==";
       };
     };
     "make-fetch-happen-10.1.2" = {
@@ -6310,7 +6310,7 @@ in
       sources."delegates-1.0.0"
       sources."detect-libc-1.0.3"
       sources."ecc-jsbn-0.1.2"
-      sources."electron-to-chromium-1.4.104"
+      sources."electron-to-chromium-1.4.106"
       sources."enabled-2.0.0"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
@@ -6557,7 +6557,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.7.3"
+      sources."lru-cache-7.8.0"
       sources."make-fetch-happen-10.1.2"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
@@ -6911,7 +6911,7 @@ in
       sources."lodash-4.17.21"
       sources."lodash.truncate-4.4.2"
       sources."loose-envify-1.4.0"
-      sources."lru-cache-7.7.3"
+      sources."lru-cache-7.8.0"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.6"
       sources."ms-2.1.2"
@@ -7028,10 +7028,10 @@ in
   testcafe-browser-tools = nodeEnv.buildNodePackage {
     name = "testcafe-browser-tools";
     packageName = "testcafe-browser-tools";
-    version = "2.0.22";
+    version = "2.0.23";
     src = fetchurl {
-      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.22.tgz";
-      sha512 = "ABzKV3h+yrbxC0WfqqCjWP+/XFBH66VY8Nuz3IqDu4/9mbrn2sJpcEdcoxLVRVkIxcLUgCejF38Rorumh9iHvw==";
+      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.23.tgz";
+      sha512 = "Ewk2I0DIiF9j/8DqDPhRbWuEIa4nxWhJ45DzS/fiftpLuljZshV/omc6M9O3MjrBp6d4uTI45AbhMVE2APvs+Q==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7303,7 +7303,7 @@ in
       sources."isexe-2.0.0"
       sources."jsonfile-6.1.0"
       sources."locate-path-3.0.0"
-      sources."lru-cache-7.7.3"
+      sources."lru-cache-7.8.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.5"
       sources."minimatch-3.1.2"
@@ -7566,7 +7566,7 @@ in
       sources."diagnostic-channel-publishers-0.4.4"
       sources."discontinuous-range-1.0.0"
       sources."dom-serializer-1.3.2"
-      sources."domelementtype-2.2.0"
+      sources."domelementtype-2.3.0"
       sources."domhandler-4.3.1"
       sources."domutils-2.8.0"
       sources."ecc-jsbn-0.1.2"
@@ -7596,7 +7596,7 @@ in
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."he-1.2.0"
-      sources."html-to-text-8.1.0"
+      sources."html-to-text-8.1.1"
       sources."htmlparser2-6.1.0"
       sources."http-signature-1.2.0"
       sources."inflight-1.0.6"
@@ -7654,7 +7654,7 @@ in
       sources."selderee-0.6.0"
       (sources."semver-7.3.6" // {
         dependencies = [
-          sources."lru-cache-7.7.3"
+          sources."lru-cache-7.8.0"
         ];
       })
       sources."shimmer-1.2.1"
