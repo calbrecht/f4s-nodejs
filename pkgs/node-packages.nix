@@ -1120,13 +1120,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001325" = {
+    "caniuse-lite-1.0.30001327" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001325";
+      version = "1.0.30001327";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001325.tgz";
-        sha512 = "sB1bZHjseSjDtijV1Hb7PB2Zd58Kyx+n/9EotvZ4Qcz2K3d0lWB8dB4nb8wN/TsOGFq3UuAm0zQZNQ4SoR7TrQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001327.tgz";
+        sha512 = "1/Cg4jlD9qjZzhbzkzEaAC2JHsP0WrOc8Rd/3a3LuajGzGWR/hD7TVyvq99VqmTy99eVh8Zkmdq213OgvgXx7w==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.12.0" = {
+    "eslint-8.13.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.12.0";
+      version = "8.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.12.0.tgz";
-        sha512 = "it1oBL9alZg1S8UycLm5YDMAkIhtH6FtAzuZs6YvoGVldWjbS08BkAdb/ymP9LlAyq8koANu32U7Ib/w+UNh8Q==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.13.0.tgz";
+        sha512 = "D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6013,10 +6013,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.12.0";
+    version = "8.13.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.12.0.tgz";
-      sha512 = "it1oBL9alZg1S8UycLm5YDMAkIhtH6FtAzuZs6YvoGVldWjbS08BkAdb/ymP9LlAyq8koANu32U7Ib/w+UNh8Q==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.13.0.tgz";
+      sha512 = "D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.2.1"
@@ -6149,7 +6149,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.12.0"
+      sources."eslint-8.13.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6287,7 +6287,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.20.2"
       sources."bser-2.1.1"
-      sources."caniuse-lite-1.0.30001325"
+      sources."caniuse-lite-1.0.30001327"
       sources."caseless-0.12.0"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
