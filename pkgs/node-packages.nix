@@ -1678,13 +1678,13 @@ let
         sha512 = "yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==";
       };
     };
-    "dom-serializer-1.3.2" = {
+    "dom-serializer-1.4.1" = {
       name = "dom-serializer";
       packageName = "dom-serializer";
-      version = "1.3.2";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.3.2.tgz";
-        sha512 = "5c54Bk5Dw4qAxNOI1pFEizPSjVsx5+bpJKmL2kPn8JhBUq2q09tTCa3mjijun2NfK78NMouDYNMBkOrPZiS+ig==";
+        url = "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.4.1.tgz";
+        sha512 = "VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==";
       };
     };
     "domelementtype-2.3.0" = {
@@ -3442,13 +3442,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.8.0" = {
+    "lru-cache-7.8.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.8.0";
+      version = "7.8.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.8.0.tgz";
-        sha512 = "AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.8.1.tgz";
+        sha512 = "E1v547OCgJvbvevfjgK9sNKIVXO96NnsTsFPBlg4ZxjhsJSODoH9lk8Bm0OxvHNm6Vm5Yqkl/1fErDxhYL8Skg==";
       };
     };
     "make-fetch-happen-10.1.2" = {
@@ -6557,7 +6557,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.8.0"
+      sources."lru-cache-7.8.1"
       sources."make-fetch-happen-10.1.2"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
@@ -6911,7 +6911,7 @@ in
       sources."lodash-4.17.21"
       sources."lodash.truncate-4.4.2"
       sources."loose-envify-1.4.0"
-      sources."lru-cache-7.8.0"
+      sources."lru-cache-7.8.1"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.6"
       sources."ms-2.1.2"
@@ -7303,7 +7303,7 @@ in
       sources."isexe-2.0.0"
       sources."jsonfile-6.1.0"
       sources."locate-path-3.0.0"
-      sources."lru-cache-7.8.0"
+      sources."lru-cache-7.8.1"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.5"
       sources."minimatch-3.1.2"
@@ -7565,7 +7565,7 @@ in
       })
       sources."diagnostic-channel-publishers-0.4.4"
       sources."discontinuous-range-1.0.0"
-      sources."dom-serializer-1.3.2"
+      sources."dom-serializer-1.4.1"
       sources."domelementtype-2.3.0"
       sources."domhandler-4.3.1"
       sources."domutils-2.8.0"
@@ -7654,7 +7654,7 @@ in
       sources."selderee-0.6.0"
       (sources."semver-7.3.6" // {
         dependencies = [
-          sources."lru-cache-7.8.0"
+          sources."lru-cache-7.8.1"
         ];
       })
       sources."shimmer-1.2.1"
