@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.23" = {
+    "@types/node-17.0.24" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.23";
+      version = "17.0.24";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.23.tgz";
-        sha512 = "UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.24.tgz";
+        sha512 = "aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==";
       };
     };
     "JSV-4.0.2" = {
@@ -1165,13 +1165,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001331" = {
+    "caniuse-lite-1.0.30001332" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001331";
+      version = "1.0.30001332";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001331.tgz";
-        sha512 = "Y1xk6paHpUXKP/P6YjQv1xqyTbgAP05ycHBcRdQjTcyXlWol868sJJPlmk5ylOekw2BrucWes5jk+LvVd7WZ5Q==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001332.tgz";
+        sha512 = "10T30NYOEQtN6C11YGg411yebhvpnC6Z102+B95eAsN0oB6KUs01ivE8u+G6FMIRtIrVlYXhL+LUwQ3/hXwDWw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1795,13 +1795,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.107" = {
+    "electron-to-chromium-1.4.108" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.107";
+      version = "1.4.108";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.107.tgz";
-        sha512 = "Huen6taaVrUrSy8o7mGStByba8PfOWWluHNxSHGBrCgEdFVLtvdQDBr9LBCF9Uci8SYxh28QNNMO0oC17wbGAg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.108.tgz";
+        sha512 = "/36KkMuL6+WTrodVlOjtHhH9Ro7BgRaQrh0bfKckwDtdRSjTBuZCOddeXxzK1PkwphoeTxGUFVT9xnmvQ7xEdw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.19.4" = {
+    "es-abstract-1.19.5" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.19.4";
+      version = "1.19.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.19.4.tgz";
-        sha512 = "flV8e5g9/xulChMG48Fygk1ptpo4lQRJ0eJYtxJFgi7pklLx7EFcOJ34jnvr8pbWlaFN/AT1cZpe0hiFel9Hqg==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.19.5.tgz";
+        sha512 = "Aa2G2+Rd3b6kxEUKTF4TaW67czBLyAv3z7VOhYRU50YBx+bbsYZ9xQP4lMNazePuFlybXI0V4MruPos7qUo5fA==";
       };
     };
     "es-shim-unscopables-1.0.0" = {
@@ -2785,13 +2785,13 @@ let
         sha1 = "9aecd925114772f3d95b65a60abb8f7c18fbace1";
       };
     };
-    "https-proxy-agent-5.0.0" = {
+    "https-proxy-agent-5.0.1" = {
       name = "https-proxy-agent";
       packageName = "https-proxy-agent";
-      version = "5.0.0";
+      version = "5.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.0.tgz";
-        sha512 = "EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==";
+        url = "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz";
+        sha512 = "dFcAjpTQFgoLMzC2VwU+C/CbS7uRL0lWmxDITmqm7C+7F0Odmj6s9l6alZc6AELXhrnggM2CeWSXHGOdX2YtwA==";
       };
     };
     "human-signals-1.1.1" = {
@@ -6413,7 +6413,7 @@ in
       sources."browserslist-4.20.2"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001331"
+      sources."caniuse-lite-1.0.30001332"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6431,7 +6431,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.107"
+      sources."electron-to-chromium-1.4.108"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6453,7 +6453,7 @@ in
       sources."has-unicode-2.0.1"
       sources."http-cache-semantics-4.1.0"
       sources."http-proxy-agent-4.0.1"
-      sources."https-proxy-agent-5.0.0"
+      sources."https-proxy-agent-5.0.1"
       sources."humanize-ms-1.2.1"
       sources."iconv-lite-0.6.3"
       sources."imurmurhash-0.1.4"
@@ -6633,7 +6633,7 @@ in
       sources."has-unicode-2.0.1"
       sources."http-cache-semantics-4.1.0"
       sources."http-proxy-agent-5.0.0"
-      sources."https-proxy-agent-5.0.0"
+      sources."https-proxy-agent-5.0.1"
       sources."humanize-ms-1.2.1"
       sources."iconv-lite-0.6.3"
       sources."imurmurhash-0.1.4"
@@ -6881,7 +6881,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.19.4"
+      sources."es-abstract-1.19.5"
       sources."es-shim-unscopables-1.0.0"
       sources."es-to-primitive-1.2.1"
       sources."escape-string-regexp-1.0.5"
@@ -7133,7 +7133,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.23"
+      sources."@types/node-17.0.24"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
