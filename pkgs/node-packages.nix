@@ -1390,13 +1390,13 @@ let
         sha512 = "NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==";
       };
     };
-    "commander-9.1.0" = {
+    "commander-9.2.0" = {
       name = "commander";
       packageName = "commander";
-      version = "9.1.0";
+      version = "9.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/commander/-/commander-9.1.0.tgz";
-        sha512 = "i0/MaqBtdbnJ4XQs4Pmyb+oFQl+q0lsAmokVUH92SlSw4fkeAcG3bVon+Qt7hmtF+u3Het6o4VgrcY3qAoEB6w==";
+        url = "https://registry.npmjs.org/commander/-/commander-9.2.0.tgz";
+        sha512 = "e2i4wANQiSXgnrBlIatyHtP1odfUp0BbV5Y5nEGbxtIrStkEOAAzCUirvLBNXHLr7kwLvJl6V+4V3XV9x7Wd9w==";
       };
     };
     "concat-map-0.0.1" = {
@@ -1597,13 +1597,13 @@ let
         sha512 = "FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==";
       };
     };
-    "define-properties-1.1.3" = {
+    "define-properties-1.1.4" = {
       name = "define-properties";
       packageName = "define-properties";
-      version = "1.1.3";
+      version = "1.1.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/define-properties/-/define-properties-1.1.3.tgz";
-        sha512 = "3MqfYKj2lLzdMSf8ZIZE/V+Zuy+BgD6f164e8K2w7dgnpKArBDerGYpM46IYYcjnkdPNMjPk9A6VFB8+3SKlXQ==";
+        url = "https://registry.npmjs.org/define-properties/-/define-properties-1.1.4.tgz";
+        sha512 = "uckOqKcfaVvtBdsVkdPv3XjveQJsNQqmhXgRi8uhvWWuPYZCNlzT8qAyblUgNoXdHdjMTzAqeGjAoli8f+bzPA==";
       };
     };
     "del-5.1.0" = {
@@ -1795,13 +1795,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.108" = {
+    "electron-to-chromium-1.4.109" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.108";
+      version = "1.4.109";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.108.tgz";
-        sha512 = "/36KkMuL6+WTrodVlOjtHhH9Ro7BgRaQrh0bfKckwDtdRSjTBuZCOddeXxzK1PkwphoeTxGUFVT9xnmvQ7xEdw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.109.tgz";
+        sha512 = "LCF+Oqs2Oqwf8M3oc8T59Wi9C0xpL1qVyqIR6bPTCl8uPvln7G184L39tO4SE4Dyg/Kp1RjAz//BKMvi0uvw4w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2434,6 +2434,15 @@ let
         sha1 = "1b0ab3bd553b2a0d6399d29c0e3ea0b252078327";
       };
     };
+    "functions-have-names-1.2.2" = {
+      name = "functions-have-names";
+      packageName = "functions-have-names";
+      version = "1.2.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.2.tgz";
+        sha512 = "bLgc3asbWdwPbx2mNk2S49kmJCuQeu0nfmaOgbs8WIyzzkw3r4htszdIi9Q9EMezDPTYuJx2wvjZ/EwgAthpnA==";
+      };
+    };
     "fuzzy-search-3.2.1" = {
       name = "fuzzy-search";
       packageName = "fuzzy-search";
@@ -2675,6 +2684,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz";
         sha512 = "EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==";
+      };
+    };
+    "has-property-descriptors-1.0.0" = {
+      name = "has-property-descriptors";
+      packageName = "has-property-descriptors";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.0.tgz";
+        sha512 = "62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==";
       };
     };
     "has-symbols-1.0.3" = {
@@ -4729,13 +4747,13 @@ let
         sha512 = "p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==";
       };
     };
-    "regexp.prototype.flags-1.4.2" = {
+    "regexp.prototype.flags-1.4.3" = {
       name = "regexp.prototype.flags";
       packageName = "regexp.prototype.flags";
-      version = "1.4.2";
+      version = "1.4.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.4.2.tgz";
-        sha512 = "Ynz8fTQW5/1elh+jWU2EDDzeoNbD0OQ0R+D1VJU5ATOkUaro4A9YEkdN2ODQl/8UQFPPpZNw91fOcLFamM7Pww==";
+        url = "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.4.3.tgz";
+        sha512 = "fjggEOO3slI6Wvgjwflkc4NFRCTZAu5CnNfBd5qOMYhWdn67nJBBu34/TkD++eeFmd8C9r9jfXJ27+nSiRkSUA==";
       };
     };
     "regexpp-3.2.0" = {
@@ -6431,7 +6449,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.108"
+      sources."electron-to-chromium-1.4.109"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6876,7 +6894,7 @@ in
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
-      sources."define-properties-1.1.3"
+      sources."define-properties-1.1.4"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
@@ -6955,6 +6973,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
       sources."functional-red-black-tree-1.0.1"
+      sources."functions-have-names-1.2.2"
       sources."get-intrinsic-1.1.1"
       sources."get-stdin-8.0.0"
       sources."get-symbol-description-1.0.0"
@@ -6965,6 +6984,7 @@ in
       sources."has-1.0.3"
       sources."has-bigints-1.0.1"
       sources."has-flag-3.0.0"
+      sources."has-property-descriptors-1.0.0"
       sources."has-symbols-1.0.3"
       sources."has-tostringtag-1.0.0"
       sources."hosted-git-info-2.8.9"
@@ -7055,7 +7075,7 @@ in
       sources."react-is-16.13.1"
       sources."read-pkg-3.0.0"
       sources."read-pkg-up-3.0.0"
-      sources."regexp.prototype.flags-1.4.2"
+      sources."regexp.prototype.flags-1.4.3"
       sources."regexpp-3.2.0"
       sources."require-from-string-2.0.2"
       sources."resolve-1.22.0"
@@ -7369,7 +7389,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."braces-3.0.2"
       sources."clean-stack-2.2.0"
-      sources."commander-9.1.0"
+      sources."commander-9.2.0"
       sources."concat-map-0.0.1"
       sources."crypto-random-string-2.0.0"
       sources."del-6.0.0"
