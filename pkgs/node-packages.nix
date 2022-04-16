@@ -1795,13 +1795,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.110" = {
+    "electron-to-chromium-1.4.111" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.110";
+      version = "1.4.111";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.110.tgz";
-        sha512 = "TvHZrkj9anfWkxgblHlNr4IMQdm2N6D0o8Wu1BDpSL/RKT4DHyUt/tvDFtApgZ+LGFL3U9EO4LRZ1eSlQ8xMYA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.111.tgz";
+        sha512 = "/s3+fwhKf1YK4k7btOImOzCQLpUjS6MaPf0ODTNuT4eTM1Bg4itBpLkydhOzJmpmH6Z9eXFyuuK5czsmzRzwtw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2281,13 +2281,13 @@ let
         sha512 = "DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==";
       };
     };
-    "fecha-4.2.2" = {
+    "fecha-4.2.3" = {
       name = "fecha";
       packageName = "fecha";
-      version = "4.2.2";
+      version = "4.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fecha/-/fecha-4.2.2.tgz";
-        sha512 = "5rOQWkBVz3FnYWTi/ELZmq4CoK1Pb+xKNZWuJRsOwo0+8DrP43CrWJtyLVvb5U7z7ggE5llahfDbLjaVNzXVJQ==";
+        url = "https://registry.npmjs.org/fecha/-/fecha-4.2.3.tgz";
+        sha512 = "OP2IUU6HeYKJi3i0z4A19kHMQoLVs4Hc+DPqqxI2h/DPZHTm/vjsfC6P0b4jCMy14XizLBqvndQ+UilD7707Jw==";
       };
     };
     "file-entry-cache-6.0.1" = {
@@ -6449,7 +6449,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.110"
+      sources."electron-to-chromium-1.4.111"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6458,7 +6458,7 @@ in
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
       sources."fb-watchman-2.0.1"
-      sources."fecha-4.2.2"
+      sources."fecha-4.2.3"
       sources."fn.name-1.1.0"
       sources."fs-minipass-2.1.0"
       sources."fs.realpath-1.0.0"
