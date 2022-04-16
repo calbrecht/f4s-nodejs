@@ -2371,13 +2371,13 @@ let
         sha512 = "1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==";
       };
     };
-    "fs-extra-10.0.1" = {
+    "fs-extra-10.1.0" = {
       name = "fs-extra";
       packageName = "fs-extra";
-      version = "10.0.1";
+      version = "10.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fs-extra/-/fs-extra-10.0.1.tgz";
-        sha512 = "NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==";
+        url = "https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz";
+        sha512 = "oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==";
       };
     };
     "fs-extra-9.1.0" = {
@@ -7173,7 +7173,7 @@ in
       sources."fast-glob-3.2.11"
       sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
-      sources."fs-extra-10.0.1"
+      sources."fs-extra-10.1.0"
       sources."fs.realpath-1.0.0"
       sources."get-stream-5.2.0"
       sources."glob-7.2.0"
@@ -7398,7 +7398,7 @@ in
       sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
       sources."find-up-3.0.0"
-      sources."fs-extra-10.0.1"
+      sources."fs-extra-10.1.0"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.0"
       sources."glob-parent-5.1.2"
