@@ -625,13 +625,13 @@ let
         sha1 = "d077f6825571f82132f9dffaed587b4029feff57";
       };
     };
-    "abab-2.0.5" = {
+    "abab-2.0.6" = {
       name = "abab";
       packageName = "abab";
-      version = "2.0.5";
+      version = "2.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/abab/-/abab-2.0.5.tgz";
-        sha512 = "9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==";
+        url = "https://registry.npmjs.org/abab/-/abab-2.0.6.tgz";
+        sha512 = "j2afSsaIENvHZN2B8GOpF566vZ5WVk5opAiMTvWgaQT8DkbOqsTfvNAvHoRGU2zzP8cPoqys+xHTRDWW8L+/BA==";
       };
     };
     "abbrev-1.1.1" = {
@@ -7466,13 +7466,13 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "2.0.0";
+    version = "2.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-2.0.0.tgz";
-      sha512 = "yp6KF2GCVgj64kU2qknE+CFydb8IHc+2ZTRFc6UrN8FugOAHEfO7PzkxfJ/SDWbqa7wIJyjdEFtbTOy/qbHtbQ==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-2.1.0.tgz";
+      sha512 = "cmW/ba3Di7Quq9TkfwDrinIlwVZ+W8aT4ctzNZMFK2LgQliKBxW6qZuUhjrvl/Ll863HWjzPo76jGEG5yisonw==";
     };
     dependencies = [
-      sources."abab-2.0.5"
+      sources."abab-2.0.6"
       sources."acorn-5.7.4"
       (sources."acorn-globals-4.3.4" // {
         dependencies = [
