@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.24" = {
+    "@types/node-17.0.25" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.24";
+      version = "17.0.25";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.24.tgz";
-        sha512 = "aveCYRQbgTH9Pssp1voEP7HiuWlD2jW2BO56w+bVrJn04i61yh6mRfoKO6hEYQD9vF+W8Chkwc6j1M36uPkx4g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.25.tgz";
+        sha512 = "wANk6fBrUwdpY4isjWrKTufkrXdu1D2YHCot2fD/DfWxF5sMrVSA+KN7ydckvaTCh0HiqX9IVl0L5/ZoXg5M7w==";
       };
     };
     "JSV-4.0.2" = {
@@ -1795,13 +1795,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.111" = {
+    "electron-to-chromium-1.4.112" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.111";
+      version = "1.4.112";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.111.tgz";
-        sha512 = "/s3+fwhKf1YK4k7btOImOzCQLpUjS6MaPf0ODTNuT4eTM1Bg4itBpLkydhOzJmpmH6Z9eXFyuuK5czsmzRzwtw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.112.tgz";
+        sha512 = "BN5xdtPMlqUHo74daNNp/PwAGs4homs2RFxTB668wwkv7HAMvOY4L16Y5QrFxh69T2H2f1xWg8zQfrCDnpkvrA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3820,13 +3820,13 @@ let
         sha512 = "8ZtvEnA2c5aYCZYd1cvgdnU6cqwixRoYg70xPLWUws5ORTa/lnw+u4amixRS/Ac5U5mQVgp9pnlSUnbNWFaWZQ==";
       };
     };
-    "nanoid-3.3.2" = {
+    "nanoid-3.3.3" = {
       name = "nanoid";
       packageName = "nanoid";
-      version = "3.3.2";
+      version = "3.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.2.tgz";
-        sha512 = "CuHBogktKwpm5g2sRgv83jEy2ijFzBwMoYA60orPDR7ynsLijJDqgsi4RDGj3OJpy3Ieb+LYwiRmIOGyytgITA==";
+        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.3.tgz";
+        sha512 = "p1sjXuopFs0xg+fPASzQ28agW1oHD7xDsd9Xkf3T15H3c/cifrFHVwrh74PdoklAPi+i7MdRsE47vm2r6JoB+w==";
       };
     };
     "nanolru-1.0.0" = {
@@ -5089,13 +5089,13 @@ let
         sha512 = "zDZhHhZRY9PxRruRMR7kMhnf3I8hDs4S3f9RecfnGxvcBHQcKcIH/oUcEWffsfl1XxdYlA7nnlGbbTvPz9D8gA==";
       };
     };
-    "socks-proxy-agent-6.1.1" = {
+    "socks-proxy-agent-6.2.0" = {
       name = "socks-proxy-agent";
       packageName = "socks-proxy-agent";
-      version = "6.1.1";
+      version = "6.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-6.1.1.tgz";
-        sha512 = "t8J0kG3csjA4g6FTbsMOWws+7R7vuRC8aQ/wy3/1OWmsgwA68zs/+cExQ0koSitUDXqhufF/YJr9wtNMZHw5Ew==";
+        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-6.2.0.tgz";
+        sha512 = "wWqJhjb32Q6GsrUqzuFkukxb/zzide5quXYcMVpIjxalDBBYy2nqKCFQ/9+Ie4dvOYSQdOk3hUlZSdzZOd3zMQ==";
       };
     };
     "source-map-0.5.7" = {
@@ -5161,13 +5161,13 @@ let
         sha1 = "04e6926f662895354f3dd015203633b857297e2c";
       };
     };
-    "sqlite3-5.0.3" = {
+    "sqlite3-5.0.4" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.0.3";
+      version = "5.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.3.tgz";
-        sha512 = "/cDwes7XtTOtKH5zYeJSuiavuaJ6jXxPjebw9lDFxBAwR/DvP0tnJ5MPZQ3zpnNzJBa1G6mPTpB+5O1T+AoSdQ==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.4.tgz";
+        sha512 = "ATvAe7JutFv/d+KTbLS58KsKn/t1raL/WGn2qZfZxwsrL/oGSP+0OlbQ2tX5jISvyu6/7JuKze3WkaiP1JAH6A==";
       };
     };
     "sshpk-1.17.0" = {
@@ -6449,7 +6449,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.111"
+      sources."electron-to-chromium-1.4.112"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6541,9 +6541,9 @@ in
       sources."simple-swizzle-0.2.2"
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
-      sources."socks-proxy-agent-6.1.1"
+      sources."socks-proxy-agent-6.2.0"
       sources."source-map-0.5.7"
-      sources."sqlite3-5.0.3"
+      sources."sqlite3-5.0.4"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
@@ -6697,7 +6697,7 @@ in
       sources."signal-exit-3.0.7"
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
-      sources."socks-proxy-agent-6.1.1"
+      sources."socks-proxy-agent-6.2.0"
       sources."ssri-9.0.0"
       sources."string-width-4.2.3"
       sources."string_decoder-1.3.0"
@@ -7153,7 +7153,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.24"
+      sources."@types/node-17.0.25"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7204,7 +7204,7 @@ in
       sources."mkdirp-0.5.6"
       sources."ms-2.1.2"
       sources."mustache-2.3.2"
-      sources."nanoid-3.3.2"
+      sources."nanoid-3.3.3"
       sources."npm-run-path-4.0.1"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
