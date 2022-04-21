@@ -1138,13 +1138,13 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "cacache-16.0.5" = {
+    "cacache-16.0.6" = {
       name = "cacache";
       packageName = "cacache";
-      version = "16.0.5";
+      version = "16.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.5.tgz";
-        sha512 = "8s/08Kgu5sk9JcmOrekdUTM7cPPewz2FIQWVQOGOCdWPMRxBUD10WXApQD39Qvg1y5AKXcjo+pnOHkeveEFHCA==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.6.tgz";
+        sha512 = "9a/MLxGaw3LEGes0HaPez2RgZWDV6X0jrgChsuxfEh8xoDoYGxaGrkMe7Dlyjrb655tA/b8fX0qlUg6Ii5MBvw==";
       };
     };
     "call-bind-1.0.2" = {
@@ -1804,13 +1804,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.115" = {
+    "electron-to-chromium-1.4.117" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.115";
+      version = "1.4.117";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.115.tgz";
-        sha512 = "yy1W7cTcreskCWSRTtvp8CNLEci3uYBn5s1U4IytDz7v485iLVPh4QwFuSCavsFbxRLVvwnHNXEFIDShrk/UnQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.117.tgz";
+        sha512 = "ypZHxY+Sf/PXu7LVN+xoeanyisnJeSOy8Ki439L/oLueZb4c72FI45zXcK3gPpmTwyufh9m6NnbMLXnJh/0Fxg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6279,10 +6279,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "12.0.0";
+    version = "12.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-12.0.0.tgz";
-      sha512 = "jSueemgxyOsxVLOWkJuBbJfQB1vt9rjCqAbht51W/2982VcDxQ3ywjUaEvWTF+oTFWe2M1ER+d54kFgoZCGevg==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-12.1.0.tgz";
+      sha512 = "mRttHSO/sC6oxnfdlnLUTfB1sI2ApmbPAHSNx60+8jQmwwvEZjUv4WDmv20g7i9DSBuK8Y5boTyz4ijBAujk0Q==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.2.1"
@@ -6476,7 +6476,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.115"
+      sources."electron-to-chromium-1.4.117"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6657,7 +6657,7 @@ in
       sources."are-we-there-yet-3.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      (sources."cacache-16.0.5" // {
+      (sources."cacache-16.0.6" // {
         dependencies = [
           sources."brace-expansion-2.0.1"
           sources."glob-8.0.1"
