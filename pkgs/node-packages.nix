@@ -310,13 +310,13 @@ let
         sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
-    "@eslint/eslintrc-1.2.1" = {
+    "@eslint/eslintrc-1.2.2" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.2.1";
+      version = "1.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.2.1.tgz";
-        sha512 = "bxvbYnBPN1Gibwyp6NrpnFzA3YtRL3BBAyEAFVIpNTm2Rn4Vy87GA5M4aSn3InRrlsbX5N0GW7XIx+U4SAEKdQ==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.2.2.tgz";
+        sha512 = "lTVWHs7O2hjBFZunXTZYnYqtB9GakA1lnxIf+gKq2nY5gxkkNi/lQvveW6t8gFdOHTg6nG50Xs95PrLqVpcaLg==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -1336,13 +1336,13 @@ let
         sha512 = "dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==";
       };
     };
-    "color-string-1.9.0" = {
+    "color-string-1.9.1" = {
       name = "color-string";
       packageName = "color-string";
-      version = "1.9.0";
+      version = "1.9.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/color-string/-/color-string-1.9.0.tgz";
-        sha512 = "9Mrz2AQLefkH1UvASKj6v6hj/7eWgjnT/cVsR8CumieLoT+g900exWeNogqtweI8dxloXN9BDQTYro1oWu/5CQ==";
+        url = "https://registry.npmjs.org/color-string/-/color-string-1.9.1.tgz";
+        sha512 = "shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==";
       };
     };
     "color-support-1.1.3" = {
@@ -1804,13 +1804,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.117" = {
+    "electron-to-chromium-1.4.118" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.117";
+      version = "1.4.118";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.117.tgz";
-        sha512 = "ypZHxY+Sf/PXu7LVN+xoeanyisnJeSOy8Ki439L/oLueZb4c72FI45zXcK3gPpmTwyufh9m6NnbMLXnJh/0Fxg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.118.tgz";
+        sha512 = "maZIKjnYDvF7Fs35nvVcyr44UcKNwybr93Oba2n3HkKDFAtk0svERkLN/HyczJDS3Fo4wU9th9fUQd09ZLtj1w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.13.0" = {
+    "eslint-8.14.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.13.0";
+      version = "8.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.13.0.tgz";
-        sha512 = "D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.14.0.tgz";
+        sha512 = "3/CE4aJX7LNEiE3i6FeodHmI/38GZtWCsAtsymScmzYapx8q1nVVb+eLcLSzATmCPXw5pT4TqVs1E0OmxAd9tw==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -5188,13 +5188,13 @@ let
         sha1 = "04e6926f662895354f3dd015203633b857297e2c";
       };
     };
-    "sqlite3-5.0.4" = {
+    "sqlite3-5.0.5" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.0.4";
+      version = "5.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.4.tgz";
-        sha512 = "ATvAe7JutFv/d+KTbLS58KsKn/t1raL/WGn2qZfZxwsrL/oGSP+0OlbQ2tX5jISvyu6/7JuKze3WkaiP1JAH6A==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.5.tgz";
+        sha512 = "ZZFOMW31IOMbUeSiL23TuWSjNyS7Z83EDJ80HJxCe78OZ+5BJT6IhAwAUnQgPsUl5z+Er0DGx7VjuTP7PKPNcg==";
       };
     };
     "sshpk-1.17.0" = {
@@ -6175,13 +6175,13 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.13.0";
+    version = "8.14.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.13.0.tgz";
-      sha512 = "D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.14.0.tgz";
+      sha512 = "3/CE4aJX7LNEiE3i6FeodHmI/38GZtWCsAtsymScmzYapx8q1nVVb+eLcLSzATmCPXw5pT4TqVs1E0OmxAd9tw==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.2.1"
+      sources."@eslint/eslintrc-1.2.2"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.0"
@@ -6285,7 +6285,7 @@ in
       sha512 = "mRttHSO/sC6oxnfdlnLUTfB1sI2ApmbPAHSNx60+8jQmwwvEZjUv4WDmv20g7i9DSBuK8Y5boTyz4ijBAujk0Q==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.2.1"
+      sources."@eslint/eslintrc-1.2.2"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.0"
@@ -6311,7 +6311,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.13.0"
+      sources."eslint-8.14.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6465,7 +6465,7 @@ in
       sources."color-3.2.1"
       sources."color-convert-1.9.3"
       sources."color-name-1.1.3"
-      sources."color-string-1.9.0"
+      sources."color-string-1.9.1"
       sources."color-support-1.1.3"
       sources."colorspace-1.1.4"
       sources."commander-4.1.1"
@@ -6476,7 +6476,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.117"
+      sources."electron-to-chromium-1.4.118"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6570,7 +6570,7 @@ in
       sources."socks-2.6.2"
       sources."socks-proxy-agent-6.2.0"
       sources."source-map-0.5.7"
-      sources."sqlite3-5.0.4"
+      sources."sqlite3-5.0.5"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
