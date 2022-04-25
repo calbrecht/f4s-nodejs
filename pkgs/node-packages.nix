@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.26" = {
+    "@types/node-17.0.27" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.26";
+      version = "17.0.27";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.26.tgz";
-        sha512 = "z/FG/6DUO7pnze3AE3TBGIjGGKkvCcGcWINe1C7cADY8hKLJPDYpzsNE37uExQ4md5RFtTCvg+M8Mu1Enyeg2A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.27.tgz";
+        sha512 = "4/Ke7bbWOasuT3kceBZFGakP1dYN2XFd8v2l9bqF2LNWrmeU07JLpp56aEeG6+Q3olqO5TvXpW0yaiYnZJ5CXg==";
       };
     };
     "JSV-4.0.2" = {
@@ -1804,13 +1804,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.118" = {
+    "electron-to-chromium-1.4.120" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.118";
+      version = "1.4.120";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.118.tgz";
-        sha512 = "maZIKjnYDvF7Fs35nvVcyr44UcKNwybr93Oba2n3HkKDFAtk0svERkLN/HyczJDS3Fo4wU9th9fUQd09ZLtj1w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.120.tgz";
+        sha512 = "H3ksXiGhoYVQCmoMT0JMN07kEDBzc6TSv1OSp7UUPxNiSvQl7NeQCyZiMZhLEmNJ89C5FnD4Eoe1ytZnMQxxaw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5683,13 +5683,13 @@ let
         sha512 = "yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==";
       };
     };
-    "unbox-primitive-1.0.1" = {
+    "unbox-primitive-1.0.2" = {
       name = "unbox-primitive";
       packageName = "unbox-primitive";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.0.1.tgz";
-        sha512 = "tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw==";
+        url = "https://registry.npmjs.org/unbox-primitive/-/unbox-primitive-1.0.2.tgz";
+        sha512 = "61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==";
       };
     };
     "underscore-1.6.0" = {
@@ -5800,22 +5800,22 @@ let
         sha1 = "3a105ca17053af55d6e270c1f8288682e18da400";
       };
     };
-    "vscode-css-languageservice-5.4.1" = {
+    "vscode-css-languageservice-5.4.2" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "5.4.1";
+      version = "5.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.4.1.tgz";
-        sha512 = "W7D3GKFXf97ReAaU4EZ2nxVO1kQhztbycJgc1b/Ipr0h8zYWr88BADmrXu02z+lsCS84D7Sr4hoUzDKeaFn2Kg==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.4.2.tgz";
+        sha512 = "DT7+7vfdT2HDNjDoXWtYJ0lVDdeDEdbMNdK4PKqUl2MS8g7PWt7J5G9B6k9lYox8nOfhCEjLnoNC3UKHHCR1lg==";
       };
     };
-    "vscode-html-languageservice-4.2.4" = {
+    "vscode-html-languageservice-4.2.5" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "4.2.4";
+      version = "4.2.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-4.2.4.tgz";
-        sha512 = "1HqvXKOq9WlZyW4HTD+0XzrjZoZ/YFrgQY2PZqktbRloHXVAUKm6+cAcvZi4YqKPVn05/CK7do+KBHfuSaEdbg==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-4.2.5.tgz";
+        sha512 = "dbr10KHabB9EaK8lI0XZW7SqOsTfrNyT3Nuj0GoPi4LjGKUmMiLtsqzfedIzRTzqY+w0FiLdh0/kQrnQ0tLxrw==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6160,13 +6160,13 @@ let
         sha512 = "3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==";
       };
     };
-    "yaml-2.0.0-10" = {
+    "yaml-2.0.0-11" = {
       name = "yaml";
       packageName = "yaml";
-      version = "2.0.0-10";
+      version = "2.0.0-11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/yaml/-/yaml-2.0.0-10.tgz";
-        sha512 = "FHV8s5ODFFQXX/enJEU2EkanNl1UDBUz8oa4k5Qo/sR+Iq7VmhCDkRMb0/mjJCNeAWQ31W8WV6PYStDE4d9EIw==";
+        url = "https://registry.npmjs.org/yaml/-/yaml-2.0.0-11.tgz";
+        sha512 = "5kGSQrzDyjCk0BLuFfjkoUE9vYcoyrwZIZ+GnpOSM9vhkvPjItYiWJ1jpRSo0aU4QmsoNrFwDT4O7XS2UGcBQg==";
       };
     };
   };
@@ -6476,7 +6476,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.118"
+      sources."electron-to-chromium-1.4.120"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7151,7 +7151,7 @@ in
       sources."tsconfig-paths-3.14.1"
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
-      sources."unbox-primitive-1.0.1"
+      sources."unbox-primitive-1.0.2"
       sources."uri-js-4.4.1"
       sources."v8-compile-cache-2.3.0"
       sources."validate-npm-package-license-3.0.4"
@@ -7186,7 +7186,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.26"
+      sources."@types/node-17.0.27"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7814,12 +7814,12 @@ in
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-5.4.1" // {
+      (sources."vscode-css-languageservice-5.4.2" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      (sources."vscode-html-languageservice-4.2.4" // {
+      (sources."vscode-html-languageservice-4.2.5" // {
         dependencies = [
           sources."vscode-languageserver-types-3.16.0"
         ];
@@ -7856,10 +7856,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.6.0";
+    version = "1.7.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.6.0.tgz";
-      sha512 = "4L8vgCuqRZgfjVnAPW8nKKj5dq4QBSc8LoceCaqtufVxHK+G6MVjI5aT9wHLO1/W07RXSyr0vYqSap7B1GFZ6w==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.7.0.tgz";
+      sha512 = "lIn8cKP7WvXAs/9ybENadjA/RZ3z0eT+/Qxu/Qhh9aG7U3FTtmO6xauRAih4Gxm4qZeBE1t4C31XB8B/KOQRtw==";
     };
     dependencies = [
       sources."jsonc-parser-3.0.0"
@@ -7872,7 +7872,7 @@ in
       sources."vscode-languageserver-types-3.16.0"
       sources."vscode-nls-5.0.0"
       sources."vscode-uri-3.0.3"
-      sources."yaml-2.0.0-10"
+      sources."yaml-2.0.0-11"
     ];
     buildInputs = globalBuildInputs;
     meta = {
