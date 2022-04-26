@@ -580,13 +580,13 @@ let
         sha1 = "ee28707ae94e11d2b827bcbe5270bcea7f3e71ee";
       };
     };
-    "@types/long-4.0.1" = {
+    "@types/long-4.0.2" = {
       name = "_at_types_slash_long";
       packageName = "@types/long";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/long/-/long-4.0.1.tgz";
-        sha512 = "5tXH6Bx/kNGd3MgffdmP4dy2Z+G4eaXw0SE81Tq3BNadtnMR5/ySMzX4SLEzHJzSmPNn4HIdpQsBvXMUykr58w==";
+        url = "https://registry.npmjs.org/@types/long/-/long-4.0.2.tgz";
+        sha512 = "MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==";
       };
     };
     "@types/minimatch-3.0.5" = {
@@ -607,13 +607,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.27" = {
+    "@types/node-17.0.29" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.27";
+      version = "17.0.29";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.27.tgz";
-        sha512 = "4/Ke7bbWOasuT3kceBZFGakP1dYN2XFd8v2l9bqF2LNWrmeU07JLpp56aEeG6+Q3olqO5TvXpW0yaiYnZJ5CXg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.29.tgz";
+        sha512 = "tx5jMmMFwx7wBwq/V7OohKDVb/JwJU5qCVkeLMh1//xycAJ/ESuw9aJ9SEtlCZDYi2pBfe4JkisSoAtbOsBNAA==";
       };
     };
     "JSV-4.0.2" = {
@@ -670,13 +670,13 @@ let
         sha512 = "nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==";
       };
     };
-    "acorn-8.7.0" = {
+    "acorn-8.7.1" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.7.0";
+      version = "8.7.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.7.0.tgz";
-        sha512 = "V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.7.1.tgz";
+        sha512 = "Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==";
       };
     };
     "acorn-globals-4.3.4" = {
@@ -1804,13 +1804,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.120" = {
+    "electron-to-chromium-1.4.122" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.120";
+      version = "1.4.122";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.120.tgz";
-        sha512 = "H3ksXiGhoYVQCmoMT0JMN07kEDBzc6TSv1OSp7UUPxNiSvQl7NeQCyZiMZhLEmNJ89C5FnD4Eoe1ytZnMQxxaw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.122.tgz";
+        sha512 = "VuLNxTIt8sBWIT2sd186xPd18Y8KcK8myLd9nMdSJOYZwFUxxbLVmX/T1VX+qqaytRlrYYQv39myxJdXtu7Ysw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5917,13 +5917,13 @@ let
         sha512 = "VGzh06oynbYa6JbTKUbxOEZN7CYEtWhN7DK5wfzUpeCJl8X8xZX39g2PVfpqXrIEduu7dcJgK007KgnX9tHNKA==";
       };
     };
-    "vscode-nls-5.0.0" = {
+    "vscode-nls-5.0.1" = {
       name = "vscode-nls";
       packageName = "vscode-nls";
-      version = "5.0.0";
+      version = "5.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.0.0.tgz";
-        sha512 = "u0Lw+IYlgbEJFF6/qAqG2d1jQmJl0eyAGJHoAJqr2HT4M2BNuQYSEiSE75f52pXHSJm8AlTjnLLbBFPrdz2hpA==";
+        url = "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.0.1.tgz";
+        sha512 = "hHQV6iig+M21lTdItKPkJAaWrxALQb/nqpVffakO4knJOh3DrU2SXOMzUzNgo1eADPzu3qSsJY1weCzvR52q9A==";
       };
     };
     "vscode-uri-2.1.2" = {
@@ -6184,7 +6184,7 @@ in
       sources."@eslint/eslintrc-1.2.2"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
-      sources."acorn-8.7.0"
+      sources."acorn-8.7.1"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6288,7 +6288,7 @@ in
       sources."@eslint/eslintrc-1.2.2"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
-      sources."acorn-8.7.0"
+      sources."acorn-8.7.1"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6476,7 +6476,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.120"
+      sources."electron-to-chromium-1.4.122"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7186,7 +7186,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.27"
+      sources."@types/node-17.0.29"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7670,7 +7670,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.6.0"
-      sources."@types/long-4.0.1"
+      sources."@types/long-4.0.2"
       sources."@types/node-13.13.52"
       sources."abbrev-1.1.1"
       sources."ajv-6.12.6"
@@ -7838,7 +7838,7 @@ in
       })
       sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.17.0-next.1"
-      sources."vscode-nls-5.0.0"
+      sources."vscode-nls-5.0.1"
       sources."vscode-uri-3.0.3"
       sources."wrappy-1.0.2"
       sources."yallist-2.1.2"
@@ -7870,7 +7870,7 @@ in
       sources."vscode-languageserver-protocol-3.16.0"
       sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.16.0"
-      sources."vscode-nls-5.0.0"
+      sources."vscode-nls-5.0.1"
       sources."vscode-uri-3.0.3"
       sources."yaml-2.0.0-11"
     ];
