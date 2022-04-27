@@ -4,13 +4,13 @@
 
 let
   sources = {
-    "@ampproject/remapping-2.1.2" = {
+    "@ampproject/remapping-2.2.0" = {
       name = "_at_ampproject_slash_remapping";
       packageName = "@ampproject/remapping";
-      version = "2.1.2";
+      version = "2.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.1.2.tgz";
-        sha512 = "hoyByceqwKirw7w3Z7gnIIZC3Wx3J484Y3L/cMpXFbr7d9ZQj2mODrirNzcJa+SM3UlpWXYvKV4RlRpFXlWgXg==";
+        url = "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.0.tgz";
+        sha512 = "qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w==";
       };
     };
     "@babel/code-frame-7.16.7" = {
@@ -346,6 +346,15 @@ let
         sha512 = "ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==";
       };
     };
+    "@jridgewell/gen-mapping-0.1.1" = {
+      name = "_at_jridgewell_slash_gen-mapping";
+      packageName = "@jridgewell/gen-mapping";
+      version = "0.1.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz";
+        sha512 = "sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==";
+      };
+    };
     "@jridgewell/resolve-uri-3.0.6" = {
       name = "_at_jridgewell_slash_resolve-uri";
       packageName = "@jridgewell/resolve-uri";
@@ -353,6 +362,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.0.6.tgz";
         sha512 = "R7xHtBSNm+9SyvpJkdQl+qrM3Hm2fea3Ef197M3mUug+v+yR+Rhfbs7PBtcBUVnIWJ4JcAdjvij+c8hXS9p5aw==";
+      };
+    };
+    "@jridgewell/set-array-1.1.0" = {
+      name = "_at_jridgewell_slash_set-array";
+      packageName = "@jridgewell/set-array";
+      version = "1.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.1.0.tgz";
+        sha512 = "SfJxIxNVYLTsKwzB3MoOQ1yxf4w/E6MdkvTgrgAt1bfxjSrLUoHMKrDOykwN14q65waezZIdqDneUIPh4/sKxg==";
       };
     };
     "@jridgewell/sourcemap-codec-1.4.11" = {
@@ -1138,13 +1156,13 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "cacache-16.0.6" = {
+    "cacache-16.0.7" = {
       name = "cacache";
       packageName = "cacache";
-      version = "16.0.6";
+      version = "16.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.6.tgz";
-        sha512 = "9a/MLxGaw3LEGes0HaPez2RgZWDV6X0jrgChsuxfEh8xoDoYGxaGrkMe7Dlyjrb655tA/b8fX0qlUg6Ii5MBvw==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-16.0.7.tgz";
+        sha512 = "a4zfQpp5vm4Ipdvbj+ZrPonikRhm6WBEd4zT1Yc1DXsmAxrPgDwWBLF/u/wTVXSFPIgOJ1U3ghSa2Xm4s3h28w==";
       };
     };
     "call-bind-1.0.2" = {
@@ -1804,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.122" = {
+    "electron-to-chromium-1.4.124" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.122";
+      version = "1.4.124";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.122.tgz";
-        sha512 = "VuLNxTIt8sBWIT2sd186xPd18Y8KcK8myLd9nMdSJOYZwFUxxbLVmX/T1VX+qqaytRlrYYQv39myxJdXtu7Ysw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.124.tgz";
+        sha512 = "VhaE9VUYU6d2eIb+4xf83CATD+T+3bTzvxvlADkQE+c2hisiw3sZmvEDtsW704+Zky9WZGhBuQXijDVqSriQLA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5188,13 +5206,13 @@ let
         sha1 = "04e6926f662895354f3dd015203633b857297e2c";
       };
     };
-    "sqlite3-5.0.5" = {
+    "sqlite3-5.0.6" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.0.5";
+      version = "5.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.5.tgz";
-        sha512 = "ZZFOMW31IOMbUeSiL23TuWSjNyS7Z83EDJ80HJxCe78OZ+5BJT6IhAwAUnQgPsUl5z+Er0DGx7VjuTP7PKPNcg==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.6.tgz";
+        sha512 = "uT1dC6N3ReF+jchY01zvl1wVFFJ5xO86wSnCpK39uA/zmAHBDm6TiAq1v876QKv8JgiijxQ7/fb5C2LPm7ZAJA==";
       };
     };
     "sshpk-1.17.0" = {
@@ -6396,7 +6414,7 @@ in
       sha512 = "8sVqR50yMXoS/yC6vLEsXzrOtVN6yMutdS4FpCOt7ak+xUdZUeiUakXzkBFox44whfNupB7WcBx6gAHr+8lJmw==";
     };
     dependencies = [
-      sources."@ampproject/remapping-2.1.2"
+      sources."@ampproject/remapping-2.2.0"
       sources."@babel/code-frame-7.16.7"
       sources."@babel/compat-data-7.17.7"
       sources."@babel/core-7.17.9"
@@ -6429,7 +6447,9 @@ in
       sources."@colors/colors-1.5.0"
       sources."@dabh/diagnostics-2.0.3"
       sources."@gar/promisify-1.1.3"
+      sources."@jridgewell/gen-mapping-0.1.1"
       sources."@jridgewell/resolve-uri-3.0.6"
+      sources."@jridgewell/set-array-1.1.0"
       sources."@jridgewell/sourcemap-codec-1.4.11"
       sources."@jridgewell/trace-mapping-0.3.9"
       (sources."@mapbox/node-pre-gyp-1.0.9" // {
@@ -6476,7 +6496,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.122"
+      sources."electron-to-chromium-1.4.124"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6570,7 +6590,7 @@ in
       sources."socks-2.6.2"
       sources."socks-proxy-agent-6.2.0"
       sources."source-map-0.5.7"
-      sources."sqlite3-5.0.5"
+      sources."sqlite3-5.0.6"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
@@ -6657,7 +6677,7 @@ in
       sources."are-we-there-yet-3.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      (sources."cacache-16.0.6" // {
+      (sources."cacache-16.0.7" // {
         dependencies = [
           sources."brace-expansion-2.0.1"
           sources."glob-8.0.1"
