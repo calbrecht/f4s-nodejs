@@ -1192,13 +1192,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001332" = {
+    "caniuse-lite-1.0.30001334" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001332";
+      version = "1.0.30001334";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001332.tgz";
-        sha512 = "10T30NYOEQtN6C11YGg411yebhvpnC6Z102+B95eAsN0oB6KUs01ivE8u+G6FMIRtIrVlYXhL+LUwQ3/hXwDWw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001334.tgz";
+        sha512 = "kbaCEBRRVSoeNs74sCuq92MJyGrMtjWVfhltoHUCW4t4pXFvGjUBrfo47weBRViHkiV3eBYyIsfl956NtHGazw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -3964,13 +3964,13 @@ let
         sha1 = "87a9065cdb355d3182d8f94ce11188b825c68a3b";
       };
     };
-    "node-releases-2.0.3" = {
+    "node-releases-2.0.4" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "2.0.3";
+      version = "2.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.3.tgz";
-        sha512 = "maHFz6OLqYxz+VQyCAtA3PTX4UP/53pa05fyDNc9CwjvJ0yEh6+xBwKsgCxMNhS8taUKBFYxfuiaD9U/55iFaw==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.4.tgz";
+        sha512 = "gbMzqQtTtDz/00jQzZ21PQzdI9PyLYqUSvD0p3naOhX4odFji0ZxYdnVwPTxmSwkmxhcFImpozceidSG+AgoPQ==";
       };
     };
     "nomnom-1.8.1" = {
@@ -6478,7 +6478,7 @@ in
       sources."browserslist-4.20.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001332"
+      sources."caniuse-lite-1.0.30001334"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6563,7 +6563,7 @@ in
         ];
       })
       sources."node-int64-0.4.0"
-      sources."node-releases-2.0.3"
+      sources."node-releases-2.0.4"
       sources."nopt-5.0.0"
       sources."npmlog-5.0.1"
       sources."object-assign-4.1.1"
