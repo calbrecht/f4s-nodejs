@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.124" = {
+    "electron-to-chromium-1.4.125" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.124";
+      version = "1.4.125";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.124.tgz";
-        sha512 = "VhaE9VUYU6d2eIb+4xf83CATD+T+3bTzvxvlADkQE+c2hisiw3sZmvEDtsW704+Zky9WZGhBuQXijDVqSriQLA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.125.tgz";
+        sha512 = "1lQM6s0FnAKt9LCfL05S8wnuAhVMemi7zCFWnTZ0vu7jR1a0RD8ML1gRBsyeEp6MRU+zNbgyaKcjyU1aPIpJYA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5692,13 +5692,13 @@ let
         sha512 = "4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==";
       };
     };
-    "typescript-4.6.3" = {
+    "typescript-4.6.4" = {
       name = "typescript";
       packageName = "typescript";
-      version = "4.6.3";
+      version = "4.6.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz";
-        sha512 = "yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-4.6.4.tgz";
+        sha512 = "9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -6496,7 +6496,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.124"
+      sources."electron-to-chromium-1.4.125"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7409,10 +7409,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.6.3";
+    version = "4.6.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz";
-      sha512 = "yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.6.4.tgz";
+      sha512 = "9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7829,7 +7829,7 @@ in
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."typescript-4.6.3"
+      sources."typescript-4.6.4"
       sources."universalify-2.0.0"
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
