@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.128" = {
+    "electron-to-chromium-1.4.129" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.128";
+      version = "1.4.129";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.128.tgz";
-        sha512 = "DT8G+2drgywCWN+74jbYJ7yXbdec9wefs+K8C0Tu2Hbhj7K0nod17Iq8hoS21MpuYYrL6oXu2Kd636KmzXVugQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.129.tgz";
+        sha512 = "GgtN6bsDtHdtXJtlMYZWGB/uOyjZWjmRDumXTas7dGBaB9zUyCjzHet1DY2KhyHN8R0GLbzZWqm4efeddqqyRQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3568,13 +3568,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.8.1" = {
+    "lru-cache-7.9.0" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.8.1";
+      version = "7.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.8.1.tgz";
-        sha512 = "E1v547OCgJvbvevfjgK9sNKIVXO96NnsTsFPBlg4ZxjhsJSODoH9lk8Bm0OxvHNm6Vm5Yqkl/1fErDxhYL8Skg==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.9.0.tgz";
+        sha512 = "lkcNMUKqdJk96TuIXUidxaPuEg5sJo/+ZyVE2BDFnuZGzwXem7d8582eG8vbu4todLfT14snP6iHriCHXXi5Rw==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6487,7 +6487,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.128"
+      sources."electron-to-chromium-1.4.129"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6706,7 +6706,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.8.1"
+      sources."lru-cache-7.9.0"
       sources."make-fetch-happen-10.1.2"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
