@@ -3388,13 +3388,13 @@ let
         sha512 = "P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==";
       };
     };
-    "jsx-ast-utils-3.2.2" = {
+    "jsx-ast-utils-3.3.0" = {
       name = "jsx-ast-utils";
       packageName = "jsx-ast-utils";
-      version = "3.2.2";
+      version = "3.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.2.2.tgz";
-        sha512 = "HDAyJ4MNQBboGpUnHAVUNJs6X0lh058s6FuixsFGP7MgJYpD6Vasd6nzSG5iIfXu1zAYlHJ/zsOKNlrenTUBnw==";
+        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.0.tgz";
+        sha512 = "XzO9luP6L0xkxwhIJMTJQpZo/eeN60K08jHdexfD569AGxeNug6UketeHXEhROoM8aR7EcUoOQmIhcJQjcuq8Q==";
       };
     };
     "kuler-2.0.0" = {
@@ -7060,7 +7060,7 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."json5-1.0.1"
-      sources."jsx-ast-utils-3.2.2"
+      sources."jsx-ast-utils-3.3.0"
       sources."levn-0.4.1"
       sources."load-json-file-4.0.0"
       sources."locate-path-2.0.0"
