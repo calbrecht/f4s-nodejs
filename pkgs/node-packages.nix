@@ -1192,13 +1192,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001335" = {
+    "caniuse-lite-1.0.30001336" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001335";
+      version = "1.0.30001336";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001335.tgz";
-        sha512 = "ddP1Tgm7z2iIxu6QTtbZUv6HJxSaV/PZeSrWFZtbY4JZ69tOeNhBCl3HyRQgeNZKE5AOn1kpV7fhljigy0Ty3w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001336.tgz";
+        sha512 = "/YxSlBmL7iKXTbIJ48IQTnAOBk7XmWsxhBF1PZLOko5Dt9qc4Pl+84lfqG3Tc4EuavurRn1QLoVJGxY2iSycfw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.132" = {
+    "electron-to-chromium-1.4.134" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.132";
+      version = "1.4.134";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.132.tgz";
-        sha512 = "JYdZUw/1068NWN+SwXQ7w6Ue0bWYGihvSUNNQwurvcDV/SM7vSiGZ3NuFvFgoEiCs4kB8xs3cX2an3wB7d4TBw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.134.tgz";
+        sha512 = "OdD7M2no4Mi8PopfvoOuNcwYDJ2mNFxaBfurA6okG3fLBaMcFah9S+si84FhX+FIWLKkdaiHfl4A+5ep/gOVrg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4153,13 +4153,13 @@ let
         sha512 = "CAyG5mWQRRiBU57Re4FKoTBjXfDoNwdFVH2Y1tS9PqCsfUTymAohOkEMSG3aRNKmv4lV3O7p1et7c187q6bynw==";
       };
     };
-    "object.hasown-1.1.0" = {
+    "object.hasown-1.1.1" = {
       name = "object.hasown";
       packageName = "object.hasown";
-      version = "1.1.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object.hasown/-/object.hasown-1.1.0.tgz";
-        sha512 = "MhjYRfj3GBlhSkDHo6QmvgjRLXQ2zndabdf3nX0yTyZK9rPfxb6uRpAac8HXNLy1GpqWtZ81Qh4v3uOls2sRAg==";
+        url = "https://registry.npmjs.org/object.hasown/-/object.hasown-1.1.1.tgz";
+        sha512 = "LYLe4tivNQzq4JdaWW6WO3HMZZJWzkkH8fnI6EebWl0VZth2wL2Lovm74ep2/gZzlaTdV62JZHEqHQ2yVn8Q/A==";
       };
     };
     "object.values-1.1.5" = {
@@ -5197,13 +5197,13 @@ let
         sha1 = "04e6926f662895354f3dd015203633b857297e2c";
       };
     };
-    "sqlite3-5.0.6" = {
+    "sqlite3-5.0.7" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.0.6";
+      version = "5.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.6.tgz";
-        sha512 = "uT1dC6N3ReF+jchY01zvl1wVFFJ5xO86wSnCpK39uA/zmAHBDm6TiAq1v876QKv8JgiijxQ7/fb5C2LPm7ZAJA==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.7.tgz";
+        sha512 = "9PUfvpol1/5SI3WZawFINwpRz6qhUeJJtFNG6rr0CvDWMXN75PJPv+3b0aVEOOx5rAZIPcXW2zVasH8foqw7Gg==";
       };
     };
     "sshpk-1.17.0" = {
@@ -6469,7 +6469,7 @@ in
       sources."browserslist-4.20.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001335"
+      sources."caniuse-lite-1.0.30001336"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6487,7 +6487,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.132"
+      sources."electron-to-chromium-1.4.134"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6580,7 +6580,7 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
       sources."socks-proxy-agent-6.2.0"
-      sources."sqlite3-5.0.6"
+      sources."sqlite3-5.0.7"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
@@ -7083,7 +7083,7 @@ in
       sources."object.assign-4.1.2"
       sources."object.entries-1.1.5"
       sources."object.fromentries-2.0.5"
-      sources."object.hasown-1.1.0"
+      sources."object.hasown-1.1.1"
       sources."object.values-1.1.5"
       sources."once-1.4.0"
       sources."optionator-0.9.1"
