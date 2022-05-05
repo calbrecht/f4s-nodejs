@@ -158,7 +158,7 @@
               preRebuild = ''
                 modules=$out/lib/node_modules
                 mkdir -p $modules/.bin
-                ln -s $modules/standardx/bin/standardx $modules/.bin/standardx
+                ln -s $modules/standardx/bin/cmd.js $modules/.bin/standardx
               '';
             });
             tslint = (_nodePackages_latest.tslint.override {
