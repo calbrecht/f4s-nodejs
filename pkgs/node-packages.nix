@@ -355,40 +355,40 @@ let
         sha512 = "sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==";
       };
     };
-    "@jridgewell/resolve-uri-3.0.6" = {
+    "@jridgewell/resolve-uri-3.0.7" = {
       name = "_at_jridgewell_slash_resolve-uri";
       packageName = "@jridgewell/resolve-uri";
-      version = "3.0.6";
+      version = "3.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.0.6.tgz";
-        sha512 = "R7xHtBSNm+9SyvpJkdQl+qrM3Hm2fea3Ef197M3mUug+v+yR+Rhfbs7PBtcBUVnIWJ4JcAdjvij+c8hXS9p5aw==";
+        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.0.7.tgz";
+        sha512 = "8cXDaBBHOr2pQ7j77Y6Vp5VDT2sIqWyWQ56TjEq4ih/a4iST3dItRe8Q9fp0rrIl9DoKhWQtUQz/YpOxLkXbNA==";
       };
     };
-    "@jridgewell/set-array-1.1.0" = {
+    "@jridgewell/set-array-1.1.1" = {
       name = "_at_jridgewell_slash_set-array";
       packageName = "@jridgewell/set-array";
-      version = "1.1.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.1.0.tgz";
-        sha512 = "SfJxIxNVYLTsKwzB3MoOQ1yxf4w/E6MdkvTgrgAt1bfxjSrLUoHMKrDOykwN14q65waezZIdqDneUIPh4/sKxg==";
+        url = "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.1.1.tgz";
+        sha512 = "Ct5MqZkLGEXTVmQYbGtx9SVqD2fqwvdubdps5D3djjAkgkKwT918VNOz65pEHFaYTeWcukmJmH5SwsA9Tn2ObQ==";
       };
     };
-    "@jridgewell/sourcemap-codec-1.4.12" = {
+    "@jridgewell/sourcemap-codec-1.4.13" = {
       name = "_at_jridgewell_slash_sourcemap-codec";
       packageName = "@jridgewell/sourcemap-codec";
-      version = "1.4.12";
+      version = "1.4.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.12.tgz";
-        sha512 = "az/NhpIwP3K33ILr0T2bso+k2E/SLf8Yidd8mHl0n6sCQ4YdyC8qDhZA6kOPDNDBA56ZnIjngVl0U3jREA0BUA==";
+        url = "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.13.tgz";
+        sha512 = "GryiOJmNcWbovBxTfZSF71V/mXbgcV3MewDe3kIMCLyIh5e7SKAeUZs+rMnJ8jkMolZ/4/VsdBmMrw3l+VdZ3w==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.9" = {
+    "@jridgewell/trace-mapping-0.3.10" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.9";
+      version = "0.3.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz";
-        sha512 = "3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.10.tgz";
+        sha512 = "Q0YbBd6OTsXm8Y21+YUSDXupHnodNC2M4O18jtd3iwJ3+vMZNdKGols0a9G6JOK0dcJ3IdUUHoh908ZI6qhk8Q==";
       };
     };
     "@mapbox/node-pre-gyp-1.0.9" = {
@@ -6439,10 +6439,10 @@ in
       sources."@dabh/diagnostics-2.0.3"
       sources."@gar/promisify-1.1.3"
       sources."@jridgewell/gen-mapping-0.1.1"
-      sources."@jridgewell/resolve-uri-3.0.6"
-      sources."@jridgewell/set-array-1.1.0"
-      sources."@jridgewell/sourcemap-codec-1.4.12"
-      sources."@jridgewell/trace-mapping-0.3.9"
+      sources."@jridgewell/resolve-uri-3.0.7"
+      sources."@jridgewell/set-array-1.1.1"
+      sources."@jridgewell/sourcemap-codec-1.4.13"
+      sources."@jridgewell/trace-mapping-0.3.10"
       (sources."@mapbox/node-pre-gyp-1.0.9" // {
         dependencies = [
           sources."semver-7.3.7"
