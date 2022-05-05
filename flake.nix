@@ -150,7 +150,6 @@
                 modules=$out/lib/node_modules
                 mkdir -p $modules/.bin
                 ln -s $modules/import-js/bin/importjs.js $modules/.bin/importjs
-                ln -s $modules/import-js/bin/importjsd.js $modules/.bin/importjsd
               '';
             });
             standardx = (_nodePackages_latest.standardx.override {
