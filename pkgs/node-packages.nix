@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.134" = {
+    "electron-to-chromium-1.4.135" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.134";
+      version = "1.4.135";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.134.tgz";
-        sha512 = "OdD7M2no4Mi8PopfvoOuNcwYDJ2mNFxaBfurA6okG3fLBaMcFah9S+si84FhX+FIWLKkdaiHfl4A+5ep/gOVrg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.135.tgz";
+        sha512 = "jrww0WXvJYEUvhhNso4dobAhc7RXWmzOou9dciZ4UrtlSRwR6sNtXgrStyOGHT0P0oK3Rxr+Z47GNcbKXG+iSA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1921,13 +1921,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.19.5" = {
+    "es-abstract-1.20.0" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.19.5";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.19.5.tgz";
-        sha512 = "Aa2G2+Rd3b6kxEUKTF4TaW67czBLyAv3z7VOhYRU50YBx+bbsYZ9xQP4lMNazePuFlybXI0V4MruPos7qUo5fA==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.20.0.tgz";
+        sha512 = "URbD8tgRthKD3YcC39vbvSDrX23upXnPcnGAjQfgxXF5ID75YcENawc9ZX/9iTP9ptUyfCLIxTTuMYoRfiOVKA==";
       };
     };
     "es-shim-unscopables-1.0.0" = {
@@ -2450,6 +2450,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz";
         sha512 = "yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==";
+      };
+    };
+    "function.prototype.name-1.1.5" = {
+      name = "function.prototype.name";
+      packageName = "function.prototype.name";
+      version = "1.1.5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/function.prototype.name/-/function.prototype.name-1.1.5.tgz";
+        sha512 = "uN7m/BzVKQnCUF/iW8jYea67v++2u7m5UgENbHRtdDVclOUP+FMPlCNdmk0h/ysGyo2tavMJEDqJAkJdRa1vMA==";
       };
     };
     "functional-red-black-tree-1.0.1" = {
@@ -6487,7 +6496,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.134"
+      sources."electron-to-chromium-1.4.135"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6942,7 +6951,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.19.5"
+      sources."es-abstract-1.20.0"
       sources."es-shim-unscopables-1.0.0"
       sources."es-to-primitive-1.2.1"
       sources."escape-string-regexp-1.0.5"
@@ -7015,6 +7024,7 @@ in
       sources."flatted-3.2.5"
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
+      sources."function.prototype.name-1.1.5"
       sources."functional-red-black-tree-1.0.1"
       sources."functions-have-names-1.2.3"
       sources."get-intrinsic-1.1.1"
