@@ -1,6 +1,10 @@
 {
   description = "nodejs tooling.";
 
+  nixConfig = {
+    flake-registry = https://github.com/calbrecht/f4s-registry/raw/main/flake-registry.json;
+  };
+
   inputs = {
     pkgs-src = { url = github:calbrecht/f4s-nodejs?dir=pkgs; flake = false; };
   };
