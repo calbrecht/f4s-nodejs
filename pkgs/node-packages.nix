@@ -1192,13 +1192,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001336" = {
+    "caniuse-lite-1.0.30001338" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001336";
+      version = "1.0.30001338";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001336.tgz";
-        sha512 = "/YxSlBmL7iKXTbIJ48IQTnAOBk7XmWsxhBF1PZLOko5Dt9qc4Pl+84lfqG3Tc4EuavurRn1QLoVJGxY2iSycfw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001338.tgz";
+        sha512 = "1gLHWyfVoRDsHieO+CaeYe7jSo/MT7D7lhaXUiwwbuR5BwQxORs0f1tAwUSQr3YbxRXJvxHM/PA5FfPQRnsPeQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.135" = {
+    "electron-to-chromium-1.4.136" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.135";
+      version = "1.4.136";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.135.tgz";
-        sha512 = "jrww0WXvJYEUvhhNso4dobAhc7RXWmzOou9dciZ4UrtlSRwR6sNtXgrStyOGHT0P0oK3Rxr+Z47GNcbKXG+iSA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.136.tgz";
+        sha512 = "GnITX8rHnUrIVnTxU9UlsTnSemHUA2iF+6QrRqxFbp/mf0vfuSc/goEyyQhUX3TUUCE3mv/4BNuXOtaJ4ur0eA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5206,13 +5206,13 @@ let
         sha1 = "04e6926f662895354f3dd015203633b857297e2c";
       };
     };
-    "sqlite3-5.0.7" = {
+    "sqlite3-5.0.8" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.0.7";
+      version = "5.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.7.tgz";
-        sha512 = "9PUfvpol1/5SI3WZawFINwpRz6qhUeJJtFNG6rr0CvDWMXN75PJPv+3b0aVEOOx5rAZIPcXW2zVasH8foqw7Gg==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.8.tgz";
+        sha512 = "f2ACsbSyb2D1qFFcqIXPfFscLtPVOWJr5GmUzYxf4W+0qelu5MWrR+FAQE1d5IUArEltBrzSDxDORG8P/IkqyQ==";
       };
     };
     "sshpk-1.17.0" = {
@@ -6478,7 +6478,7 @@ in
       sources."browserslist-4.20.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001336"
+      sources."caniuse-lite-1.0.30001338"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6496,7 +6496,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.135"
+      sources."electron-to-chromium-1.4.136"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6589,7 +6589,7 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
       sources."socks-proxy-agent-6.2.0"
-      sources."sqlite3-5.0.7"
+      sources."sqlite3-5.0.8"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
