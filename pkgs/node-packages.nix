@@ -310,13 +310,13 @@ let
         sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
-    "@eslint/eslintrc-1.2.2" = {
+    "@eslint/eslintrc-1.2.3" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.2.2";
+      version = "1.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.2.2.tgz";
-        sha512 = "lTVWHs7O2hjBFZunXTZYnYqtB9GakA1lnxIf+gKq2nY5gxkkNi/lQvveW6t8gFdOHTg6nG50Xs95PrLqVpcaLg==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.2.3.tgz";
+        sha512 = "uGo44hIwoLGNyduRpjdEpovcbMdd+Nv7amtmJxnKmI8xj6yd5LncmSwDa5NgX/41lIFJtkjD6YdVfgEzPfJ5UA==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -1993,13 +1993,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.14.0" = {
+    "eslint-8.15.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.14.0";
+      version = "8.15.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.14.0.tgz";
-        sha512 = "3/CE4aJX7LNEiE3i6FeodHmI/38GZtWCsAtsymScmzYapx8q1nVVb+eLcLSzATmCPXw5pT4TqVs1E0OmxAd9tw==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.15.0.tgz";
+        sha512 = "GG5USZ1jhCu8HJkzGgeK8/+RGnHaNYZGrGDzUtigK3BsGESW/rs2az23XqE0WVwDxy1VRvvjSSGu5nB0Bu+6SA==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -2155,13 +2155,13 @@ let
         sha512 = "v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==";
       };
     };
-    "espree-9.3.1" = {
+    "espree-9.3.2" = {
       name = "espree";
       packageName = "espree";
-      version = "9.3.1";
+      version = "9.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.3.1.tgz";
-        sha512 = "bvdyLmJMfwkV3NCRl5ZhJf22zBFo1y8bYh3VYb+bfzqNB4Je68P2sSuXyuFquzWLebHpNd2/d5uv7yoP9ISnGQ==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.3.2.tgz";
+        sha512 = "D211tC7ZwouTIuY5x9XnS0E9sWNChB7IYKX/Xp5eQj3nFXhqmiUDB9q27y76oFl8jTg3pXcQx/bpxMfs3CIZbA==";
       };
     };
     "esprima-3.0.0" = {
@@ -6193,13 +6193,13 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.14.0";
+    version = "8.15.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.14.0.tgz";
-      sha512 = "3/CE4aJX7LNEiE3i6FeodHmI/38GZtWCsAtsymScmzYapx8q1nVVb+eLcLSzATmCPXw5pT4TqVs1E0OmxAd9tw==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.15.0.tgz";
+      sha512 = "GG5USZ1jhCu8HJkzGgeK8/+RGnHaNYZGrGDzUtigK3BsGESW/rs2az23XqE0WVwDxy1VRvvjSSGu5nB0Bu+6SA==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.2.2"
+      sources."@eslint/eslintrc-1.2.3"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.1"
@@ -6227,7 +6227,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.3.1"
+      sources."espree-9.3.2"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6303,7 +6303,7 @@ in
       sha512 = "mRttHSO/sC6oxnfdlnLUTfB1sI2ApmbPAHSNx60+8jQmwwvEZjUv4WDmv20g7i9DSBuK8Y5boTyz4ijBAujk0Q==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.2.2"
+      sources."@eslint/eslintrc-1.2.3"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.1"
@@ -6329,7 +6329,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.14.0"
+      sources."eslint-8.15.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6337,7 +6337,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.3.1"
+      sources."espree-9.3.2"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
