@@ -2623,13 +2623,13 @@ let
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
       };
     };
-    "globals-13.13.0" = {
+    "globals-13.14.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.13.0";
+      version = "13.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.13.0.tgz";
-        sha512 = "EQ7Q18AJlPwp3vUDL4mKA0KXrXyNIQyWon6T6XQiBQF0XHvRsiCSrWmmeATpUzdJN2HhWZU6Pdl0a9zdep5p6A==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.14.0.tgz";
+        sha512 = "ERO68sOYwm5UuLvSJTY7w7NP2c8S4UcXs3X1GBX8cwOr+ShOcDBbCY5mH4zxz0jsYCdJ8ve8Mv9n2YGJMB1aeg==";
       };
     };
     "globby-10.0.2" = {
@@ -6242,7 +6242,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.0"
       sources."glob-parent-6.0.2"
-      sources."globals-13.13.0"
+      sources."globals-13.14.0"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.0"
       sources."import-fresh-3.3.0"
@@ -6352,7 +6352,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.0"
       sources."glob-parent-6.0.2"
-      sources."globals-13.13.0"
+      sources."globals-13.14.0"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.0"
       sources."import-fresh-3.3.0"
