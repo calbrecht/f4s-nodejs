@@ -6,6 +6,7 @@
   };
 
   inputs = {
+    nixpkgs.url = flake:f4s-nixpkgs;
     pkgs-src = { url = github:calbrecht/f4s-nodejs?dir=pkgs; flake = false; };
   };
 
