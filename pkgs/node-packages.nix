@@ -3595,13 +3595,13 @@ let
         sha512 = "g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==";
       };
     };
-    "make-fetch-happen-10.1.2" = {
+    "make-fetch-happen-10.1.3" = {
       name = "make-fetch-happen";
       packageName = "make-fetch-happen";
-      version = "10.1.2";
+      version = "10.1.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.1.2.tgz";
-        sha512 = "GWMGiZsKVeJACQGJ1P3Z+iNec7pLsU6YW1q11eaPn3RR8nRXHppFWfP7Eu0//55JK3hSjrAQRl8sDa5uXpq1Ew==";
+        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.1.3.tgz";
+        sha512 = "s/UjmGjUHn9m52cctFhN2ITObbT+axoUhgeir8xGrOlPbKDyJsdhQzb8PGncPQQ28uduHybFJ6Iumy2OZnreXw==";
       };
     };
     "make-fetch-happen-9.1.0" = {
@@ -6716,7 +6716,7 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."lru-cache-7.9.0"
-      sources."make-fetch-happen-10.1.2"
+      sources."make-fetch-happen-10.1.3"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
       sources."minipass-collect-1.0.2"
