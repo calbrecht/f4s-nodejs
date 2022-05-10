@@ -382,13 +382,13 @@ let
         sha512 = "GryiOJmNcWbovBxTfZSF71V/mXbgcV3MewDe3kIMCLyIh5e7SKAeUZs+rMnJ8jkMolZ/4/VsdBmMrw3l+VdZ3w==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.10" = {
+    "@jridgewell/trace-mapping-0.3.11" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.10";
+      version = "0.3.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.10.tgz";
-        sha512 = "Q0YbBd6OTsXm8Y21+YUSDXupHnodNC2M4O18jtd3iwJ3+vMZNdKGols0a9G6JOK0dcJ3IdUUHoh908ZI6qhk8Q==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.11.tgz";
+        sha512 = "RllI476aSMsxzeI9TtlSMoNTgHDxEmnl6GkkHwhr0vdL8W+0WuesyI8Vd3rBOfrwtPXbPxdT9ADJdiOKgzxPQA==";
       };
     };
     "@mapbox/node-pre-gyp-1.0.9" = {
@@ -625,13 +625,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.31" = {
+    "@types/node-17.0.32" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.31";
+      version = "17.0.32";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.31.tgz";
-        sha512 = "AR0x5HbXGqkEx9CadRH3EBYx/VkiUgZIhP4wvPn/+5KIsgpNoyFaRlVe0Zlx9gRtg8fA06a9tskE2MSN7TcG4Q==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.32.tgz";
+        sha512 = "eAIcfAvhf/BkHcf4pkLJ7ECpBAhh9kcxRBpip9cTiO+hf+aJrsxYxBeS6OXvOd9WqNAJmavXVpZvY1rBjNsXmw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1192,13 +1192,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001338" = {
+    "caniuse-lite-1.0.30001339" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001338";
+      version = "1.0.30001339";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001338.tgz";
-        sha512 = "1gLHWyfVoRDsHieO+CaeYe7jSo/MT7D7lhaXUiwwbuR5BwQxORs0f1tAwUSQr3YbxRXJvxHM/PA5FfPQRnsPeQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001339.tgz";
+        sha512 = "Es8PiVqCe+uXdms0Gu5xP5PF2bxLR7OBp3wUzUnuO7OHzhOfCyg3hdiGWVPVxhiuniOzng+hTc1u3fEQ0TlkSQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2992,13 +2992,13 @@ let
         sha512 = "O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA==";
       };
     };
-    "ip-1.1.5" = {
+    "ip-1.1.7" = {
       name = "ip";
       packageName = "ip";
-      version = "1.1.5";
+      version = "1.1.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ip/-/ip-1.1.5.tgz";
-        sha1 = "bdded70114290828c0a039e72ef25f5aaec4354a";
+        url = "https://registry.npmjs.org/ip/-/ip-1.1.7.tgz";
+        sha512 = "SLm2ERgmBGag79RfrIknk+40ZOJCgUBpCQTl3WE2YER21VR0W3Vt/OAXXaYLSU0AIcBqWnytoTwk2ZcTbxH0xg==";
       };
     };
     "is-arrayish-0.2.1" = {
@@ -5863,6 +5863,15 @@ let
         sha512 = "nkiNDGI+Ytp7uj1lxHXddXCoEunhcry1D+KmVHBfUUgWT9jMF8ZJyH5KQObdF+OGAh7bXZxD/SV4uGwSCeHHWA==";
       };
     };
+    "vscode-jsonrpc-8.0.0" = {
+      name = "vscode-jsonrpc";
+      packageName = "vscode-jsonrpc";
+      version = "8.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-8.0.0.tgz";
+        sha512 = "gc16lr5REIvxqCLQ9Bwf0fQMCnX5eSFoXeXymSXh80HXUtk7E3TWqT/QduFmWK6PSjruWpwc9X2mmpD1WBcS2g==";
+      };
+    };
     "vscode-languageserver-6.1.1" = {
       name = "vscode-languageserver";
       packageName = "vscode-languageserver";
@@ -5899,6 +5908,15 @@ let
         sha512 = "sdeUoAawceQdgIfTI+sdcwkiK2KU+2cbEYA0agzM2uqaUy2UpnnGHtWTHVEtS0ES4zHU0eMFRGN+oQgDxlD66A==";
       };
     };
+    "vscode-languageserver-protocol-3.17.0" = {
+      name = "vscode-languageserver-protocol";
+      packageName = "vscode-languageserver-protocol";
+      version = "3.17.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.0.tgz";
+        sha512 = "SizljNNWWcgKCoXFL8xvzQptzH599YUVmde7wS/ESxgRRzAiIf6jR7i+CoiLU6G/6ySG351MNSvc8z33ncmLNQ==";
+      };
+    };
     "vscode-languageserver-protocol-3.17.0-next.5" = {
       name = "vscode-languageserver-protocol";
       packageName = "vscode-languageserver-protocol";
@@ -5924,6 +5942,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz";
         sha512 = "k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==";
+      };
+    };
+    "vscode-languageserver-types-3.17.0" = {
+      name = "vscode-languageserver-types";
+      packageName = "vscode-languageserver-types";
+      version = "3.17.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.0.tgz";
+        sha512 = "ECJg27DKWEfkIUuNyjMydPsl5Lu7XX1xmwEpZ61I4oeK1qFNbfp3tSZUVmeMPPgnNjasd1rrb3on9jbSe5g3nQ==";
       };
     };
     "vscode-languageserver-types-3.17.0-next.1" = {
@@ -6451,7 +6478,7 @@ in
       sources."@jridgewell/resolve-uri-3.0.7"
       sources."@jridgewell/set-array-1.1.1"
       sources."@jridgewell/sourcemap-codec-1.4.13"
-      sources."@jridgewell/trace-mapping-0.3.10"
+      sources."@jridgewell/trace-mapping-0.3.11"
       (sources."@mapbox/node-pre-gyp-1.0.9" // {
         dependencies = [
           sources."semver-7.3.7"
@@ -6478,7 +6505,7 @@ in
       sources."browserslist-4.20.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001338"
+      sources."caniuse-lite-1.0.30001339"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6526,7 +6553,7 @@ in
       sources."infer-owner-1.0.4"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."ip-1.1.5"
+      sources."ip-1.1.7"
       sources."is-arrayish-0.3.2"
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
@@ -6711,7 +6738,7 @@ in
       sources."infer-owner-1.0.4"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."ip-1.1.5"
+      sources."ip-1.1.7"
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
@@ -7206,7 +7233,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.31"
+      sources."@types/node-17.0.32"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7498,8 +7525,17 @@ in
       sources."unique-string-2.0.0"
       sources."universalify-2.0.0"
       sources."vscode-jsonrpc-6.0.0"
-      sources."vscode-languageserver-7.0.0"
-      sources."vscode-languageserver-protocol-3.16.0"
+      (sources."vscode-languageserver-7.0.0" // {
+        dependencies = [
+          sources."vscode-languageserver-protocol-3.16.0"
+        ];
+      })
+      (sources."vscode-languageserver-protocol-3.17.0" // {
+        dependencies = [
+          sources."vscode-jsonrpc-8.0.0"
+          sources."vscode-languageserver-types-3.17.0"
+        ];
+      })
       sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.16.0"
       sources."vscode-uri-3.0.3"
@@ -7630,11 +7666,11 @@ in
       sources."urijs-1.19.11"
       sources."uuid-3.4.0"
       sources."verror-1.10.0"
-      sources."vscode-jsonrpc-6.0.0"
+      sources."vscode-jsonrpc-8.0.0"
       sources."vscode-languageserver-6.1.1"
-      sources."vscode-languageserver-protocol-3.16.0"
+      sources."vscode-languageserver-protocol-3.17.0"
       sources."vscode-languageserver-textdocument-1.0.4"
-      sources."vscode-languageserver-types-3.16.0"
+      sources."vscode-languageserver-types-3.17.0"
       sources."w3c-hr-time-1.0.2"
       sources."web-tree-sitter-0.19.4"
       sources."webidl-conversions-4.0.2"
@@ -7836,12 +7872,12 @@ in
       sources."verror-1.10.0"
       (sources."vscode-css-languageservice-5.4.2" // {
         dependencies = [
-          sources."vscode-languageserver-types-3.16.0"
+          sources."vscode-languageserver-types-3.17.0"
         ];
       })
       (sources."vscode-html-languageservice-4.2.5" // {
         dependencies = [
-          sources."vscode-languageserver-types-3.16.0"
+          sources."vscode-languageserver-types-3.17.0"
         ];
       })
       sources."vscode-jsonrpc-6.0.0"
@@ -7887,9 +7923,13 @@ in
       sources."vscode-json-languageservice-4.1.8"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
-      sources."vscode-languageserver-protocol-3.16.0"
+      (sources."vscode-languageserver-protocol-3.16.0" // {
+        dependencies = [
+          sources."vscode-languageserver-types-3.16.0"
+        ];
+      })
       sources."vscode-languageserver-textdocument-1.0.4"
-      sources."vscode-languageserver-types-3.16.0"
+      sources."vscode-languageserver-types-3.17.0"
       sources."vscode-nls-5.0.1"
       sources."vscode-uri-3.0.3"
       sources."yaml-2.0.0-11"
