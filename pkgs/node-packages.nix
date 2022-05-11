@@ -382,13 +382,13 @@ let
         sha512 = "GryiOJmNcWbovBxTfZSF71V/mXbgcV3MewDe3kIMCLyIh5e7SKAeUZs+rMnJ8jkMolZ/4/VsdBmMrw3l+VdZ3w==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.12" = {
+    "@jridgewell/trace-mapping-0.3.13" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.12";
+      version = "0.3.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.12.tgz";
-        sha512 = "6GMdw8fZlZjs9CJONrWeWyjl8zYqbyOMSxS9FABnEw3i+wz99SESjWMWRRIsbIp8HVsMeXggi5b7+a9qO6W1fQ==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.13.tgz";
+        sha512 = "o1xbKhp9qnIAoHJSWd6KlCZfqslL4valSF81H8ImioOAxluWYWOpWkpyktY2vnt4tbrX9XYaxovq6cgowaJp2w==";
       };
     };
     "@mapbox/node-pre-gyp-1.0.9" = {
@@ -3577,13 +3577,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.9.0" = {
+    "lru-cache-7.10.0" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.9.0";
+      version = "7.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.9.0.tgz";
-        sha512 = "lkcNMUKqdJk96TuIXUidxaPuEg5sJo/+ZyVE2BDFnuZGzwXem7d8582eG8vbu4todLfT14snP6iHriCHXXi5Rw==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.10.0.tgz";
+        sha512 = "mk5BXponDPbfvGlRuKBlh8YefbGXg61gUFunI/z78Cl+XXUgEs6PSvyoKVjfGLwT79Rk1V5w6M3w52p8eBm61Q==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6478,7 +6478,7 @@ in
       sources."@jridgewell/resolve-uri-3.0.7"
       sources."@jridgewell/set-array-1.1.1"
       sources."@jridgewell/sourcemap-codec-1.4.13"
-      sources."@jridgewell/trace-mapping-0.3.12"
+      sources."@jridgewell/trace-mapping-0.3.13"
       (sources."@mapbox/node-pre-gyp-1.0.9" // {
         dependencies = [
           sources."semver-7.3.7"
@@ -6742,7 +6742,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.9.0"
+      sources."lru-cache-7.10.0"
       sources."make-fetch-happen-10.1.3"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
