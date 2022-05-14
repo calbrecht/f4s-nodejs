@@ -1120,13 +1120,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001340" = {
+    "caniuse-lite-1.0.30001341" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001340";
+      version = "1.0.30001341";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001340.tgz";
-        sha512 = "jUNz+a9blQTQVu4uFcn17uAD8IDizPzQkIKh3LCJfg9BkyIqExYYdyc/ZSlWUSKb8iYiXxKsxbv4zYSvkqjrxw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001341.tgz";
+        sha512 = "2SodVrFFtvGENGCv0ChVJIDQ0KPaS1cg7/qtfMaICgeMolDdo/Z2OD32F0Aq9yl6F4YFwGPBS5AaPqNYiW4PoA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5755,13 +5755,13 @@ let
         sha512 = "EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA==";
       };
     };
-    "web-tree-sitter-0.19.4" = {
+    "web-tree-sitter-0.20.5" = {
       name = "web-tree-sitter";
       packageName = "web-tree-sitter";
-      version = "0.19.4";
+      version = "0.20.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.19.4.tgz";
-        sha512 = "8G0xBj05hqZybCqBtW7RPZ/hWEtP3DiLTauQzGJZuZYfVRgw7qj7iaZ+8djNqJ4VPrdOO+pS2dR1JsTbsLxdYg==";
+        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.20.5.tgz";
+        sha512 = "mpXlqIeEBE5Q71cnBnt8w6XKhIiKmllPECqsIFBtMvzcfCxA8+614iyMJXBCQo95Vs3y1zORLqiLJn25pYZ4Tw==";
       };
     };
     "webidl-conversions-3.0.1" = {
@@ -6199,7 +6199,7 @@ in
       sources."browserslist-4.20.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001340"
+      sources."caniuse-lite-1.0.30001341"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7249,10 +7249,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "3.0.0";
+    version = "3.0.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.0.tgz";
-      sha512 = "ZMYcD9s2AZpp/wTPiUcStc8MWPLyPV89AkHiQPnzpjCer3bYSwKVCnCeizrNOC98b6SGDpLeGHDZEI3E5wf4LA==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.2.tgz";
+      sha512 = "pqlkNrFCLvZXoTuaNNwLrIJ3/syAZ1YZn/4EVLbaSIF0QEG9KytDdumVtEflZurH8AdiFHtbPVHc+rkAbGpxvQ==";
     };
     dependencies = [
       sources."ajv-6.12.6"
@@ -7323,7 +7323,7 @@ in
       sources."vscode-languageserver-protocol-3.17.1"
       sources."vscode-languageserver-textdocument-1.0.4"
       sources."vscode-languageserver-types-3.17.1"
-      sources."web-tree-sitter-0.19.4"
+      sources."web-tree-sitter-0.20.5"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
