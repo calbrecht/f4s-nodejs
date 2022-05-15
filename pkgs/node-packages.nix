@@ -469,7 +469,7 @@ let
       version = "1.1.2";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz";
-        sha1 = "9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf";
+        sha512 = "j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==";
       };
     };
     "@protobufjs/base64-1.1.2" = {
@@ -496,7 +496,7 @@ let
       version = "1.1.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/eventemitter/-/eventemitter-1.1.0.tgz";
-        sha1 = "355cbc98bafad5978f9ed095f397621f1d066b70";
+        sha512 = "j9ednRT81vYJ9OfVuXG6ERSTdEL1xVsNgqpkxMsbIabzSo3goCjDIveeGv5d03om39ML71RdmrGNjG5SReBP/Q==";
       };
     };
     "@protobufjs/fetch-1.1.0" = {
@@ -505,7 +505,7 @@ let
       version = "1.1.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/fetch/-/fetch-1.1.0.tgz";
-        sha1 = "ba99fb598614af65700c1619ff06d454b0d84c45";
+        sha512 = "lljVXpqXebpsijW71PZaCYeIcE5on1w5DlQy5WH6GLbFryLUrBD4932W/E2BSpfRJWseIL4v/KPgBFxDOIdKpQ==";
       };
     };
     "@protobufjs/float-1.0.2" = {
@@ -514,7 +514,7 @@ let
       version = "1.0.2";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/float/-/float-1.0.2.tgz";
-        sha1 = "5e9e1abdcb73fc0a7cb8b291df78c8cbd97b87d1";
+        sha512 = "Ddb+kVXlXst9d+R9PfTIxh1EdNkgoRe5tOX6t01f1lYWOvJnSPDBlG241QLzcyPdoNTsblLUdujGSE4RzrTZGQ==";
       };
     };
     "@protobufjs/inquire-1.1.0" = {
@@ -523,7 +523,7 @@ let
       version = "1.1.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/inquire/-/inquire-1.1.0.tgz";
-        sha1 = "ff200e3e7cf2429e2dcafc1140828e8cc638f089";
+        sha512 = "kdSefcPdruJiFMVSbn801t4vFK7KB/5gd2fYvrxhuJYg8ILrmn9SKSX2tZdV6V+ksulWqS7aXjBcRXl3wHoD9Q==";
       };
     };
     "@protobufjs/path-1.1.2" = {
@@ -532,7 +532,7 @@ let
       version = "1.1.2";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/path/-/path-1.1.2.tgz";
-        sha1 = "6cc2b20c5c9ad6ad0dccfd21ca7673d8d7fbf68d";
+        sha512 = "6JOcJ5Tm08dOHAbdR3GrvP+yUUfkjG5ePsHYczMFLq3ZmMkAD98cDgcT2iA1lJ9NVwFd4tH/iSSoe44YWkltEA==";
       };
     };
     "@protobufjs/pool-1.1.0" = {
@@ -541,7 +541,7 @@ let
       version = "1.1.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/pool/-/pool-1.1.0.tgz";
-        sha1 = "09fd15f2d6d3abfa9b65bc366506d6ad7846ff54";
+        sha512 = "0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==";
       };
     };
     "@protobufjs/utf8-1.1.0" = {
@@ -550,7 +550,7 @@ let
       version = "1.1.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/@protobufjs/utf8/-/utf8-1.1.0.tgz";
-        sha1 = "a777360b5b39a1a2e5106f8e858f2fd2d060c570";
+        sha512 = "Vvn3zZrhQZkkBE8LSuW3em98c0FwgO4nxzv6OdSxPKJIEKY2bGbHn+mhGIPerzI4twdxaP8/0+06HBpwf345Lw==";
       };
     };
     "@selderee/plugin-htmlparser2-0.6.0" = {
