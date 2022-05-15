@@ -724,13 +724,13 @@ let
         sha512 = "wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg==";
       };
     };
-    "ansi-colors-4.1.1" = {
+    "ansi-colors-4.1.2" = {
       name = "ansi-colors";
       packageName = "ansi-colors";
-      version = "4.1.1";
+      version = "4.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.1.tgz";
-        sha512 = "JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA==";
+        url = "https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.2.tgz";
+        sha512 = "cEG18jjLG0O74o/33eEfnmtXYDEY196ZjL0eQEISULF+Imi7vr25l6ntGYmqS5lIrQIEeze+CqUtPVItywE7ZQ==";
       };
     };
     "ansi-regex-2.1.1" = {
@@ -2461,13 +2461,13 @@ let
         sha1 = "5eff8e3e684d569ae4cb2b1282604e8ba62149fa";
       };
     };
-    "glob-7.2.2" = {
+    "glob-7.2.3" = {
       name = "glob";
       packageName = "glob";
-      version = "7.2.2";
+      version = "7.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-7.2.2.tgz";
-        sha512 = "NzDgHDiJwKYByLrL5lONmQFpK/2G78SMMfo+E9CuGlX4IkvfKDsiQSNPwAYxEy+e6p7ZQ3uslSLlwlJcqezBmQ==";
+        url = "https://registry.npmjs.org/glob/-/glob-7.2.3.tgz";
+        sha512 = "nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==";
       };
     };
     "glob-8.0.3" = {
@@ -5961,7 +5961,7 @@ in
       sources."flatted-3.2.5"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.15.0"
       sources."has-flag-4.0.0"
@@ -6071,7 +6071,7 @@ in
       sources."flatted-3.2.5"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.15.0"
       sources."has-flag-4.0.0"
@@ -6232,7 +6232,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."gauge-3.0.2"
       sources."gensync-1.0.0-beta.2"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."globals-12.4.0"
       sources."graceful-fs-4.2.10"
       sources."has-flag-3.0.0"
@@ -6419,7 +6419,7 @@ in
       sources."fs-minipass-2.1.0"
       sources."fs.realpath-1.0.0"
       sources."gauge-4.0.4"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."graceful-fs-4.2.10"
       sources."has-unicode-2.0.1"
       sources."http-cache-semantics-4.1.0"
@@ -6539,7 +6539,7 @@ in
       sources."fs-minipass-1.2.7"
       sources."fs.realpath-1.0.0"
       sources."gauge-2.7.4"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."has-unicode-2.0.1"
       sources."iconv-lite-0.4.24"
       sources."ignore-walk-3.0.4"
@@ -6640,7 +6640,7 @@ in
       sources."acorn-7.4.1"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
-      sources."ansi-colors-4.1.1"
+      sources."ansi-colors-4.1.2"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
@@ -6751,7 +6751,7 @@ in
       sources."get-intrinsic-1.1.1"
       sources."get-stdin-8.0.0"
       sources."get-symbol-description-1.0.0"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globals-12.4.0"
       sources."graceful-fs-4.2.10"
@@ -6950,7 +6950,7 @@ in
       sources."fs-extra-10.1.0"
       sources."fs.realpath-1.0.0"
       sources."get-stream-5.2.0"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globby-10.0.2"
       sources."graceful-fs-4.2.10"
@@ -7094,7 +7094,7 @@ in
       sources."esprima-4.0.1"
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."has-1.0.3"
       sources."has-flag-3.0.0"
       sources."inflight-1.0.6"
@@ -7174,7 +7174,7 @@ in
       sources."find-up-3.0.0"
       sources."fs-extra-10.1.0"
       sources."fs.realpath-1.0.0"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globby-11.1.0"
       sources."graceful-fs-4.2.10"
@@ -7438,7 +7438,7 @@ in
       sources."fs-extra-9.1.0"
       sources."fs.realpath-1.0.0"
       sources."getpass-0.1.7"
-      sources."glob-7.2.2"
+      sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."graceful-fs-4.2.10"
       sources."har-schema-2.0.0"
