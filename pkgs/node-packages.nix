@@ -310,13 +310,13 @@ let
         sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
-    "@eslint/eslintrc-1.2.3" = {
+    "@eslint/eslintrc-1.3.0" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.2.3";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.2.3.tgz";
-        sha512 = "uGo44hIwoLGNyduRpjdEpovcbMdd+Nv7amtmJxnKmI8xj6yd5LncmSwDa5NgX/41lIFJtkjD6YdVfgEzPfJ5UA==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.0.tgz";
+        sha512 = "UWW0TMTmk2d7hLcWD1/e2g5HDM/HQ3csaLSqXCfqwh4uNDuNqlaKWXmEsL4Cs41Z0KnILNvwbHAah3C2yt06kw==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -4450,13 +4450,13 @@ let
         sha1 = "212d5bfe1318306a420f6402b8e26ff39647a849";
       };
     };
-    "protobufjs-6.10.2" = {
+    "protobufjs-6.10.3" = {
       name = "protobufjs";
       packageName = "protobufjs";
-      version = "6.10.2";
+      version = "6.10.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-6.10.2.tgz";
-        sha512 = "27yj+04uF6ya9l+qfpH187aqEzfCF4+Uit0I9ZBQVqK09hk/SQzKa2MUqUpXaVa7LOFRg1TSSr3lVxGOk6c0SQ==";
+        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-6.10.3.tgz";
+        sha512 = "yvAslS0hNdBhlSKckI4R1l7wunVilX66uvrjzE4MimiAt7/qw1nLpMhZrn/ObuUTM/c3Xnfl01LYMdcSJe6dwg==";
       };
     };
     "pseudomap-1.0.2" = {
@@ -5929,7 +5929,7 @@ in
       sha512 = "GG5USZ1jhCu8HJkzGgeK8/+RGnHaNYZGrGDzUtigK3BsGESW/rs2az23XqE0WVwDxy1VRvvjSSGu5nB0Bu+6SA==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.2.3"
+      sources."@eslint/eslintrc-1.3.0"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.1"
@@ -6033,7 +6033,7 @@ in
       sha512 = "mRttHSO/sC6oxnfdlnLUTfB1sI2ApmbPAHSNx60+8jQmwwvEZjUv4WDmv20g7i9DSBuK8Y5boTyz4ijBAujk0Q==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.2.3"
+      sources."@eslint/eslintrc-1.3.0"
       sources."@humanwhocodes/config-array-0.9.5"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."acorn-8.7.1"
@@ -7489,7 +7489,7 @@ in
       sources."performance-now-2.1.0"
       sources."picomatch-2.3.1"
       sources."proto-list-1.2.4"
-      sources."protobufjs-6.10.2"
+      sources."protobufjs-6.10.3"
       sources."pseudomap-1.0.2"
       sources."psl-1.8.0"
       sources."punycode-2.1.1"
