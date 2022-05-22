@@ -1129,13 +1129,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001341" = {
+    "caniuse-lite-1.0.30001342" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001341";
+      version = "1.0.30001342";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001341.tgz";
-        sha512 = "2SodVrFFtvGENGCv0ChVJIDQ0KPaS1cg7/qtfMaICgeMolDdo/Z2OD32F0Aq9yl6F4YFwGPBS5AaPqNYiW4PoA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001342.tgz";
+        sha512 = "bn6sOCu7L7jcbBbyNhLg0qzXdJ/PMbybZTH/BA6Roet9wxYRm6Tr9D0s0uhLkOZ6MSG+QU6txUgdpr3MXIVqjA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6212,7 +6212,7 @@ in
       sources."browserslist-4.20.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001341"
+      sources."caniuse-lite-1.0.30001342"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7253,10 +7253,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "3.0.2";
+    version = "3.0.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.2.tgz";
-      sha512 = "pqlkNrFCLvZXoTuaNNwLrIJ3/syAZ1YZn/4EVLbaSIF0QEG9KytDdumVtEflZurH8AdiFHtbPVHc+rkAbGpxvQ==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.3.tgz";
+      sha512 = "UhYd0YYaXjYn0M3dVeL6jv1X9L2VR8dJp3fUCcdyHTgzJOvmntpUrkjcoKASV0qqZt0u8DSPT4xE+HjegQoEvQ==";
     };
     dependencies = [
       sources."ajv-6.12.6"
