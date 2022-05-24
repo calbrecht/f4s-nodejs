@@ -1552,13 +1552,13 @@ let
         sha512 = "wH9xOVHnczo9jN2IW68BabcecVPxacIA3g/7z6vhSU/4stOKQzeCRK0yD0A24WiAAUJmmVpWqrERcTxnLo3AnA==";
       };
     };
-    "del-6.1.0" = {
+    "del-6.1.1" = {
       name = "del";
       packageName = "del";
-      version = "6.1.0";
+      version = "6.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/del/-/del-6.1.0.tgz";
-        sha512 = "OpcRktOt7G7HBfyxP0srBH4Djg4824EQORX8E1qvIhIzthNNArxxhrB/Mm7dRMiLi1nvFyUpDhzD2cTtbBhV8A==";
+        url = "https://registry.npmjs.org/del/-/del-6.1.1.tgz";
+        sha512 = "ua8BhapfP0JUJKC/zV9yHHDW/rDoDxP4Zhn3AkA6/xT6gY7jYXJiaeyBZznYVujhZZET+UgcbZiQ7sN3WqcImg==";
       };
     };
     "delayed-stream-1.0.0" = {
@@ -5467,13 +5467,13 @@ let
         sha512 = "4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==";
       };
     };
-    "typescript-4.6.4" = {
+    "typescript-4.7.2" = {
       name = "typescript";
       packageName = "typescript";
-      version = "4.6.4";
+      version = "4.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-4.6.4.tgz";
-        sha512 = "9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-4.7.2.tgz";
+        sha512 = "Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -7143,10 +7143,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.6.4";
+    version = "4.7.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.6.4.tgz";
-      sha512 = "9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.7.2.tgz";
+      sha512 = "Mamb1iX2FDUpcTRzltPxgWMKy3fhg0TN378ylbktPGPK/99KbDtMQ4W1hwgsbPAsG3a0xKa1vmw4VKZQbkvz5A==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7179,7 +7179,7 @@ in
       sources."commander-9.2.0"
       sources."concat-map-0.0.1"
       sources."crypto-random-string-2.0.0"
-      sources."del-6.1.0"
+      sources."del-6.1.1"
       sources."dir-glob-3.0.1"
       sources."fast-glob-3.2.11"
       sources."fastq-1.13.0"
@@ -7513,7 +7513,7 @@ in
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."typescript-4.6.4"
+      sources."typescript-4.7.2"
       sources."universalify-2.0.0"
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
