@@ -1129,13 +1129,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001342" = {
+    "caniuse-lite-1.0.30001343" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001342";
+      version = "1.0.30001343";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001342.tgz";
-        sha512 = "bn6sOCu7L7jcbBbyNhLg0qzXdJ/PMbybZTH/BA6Roet9wxYRm6Tr9D0s0uhLkOZ6MSG+QU6txUgdpr3MXIVqjA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001343.tgz";
+        sha512 = "8KeCrAtPMabo/XW14B+R9sZYoClx1n0b+WYgwDKZPtWR3TcdvWzdSy7mPyFEmR5WU1St9v1PW6sdO5dkFOEzfA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1243,7 +1243,7 @@ let
       version = "1.1.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz";
-        sha1 = "0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77";
+        sha512 = "RpAVKQA5T63xEj6/giIbUEtZwJ4UFIc3ZtvEkiaUERylqe8xb5IvqcgOurZLahv93CLKfxcw5YI+DZcUBRyLXA==";
       };
     };
     "color-3.2.1" = {
@@ -1279,7 +1279,7 @@ let
       version = "1.1.3";
       src = fetchurl {
         url = "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz";
-        sha1 = "a7d0558bd89c42f795dd42328f740831ca53bc25";
+        sha512 = "72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==";
       };
     };
     "color-name-1.1.4" = {
@@ -1315,7 +1315,7 @@ let
       version = "1.0.3";
       src = fetchurl {
         url = "https://registry.npmjs.org/colors/-/colors-1.0.3.tgz";
-        sha1 = "0433f44d809680fdeb60ed260f1b0c262e82a40b";
+        sha512 = "pFGrxThWcWQ2MsAz6RtgeWe4NK2kUE1WfsrvvlctdII745EW9I0yflqhe7++M5LEc7bV2c/9/5zc8sFcpL0Drw==";
       };
     };
     "colorspace-1.1.4" = {
@@ -1369,7 +1369,7 @@ let
       version = "0.0.1";
       src = fetchurl {
         url = "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz";
-        sha1 = "d8a96bd77fd68df7793a73036a3ba0d5405d477b";
+        sha512 = "/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==";
       };
     };
     "config-chain-1.1.13" = {
@@ -1435,13 +1435,13 @@ let
         sha512 = "ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==";
       };
     };
-    "core_d-4.0.0" = {
+    "core_d-5.0.1" = {
       name = "core_d";
       packageName = "core_d";
-      version = "4.0.0";
+      version = "5.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core_d/-/core_d-4.0.0.tgz";
-        sha512 = "dBxd0Ocxj3D3K+rJxutTAZ9LQHkuMZoc9HPWYwYRYK7swou5wuIRXxgJ39YLNDvFHfHyV3JbxVYluF/AOhcRnw==";
+        url = "https://registry.npmjs.org/core_d/-/core_d-5.0.1.tgz";
+        sha512 = "37lZyhJY1hzgFbfU4LzY4zL09QPwPfV2W/3YBOtN7mkdvVaeP1OVnDZI6zxggtlPwG/BuE5wIr0xptlVJk5EPA==";
       };
     };
     "cross-spawn-7.0.3" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.138" = {
+    "electron-to-chromium-1.4.140" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.138";
+      version = "1.4.140";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.138.tgz";
-        sha512 = "IOyp2Seq3w4QLln+yZWcMF3VXhhduz4bwg9gfI+CnP5TkzwNXQ8FCZuwwPsnes73AfWdf5J2n2OXdUwDUspDPQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.140.tgz";
+        sha512 = "NLz5va823QfJBYOO/hLV4AfU4Crmkl/6Hl2pH3qdJcmi0ySZ3YTWHxOlDm3uJOFBEPy3pIhu8gKQo6prQTWKKA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3964,13 +3964,13 @@ let
         sha1 = "2109adc7965887cfc05cbbd442cac8bfbb360863";
       };
     };
-    "object-inspect-1.12.1" = {
+    "object-inspect-1.12.2" = {
       name = "object-inspect";
       packageName = "object-inspect";
-      version = "1.12.1";
+      version = "1.12.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.1.tgz";
-        sha512 = "Y/jF6vnvEtOPGiKD1+q+X0CiUYRQtEHp89MLLUJ7TUivtH8Ugn2+3A7Rynqk7BRsAoqeOQWnFnjpDrKSxDgIGA==";
+        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.2.tgz";
+        sha512 = "z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==";
       };
     };
     "object-keys-1.1.1" = {
@@ -6027,10 +6027,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "12.1.0";
+    version = "12.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-12.1.0.tgz";
-      sha512 = "mRttHSO/sC6oxnfdlnLUTfB1sI2ApmbPAHSNx60+8jQmwwvEZjUv4WDmv20g7i9DSBuK8Y5boTyz4ijBAujk0Q==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-12.2.0.tgz";
+      sha512 = "pra1cvdhKZCmrJHqlnm+EmbNeBQgd9sycQSlhWTl0RSiJEhjA1G8RJuaIaU5am0APIGHts/QbD0ZofS8pV0GKw==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.0"
@@ -6053,7 +6053,7 @@ in
       sources."color-convert-2.0.1"
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
-      sources."core_d-4.0.0"
+      sources."core_d-5.0.1"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
@@ -6212,7 +6212,7 @@ in
       sources."browserslist-4.20.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001342"
+      sources."caniuse-lite-1.0.30001343"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6230,7 +6230,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.138"
+      sources."electron-to-chromium-1.4.140"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6822,7 +6822,7 @@ in
         ];
       })
       sources."object-assign-4.1.1"
-      sources."object-inspect-1.12.1"
+      sources."object-inspect-1.12.2"
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.2"
       sources."object.entries-1.1.5"
