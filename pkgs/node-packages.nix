@@ -1468,7 +1468,7 @@ let
       version = "1.14.1";
       src = fetchurl {
         url = "https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz";
-        sha1 = "853cfa0f7cbe2fed5de20326b8dd581035f6e2f0";
+        sha512 = "jRFi8UDGo6j+odZiEpjazZaWqEal3w/basFjQHQEwVtZJGDpxbH1MeYluwCS8Xq5wmLJooDlMgvVarmWfGM44g==";
       };
     };
     "debug-2.6.9" = {
@@ -1504,7 +1504,7 @@ let
       version = "0.7.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/dedent/-/dedent-0.7.0.tgz";
-        sha1 = "2495ddbaf6eb874abb0e1be9df22d2e5a544326c";
+        sha512 = "Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==";
       };
     };
     "deep-extend-0.6.0" = {
@@ -1567,7 +1567,7 @@ let
       version = "1.0.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz";
-        sha1 = "df3ae199acadfb7d440aaae0b29e2272b24ec619";
+        sha512 = "ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==";
       };
     };
     "delegates-1.0.0" = {
@@ -1576,7 +1576,7 @@ let
       version = "1.0.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/delegates/-/delegates-1.0.0.tgz";
-        sha1 = "84c6e159b81904fdca59a0ef44cd870d31250f9a";
+        sha512 = "bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==";
       };
     };
     "depd-1.1.2" = {
@@ -1585,7 +1585,7 @@ let
       version = "1.1.2";
       src = fetchurl {
         url = "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz";
-        sha1 = "9bcd52e14c097763e749b274c4346ed2e560b5a9";
+        sha512 = "7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==";
       };
     };
     "detect-libc-1.0.3" = {
@@ -1594,7 +1594,7 @@ let
       version = "1.0.3";
       src = fetchurl {
         url = "https://registry.npmjs.org/detect-libc/-/detect-libc-1.0.3.tgz";
-        sha1 = "fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b";
+        sha512 = "pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==";
       };
     };
     "detect-libc-2.0.1" = {
@@ -1648,7 +1648,7 @@ let
       version = "1.0.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/discontinuous-range/-/discontinuous-range-1.0.0.tgz";
-        sha1 = "e38331f0844bba49b9a9cb71c771585aab1bc65a";
+        sha512 = "c68LpLbO+7kP/b1Hr1qs8/BJ09F5khZGTxqxZuhzxpmwJKOgRFHJWIb9/KmqnqHhLdO55aOxFH/EGBvUQbL/RQ==";
       };
     };
     "doctrine-2.1.0" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.140" = {
+    "electron-to-chromium-1.4.141" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.140";
+      version = "1.4.141";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.140.tgz";
-        sha512 = "NLz5va823QfJBYOO/hLV4AfU4Crmkl/6Hl2pH3qdJcmi0ySZ3YTWHxOlDm3uJOFBEPy3pIhu8gKQo6prQTWKKA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.141.tgz";
+        sha512 = "mfBcbqc0qc6RlxrsIgLG2wCqkiPAjEezHxGTu7p3dHHFOurH4EjS9rFZndX5axC8264rI1Pcbw8uQP39oZckeA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3451,13 +3451,13 @@ let
         sha512 = "g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==";
       };
     };
-    "make-fetch-happen-10.1.5" = {
+    "make-fetch-happen-10.1.6" = {
       name = "make-fetch-happen";
       packageName = "make-fetch-happen";
-      version = "10.1.5";
+      version = "10.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.1.5.tgz";
-        sha512 = "mucOj2H0Jn/ax7H9K9T1bf0p1nn/mBFa551Os7ed9xRfLEx20aZhZeLslmRYfAaAqXZUGipcs+m5KOKvOH0XKA==";
+        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.1.6.tgz";
+        sha512 = "/iKDlRQF0fkxyB/w/duW2yRYrGwBcbJjC37ijgi0CmOZ32bzMc86BCSSAHWvuyRFCB408iBPziTSzazBSrKo3w==";
       };
     };
     "make-fetch-happen-9.1.0" = {
@@ -6230,7 +6230,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.140"
+      sources."electron-to-chromium-1.4.141"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6450,7 +6450,7 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."lru-cache-7.10.1"
-      sources."make-fetch-happen-10.1.5"
+      sources."make-fetch-happen-10.1.6"
       sources."minimatch-3.1.2"
       sources."minipass-3.1.6"
       sources."minipass-collect-1.0.2"
