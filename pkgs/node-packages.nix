@@ -3691,7 +3691,7 @@ let
       version = "2.0.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz";
-        sha1 = "5608aeadfc00be6c2901df5f9861788de0d597c8";
+        sha512 = "Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==";
       };
     };
     "ms-2.1.2" = {
@@ -3754,7 +3754,7 @@ let
       version = "1.4.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz";
-        sha1 = "4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7";
+        sha512 = "OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==";
       };
     };
     "nearley-2.20.1" = {
