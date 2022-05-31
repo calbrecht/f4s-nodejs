@@ -634,13 +634,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-17.0.36" = {
+    "@types/node-17.0.37" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "17.0.36";
+      version = "17.0.37";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-17.0.36.tgz";
-        sha512 = "V3orv+ggDsWVHP99K3JlwtH20R7J4IhI1Kksgc+64q5VxgfRkQG8Ws3MFm/FZOKDYGy9feGFlZ70/HpCNe9QaA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-17.0.37.tgz";
+        sha512 = "22CDt5mU+EbwJ/JYw4pZGVtO0M0UhaFQP1pJ+JW+lQYx8cqErY//QfvpE0nVBr4LJpPcIrFs1Ew2LAIx1OSXZw==";
       };
     };
     "JSV-4.0.2" = {
@@ -3826,7 +3826,7 @@ let
       version = "0.4.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz";
-        sha1 = "87a9065cdb355d3182d8f94ce11188b825c68a3b";
+        sha512 = "O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==";
       };
     };
     "node-releases-2.0.5" = {
@@ -4954,13 +4954,13 @@ let
         sha512 = "zDZhHhZRY9PxRruRMR7kMhnf3I8hDs4S3f9RecfnGxvcBHQcKcIH/oUcEWffsfl1XxdYlA7nnlGbbTvPz9D8gA==";
       };
     };
-    "socks-proxy-agent-6.2.0" = {
+    "socks-proxy-agent-6.2.1" = {
       name = "socks-proxy-agent";
       packageName = "socks-proxy-agent";
-      version = "6.2.0";
+      version = "6.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-6.2.0.tgz";
-        sha512 = "wWqJhjb32Q6GsrUqzuFkukxb/zzide5quXYcMVpIjxalDBBYy2nqKCFQ/9+Ie4dvOYSQdOk3hUlZSdzZOd3zMQ==";
+        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-6.2.1.tgz";
+        sha512 = "a6KW9G+6B3nWZ1yB8G7pJwL3ggLy1uTzKAgCb7ttblwqdz9fMGJUuTy3uFzEP48FAs9FLILlmzDlE2JJhVQaXQ==";
       };
     };
     "spdx-correct-3.1.1" = {
@@ -5710,6 +5710,15 @@ let
         sha512 = "/xhqXP/2A2RSs+J8JNXpiiNVvvNM0oTosNVmQnunlKvq9o4mupHOBAnnzH0lwIPKazXKvAKsVp1kr+H/K4lgoQ==";
       };
     };
+    "vscode-languageserver-textdocument-1.0.5" = {
+      name = "vscode-languageserver-textdocument";
+      packageName = "vscode-languageserver-textdocument";
+      version = "1.0.5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.5.tgz";
+        sha512 = "1ah7zyQjKBudnMiHbZmxz5bYNM9KKZYz+5VQLj+yr8l+9w3g+WAhCkUkWbhMEdC5u0ub4Ndiye/fDyS8ghIKQg==";
+      };
+    };
     "vscode-languageserver-types-3.16.0" = {
       name = "vscode-languageserver-types";
       packageName = "vscode-languageserver-types";
@@ -6322,7 +6331,7 @@ in
       sources."simple-swizzle-0.2.2"
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
-      sources."socks-proxy-agent-6.2.0"
+      sources."socks-proxy-agent-6.2.1"
       sources."sqlite3-5.0.8"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
@@ -6483,7 +6492,7 @@ in
       sources."signal-exit-3.0.7"
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
-      sources."socks-proxy-agent-6.2.0"
+      sources."socks-proxy-agent-6.2.1"
       sources."ssri-9.0.1"
       sources."string-width-4.2.3"
       sources."string_decoder-1.3.0"
@@ -6940,7 +6949,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-17.0.36"
+      sources."@types/node-17.0.37"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7325,7 +7334,7 @@ in
       sources."vscode-jsonrpc-8.0.1"
       sources."vscode-languageserver-6.1.1"
       sources."vscode-languageserver-protocol-3.17.1"
-      sources."vscode-languageserver-textdocument-1.0.4"
+      sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.1"
       sources."web-tree-sitter-0.20.5"
       sources."wrappy-1.0.2"
@@ -7540,7 +7549,7 @@ in
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      sources."vscode-languageserver-textdocument-1.0.4"
+      sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.0-next.1"
       sources."vscode-nls-5.0.1"
       sources."vscode-uri-3.0.3"
@@ -7576,7 +7585,7 @@ in
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      sources."vscode-languageserver-textdocument-1.0.4"
+      sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.1"
       sources."vscode-nls-5.0.1"
       sources."vscode-uri-3.0.3"
