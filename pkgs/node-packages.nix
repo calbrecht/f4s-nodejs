@@ -1129,13 +1129,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001349" = {
+    "caniuse-lite-1.0.30001351" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001349";
+      version = "1.0.30001351";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001349.tgz";
-        sha512 = "VFaWW3jeo6DLU5rwdiasosxhYSduJgSGil4cSyX3/85fbctlE58pXAkWyuRmVA0r2RxsOSVYUTZcySJ8WpbTxw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001351.tgz";
+        sha512 = "u+Ll+RDaiQEproTQjZLjZwyfNgNezA1fERMT7/54npcz+PkbVJUAHXMUz4bkXQYRPWrcFNO0Fbi1mwjfXg6N5g==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.148" = {
+    "electron-to-chromium-1.4.149" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.148";
+      version = "1.4.149";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.148.tgz";
-        sha512 = "8MJk1bcQUAYkuvCyWZxaldiwoDG0E0AMzBGA6cv3WfuvJySiPgfidEPBFCRRH3cZm6SVZwo/oRlK1ehi1QNEIQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.149.tgz";
+        sha512 = "SR6ZQ8gfXX7LIS3UTDXu1CbFMUnluP3TS+jP7QwDwOnoH5CcHbejFdaaaEnGxR6I76E55eFnUV9mxI8GKufkEg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2425,13 +2425,13 @@ let
         sha512 = "3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==";
       };
     };
-    "get-intrinsic-1.1.1" = {
+    "get-intrinsic-1.1.2" = {
       name = "get-intrinsic";
       packageName = "get-intrinsic";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.1.tgz";
-        sha512 = "kWZrnVM42QCiEA2Ig1bG8zjoIMOgxWwYCEeNdwY6Tv/cOSeGpcoX4pXHfKUxNKVoArnrEr2e9srnAxxGIraS9Q==";
+        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.1.2.tgz";
+        sha512 = "Jfm3OyCxHh9DJyc28qGk+JmfkpO41A4XkneDSujN9MDXrm4oDKdHvndhZ2dN94+ERNfkYJWDclW6k2L/ZGHjXA==";
       };
     };
     "get-stdin-8.0.0" = {
@@ -3577,13 +3577,13 @@ let
         sha512 = "wxfUjg9WebH+CUDX/CdbRlh5SmfZiy/hpkxaRI16Y9W56Pa75sWgd/rvFilSgrauD9NyFymP/+JFV3KwzIsJeg==";
       };
     };
-    "minipass-3.1.6" = {
+    "minipass-3.2.0" = {
       name = "minipass";
       packageName = "minipass";
-      version = "3.1.6";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-3.1.6.tgz";
-        sha512 = "rty5kpw9/z8SX9dmxblFA6edItUmwJgMeYDZRrwlIVN27i8gysGbznJwUggw2V/FVqFSDdWy040ZPS811DYAqQ==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-3.2.0.tgz";
+        sha512 = "rosVvUUjMkTW1UoqXVHzNw937MAKv1ewomUBIqYk0IXPYk+LpVCOV1+kBpzAiQrKGjG3Ta81ZNzk/EcL28zABw==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -4852,7 +4852,7 @@ let
       version = "2.0.0";
       src = fetchurl {
         url = "https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz";
-        sha1 = "045f9782d011ae9a6803ddd382b24392b3d890f7";
+        sha512 = "KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==";
       };
     };
     "shebang-command-2.0.0" = {
@@ -4897,7 +4897,7 @@ let
       version = "1.0.1";
       src = fetchurl {
         url = "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz";
-        sha1 = "3ff21f198cad2175f9f3b781853fd94d0d19b590";
+        sha512 = "fCvEXfh6NWpm+YSuY2bpXb/VIihqWA6hLsgboC+0nl71Q7N7o2eaCW8mJa/NLvQhs6jpd3VZV4UiUQlV6+lc8g==";
       };
     };
     "signal-exit-3.0.7" = {
@@ -4915,7 +4915,7 @@ let
       version = "0.2.2";
       src = fetchurl {
         url = "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz";
-        sha1 = "a4da6b635ffcccca33f70d17cb92592de95e557a";
+        sha512 = "JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==";
       };
     };
     "slash-3.0.0" = {
@@ -6221,7 +6221,7 @@ in
       sources."browserslist-4.20.4"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001349"
+      sources."caniuse-lite-1.0.30001351"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6239,7 +6239,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.148"
+      sources."electron-to-chromium-1.4.149"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6285,7 +6285,7 @@ in
       sources."make-dir-3.1.0"
       sources."make-fetch-happen-9.1.0"
       sources."minimatch-3.1.2"
-      sources."minipass-3.1.6"
+      sources."minipass-3.2.0"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-1.4.1"
       sources."minipass-flush-1.0.5"
@@ -6461,7 +6461,7 @@ in
       sources."lru-cache-7.10.1"
       sources."make-fetch-happen-10.1.7"
       sources."minimatch-3.1.2"
-      sources."minipass-3.1.6"
+      sources."minipass-3.2.0"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-2.1.0"
       sources."minipass-flush-1.0.5"
@@ -6770,7 +6770,7 @@ in
       sources."function.prototype.name-1.1.5"
       sources."functional-red-black-tree-1.0.1"
       sources."functions-have-names-1.2.3"
-      sources."get-intrinsic-1.1.1"
+      sources."get-intrinsic-1.1.2"
       sources."get-stdin-8.0.0"
       sources."get-symbol-description-1.0.0"
       sources."glob-7.2.3"
