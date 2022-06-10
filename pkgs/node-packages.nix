@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.151" = {
+    "electron-to-chromium-1.4.152" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.151";
+      version = "1.4.152";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.151.tgz";
-        sha512 = "XaG2LpZi9fdiWYOqJh0dJy4SlVywCvpgYXhzOlZTp4JqSKqxn5URqOjbm9OMYB3aInA2GuHQiem1QUOc1yT0Pw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.152.tgz";
+        sha512 = "jk4Ju5SGZAQQJ1iI4Rgru7dDlvkQPLpNPWH9gIZmwCD4YteA5Bbk1xPcPDUf5jUYs3e1e80RXdi8XgKQZaigeg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3577,13 +3577,13 @@ let
         sha512 = "wxfUjg9WebH+CUDX/CdbRlh5SmfZiy/hpkxaRI16Y9W56Pa75sWgd/rvFilSgrauD9NyFymP/+JFV3KwzIsJeg==";
       };
     };
-    "minipass-3.2.0" = {
+    "minipass-3.2.1" = {
       name = "minipass";
       packageName = "minipass";
-      version = "3.2.0";
+      version = "3.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-3.2.0.tgz";
-        sha512 = "rosVvUUjMkTW1UoqXVHzNw937MAKv1ewomUBIqYk0IXPYk+LpVCOV1+kBpzAiQrKGjG3Ta81ZNzk/EcL28zABw==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-3.2.1.tgz";
+        sha512 = "v5cqJP4WxUVXYXhOOdPiOZEDoF7omSpLivw2GMCL1v/j+xh886bPXKh6SzyA6sa45e4NRQ46IRBEkAazvb6I6A==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6239,7 +6239,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.151"
+      sources."electron-to-chromium-1.4.152"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6285,7 +6285,7 @@ in
       sources."make-dir-3.1.0"
       sources."make-fetch-happen-9.1.0"
       sources."minimatch-3.1.2"
-      sources."minipass-3.2.0"
+      sources."minipass-3.2.1"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-1.4.1"
       sources."minipass-flush-1.0.5"
@@ -6461,7 +6461,7 @@ in
       sources."lru-cache-7.10.1"
       sources."make-fetch-happen-10.1.7"
       sources."minimatch-3.1.2"
-      sources."minipass-3.2.0"
+      sources."minipass-3.2.1"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-2.1.0"
       sources."minipass-flush-1.0.5"
