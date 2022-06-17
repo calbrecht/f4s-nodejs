@@ -1129,13 +1129,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001355" = {
+    "caniuse-lite-1.0.30001356" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001355";
+      version = "1.0.30001356";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001355.tgz";
-        sha512 = "Sd6pjJHF27LzCB7pT7qs+kuX2ndurzCzkpJl6Qct7LPSZ9jn0bkOA8mdgMgmqnQAWLVOOGjLpc+66V57eLtb1g==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001356.tgz";
+        sha512 = "/30854bktMLhxtjieIxsrJBfs2gTM1pel6MXKF3K+RdIVJZcsn2A2QdhsuR4/p9+R204fZw0zCBBhktX8xWuyQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.158" = {
+    "electron-to-chromium-1.4.161" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.158";
+      version = "1.4.161";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.158.tgz";
-        sha512 = "gppO3/+Y6sP432HtvwvuU8S+YYYLH4PmAYvQwqUtt9HDOmEsBwQfLnK9T8+1NIKwAS1BEygIjTaATC4H5EzvxQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.161.tgz";
+        sha512 = "sTjBRhqh6wFodzZtc5Iu8/R95OkwaPNn7tj/TaDU5nu/5EFiQDtADGAXdR4tJcTEHlYfJpHqigzJqHvPgehP8A==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.17.0" = {
+    "eslint-8.18.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.17.0";
+      version = "8.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.17.0.tgz";
-        sha512 = "gq0m0BTJfci60Fz4nczYxNAlED+sMcihltndR8t9t1evnU/azx53x3t2UHXC/uRjcbvRw/XctpaNygSTcQD+Iw==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.18.0.tgz";
+        sha512 = "As1EfFMVk7Xc6/CvhssHUjsAQSkpfXvUGMFC3ce8JDe6WvqCgRrLOBQbVpsBFr1X1V+RACOadnzVvcUS5ni2bA==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -4684,13 +4684,13 @@ let
         sha512 = "AKGr4qvHiryxRb19m3PsLRGuKVAbJLUD7E6eOaHkfKhwc+vSgVOCY5xNvm9EkolBKTOf0GrQAZKLimOCz81Khg==";
       };
     };
-    "resolve-1.22.0" = {
+    "resolve-1.22.1" = {
       name = "resolve";
       packageName = "resolve";
-      version = "1.22.0";
+      version = "1.22.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-1.22.0.tgz";
-        sha512 = "Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==";
+        url = "https://registry.npmjs.org/resolve/-/resolve-1.22.1.tgz";
+        sha512 = "nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==";
       };
     };
     "resolve-2.0.0-next.3" = {
@@ -5476,13 +5476,13 @@ let
         sha512 = "4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==";
       };
     };
-    "typescript-4.7.3" = {
+    "typescript-4.7.4" = {
       name = "typescript";
       packageName = "typescript";
-      version = "4.7.3";
+      version = "4.7.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-4.7.3.tgz";
-        sha512 = "WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz";
+        sha512 = "C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -5932,10 +5932,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.17.0";
+    version = "8.18.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.17.0.tgz";
-      sha512 = "gq0m0BTJfci60Fz4nczYxNAlED+sMcihltndR8t9t1evnU/azx53x3t2UHXC/uRjcbvRw/XctpaNygSTcQD+Iw==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.18.0.tgz";
+      sha512 = "As1EfFMVk7Xc6/CvhssHUjsAQSkpfXvUGMFC3ce8JDe6WvqCgRrLOBQbVpsBFr1X1V+RACOadnzVvcUS5ni2bA==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.0"
@@ -6068,7 +6068,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.17.0"
+      sources."eslint-8.18.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6221,7 +6221,7 @@ in
       sources."browserslist-4.20.4"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001355"
+      sources."caniuse-lite-1.0.30001356"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6239,7 +6239,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.158"
+      sources."electron-to-chromium-1.4.161"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6874,7 +6874,7 @@ in
       sources."regexp.prototype.flags-1.4.3"
       sources."regexpp-3.2.0"
       sources."require-from-string-2.0.2"
-      sources."resolve-1.22.0"
+      sources."resolve-1.22.1"
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."semver-7.3.7"
@@ -7130,7 +7130,7 @@ in
       sources."once-1.4.0"
       sources."path-is-absolute-1.0.1"
       sources."path-parse-1.0.7"
-      sources."resolve-1.22.0"
+      sources."resolve-1.22.1"
       sources."semver-5.7.1"
       sources."sprintf-js-1.0.3"
       sources."supports-color-5.5.0"
@@ -7152,10 +7152,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.7.3";
+    version = "4.7.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.7.3.tgz";
-      sha512 = "WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz";
+      sha512 = "C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7262,10 +7262,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "3.0.3";
+    version = "3.0.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.3.tgz";
-      sha512 = "UhYd0YYaXjYn0M3dVeL6jv1X9L2VR8dJp3fUCcdyHTgzJOvmntpUrkjcoKASV0qqZt0u8DSPT4xE+HjegQoEvQ==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.4.tgz";
+      sha512 = "LMaBSmXuPfPkMjOZzI9zEgiInEBE2Ok2p1/cnGOPW/sG07pVysweXkHaUy10dl+kof+x2kklZlAMMD5CluA5fQ==";
     };
     dependencies = [
       sources."ajv-6.12.6"
@@ -7522,7 +7522,7 @@ in
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."typescript-4.7.3"
+      sources."typescript-4.7.4"
       sources."universalify-2.0.0"
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
