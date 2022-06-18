@@ -4693,13 +4693,13 @@ let
         sha512 = "nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==";
       };
     };
-    "resolve-2.0.0-next.3" = {
+    "resolve-2.0.0-next.4" = {
       name = "resolve";
       packageName = "resolve";
-      version = "2.0.0-next.3";
+      version = "2.0.0-next.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.3.tgz";
-        sha512 = "W8LucSynKUIDu9ylraa7ueVZ7hc0uAgJBxVsQSKOXOyle8a93qXhcz+XAXZ8bIq2d6i4Ehddn6Evt+0/UwKk6Q==";
+        url = "https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.4.tgz";
+        sha512 = "iMDbmAWtfU+MHpxt/I5iWI7cY6YVEZUQ3MBgPQ++XD1PELuJHIl82xBmObyP2KyQmkNB2dsqF7seoQQiAn5yDQ==";
       };
     };
     "resolve-from-4.0.0" = {
@@ -6730,7 +6730,7 @@ in
         dependencies = [
           sources."doctrine-2.1.0"
           sources."estraverse-5.3.0"
-          sources."resolve-2.0.0-next.3"
+          sources."resolve-2.0.0-next.4"
         ];
       })
       sources."eslint-scope-5.1.1"
