@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.164" = {
+    "electron-to-chromium-1.4.166" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.164";
+      version = "1.4.166";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.164.tgz";
-        sha512 = "K7iy5y6XyP9Pzh3uaDti0KC4JUNT6T1tLG5RTOmesqq2YgAJpYYYJ32m+anvZYjCV35llPTEh87kvEV/uSsiyQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.166.tgz";
+        sha512 = "ZPLdq3kcATkD6dwne5M4SgJBHw21t90BqTGzf3AceJwj3cE/ICv6jyDwHYyJoF4JNuXM3pzRxlaRmpO7pdwmcg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3280,13 +3280,13 @@ let
         sha512 = "P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==";
       };
     };
-    "jsx-ast-utils-3.3.0" = {
+    "jsx-ast-utils-3.3.1" = {
       name = "jsx-ast-utils";
       packageName = "jsx-ast-utils";
-      version = "3.3.0";
+      version = "3.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.0.tgz";
-        sha512 = "XzO9luP6L0xkxwhIJMTJQpZo/eeN60K08jHdexfD569AGxeNug6UketeHXEhROoM8aR7EcUoOQmIhcJQjcuq8Q==";
+        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.1.tgz";
+        sha512 = "pxrjmNpeRw5wwVeWyEAk7QJu2GnBO3uzPFmHCKJJFPKK2Cy0cWL23krGtLdnMmbIi6/FjlrQpPyfQI19ByPOhQ==";
       };
     };
     "kuler-2.0.0" = {
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.164"
+      sources."electron-to-chromium-1.4.166"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6823,7 +6823,7 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."json5-1.0.1"
-      sources."jsx-ast-utils-3.3.0"
+      sources."jsx-ast-utils-3.3.1"
       sources."levn-0.4.1"
       sources."load-json-file-4.0.0"
       sources."locate-path-2.0.0"
