@@ -355,49 +355,49 @@ let
         sha512 = "sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==";
       };
     };
-    "@jridgewell/gen-mapping-0.3.1" = {
+    "@jridgewell/gen-mapping-0.3.2" = {
       name = "_at_jridgewell_slash_gen-mapping";
       packageName = "@jridgewell/gen-mapping";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.1.tgz";
-        sha512 = "GcHwniMlA2z+WFPWuY8lp3fsza0I8xPFMWL5+n8LYyP6PSvPrXf4+n8stDHZY2DM0zy9sVkRDy1jDI4XGzYVqg==";
+        url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.2.tgz";
+        sha512 = "mh65xKQAzI6iBcFzwv28KVWSmCkdRBWoOh+bYQGW3+6OZvbbN3TqMGo5hqYxQniRcH9F2VZIoJCm4pa3BPDK/A==";
       };
     };
-    "@jridgewell/resolve-uri-3.0.7" = {
+    "@jridgewell/resolve-uri-3.0.8" = {
       name = "_at_jridgewell_slash_resolve-uri";
       packageName = "@jridgewell/resolve-uri";
-      version = "3.0.7";
+      version = "3.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.0.7.tgz";
-        sha512 = "8cXDaBBHOr2pQ7j77Y6Vp5VDT2sIqWyWQ56TjEq4ih/a4iST3dItRe8Q9fp0rrIl9DoKhWQtUQz/YpOxLkXbNA==";
+        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.0.8.tgz";
+        sha512 = "YK5G9LaddzGbcucK4c8h5tWFmMPBvRZ/uyWmN1/SbBdIvqGUdWGkJ5BAaccgs6XbzVLsqbPJrBSFwKv3kT9i7w==";
       };
     };
-    "@jridgewell/set-array-1.1.1" = {
+    "@jridgewell/set-array-1.1.2" = {
       name = "_at_jridgewell_slash_set-array";
       packageName = "@jridgewell/set-array";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.1.1.tgz";
-        sha512 = "Ct5MqZkLGEXTVmQYbGtx9SVqD2fqwvdubdps5D3djjAkgkKwT918VNOz65pEHFaYTeWcukmJmH5SwsA9Tn2ObQ==";
+        url = "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.1.2.tgz";
+        sha512 = "xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==";
       };
     };
-    "@jridgewell/sourcemap-codec-1.4.13" = {
+    "@jridgewell/sourcemap-codec-1.4.14" = {
       name = "_at_jridgewell_slash_sourcemap-codec";
       packageName = "@jridgewell/sourcemap-codec";
-      version = "1.4.13";
+      version = "1.4.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.13.tgz";
-        sha512 = "GryiOJmNcWbovBxTfZSF71V/mXbgcV3MewDe3kIMCLyIh5e7SKAeUZs+rMnJ8jkMolZ/4/VsdBmMrw3l+VdZ3w==";
+        url = "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz";
+        sha512 = "XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.13" = {
+    "@jridgewell/trace-mapping-0.3.14" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.13";
+      version = "0.3.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.13.tgz";
-        sha512 = "o1xbKhp9qnIAoHJSWd6KlCZfqslL4valSF81H8ImioOAxluWYWOpWkpyktY2vnt4tbrX9XYaxovq6cgowaJp2w==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.14.tgz";
+        sha512 = "bJWEfQ9lPTvm3SneWwRFVLzrh6nhjwqw7TUFFBEMzwvg7t7PCDenf2lDwqo4NQXzdpgBXyFgDWnQA+2vkruksQ==";
       };
     };
     "@mapbox/node-pre-gyp-1.0.9" = {
@@ -6168,7 +6168,7 @@ in
       sources."@babel/core-7.18.5"
       (sources."@babel/generator-7.18.2" // {
         dependencies = [
-          sources."@jridgewell/gen-mapping-0.3.1"
+          sources."@jridgewell/gen-mapping-0.3.2"
         ];
       })
       sources."@babel/helper-compilation-targets-7.18.2"
@@ -6200,10 +6200,10 @@ in
       sources."@dabh/diagnostics-2.0.3"
       sources."@gar/promisify-1.1.3"
       sources."@jridgewell/gen-mapping-0.1.1"
-      sources."@jridgewell/resolve-uri-3.0.7"
-      sources."@jridgewell/set-array-1.1.1"
-      sources."@jridgewell/sourcemap-codec-1.4.13"
-      sources."@jridgewell/trace-mapping-0.3.13"
+      sources."@jridgewell/resolve-uri-3.0.8"
+      sources."@jridgewell/set-array-1.1.2"
+      sources."@jridgewell/sourcemap-codec-1.4.14"
+      sources."@jridgewell/trace-mapping-0.3.14"
       (sources."@mapbox/node-pre-gyp-1.0.9" // {
         dependencies = [
           sources."semver-7.3.7"
