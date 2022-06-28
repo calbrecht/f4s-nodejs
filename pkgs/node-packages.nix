@@ -40,13 +40,13 @@ let
         sha512 = "cQbWBpxcbbs/IUredIPkHiAGULLV8iwgNRMFzvbhEXISp4f3rUUXE5+TIw6KwUWUR3DwyI6gmBRnmAtYaWehwQ==";
       };
     };
-    "@babel/generator-7.18.6" = {
+    "@babel/generator-7.18.7" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.18.6";
+      version = "7.18.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.18.6.tgz";
-        sha512 = "AIwwoOS8axIC5MZbhNHRLKi3D+DMpvDf9XUcu3pIVAfOHFT45f4AoDAltRbHIQomCipkCZxrNkfpOEHhJz/VKw==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.18.7.tgz";
+        sha512 = "shck+7VLlY72a2w9c3zYWuE1pwOKEiQHV7GTUbSnhyl5eu3i04t30tBY82ZRWrDfo3gkakCFtevExnxbkf2a3A==";
       };
     };
     "@babel/helper-compilation-targets-7.18.6" = {
@@ -229,13 +229,13 @@ let
         sha512 = "zS/OKyqmD7lslOtFqbscH6gMLFYOfG1YPqCKfAW5KrTeolKqvB8UelR49Fpr6y93kYkW2Ik00mT1LOGiAGvizw==";
       };
     };
-    "@babel/types-7.18.6" = {
+    "@babel/types-7.18.7" = {
       name = "_at_babel_slash_types";
       packageName = "@babel/types";
-      version = "7.18.6";
+      version = "7.18.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/types/-/types-7.18.6.tgz";
-        sha512 = "NdBNzPDwed30fZdDQtVR7ZgaO4UKjuaQFH9VArS+HMnurlOY0JWN+4ROlu/iapMFwjRQU4pOG4StZfDmulEwGA==";
+        url = "https://registry.npmjs.org/@babel/types/-/types-7.18.7.tgz";
+        sha512 = "QG3yxTcTIBoAcQmkCs+wAPYZhu7Dk9rXKacINfNbdJDNERTbLQbHGyVG8q/YGMPeCJRIhSY0+fTc5+xuh6WPSQ==";
       };
     };
     "@bmewburn/js-beautify-1.13.0" = {
@@ -1057,13 +1057,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.21.0" = {
+    "browserslist-4.21.1" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.21.0";
+      version = "4.21.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.0.tgz";
-        sha512 = "UQxE0DIhRB5z/zDz9iA03BOfxaN2+GQdBYH/2WrSIWEUrnpzTPJbhqt+umq6r3acaPRTW1FNTkrcp0PXgtFkvA==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.1.tgz";
+        sha512 = "Nq8MFCSrnJXSc88yliwlzQe3qNe3VntIjhsArW9IJOEPSHNx23FalwApUVbzAWABLhYJJ7y8AynWI/XM8OdfjQ==";
       };
     };
     "bser-2.1.1" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.171" = {
+    "electron-to-chromium-1.4.172" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.171";
+      version = "1.4.172";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.171.tgz";
-        sha512 = "DmVNWJlGfCYtdgyxp24Aznd7Ou6a+XBSawxODh4lc39OHdh1a49Sitw8oxwMqzzm8n9m2P93OelvIF09SOTNwA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.172.tgz";
+        sha512 = "yDoFfTJnqBAB6hSiPvzmsBJSrjOXJtHSJoqJdI/zSIh7DYupYnIOHt/bbPw/WE31BJjNTybDdNAs21gCMnTh0Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3577,13 +3577,13 @@ let
         sha512 = "wxfUjg9WebH+CUDX/CdbRlh5SmfZiy/hpkxaRI16Y9W56Pa75sWgd/rvFilSgrauD9NyFymP/+JFV3KwzIsJeg==";
       };
     };
-    "minipass-3.3.3" = {
+    "minipass-3.3.4" = {
       name = "minipass";
       packageName = "minipass";
-      version = "3.3.3";
+      version = "3.3.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-3.3.3.tgz";
-        sha512 = "N0BOsdFAlNRfmwMhjAsLVWOk7Ljmeb39iqFlsV1At+jqRhSUP9yeof8FyJu4imaJiSUp8vQebWD/guZwGQC8iA==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-3.3.4.tgz";
+        sha512 = "I9WPbWHCGu8W+6k1ZiGpPu0GkoKBeorkfKNuAFBNS1HNFJvke82sxvI5bzcCNpWPorkOO5QQ+zomzzwRxejXiw==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6166,7 +6166,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.18.6"
       sources."@babel/core-7.18.6"
-      (sources."@babel/generator-7.18.6" // {
+      (sources."@babel/generator-7.18.7" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -6195,7 +6195,7 @@ in
           sources."globals-11.12.0"
         ];
       })
-      sources."@babel/types-7.18.6"
+      sources."@babel/types-7.18.7"
       sources."@colors/colors-1.5.0"
       sources."@dabh/diagnostics-2.0.3"
       sources."@gar/promisify-1.1.3"
@@ -6227,7 +6227,7 @@ in
       sources."async-3.2.4"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.0"
+      sources."browserslist-4.21.1"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
       sources."caniuse-lite-1.0.30001359"
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.171"
+      sources."electron-to-chromium-1.4.172"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6294,7 +6294,7 @@ in
       sources."make-dir-3.1.0"
       sources."make-fetch-happen-9.1.0"
       sources."minimatch-3.1.2"
-      sources."minipass-3.3.3"
+      sources."minipass-3.3.4"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-1.4.1"
       sources."minipass-flush-1.0.5"
@@ -6471,7 +6471,7 @@ in
       sources."lru-cache-7.10.2"
       sources."make-fetch-happen-10.1.8"
       sources."minimatch-3.1.2"
-      sources."minipass-3.3.3"
+      sources."minipass-3.3.4"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-2.1.0"
       sources."minipass-flush-1.0.5"
