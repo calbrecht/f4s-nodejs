@@ -5854,13 +5854,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.8.0" = {
+    "winston-3.8.1" = {
       name = "winston";
       packageName = "winston";
-      version = "3.8.0";
+      version = "3.8.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.8.0.tgz";
-        sha512 = "Iix1w8rIq2kBDkGvclO0db2CVOHYVamCIkVWcUbs567G9i2pdB+gvqLgDgxx4B4HXHYD6U4Zybh6ojepUOqcFQ==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.8.1.tgz";
+        sha512 = "r+6YAiCR4uI3N8eQNOg8k3P3PqwAm20cLKlzVD9E66Ch39+LZC+VH1UKf9JemQj2B3QoUHfKD7Poewn0Pr3Y1w==";
       };
     };
     "winston-transport-4.5.0" = {
@@ -6366,7 +6366,7 @@ in
       sources."whatwg-url-5.0.0"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
-      sources."winston-3.8.0"
+      sources."winston-3.8.1"
       sources."winston-transport-4.5.0"
       sources."wrappy-1.0.2"
       sources."yallist-4.0.0"
