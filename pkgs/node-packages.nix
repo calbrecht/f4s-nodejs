@@ -1894,13 +1894,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.18.0" = {
+    "eslint-8.19.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.18.0";
+      version = "8.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.18.0.tgz";
-        sha512 = "As1EfFMVk7Xc6/CvhssHUjsAQSkpfXvUGMFC3ce8JDe6WvqCgRrLOBQbVpsBFr1X1V+RACOadnzVvcUS5ni2bA==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.19.0.tgz";
+        sha512 = "SXOPj3x9VKvPe81TjjUJCYlV4oJjQw68Uek+AM0X4p+33dj2HY5bpTZOgnQHcG2eAm1mtCU9uNMnJi7exU/kYw==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -5941,10 +5941,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.18.0";
+    version = "8.19.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.18.0.tgz";
-      sha512 = "As1EfFMVk7Xc6/CvhssHUjsAQSkpfXvUGMFC3ce8JDe6WvqCgRrLOBQbVpsBFr1X1V+RACOadnzVvcUS5ni2bA==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.19.0.tgz";
+      sha512 = "SXOPj3x9VKvPe81TjjUJCYlV4oJjQw68Uek+AM0X4p+33dj2HY5bpTZOgnQHcG2eAm1mtCU9uNMnJi7exU/kYw==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.0"
@@ -6077,7 +6077,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.18.0"
+      sources."eslint-8.19.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
