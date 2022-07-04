@@ -1129,13 +1129,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001362" = {
+    "caniuse-lite-1.0.30001363" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001362";
+      version = "1.0.30001363";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001362.tgz";
-        sha512 = "PFykHuC7BQTzCGQFaV6wD8IDRM3HpI83BXr99nNJhoOyDufgSuKlt0QVlWYt5ZJtEYFeuNVF5QY3kJcu8hVFjQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001363.tgz";
+        sha512 = "HpQhpzTGGPVMnCjIomjt+jvyUu8vNFo3TaDiZ/RcoTrlOq/5+tC8zHdsbgFB6MxmaY+jCpsH09aD80Bb4Ow3Sg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.177" = {
+    "electron-to-chromium-1.4.178" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.177";
+      version = "1.4.178";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.177.tgz";
-        sha512 = "FYPir3NSBEGexSZUEeht81oVhHfLFl6mhUKSkjHN/iB/TwEIt/WHQrqVGfTLN5gQxwJCQkIJBe05eOXjI7omgg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.178.tgz";
+        sha512 = "aWuhJXkwIdoQzGR8p2QvR3N0OzdUKZSP8+P/hzuMzNQIPZoEa8HiCGM75bQBHjyz+eKT5PB9dVCzkK/tyQ4B5Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2524,13 +2524,13 @@ let
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
       };
     };
-    "globals-13.15.0" = {
+    "globals-13.16.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.15.0";
+      version = "13.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.15.0.tgz";
-        sha512 = "bpzcOlgDhMG070Av0Vy5Owklpv1I6+j96GhUI7Rh7IzDCKLzboflLrrfqMu8NquDbiR4EOQk7XzJwqVJxicxog==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.16.0.tgz";
+        sha512 = "A1lrQfpNF+McdPOnnFqY3kSN0AFTy485bTi1bkLk4mVPODIUEcSfhHgRqA+QdXPksrSTTztYXx37NFV+GpGk3Q==";
       };
     };
     "globby-10.0.2" = {
@@ -4468,13 +4468,13 @@ let
         sha512 = "b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==";
       };
     };
-    "psl-1.8.0" = {
+    "psl-1.9.0" = {
       name = "psl";
       packageName = "psl";
-      version = "1.8.0";
+      version = "1.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/psl/-/psl-1.8.0.tgz";
-        sha512 = "RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==";
+        url = "https://registry.npmjs.org/psl/-/psl-1.9.0.tgz";
+        sha512 = "E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==";
       };
     };
     "pump-3.0.0" = {
@@ -5990,7 +5990,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
-      sources."globals-13.15.0"
+      sources."globals-13.16.0"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.0"
       sources."import-fresh-3.3.0"
@@ -6100,7 +6100,7 @@ in
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
-      sources."globals-13.15.0"
+      sources."globals-13.16.0"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.0"
       sources."import-fresh-3.3.0"
@@ -6230,7 +6230,7 @@ in
       sources."browserslist-4.21.1"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001362"
+      sources."caniuse-lite-1.0.30001363"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.177"
+      sources."electron-to-chromium-1.4.178"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7323,7 +7323,7 @@ in
       sources."oauth-sign-0.9.0"
       sources."once-1.4.0"
       sources."performance-now-2.1.0"
-      sources."psl-1.8.0"
+      sources."psl-1.9.0"
       sources."punycode-2.1.1"
       sources."qs-6.5.3"
       sources."request-2.88.2"
@@ -7510,7 +7510,7 @@ in
       sources."proto-list-1.2.4"
       sources."protobufjs-6.10.3"
       sources."pseudomap-1.0.2"
-      sources."psl-1.8.0"
+      sources."psl-1.9.0"
       sources."punycode-2.1.1"
       sources."qs-6.5.3"
       sources."queue-microtask-1.2.3"
