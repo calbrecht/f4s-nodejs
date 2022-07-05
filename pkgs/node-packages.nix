@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.178" = {
+    "electron-to-chromium-1.4.180" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.178";
+      version = "1.4.180";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.178.tgz";
-        sha512 = "aWuhJXkwIdoQzGR8p2QvR3N0OzdUKZSP8+P/hzuMzNQIPZoEa8HiCGM75bQBHjyz+eKT5PB9dVCzkK/tyQ4B5Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.180.tgz";
+        sha512 = "7at5ash3FD9U5gPa3/wPr6OdiZd/zBjvDZaaHBpcqFOFUhZiWnb7stkqk8xUFL9H9nk7Yok5vCCNK8wyC/+f8A==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3388,13 +3388,13 @@ let
         sha512 = "jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw==";
       };
     };
-    "logform-2.4.1" = {
+    "logform-2.4.2" = {
       name = "logform";
       packageName = "logform";
-      version = "2.4.1";
+      version = "2.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/logform/-/logform-2.4.1.tgz";
-        sha512 = "7XB/tqc3VRbri9pRjU6E97mQ8vC27ivJ3lct4jhyT+n0JNDd4YKldFl0D75NqDp46hk8RC7Ma1Vjv/UPf67S+A==";
+        url = "https://registry.npmjs.org/logform/-/logform-2.4.2.tgz";
+        sha512 = "W4c9himeAwXEdZ05dQNerhFz2XG80P9Oj0loPUMV23VC2it0orMHQhJm4hdnnor3rd1HsGf6a2lPwBM1zeXHGw==";
       };
     };
     "long-4.0.0" = {
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.178"
+      sources."electron-to-chromium-1.4.180"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6289,7 +6289,7 @@ in
       sources."json5-2.2.1"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
-      sources."logform-2.4.1"
+      sources."logform-2.4.2"
       sources."lru-cache-6.0.0"
       sources."make-dir-3.1.0"
       sources."make-fetch-happen-9.1.0"
