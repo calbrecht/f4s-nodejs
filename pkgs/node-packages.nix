@@ -1129,13 +1129,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001363" = {
+    "caniuse-lite-1.0.30001364" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001363";
+      version = "1.0.30001364";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001363.tgz";
-        sha512 = "HpQhpzTGGPVMnCjIomjt+jvyUu8vNFo3TaDiZ/RcoTrlOq/5+tC8zHdsbgFB6MxmaY+jCpsH09aD80Bb4Ow3Sg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001364.tgz";
+        sha512 = "9O0xzV3wVyX0SlegIQ6knz+okhBB5pE0PC40MNdwcipjwpxoUEHL24uJ+gG42cgklPjfO5ZjZPme9FTSN3QT2Q==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6230,7 +6230,7 @@ in
       sources."browserslist-4.21.1"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001363"
+      sources."caniuse-lite-1.0.30001364"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
