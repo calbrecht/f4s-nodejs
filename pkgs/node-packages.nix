@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.185" = {
+    "electron-to-chromium-1.4.186" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.185";
+      version = "1.4.186";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.185.tgz";
-        sha512 = "9kV/isoOGpKkBt04yYNaSWIBn3187Q5VZRtoReq8oz5NY/A4XmU6cAoqgQlDp7kKJCZMRjWZ8nsQyxfpFHvfyw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.186.tgz";
+        sha512 = "YoVeFrGd/7ROjz4R9uPoND1K/hSRC/xADy9639ZmIZeJSaBnKdYx3I6LMPsY7CXLpK7JFgKQVzeZ/dk2br6Eaw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3253,13 +3253,13 @@ let
         sha512 = "1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==";
       };
     };
-    "jsonc-parser-3.0.0" = {
+    "jsonc-parser-3.1.0" = {
       name = "jsonc-parser";
       packageName = "jsonc-parser";
-      version = "3.0.0";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.0.0.tgz";
-        sha512 = "fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==";
+        url = "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.1.0.tgz";
+        sha512 = "DRf0QjnNeCUds3xTjKlQQ3DpJD51GvDjJfnxUVWg6PZTo2otSm+slzNAxU/35hF8/oJIKoG9slq30JYOsF2azg==";
       };
     };
     "jsonfile-6.1.0" = {
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.185"
+      sources."electron-to-chromium-1.4.186"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7585,7 +7585,7 @@ in
       sha512 = "Aclwmim+y1+02NYcAvvQB0d/qg2udHRnY0rZMeN24m2MSmbWFdffRWqmgSLieMimKHTCZ5hss4ZTvYNzLiiJtQ==";
     };
     dependencies = [
-      sources."jsonc-parser-3.0.0"
+      sources."jsonc-parser-3.1.0"
       sources."request-light-0.5.8"
       sources."vscode-json-languageservice-4.1.8"
       sources."vscode-jsonrpc-6.0.0"
