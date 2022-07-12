@@ -1129,13 +1129,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001364" = {
+    "caniuse-lite-1.0.30001365" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001364";
+      version = "1.0.30001365";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001364.tgz";
-        sha512 = "9O0xzV3wVyX0SlegIQ6knz+okhBB5pE0PC40MNdwcipjwpxoUEHL24uJ+gG42cgklPjfO5ZjZPme9FTSN3QT2Q==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001365.tgz";
+        sha512 = "VDQZ8OtpuIPMBA4YYvZXECtXbddMCUFJk1qu8Mqxfm/SZJNSr1cy4IuLCOL7RJ/YASrvJcYg1Zh+UEUQ5m6z8Q==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.186" = {
+    "electron-to-chromium-1.4.187" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.186";
+      version = "1.4.187";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.186.tgz";
-        sha512 = "YoVeFrGd/7ROjz4R9uPoND1K/hSRC/xADy9639ZmIZeJSaBnKdYx3I6LMPsY7CXLpK7JFgKQVzeZ/dk2br6Eaw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.187.tgz";
+        sha512 = "t3iFLHVIMhB8jGZ+8ui951nz6Bna5qKfhxezG3wzXdBJ79qFKPsE2chjjVFNqC1ewhfrPQrw9pmVeo4FFpZeQA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6230,7 +6230,7 @@ in
       sources."browserslist-4.21.1"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001364"
+      sources."caniuse-lite-1.0.30001365"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.186"
+      sources."electron-to-chromium-1.4.187"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7579,14 +7579,20 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.8.0";
+    version = "1.9.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.8.0.tgz";
-      sha512 = "Aclwmim+y1+02NYcAvvQB0d/qg2udHRnY0rZMeN24m2MSmbWFdffRWqmgSLieMimKHTCZ5hss4ZTvYNzLiiJtQ==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.9.0.tgz";
+      sha512 = "hwBqXDDYv1i4IsSjSB8jPR9SKcddqHNeMdqNGm0TdbSuqtRvZ9lQet4HgxeCZd37u91Gak0KtZw51jTDdAqP6A==";
     };
     dependencies = [
+      sources."ajv-8.11.0"
+      sources."fast-deep-equal-3.1.3"
+      sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.1.0"
+      sources."punycode-2.1.1"
       sources."request-light-0.5.8"
+      sources."require-from-string-2.0.2"
+      sources."uri-js-4.4.1"
       sources."vscode-json-languageservice-4.1.8"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
