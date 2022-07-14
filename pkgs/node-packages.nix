@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.189" = {
+    "electron-to-chromium-1.4.190" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.189";
+      version = "1.4.190";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.189.tgz";
-        sha512 = "dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.190.tgz";
+        sha512 = "dDW9D5xT+ODGh9rlK2sQeJR0xgV1nrNn3/K4IV8k74QbmKN61dm5GKMSwerdpTpazrrkK6wwcgjGBoQ/Nx6L5A==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5017,13 +5017,13 @@ let
         sha512 = "D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==";
       };
     };
-    "sqlite3-5.0.8" = {
+    "sqlite3-5.0.9" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.0.8";
+      version = "5.0.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.8.tgz";
-        sha512 = "f2ACsbSyb2D1qFFcqIXPfFscLtPVOWJr5GmUzYxf4W+0qelu5MWrR+FAQE1d5IUArEltBrzSDxDORG8P/IkqyQ==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.9.tgz";
+        sha512 = "e2lEKevUF65UJu4IIuuFytgW7yNMkmCkfyn66jXWeb7OcdHvRo7nXhF+IQ25iW6x2grB0DyKdGCpx8Rd8EkA2Q==";
       };
     };
     "sshpk-1.17.0" = {
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.189"
+      sources."electron-to-chromium-1.4.190"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6341,7 +6341,7 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.6.2"
       sources."socks-proxy-agent-6.2.1"
-      sources."sqlite3-5.0.8"
+      sources."sqlite3-5.0.9"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
@@ -6410,10 +6410,10 @@ in
   node-gyp = nodeEnv.buildNodePackage {
     name = "node-gyp";
     packageName = "node-gyp";
-    version = "9.0.0";
+    version = "9.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/node-gyp/-/node-gyp-9.0.0.tgz";
-      sha512 = "Ma6p4s+XCTPxCuAMrOA/IJRmVy16R8Sdhtwl4PrCr7IBlj4cPawF0vg/l7nOT1jPbuNS7lIRJpBSvVsXwEZuzw==";
+      url = "https://registry.npmjs.org/node-gyp/-/node-gyp-9.1.0.tgz";
+      sha512 = "HkmN0ZpQJU7FLbJauJTHkHlSVAXlNGDAzH/VYFZGDOnFyn/Na3GlNJfkudmufOdS6/jNFhy88ObzL7ERz9es1g==";
     };
     dependencies = [
       sources."@gar/promisify-1.1.3"
