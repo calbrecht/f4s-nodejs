@@ -1354,13 +1354,13 @@ let
         sha512 = "NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==";
       };
     };
-    "commander-9.3.0" = {
+    "commander-9.4.0" = {
       name = "commander";
       packageName = "commander";
-      version = "9.3.0";
+      version = "9.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/commander/-/commander-9.3.0.tgz";
-        sha512 = "hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==";
+        url = "https://registry.npmjs.org/commander/-/commander-9.4.0.tgz";
+        sha512 = "sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==";
       };
     };
     "concat-map-0.0.1" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.190" = {
+    "electron-to-chromium-1.4.191" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.190";
+      version = "1.4.191";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.190.tgz";
-        sha512 = "dDW9D5xT+ODGh9rlK2sQeJR0xgV1nrNn3/K4IV8k74QbmKN61dm5GKMSwerdpTpazrrkK6wwcgjGBoQ/Nx6L5A==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.191.tgz";
+        sha512 = "MeEaiuoSFh4G+rrN+Ilm1KJr8pTTZloeLurcZ+PRcthvdK1gWThje+E6baL7/7LoNctrzCncavAG/j/vpES9jg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3433,13 +3433,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.13.0" = {
+    "lru-cache-7.13.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.13.0";
+      version = "7.13.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.13.0.tgz";
-        sha512 = "SNFKDOORR41fkWP3DXiIUvXvfzDRPg3bxD1+29iRyP2ZW+Njp2o6zhx9YkEpq1tbP0AEDNW2VBUedzDIxmNhdg==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.13.1.tgz";
+        sha512 = "CHqbAq7NFlW3RSnoWXLJBxCWaZVBrfa9UEHId2M3AW8iEBurbqduNexEUCGc3SHc6iCYXNJCDi903LajSVAEPQ==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.190"
+      sources."electron-to-chromium-1.4.191"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6468,7 +6468,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.13.0"
+      sources."lru-cache-7.13.1"
       sources."make-fetch-happen-10.1.8"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.4"
@@ -7195,7 +7195,7 @@ in
       sources."brace-expansion-1.1.11"
       sources."braces-3.0.2"
       sources."clean-stack-2.2.0"
-      sources."commander-9.3.0"
+      sources."commander-9.4.0"
       sources."concat-map-0.0.1"
       sources."crypto-random-string-2.0.0"
       sources."del-6.1.1"
