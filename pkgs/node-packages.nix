@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.193" = {
+    "electron-to-chromium-1.4.195" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.193";
+      version = "1.4.195";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.193.tgz";
-        sha512 = "tBqbgRv0yFIYBLBQKW6kHzI81rjvO1CRy+K8+XHTZtkVPkAZayI/CxTqBiy6Q1+tYAxby8bq/6yOiuNkTvfxmw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.195.tgz";
+        sha512 = "vefjEh0sk871xNmR5whJf9TEngX+KTKS3hOHpjoMpauKkwlGwtMz1H8IaIjAT/GNnX0TbGwAdmVoXCAzXf+PPg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3451,13 +3451,13 @@ let
         sha512 = "g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==";
       };
     };
-    "make-fetch-happen-10.1.8" = {
+    "make-fetch-happen-10.2.0" = {
       name = "make-fetch-happen";
       packageName = "make-fetch-happen";
-      version = "10.1.8";
+      version = "10.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.1.8.tgz";
-        sha512 = "0ASJbG12Au6+N5I84W+8FhGS6iM8MyzvZady+zaQAu+6IOaESFzCLLD0AR1sAFF3Jufi8bxm586ABN6hWd3k7g==";
+        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-10.2.0.tgz";
+        sha512 = "OnEfCLofQVJ5zgKwGk55GaqosqKjaR6khQlJY3dBAA+hM25Bc5CmX5rKUfVut+rYA3uidA7zb7AvcglU87rPRg==";
       };
     };
     "make-fetch-happen-9.1.0" = {
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.193"
+      sources."electron-to-chromium-1.4.195"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6469,7 +6469,7 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."lru-cache-7.13.1"
-      sources."make-fetch-happen-10.1.8"
+      sources."make-fetch-happen-10.2.0"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.4"
       sources."minipass-collect-1.0.2"
