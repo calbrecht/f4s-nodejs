@@ -634,13 +634,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.6.0" = {
+    "@types/node-18.6.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.6.0";
+      version = "18.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.6.0.tgz";
-        sha512 = "WZ/6I1GL0DNAo4bb01lGGKTHH8BHJyECepf11kWONg3OJoHq2WYOm16Es1V54Er7NTUXsbDCpKRKdmBc4X2xhA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.6.1.tgz";
+        sha512 = "z+2vB6yDt1fNwKOeGbckpmirO+VBDuQqecXkgeIqDlaOtmKn6hPR/viQ8cxCfqLU4fTlvM3+YjM367TukWdxpg==";
       };
     };
     "JSV-4.0.2" = {
@@ -1732,13 +1732,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.199" = {
+    "electron-to-chromium-1.4.200" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.199";
+      version = "1.4.200";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.199.tgz";
-        sha512 = "WIGME0Cs7oob3mxsJwHbeWkH0tYkIE/sjkJ8ML2BYmuRcjhRl/q5kVDXG7W9LOOKwzPU5M0LBlXRq9rlSgnNlg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.200.tgz";
+        sha512 = "nPyI7oHc8T64oSqRXrAt99gNMpk0SAgPHw/o+hkNKyb5+bcdnFtZcSO9FUJES5cVkVZvo8u4qiZ1gQILl8UXsA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3577,13 +3577,13 @@ let
         sha512 = "wxfUjg9WebH+CUDX/CdbRlh5SmfZiy/hpkxaRI16Y9W56Pa75sWgd/rvFilSgrauD9NyFymP/+JFV3KwzIsJeg==";
       };
     };
-    "minipass-3.3.4" = {
+    "minipass-3.3.5" = {
       name = "minipass";
       packageName = "minipass";
-      version = "3.3.4";
+      version = "3.3.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-3.3.4.tgz";
-        sha512 = "I9WPbWHCGu8W+6k1ZiGpPu0GkoKBeorkfKNuAFBNS1HNFJvke82sxvI5bzcCNpWPorkOO5QQ+zomzzwRxejXiw==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-3.3.5.tgz";
+        sha512 = "rQ/p+KfKBkeNwo04U15i+hOwoVBVmekmm/HcfTkTN2t9pbQKCMm4eN5gFeqgrrSp/kH/7BYYhTIHOxGqzbBPaA==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6248,7 +6248,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.199"
+      sources."electron-to-chromium-1.4.200"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6294,7 +6294,7 @@ in
       sources."make-dir-3.1.0"
       sources."make-fetch-happen-9.1.0"
       sources."minimatch-3.1.2"
-      sources."minipass-3.3.4"
+      sources."minipass-3.3.5"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-1.4.1"
       sources."minipass-flush-1.0.5"
@@ -6471,7 +6471,7 @@ in
       sources."lru-cache-7.13.1"
       sources."make-fetch-happen-10.2.0"
       sources."minimatch-3.1.2"
-      sources."minipass-3.3.4"
+      sources."minipass-3.3.5"
       sources."minipass-collect-1.0.2"
       sources."minipass-fetch-2.1.0"
       sources."minipass-flush-1.0.5"
@@ -6959,7 +6959,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.6.0"
+      sources."@types/node-18.6.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
