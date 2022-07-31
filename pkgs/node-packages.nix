@@ -2056,13 +2056,13 @@ let
         sha512 = "v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==";
       };
     };
-    "espree-9.3.2" = {
+    "espree-9.3.3" = {
       name = "espree";
       packageName = "espree";
-      version = "9.3.2";
+      version = "9.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.3.2.tgz";
-        sha512 = "D211tC7ZwouTIuY5x9XnS0E9sWNChB7IYKX/Xp5eQj3nFXhqmiUDB9q27y76oFl8jTg3pXcQx/bpxMfs3CIZbA==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.3.3.tgz";
+        sha512 = "ORs1Rt/uQTqUKjDdGCyrtYxbazf5umATSf/K4qxjmZHORR6HJk+2s/2Pqe+Kk49HHINC/xNIrGfgh8sZcll0ng==";
       };
     };
     "esprima-3.0.0" = {
@@ -5017,13 +5017,13 @@ let
         sha512 = "D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==";
       };
     };
-    "sqlite3-5.0.10" = {
+    "sqlite3-5.0.11" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.0.10";
+      version = "5.0.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.10.tgz";
-        sha512 = "xG4XPp7+b/lIlb/acs4XzBmmahI1Qq3Yhy+jZnZJivwB6DXpoOpGR6QinRbsQkHJIvMZyUsJDXouSva/JXcWFA==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.11.tgz";
+        sha512 = "4akFOr7u9lJEeAWLJxmwiV43DJcGV7w3ab7SjQFAFaTVyknY3rZjvXTKIVtWqUoY4xwhjwoHKYs2HDW2SoHVsA==";
       };
     };
     "sshpk-1.17.0" = {
@@ -5975,7 +5975,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.3.2"
+      sources."espree-9.3.3"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6085,7 +6085,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.3.2"
+      sources."espree-9.3.3"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6341,7 +6341,7 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.7.0"
       sources."socks-proxy-agent-6.2.1"
-      sources."sqlite3-5.0.10"
+      sources."sqlite3-5.0.11"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
