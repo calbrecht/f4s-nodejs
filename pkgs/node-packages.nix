@@ -40,13 +40,13 @@ let
         sha512 = "JQM6k6ENcBFKVtWvLavlvi/mPcpYZ3+R+2EySDEMSMbp7Mn4FexlbbJVrx2R7Ijhr01T8gyqrOaABWIOgxeUyw==";
       };
     };
-    "@babel/generator-7.18.10" = {
+    "@babel/generator-7.18.12" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.18.10";
+      version = "7.18.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.18.10.tgz";
-        sha512 = "0+sW7e3HjQbiHbj1NeU/vN8ornohYlacAfZIaXhdoGweQqgcNy69COVciYYqEXJ/v+9OBA7Frxm4CVAuNqKeNA==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.18.12.tgz";
+        sha512 = "dfQ8ebCN98SvyL7IxNMCUtZQSq5R7kxgN+r8qYTGDmmSion1hX2C0zq2yo1bsCDhXixokv1SAWTZUMYbO/V5zg==";
       };
     };
     "@babel/helper-compilation-targets-7.18.9" = {
@@ -652,13 +652,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.6.3" = {
+    "@types/node-18.6.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.6.3";
+      version = "18.6.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.6.3.tgz";
-        sha512 = "6qKpDtoaYLM+5+AFChLhHermMQxc3TOEFIDzrZLPRGHPrLEwqFkkT5Kx3ju05g6X7uDPazz3jHbKPX0KzCjntg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.6.4.tgz";
+        sha512 = "I4BD3L+6AWiUobfxZ49DlU43gtI+FTHSv9pE2Zekg6KjMpre4ByusaljW3vYSLJrvQ1ck1hUaeVu8HVlY3vzHg==";
       };
     };
     "JSV-4.0.2" = {
@@ -6311,7 +6311,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.18.8"
       sources."@babel/core-7.18.10"
-      (sources."@babel/generator-7.18.10" // {
+      (sources."@babel/generator-7.18.12" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -7105,7 +7105,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.6.3"
+      sources."@types/node-18.6.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
