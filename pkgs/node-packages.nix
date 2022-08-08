@@ -652,13 +652,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.6.4" = {
+    "@types/node-18.6.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.6.4";
+      version = "18.6.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.6.4.tgz";
-        sha512 = "I4BD3L+6AWiUobfxZ49DlU43gtI+FTHSv9pE2Zekg6KjMpre4ByusaljW3vYSLJrvQ1ck1hUaeVu8HVlY3vzHg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.6.5.tgz";
+        sha512 = "Xjt5ZGUa5WusGZJ4WJPbOT8QOqp6nDynVFRKcUt32bOgvXEoc6o085WNkYTMO7ifAj2isEfQQ2cseE+wT6jsRw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.211" = {
+    "electron-to-chromium-1.4.212" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.211";
+      version = "1.4.212";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.211.tgz";
-        sha512 = "BZSbMpyFQU0KBJ1JG26XGeFI3i4op+qOYGxftmZXFZoHkhLgsSv4DHDJfl8ogII3hIuzGt51PaZ195OVu0yJ9A==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.212.tgz";
+        sha512 = "LjQUg1SpLj2GfyaPDVBUHdhmlDU1vDB4f0mJWSGkISoXQrn5/lH3ECPCuo2Bkvf6Y30wO+b69te+rZK/llZmjg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3325,13 +3325,13 @@ let
         sha512 = "P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==";
       };
     };
-    "jsx-ast-utils-3.3.2" = {
+    "jsx-ast-utils-3.3.3" = {
       name = "jsx-ast-utils";
       packageName = "jsx-ast-utils";
-      version = "3.3.2";
+      version = "3.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.2.tgz";
-        sha512 = "4ZCADZHRkno244xlNnn4AOG6sRQ7iBZ5BbgZ4vW4y5IZw7cVUD1PPeblm1xx/nfmMxPdt/LHsXZW8z/j58+l9Q==";
+        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.3.tgz";
+        sha512 = "fYQHZTZ8jSfmWZ0iyzfwiU4WDX4HpHbMCZ3gPlWYiCl3BoeOTsqKBqnTVfH2rYT7eP5c3sVbeSPHnnJOaTrWiw==";
       };
     };
     "kuler-2.0.0" = {
@@ -5890,13 +5890,13 @@ let
         sha512 = "zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==";
       };
     };
-    "vscode-nls-5.0.1" = {
+    "vscode-nls-5.1.0" = {
       name = "vscode-nls";
       packageName = "vscode-nls";
-      version = "5.0.1";
+      version = "5.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.0.1.tgz";
-        sha512 = "hHQV6iig+M21lTdItKPkJAaWrxALQb/nqpVffakO4knJOh3DrU2SXOMzUzNgo1eADPzu3qSsJY1weCzvR52q9A==";
+        url = "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.1.0.tgz";
+        sha512 = "37Ha44QrLFwR2IfSSYdOArzUvOyoWbOYTwQC+wS0NfqKjhW7s0WQ1lMy5oJXgSZy9sAiZS5ifELhbpXodeMR8w==";
       };
     };
     "vscode-uri-2.1.2" = {
@@ -6466,7 +6466,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.211"
+      sources."electron-to-chromium-1.4.212"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7041,7 +7041,7 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."json5-1.0.1"
-      sources."jsx-ast-utils-3.3.2"
+      sources."jsx-ast-utils-3.3.3"
       sources."levn-0.4.1"
       sources."load-json-file-4.0.0"
       sources."locate-path-2.0.0"
@@ -7177,7 +7177,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.6.4"
+      sources."@types/node-18.6.5"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7740,7 +7740,7 @@ in
       })
       sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.0-next.1"
-      sources."vscode-nls-5.0.1"
+      sources."vscode-nls-5.1.0"
       sources."vscode-uri-3.0.3"
       sources."wrappy-1.0.2"
       sources."yallist-2.1.2"
@@ -7782,7 +7782,7 @@ in
       })
       sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.2"
-      sources."vscode-nls-5.0.1"
+      sources."vscode-nls-5.1.0"
       sources."vscode-uri-3.0.3"
       sources."yaml-2.0.0-11"
     ];
