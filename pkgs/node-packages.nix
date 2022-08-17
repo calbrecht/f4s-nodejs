@@ -1147,13 +1147,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001377" = {
+    "caniuse-lite-1.0.30001378" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001377";
+      version = "1.0.30001378";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001377.tgz";
-        sha512 = "I5XeHI1x/mRSGl96LFOaSk528LA/yZG3m3iQgImGujjO8gotd/DL8QaI1R1h1dg5ATeI2jqPblMpKq4Tr5iKfQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001378.tgz";
+        sha512 = "JVQnfoO7FK7WvU4ZkBRbPjaot4+YqxogSDosHv0Hv5mWpUESmN+UubMU6L/hGz8QlQ2aY5U0vR6MOs6j/CXpNA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.222" = {
+    "electron-to-chromium-1.4.223" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.222";
+      version = "1.4.223";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.222.tgz";
-        sha512 = "gEM2awN5HZknWdLbngk4uQCVfhucFAfFzuchP3wM3NN6eow1eDU0dFy2kts43FB20ZfhVFF0jmFSTb1h5OhyIg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.223.tgz";
+        sha512 = "uWa+i2Vz1odvE+zWXOe23rW9UPLh/5X7ESUVdK8wmNg+T6FfOZbhyZEK1GuC8JqaAZ4VBFUYaTYHFPrAX6y5bA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3496,13 +3496,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.13.2" = {
+    "lru-cache-7.14.0" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.13.2";
+      version = "7.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.13.2.tgz";
-        sha512 = "VJL3nIpA79TodY/ctmZEfhASgqekbT574/c4j3jn4bKXbSCnTTCH/KltZyvL2GlV+tGSMtsWyem8DCX7qKTMBA==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.14.0.tgz";
+        sha512 = "EIRtP1GrSJny0dqb50QXRUNBxHJhcpxHC++M5tD7RYbvLLn5KVWKsbyswSSqDuU15UFi3bgTQIY8nhDMeF6aDQ==";
       };
     };
     "make-dir-3.1.0" = {
@@ -3667,13 +3667,13 @@ let
         sha512 = "CGH1eblLq26Y15+Azk7ey4xh0J/XfJfrCox5LDJiKqI2Q2iwOLOKrlmIaODiSQS8d18jalF6y2K2ePUm0CmShw==";
       };
     };
-    "minipass-fetch-2.1.0" = {
+    "minipass-fetch-2.1.1" = {
       name = "minipass-fetch";
       packageName = "minipass-fetch";
-      version = "2.1.0";
+      version = "2.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-2.1.0.tgz";
-        sha512 = "H9U4UVBGXEyyWJnqYDCLp1PwD8XIkJ4akNHp1aGVI+2Ym7wQMlxDKi4IB4JbmyU+pl9pEs/cVrK6cOuvmbK4Sg==";
+        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-2.1.1.tgz";
+        sha512 = "/kgtXVGS10PTFET6dAbOBWQtgH+iDiI4NhRqAftojRlsOJhk0y45sVVxqCaRQC+AMFH7JkHiWpuKJKQ+mojKiA==";
       };
     };
     "minipass-flush-1.0.5" = {
@@ -6448,7 +6448,7 @@ in
       sources."browserslist-4.21.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001377"
+      sources."caniuse-lite-1.0.30001378"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6466,7 +6466,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.222"
+      sources."electron-to-chromium-1.4.223"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6686,12 +6686,12 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.13.2"
+      sources."lru-cache-7.14.0"
       sources."make-fetch-happen-10.2.1"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.5"
       sources."minipass-collect-1.0.2"
-      sources."minipass-fetch-2.1.0"
+      sources."minipass-fetch-2.1.1"
       sources."minipass-flush-1.0.5"
       sources."minipass-pipeline-1.2.4"
       sources."minipass-sized-1.0.3"
