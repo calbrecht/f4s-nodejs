@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.223" = {
+    "electron-to-chromium-1.4.224" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.223";
+      version = "1.4.224";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.223.tgz";
-        sha512 = "uWa+i2Vz1odvE+zWXOe23rW9UPLh/5X7ESUVdK8wmNg+T6FfOZbhyZEK1GuC8JqaAZ4VBFUYaTYHFPrAX6y5bA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.224.tgz";
+        sha512 = "dOujC5Yzj0nOVE23iD5HKqrRSDj2SD7RazpZS/b/WX85MtO6/LzKDF4TlYZTBteB+7fvSg5JpWh0sN7fImNF8w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5593,13 +5593,13 @@ let
         sha512 = "yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==";
       };
     };
-    "type-fest-2.18.0" = {
+    "type-fest-2.18.1" = {
       name = "type-fest";
       packageName = "type-fest";
-      version = "2.18.0";
+      version = "2.18.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/type-fest/-/type-fest-2.18.0.tgz";
-        sha512 = "pRS+/yrW5TjPPHNOvxhbNZexr2bS63WjrMU8a+VzEBhUi9Tz1pZeD+vQz3ut0svZ46P+SRqMEPnJmk2XnvNzTw==";
+        url = "https://registry.npmjs.org/type-fest/-/type-fest-2.18.1.tgz";
+        sha512 = "UKCINsd4qiATXD6OIlnQw9t1ux/n2ld+Nl0kzPbCONhCaUIS/BhJbNw14w6584HCQWf3frBK8vmWnGZq/sbPHQ==";
       };
     };
     "typescript-4.7.4" = {
@@ -6466,7 +6466,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.223"
+      sources."electron-to-chromium-1.4.224"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7426,7 +7426,7 @@ in
       sources."semver-7.3.7"
       sources."temp-dir-2.0.0"
       sources."tempy-3.0.0"
-      sources."type-fest-2.18.0"
+      sources."type-fest-2.18.1"
       sources."unique-string-3.0.0"
       sources."universalify-2.0.0"
       sources."vscode-jsonrpc-8.0.2"
