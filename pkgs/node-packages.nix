@@ -652,13 +652,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.7.6" = {
+    "@types/node-18.7.7" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.7.6";
+      version = "18.7.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.7.6.tgz";
-        sha512 = "EdxgKRXgYsNITy5mjjXjVE/CS8YENSdhiagGrLqjG0pvA2owgJ6i4l7wy/PFZGC0B1/H20lWKN7ONVDNYDZm7A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.7.7.tgz";
+        sha512 = "sTKYCtQmaUpsAT+AbUTKg0Ya0dYyh20t3TBQebWrGXQHFmkrEyeedok2/IpTthlJopPSbUoc1hAKoK6UeFRCZw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.224" = {
+    "electron-to-chromium-1.4.225" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.224";
+      version = "1.4.225";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.224.tgz";
-        sha512 = "dOujC5Yzj0nOVE23iD5HKqrRSDj2SD7RazpZS/b/WX85MtO6/LzKDF4TlYZTBteB+7fvSg5JpWh0sN7fImNF8w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.225.tgz";
+        sha512 = "ICHvGaCIQR3P88uK8aRtx8gmejbVJyC6bB4LEC3anzBrIzdzC7aiZHY4iFfXhN4st6I7lMO0x4sgBHf/7kBvRw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2290,13 +2290,13 @@ let
         sha512 = "dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==";
       };
     };
-    "flatted-3.2.6" = {
+    "flatted-3.2.7" = {
       name = "flatted";
       packageName = "flatted";
-      version = "3.2.6";
+      version = "3.2.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flatted/-/flatted-3.2.6.tgz";
-        sha512 = "0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==";
+        url = "https://registry.npmjs.org/flatted/-/flatted-3.2.7.tgz";
+        sha512 = "5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==";
       };
     };
     "fn.name-1.1.0" = {
@@ -6153,7 +6153,7 @@ in
       sources."fill-range-7.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.0.4"
-      sources."flatted-3.2.6"
+      sources."flatted-3.2.7"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.3"
@@ -6295,7 +6295,7 @@ in
       sources."fill-range-7.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.0.4"
-      sources."flatted-3.2.6"
+      sources."flatted-3.2.7"
       sources."fs.realpath-1.0.0"
       sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.3"
@@ -6466,7 +6466,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.224"
+      sources."electron-to-chromium-1.4.225"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6992,7 +6992,7 @@ in
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
       sources."flat-cache-3.0.4"
-      sources."flatted-3.2.6"
+      sources."flatted-3.2.7"
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.1"
       sources."function.prototype.name-1.1.5"
@@ -7177,7 +7177,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.7.6"
+      sources."@types/node-18.7.7"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7451,10 +7451,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "3.0.5";
+    version = "3.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.5.tgz";
-      sha512 = "2rkjU29BL5ZjmLI6WZ/yiFO0duef0lOg0lnLqNGqt6xUDuxfgbRvV1JysLTOKWZt0yBL8W52V+2XisF1UnRcWA==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.1.0.tgz";
+      sha512 = "DaTlZD60S3ZldAkhch5oH1vxUn8joeFw73IOnwMwmZSlbQctaDrnP7DdDPRVrrQ3uhUQlaaOGPeJCsY/a+V6pg==";
     };
     dependencies = [
       sources."ajv-6.12.6"
