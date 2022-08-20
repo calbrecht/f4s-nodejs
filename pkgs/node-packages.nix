@@ -652,13 +652,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.7.7" = {
+    "@types/node-18.7.8" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.7.7";
+      version = "18.7.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.7.7.tgz";
-        sha512 = "sTKYCtQmaUpsAT+AbUTKg0Ya0dYyh20t3TBQebWrGXQHFmkrEyeedok2/IpTthlJopPSbUoc1hAKoK6UeFRCZw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.7.8.tgz";
+        sha512 = "/YP55EMK2341JkODUb8DM9O0x1SIz2aBvyF33Uf1c76St3VpsMXEIW0nxuKkq/5cxnbz0RD9cfwNZHEAZQD3ag==";
       };
     };
     "JSV-4.0.2" = {
@@ -1147,13 +1147,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001378" = {
+    "caniuse-lite-1.0.30001379" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001378";
+      version = "1.0.30001379";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001378.tgz";
-        sha512 = "JVQnfoO7FK7WvU4ZkBRbPjaot4+YqxogSDosHv0Hv5mWpUESmN+UubMU6L/hGz8QlQ2aY5U0vR6MOs6j/CXpNA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001379.tgz";
+        sha512 = "zXf+qxuN8OJrK5Bl5HbJg8cc5/Zm01WNW4ooVWUh92YlKqQZW3fwN5lXLB+kI8wkP5vTWkIIN+rutZuJhf4ykw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6448,7 +6448,7 @@ in
       sources."browserslist-4.21.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001378"
+      sources."caniuse-lite-1.0.30001379"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7177,7 +7177,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.7.7"
+      sources."@types/node-18.7.8"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
