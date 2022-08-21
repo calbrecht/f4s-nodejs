@@ -652,13 +652,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.7.8" = {
+    "@types/node-18.7.9" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.7.8";
+      version = "18.7.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.7.8.tgz";
-        sha512 = "/YP55EMK2341JkODUb8DM9O0x1SIz2aBvyF33Uf1c76St3VpsMXEIW0nxuKkq/5cxnbz0RD9cfwNZHEAZQD3ag==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.7.9.tgz";
+        sha512 = "0N5Y1XAdcl865nDdjbO0m3T6FdmQ4ijE89/urOHLREyTXbpMWbSafx9y7XIsgWGtwUP2iYTinLyyW3FatAxBLQ==";
       };
     };
     "JSV-4.0.2" = {
@@ -1147,13 +1147,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001379" = {
+    "caniuse-lite-1.0.30001380" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001379";
+      version = "1.0.30001380";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001379.tgz";
-        sha512 = "zXf+qxuN8OJrK5Bl5HbJg8cc5/Zm01WNW4ooVWUh92YlKqQZW3fwN5lXLB+kI8wkP5vTWkIIN+rutZuJhf4ykw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001380.tgz";
+        sha512 = "OO+pPubxx16lkI7TVrbFpde8XHz66SMwstl1YWpg6uMGw56XnhYVwtPIjvX4kYpzwMwQKr4DDce394E03dQPGg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6448,7 +6448,7 @@ in
       sources."browserslist-4.21.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001379"
+      sources."caniuse-lite-1.0.30001380"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7177,7 +7177,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.7.8"
+      sources."@types/node-18.7.9"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7398,10 +7398,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "1.0.0";
+    version = "1.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-1.0.0.tgz";
-      sha512 = "5T7YSHCP4qXOg5j6dzm7H1r9V7RGxKtc5DMpdVPOCaiprPxpNUqJqPPcZB0sJDPKFSuCPhRfG/fg+sLuso5Z3Q==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-1.1.0.tgz";
+      sha512 = "kq2/plAkV1V3Fua5qHmyD4gSE7hfHH1ePGyUDAYXohBu6l0Zee+xrGveTtOrGcEbAcOTRNPJDLY02cOpW6cAlg==";
     };
     dependencies = [
       sources."commander-9.4.0"
