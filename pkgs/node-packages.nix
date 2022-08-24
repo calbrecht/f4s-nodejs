@@ -634,13 +634,13 @@ let
         sha512 = "MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==";
       };
     };
-    "@types/minimatch-3.0.5" = {
+    "@types/minimatch-5.1.0" = {
       name = "_at_types_slash_minimatch";
       packageName = "@types/minimatch";
-      version = "3.0.5";
+      version = "5.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.5.tgz";
-        sha512 = "Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==";
+        url = "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.0.tgz";
+        sha512 = "0RJHq5FqDWo17kdHe+SMDJLfxmLaqHbWnqZ6gNKzDvStUlrmx/eKIY17+ifLS1yybo7X86aUshQMlittDOVNnw==";
       };
     };
     "@types/node-13.13.52" = {
@@ -652,13 +652,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.7.11" = {
+    "@types/node-18.7.13" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.7.11";
+      version = "18.7.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.7.11.tgz";
-        sha512 = "KZhFpSLlmK/sdocfSAjqPETTMd0ug6HIMIAwkwUpU79olnZdQtMxpQP+G1wDzCH7na+FltSIhbaZuKdwZ8RDrw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.7.13.tgz";
+        sha512 = "46yIhxSe5xEaJZXWdIBP7GU4HDTG8/eo0qd9atdiL+lFpA03y8KS+lkTN834TWJj5767GbWv4n/P6efyTFt1Dw==";
       };
     };
     "JSV-4.0.2" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.228" = {
+    "electron-to-chromium-1.4.229" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.228";
+      version = "1.4.229";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.228.tgz";
-        sha512 = "XfDHCvou7CsDMlFwb0WZ1tWmW48e7Sn7VBRyPfZsZZila9esRsJl1trO+OqDNV97GggFSt0ISbWslKXfQkG//g==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.229.tgz";
+        sha512 = "kdye32s/padLGpiLzhrMraBBs/M5hDspB8PCdCP6L11AJ6dw3Gg3xdvT4b4pqWaW5tc5oAwCfKCS+PAsZM3ipw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6475,7 +6475,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.228"
+      sources."electron-to-chromium-1.4.229"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7185,8 +7185,8 @@ in
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
-      sources."@types/minimatch-3.0.5"
-      sources."@types/node-18.7.11"
+      sources."@types/minimatch-5.1.0"
+      sources."@types/node-18.7.13"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
