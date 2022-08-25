@@ -1147,13 +1147,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001382" = {
+    "caniuse-lite-1.0.30001383" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001382";
+      version = "1.0.30001383";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001382.tgz";
-        sha512 = "2rtJwDmSZ716Pxm1wCtbPvHtbDWAreTPxXbkc5RkKglow3Ig/4GNGazDI9/BVnXbG/wnv6r3B5FEbkfg9OcTGg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001383.tgz";
+        sha512 = "swMpEoTp5vDoGBZsYZX7L7nXHe6dsHxi9o6/LKf/f0LukVtnrxly5GVb/fWdCDTqi/yw6Km6tiJ0pmBacm0gbg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.229" = {
+    "electron-to-chromium-1.4.230" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.229";
+      version = "1.4.230";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.229.tgz";
-        sha512 = "kdye32s/padLGpiLzhrMraBBs/M5hDspB8PCdCP6L11AJ6dw3Gg3xdvT4b4pqWaW5tc5oAwCfKCS+PAsZM3ipw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.230.tgz";
+        sha512 = "3pwjAK0qHSDN9+YAF4fJknsSruP7mpjdWzUSruIJD/JCH77pEh0SorEyb3xVaKkfwk2tzjOt2D8scJ0KAdfXLA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5638,13 +5638,13 @@ let
         sha512 = "Vmp0jIp2ln35UTXuryvjzkjGdRyf9b2lTXuSYUiPmzRcl3FDtYqAwOnTJkAngD9SWhnoJzDbTKwaOrZ+STtxNQ==";
       };
     };
-    "unique-filename-2.0.0" = {
+    "unique-filename-2.0.1" = {
       name = "unique-filename";
       packageName = "unique-filename";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/unique-filename/-/unique-filename-2.0.0.tgz";
-        sha512 = "tpzoz2RpZ//6Zt4GPpOFTyrnfZuSvjIfe8lvx6Thp4yTQwJtAFwPlssEBE62VhGA2We5/COyNpcIu+OABu3/Yg==";
+        url = "https://registry.npmjs.org/unique-filename/-/unique-filename-2.0.1.tgz";
+        sha512 = "ODWHtkkdx3IAR+veKxFV+VBkUMcN+FaqzUUd7IZzt+0zhDZFPFxhlqwPF3YQvMHx1TD0tdgYl+kuPnJ8E6ql7A==";
       };
     };
     "unique-slug-2.0.2" = {
@@ -5654,6 +5654,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/unique-slug/-/unique-slug-2.0.2.tgz";
         sha512 = "zoWr9ObaxALD3DOPfjPSqxt4fnZiWblxHIgeWqW8x7UqDzEtHEQLzji2cuJYQFCU6KmoJikOYAZlrTHHebjx2w==";
+      };
+    };
+    "unique-slug-3.0.0" = {
+      name = "unique-slug";
+      packageName = "unique-slug";
+      version = "3.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/unique-slug/-/unique-slug-3.0.0.tgz";
+        sha512 = "8EyMynh679x/0gqE9fT9oilG+qEt+ibFyqjuVTsZn1+CMxH+XLlpvr2UZx4nVcCwTpx81nICr2JQFkM+HPLq4w==";
       };
     };
     "unique-string-3.0.0" = {
@@ -6457,7 +6466,7 @@ in
       sources."browserslist-4.21.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001382"
+      sources."caniuse-lite-1.0.30001383"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6475,7 +6484,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.229"
+      sources."electron-to-chromium-1.4.230"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6735,8 +6744,8 @@ in
       sources."string_decoder-1.3.0"
       sources."strip-ansi-6.0.1"
       sources."tar-6.1.11"
-      sources."unique-filename-2.0.0"
-      sources."unique-slug-2.0.2"
+      sources."unique-filename-2.0.1"
+      sources."unique-slug-3.0.0"
       sources."util-deprecate-1.0.2"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
@@ -7407,10 +7416,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "1.1.1";
+    version = "1.1.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-1.1.1.tgz";
-      sha512 = "06nAh6bsrIJlJ8fPwMEVKXz+Yi26+uyJEDkNbbUdfolSwwsBaiFt90yOTgnNTULGzFM/+WQ+dba8I/6YxSEgVA==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-1.1.2.tgz";
+      sha512 = "gQf4p3FvKKpShCwZclIh7b3VtmmuMEtur1xPz6pTH+ilaw3jUCmrcvLU5zz59/9RHBHkdP6XrR6p9RdQ8K+8KQ==";
     };
     dependencies = [
       sources."commander-9.4.0"
