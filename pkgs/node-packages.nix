@@ -319,13 +319,13 @@ let
         sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
-    "@eslint/eslintrc-1.3.0" = {
+    "@eslint/eslintrc-1.3.1" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.3.0";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.0.tgz";
-        sha512 = "UWW0TMTmk2d7hLcWD1/e2g5HDM/HQ3csaLSqXCfqwh4uNDuNqlaKWXmEsL4Cs41Z0KnILNvwbHAah3C2yt06kw==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.1.tgz";
+        sha512 = "OhSY22oQQdw3zgPOOwdoj01l/Dzl1Z+xyUP33tkSN+aqyEhymJCcPHyXt+ylW8FSe0TfRC2VG+ROQOapD0aZSQ==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -1741,13 +1741,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.230" = {
+    "electron-to-chromium-1.4.232" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.230";
+      version = "1.4.232";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.230.tgz";
-        sha512 = "3pwjAK0qHSDN9+YAF4fJknsSruP7mpjdWzUSruIJD/JCH77pEh0SorEyb3xVaKkfwk2tzjOt2D8scJ0KAdfXLA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.232.tgz";
+        sha512 = "nd+FW8xHjM+PxNWG44nKnwHaBDdVpJUZuI2sS2JJPt/QpdombnmoCRWEEQNnzaktdIQhsNWdD+dlqxwO8Bn99g==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==";
       };
     };
-    "espree-9.3.3" = {
+    "espree-9.4.0" = {
       name = "espree";
       packageName = "espree";
-      version = "9.3.3";
+      version = "9.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.3.3.tgz";
-        sha512 = "ORs1Rt/uQTqUKjDdGCyrtYxbazf5umATSf/K4qxjmZHORR6HJk+2s/2Pqe+Kk49HHINC/xNIrGfgh8sZcll0ng==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.4.0.tgz";
+        sha512 = "DQmnRpLj7f6TgN/NYb0MTzJXL+vJF9h3pHy4JhCIs3zwcgez8xmGg3sXHcEO97BrmO2OSvCwMdfdlyl+E9KjOw==";
       };
     };
     "esprima-3.0.0" = {
@@ -5602,13 +5602,13 @@ let
         sha512 = "RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==";
       };
     };
-    "typescript-4.7.4" = {
+    "typescript-4.8.2" = {
       name = "typescript";
       packageName = "typescript";
-      version = "4.7.4";
+      version = "4.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz";
-        sha512 = "C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-4.8.2.tgz";
+        sha512 = "C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -6118,7 +6118,7 @@ in
       sha512 = "ci4t0sz6vSRKdmkOGmprBo6fmI4PrphDFMy5JEq/fNS0gQkJM3rLmrqcp8ipMcdobH3KtUP40KniAE9W19S4wA==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.3.0"
+      sources."@eslint/eslintrc-1.3.1"
       sources."@humanwhocodes/config-array-0.10.4"
       sources."@humanwhocodes/gitignore-to-minimatch-1.0.2"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6153,7 +6153,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.3.3"
+      sources."espree-9.4.0"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6254,7 +6254,7 @@ in
       sha512 = "pra1cvdhKZCmrJHqlnm+EmbNeBQgd9sycQSlhWTl0RSiJEhjA1G8RJuaIaU5am0APIGHts/QbD0ZofS8pV0GKw==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.3.0"
+      sources."@eslint/eslintrc-1.3.1"
       sources."@humanwhocodes/config-array-0.10.4"
       sources."@humanwhocodes/gitignore-to-minimatch-1.0.2"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6295,7 +6295,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.3.3"
+      sources."espree-9.4.0"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6484,7 +6484,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.230"
+      sources."electron-to-chromium-1.4.232"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7398,10 +7398,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.7.4";
+    version = "4.8.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz";
-      sha512 = "C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.8.2.tgz";
+      sha512 = "C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7730,7 +7730,7 @@ in
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."typescript-4.7.4"
+      sources."typescript-4.8.2"
       sources."universalify-2.0.0"
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
