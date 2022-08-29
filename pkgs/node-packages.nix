@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.233" = {
+    "electron-to-chromium-1.4.234" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.233";
+      version = "1.4.234";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.233.tgz";
-        sha512 = "ejwIKXTg1wqbmkcRJh9Ur3hFGHFDZDw1POzdsVrB2WZjgRuRMHIQQKNpe64N/qh3ZtH2otEoRoS+s6arAAuAAw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.234.tgz";
+        sha512 = "VqlJ4Ihd9F7eQIfwEtf7C0eZZDl6bQtpez8vx8VHN9iCZEzePZjr7n9OGFHSav4WN9zfLa2CFLowj0siBoc0hQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5917,13 +5917,13 @@ let
         sha512 = "zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==";
       };
     };
-    "vscode-nls-5.1.0" = {
+    "vscode-nls-5.2.0" = {
       name = "vscode-nls";
       packageName = "vscode-nls";
-      version = "5.1.0";
+      version = "5.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.1.0.tgz";
-        sha512 = "37Ha44QrLFwR2IfSSYdOArzUvOyoWbOYTwQC+wS0NfqKjhW7s0WQ1lMy5oJXgSZy9sAiZS5ifELhbpXodeMR8w==";
+        url = "https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.2.0.tgz";
+        sha512 = "RAaHx7B14ZU04EU31pT+rKz2/zSl7xMsfIZuo8pd+KZO6PXtQmpevpq3vxvWNcrGbdmhM/rr5Uw5Mz+NBfhVng==";
       };
     };
     "vscode-uri-2.1.2" = {
@@ -6493,7 +6493,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.233"
+      sources."electron-to-chromium-1.4.234"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7768,7 +7768,7 @@ in
       })
       sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.0-next.1"
-      sources."vscode-nls-5.1.0"
+      sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.3"
       sources."wrappy-1.0.2"
       sources."yallist-2.1.2"
@@ -7786,10 +7786,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.9.0";
+    version = "1.10.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.9.0.tgz";
-      sha512 = "hwBqXDDYv1i4IsSjSB8jPR9SKcddqHNeMdqNGm0TdbSuqtRvZ9lQet4HgxeCZd37u91Gak0KtZw51jTDdAqP6A==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.10.0.tgz";
+      sha512 = "bGE5lObc8PBXDQ8QKEWUVFw85/g1R3TVbtLPswNY+YXR2fLb1RF6PW3CKNI0gshXTSKleywhAyORrXi7fjwpzg==";
     };
     dependencies = [
       sources."ajv-8.11.0"
@@ -7810,7 +7810,7 @@ in
       })
       sources."vscode-languageserver-textdocument-1.0.5"
       sources."vscode-languageserver-types-3.17.2"
-      sources."vscode-nls-5.1.0"
+      sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.3"
       sources."yaml-2.0.0-11"
     ];
