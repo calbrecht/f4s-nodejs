@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.238" = {
+    "electron-to-chromium-1.4.240" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.238";
+      version = "1.4.240";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.238.tgz";
-        sha512 = "Vcw+jaLrdCj6Ds4p4FpVYn8UBa+DSRt4FwO5r6+6xifKbeRQ/MsC0vYOjLYkz4JJGDi/wZkjrxuZULn/E69w9Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.240.tgz";
+        sha512 = "r20dUOtZ4vUPTqAajDGonIM1uas5tf85Up+wPdtNBNvBSqGCfkpvMVvQ1T8YJzPV9/Y9g3FbUDcXb94Rafycow==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5692,13 +5692,13 @@ let
         sha512 = "hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==";
       };
     };
-    "update-browserslist-db-1.0.5" = {
+    "update-browserslist-db-1.0.6" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.0.5";
+      version = "1.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.5.tgz";
-        sha512 = "dteFFpCyvuDdr9S/ff1ISkKt/9YZxKjI9WlRR99c180GaztJtRa/fn18FdxGVKVsnPY7/a/FDN68mcvUmP4U7Q==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.6.tgz";
+        sha512 = "We7BqM9XFlcW94Op93uW8+2LXvGezs7QA0WY+f1H7RR1q46B06W6hZF6LbmOlpCS1HU22q/6NOGTGW5sCm7NJQ==";
       };
     };
     "uri-js-4.4.1" = {
@@ -6502,7 +6502,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.238"
+      sources."electron-to-chromium-1.4.240"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6614,7 +6614,7 @@ in
       sources."type-fest-0.8.1"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
-      sources."update-browserslist-db-1.0.5"
+      sources."update-browserslist-db-1.0.6"
       sources."util-deprecate-1.0.2"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
