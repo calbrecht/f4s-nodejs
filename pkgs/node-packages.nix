@@ -661,13 +661,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.7.15" = {
+    "@types/node-18.7.16" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.7.15";
+      version = "18.7.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.7.15.tgz";
-        sha512 = "XnjpaI8Bgc3eBag2Aw4t2Uj/49lLBSStHWfqKvIuXD7FIrZyMLWp8KuAFHAqxMZYTF9l08N1ctUn9YNybZJVmQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.7.16.tgz";
+        sha512 = "EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==";
       };
     };
     "JSV-4.0.2" = {
@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.242" = {
+    "electron-to-chromium-1.4.243" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.242";
+      version = "1.4.243";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.242.tgz";
-        sha512 = "nPdgMWtjjWGCtreW/2adkrB2jyHjClo9PtVhR6rW+oxa4E4Wom642Tn+5LslHP3XPL5MCpkn5/UEY60EXylNeQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.243.tgz";
+        sha512 = "BgLD2gBX43OSXwlT01oYRRD5NIB4n3okTRxkzEAC6G0SZG4TTlyrWMjbOo0fajCwqwpRtMHXQNMjtRN6qpNtfw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6025,13 +6025,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.8.1" = {
+    "winston-3.8.2" = {
       name = "winston";
       packageName = "winston";
-      version = "3.8.1";
+      version = "3.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.8.1.tgz";
-        sha512 = "r+6YAiCR4uI3N8eQNOg8k3P3PqwAm20cLKlzVD9E66Ch39+LZC+VH1UKf9JemQj2B3QoUHfKD7Poewn0Pr3Y1w==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.8.2.tgz";
+        sha512 = "MsE1gRx1m5jdTTO9Ld/vND4krP2To+lgDoMEHGGa4HIlAUyXJtfc7CxQcGXVyz2IBpw5hbFkj2b/AtUdQwyRew==";
       };
     };
     "winston-transport-4.5.0" = {
@@ -6502,7 +6502,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.242"
+      sources."electron-to-chromium-1.4.243"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6620,7 +6620,7 @@ in
       sources."whatwg-url-5.0.0"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
-      sources."winston-3.8.1"
+      sources."winston-3.8.2"
       sources."winston-transport-4.5.0"
       sources."wrappy-1.0.2"
       sources."yallist-4.0.0"
@@ -7213,7 +7213,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.7.15"
+      sources."@types/node-18.7.16"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
