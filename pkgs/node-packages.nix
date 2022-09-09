@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.245" = {
+    "electron-to-chromium-1.4.247" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.245";
+      version = "1.4.247";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.245.tgz";
-        sha512 = "kUN8QXmqHAN8phxjF3QpHeX7CbXGXadSngx9r1O/S9jt+uC0O/vjPi/9+8/Mk3sKewLLMrjpBJZMfVpPCdkG3g==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.247.tgz";
+        sha512 = "FLs6R4FQE+1JHM0hh3sfdxnYjKvJpHZyhQDjc2qFq/xFvmmRt/TATNToZhrcGUFzpF2XjeiuozrA8lI0PZmYYw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2182,13 +2182,13 @@ let
         sha512 = "f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==";
       };
     };
-    "fast-glob-3.2.11" = {
+    "fast-glob-3.2.12" = {
       name = "fast-glob";
       packageName = "fast-glob";
-      version = "3.2.11";
+      version = "3.2.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.11.tgz";
-        sha512 = "xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==";
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.12.tgz";
+        sha512 = "DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==";
       };
     };
     "fast-json-stable-stringify-2.1.0" = {
@@ -6178,7 +6178,7 @@ in
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
       sources."fast-deep-equal-3.1.3"
-      (sources."fast-glob-3.2.11" // {
+      (sources."fast-glob-3.2.12" // {
         dependencies = [
           sources."glob-parent-5.1.2"
         ];
@@ -6320,7 +6320,7 @@ in
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
       sources."fast-deep-equal-3.1.3"
-      (sources."fast-glob-3.2.11" // {
+      (sources."fast-glob-3.2.12" // {
         dependencies = [
           sources."glob-parent-5.1.2"
         ];
@@ -6502,7 +6502,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.245"
+      sources."electron-to-chromium-1.4.247"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7230,7 +7230,7 @@ in
       sources."dir-glob-3.0.1"
       sources."end-of-stream-1.4.4"
       sources."execa-3.4.0"
-      sources."fast-glob-3.2.11"
+      sources."fast-glob-3.2.12"
       sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.1.0"
@@ -7668,7 +7668,7 @@ in
       sources."extend-3.0.2"
       sources."extsprintf-1.3.0"
       sources."fast-deep-equal-3.1.3"
-      sources."fast-glob-3.2.11"
+      sources."fast-glob-3.2.12"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fastq-1.13.0"
       sources."fill-range-7.0.1"
