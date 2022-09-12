@@ -319,13 +319,13 @@ let
         sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
-    "@eslint/eslintrc-1.3.1" = {
+    "@eslint/eslintrc-1.3.2" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "1.3.1";
+      version = "1.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.1.tgz";
-        sha512 = "OhSY22oQQdw3zgPOOwdoj01l/Dzl1Z+xyUP33tkSN+aqyEhymJCcPHyXt+ylW8FSe0TfRC2VG+ROQOapD0aZSQ==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.2.tgz";
+        sha512 = "AXYd23w1S/bv3fTs3Lz0vjiYemS08jWkI3hYyS9I1ry+0f+Yjs1wm+sU0BS8qDOPrBIkp4qHYC16I8uVtpLajQ==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -661,13 +661,13 @@ let
         sha512 = "s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==";
       };
     };
-    "@types/node-18.7.16" = {
+    "@types/node-18.7.17" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.7.16";
+      version = "18.7.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.7.16.tgz";
-        sha512 = "EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.7.17.tgz";
+        sha512 = "0UyfUnt02zIuqp7yC8RYtDkp/vo8bFaQ13KkSEvUAohPOAlnVNbj5Fi3fgPSuwzakS+EvvnnZ4x9y7i6ASaSPQ==";
       };
     };
     "JSV-4.0.2" = {
@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001393" = {
+    "caniuse-lite-1.0.30001397" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001393";
+      version = "1.0.30001397";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001393.tgz";
-        sha512 = "N/od11RX+Gsk+1qY/jbPa0R6zJupEa0lxeBG598EbrtblxVCTJsQwbRBm6+V+rxpc5lHKdsXb9RY83cZIPLseA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001397.tgz";
+        sha512 = "SW9N2TbCdLf0eiNDRrrQXx2sOkaakNZbCjgNpPyMJJbiOrU5QzMIrXOVMRM1myBXTD5iTkdrtU/EguCrBocHlA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.247" = {
+    "electron-to-chromium-1.4.248" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.247";
+      version = "1.4.248";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.247.tgz";
-        sha512 = "FLs6R4FQE+1JHM0hh3sfdxnYjKvJpHZyhQDjc2qFq/xFvmmRt/TATNToZhrcGUFzpF2XjeiuozrA8lI0PZmYYw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.248.tgz";
+        sha512 = "qShjzEYpa57NnhbW2K+g+Fl+eNoDvQ7I+2MRwWnU6Z6F0HhXekzsECCLv+y2OJUsRodjqoSfwHkIX42VUFtUzg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1912,13 +1912,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.23.0" = {
+    "eslint-8.23.1" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.23.0";
+      version = "8.23.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.23.0.tgz";
-        sha512 = "pBG/XOn0MsJcKcTRLr27S5HpzQo4kLr+HjLQIyK4EiCsijDl/TB+h5uEuJU6bQ8Edvwz1XWOjpaP2qgnXGpTcA==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.23.1.tgz";
+        sha512 = "w7C1IXCc6fNqjpuYd0yPlcTKKmHlHHktRkzmBPZ+7cvNBQuiNjx0xaMTjAJGCafJhQkrFJooREv0CtrVzmHwqg==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -2974,13 +2974,13 @@ let
         sha512 = "gDYaKHJmnj4aWxyj6YHyXVpdQawtVLHU5cb+eztPGczf6cjuTdwve5ZIEfgXqH4e57An1D1AKf8CZ3kYrQRqYA==";
       };
     };
-    "is-callable-1.2.4" = {
+    "is-callable-1.2.5" = {
       name = "is-callable";
       packageName = "is-callable";
-      version = "1.2.4";
+      version = "1.2.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-callable/-/is-callable-1.2.4.tgz";
-        sha512 = "nsuwtxZfMX67Oryl9LCQ+upnC0Z0BgpwntpS89m1H/TLF0zNfzfLMV/9Wa/6MZsj0acpEjAO0KF1xT6ZdLl95w==";
+        url = "https://registry.npmjs.org/is-callable/-/is-callable-1.2.5.tgz";
+        sha512 = "ZIWRujF6MvYGkEuHMYtFRkL2wAtFw89EHfKlXrkPkjQZZRWeh9L1q3SV13NIfHnqxugjLvAOkEHx9mb1zcMnEw==";
       };
     };
     "is-core-module-2.10.0" = {
@@ -3188,6 +3188,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz";
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
+      };
+    };
+    "js-sdsl-4.1.4" = {
+      name = "js-sdsl";
+      packageName = "js-sdsl";
+      version = "4.1.4";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.1.4.tgz";
+        sha512 = "Y2/yD55y5jteOAmY50JbUZYwk3CP3wnLPEZnlR1w9oKhITrBEtAxwuWKebFf8hMrPMgbYwFoWK/lH2sBkErELw==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -5692,13 +5701,13 @@ let
         sha512 = "hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==";
       };
     };
-    "update-browserslist-db-1.0.7" = {
+    "update-browserslist-db-1.0.8" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.0.7";
+      version = "1.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.7.tgz";
-        sha512 = "iN/XYesmZ2RmmWAiI4Z5rq0YqSiv0brj9Ce9CfhNE4xIW2h+MFxcgkxIzZ+ShkFPUkjU3gQ+3oypadD3RAMtrg==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.8.tgz";
+        sha512 = "GHg7C4M7oJSJYW/ED/5QOJ7nL/E0lwTOBGsOorA7jqHr8ExUhPfwAotIAmdSw/LWv3SMLSNpzTAgeLG9zaZKTA==";
       };
     };
     "uri-js-4.4.1" = {
@@ -5879,15 +5888,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.2.tgz";
         sha512 = "8kYisQ3z/SQ2kyjlNeQxbkkTNmVFoQCqkmGrzLH6A9ecPlgTbp3wDTnUNqaUxYr4vlAcloxx8zwy7G5WdguYNg==";
-      };
-    };
-    "vscode-languageserver-textdocument-1.0.5" = {
-      name = "vscode-languageserver-textdocument";
-      packageName = "vscode-languageserver-textdocument";
-      version = "1.0.5";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.5.tgz";
-        sha512 = "1ah7zyQjKBudnMiHbZmxz5bYNM9KKZYz+5VQLj+yr8l+9w3g+WAhCkUkWbhMEdC5u0ub4Ndiye/fDyS8ghIKQg==";
       };
     };
     "vscode-languageserver-textdocument-1.0.7" = {
@@ -6130,13 +6130,13 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.23.0";
+    version = "8.23.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.23.0.tgz";
-      sha512 = "pBG/XOn0MsJcKcTRLr27S5HpzQo4kLr+HjLQIyK4EiCsijDl/TB+h5uEuJU6bQ8Edvwz1XWOjpaP2qgnXGpTcA==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.23.1.tgz";
+      sha512 = "w7C1IXCc6fNqjpuYd0yPlcTKKmHlHHktRkzmBPZ+7cvNBQuiNjx0xaMTjAJGCafJhQkrFJooREv0CtrVzmHwqg==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.3.1"
+      sources."@eslint/eslintrc-1.3.2"
       sources."@humanwhocodes/config-array-0.10.4"
       sources."@humanwhocodes/gitignore-to-minimatch-1.0.2"
       sources."@humanwhocodes/module-importer-1.0.1"
@@ -6192,7 +6192,6 @@ in
       sources."flat-cache-3.0.4"
       sources."flatted-3.2.7"
       sources."fs.realpath-1.0.0"
-      sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.17.0"
@@ -6208,6 +6207,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."isexe-2.0.0"
+      sources."js-sdsl-4.1.4"
       sources."js-yaml-4.1.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
@@ -6272,7 +6272,7 @@ in
       sha512 = "pra1cvdhKZCmrJHqlnm+EmbNeBQgd9sycQSlhWTl0RSiJEhjA1G8RJuaIaU5am0APIGHts/QbD0ZofS8pV0GKw==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-1.3.1"
+      sources."@eslint/eslintrc-1.3.2"
       sources."@humanwhocodes/config-array-0.10.4"
       sources."@humanwhocodes/gitignore-to-minimatch-1.0.2"
       sources."@humanwhocodes/module-importer-1.0.1"
@@ -6306,7 +6306,7 @@ in
       sources."dir-glob-3.0.1"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.23.0"
+      sources."eslint-8.23.1"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6334,7 +6334,6 @@ in
       sources."flat-cache-3.0.4"
       sources."flatted-3.2.7"
       sources."fs.realpath-1.0.0"
-      sources."functional-red-black-tree-1.0.1"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.17.0"
@@ -6350,6 +6349,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."isexe-2.0.0"
+      sources."js-sdsl-4.1.4"
       sources."js-yaml-4.1.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
@@ -6484,7 +6484,7 @@ in
       sources."browserslist-4.21.3"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001393"
+      sources."caniuse-lite-1.0.30001397"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6502,7 +6502,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.247"
+      sources."electron-to-chromium-1.4.248"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6614,7 +6614,7 @@ in
       sources."type-fest-0.8.1"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
-      sources."update-browserslist-db-1.0.7"
+      sources."update-browserslist-db-1.0.8"
       sources."util-deprecate-1.0.2"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
@@ -7057,7 +7057,7 @@ in
       sources."is-arrayish-0.2.1"
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
-      sources."is-callable-1.2.4"
+      sources."is-callable-1.2.5"
       sources."is-core-module-2.10.0"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
@@ -7213,7 +7213,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.7.16"
+      sources."@types/node-18.7.17"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7434,10 +7434,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "1.1.2";
+    version = "1.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-1.1.2.tgz";
-      sha512 = "gQf4p3FvKKpShCwZclIh7b3VtmmuMEtur1xPz6pTH+ilaw3jUCmrcvLU5zz59/9RHBHkdP6XrR6p9RdQ8K+8KQ==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-1.2.0.tgz";
+      sha512 = "Ahxko4dKgOY/pGTMdzeVw/NTIZC4z33OqEs7xlR3VEV36IZX12OfJ8uwXSbmTJlCh1QQ12dpQgwUuNvSfbWB4w==";
     };
     dependencies = [
       sources."commander-9.4.0"
@@ -7469,7 +7469,7 @@ in
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
-      sources."vscode-languageserver-textdocument-1.0.5"
+      sources."vscode-languageserver-textdocument-1.0.7"
       sources."vscode-languageserver-types-3.17.2"
       sources."vscode-uri-3.0.3"
       sources."which-2.0.2"
