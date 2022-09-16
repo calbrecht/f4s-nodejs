@@ -1084,13 +1084,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.21.3" = {
+    "browserslist-4.21.4" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.21.3";
+      version = "4.21.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.3.tgz";
-        sha512 = "898rgRXLAyRkM1GryrrBHGkqA5hlpkV5MhtZwg9QXeiyLUYs2k00Un05aX5l2/yJIOObYKOpS2JNo8nJDE7fWQ==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.4.tgz";
+        sha512 = "CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw==";
       };
     };
     "bser-2.1.1" = {
@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001399" = {
+    "caniuse-lite-1.0.30001402" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001399";
+      version = "1.0.30001402";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001399.tgz";
-        sha512 = "4vQ90tMKS+FkvuVWS5/QY1+d805ODxZiKFzsU8o/RsVJz49ZSRR8EjykLJbqhzdPgadbX6wB538wOzle3JniRA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001402.tgz";
+        sha512 = "Mx4MlhXO5NwuvXGgVb+hg65HZ+bhUYsz8QtDGDo2QmaJS2GBX47Xfi2koL86lc8K+l+htXeTEB/Aeqvezoo6Ew==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.250" = {
+    "electron-to-chromium-1.4.254" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.250";
+      version = "1.4.254";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.250.tgz";
-        sha512 = "KDLKcPEKPK+Q3/LdKX6knDzqyh8B82EaHccTYuGJR2qp1ymyGAo5HMH2x2OwDgzOPHlINSLIIeVhlFdq6aJgNA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.254.tgz";
+        sha512 = "Sh/7YsHqQYkA6ZHuHMy24e6TE4eX6KZVsZb9E/DvU1nQRIrH4BflO/4k+83tfdYvDl+MObvlqHPRICzEdC9c6Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2974,13 +2974,13 @@ let
         sha512 = "gDYaKHJmnj4aWxyj6YHyXVpdQawtVLHU5cb+eztPGczf6cjuTdwve5ZIEfgXqH4e57An1D1AKf8CZ3kYrQRqYA==";
       };
     };
-    "is-callable-1.2.5" = {
+    "is-callable-1.2.6" = {
       name = "is-callable";
       packageName = "is-callable";
-      version = "1.2.5";
+      version = "1.2.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-callable/-/is-callable-1.2.5.tgz";
-        sha512 = "ZIWRujF6MvYGkEuHMYtFRkL2wAtFw89EHfKlXrkPkjQZZRWeh9L1q3SV13NIfHnqxugjLvAOkEHx9mb1zcMnEw==";
+        url = "https://registry.npmjs.org/is-callable/-/is-callable-1.2.6.tgz";
+        sha512 = "krO72EO2NptOGAX2KYyqbP9vYMlNAXdB53rq6f8LXY6RY7JdSR/3BD6wLUlPHSAesmY9vstNrjvqGaCiRK/91Q==";
       };
     };
     "is-core-module-2.10.0" = {
@@ -5152,13 +5152,13 @@ let
         sha512 = "D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==";
       };
     };
-    "sqlite3-5.1.0" = {
+    "sqlite3-5.1.1" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.1.0";
+      version = "5.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.1.0.tgz";
-        sha512 = "/cZl9DfeSQMWR5g9SdluHGt+YL3URetjtvgv1XPQx7rzXOFdZx30EnZj709wCEIznjjzZdo5Lmt5GUeNyGgUbQ==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.1.1.tgz";
+        sha512 = "mMinkrQr/LKJqFiFF+AF7imPSzRCCpTCreusZO3D/ssJHVjZOrbu2Caz+zPH5KTmGGXBxXMGSRDssL+44CLxvg==";
       };
     };
     "sshpk-1.17.0" = {
@@ -5944,13 +5944,13 @@ let
         sha512 = "8TEXQxlldWAuIODdukIb+TR5s+9Ds40eSJrw+1iDDA9IFORPjMELarNQE3myz5XIkWWpdprmJjm1/SxMlWOC8A==";
       };
     };
-    "vscode-uri-3.0.3" = {
+    "vscode-uri-3.0.5" = {
       name = "vscode-uri";
       packageName = "vscode-uri";
-      version = "3.0.3";
+      version = "3.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.3.tgz";
-        sha512 = "EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA==";
+        url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.5.tgz";
+        sha512 = "bBp2pi1o6ynwlnGL8Tt6UBL1w3VsVZtHCU/Sl73bRfqjno3jMcVSCybdY+hj+31A8FQOELZJWwY+shLVLtcNew==";
       };
     };
     "web-tree-sitter-0.20.7" = {
@@ -6481,10 +6481,10 @@ in
       sources."async-3.2.4"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.3"
+      sources."browserslist-4.21.4"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001399"
+      sources."caniuse-lite-1.0.30001402"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6502,7 +6502,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.250"
+      sources."electron-to-chromium-1.4.254"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6595,7 +6595,7 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.7.0"
       sources."socks-proxy-agent-6.2.1"
-      sources."sqlite3-5.1.0"
+      sources."sqlite3-5.1.1"
       sources."ssri-8.0.1"
       sources."stack-trace-0.0.10"
       sources."string-width-4.2.3"
@@ -7057,7 +7057,7 @@ in
       sources."is-arrayish-0.2.1"
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
-      sources."is-callable-1.2.5"
+      sources."is-callable-1.2.6"
       sources."is-core-module-2.10.0"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
@@ -7471,7 +7471,7 @@ in
       sources."vscode-languageserver-protocol-3.17.2"
       sources."vscode-languageserver-textdocument-1.0.7"
       sources."vscode-languageserver-types-3.17.2"
-      sources."vscode-uri-3.0.3"
+      sources."vscode-uri-3.0.5"
       sources."which-2.0.2"
       sources."yallist-4.0.0"
       sources."yocto-queue-1.0.0"
@@ -7778,7 +7778,7 @@ in
       sources."vscode-languageserver-textdocument-1.0.7"
       sources."vscode-languageserver-types-3.17.0-next.1"
       sources."vscode-nls-5.2.0"
-      sources."vscode-uri-3.0.3"
+      sources."vscode-uri-3.0.5"
       sources."wrappy-1.0.2"
       sources."yallist-2.1.2"
     ];
@@ -7820,7 +7820,7 @@ in
       sources."vscode-languageserver-textdocument-1.0.7"
       sources."vscode-languageserver-types-3.17.2"
       sources."vscode-nls-5.2.0"
-      sources."vscode-uri-3.0.3"
+      sources."vscode-uri-3.0.5"
       sources."yaml-2.0.0-11"
     ];
     buildInputs = globalBuildInputs;
