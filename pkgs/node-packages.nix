@@ -4918,13 +4918,13 @@ let
         sha512 = "rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==";
       };
     };
-    "safe-stable-stringify-2.3.1" = {
+    "safe-stable-stringify-2.4.0" = {
       name = "safe-stable-stringify";
       packageName = "safe-stable-stringify";
-      version = "2.3.1";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz";
-        sha512 = "kYBSfT+troD9cDA85VDnHZ1rpHC50O0g1e6WlGHVCz/g+JS+9WKLj+XwFYyR8UbrZN8ll9HUpDAAddY58MGisg==";
+        url = "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.4.0.tgz";
+        sha512 = "eehKHKpab6E741ud7ZIMcXhKcP6TSIezPkNZhy5U8xC6+VvrRdUA2tMgxGxaGl4cz7c2Ew5+mg5+wNB16KQqrA==";
       };
     };
     "safer-buffer-2.1.2" = {
@@ -6586,7 +6586,7 @@ in
       sources."retry-0.12.0"
       sources."rimraf-3.0.2"
       sources."safe-buffer-5.1.2"
-      sources."safe-stable-stringify-2.3.1"
+      sources."safe-stable-stringify-2.4.0"
       sources."safer-buffer-2.1.2"
       sources."semver-6.3.0"
       sources."set-blocking-2.0.0"
