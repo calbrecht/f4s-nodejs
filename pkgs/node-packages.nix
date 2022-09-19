@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001402" = {
+    "caniuse-lite-1.0.30001406" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001402";
+      version = "1.0.30001406";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001402.tgz";
-        sha512 = "Mx4MlhXO5NwuvXGgVb+hg65HZ+bhUYsz8QtDGDo2QmaJS2GBX47Xfi2koL86lc8K+l+htXeTEB/Aeqvezoo6Ew==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001406.tgz";
+        sha512 = "bWTlaXUy/rq0BBtYShc/jArYfBPjEV95euvZ8JVtO43oQExEN/WquoqpufFjNu4kSpi5cy5kMbNvzztWDfv1Jg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1750,13 +1750,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.254" = {
+    "electron-to-chromium-1.4.255" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.254";
+      version = "1.4.255";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.254.tgz";
-        sha512 = "Sh/7YsHqQYkA6ZHuHMy24e6TE4eX6KZVsZb9E/DvU1nQRIrH4BflO/4k+83tfdYvDl+MObvlqHPRICzEdC9c6Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.255.tgz";
+        sha512 = "H+mFNKow6gi2P5Gi2d1Fvd3TUEJlB9CF7zYaIV9T83BE3wP1xZ0mRPbNTm0KUjyd1QiVy7iKXuIcjlDtBQMiAQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5944,13 +5944,13 @@ let
         sha512 = "8TEXQxlldWAuIODdukIb+TR5s+9Ds40eSJrw+1iDDA9IFORPjMELarNQE3myz5XIkWWpdprmJjm1/SxMlWOC8A==";
       };
     };
-    "vscode-uri-3.0.5" = {
+    "vscode-uri-3.0.6" = {
       name = "vscode-uri";
       packageName = "vscode-uri";
-      version = "3.0.5";
+      version = "3.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.5.tgz";
-        sha512 = "bBp2pi1o6ynwlnGL8Tt6UBL1w3VsVZtHCU/Sl73bRfqjno3jMcVSCybdY+hj+31A8FQOELZJWwY+shLVLtcNew==";
+        url = "https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.6.tgz";
+        sha512 = "fmL7V1eiDBFRRnu+gfRWTzyPpNIHJTc4mWnFkwBUmO9U3KPgJAmTx7oxi2bl/Rh6HLdU7+4C9wlj0k2E4AdKFQ==";
       };
     };
     "web-tree-sitter-0.20.7" = {
@@ -6484,7 +6484,7 @@ in
       sources."browserslist-4.21.4"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001402"
+      sources."caniuse-lite-1.0.30001406"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6502,7 +6502,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.254"
+      sources."electron-to-chromium-1.4.255"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7471,7 +7471,7 @@ in
       sources."vscode-languageserver-protocol-3.17.2"
       sources."vscode-languageserver-textdocument-1.0.7"
       sources."vscode-languageserver-types-3.17.2"
-      sources."vscode-uri-3.0.5"
+      sources."vscode-uri-3.0.6"
       sources."which-2.0.2"
       sources."yallist-4.0.0"
       sources."yocto-queue-1.0.0"
@@ -7778,7 +7778,7 @@ in
       sources."vscode-languageserver-textdocument-1.0.7"
       sources."vscode-languageserver-types-3.17.0-next.1"
       sources."vscode-nls-5.2.0"
-      sources."vscode-uri-3.0.5"
+      sources."vscode-uri-3.0.6"
       sources."wrappy-1.0.2"
       sources."yallist-2.1.2"
     ];
@@ -7820,7 +7820,7 @@ in
       sources."vscode-languageserver-textdocument-1.0.7"
       sources."vscode-languageserver-types-3.17.2"
       sources."vscode-nls-5.2.0"
-      sources."vscode-uri-3.0.5"
+      sources."vscode-uri-3.0.6"
       sources."yaml-2.0.0-11"
     ];
     buildInputs = globalBuildInputs;
