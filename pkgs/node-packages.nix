@@ -337,13 +337,13 @@ let
         sha512 = "k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==";
       };
     };
-    "@humanwhocodes/config-array-0.10.4" = {
+    "@humanwhocodes/config-array-0.10.5" = {
       name = "_at_humanwhocodes_slash_config-array";
       packageName = "@humanwhocodes/config-array";
-      version = "0.10.4";
+      version = "0.10.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.10.4.tgz";
-        sha512 = "mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw==";
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.10.5.tgz";
+        sha512 = "XVVDtp+dVvRxMoxSiSfasYaG02VEe1qH5cKgMQJWhol6HwzbcqoCMJi8dAGoYAO57jhUyhI6cWuRiTcRaDaYug==";
       };
     };
     "@humanwhocodes/gitignore-to-minimatch-1.0.2" = {
@@ -1156,13 +1156,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001407" = {
+    "caniuse-lite-1.0.30001409" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001407";
+      version = "1.0.30001409";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001407.tgz";
-        sha512 = "4ydV+t4P7X3zH83fQWNDX/mQEzYomossfpViCOx9zHBSMV+rIe3LFqglHHtVyvNl1FhTNxPxs3jei82iqOW04w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001409.tgz";
+        sha512 = "V0mnJ5dwarmhYv8/MzhJ//aW68UpvnQBXv8lJ2QUsvn2pHcmAuNtu8hQEDz37XnA1iE+lRR9CIfGWWpgJ5QedQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2218,13 +2218,13 @@ let
         sha512 = "YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==";
       };
     };
-    "fb-watchman-2.0.1" = {
+    "fb-watchman-2.0.2" = {
       name = "fb-watchman";
       packageName = "fb-watchman";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fb-watchman/-/fb-watchman-2.0.1.tgz";
-        sha512 = "DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==";
+        url = "https://registry.npmjs.org/fb-watchman/-/fb-watchman-2.0.2.tgz";
+        sha512 = "p5161BqbuCaSnB8jIbzQHOlpgsPmK5rJVDfDKO91Axs5NC1uu3HRQm6wt9cd9/+GtQQIO53JdGXXoyDpTAsgYA==";
       };
     };
     "fecha-4.2.3" = {
@@ -6137,7 +6137,7 @@ in
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.2"
-      sources."@humanwhocodes/config-array-0.10.4"
+      sources."@humanwhocodes/config-array-0.10.5"
       sources."@humanwhocodes/gitignore-to-minimatch-1.0.2"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6273,7 +6273,7 @@ in
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.2"
-      sources."@humanwhocodes/config-array-0.10.4"
+      sources."@humanwhocodes/config-array-0.10.5"
       sources."@humanwhocodes/gitignore-to-minimatch-1.0.2"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6484,7 +6484,7 @@ in
       sources."browserslist-4.21.4"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001407"
+      sources."caniuse-lite-1.0.30001409"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6510,7 +6510,7 @@ in
       sources."err-code-2.0.3"
       sources."escalade-3.1.1"
       sources."escape-string-regexp-1.0.5"
-      sources."fb-watchman-2.0.1"
+      sources."fb-watchman-2.0.2"
       sources."fecha-4.2.3"
       sources."fn.name-1.1.0"
       sources."fs-minipass-2.1.0"
