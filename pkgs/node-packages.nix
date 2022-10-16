@@ -6173,6 +6173,7 @@ in
       sources."dir-glob-3.0.1"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
+      sources."eslint-8.25.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -7405,6 +7406,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
+      sources."typescript-4.8.4"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
