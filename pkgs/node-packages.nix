@@ -337,13 +337,13 @@ let
         sha512 = "k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==";
       };
     };
-    "@humanwhocodes/config-array-0.10.7" = {
+    "@humanwhocodes/config-array-0.11.6" = {
       name = "_at_humanwhocodes_slash_config-array";
       packageName = "@humanwhocodes/config-array";
-      version = "0.10.7";
+      version = "0.11.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.10.7.tgz";
-        sha512 = "MDl6D6sBsaV452/QSdX+4CXIjZhIcI0PELsxUjk4U828yd58vk3bTIvk/6w5FY+4hIy9sLW0sfrV7K7Kc++j/w==";
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.6.tgz";
+        sha512 = "jJr+hPTJYKyDILJfhNSHsjiwXYf26Flsz8DvNndOsHs5pwSnpGUEy8yzF0JYhCEvTDdV2vuOK5tt8BVhwO5/hg==";
       };
     };
     "@humanwhocodes/module-importer-1.0.1" = {
@@ -1147,13 +1147,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001422" = {
+    "caniuse-lite-1.0.30001423" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001422";
+      version = "1.0.30001423";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001422.tgz";
-        sha512 = "hSesn02u1QacQHhaxl/kNMZwqVG35Sz/8DgvmgedxSH8z9UUpcDYSPYgsj3x5dQNRcNp6BwpSfQfVzYUTm+fog==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001423.tgz";
+        sha512 = "09iwWGOlifvE1XuHokFMP7eR38a0JnajoyL3/i87c8ZjRWRrdKo1fqjNfugfBD0UDBIOz0U+jtNhJ0EPm1VleQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.25.0" = {
+    "eslint-8.26.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.25.0";
+      version = "8.26.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.25.0.tgz";
-        sha512 = "DVlJOZ4Pn50zcKW5bYH7GQK/9MsoQG2d5eDH0ebEkE8PbgzTTmtt/VTH9GGJ4BfeZCpBLqFfvsjX35UacUL83A==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.26.0.tgz";
+        sha512 = "kzJkpaw1Bfwheq4VXUezFriD1GxszX6dUekM7Z3aC2o4hju+tsR/XyTC3RcoSD7jmy9VkPU3+N6YjVU2e96Oyg==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -2567,15 +2567,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/globby/-/globby-10.0.2.tgz";
         sha512 = "7dUi7RvCoT/xast/o/dLN53oqND4yk0nsHkhRgn9w65C4PofCLOoJ39iSOg+qVDdWQPIEj+eszMHQ+aLVwwQSg==";
-      };
-    };
-    "globby-11.1.0" = {
-      name = "globby";
-      packageName = "globby";
-      version = "11.1.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/globby/-/globby-11.1.0.tgz";
-        sha512 = "jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==";
       };
     };
     "graceful-fs-4.2.10" = {
@@ -6139,14 +6130,14 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.25.0";
+    version = "8.26.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.25.0.tgz";
-      sha512 = "DVlJOZ4Pn50zcKW5bYH7GQK/9MsoQG2d5eDH0ebEkE8PbgzTTmtt/VTH9GGJ4BfeZCpBLqFfvsjX35UacUL83A==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.26.0.tgz";
+      sha512 = "kzJkpaw1Bfwheq4VXUezFriD1GxszX6dUekM7Z3aC2o4hju+tsR/XyTC3RcoSD7jmy9VkPU3+N6YjVU2e96Oyg==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.3"
-      sources."@humanwhocodes/config-array-0.10.7"
+      sources."@humanwhocodes/config-array-0.11.6"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6158,10 +6149,8 @@ in
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-4.3.0"
       sources."argparse-2.0.1"
-      sources."array-union-2.1.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."braces-3.0.2"
       sources."callsites-3.1.0"
       sources."chalk-4.1.2"
       sources."color-convert-2.0.1"
@@ -6170,10 +6159,9 @@ in
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
-      sources."dir-glob-3.0.1"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.25.0"
+      sources."eslint-8.26.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6187,16 +6175,10 @@ in
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
       sources."fast-deep-equal-3.1.3"
-      (sources."fast-glob-3.2.12" // {
-        dependencies = [
-          sources."glob-parent-5.1.2"
-        ];
-      })
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
       sources."fastq-1.13.0"
       sources."file-entry-cache-6.0.1"
-      sources."fill-range-7.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.0.4"
       sources."flatted-3.2.7"
@@ -6204,7 +6186,6 @@ in
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.17.0"
-      sources."globby-11.1.0"
       sources."grapheme-splitter-1.0.4"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.0"
@@ -6214,7 +6195,7 @@ in
       sources."inherits-2.0.4"
       sources."is-extglob-2.1.1"
       sources."is-glob-4.0.3"
-      sources."is-number-7.0.0"
+      sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
       sources."js-sdsl-4.1.5"
       sources."js-yaml-4.1.0"
@@ -6223,8 +6204,6 @@ in
       sources."levn-0.4.1"
       sources."locate-path-6.0.0"
       sources."lodash.merge-4.6.2"
-      sources."merge2-1.4.1"
-      sources."micromatch-4.0.5"
       sources."minimatch-3.1.2"
       sources."ms-2.1.2"
       sources."natural-compare-1.4.0"
@@ -6236,8 +6215,6 @@ in
       sources."path-exists-4.0.0"
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
-      sources."path-type-4.0.0"
-      sources."picomatch-2.3.1"
       sources."prelude-ls-1.2.1"
       sources."punycode-2.1.1"
       sources."queue-microtask-1.2.3"
@@ -6248,12 +6225,10 @@ in
       sources."run-parallel-1.2.0"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
-      sources."slash-3.0.0"
       sources."strip-ansi-6.0.1"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-7.2.0"
       sources."text-table-0.2.0"
-      sources."to-regex-range-5.0.1"
       sources."type-check-0.4.0"
       sources."type-fest-0.20.2"
       sources."uri-js-4.4.1"
@@ -6282,7 +6257,7 @@ in
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.3"
-      sources."@humanwhocodes/config-array-0.10.7"
+      sources."@humanwhocodes/config-array-0.11.6"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6294,10 +6269,8 @@ in
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-4.3.0"
       sources."argparse-2.0.1"
-      sources."array-union-2.1.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."braces-3.0.2"
       sources."callsites-3.1.0"
       (sources."chalk-4.1.2" // {
         dependencies = [
@@ -6311,10 +6284,9 @@ in
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
-      sources."dir-glob-3.0.1"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.25.0"
+      sources."eslint-8.26.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6328,16 +6300,10 @@ in
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
       sources."fast-deep-equal-3.1.3"
-      (sources."fast-glob-3.2.12" // {
-        dependencies = [
-          sources."glob-parent-5.1.2"
-        ];
-      })
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
       sources."fastq-1.13.0"
       sources."file-entry-cache-6.0.1"
-      sources."fill-range-7.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.0.4"
       sources."flatted-3.2.7"
@@ -6345,7 +6311,6 @@ in
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.17.0"
-      sources."globby-11.1.0"
       sources."grapheme-splitter-1.0.4"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.0"
@@ -6355,7 +6320,7 @@ in
       sources."inherits-2.0.4"
       sources."is-extglob-2.1.1"
       sources."is-glob-4.0.3"
-      sources."is-number-7.0.0"
+      sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
       sources."js-sdsl-4.1.5"
       sources."js-yaml-4.1.0"
@@ -6364,8 +6329,6 @@ in
       sources."levn-0.4.1"
       sources."locate-path-6.0.0"
       sources."lodash.merge-4.6.2"
-      sources."merge2-1.4.1"
-      sources."micromatch-4.0.5"
       sources."minimatch-3.1.2"
       sources."ms-2.1.2"
       sources."nanolru-1.0.0"
@@ -6378,8 +6341,6 @@ in
       sources."path-exists-4.0.0"
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
-      sources."path-type-4.0.0"
-      sources."picomatch-2.3.1"
       sources."prelude-ls-1.2.1"
       sources."punycode-2.1.1"
       sources."queue-microtask-1.2.3"
@@ -6390,12 +6351,10 @@ in
       sources."run-parallel-1.2.0"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
-      sources."slash-3.0.0"
       sources."strip-ansi-6.0.1"
       sources."strip-json-comments-3.1.1"
       sources."supports-color-8.1.1"
       sources."text-table-0.2.0"
-      sources."to-regex-range-5.0.1"
       sources."type-check-0.4.0"
       sources."type-fest-0.20.2"
       sources."uri-js-4.4.1"
@@ -6492,7 +6451,7 @@ in
       sources."browserslist-4.21.4"
       sources."bser-2.1.1"
       sources."cacache-15.3.0"
-      sources."caniuse-lite-1.0.30001422"
+      sources."caniuse-lite-1.0.30001423"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
