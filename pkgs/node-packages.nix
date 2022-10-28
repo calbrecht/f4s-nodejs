@@ -337,13 +337,13 @@ let
         sha512 = "k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==";
       };
     };
-    "@humanwhocodes/config-array-0.11.6" = {
+    "@humanwhocodes/config-array-0.11.7" = {
       name = "_at_humanwhocodes_slash_config-array";
       packageName = "@humanwhocodes/config-array";
-      version = "0.11.6";
+      version = "0.11.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.6.tgz";
-        sha512 = "jJr+hPTJYKyDILJfhNSHsjiwXYf26Flsz8DvNndOsHs5pwSnpGUEy8yzF0JYhCEvTDdV2vuOK5tt8BVhwO5/hg==";
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.7.tgz";
+        sha512 = "kBbPWzN8oVMLb0hOUYXhmxggL/1cJE6ydvjDIGi9EnAGUyA7cLVKQg+d/Dsm+KZwx2czGHrCmMVLiyg8s5JPKw==";
       };
     };
     "@humanwhocodes/module-importer-1.0.1" = {
@@ -6137,7 +6137,7 @@ in
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.3"
-      sources."@humanwhocodes/config-array-0.11.6"
+      sources."@humanwhocodes/config-array-0.11.7"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6257,7 +6257,7 @@ in
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.3"
-      sources."@humanwhocodes/config-array-0.11.6"
+      sources."@humanwhocodes/config-array-0.11.7"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
