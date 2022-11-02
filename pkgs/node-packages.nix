@@ -3496,13 +3496,13 @@ let
         sha512 = "Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==";
       };
     };
-    "lru-cache-7.14.0" = {
+    "lru-cache-7.14.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.14.0";
+      version = "7.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.14.0.tgz";
-        sha512 = "EIRtP1GrSJny0dqb50QXRUNBxHJhcpxHC++M5tD7RYbvLLn5KVWKsbyswSSqDuU15UFi3bgTQIY8nhDMeF6aDQ==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.14.1.tgz";
+        sha512 = "ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==";
       };
     };
     "make-dir-3.1.0" = {
@@ -5404,13 +5404,13 @@ let
         sha512 = "ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==";
       };
     };
-    "table-6.8.0" = {
+    "table-6.8.1" = {
       name = "table";
       packageName = "table";
-      version = "6.8.0";
+      version = "6.8.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.8.0.tgz";
-        sha512 = "s/fitrbVeEyHKFa7mFdkuQMWlH1Wgw/yEXMt5xACT4ZpzWFluehAxRtUUQKPuWhaLAWhFcVx6w3oC8VKaUfPGA==";
+        url = "https://registry.npmjs.org/table/-/table-6.8.1.tgz";
+        sha512 = "Y4X9zqrCftUhMeH2EptSSERdVKt/nEdijTOacGD/97EKjhQ/Qs8RTlEGABSJNNN8lac9kheH+af7yAkEWlgneA==";
       };
     };
     "tar-4.4.19" = {
@@ -6685,7 +6685,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.14.0"
+      sources."lru-cache-7.14.1"
       sources."make-fetch-happen-10.2.1"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.5"
@@ -7132,7 +7132,7 @@ in
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
       sources."supports-preserve-symlinks-flag-1.0.0"
-      (sources."table-6.8.0" // {
+      (sources."table-6.8.1" // {
         dependencies = [
           sources."ajv-8.11.0"
           sources."json-schema-traverse-1.0.0"
