@@ -922,22 +922,22 @@ let
         sha512 = "HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==";
       };
     };
-    "array.prototype.flat-1.3.0" = {
+    "array.prototype.flat-1.3.1" = {
       name = "array.prototype.flat";
       packageName = "array.prototype.flat";
-      version = "1.3.0";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/array.prototype.flat/-/array.prototype.flat-1.3.0.tgz";
-        sha512 = "12IUEkHsAhA4DY5s0FPgNXIdc8VRSqD9Zp78a5au9abH/SOBrsp082JOWFNTjkMozh8mqcdiKuaLGhPeYztxSw==";
+        url = "https://registry.npmjs.org/array.prototype.flat/-/array.prototype.flat-1.3.1.tgz";
+        sha512 = "roTU0KWIOmJ4DRLmwKd19Otg0/mT3qPNt0Qb3GWW8iObuZXxrjB/pzn0R3hqpRSWg4HCwqx+0vwOnWnvlOyeIA==";
       };
     };
-    "array.prototype.flatmap-1.3.0" = {
+    "array.prototype.flatmap-1.3.1" = {
       name = "array.prototype.flatmap";
       packageName = "array.prototype.flatmap";
-      version = "1.3.0";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/array.prototype.flatmap/-/array.prototype.flatmap-1.3.0.tgz";
-        sha512 = "PZC9/8TKAIxcWKdyeb77EzULHPrIX/tIZebLJUQOMR1OwYosT8yggdfWScfTBCDj5utONvOuPQQumYsU2ULbkg==";
+        url = "https://registry.npmjs.org/array.prototype.flatmap/-/array.prototype.flatmap-1.3.1.tgz";
+        sha512 = "8UGn9O1FDVvMNB0UlLv4voxRMze7+FpHyF5mSMRjWHUMlpoDViniy05870VlxhfgTnLbpuwTzvD76MTtWxB/mQ==";
       };
     };
     "asn1-0.2.6" = {
@@ -6894,8 +6894,8 @@ in
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
       sources."array-includes-3.1.5"
-      sources."array.prototype.flat-1.3.0"
-      sources."array.prototype.flatmap-1.3.0"
+      sources."array.prototype.flat-1.3.1"
+      sources."array.prototype.flatmap-1.3.1"
       sources."astral-regex-2.0.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
