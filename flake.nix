@@ -115,14 +115,14 @@
                 ln -s $modules/eslint_d/bin/eslint.js $modules/.bin/eslint
               '';
             });
-            jsonlint = (_nodePackages_latest.jsonlint.override {
-              dontNpmInstall = true;
-              preRebuild = ''
-                modules=$out/lib/node_modules
-                mkdir -p $modules/.bin
-                ln -s $modules/jsonlint/lib/cli.js $modules/.bin/jsonlint
-              '';
-            });
+            #jsonlint = (_nodePackages_latest.jsonlint.override {
+            #  dontNpmInstall = true;
+            #  preRebuild = ''
+            #    modules=$out/lib/node_modules
+            #    mkdir -p $modules/.bin
+            #    ln -s $modules/jsonlint/lib/cli.js $modules/.bin/jsonlint
+            #  '';
+            #});
             node-pre-gyp = (_nodePackages_latest.node-pre-gyp.override {
               dontNpmInstall = true;
               preRebuild = ''
