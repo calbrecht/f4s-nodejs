@@ -119,7 +119,7 @@
               dontNpmInstall = true;
               preRebuild = ''
                 modules=$out/lib/node_modules
-                #mkdir -p $modules/.bin
+                mkdir -p $modules/.bin
                 ln -s $modules/jsonlint/lib/cli.js $modules/.bin/jsonlint
               '';
             });
