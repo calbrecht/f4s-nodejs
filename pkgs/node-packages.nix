@@ -1903,13 +1903,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.26.0" = {
+    "eslint-8.27.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.26.0";
+      version = "8.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.26.0.tgz";
-        sha512 = "kzJkpaw1Bfwheq4VXUezFriD1GxszX6dUekM7Z3aC2o4hju+tsR/XyTC3RcoSD7jmy9VkPU3+N6YjVU2e96Oyg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.27.0.tgz";
+        sha512 = "0y1bfG2ho7mty+SiILVf9PfuRA49ek4Nc60Wmmu62QlobNR+CeXa4xXIJgcuwSQgZiWaPH+5BDsctpIW0PR/wQ==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==";
       };
     };
-    "espree-9.4.0" = {
+    "espree-9.4.1" = {
       name = "espree";
       packageName = "espree";
-      version = "9.4.0";
+      version = "9.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.4.0.tgz";
-        sha512 = "DQmnRpLj7f6TgN/NYb0MTzJXL+vJF9h3pHy4JhCIs3zwcgez8xmGg3sXHcEO97BrmO2OSvCwMdfdlyl+E9KjOw==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.4.1.tgz";
+        sha512 = "XwctdmTO6SIvCzd9810yyNzIrOrqNYV9Koizx4C/mRhf9uq0o4yHoCEU/670pOxOL/MSraektvSAji79kX90Vg==";
       };
     };
     "esprima-3.0.0" = {
@@ -4063,13 +4063,13 @@ let
         sha512 = "1mxKf0e58bvyjSCtKYY4sRe9itRk3PJpquJOjeIkz885CczcI4IvJJDLPS72oowuSh+pBxUFROpX+TU++hxhZQ==";
       };
     };
-    "object.entries-1.1.5" = {
+    "object.entries-1.1.6" = {
       name = "object.entries";
       packageName = "object.entries";
-      version = "1.1.5";
+      version = "1.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object.entries/-/object.entries-1.1.5.tgz";
-        sha512 = "TyxmjUoZggd4OrrU1W66FMDG6CuqJxsFvymeyXI51+vQLN67zYfZseptRge703kKQdo4uccgAKebXFcRCzk4+g==";
+        url = "https://registry.npmjs.org/object.entries/-/object.entries-1.1.6.tgz";
+        sha512 = "leTPzo4Zvg3pmbQ3rDK69Rl8GQvIqMWubrkxONG9/ojtFE2rD9fjMKfSI5BxW3osRH1m6VdzmqK8oAY9aT4x5w==";
       };
     };
     "object.fromentries-2.0.5" = {
@@ -6130,10 +6130,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.26.0";
+    version = "8.27.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.26.0.tgz";
-      sha512 = "kzJkpaw1Bfwheq4VXUezFriD1GxszX6dUekM7Z3aC2o4hju+tsR/XyTC3RcoSD7jmy9VkPU3+N6YjVU2e96Oyg==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.27.0.tgz";
+      sha512 = "0y1bfG2ho7mty+SiILVf9PfuRA49ek4Nc60Wmmu62QlobNR+CeXa4xXIJgcuwSQgZiWaPH+5BDsctpIW0PR/wQ==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.3.3"
@@ -6161,7 +6161,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.26.0"
+      sources."eslint-8.27.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6169,7 +6169,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.4.0"
+      sources."espree-9.4.1"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6286,7 +6286,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.26.0"
+      sources."eslint-8.27.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6294,7 +6294,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.4.0"
+      sources."espree-9.4.1"
       sources."esquery-1.4.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -7061,7 +7061,7 @@ in
       sources."object-inspect-1.12.2"
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.4"
-      sources."object.entries-1.1.5"
+      sources."object.entries-1.1.6"
       sources."object.fromentries-2.0.5"
       sources."object.hasown-1.1.1"
       sources."object.values-1.1.5"
