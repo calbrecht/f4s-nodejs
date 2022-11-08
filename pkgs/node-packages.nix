@@ -904,13 +904,13 @@ let
         sha512 = "kO/vVCacW9mnpn3WPWbTVlEnOabK2L7LWi2HViURtCM46y1zb6I8UMjx4LgbiqadTgHnLInUronwn3ampNTJtQ==";
       };
     };
-    "array-includes-3.1.5" = {
+    "array-includes-3.1.6" = {
       name = "array-includes";
       packageName = "array-includes";
-      version = "3.1.5";
+      version = "3.1.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/array-includes/-/array-includes-3.1.5.tgz";
-        sha512 = "iSDYZMMyTPkiFasVqfuAQnWAYcvO/SeBSCGKePoEthjp4LEMTe4uLc7b025o4jAZpHhihh8xPo99TNWUWWkGDQ==";
+        url = "https://registry.npmjs.org/array-includes/-/array-includes-3.1.6.tgz";
+        sha512 = "sgTbLvL6cNnw24FnbaDyjmvddQ2ML8arZsgaJhoABMoplz/4QRhtrYS+alr1BUM1Bwp6dhx8vVCBSLG+StwOFw==";
       };
     };
     "array-union-2.1.0" = {
@@ -5269,13 +5269,13 @@ let
         sha512 = "JySq+4mrPf9EsDBEDYMOb/lM7XQLulwg5R/m1r0PXEFqrV0qHvl58sdTilSXtKOflCsK2E8jxf+GKC0T07RWwQ==";
       };
     };
-    "string.prototype.trimstart-1.0.5" = {
+    "string.prototype.trimstart-1.0.6" = {
       name = "string.prototype.trimstart";
       packageName = "string.prototype.trimstart";
-      version = "1.0.5";
+      version = "1.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.5.tgz";
-        sha512 = "THx16TJCGlsN0o6dl2o6ncWUsdgnLRSA23rRE5pyGBw/mLr3Ej/R2LaqCtgP8VNMGZsvMWnf9ooZPyY2bHvUFg==";
+        url = "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.6.tgz";
+        sha512 = "omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==";
       };
     };
     "string_decoder-1.1.1" = {
@@ -6893,7 +6893,7 @@ in
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
-      sources."array-includes-3.1.5"
+      sources."array-includes-3.1.6"
       sources."array.prototype.flat-1.3.1"
       sources."array.prototype.flatmap-1.3.1"
       sources."astral-regex-2.0.0"
@@ -7126,7 +7126,7 @@ in
       sources."string-width-4.2.3"
       sources."string.prototype.matchall-4.0.8"
       sources."string.prototype.trimend-1.0.6"
-      sources."string.prototype.trimstart-1.0.5"
+      sources."string.prototype.trimstart-1.0.6"
       sources."strip-ansi-6.0.1"
       sources."strip-bom-3.0.0"
       sources."strip-json-comments-3.1.1"
