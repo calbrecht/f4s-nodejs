@@ -4729,13 +4729,13 @@ let
         sha512 = "8eEWsNCkV2rvwKLS1Cvp5agNjMhwRe2um+y32B2+3LqOzg4C9BBPs6vzAfV16Ivb8B9HPNKIqd8OrdBws8kNlQ==";
       };
     };
-    "regenerator-runtime-0.13.10" = {
+    "regenerator-runtime-0.13.11" = {
       name = "regenerator-runtime";
       packageName = "regenerator-runtime";
-      version = "0.13.10";
+      version = "0.13.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz";
-        sha512 = "KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==";
+        url = "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz";
+        sha512 = "kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==";
       };
     };
     "regexp.prototype.flags-1.4.3" = {
@@ -5620,13 +5620,13 @@ let
         sha512 = "RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==";
       };
     };
-    "typescript-4.8.4" = {
+    "typescript-4.9.3" = {
       name = "typescript";
       packageName = "typescript";
-      version = "4.8.4";
+      version = "4.9.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-4.8.4.tgz";
-        sha512 = "QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-4.9.3.tgz";
+        sha512 = "CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -6548,7 +6548,7 @@ in
       sources."promise-inflight-1.0.1"
       sources."promise-retry-2.0.1"
       sources."readable-stream-3.6.0"
-      sources."regenerator-runtime-0.13.10"
+      sources."regenerator-runtime-0.13.11"
       sources."require-relative-0.8.7"
       sources."retry-0.12.0"
       sources."rimraf-3.0.2"
@@ -7365,7 +7365,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-4.8.4"
+      sources."typescript-4.9.3"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -7381,10 +7381,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.8.4";
+    version = "4.9.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.8.4.tgz";
-      sha512 = "QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-4.9.3.tgz";
+      sha512 = "CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7713,7 +7713,7 @@ in
       sources."tough-cookie-2.5.0"
       sources."tunnel-agent-0.6.0"
       sources."tweetnacl-0.14.5"
-      sources."typescript-4.8.4"
+      sources."typescript-4.9.3"
       sources."universalify-2.0.0"
       sources."uri-js-4.4.1"
       sources."uuid-3.4.0"
