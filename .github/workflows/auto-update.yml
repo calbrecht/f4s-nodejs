@@ -13,13 +13,13 @@ jobs:
       git_user_name: github-actions
       git_user_mail: github-actions@github.com
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         # Nix Flakes doesn't work on shallow clones
         fetch-depth: 0
         repository: calbrecht/f4s-nodejs
         ref: main
-    - uses: cachix/install-nix-action@v12
+    - uses: cachix/install-nix-action@v18
       with:
         install_url: https://github.com/numtide/nix-unstable-installer/releases/download/nix-2.4pre20210604_8e6ee1b/install
         extra_nix_config: |
