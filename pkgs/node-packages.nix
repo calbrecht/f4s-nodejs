@@ -1471,13 +1471,13 @@ let
         sha512 = "NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==";
       };
     };
-    "commander-9.4.1" = {
+    "commander-9.5.0" = {
       name = "commander";
       packageName = "commander";
-      version = "9.4.1";
+      version = "9.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/commander/-/commander-9.4.1.tgz";
-        sha512 = "5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==";
+        url = "https://registry.npmjs.org/commander/-/commander-9.5.0.tgz";
+        sha512 = "KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==";
       };
     };
     "concat-map-0.0.1" = {
@@ -7692,7 +7692,7 @@ in
       sha512 = "FjdULHn9C8yJjNF66GEpSeBhwyFySSuTxlw5ZACWUIg7jtxbirDB9zZnlqANeekr22AFTVc+vsUx8ZCVlyX1rw==";
     };
     dependencies = [
-      sources."commander-9.4.1"
+      sources."commander-9.5.0"
       (sources."crypto-random-string-4.0.0" // {
         dependencies = [
           sources."type-fest-1.4.0"
@@ -7740,10 +7740,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.2.4";
+    version = "4.2.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.2.4.tgz";
-      sha512 = "7CXhDaMPtsQvY+78KPQdRkciPLqmqv6KlD/XqDuB7rG1SsyqpKpphd1rkSGI0IPA3TzXqSRVYy+SXmM73mTAIA==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.2.5.tgz";
+      sha512 = "JvxyqoMcRoiKm9FWojVx1tdWkUOkoARw4gc/lQIWmHtmzJngy1UrzfU6BNjRQA8NkZJkWHioqvLOVrEd+mVNKg==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
