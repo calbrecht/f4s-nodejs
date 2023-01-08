@@ -1120,13 +1120,13 @@ let
         sha512 = "08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==";
       };
     };
-    "aws4-1.11.0" = {
+    "aws4-1.12.0" = {
       name = "aws4";
       packageName = "aws4";
-      version = "1.11.0";
+      version = "1.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz";
-        sha512 = "xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==";
+        url = "https://registry.npmjs.org/aws4/-/aws4-1.12.0.tgz";
+        sha512 = "NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==";
       };
     };
     "balanced-match-1.0.2" = {
@@ -7861,7 +7861,7 @@ in
       })
       sources."asynckit-0.4.0"
       sources."aws-sign2-0.7.0"
-      sources."aws4-1.11.0"
+      sources."aws4-1.12.0"
       sources."balanced-match-1.0.2"
       sources."bcrypt-pbkdf-1.0.2"
       sources."brace-expansion-2.0.1"
