@@ -7796,10 +7796,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.9.2";
+    version = "1.9.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.9.2.tgz";
-      sha512 = "eXtUDcOpSXP+5exIY+eXJkEZSK/lwyV+fPcPlNwvwQq4deICfz5pgJL8nbG3PkZo0iowF3vWC5XT05L0oCjSzw==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.9.3.tgz";
+      sha512 = "DpW7Qrho9kiBvGj9V6SmKeXyuWO0Pb1g13/uHVlXZ1tljTRMV+fSIQyiWhRuntLp4u7R/VQuaM2EXD2aPnahow==";
     };
     dependencies = [
       sources."@azure/abort-controller-1.1.0"
@@ -8097,10 +8097,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.10.0";
+    version = "1.11.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.10.0.tgz";
-      sha512 = "bGE5lObc8PBXDQ8QKEWUVFw85/g1R3TVbtLPswNY+YXR2fLb1RF6PW3CKNI0gshXTSKleywhAyORrXi7fjwpzg==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.11.0.tgz";
+      sha512 = "1TBlhK1nMSpDiq3iZfAyDOg4xwagozZAnqr0AOrZG5UteMt3zbfhOVqhRuAunRIZ8kktfGMjsKxDjO+utGAJaA==";
     };
     dependencies = [
       sources."ajv-8.12.0"
