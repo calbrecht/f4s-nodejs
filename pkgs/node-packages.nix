@@ -1930,13 +1930,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.21.0" = {
+    "es-abstract-1.21.1" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.21.0";
+      version = "1.21.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.0.tgz";
-        sha512 = "GUGtW7eXQay0c+PRq0sGIKSdaBorfVqsCMhGHo4elP7YVqZu9nCZS4UkK4gv71gOWNMra/PaSKD3ao1oWExO0g==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.1.tgz";
+        sha512 = "QudMsPOz86xYz/1dG1OuGBKOELjCh99IIWHLzy5znUB6j8xG2yMA7bfTV86VSqKF+Y/H08vQPR+9jyXpuC6hfg==";
       };
     };
     "es-set-tostringtag-2.0.1" = {
@@ -4792,13 +4792,13 @@ let
         sha512 = "LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==";
       };
     };
-    "punycode-2.1.1" = {
+    "punycode-2.2.0" = {
       name = "punycode";
       packageName = "punycode";
-      version = "2.1.1";
+      version = "2.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz";
-        sha512 = "XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==";
+        url = "https://registry.npmjs.org/punycode/-/punycode-2.2.0.tgz";
+        sha512 = "LN6QV1IJ9ZhxWTNdktaPClrNfp8xdSAYS0Zk2ddX7XsXZAxckMHPCBcHRo0cTcEIgYPRiGEkmji3Idkh2yFtYw==";
       };
     };
     "qs-6.5.3" = {
@@ -6423,7 +6423,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."prelude-ls-1.2.1"
-      sources."punycode-2.1.1"
+      sources."punycode-2.2.0"
       sources."queue-microtask-1.2.3"
       sources."regexpp-3.2.0"
       sources."resolve-from-4.0.0"
@@ -6549,7 +6549,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."prelude-ls-1.2.1"
-      sources."punycode-2.1.1"
+      sources."punycode-2.2.0"
       sources."queue-microtask-1.2.3"
       sources."regexpp-3.2.0"
       sources."resolve-from-4.0.0"
@@ -7199,7 +7199,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.21.0"
+      sources."es-abstract-1.21.1"
       sources."es-set-tostringtag-2.0.1"
       sources."es-shim-unscopables-1.0.0"
       sources."es-to-primitive-1.2.1"
@@ -7379,7 +7379,7 @@ in
       sources."prelude-ls-1.2.1"
       sources."progress-2.0.3"
       sources."prop-types-15.8.1"
-      sources."punycode-2.1.1"
+      sources."punycode-2.2.0"
       sources."react-is-16.13.1"
       sources."read-pkg-3.0.0"
       sources."read-pkg-up-3.0.0"
@@ -7740,10 +7740,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.2.5";
+    version = "4.4.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.2.5.tgz";
-      sha512 = "JvxyqoMcRoiKm9FWojVx1tdWkUOkoARw4gc/lQIWmHtmzJngy1UrzfU6BNjRQA8NkZJkWHioqvLOVrEd+mVNKg==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.4.0.tgz";
+      sha512 = "Pp01OeSJ/ex+XvM/UokF54A1M+u8YoGYugVU3hMiE1PsfOFkKZqFXKBFhUAFprWxKcp5yHJdU5jfAzf2meZ9XQ==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -8005,7 +8005,7 @@ in
       sources."protobufjs-7.1.2"
       sources."pseudomap-1.0.2"
       sources."psl-1.9.0"
-      sources."punycode-2.1.1"
+      sources."punycode-2.2.0"
       sources."qs-6.5.3"
       sources."querystringify-2.2.0"
       sources."queue-microtask-1.2.3"
@@ -8107,7 +8107,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.2.0"
-      sources."punycode-2.1.1"
+      sources."punycode-2.2.0"
       sources."request-light-0.5.8"
       sources."require-from-string-2.0.2"
       sources."uri-js-4.4.1"
