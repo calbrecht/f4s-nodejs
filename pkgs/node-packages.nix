@@ -1246,13 +1246,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001442" = {
+    "caniuse-lite-1.0.30001443" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001442";
+      version = "1.0.30001443";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001442.tgz";
-        sha512 = "239m03Pqy0hwxYPYR5JwOIxRJfLTWtle9FV8zosfV5pHg+/51uD4nxcUlM8+mWWGfwKtt8lJNHnD3cWw9VZ6ow==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001443.tgz";
+        sha512 = "jUo8svymO8+Mkj3qbUbVjR8zv8LUGpGkUM/jKvc9SO2BvjCI980dp9fQbf/dyLs6RascPzgR4nhAKFA4OHeSaA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2029,13 +2029,13 @@ let
         sha512 = "hLeA2f5e06W1xyr/93/QJulN/rLbUVUmqTlexv9PRKHFwEC9ffJcH2LvJhMoEqYQBEYafedgGZXH2W8NUpt5lA==";
       };
     };
-    "eslint-import-resolver-node-0.3.6" = {
+    "eslint-import-resolver-node-0.3.7" = {
       name = "eslint-import-resolver-node";
       packageName = "eslint-import-resolver-node";
-      version = "0.3.6";
+      version = "0.3.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.6.tgz";
-        sha512 = "0En0w03NRVMn9Uiyn8YRPDKvWjxCWkslUEhGNTdGx15RvPJYQ+lbOlqrlNI2vEAs4pDYK4f/HN2TbDmk5TP0iw==";
+        url = "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.7.tgz";
+        sha512 = "gozW2blMLJCeFpBwugLTGyvVjNoeo1knonXAcatC6bjPBZitotxdWf7Gimr25N4c0AAOo4eOUfaG82IJPDpqCA==";
       };
     };
     "eslint-module-utils-2.7.4" = {
@@ -4207,13 +4207,13 @@ let
         sha512 = "rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==";
       };
     };
-    "object-inspect-1.12.2" = {
+    "object-inspect-1.12.3" = {
       name = "object-inspect";
       packageName = "object-inspect";
-      version = "1.12.2";
+      version = "1.12.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.2.tgz";
-        sha512 = "z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==";
+        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.3.tgz";
+        sha512 = "geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==";
       };
     };
     "object-keys-1.1.1" = {
@@ -6668,7 +6668,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001442"
+      sources."caniuse-lite-1.0.30001443"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7207,7 +7207,7 @@ in
       sources."eslint-7.18.0"
       sources."eslint-config-standard-16.0.3"
       sources."eslint-config-standard-jsx-10.0.0"
-      (sources."eslint-import-resolver-node-0.3.6" // {
+      (sources."eslint-import-resolver-node-0.3.7" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -7343,7 +7343,7 @@ in
         ];
       })
       sources."object-assign-4.1.1"
-      sources."object-inspect-1.12.2"
+      sources."object-inspect-1.12.3"
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.4"
       sources."object.entries-1.1.6"
