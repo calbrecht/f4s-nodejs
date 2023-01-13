@@ -1246,13 +1246,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001443" = {
+    "caniuse-lite-1.0.30001444" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001443";
+      version = "1.0.30001444";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001443.tgz";
-        sha512 = "jUo8svymO8+Mkj3qbUbVjR8zv8LUGpGkUM/jKvc9SO2BvjCI980dp9fQbf/dyLs6RascPzgR4nhAKFA4OHeSaA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001444.tgz";
+        sha512 = "ecER9xgJQVMqcrxThKptsW0pPxSae8R2RB87LNa+ivW9ppNWRHEplXcDzkCOP4LYWGj8hunXLqaiC41iBATNyg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -4045,6 +4045,15 @@ let
         sha512 = "ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==";
       };
     };
+    "node-fetch-2.6.8" = {
+      name = "node-fetch";
+      packageName = "node-fetch";
+      version = "2.6.8";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.8.tgz";
+        sha512 = "RZ6dBYuj8dRSfxpUSu+NsdF1dpPpluJxwOp+6IoDp/sH2QNDSvurYsAa+F1WxY2RjA1iP93xhcsUoYbF2XBqVg==";
+      };
+    };
     "node-gyp-8.4.1" = {
       name = "node-gyp";
       packageName = "node-gyp";
@@ -6668,7 +6677,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001443"
+      sources."caniuse-lite-1.0.30001444"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6788,7 +6797,7 @@ in
       sources."ms-2.1.2"
       sources."negotiator-0.6.3"
       sources."node-addon-api-4.3.0"
-      sources."node-fetch-2.6.7"
+      sources."node-fetch-2.6.8"
       (sources."node-gyp-8.4.1" // {
         dependencies = [
           sources."are-we-there-yet-3.0.1"
@@ -7989,7 +7998,7 @@ in
       sources."mkdirp-1.0.4"
       sources."ms-2.1.2"
       sources."nan-2.17.0"
-      sources."node-fetch-2.6.7"
+      sources."node-fetch-2.6.8"
       sources."nopt-6.0.0"
       sources."npmlog-5.0.1"
       sources."oauth-sign-0.9.0"
