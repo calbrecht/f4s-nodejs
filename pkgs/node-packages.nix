@@ -1246,13 +1246,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001444" = {
+    "caniuse-lite-1.0.30001445" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001444";
+      version = "1.0.30001445";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001444.tgz";
-        sha512 = "ecER9xgJQVMqcrxThKptsW0pPxSae8R2RB87LNa+ivW9ppNWRHEplXcDzkCOP4LYWGj8hunXLqaiC41iBATNyg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001445.tgz";
+        sha512 = "8sdQIdMztYmzfTMO6KfLny878Ln9c2M0fc7EH60IjlP4Dc4PiCy7K2Vl3ITmWgOyPgVQKa5x+UP/KqFsxj4mBg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1984,13 +1984,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.31.0" = {
+    "eslint-8.32.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.31.0";
+      version = "8.32.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.31.0.tgz";
-        sha512 = "0tQQEVdmPZ1UtUKXjX7EMm9BlgJ08G90IhWh0PKDCb3ZLsgAOHI8fYSIzYVZej92zsgq+ft0FGsxhJ3xo2tbuA==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.32.0.tgz";
+        sha512 = "nETVXpnthqKPFyuY2FNjz/bEd6nbosRgKbkgS/y1C7LJop96gYHWpiguLecMHQ2XCPxn77DS0P+68WzG6vkZSQ==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -2605,13 +2605,13 @@ let
         sha512 = "nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==";
       };
     };
-    "glob-8.0.3" = {
+    "glob-8.1.0" = {
       name = "glob";
       packageName = "glob";
-      version = "8.0.3";
+      version = "8.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-8.0.3.tgz";
-        sha512 = "ull455NHSHI/Y1FqGaaYFaLGkNMMJbavMrEGFXG/PGrg6y7sutWHUHrz6gy6WEBH6akM1M414dWKCNs+IhKdiQ==";
+        url = "https://registry.npmjs.org/glob/-/glob-8.1.0.tgz";
+        sha512 = "r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==";
       };
     };
     "glob-parent-5.1.2" = {
@@ -5953,6 +5953,15 @@ let
         sha512 = "1bonkGqQs5/fxGT5UchTgjGVnfysL0O8v1AYMBjqTbWQTFn721zaPGDYFkOKtfDgFiSgXM3KwaG3FMGfW4Ed9Q==";
       };
     };
+    "vscode-languageserver-textdocument-1.0.9" = {
+      name = "vscode-languageserver-textdocument";
+      packageName = "vscode-languageserver-textdocument";
+      version = "1.0.9";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.9.tgz";
+        sha512 = "NPfHVGFW2/fQEWHspr8x3PXhRgtFbuDZdl7p6ifuN3M7nk2Yjf5POr/NfDBuAiQG88DehDyJ7nGOT+p+edEtbw==";
+      };
+    };
     "vscode-languageserver-types-3.16.0" = {
       name = "vscode-languageserver-types";
       packageName = "vscode-languageserver-types";
@@ -6193,10 +6202,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.31.0";
+    version = "8.32.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.31.0.tgz";
-      sha512 = "0tQQEVdmPZ1UtUKXjX7EMm9BlgJ08G90IhWh0PKDCb3ZLsgAOHI8fYSIzYVZej92zsgq+ft0FGsxhJ3xo2tbuA==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.32.0.tgz";
+      sha512 = "nETVXpnthqKPFyuY2FNjz/bEd6nbosRgKbkgS/y1C7LJop96gYHWpiguLecMHQ2XCPxn77DS0P+68WzG6vkZSQ==";
     };
     dependencies = [
       sources."@eslint/eslintrc-1.4.1"
@@ -6224,7 +6233,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.31.0"
+      sources."eslint-8.32.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6349,7 +6358,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.31.0"
+      sources."eslint-8.32.0"
       sources."eslint-scope-7.1.1"
       (sources."eslint-utils-3.0.0" // {
         dependencies = [
@@ -6524,7 +6533,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001444"
+      sources."caniuse-lite-1.0.30001445"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6778,7 +6787,7 @@ in
       (sources."cacache-16.1.3" // {
         dependencies = [
           sources."brace-expansion-2.0.1"
-          sources."glob-8.0.3"
+          sources."glob-8.1.0"
           sources."minimatch-5.1.4"
         ];
       })
@@ -7615,10 +7624,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.9.3";
+    version = "1.9.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.9.3.tgz";
-      sha512 = "DpW7Qrho9kiBvGj9V6SmKeXyuWO0Pb1g13/uHVlXZ1tljTRMV+fSIQyiWhRuntLp4u7R/VQuaM2EXD2aPnahow==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.9.4.tgz";
+      sha512 = "iRYwXogGCu9NxWHN5UYqaKeAd9u+MDC8Mhvrwt+stRluSYWjyFqwQGVSuPStW0P8pFgSZ80mOthlA933wKRGKA==";
     };
     dependencies = [
       sources."@azure/abort-controller-1.1.0"
@@ -7751,7 +7760,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."gauge-3.0.2"
       sources."getpass-0.1.7"
-      sources."glob-8.0.3"
+      sources."glob-8.1.0"
       sources."glob-parent-5.1.2"
       sources."graceful-fs-4.2.10"
       sources."har-schema-2.0.0"
@@ -7891,7 +7900,7 @@ in
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
-      sources."vscode-languageserver-textdocument-1.0.8"
+      sources."vscode-languageserver-textdocument-1.0.9"
       sources."vscode-languageserver-types-3.17.2"
       sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.7"
@@ -7938,7 +7947,7 @@ in
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      sources."vscode-languageserver-textdocument-1.0.8"
+      sources."vscode-languageserver-textdocument-1.0.9"
       sources."vscode-languageserver-types-3.17.2"
       sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.7"
