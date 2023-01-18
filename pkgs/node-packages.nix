@@ -7559,10 +7559,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.5.0";
+    version = "4.5.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.5.0.tgz";
-      sha512 = "Vnq+3KScmrj6MYujzUhiZ4DJDMI/Pyc5EC2gxi1bIW8Qg+ASlOeUnm485/3Q6Ro3jNf+T6E9opQFbh6O606xfg==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.5.1.tgz";
+      sha512 = "5vCFA1xwsuRcAt0qaFLhRgUoBskUTGwRpaiXKBrDw1WXWS+d3kkdBjTbrGouxuFcb2OrOPYSXf41xsEbEG8u/Q==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
