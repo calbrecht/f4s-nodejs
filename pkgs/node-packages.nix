@@ -1246,13 +1246,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001445" = {
+    "caniuse-lite-1.0.30001446" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001445";
+      version = "1.0.30001446";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001445.tgz";
-        sha512 = "8sdQIdMztYmzfTMO6KfLny878Ln9c2M0fc7EH60IjlP4Dc4PiCy7K2Vl3ITmWgOyPgVQKa5x+UP/KqFsxj4mBg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001446.tgz";
+        sha512 = "fEoga4PrImGcwUUGEol/PoFCSBnSkA9drgdkxXkJLsUBOnJ8rs3zDv6ApqYXGQFOyMPsjh79naWhF4DAxbF8rw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -4702,13 +4702,13 @@ let
         sha512 = "LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==";
       };
     };
-    "punycode-2.2.0" = {
+    "punycode-2.3.0" = {
       name = "punycode";
       packageName = "punycode";
-      version = "2.2.0";
+      version = "2.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/punycode/-/punycode-2.2.0.tgz";
-        sha512 = "LN6QV1IJ9ZhxWTNdktaPClrNfp8xdSAYS0Zk2ddX7XsXZAxckMHPCBcHRo0cTcEIgYPRiGEkmji3Idkh2yFtYw==";
+        url = "https://registry.npmjs.org/punycode/-/punycode-2.3.0.tgz";
+        sha512 = "rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==";
       };
     };
     "qs-6.5.3" = {
@@ -6279,7 +6279,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."prelude-ls-1.2.1"
-      sources."punycode-2.2.0"
+      sources."punycode-2.3.0"
       sources."queue-microtask-1.2.3"
       sources."regexpp-3.2.0"
       sources."resolve-from-4.0.0"
@@ -6405,7 +6405,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."prelude-ls-1.2.1"
-      sources."punycode-2.2.0"
+      sources."punycode-2.3.0"
       sources."queue-microtask-1.2.3"
       sources."regexpp-3.2.0"
       sources."resolve-from-4.0.0"
@@ -6524,7 +6524,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001445"
+      sources."caniuse-lite-1.0.30001446"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7235,7 +7235,7 @@ in
       sources."prelude-ls-1.2.1"
       sources."progress-2.0.3"
       sources."prop-types-15.8.1"
-      sources."punycode-2.2.0"
+      sources."punycode-2.3.0"
       sources."react-is-16.13.1"
       sources."read-pkg-3.0.0"
       sources."read-pkg-up-3.0.0"
@@ -7824,7 +7824,7 @@ in
       sources."protobufjs-7.1.2"
       sources."pseudomap-1.0.2"
       sources."psl-1.9.0"
-      sources."punycode-2.2.0"
+      sources."punycode-2.3.0"
       sources."qs-6.5.3"
       sources."querystringify-2.2.0"
       sources."queue-microtask-1.2.3"
@@ -7926,7 +7926,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.2.0"
-      sources."punycode-2.2.0"
+      sources."punycode-2.3.0"
       sources."request-light-0.5.8"
       sources."require-from-string-2.0.2"
       sources."uri-js-4.4.1"
