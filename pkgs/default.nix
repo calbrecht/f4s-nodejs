@@ -7,7 +7,10 @@ let
   };
 in
   nodePackages // {
-    import-js = nodePackages.import-js.override (oldAttrs: {
-      buildInputs = oldAttrs.buildInputs ++ [ nodePackages.node-pre-gyp ];
+    import-js = nodePackages.import-js.override (old: {
+      buildInputs = old.buildInputs ++ [ nodePackages.node-pre-gyp ];
+    });
+    typescript-language-server = nodePackages.typescript-language-server.override (old: {
+      buildInputs = old.buildInputs ++ [ nodePackages.typescript ];
     });
   }
