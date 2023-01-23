@@ -742,13 +742,13 @@ let
         sha512 = "sOUTGn6h1SfQ+gbgqC364jLFBw2lnFqkgF3q0WovEHRLMrVD1sd5aufqi/aJObLekJO+Aq5z646U4Oxy6shXMA==";
       };
     };
-    "@vscode/l10n-0.0.10" = {
+    "@vscode/l10n-0.0.11" = {
       name = "_at_vscode_slash_l10n";
       packageName = "@vscode/l10n";
-      version = "0.0.10";
+      version = "0.0.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.10.tgz";
-        sha512 = "E1OCmDcDWa0Ya7vtSjp/XfHFGqYJfh+YPC1RkATU71fTac+j1JjCcB3qwSzmlKAighx2WxhLlfhS0RwAN++PFQ==";
+        url = "https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.11.tgz";
+        sha512 = "ukOMWnCg1tCvT7WnDfsUKQOFDQGsyR5tNgRpwmqi+5/vzU3ghdDXzvIM4IOPdSb3OeSsBNvmSL8nxIVOqi2WXA==";
       };
     };
     "JSV-4.0.2" = {
@@ -778,13 +778,13 @@ let
         sha512 = "nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==";
       };
     };
-    "acorn-8.8.1" = {
+    "acorn-8.8.2" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.8.1";
+      version = "8.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.8.1.tgz";
-        sha512 = "7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.8.2.tgz";
+        sha512 = "xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==";
       };
     };
     "acorn-jsx-5.3.2" = {
@@ -1246,13 +1246,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001446" = {
+    "caniuse-lite-1.0.30001447" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001446";
+      version = "1.0.30001447";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001446.tgz";
-        sha512 = "fEoga4PrImGcwUUGEol/PoFCSBnSkA9drgdkxXkJLsUBOnJ8rs3zDv6ApqYXGQFOyMPsjh79naWhF4DAxbF8rw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001447.tgz";
+        sha512 = "bdKU1BQDPeEXe9A39xJnGtY0uRq/z5osrnXUw0TcK+EYno45Y+U7QU9HhHEyzvMDffpYadFXi3idnSNkcwLkTw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5782,15 +5782,6 @@ let
         sha512 = "7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==";
       };
     };
-    "urijs-1.19.11" = {
-      name = "urijs";
-      packageName = "urijs";
-      version = "1.19.11";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/urijs/-/urijs-1.19.11.tgz";
-        sha512 = "HXgFDgDommxn5/bIv0cnQZsPhHDA90NPHD6+c/v21U5+Sx5hoP8+dP9IZXBU1gIfvdRfhG8cel9QNPeionfcCQ==";
-      };
-    };
     "url-parse-1.5.10" = {
       name = "url-parse";
       packageName = "url-parse";
@@ -5854,22 +5845,22 @@ let
         sha512 = "ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==";
       };
     };
-    "vscode-css-languageservice-6.2.1" = {
+    "vscode-css-languageservice-6.2.2" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "6.2.1";
+      version = "6.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.1.tgz";
-        sha512 = "FMaMjB2LQdkHjTCP2CWh2S94xuGsxSc8xr0H9nAACVd/iUDyZLoKFjwoB+mA3v0rpCH2U5vVCVwxyULy61CgqA==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.2.tgz";
+        sha512 = "K3Bl/cYGNlH4MgVtBIYJr9Qj0g3BVMUtioOCc5PJFSlgLPVHpWV5RY5jSDH3hYlldWjokIkXMk1ABMY4bimG7g==";
       };
     };
-    "vscode-html-languageservice-5.0.3" = {
+    "vscode-html-languageservice-5.0.4" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "5.0.3";
+      version = "5.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.0.3.tgz";
-        sha512 = "6rfrtcHhXDMXmC5pR2WXrx02HiNCzQDynOBMn+53zLxr2hvZrDzoc0QgC0FaFGfcglf7GeOsfhkWvJBFC/a70g==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.0.4.tgz";
+        sha512 = "tvrySfpglu4B2rQgWGVO/IL+skvU7kBkQotRlxA7ocSyRXOZUd6GA13XHkxo8LPe07KWjeoBlN1aVGqdfTK4xA==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6206,7 +6197,7 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."acorn-8.8.1"
+      sources."acorn-8.8.2"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6326,7 +6317,7 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."acorn-8.8.1"
+      sources."acorn-8.8.2"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6524,7 +6515,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001446"
+      sources."caniuse-lite-1.0.30001447"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7542,10 +7533,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "3.0.2";
+    version = "3.0.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.0.2.tgz";
-      sha512 = "KJ5kdKzdlNO0mfHbnb9nDKiL244fEd/fqW+b8trVchaLcCFo1aAd0sGX/vP563tdstBew/P1TzKLTnYa17/b8A==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.0.3.tgz";
+      sha512 = "7FQOXbyWQOnRmOujX/Td2/mBICLuDaVdecALzwx5x7CreV5/GL8+o1KLIMvS7D3/OShV0CiRGmkNmF3Y5L/pdg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7559,10 +7550,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.5.1";
+    version = "4.5.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.5.1.tgz";
-      sha512 = "5vCFA1xwsuRcAt0qaFLhRgUoBskUTGwRpaiXKBrDw1WXWS+d3kkdBjTbrGouxuFcb2OrOPYSXf41xsEbEG8u/Q==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.5.2.tgz";
+      sha512 = "5G3rQHcDm3Zs5F5LOkCmpWCgEQsynpzIAoEQxo81w2XzA1l6qovRWuEIIqJstsO5khXaFpTJ2yGdSBBUPxBctw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7591,7 +7582,6 @@ in
       sources."to-regex-range-5.0.1"
       sources."tr46-0.0.3"
       sources."turndown-7.1.1"
-      sources."urijs-1.19.11"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
@@ -7661,7 +7651,7 @@ in
         ];
       })
       sources."@types/tunnel-0.0.3"
-      sources."@vscode/l10n-0.0.10"
+      sources."@vscode/l10n-0.0.11"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
       sources."ajv-6.12.6"
@@ -7886,8 +7876,8 @@ in
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
       sources."verror-1.10.0"
-      sources."vscode-css-languageservice-6.2.1"
-      sources."vscode-html-languageservice-5.0.3"
+      sources."vscode-css-languageservice-6.2.2"
+      sources."vscode-html-languageservice-5.0.4"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
