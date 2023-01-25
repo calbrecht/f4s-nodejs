@@ -1246,13 +1246,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001447" = {
+    "caniuse-lite-1.0.30001448" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001447";
+      version = "1.0.30001448";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001447.tgz";
-        sha512 = "bdKU1BQDPeEXe9A39xJnGtY0uRq/z5osrnXUw0TcK+EYno45Y+U7QU9HhHEyzvMDffpYadFXi3idnSNkcwLkTw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001448.tgz";
+        sha512 = "tq2YI+MJnooG96XpbTRYkBxLxklZPOdLmNIOdIhvf7SNJan6u5vCKum8iT7ZfCt70m1GPkuC7P3TtX6UuhupuA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5845,13 +5845,13 @@ let
         sha512 = "ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==";
       };
     };
-    "vscode-css-languageservice-6.2.2" = {
+    "vscode-css-languageservice-6.2.3" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "6.2.2";
+      version = "6.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.2.tgz";
-        sha512 = "K3Bl/cYGNlH4MgVtBIYJr9Qj0g3BVMUtioOCc5PJFSlgLPVHpWV5RY5jSDH3hYlldWjokIkXMk1ABMY4bimG7g==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.3.tgz";
+        sha512 = "EAyhyIVHpEaf+GjtI+tVe7SekdoANfG0aubnspsQwak3Qkimn/97FpAufNyXk636ngW05pjNKAR9zyTCzo6avQ==";
       };
     };
     "vscode-html-languageservice-5.0.4" = {
@@ -6515,7 +6515,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001447"
+      sources."caniuse-lite-1.0.30001448"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7550,10 +7550,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.5.3";
+    version = "4.5.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.5.3.tgz";
-      sha512 = "34H512+qYa9vqkoorA5wkULaJCb6STVtgAOKcpCCovM4EPgJOxt7IPIkghNFTmuwFRaUDZm2r/dZ4C0GROpfig==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.5.4.tgz";
+      sha512 = "5sYXE1r2oiHjDe1zmNb0sn58MewYrDZwXuP0Rup6errwPJfXAONSLn300i35u773lN1yNJxYZZqVJ4uAgeKzmw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7876,7 +7876,7 @@ in
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
       sources."verror-1.10.0"
-      sources."vscode-css-languageservice-6.2.2"
+      sources."vscode-css-languageservice-6.2.3"
       sources."vscode-html-languageservice-5.0.4"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
