@@ -5575,13 +5575,13 @@ let
         sha512 = "Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==";
       };
     };
-    "tslib-2.4.1" = {
+    "tslib-2.5.0" = {
       name = "tslib";
       packageName = "tslib";
-      version = "2.4.1";
+      version = "2.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tslib/-/tslib-2.4.1.tgz";
-        sha512 = "tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==";
+        url = "https://registry.npmjs.org/tslib/-/tslib-2.5.0.tgz";
+        sha512 = "336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==";
       };
     };
     "tsutils-2.29.0" = {
@@ -7550,10 +7550,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.5.4";
+    version = "4.6.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.5.4.tgz";
-      sha512 = "5sYXE1r2oiHjDe1zmNb0sn58MewYrDZwXuP0Rup6errwPJfXAONSLn300i35u773lN1yNJxYZZqVJ4uAgeKzmw==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.6.0.tgz";
+      sha512 = "Wa0kyE1Wv6SeFIxzd+z3bsOTGV1rrLAizbUAWz9/xAzFqI9djffjgxJJ6elC8SoUbo9JwLrOdqR25SsfRx3Thg==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7863,7 +7863,7 @@ in
       sources."to-regex-range-5.0.1"
       sources."tough-cookie-4.1.2"
       sources."tr46-0.0.3"
-      sources."tslib-2.4.1"
+      sources."tslib-2.5.0"
       sources."tunnel-0.0.6"
       sources."tunnel-agent-0.6.0"
       sources."turndown-7.1.1"
