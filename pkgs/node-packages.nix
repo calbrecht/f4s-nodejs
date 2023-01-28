@@ -2650,13 +2650,13 @@ let
         sha512 = "BWICuzzDvDoH54NHKCseDanAhE3CeDorgDL5MT6LMXXj2WCnd9UC2szdk4AWLfjdgNBCXLUanXYcpBBKOSWGwg==";
       };
     };
-    "globals-13.19.0" = {
+    "globals-13.20.0" = {
       name = "globals";
       packageName = "globals";
-      version = "13.19.0";
+      version = "13.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globals/-/globals-13.19.0.tgz";
-        sha512 = "dkQ957uSRWHw7CFXLUtUHQI3g3aWApYhfNR2O6jn/907riyTYKVBmxYVROkBcY614FSSeSJh7Xm7SrUWCxvJMQ==";
+        url = "https://registry.npmjs.org/globals/-/globals-13.20.0.tgz";
+        sha512 = "Qg5QtVkCy/kv3FUSlu4ukeZDVf9ee0iXLAUYX13gbR17bnejFTzr4iS9bY7kwCf1NztRNm1t91fjOiyx4CSwPQ==";
       };
     };
     "globalthis-1.0.3" = {
@@ -6239,7 +6239,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
-      sources."globals-13.19.0"
+      sources."globals-13.20.0"
       sources."grapheme-splitter-1.0.4"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.4"
@@ -6364,7 +6364,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
-      sources."globals-13.19.0"
+      sources."globals-13.20.0"
       sources."grapheme-splitter-1.0.4"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.4"
