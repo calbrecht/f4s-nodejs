@@ -1246,13 +1246,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001449" = {
+    "caniuse-lite-1.0.30001450" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001449";
+      version = "1.0.30001450";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001449.tgz";
-        sha512 = "CPB+UL9XMT/Av+pJxCKGhdx+yg1hzplvFJQlJ2n68PyQGMz9L/E2zCyLdOL8uasbouTUgnPl+y0tccI/se+BEw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001450.tgz";
+        sha512 = "qMBmvmQmFXaSxexkjjfMvD5rnDL0+m+dUMZKoDYsGG8iZN29RuYh9eRoMvKsT6uMAWlyUUGDEQGJJYjzCIO9ew==";
       };
     };
     "cardinal-1.0.0" = {
@@ -3991,15 +3991,6 @@ let
         sha512 = "wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==";
       };
     };
-    "node-fetch-2.6.8" = {
-      name = "node-fetch";
-      packageName = "node-fetch";
-      version = "2.6.8";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.8.tgz";
-        sha512 = "RZ6dBYuj8dRSfxpUSu+NsdF1dpPpluJxwOp+6IoDp/sH2QNDSvurYsAa+F1WxY2RjA1iP93xhcsUoYbF2XBqVg==";
-      };
-    };
     "node-fetch-2.6.9" = {
       name = "node-fetch";
       packageName = "node-fetch";
@@ -6524,7 +6515,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001449"
+      sources."caniuse-lite-1.0.30001450"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7555,10 +7546,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.6.1";
+    version = "4.6.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.6.1.tgz";
-      sha512 = "3pzB92+0/+rrR4TdONFhOtczPLQBgobu+27/X2icnS32YzgdMJd7GMzM4V6nBZsrl5jMUY4W/0ExSVGIV3o4aw==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.6.2.tgz";
+      sha512 = "71mfSt3Q+EMkMCsTRB+26ysRXVxDEyhB0B9gDarxqeUHSc0GAr5CpIql/xeOo0cK5NiNgpOc/xzSj/3wBwc+bg==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7578,7 +7569,7 @@ in
       sources."is-number-7.0.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.5"
-      sources."node-fetch-2.6.8"
+      sources."node-fetch-2.6.9"
       sources."picomatch-2.3.1"
       sources."queue-microtask-1.2.3"
       sources."reusify-1.0.4"
