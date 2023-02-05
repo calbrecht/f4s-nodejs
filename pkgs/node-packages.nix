@@ -715,13 +715,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.11.18" = {
+    "@types/node-18.11.19" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.11.18";
+      version = "18.11.19";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.11.18.tgz";
-        sha512 = "DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.11.19.tgz";
+        sha512 = "YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -3784,13 +3784,13 @@ let
         sha512 = "DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==";
       };
     };
-    "minipass-4.0.1" = {
+    "minipass-4.0.2" = {
       name = "minipass";
       packageName = "minipass";
-      version = "4.0.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-4.0.1.tgz";
-        sha512 = "V9esFpNbK0arbN3fm2sxDKqMYgIp7XtVdE4Esj+PE4Qaaxdg1wIw48ITQIOn1sc8xXSmUviVL3cyjMqPlrVkiA==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-4.0.2.tgz";
+        sha512 = "4Hbzei7ZyBp+1aw0874YWpKOubZd/jc53/XU+gkYry1QV+VvrbO8icLM5CUtm4F0hyXn85DXYKEMIS26gitD3A==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6590,7 +6590,7 @@ in
         ];
       })
       sources."minimatch-3.1.2"
-      sources."minipass-4.0.1"
+      sources."minipass-4.0.2"
       (sources."minipass-collect-1.0.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -6842,7 +6842,7 @@ in
       sources."strip-ansi-6.0.1"
       (sources."tar-6.1.13" // {
         dependencies = [
-          sources."minipass-4.0.1"
+          sources."minipass-4.0.2"
         ];
       })
       sources."unique-filename-2.0.1"
@@ -7307,7 +7307,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.11.18"
+      sources."@types/node-18.11.19"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7529,10 +7529,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "3.0.3";
+    version = "3.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.0.3.tgz";
-      sha512 = "7FQOXbyWQOnRmOujX/Td2/mBICLuDaVdecALzwx5x7CreV5/GL8+o1KLIMvS7D3/OShV0CiRGmkNmF3Y5L/pdg==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.1.0.tgz";
+      sha512 = "tc3kUTDEGOMKc96JKQrP3edRx42FzgpPXgUcmHoFJ+6Phgdt101Z9kypD6nxPX4kE7F6xBj/U9Caltf/uttAMA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7640,7 +7640,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.10.0"
-      sources."@types/node-18.11.18"
+      sources."@types/node-18.11.19"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
@@ -7780,7 +7780,7 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-5.1.6"
-      sources."minipass-4.0.1"
+      sources."minipass-4.0.2"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
