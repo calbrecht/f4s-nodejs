@@ -4018,13 +4018,13 @@ let
         sha512 = "O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==";
       };
     };
-    "node-releases-2.0.9" = {
+    "node-releases-2.0.10" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "2.0.9";
+      version = "2.0.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.9.tgz";
-        sha512 = "2xfmOrRkGogbTK9R6Leda0DGiXeY3p2NJpy4+gNCffdUvV6mdEJnaDEic1i3Ec2djAo8jWYoJMR5PB0MSMpxUA==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.10.tgz";
+        sha512 = "5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==";
       };
     };
     "nomnom-1.8.1" = {
@@ -4666,13 +4666,13 @@ let
         sha512 = "vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==";
       };
     };
-    "protobufjs-7.1.2" = {
+    "protobufjs-7.2.1" = {
       name = "protobufjs";
       packageName = "protobufjs";
-      version = "7.1.2";
+      version = "7.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.1.2.tgz";
-        sha512 = "4ZPTPkXCdel3+L81yw3dG6+Kq3umdWKh7Dc7GW/CpNk4SX3hK58iPCWeCyhVTDrbkNeKrYNZ7EojM5WDaEWTLQ==";
+        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.1.tgz";
+        sha512 = "L3pCItypTnPK27+CS8nuhZMYtsY+i8dqdq2vZsYHlG17CnWp1DWPQ/sos0vOKrj1fHEAzo3GBqSHLaeZyKUCDA==";
       };
     };
     "pseudomap-1.0.2" = {
@@ -6643,7 +6643,7 @@ in
         ];
       })
       sources."node-int64-0.4.0"
-      sources."node-releases-2.0.9"
+      sources."node-releases-2.0.10"
       sources."nopt-5.0.0"
       sources."npmlog-5.0.1"
       sources."object-assign-4.1.1"
@@ -7601,10 +7601,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.9.4";
+    version = "1.9.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.9.4.tgz";
-      sha512 = "iRYwXogGCu9NxWHN5UYqaKeAd9u+MDC8Mhvrwt+stRluSYWjyFqwQGVSuPStW0P8pFgSZ80mOthlA933wKRGKA==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.9.5.tgz";
+      sha512 = "5iU2b84SLE3JOlfGU/g6XCzioEdcflmpHRxPLKEMhEzV43DHgBwbdsTagDtXKtO50hi8osrzA85/HOCglrylKA==";
     };
     dependencies = [
       sources."@azure/abort-controller-1.1.0"
@@ -7803,7 +7803,7 @@ in
       sources."picomatch-2.3.1"
       sources."process-0.11.10"
       sources."proto-list-1.2.4"
-      sources."protobufjs-7.1.2"
+      sources."protobufjs-7.2.1"
       sources."pseudomap-1.0.2"
       sources."psl-1.9.0"
       sources."punycode-2.3.0"
