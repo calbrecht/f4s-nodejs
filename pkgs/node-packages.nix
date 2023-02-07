@@ -715,13 +715,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.11.19" = {
+    "@types/node-18.13.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.11.19";
+      version = "18.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.11.19.tgz";
-        sha512 = "YUgMWAQBWLObABqrvx8qKO1enAvBUdjZOAWQ5grBAkp5LQv45jBvYKZ3oFS9iKRCQyFjqw6iuEa1vmFqtxYLZw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.13.0.tgz";
+        sha512 = "gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -731,6 +731,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.2.tgz";
         sha512 = "DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==";
+      };
+    };
+    "@types/triple-beam-1.3.2" = {
+      name = "_at_types_slash_triple-beam";
+      packageName = "@types/triple-beam";
+      version = "1.3.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@types/triple-beam/-/triple-beam-1.3.2.tgz";
+        sha512 = "txGIh+0eDFzKGC25zORnswy+br1Ha7hj5cMVwKIU7+s0U2AxxJru/jZSMU6OC9MJWP6+pc/hc6ZjyZShpsyY2g==";
       };
     };
     "@types/tunnel-0.0.3" = {
@@ -1813,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.286" = {
+    "electron-to-chromium-1.4.288" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.286";
+      version = "1.4.288";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.286.tgz";
-        sha512 = "Vp3CVhmYpgf4iXNKAucoQUDcCrBQX3XLBtwgFqP9BUXuucgvAV9zWp1kYU7LL9j4++s9O+12cb3wMtN4SJy6UQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.288.tgz";
+        sha512 = "8s9aJf3YiokIrR+HOQzNOGmEHFXVUQzXM/JaViVvKdCkNUjS+lEa/uT7xw3nDVG/IgfxiIwUGkwJ6AR1pTpYsQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3577,13 +3586,13 @@ let
         sha512 = "jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw==";
       };
     };
-    "logform-2.4.2" = {
+    "logform-2.5.1" = {
       name = "logform";
       packageName = "logform";
-      version = "2.4.2";
+      version = "2.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/logform/-/logform-2.4.2.tgz";
-        sha512 = "W4c9himeAwXEdZ05dQNerhFz2XG80P9Oj0loPUMV23VC2it0orMHQhJm4hdnnor3rd1HsGf6a2lPwBM1zeXHGw==";
+        url = "https://registry.npmjs.org/logform/-/logform-2.5.1.tgz";
+        sha512 = "9FyqAm9o9NKKfiAKfZoYo9bGXXuwMkxQiQttkT4YjjVtQVIQtK6LmVtlxmCaFswo6N4AfEkHqZTV0taDtPotNg==";
       };
     };
     "long-5.2.1" = {
@@ -3784,13 +3793,13 @@ let
         sha512 = "DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==";
       };
     };
-    "minipass-4.0.2" = {
+    "minipass-4.0.3" = {
       name = "minipass";
       packageName = "minipass";
-      version = "4.0.2";
+      version = "4.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-4.0.2.tgz";
-        sha512 = "4Hbzei7ZyBp+1aw0874YWpKOubZd/jc53/XU+gkYry1QV+VvrbO8icLM5CUtm4F0hyXn85DXYKEMIS26gitD3A==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-4.0.3.tgz";
+        sha512 = "OW2r4sQ0sI+z5ckEt5c1Tri4xTgZwYDxpE54eqWlQloQRoWtXjqt9udJ5Z4dSv7wK+nfFI7FRXyCpBSft+gpFw==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -4666,13 +4675,13 @@ let
         sha512 = "vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==";
       };
     };
-    "protobufjs-7.2.1" = {
+    "protobufjs-7.2.2" = {
       name = "protobufjs";
       packageName = "protobufjs";
-      version = "7.2.1";
+      version = "7.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.1.tgz";
-        sha512 = "L3pCItypTnPK27+CS8nuhZMYtsY+i8dqdq2vZsYHlG17CnWp1DWPQ/sos0vOKrj1fHEAzo3GBqSHLaeZyKUCDA==";
+        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.2.tgz";
+        sha512 = "++PrQIjrom+bFDPpfmqXfAGSQs40116JRrqqyf53dymUMvvb5d/LMRyicRoF1AUKoXVS1/IgJXlEgcpr4gTF3Q==";
       };
     };
     "pseudomap-1.0.2" = {
@@ -6495,6 +6504,7 @@ in
       })
       sources."@npmcli/move-file-1.1.2"
       sources."@tootallnate/once-1.1.2"
+      sources."@types/triple-beam-1.3.2"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
       sources."agentkeepalive-4.2.1"
@@ -6533,7 +6543,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.286"
+      sources."electron-to-chromium-1.4.288"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6579,7 +6589,7 @@ in
       sources."json5-2.2.3"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
-      sources."logform-2.4.2"
+      sources."logform-2.5.1"
       sources."lru-cache-5.1.1"
       sources."make-dir-3.1.0"
       (sources."make-fetch-happen-9.1.0" // {
@@ -6590,7 +6600,7 @@ in
         ];
       })
       sources."minimatch-3.1.2"
-      sources."minipass-4.0.2"
+      sources."minipass-4.0.3"
       (sources."minipass-collect-1.0.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -6842,7 +6852,7 @@ in
       sources."strip-ansi-6.0.1"
       (sources."tar-6.1.13" // {
         dependencies = [
-          sources."minipass-4.0.2"
+          sources."minipass-4.0.3"
         ];
       })
       sources."unique-filename-2.0.1"
@@ -7307,7 +7317,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.11.19"
+      sources."@types/node-18.13.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7640,7 +7650,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.10.0"
-      sources."@types/node-18.11.19"
+      sources."@types/node-18.13.0"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
@@ -7780,7 +7790,7 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-5.1.6"
-      sources."minipass-4.0.2"
+      sources."minipass-4.0.3"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -7803,7 +7813,7 @@ in
       sources."picomatch-2.3.1"
       sources."process-0.11.10"
       sources."proto-list-1.2.4"
-      sources."protobufjs-7.2.1"
+      sources."protobufjs-7.2.2"
       sources."pseudomap-1.0.2"
       sources."psl-1.9.0"
       sources."punycode-2.3.0"
