@@ -1255,13 +1255,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001451" = {
+    "caniuse-lite-1.0.30001452" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001451";
+      version = "1.0.30001452";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001451.tgz";
-        sha512 = "XY7UbUpGRatZzoRft//5xOa69/1iGJRBlrieH6QYrkKLIFn3m7OVEJ81dSrKoy2BnKsdbX5cLrOispZNYo9v2w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001452.tgz";
+        sha512 = "Lkp0vFjMkBB3GTpLR8zk4NwW5EdRdnitwYJHDOOKIU85x4ckYCPQ+9WlVvSVClHxVReefkUMtWZH2l9KGlD51w==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5899,6 +5899,15 @@ let
         sha512 = "RY7HwI/ydoC1Wwg4gJ3y6LpU9FJRZAUnTYMXthqhFXXu77ErDd/xkREpGuk4MyYkk4a+XDWAMqe0S3KkelYQEQ==";
       };
     };
+    "vscode-jsonrpc-8.1.0" = {
+      name = "vscode-jsonrpc";
+      packageName = "vscode-jsonrpc";
+      version = "8.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-8.1.0.tgz";
+        sha512 = "6TDy/abTQk+zDGYazgbIPc+4JoXdwC8NHU9Pbn4UJP1fehUyZmM4RHp5IthX7A6L5KS30PRui+j+tbbMMMafdw==";
+      };
+    };
     "vscode-languageserver-7.0.0" = {
       name = "vscode-languageserver";
       packageName = "vscode-languageserver";
@@ -5935,6 +5944,15 @@ let
         sha512 = "8kYisQ3z/SQ2kyjlNeQxbkkTNmVFoQCqkmGrzLH6A9ecPlgTbp3wDTnUNqaUxYr4vlAcloxx8zwy7G5WdguYNg==";
       };
     };
+    "vscode-languageserver-protocol-3.17.3" = {
+      name = "vscode-languageserver-protocol";
+      packageName = "vscode-languageserver-protocol";
+      version = "3.17.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.3.tgz";
+        sha512 = "924/h0AqsMtA5yK22GgMtCYiMdCOtWTSGgUOkgEDX+wk2b0x4sAfLiO4NxBxqbiVtz7K7/1/RgVrVI0NClZwqA==";
+      };
+    };
     "vscode-languageserver-textdocument-1.0.8" = {
       name = "vscode-languageserver-textdocument";
       packageName = "vscode-languageserver-textdocument";
@@ -5969,6 +5987,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.2.tgz";
         sha512 = "zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==";
+      };
+    };
+    "vscode-languageserver-types-3.17.3" = {
+      name = "vscode-languageserver-types";
+      packageName = "vscode-languageserver-types";
+      version = "3.17.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.3.tgz";
+        sha512 = "SYU4z1dL0PyIMd4Vj8YOqFvHu7Hz/enbWtpfnVbJHU4Nd1YNYx8u0ennumc6h48GQNeOLxmwySmnADouT/AuZA==";
       };
     };
     "vscode-nls-5.2.0" = {
@@ -6525,7 +6552,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001451"
+      sources."caniuse-lite-1.0.30001452"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7880,9 +7907,18 @@ in
       sources."verror-1.10.0"
       sources."vscode-css-languageservice-6.2.3"
       sources."vscode-html-languageservice-5.0.4"
-      sources."vscode-jsonrpc-8.0.2"
-      sources."vscode-languageserver-8.0.2"
-      sources."vscode-languageserver-protocol-3.17.2"
+      sources."vscode-jsonrpc-8.1.0"
+      (sources."vscode-languageserver-8.0.2" // {
+        dependencies = [
+          sources."vscode-jsonrpc-8.0.2"
+          sources."vscode-languageserver-protocol-3.17.2"
+        ];
+      })
+      (sources."vscode-languageserver-protocol-3.17.3" // {
+        dependencies = [
+          sources."vscode-languageserver-types-3.17.3"
+        ];
+      })
       sources."vscode-languageserver-textdocument-1.0.9"
       sources."vscode-languageserver-types-3.17.2"
       sources."vscode-nls-5.2.0"
@@ -7931,7 +7967,7 @@ in
         ];
       })
       sources."vscode-languageserver-textdocument-1.0.9"
-      sources."vscode-languageserver-types-3.17.2"
+      sources."vscode-languageserver-types-3.17.3"
       sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.7"
       sources."yaml-2.0.0-11"
