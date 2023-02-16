@@ -1255,13 +1255,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001453" = {
+    "caniuse-lite-1.0.30001454" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001453";
+      version = "1.0.30001454";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001453.tgz";
-        sha512 = "R9o/uySW38VViaTrOtwfbFEiBFUh7ST3uIG4OEymIG3/uKdHDO4xk/FaqfUw0d+irSUyFPy3dZszf9VvSTPnsA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001454.tgz";
+        sha512 = "4E63M5TBbgDoA9dQoFRdjL6iAmzTrz3rwYWoKDlvnvyvBxjCZ0rrUoX3THhEMie0/RYuTCeMbeTYLGAWgnLwEg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.299" = {
+    "electron-to-chromium-1.4.300" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.299";
+      version = "1.4.300";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.299.tgz";
-        sha512 = "lQ7ijJghH6pCGbfWXr6EY+KYCMaRSjgsY925r1p/TlpSfVM1VjHTcn1gAc15VM4uwti283X6QtjPTXdpoSGiZQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.300.tgz";
+        sha512 = "tHLIBkKaxvG6NnDWuLgeYrz+LTwAnApHm2R3KBNcRrFn0qLmTrqQeB4X4atfN6YJbkOOOSdRBeQ89OfFUelnEQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2182,13 +2182,13 @@ let
         sha512 = "eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==";
       };
     };
-    "esquery-1.4.1" = {
+    "esquery-1.4.2" = {
       name = "esquery";
       packageName = "esquery";
-      version = "1.4.1";
+      version = "1.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/esquery/-/esquery-1.4.1.tgz";
-        sha512 = "3ZggxvMv5EEY1ssUVyHSVt0oPreyBfbUi1XikJVfjFiBeBDLdrb0IWoDiEwqT/2sUQi0TGaWtFhOGDD8RTpXgQ==";
+        url = "https://registry.npmjs.org/esquery/-/esquery-1.4.2.tgz";
+        sha512 = "JVSoLdTlTDkmjFmab7H/9SL9qGSyjElT3myyKp7krqjVFQCDLmj1QFaCLRFBszBKI0XVZaiiXvuPIX3ZwHe1Ng==";
       };
     };
     "esrecurse-4.3.0" = {
@@ -3649,13 +3649,13 @@ let
         sha512 = "ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==";
       };
     };
-    "lru-cache-7.15.0" = {
+    "lru-cache-7.16.0" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.15.0";
+      version = "7.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.15.0.tgz";
-        sha512 = "LKpNuyKR1lRsqN5DatvMOkW2nmUAwI22HoQK604nhs+WiRWSIC0MFUKq2XYUKv1fCVPK9Cro4d4Il3DxM80/fQ==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.16.0.tgz";
+        sha512 = "VJBdeMa9Bz27NNlx+DI/YXGQtXdjUU+9gdfN1rYfra7vtTjhodl5tVNmR42bo+ORHuDqDT+lGAUAb+lzvY42Bw==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6269,7 +6269,7 @@ in
       })
       sources."eslint-visitor-keys-3.3.0"
       sources."espree-9.4.1"
-      sources."esquery-1.4.1"
+      sources."esquery-1.4.2"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -6394,7 +6394,7 @@ in
       })
       sources."eslint-visitor-keys-3.3.0"
       sources."espree-9.4.1"
-      sources."esquery-1.4.1"
+      sources."esquery-1.4.2"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -6561,7 +6561,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001453"
+      sources."caniuse-lite-1.0.30001454"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6579,7 +6579,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.299"
+      sources."electron-to-chromium-1.4.300"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6847,7 +6847,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.15.0"
+      sources."lru-cache-7.16.0"
       sources."make-fetch-happen-10.2.1"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.6"
@@ -7141,7 +7141,7 @@ in
         ];
       })
       sources."esprima-4.0.1"
-      (sources."esquery-1.4.1" // {
+      (sources."esquery-1.4.2" // {
         dependencies = [
           sources."estraverse-5.3.0"
         ];
