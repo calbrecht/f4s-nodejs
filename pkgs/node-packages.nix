@@ -715,13 +715,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.13.0" = {
+    "@types/node-18.14.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.13.0";
+      version = "18.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.13.0.tgz";
-        sha512 = "gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.14.0.tgz";
+        sha512 = "5EWrvLmglK+imbCJY0+INViFWUHg1AHel1sq4ZVSfdcNqGy9Edv3UB9IIzzg+xPaUcAgZYcfVs2fBcwDeZzU0A==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -1255,13 +1255,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001454" = {
+    "caniuse-lite-1.0.30001456" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001454";
+      version = "1.0.30001456";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001454.tgz";
-        sha512 = "4E63M5TBbgDoA9dQoFRdjL6iAmzTrz3rwYWoKDlvnvyvBxjCZ0rrUoX3THhEMie0/RYuTCeMbeTYLGAWgnLwEg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001456.tgz";
+        sha512 = "XFHJY5dUgmpMV25UqaD4kVq2LsiaU5rS8fb0f17pCoXQiQslzmFgnfOxfvo1bTpTqf7dwG/N/05CnLCnOEKmzA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.300" = {
+    "electron-to-chromium-1.4.302" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.300";
+      version = "1.4.302";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.300.tgz";
-        sha512 = "tHLIBkKaxvG6NnDWuLgeYrz+LTwAnApHm2R3KBNcRrFn0qLmTrqQeB4X4atfN6YJbkOOOSdRBeQ89OfFUelnEQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.302.tgz";
+        sha512 = "Uk7C+7aPBryUR1Fwvk9VmipBcN9fVsqBO57jV2ZjTm+IZ6BMNqu7EDVEg2HxCNufk6QcWlFsBkhQyQroB2VWKw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3649,13 +3649,13 @@ let
         sha512 = "ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==";
       };
     };
-    "lru-cache-7.16.0" = {
+    "lru-cache-7.16.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.16.0";
+      version = "7.16.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.16.0.tgz";
-        sha512 = "VJBdeMa9Bz27NNlx+DI/YXGQtXdjUU+9gdfN1rYfra7vtTjhodl5tVNmR42bo+ORHuDqDT+lGAUAb+lzvY42Bw==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.16.1.tgz";
+        sha512 = "9kkuMZHnLH/8qXARvYSjNvq8S1GYFFzynQTAfKeaJ0sIrR3PUPuu37Z+EiIANiZBvpfTf2B5y8ecDLSMWlLv+w==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6561,7 +6561,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001454"
+      sources."caniuse-lite-1.0.30001456"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6579,7 +6579,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.300"
+      sources."electron-to-chromium-1.4.302"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6847,7 +6847,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.16.0"
+      sources."lru-cache-7.16.1"
       sources."make-fetch-happen-10.2.1"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.6"
@@ -7353,7 +7353,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.13.0"
+      sources."@types/node-18.14.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7686,7 +7686,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.10.0"
-      sources."@types/node-18.13.0"
+      sources."@types/node-18.14.0"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
