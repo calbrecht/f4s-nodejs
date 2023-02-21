@@ -94,13 +94,13 @@ let
         sha512 = "PuxUbxcW6ZYe656yL3EAhpy7qXKq0DmYsrJLpbB8XrsCP9Nm+XCg9XFMb5vIDliPD7+U/+M+QJlH17XOcB7eXA==";
       };
     };
-    "@babel/generator-7.21.0" = {
+    "@babel/generator-7.21.1" = {
       name = "_at_babel_slash_generator";
       packageName = "@babel/generator";
-      version = "7.21.0";
+      version = "7.21.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.21.0.tgz";
-        sha512 = "z/zN3SePOtxN1/vPFdqrkuJGCD2Vx469+dSbNRD+4TF2+6e4Of5exHqAtcfL/2Nwu0RN0QsFwjyDBFwdUMzNSA==";
+        url = "https://registry.npmjs.org/@babel/generator/-/generator-7.21.1.tgz";
+        sha512 = "1lT45bAYlQhFn/BHivJs43AiW2rg3/UbLyShGfF3C0KmHvO5fSghWd5kBJy30kpRRucGzXStvnnCFniCR2kXAA==";
       };
     };
     "@babel/helper-compilation-targets-7.20.7" = {
@@ -229,13 +229,13 @@ let
         sha512 = "u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==";
       };
     };
-    "@babel/parser-7.21.0" = {
+    "@babel/parser-7.21.1" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.21.0";
+      version = "7.21.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.0.tgz";
-        sha512 = "ONjtg4renj14A9pj3iA5T5+r5Eijxbr2eNIkMBTC74occDSsRZUpe8vowmowAjFR1imWlkD8eEmjYXiREZpGZg==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.1.tgz";
+        sha512 = "JzhBFpkuhBNYUY7qs+wTzNmyCWUHEaAFpQQD2YfU1rPL38/L43Wvid0fFkiOCnHvsGncRZgEPyGnltABLcVDTg==";
       };
     };
     "@babel/plugin-syntax-flow-7.18.6" = {
@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.303" = {
+    "electron-to-chromium-1.4.305" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.303";
+      version = "1.4.305";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.303.tgz";
-        sha512 = "XaqiQhVsGO5ymf/Lg6XEGpv2h8b5AFqQDQ9fQckolNP2VtD2VL1pn1TIx1SSYsf0srfXVi2Sm7n/K3slJSX3ig==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.305.tgz";
+        sha512 = "WETy6tG0CT5gm1O+xCbyapWNsCcmIvrn4NHViIGYo2AT8FV2qUCXdaB+WqYxSv/vS5mFqhBYnfZAAkVArjBmUg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3649,13 +3649,13 @@ let
         sha512 = "ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==";
       };
     };
-    "lru-cache-7.16.1" = {
+    "lru-cache-7.16.2" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.16.1";
+      version = "7.16.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.16.1.tgz";
-        sha512 = "9kkuMZHnLH/8qXARvYSjNvq8S1GYFFzynQTAfKeaJ0sIrR3PUPuu37Z+EiIANiZBvpfTf2B5y8ecDLSMWlLv+w==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.16.2.tgz";
+        sha512 = "t6D6OM05Y3f+61zNnXh/+0D69kAgJKVEWLuWL1r38CIHRPTWpNjwpR7S+nmiQlG5GmUB1BDiiMjU1Ihs4YBLlg==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6485,7 +6485,7 @@ in
       sources."@babel/code-frame-7.18.6"
       sources."@babel/compat-data-7.21.0"
       sources."@babel/core-7.21.0"
-      (sources."@babel/generator-7.21.0" // {
+      (sources."@babel/generator-7.21.1" // {
         dependencies = [
           sources."@jridgewell/gen-mapping-0.3.2"
         ];
@@ -6504,7 +6504,7 @@ in
       sources."@babel/helper-validator-option-7.21.0"
       sources."@babel/helpers-7.21.0"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.21.0"
+      sources."@babel/parser-7.21.1"
       sources."@babel/plugin-syntax-flow-7.18.6"
       sources."@babel/plugin-syntax-jsx-7.18.6"
       sources."@babel/plugin-syntax-typescript-7.20.0"
@@ -6579,7 +6579,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.303"
+      sources."electron-to-chromium-1.4.305"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6847,7 +6847,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.16.1"
+      sources."lru-cache-7.16.2"
       sources."make-fetch-happen-10.2.1"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.6"
