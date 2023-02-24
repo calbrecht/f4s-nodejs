@@ -1822,13 +1822,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.309" = {
+    "electron-to-chromium-1.4.311" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.309";
+      version = "1.4.311";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.309.tgz";
-        sha512 = "U7DTiKe4h+irqBG6h4EZ0XXaZuJj4md3xIXXaGSYhwiumPZ4BSc6rgf9UD0hVUMaeP/jB0q5pKWCPxvhO8fvZA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.311.tgz";
+        sha512 = "RoDlZufvrtr2Nx3Yx5MB8jX3aHIxm8nRWPJm3yVvyHmyKaRvn90RjzB6hNnt0AkhS3IInJdyRfQb4mWhPvUjVw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3802,13 +3802,13 @@ let
         sha512 = "DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==";
       };
     };
-    "minipass-4.2.0" = {
+    "minipass-4.2.1" = {
       name = "minipass";
       packageName = "minipass";
-      version = "4.2.0";
+      version = "4.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-4.2.0.tgz";
-        sha512 = "ExlilAIS7zJ2EWUMaVXi14H+FnZ18kr17kFkGemMqBx6jW0m8P6XfqwYVPEG53ENlgsED+alVP9ZxC3JzkK23Q==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-4.2.1.tgz";
+        sha512 = "KS4CHIsDfOZetnT+u6fwxyFADXLamtkPxkGScmmtTW//MlRrImV+LtbmbJpLQ86Hw7km/utbfEfndhGBrfwvlA==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6579,7 +6579,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.309"
+      sources."electron-to-chromium-1.4.311"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6636,7 +6636,7 @@ in
         ];
       })
       sources."minimatch-3.1.2"
-      sources."minipass-4.2.0"
+      sources."minipass-4.2.1"
       (sources."minipass-collect-1.0.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -6888,7 +6888,7 @@ in
       sources."strip-ansi-6.0.1"
       (sources."tar-6.1.13" // {
         dependencies = [
-          sources."minipass-4.2.0"
+          sources."minipass-4.2.1"
         ];
       })
       sources."unique-filename-2.0.1"
@@ -7826,7 +7826,7 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-5.1.6"
-      sources."minipass-4.2.0"
+      sources."minipass-4.2.1"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
