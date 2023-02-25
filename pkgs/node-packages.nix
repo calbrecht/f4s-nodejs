@@ -5575,13 +5575,13 @@ let
         sha512 = "XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==";
       };
     };
-    "tsconfig-paths-3.14.1" = {
+    "tsconfig-paths-3.14.2" = {
       name = "tsconfig-paths";
       packageName = "tsconfig-paths";
-      version = "3.14.1";
+      version = "3.14.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz";
-        sha512 = "fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==";
+        url = "https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.14.2.tgz";
+        sha512 = "o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==";
       };
     };
     "tslib-1.14.1" = {
@@ -7313,7 +7313,7 @@ in
         ];
       })
       sources."text-table-0.2.0"
-      sources."tsconfig-paths-3.14.1"
+      sources."tsconfig-paths-3.14.2"
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
       sources."typed-array-length-1.0.4"
