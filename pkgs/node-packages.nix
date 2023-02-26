@@ -3802,13 +3802,13 @@ let
         sha512 = "DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==";
       };
     };
-    "minipass-4.2.1" = {
+    "minipass-4.2.4" = {
       name = "minipass";
       packageName = "minipass";
-      version = "4.2.1";
+      version = "4.2.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-4.2.1.tgz";
-        sha512 = "KS4CHIsDfOZetnT+u6fwxyFADXLamtkPxkGScmmtTW//MlRrImV+LtbmbJpLQ86Hw7km/utbfEfndhGBrfwvlA==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-4.2.4.tgz";
+        sha512 = "lwycX3cBMTvcejsHITUgYj6Gy6A7Nh4Q6h9NP4sTHY1ccJlC7yKzDmiShEHsJ16Jf1nKGDEaiHxiltsJEvk0nQ==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6636,7 +6636,7 @@ in
         ];
       })
       sources."minimatch-3.1.2"
-      sources."minipass-4.2.1"
+      sources."minipass-4.2.4"
       (sources."minipass-collect-1.0.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -6888,7 +6888,7 @@ in
       sources."strip-ansi-6.0.1"
       (sources."tar-6.1.13" // {
         dependencies = [
-          sources."minipass-4.2.1"
+          sources."minipass-4.2.4"
         ];
       })
       sources."unique-filename-2.0.1"
@@ -7826,7 +7826,7 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-5.1.6"
-      sources."minipass-4.2.1"
+      sources."minipass-4.2.4"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
