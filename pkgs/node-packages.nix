@@ -3658,13 +3658,13 @@ let
         sha512 = "ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==";
       };
     };
-    "lru-cache-7.17.0" = {
+    "lru-cache-7.18.0" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.17.0";
+      version = "7.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.17.0.tgz";
-        sha512 = "zSxlVVwOabhVyTi6E8gYv2cr6bXK+8ifYz5/uyJb9feXX6NACVDwY4p5Ut3WC3Ivo/QhpARHU3iujx2xGAYHbQ==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.0.tgz";
+        sha512 = "zB4mTJNwserMxerHY0evAuBe/5wnyeznwZ6h19vTV3B9lbqm2c7pWlExjjXgBx8E2J64JF4siGBqKksl2cHTgg==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6858,7 +6858,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.17.0"
+      sources."lru-cache-7.18.0"
       sources."make-fetch-happen-10.2.1"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.6"
