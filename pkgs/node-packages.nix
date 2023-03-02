@@ -49,22 +49,22 @@ let
         sha512 = "KxDlhXyMlh2Jhj2ykX6vNEU0Vou4nHr025KoSEiz7cS3BNiHNaZcdECk/DmLkEB0as5T7b/TpRcehJ5yV6NeXQ==";
       };
     };
-    "@azure/core-util-1.1.1" = {
+    "@azure/core-util-1.2.0" = {
       name = "_at_azure_slash_core-util";
       packageName = "@azure/core-util";
-      version = "1.1.1";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.1.1.tgz";
-        sha512 = "A4TBYVQCtHOigFb2ETiiKFDocBoI1Zk2Ui1KpI42aJSIDexF7DHQFpnjonltXAIU/ceH+1fsZAWWgvX6/AKzog==";
+        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.2.0.tgz";
+        sha512 = "ffGIw+Qs8bNKNLxz5UPkz4/VBM/EZY07mPve1ZYFqYUdPwFqRj0RPk0U7LZMOfT7GCck9YjuT1Rfp1PApNl1ng==";
       };
     };
-    "@azure/logger-1.0.3" = {
+    "@azure/logger-1.0.4" = {
       name = "_at_azure_slash_logger";
       packageName = "@azure/logger";
-      version = "1.0.3";
+      version = "1.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.0.3.tgz";
-        sha512 = "aK4s3Xxjrx3daZr3VylxejK3vG5ExXck5WOHDJ8in/k9AqlfIyFMMT1uG7u8mNjX+QRILTIn0/Xgschfh/dQ9g==";
+        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.0.4.tgz";
+        sha512 = "ustrPY8MryhloQj7OWGe+HrYx+aoiOxzbXTtgblbV3xwCqpzUK36phH3XNHQKj3EPonyFUuDTfR3qFhTEAuZEg==";
       };
     };
     "@babel/code-frame-7.18.6" = {
@@ -7668,8 +7668,8 @@ in
       sources."@azure/core-auth-1.4.0"
       sources."@azure/core-http-2.3.1"
       sources."@azure/core-tracing-1.0.0-preview.13"
-      sources."@azure/core-util-1.1.1"
-      sources."@azure/logger-1.0.3"
+      sources."@azure/core-util-1.2.0"
+      sources."@azure/logger-1.0.4"
       sources."@bmewburn/js-beautify-1.14.7"
       sources."@bmewburn/vscode-html-languageserver-1.9.0"
       (sources."@mapbox/node-pre-gyp-1.0.10" // {
