@@ -724,13 +724,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.14.2" = {
+    "@types/node-18.14.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.14.2";
+      version = "18.14.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.14.2.tgz";
-        sha512 = "1uEQxww3DaghA0RxqHx0O0ppVlo43pJhepY51OxuQIKHpjbnYLA7vcdwioNPzIqmC2u3I/dmylcqjlh0e7AyUA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.14.4.tgz";
+        sha512 = "VhCw7I7qO2X49+jaKcAUwi3rR+hbxT5VcYF493+Z5kMLI0DL568b7JI4IDJaxWFH0D/xwmGJNoXisyX+w7GH/g==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -2191,13 +2191,13 @@ let
         sha512 = "eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==";
       };
     };
-    "esquery-1.4.2" = {
+    "esquery-1.5.0" = {
       name = "esquery";
       packageName = "esquery";
-      version = "1.4.2";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/esquery/-/esquery-1.4.2.tgz";
-        sha512 = "JVSoLdTlTDkmjFmab7H/9SL9qGSyjElT3myyKp7krqjVFQCDLmj1QFaCLRFBszBKI0XVZaiiXvuPIX3ZwHe1Ng==";
+        url = "https://registry.npmjs.org/esquery/-/esquery-1.5.0.tgz";
+        sha512 = "YQLXUplAwJgCydQ78IMJywZCceoqk1oH01OERdSAJc/7U2AylwjhSCLDEtqwg811idIS/9fIU5GjG73IgjKMVg==";
       };
     };
     "esrecurse-4.3.0" = {
@@ -3055,13 +3055,13 @@ let
         sha512 = "WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==";
       };
     };
-    "is-array-buffer-3.0.1" = {
+    "is-array-buffer-3.0.2" = {
       name = "is-array-buffer";
       packageName = "is-array-buffer";
-      version = "3.0.1";
+      version = "3.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.1.tgz";
-        sha512 = "ASfLknmY8Xa2XtB4wmbz13Wu202baeA18cJBCeCy0wXUHZF0IPyVEXqKEcd+t2fNSLLL1vC6k7lxZEojNbISXQ==";
+        url = "https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.2.tgz";
+        sha512 = "y+FyyR/w8vfIRq4eQcM1EYgSTnmHXPqaF+IgzgraytCFq5Xh8lllDVmAZolPJiZttZLeFSINPYMaEJ7/vWUa1w==";
       };
     };
     "is-arrayish-0.2.1" = {
@@ -6279,7 +6279,7 @@ in
       })
       sources."eslint-visitor-keys-3.3.0"
       sources."espree-9.4.1"
-      sources."esquery-1.4.2"
+      sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -6405,7 +6405,7 @@ in
       })
       sources."eslint-visitor-keys-3.3.0"
       sources."espree-9.4.1"
-      sources."esquery-1.4.2"
+      sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -7152,7 +7152,7 @@ in
         ];
       })
       sources."esprima-4.0.1"
-      (sources."esquery-1.4.2" // {
+      (sources."esquery-1.5.0" // {
         dependencies = [
           sources."estraverse-5.3.0"
         ];
@@ -7200,7 +7200,7 @@ in
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."internal-slot-1.0.5"
-      sources."is-array-buffer-3.0.1"
+      sources."is-array-buffer-3.0.2"
       sources."is-arrayish-0.2.1"
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
@@ -7364,7 +7364,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.14.2"
+      sources."@types/node-18.14.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7697,7 +7697,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.10.0"
-      sources."@types/node-18.14.2"
+      sources."@types/node-18.14.4"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
