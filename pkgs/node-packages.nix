@@ -724,13 +724,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.14.4" = {
+    "@types/node-18.14.6" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.14.4";
+      version = "18.14.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.14.4.tgz";
-        sha512 = "VhCw7I7qO2X49+jaKcAUwi3rR+hbxT5VcYF493+Z5kMLI0DL568b7JI4IDJaxWFH0D/xwmGJNoXisyX+w7GH/g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.14.6.tgz";
+        sha512 = "93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -940,13 +940,13 @@ let
         sha512 = "ZzXXpZpDRGcy6Pp5V319nDF9/+Ey7jNknEXZyaBajtC5onN0dcBem6ng5jcb3MPH2AjYWRI8XgyNEuzP/6Y5/A==";
       };
     };
-    "applicationinsights-native-metrics-0.0.8" = {
+    "applicationinsights-native-metrics-0.0.9" = {
       name = "applicationinsights-native-metrics";
       packageName = "applicationinsights-native-metrics";
-      version = "0.0.8";
+      version = "0.0.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/applicationinsights-native-metrics/-/applicationinsights-native-metrics-0.0.8.tgz";
-        sha512 = "3areRz2+Q1EPWbQYokfOgYXLkZyBzeReI9716nw97p697gFUfGqYgwJ5fCopftvHycW2zuRWTFJWmA70S5605A==";
+        url = "https://registry.npmjs.org/applicationinsights-native-metrics/-/applicationinsights-native-metrics-0.0.9.tgz";
+        sha512 = "JGnb6Ou/E4XuM3eKZP+nvpA9NWYLscclwoMFvAHyUknthiNJwREHYrNQT3c63P7AWoFsyf6cyUqeo9KX1jMp8w==";
       };
     };
     "aproba-1.2.0" = {
@@ -1264,13 +1264,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001458" = {
+    "caniuse-lite-1.0.30001460" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001458";
+      version = "1.0.30001460";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001458.tgz";
-        sha512 = "lQ1VlUUq5q9ro9X+5gOEyH7i3vm+AYVT1WDCVB69XOZ17KZRhnZ9J0Sqz7wTHQaLBJccNCHq8/Ww5LlOIZbB0w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001460.tgz";
+        sha512 = "Bud7abqjvEjipUkpLs4D7gR0l8hBYBHoa+tGtKJHvT2AYzLp1z7EmVkUT4ERpVUfca8S2HGIVs883D8pUH1ZzQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1831,13 +1831,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.316" = {
+    "electron-to-chromium-1.4.319" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.316";
+      version = "1.4.319";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.316.tgz";
-        sha512 = "9urqVpdeJYAwVL/sBjsX2pSlgYI/b4nOqC6UaNa0xlq1VUbXLRhERWlxcQ4FWfUOQQxSSxN/taFtapEcwg5tVA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.319.tgz";
+        sha512 = "WeoI6NwZUgteKB+Wmn692S35QycwwNxwgTomNnoCJ79znBAjtBi6C/cIW62JkXmpJRX5rKNYSLDBdAM8l5fH0w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6572,7 +6572,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001458"
+      sources."caniuse-lite-1.0.30001460"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6590,7 +6590,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.316"
+      sources."electron-to-chromium-1.4.319"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7364,7 +7364,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.14.4"
+      sources."@types/node-18.14.6"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7697,7 +7697,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.10.0"
-      sources."@types/node-18.14.4"
+      sources."@types/node-18.14.6"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
@@ -7710,7 +7710,7 @@ in
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
       sources."applicationinsights-2.3.6"
-      sources."applicationinsights-native-metrics-0.0.8"
+      sources."applicationinsights-native-metrics-0.0.9"
       sources."aproba-2.0.0"
       sources."are-we-there-yet-2.0.0"
       sources."asn1-0.2.6"
