@@ -1831,13 +1831,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.319" = {
+    "electron-to-chromium-1.4.320" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.319";
+      version = "1.4.320";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.319.tgz";
-        sha512 = "WeoI6NwZUgteKB+Wmn692S35QycwwNxwgTomNnoCJ79znBAjtBi6C/cIW62JkXmpJRX5rKNYSLDBdAM8l5fH0w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.320.tgz";
+        sha512 = "h70iRscrNluMZPVICXYl5SSB+rBKo22XfuIS1ER0OQxQZpKTnFpuS6coj7wY9M/3trv7OR88rRMOlKmRvDty7Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6223,13 +6223,13 @@ let
         sha512 = "rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==";
       };
     };
-    "zod-3.20.5" = {
+    "zod-3.20.6" = {
       name = "zod";
       packageName = "zod";
-      version = "3.20.5";
+      version = "3.20.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zod/-/zod-3.20.5.tgz";
-        sha512 = "BTAAliwfoB9dWf2hC+TXlyWKk/YTqRGZjHQR0WLC2A2pzierWo7KuQ1ebjS4SNaFaxg/lDItzl9/QTgLjcHbgw==";
+        url = "https://registry.npmjs.org/zod/-/zod-3.20.6.tgz";
+        sha512 = "oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==";
       };
     };
   };
@@ -6590,7 +6590,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-1.1.2"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.319"
+      sources."electron-to-chromium-1.4.320"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7603,10 +7603,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.7.0";
+    version = "4.8.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.7.0.tgz";
-      sha512 = "JLe8bk0/FtOiGIdFWg/2JoAGJctYQyrYpmj24dhCSEAjIq9HHqr9I6L9k32fh9WkWjHcrh6v70Epiv6m+SxvDQ==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.8.1.tgz";
+      sha512 = "O/Hlg14TQxfEeAPoPT7gXjedVXB4TeMjEI6VM6CCxb3AyJwW0/2IR8kplA24fU0K4cYJYJsnH4RjdyMyPOUKEw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7643,7 +7643,7 @@ in
       sources."web-tree-sitter-0.20.7"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
-      sources."zod-3.20.5"
+      sources."zod-3.20.6"
     ];
     buildInputs = globalBuildInputs;
     meta = {
