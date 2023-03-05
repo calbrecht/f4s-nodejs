@@ -3658,13 +3658,13 @@ let
         sha512 = "ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==";
       };
     };
-    "lru-cache-7.18.2" = {
+    "lru-cache-7.18.3" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "7.18.2";
+      version = "7.18.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.2.tgz";
-        sha512 = "KytVYmZ3reaw/f3d7GCISvWWjTYxszNdvD5rDvm/zECga3eSWzryRY7iauJsjo6aaw03lHYTSNTk7lW83Bv+zQ==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz";
+        sha512 = "jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==";
       };
     };
     "make-dir-3.1.0" = {
@@ -6223,13 +6223,13 @@ let
         sha512 = "rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==";
       };
     };
-    "zod-3.20.6" = {
+    "zod-3.21.0" = {
       name = "zod";
       packageName = "zod";
-      version = "3.20.6";
+      version = "3.21.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zod/-/zod-3.20.6.tgz";
-        sha512 = "oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==";
+        url = "https://registry.npmjs.org/zod/-/zod-3.21.0.tgz";
+        sha512 = "UYdykTcVxB6lfdyLzAqLyyYAlOcpoluECvjsdoaqfQmz9p+3LRaIqYcNiL/J2kFYp66fBM8wwBvIGVEjq7KtZw==";
       };
     };
   };
@@ -6858,7 +6858,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."lru-cache-7.18.2"
+      sources."lru-cache-7.18.3"
       sources."make-fetch-happen-10.2.1"
       sources."minimatch-3.1.2"
       sources."minipass-3.3.6"
@@ -7603,10 +7603,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.8.1";
+    version = "4.8.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.8.1.tgz";
-      sha512 = "O/Hlg14TQxfEeAPoPT7gXjedVXB4TeMjEI6VM6CCxb3AyJwW0/2IR8kplA24fU0K4cYJYJsnH4RjdyMyPOUKEw==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.8.2.tgz";
+      sha512 = "B/jBGVeRMdQs+fHkEDycxD6L8/nf2WwoH3r+kt+O4GqknZ9AX3gNVE8sGjCOf0iLEvAChi6tqefYRRY2nKM4xw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7643,7 +7643,7 @@ in
       sources."web-tree-sitter-0.20.7"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
-      sources."zod-3.20.6"
+      sources."zod-3.21.0"
     ];
     buildInputs = globalBuildInputs;
     meta = {
