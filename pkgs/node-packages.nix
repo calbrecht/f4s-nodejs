@@ -823,13 +823,13 @@ let
         sha512 = "RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==";
       };
     };
-    "agentkeepalive-4.2.1" = {
+    "agentkeepalive-4.3.0" = {
       name = "agentkeepalive";
       packageName = "agentkeepalive";
-      version = "4.2.1";
+      version = "4.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.2.1.tgz";
-        sha512 = "Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA==";
+        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.3.0.tgz";
+        sha512 = "7Epl1Blf4Sy37j4v9f9FjICCh4+KAQOyXgHEwlyBiAQLbhKdq/i2QQU3amQalS/wPhdPzDXPL5DMR5bkn+YeWg==";
       };
     };
     "aggregate-error-3.1.0" = {
@@ -1687,13 +1687,13 @@ let
         sha512 = "bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==";
       };
     };
-    "depd-1.1.2" = {
+    "depd-2.0.0" = {
       name = "depd";
       packageName = "depd";
-      version = "1.1.2";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/depd/-/depd-1.1.2.tgz";
-        sha512 = "7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==";
+        url = "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz";
+        sha512 = "g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==";
       };
     };
     "detect-libc-1.0.3" = {
@@ -6554,7 +6554,7 @@ in
       sources."@types/triple-beam-1.3.2"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
-      sources."agentkeepalive-4.2.1"
+      sources."agentkeepalive-4.3.0"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
@@ -6588,7 +6588,7 @@ in
       sources."convert-source-map-1.9.0"
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
-      sources."depd-1.1.2"
+      sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
       sources."electron-to-chromium-1.4.320"
       sources."emoji-regex-8.0.0"
@@ -6812,7 +6812,7 @@ in
       sources."@tootallnate/once-2.0.0"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
-      sources."agentkeepalive-4.2.1"
+      sources."agentkeepalive-4.3.0"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
       sources."aproba-2.0.0"
@@ -6833,7 +6833,7 @@ in
       sources."console-control-strings-1.1.0"
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
-      sources."depd-1.1.2"
+      sources."depd-2.0.0"
       sources."emoji-regex-8.0.0"
       sources."encoding-0.1.13"
       sources."env-paths-2.2.1"
