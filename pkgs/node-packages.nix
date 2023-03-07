@@ -1264,13 +1264,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001460" = {
+    "caniuse-lite-1.0.30001462" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001460";
+      version = "1.0.30001462";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001460.tgz";
-        sha512 = "Bud7abqjvEjipUkpLs4D7gR0l8hBYBHoa+tGtKJHvT2AYzLp1z7EmVkUT4ERpVUfca8S2HGIVs883D8pUH1ZzQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001462.tgz";
+        sha512 = "PDd20WuOBPiasZ7KbFnmQRyuLE7cFXW2PVd7dmALzbkUXEP46upAuCDm9eY9vho8fgNMGmbAX92QBZHzcnWIqw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1831,13 +1831,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.320" = {
+    "electron-to-chromium-1.4.323" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.320";
+      version = "1.4.323";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.320.tgz";
-        sha512 = "h70iRscrNluMZPVICXYl5SSB+rBKo22XfuIS1ER0OQxQZpKTnFpuS6coj7wY9M/3trv7OR88rRMOlKmRvDty7Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.323.tgz";
+        sha512 = "+a0hMEQxE8u1F1vOHcE0M18kQ2+4AwOXdRrU4avZ1LeR/sa9WAallYE3uES/PNcEGt/wCFcOgWcArSLx5C+WNQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5197,13 +5197,13 @@ let
         sha512 = "Fgl0YPZ902wEsAyiQ+idGd1A7rSFx/ayC1CQVMw5P+EQx2V0SgpGtf6OKFhVjPflPUl9YMmEOnmfjCdMUsygww==";
       };
     };
-    "spdx-correct-3.1.1" = {
+    "spdx-correct-3.2.0" = {
       name = "spdx-correct";
       packageName = "spdx-correct";
-      version = "3.1.1";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.1.1.tgz";
-        sha512 = "cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w==";
+        url = "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.2.0.tgz";
+        sha512 = "kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==";
       };
     };
     "spdx-exceptions-2.3.0" = {
@@ -6572,7 +6572,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001460"
+      sources."caniuse-lite-1.0.30001462"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6590,7 +6590,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.320"
+      sources."electron-to-chromium-1.4.323"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7301,7 +7301,7 @@ in
           sources."color-name-1.1.4"
         ];
       })
-      sources."spdx-correct-3.1.1"
+      sources."spdx-correct-3.2.0"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
       sources."spdx-license-ids-3.0.12"
