@@ -1831,13 +1831,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.323" = {
+    "electron-to-chromium-1.4.325" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.323";
+      version = "1.4.325";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.323.tgz";
-        sha512 = "+a0hMEQxE8u1F1vOHcE0M18kQ2+4AwOXdRrU4avZ1LeR/sa9WAallYE3uES/PNcEGt/wCFcOgWcArSLx5C+WNQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.325.tgz";
+        sha512 = "K1C03NT4I7BuzsRdCU5RWkgZxtswnKDYM6/eMhkEXqKu4e5T+ck610x3FPzu1y7HVFSiQKZqP16gnJzPpji1TQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6205,13 +6205,13 @@ let
         sha512 = "3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==";
       };
     };
-    "yaml-2.0.0-11" = {
+    "yaml-2.2.1" = {
       name = "yaml";
       packageName = "yaml";
-      version = "2.0.0-11";
+      version = "2.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/yaml/-/yaml-2.0.0-11.tgz";
-        sha512 = "5kGSQrzDyjCk0BLuFfjkoUE9vYcoyrwZIZ+GnpOSM9vhkvPjItYiWJ1jpRSo0aU4QmsoNrFwDT4O7XS2UGcBQg==";
+        url = "https://registry.npmjs.org/yaml/-/yaml-2.2.1.tgz";
+        sha512 = "e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==";
       };
     };
     "yocto-queue-0.1.0" = {
@@ -6590,7 +6590,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.323"
+      sources."electron-to-chromium-1.4.325"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7968,16 +7968,17 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.11.0";
+    version = "1.12.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.11.0.tgz";
-      sha512 = "1TBlhK1nMSpDiq3iZfAyDOg4xwagozZAnqr0AOrZG5UteMt3zbfhOVqhRuAunRIZ8kktfGMjsKxDjO+utGAJaA==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.12.0.tgz";
+      sha512 = "cEQeHVqSH0+UgNNvVGrv3xu+NBTscBSmOS/vNfi7r5JPThgp3hIUVzjj0vxeXFj5swOxnpod0hD99tCkPGiikw==";
     };
     dependencies = [
       sources."ajv-8.12.0"
       sources."fast-deep-equal-3.1.3"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.2.0"
+      sources."lodash-4.17.21"
       sources."punycode-2.3.0"
       sources."request-light-0.5.8"
       sources."require-from-string-2.0.2"
@@ -7994,7 +7995,7 @@ in
       sources."vscode-languageserver-types-3.17.3"
       sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.7"
-      sources."yaml-2.0.0-11"
+      sources."yaml-2.2.1"
     ];
     buildInputs = globalBuildInputs;
     meta = {
