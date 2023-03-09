@@ -724,13 +724,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.14.6" = {
+    "@types/node-18.15.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.14.6";
+      version = "18.15.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.14.6.tgz";
-        sha512 = "93+VvleD3mXwlLI/xASjw0FzKcwzl3OdTCzm1LaRfqgS21gfFtK3zDXM5Op9TeeMsJVOaJ2VRDpT9q4Y3d0AvA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.15.0.tgz";
+        sha512 = "z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -1264,13 +1264,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001462" = {
+    "caniuse-lite-1.0.30001464" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001462";
+      version = "1.0.30001464";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001462.tgz";
-        sha512 = "PDd20WuOBPiasZ7KbFnmQRyuLE7cFXW2PVd7dmALzbkUXEP46upAuCDm9eY9vho8fgNMGmbAX92QBZHzcnWIqw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001464.tgz";
+        sha512 = "oww27MtUmusatpRpCGSOneQk2/l5czXANDSFvsc7VuOQ86s3ANhZetpwXNf1zY/zdfP63Xvjz325DAdAoES13g==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1831,13 +1831,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.325" = {
+    "electron-to-chromium-1.4.326" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.325";
+      version = "1.4.326";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.325.tgz";
-        sha512 = "K1C03NT4I7BuzsRdCU5RWkgZxtswnKDYM6/eMhkEXqKu4e5T+ck610x3FPzu1y7HVFSiQKZqP16gnJzPpji1TQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.326.tgz";
+        sha512 = "tFNZP7VlGDp88vR7TYQ/h5svw8lzfu44PU5tfDJ+JYdcsEuWv4GpEm7hOF3c4Z/o4QQ6lNxmlGtvGaBVMRM9uQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6223,13 +6223,13 @@ let
         sha512 = "rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==";
       };
     };
-    "zod-3.21.0" = {
+    "zod-3.21.4" = {
       name = "zod";
       packageName = "zod";
-      version = "3.21.0";
+      version = "3.21.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/zod/-/zod-3.21.0.tgz";
-        sha512 = "UYdykTcVxB6lfdyLzAqLyyYAlOcpoluECvjsdoaqfQmz9p+3LRaIqYcNiL/J2kFYp66fBM8wwBvIGVEjq7KtZw==";
+        url = "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz";
+        sha512 = "m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==";
       };
     };
   };
@@ -6572,7 +6572,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001462"
+      sources."caniuse-lite-1.0.30001464"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6590,7 +6590,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.325"
+      sources."electron-to-chromium-1.4.326"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7364,7 +7364,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.14.6"
+      sources."@types/node-18.15.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7603,10 +7603,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.8.2";
+    version = "4.8.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.8.2.tgz";
-      sha512 = "B/jBGVeRMdQs+fHkEDycxD6L8/nf2WwoH3r+kt+O4GqknZ9AX3gNVE8sGjCOf0iLEvAChi6tqefYRRY2nKM4xw==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.8.3.tgz";
+      sha512 = "NJXqzNOClxJ/G6Hr8gafvqcBiY1iNvBACxZlz5tOPyoloTeqyOtl6C9yZUxW8ryW8GAJ2TUS479ly5tq9kjEBA==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7643,7 +7643,7 @@ in
       sources."web-tree-sitter-0.20.7"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
-      sources."zod-3.21.0"
+      sources."zod-3.21.4"
     ];
     buildInputs = globalBuildInputs;
     meta = {
@@ -7697,7 +7697,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.10.0"
-      sources."@types/node-18.14.6"
+      sources."@types/node-18.15.0"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
