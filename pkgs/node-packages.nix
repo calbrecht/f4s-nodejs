@@ -346,13 +346,13 @@ let
         sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
-    "@eslint/eslintrc-2.0.0" = {
+    "@eslint/eslintrc-2.0.1" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.0.0.tgz";
-        sha512 = "fluIaaV+GyV24CCu/ggiHdV+j4RNh85yQnAYS/G2mZODZgGmmlrgCydjUcV3YvxCm9x8nMAfThsqTni4KiXT4A==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.0.1.tgz";
+        sha512 = "eFRmABvW2E5Ho6f5fHLqgena46rOj7r7OKHYfLElqcBfGFHHpjBhivyi5+jOEQuSpdc/1phIZJlbC2te+tZNIw==";
       };
     };
     "@eslint/js-8.35.0" = {
@@ -1831,13 +1831,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.326" = {
+    "electron-to-chromium-1.4.328" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.326";
+      version = "1.4.328";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.326.tgz";
-        sha512 = "tFNZP7VlGDp88vR7TYQ/h5svw8lzfu44PU5tfDJ+JYdcsEuWv4GpEm7hOF3c4Z/o4QQ6lNxmlGtvGaBVMRM9uQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.328.tgz";
+        sha512 = "DE9tTy2PNmy1v55AZAO542ui+MLC2cvINMK4P2LXGsJdput/ThVG9t+QGecPuAZZSgC8XoI+Jh9M1OG9IoNSCw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2164,13 +2164,13 @@ let
         sha512 = "v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==";
       };
     };
-    "espree-9.4.1" = {
+    "espree-9.5.0" = {
       name = "espree";
       packageName = "espree";
-      version = "9.4.1";
+      version = "9.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.4.1.tgz";
-        sha512 = "XwctdmTO6SIvCzd9810yyNzIrOrqNYV9Koizx4C/mRhf9uq0o4yHoCEU/670pOxOL/MSraektvSAji79kX90Vg==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.5.0.tgz";
+        sha512 = "JPbJGhKc47++oo4JkEoTe2wjy4fmMwvFpgJT9cQzmfXKp22Dr6Hf1tdCteLz1h0P3t+mGvWZ+4Uankvh8+c6zw==";
       };
     };
     "esprima-3.0.0" = {
@@ -4819,13 +4819,13 @@ let
         sha512 = "8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==";
       };
     };
-    "readable-stream-3.6.1" = {
+    "readable-stream-3.6.2" = {
       name = "readable-stream";
       packageName = "readable-stream";
-      version = "3.6.1";
+      version = "3.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.1.tgz";
-        sha512 = "+rQmrWMYGA90yenhTYsLWAsLsqVC8osOw6PKE1HDYiO0gdPeKe/xDHNzIAIn4C91YQ6oenEhfYqqc1883qHbjQ==";
+        url = "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz";
+        sha512 = "9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==";
       };
     };
     "redeyed-1.0.1" = {
@@ -5224,13 +5224,13 @@ let
         sha512 = "cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==";
       };
     };
-    "spdx-license-ids-3.0.12" = {
+    "spdx-license-ids-3.0.13" = {
       name = "spdx-license-ids";
       packageName = "spdx-license-ids";
-      version = "3.0.12";
+      version = "3.0.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.12.tgz";
-        sha512 = "rr+VVSXtRhO4OHbXUiAF7xW3Bo9DuuF6C5jH+q/x15j2jniycgKbxU09Hr0WqlSLUs4i4ltHGXqTe7VHclYWyA==";
+        url = "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.13.tgz";
+        sha512 = "XkD+zwiqXHikFZm4AX/7JSCXA98U5Db4AFd5XUg/+9UNtnH75+Z9KxtpYiJZx36mUDVOwH83pl7yvCer6ewM3w==";
       };
     };
     "sprintf-js-1.0.3" = {
@@ -6244,7 +6244,7 @@ in
       sha512 = "BxAf1fVL7w+JLRQhWl2pzGeSiGqbWumV4WNvc9Rhp6tiCtm4oHnyPBSEtMGZwrQgudFQ+otqzWoPB7x+hxoWsw==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-2.0.0"
+      sources."@eslint/eslintrc-2.0.1"
       sources."@eslint/js-8.35.0"
       sources."@humanwhocodes/config-array-0.11.8"
       sources."@humanwhocodes/module-importer-1.0.1"
@@ -6278,7 +6278,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.4.1"
+      sources."espree-9.5.0"
       sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6365,7 +6365,7 @@ in
       sha512 = "qOJ9cTi5AaH5bOgEoCkv41DJ637mHgzffbOLojwU4wadwC6qbR+OxVJRvVzH0v2XYmQOvw4eiJK7ivrr5SvzsA==";
     };
     dependencies = [
-      sources."@eslint/eslintrc-2.0.0"
+      sources."@eslint/eslintrc-2.0.1"
       sources."@eslint/js-8.35.0"
       sources."@humanwhocodes/config-array-0.11.8"
       sources."@humanwhocodes/module-importer-1.0.1"
@@ -6404,7 +6404,7 @@ in
         ];
       })
       sources."eslint-visitor-keys-3.3.0"
-      sources."espree-9.4.1"
+      sources."espree-9.5.0"
       sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6590,7 +6590,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.326"
+      sources."electron-to-chromium-1.4.328"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6711,7 +6711,7 @@ in
       sources."picocolors-1.0.0"
       sources."promise-inflight-1.0.1"
       sources."promise-retry-2.0.1"
-      sources."readable-stream-3.6.1"
+      sources."readable-stream-3.6.2"
       sources."regenerator-runtime-0.13.11"
       sources."require-relative-0.8.7"
       sources."retry-0.12.0"
@@ -6878,7 +6878,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."promise-inflight-1.0.1"
       sources."promise-retry-2.0.1"
-      sources."readable-stream-3.6.1"
+      sources."readable-stream-3.6.2"
       sources."retry-0.12.0"
       sources."rimraf-3.0.2"
       sources."safe-buffer-5.2.1"
@@ -7304,7 +7304,7 @@ in
       sources."spdx-correct-3.2.0"
       sources."spdx-exceptions-2.3.0"
       sources."spdx-expression-parse-3.0.1"
-      sources."spdx-license-ids-3.0.12"
+      sources."spdx-license-ids-3.0.13"
       sources."sprintf-js-1.0.3"
       sources."standard-16.0.4"
       sources."standard-engine-14.0.1"
@@ -7867,7 +7867,7 @@ in
       sources."qs-6.5.3"
       sources."querystringify-2.2.0"
       sources."queue-microtask-1.2.3"
-      sources."readable-stream-3.6.1"
+      sources."readable-stream-3.6.2"
       (sources."request-2.88.2" // {
         dependencies = [
           sources."form-data-2.3.3"
