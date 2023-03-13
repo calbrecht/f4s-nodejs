@@ -553,49 +553,49 @@ let
         sha512 = "mJd2Z5TjYWq/ttPLLGqArdtnC74J6bOzg4rMDnN+p1xTacZ2yPRCk2y0oSWQtygLR9YVQXgOcONrwtnk3JupxQ==";
       };
     };
-    "@opentelemetry/api-1.4.0" = {
+    "@opentelemetry/api-1.4.1" = {
       name = "_at_opentelemetry_slash_api";
       packageName = "@opentelemetry/api";
-      version = "1.4.0";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/api/-/api-1.4.0.tgz";
-        sha512 = "IgMK9i3sFGNUqPMbjABm0G26g0QCKCUBfglhQ7rQq6WcxbKfEHRcmwsoER4hZcuYqJgkYn2OeuoJIv7Jsftp7g==";
+        url = "https://registry.npmjs.org/@opentelemetry/api/-/api-1.4.1.tgz";
+        sha512 = "O2yRJce1GOc6PAy3QxFM4NzFiWzvScDC1/5ihYBL6BUEVdq0XMWN01sppE+H6bBXbaFYipjwFLEWLg5PaSOThA==";
       };
     };
-    "@opentelemetry/core-1.9.1" = {
+    "@opentelemetry/core-1.10.0" = {
       name = "_at_opentelemetry_slash_core";
       packageName = "@opentelemetry/core";
-      version = "1.9.1";
+      version = "1.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.9.1.tgz";
-        sha512 = "6/qon6tw2I8ZaJnHAQUUn4BqhTbTNRS0WP8/bA0ynaX+Uzp/DDbd0NS0Cq6TMlh8+mrlsyqDE7mO50nmv2Yvlg==";
+        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.10.0.tgz";
+        sha512 = "H5/mfU3TsEBe/cnnLu3VCkzjqyRARmhxQGsT64KwafxjzkDh+c2Bk4n140Cg/xhgrjK2sFsxbJj6d0xZlVo/OQ==";
       };
     };
-    "@opentelemetry/resources-1.9.1" = {
+    "@opentelemetry/resources-1.10.0" = {
       name = "_at_opentelemetry_slash_resources";
       packageName = "@opentelemetry/resources";
-      version = "1.9.1";
+      version = "1.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.9.1.tgz";
-        sha512 = "VqBGbnAfubI+l+yrtYxeLyOoL358JK57btPMJDd3TCOV3mV5TNBmzvOfmesM4NeTyXuGJByd3XvOHvFezLn3rQ==";
+        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.10.0.tgz";
+        sha512 = "bh4auHOdS0/cwSgviCPbkItLwLZRWCZKp/ns2soVwlWQMJH36FIHbcYJf7G9+Rthlc6u163VhUefho+eDrPVeA==";
       };
     };
-    "@opentelemetry/sdk-trace-base-1.9.1" = {
+    "@opentelemetry/sdk-trace-base-1.10.0" = {
       name = "_at_opentelemetry_slash_sdk-trace-base";
       packageName = "@opentelemetry/sdk-trace-base";
-      version = "1.9.1";
+      version = "1.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.9.1.tgz";
-        sha512 = "Y9gC5M1efhDLYHeeo2MWcDDMmR40z6QpqcWnPCm4Dmh+RHAMf4dnEBBntIe1dDpor686kyU6JV1D29ih1lZpsQ==";
+        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.10.0.tgz";
+        sha512 = "X4rRShtVQ893LCU4GNKS1TKFua9nSjVmo0VJvigfSFSOmyyOLfiyTWmVL9MKV7Ws0HqLOIWJixJY0x28fw3Tzg==";
       };
     };
-    "@opentelemetry/semantic-conventions-1.9.1" = {
+    "@opentelemetry/semantic-conventions-1.10.0" = {
       name = "_at_opentelemetry_slash_semantic-conventions";
       packageName = "@opentelemetry/semantic-conventions";
-      version = "1.9.1";
+      version = "1.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.9.1.tgz";
-        sha512 = "oPQdbFDmZvjXk5ZDoBGXG8B4tSB/qW5vQunJWQMFUBp7Xe8O1ByPANueJ+Jzg58esEBegyyxZ7LRmfJr7kFcFg==";
+        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.10.0.tgz";
+        sha512 = "Mzo5IyrI59YuYWeNoOZRXfUCc3upjmxCmczSm+pUgWprvSNfdOX70SVde84UxmuzU7MF1MEkPXKXTYG3ymRw2w==";
       };
     };
     "@protobufjs/aspromise-1.1.2" = {
@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.15.0" = {
+    "@types/node-18.15.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.15.0";
+      version = "18.15.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.15.0.tgz";
-        sha512 = "z6nr0TTEOBGkzLGmbypWOGnpSpSIBorEhC4L+4HeQ2iezKCi4f77kyslRwvHeNitymGQ+oFyIWGP96l/DPSV9w==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.15.1.tgz";
+        sha512 = "U2TWca8AeHSmbpi314QBESRk7oPjSZjDsR+c+H4ECC1l+kFgpZf8Ydhv3SJpPy51VyZHHqxlb6mTTqYNNRVAIw==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -1291,13 +1291,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001464" = {
+    "caniuse-lite-1.0.30001465" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001464";
+      version = "1.0.30001465";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001464.tgz";
-        sha512 = "oww27MtUmusatpRpCGSOneQk2/l5czXANDSFvsc7VuOQ86s3ANhZetpwXNf1zY/zdfP63Xvjz325DAdAoES13g==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001465.tgz";
+        sha512 = "HvjgL3MYAJjceTDCcjRnQGjwUz/5qec9n7JPOzUursUoOTIsYCSDOb1l7RsnZE8mjbxG78zVRCKfrBXyvChBag==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5260,13 +5260,13 @@ let
         sha512 = "D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==";
       };
     };
-    "sqlite3-5.1.4" = {
+    "sqlite3-5.1.5" = {
       name = "sqlite3";
       packageName = "sqlite3";
-      version = "5.1.4";
+      version = "5.1.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.1.4.tgz";
-        sha512 = "i0UlWAzPlzX3B5XP2cYuhWQJsTtlMD6obOa1PgeEQ4DHEXUuyJkgv50I3isqZAP5oFc2T8OFvakmDh2W6I+YpA==";
+        url = "https://registry.npmjs.org/sqlite3/-/sqlite3-5.1.5.tgz";
+        sha512 = "7sP16i4wI+yKnGOO2q2ijze7EjQ9US+Vw7DYYwxfFtqNZDGgBcEw0oeDaDvUTq66uJOzVd/z6MkIg+c9erSJKg==";
       };
     };
     "sshpk-1.17.0" = {
@@ -6591,7 +6591,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001464"
+      sources."caniuse-lite-1.0.30001465"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6745,7 +6745,7 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.7.1"
       sources."socks-proxy-agent-6.2.1"
-      sources."sqlite3-5.1.4"
+      sources."sqlite3-5.1.5"
       (sources."ssri-8.0.1" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -7385,7 +7385,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.15.0"
+      sources."@types/node-18.15.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7702,11 +7702,11 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."@opentelemetry/api-1.4.0"
-      sources."@opentelemetry/core-1.9.1"
-      sources."@opentelemetry/resources-1.9.1"
-      sources."@opentelemetry/sdk-trace-base-1.9.1"
-      sources."@opentelemetry/semantic-conventions-1.9.1"
+      sources."@opentelemetry/api-1.4.1"
+      sources."@opentelemetry/core-1.10.0"
+      sources."@opentelemetry/resources-1.10.0"
+      sources."@opentelemetry/sdk-trace-base-1.10.0"
+      sources."@opentelemetry/semantic-conventions-1.10.0"
       sources."@protobufjs/aspromise-1.1.2"
       sources."@protobufjs/base64-1.1.2"
       sources."@protobufjs/codegen-2.0.4"
@@ -7718,7 +7718,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.10.0"
-      sources."@types/node-18.15.0"
+      sources."@types/node-18.15.1"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
