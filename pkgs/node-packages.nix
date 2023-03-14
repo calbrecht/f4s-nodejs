@@ -1291,13 +1291,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001465" = {
+    "caniuse-lite-1.0.30001466" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001465";
+      version = "1.0.30001466";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001465.tgz";
-        sha512 = "HvjgL3MYAJjceTDCcjRnQGjwUz/5qec9n7JPOzUursUoOTIsYCSDOb1l7RsnZE8mjbxG78zVRCKfrBXyvChBag==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001466.tgz";
+        sha512 = "ewtFBSfWjEmxUgNBSZItFSmVtvk9zkwkl1OfRZlKA8slltRN+/C/tuGVrF9styXkN36Yu3+SeJ1qkXxDEyNZ5w==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6591,7 +6591,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001465"
+      sources."caniuse-lite-1.0.30001466"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
