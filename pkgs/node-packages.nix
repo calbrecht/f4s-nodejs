@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.330" = {
+    "electron-to-chromium-1.4.332" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.330";
+      version = "1.4.332";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.330.tgz";
-        sha512 = "PqyefhybrVdjAJ45HaPLtuVaehiSw7C3ya0aad+rvmV53IVyXmYRk3pwIOb2TxTDTnmgQdn46NjMMaysx79/6Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.332.tgz";
+        sha512 = "c1Vbv5tuUlBFp0mb3mCIjw+REEsgthRgNE8BlbEDKmvzb8rxjcVki6OkQP83vLN34s0XCxpSkq7AZNep1a6xhw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2722,13 +2722,13 @@ let
         sha512 = "d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==";
       };
     };
-    "graceful-fs-4.2.10" = {
+    "graceful-fs-4.2.11" = {
       name = "graceful-fs";
       packageName = "graceful-fs";
-      version = "4.2.10";
+      version = "4.2.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.10.tgz";
-        sha512 = "9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==";
+        url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz";
+        sha512 = "RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==";
       };
     };
     "grapheme-splitter-1.0.4" = {
@@ -5746,6 +5746,15 @@ let
         sha512 = "1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==";
       };
     };
+    "typescript-5.0.2" = {
+      name = "typescript";
+      packageName = "typescript";
+      version = "5.0.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.0.2.tgz";
+        sha512 = "wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==";
+      };
+    };
     "unbox-primitive-1.0.2" = {
       name = "unbox-primitive";
       packageName = "unbox-primitive";
@@ -6609,7 +6618,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.330"
+      sources."electron-to-chromium-1.4.332"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6631,7 +6640,7 @@ in
       sources."gensync-1.0.0-beta.2"
       sources."glob-7.2.3"
       sources."globals-12.4.0"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."has-flag-3.0.0"
       sources."has-unicode-2.0.1"
       sources."http-cache-semantics-4.1.1"
@@ -6861,7 +6870,7 @@ in
       sources."fs.realpath-1.0.0"
       sources."gauge-4.0.4"
       sources."glob-7.2.3"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."has-unicode-2.0.1"
       sources."http-cache-semantics-4.1.1"
       sources."http-proxy-agent-5.0.0"
@@ -7205,7 +7214,7 @@ in
       sources."globals-12.4.0"
       sources."globalthis-1.0.3"
       sources."gopd-1.0.1"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."has-1.0.3"
       sources."has-bigints-1.0.2"
       sources."has-flag-3.0.0"
@@ -7411,7 +7420,7 @@ in
       sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globby-10.0.2"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."human-signals-1.1.1"
       sources."ignore-5.2.4"
       sources."indent-string-4.0.0"
@@ -7573,7 +7582,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-4.9.5"
+      sources."typescript-5.0.2"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -7589,10 +7598,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "4.9.5";
+    version = "5.0.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz";
-      sha512 = "1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.0.2.tgz";
+      sha512 = "wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7817,7 +7826,7 @@ in
       sources."getpass-0.1.7"
       sources."glob-8.1.0"
       sources."glob-parent-5.1.2"
-      sources."graceful-fs-4.2.10"
+      sources."graceful-fs-4.2.11"
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-unicode-2.0.1"
