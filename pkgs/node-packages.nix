@@ -7058,10 +7058,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "2.8.4";
+    version = "2.8.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-2.8.4.tgz";
-      sha512 = "vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-2.8.5.tgz";
+      sha512 = "3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
