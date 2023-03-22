@@ -3334,13 +3334,13 @@ let
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
       };
     };
-    "js-sdsl-4.3.0" = {
+    "js-sdsl-4.4.0" = {
       name = "js-sdsl";
       packageName = "js-sdsl";
-      version = "4.3.0";
+      version = "4.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.3.0.tgz";
-        sha512 = "mifzlm2+5nZ+lEcLJMoBK0/IH/bDg8XnJfd/Wq6IP+xoCjLZsTOnV2QpxlVbX9bMnkl5PdEjNtBJ9Cj1NjifhQ==";
+        url = "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.4.0.tgz";
+        sha512 = "FfVSdx6pJ41Oa+CF7RDaFmTnCaFhua+SNYQX74riGOpl96x+2jQCqEfQ2bnXu/5DPCqlRuiqyvTJM0Qjz26IVg==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -5674,6 +5674,15 @@ let
         sha512 = "BEkXaWH7Wh7e9bd2QumhfAXk5g34+6QUmmWx+0q6ThaVOLuLUqsnkq35HQ5SBHSaxjSfSM7US5o4lhJNH7B9MA==";
       };
     };
+    "turndown-7.1.2" = {
+      name = "turndown";
+      packageName = "turndown";
+      version = "7.1.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/turndown/-/turndown-7.1.2.tgz";
+        sha512 = "ntI9R7fcUKjqBP6QU8rBK2Ehyt8LAzt3UBT9JR9tgo6GtuKvyUzpayWmeMKJw1DPdXzktvtIT8m2mVXz+bL/Qg==";
+      };
+    };
     "turndown-plugin-gfm-1.0.2" = {
       name = "turndown-plugin-gfm";
       packageName = "turndown-plugin-gfm";
@@ -6339,7 +6348,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."js-sdsl-4.3.0"
+      sources."js-sdsl-4.4.0"
       sources."js-yaml-4.1.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
@@ -6461,7 +6470,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."js-sdsl-4.3.0"
+      sources."js-sdsl-4.4.0"
       sources."js-yaml-4.1.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
@@ -7945,7 +7954,7 @@ in
       sources."tslib-2.5.0"
       sources."tunnel-0.0.6"
       sources."tunnel-agent-0.6.0"
-      sources."turndown-7.1.1"
+      sources."turndown-7.1.2"
       sources."turndown-plugin-gfm-1.0.2"
       sources."tweetnacl-0.14.5"
       sources."typescript-4.9.5"
