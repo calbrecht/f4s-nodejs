@@ -337,13 +337,13 @@ let
         sha512 = "hrlQOIi7hAfzsMqlGSFyVucrx38O+j6wiGOf//H2ecvIEqYN4ADBSS2iLMh5UFyDunCNniUIPk/q3riFv45xRA==";
       };
     };
-    "@eslint-community/eslint-utils-4.3.0" = {
+    "@eslint-community/eslint-utils-4.4.0" = {
       name = "_at_eslint-community_slash_eslint-utils";
       packageName = "@eslint-community/eslint-utils";
-      version = "4.3.0";
+      version = "4.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.3.0.tgz";
-        sha512 = "v3oplH6FYCULtFuCeqyuTd9D2WKO937Dxdq+GmHOLL72TTRriLxz2VLlNfkZRsvj6PKnOPAtuT6dwrs/pA5DvA==";
+        url = "https://registry.npmjs.org/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz";
+        sha512 = "1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==";
       };
     };
     "@eslint-community/regexpp-4.4.1" = {
@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.15.6" = {
+    "@types/node-18.15.7" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.15.6";
+      version = "18.15.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.15.6.tgz";
-        sha512 = "YErOafCZpK4g+Rp3Q/PBgZNAsWKGunQTm9FA3/Pbcm0VCriTEzcrutQ/SxSc0rytAp0NoFWue669jmKhEtd0sA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.15.7.tgz";
+        sha512 = "LFmUbFunqmBn26wJZgZPYZPrDR1RwGOu2v79Mgcka1ndO6V0/cwjivPTc4yoK6n9kmw4/ls1r8cLrvh2iMibFA==";
       };
     };
     "@types/node-fetch-2.6.2" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.337" = {
+    "electron-to-chromium-1.4.340" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.337";
+      version = "1.4.340";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.337.tgz";
-        sha512 = "W8gdzXG86mVPoc56eM8YA+QiLxaAxJ8cmDjxZgfhLLWVvZQxyA918w5tX2JEWApZta45T1/sYcmFHTsTOUE3nw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.340.tgz";
+        sha512 = "zx8hqumOqltKsv/MF50yvdAlPF9S/4PXbyfzJS6ZGhbddGkRegdwImmfSVqCkEziYzrIGZ/TlrzBND4FysfkDg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5665,15 +5665,6 @@ let
         sha512 = "McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==";
       };
     };
-    "turndown-7.1.1" = {
-      name = "turndown";
-      packageName = "turndown";
-      version = "7.1.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/turndown/-/turndown-7.1.1.tgz";
-        sha512 = "BEkXaWH7Wh7e9bd2QumhfAXk5g34+6QUmmWx+0q6ThaVOLuLUqsnkq35HQ5SBHSaxjSfSM7US5o4lhJNH7B9MA==";
-      };
-    };
     "turndown-7.1.2" = {
       name = "turndown";
       packageName = "turndown";
@@ -6289,7 +6280,7 @@ in
       sha512 = "Y956lmS7vDqomxlaaQAHVmeb4tNMp2FWIvU/RnU5BD3IKMD/MJPr76xdyr68P8tV1iNMvN2mRK0yy3c+UjL+bw==";
     };
     dependencies = [
-      sources."@eslint-community/eslint-utils-4.3.0"
+      sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.4.1"
       sources."@eslint/eslintrc-2.0.1"
       sources."@eslint/js-8.36.0"
@@ -6406,7 +6397,7 @@ in
       sha512 = "qOJ9cTi5AaH5bOgEoCkv41DJ637mHgzffbOLojwU4wadwC6qbR+OxVJRvVzH0v2XYmQOvw4eiJK7ivrr5SvzsA==";
     };
     dependencies = [
-      sources."@eslint-community/eslint-utils-4.3.0"
+      sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.4.1"
       sources."@eslint/eslintrc-2.0.1"
       sources."@eslint/js-8.36.0"
@@ -6627,7 +6618,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.337"
+      sources."electron-to-chromium-1.4.340"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7067,10 +7058,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "2.8.6";
+    version = "2.8.7";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-2.8.6.tgz";
-      sha512 = "mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-2.8.7.tgz";
+      sha512 = "yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7403,7 +7394,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.15.6"
+      sources."@types/node-18.15.7"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7642,10 +7633,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.8.3";
+    version = "4.8.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.8.3.tgz";
-      sha512 = "NJXqzNOClxJ/G6Hr8gafvqcBiY1iNvBACxZlz5tOPyoloTeqyOtl6C9yZUxW8ryW8GAJ2TUS479ly5tq9kjEBA==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.8.4.tgz";
+      sha512 = "k8bw2G4bzpe8Pv20Isch6KoAVsOdm4dNZNPTQmdf0zapOPiDRAOehd1MpoxameKgwz6njF6oRUaxH6W+4LTUKw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7673,7 +7664,7 @@ in
       sources."safer-buffer-2.1.2"
       sources."to-regex-range-5.0.1"
       sources."tr46-0.0.3"
-      sources."turndown-7.1.1"
+      sources."turndown-7.1.2"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
@@ -7736,7 +7727,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-18.15.6"
+      sources."@types/node-18.15.7"
       (sources."@types/node-fetch-2.6.2" // {
         dependencies = [
           sources."form-data-3.0.1"
