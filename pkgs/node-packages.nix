@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.340" = {
+    "electron-to-chromium-1.4.341" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.340";
+      version = "1.4.341";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.340.tgz";
-        sha512 = "zx8hqumOqltKsv/MF50yvdAlPF9S/4PXbyfzJS6ZGhbddGkRegdwImmfSVqCkEziYzrIGZ/TlrzBND4FysfkDg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.341.tgz";
+        sha512 = "R4A8VfUBQY9WmAhuqY5tjHRf5fH2AAf6vqitBOE0y6u2PgHgqHSrhZmu78dIX3fVZtjqlwJNX1i2zwC3VpHtQQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2164,13 +2164,13 @@ let
         sha512 = "0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==";
       };
     };
-    "eslint-visitor-keys-3.3.0" = {
+    "eslint-visitor-keys-3.4.0" = {
       name = "eslint-visitor-keys";
       packageName = "eslint-visitor-keys";
-      version = "3.3.0";
+      version = "3.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz";
-        sha512 = "mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==";
+        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.0.tgz";
+        sha512 = "HPpKPUBQcAsZOsHAFwTtIKcYlCje62XB7SEAcxjtmW6TD1WVpkS6i6/hOVtTZIl4zGj/mBqpFVGvaDneik+VoQ==";
       };
     };
     "espree-7.3.1" = {
@@ -4711,13 +4711,13 @@ let
         sha512 = "vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==";
       };
     };
-    "protobufjs-7.2.2" = {
+    "protobufjs-7.2.3" = {
       name = "protobufjs";
       packageName = "protobufjs";
-      version = "7.2.2";
+      version = "7.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.2.tgz";
-        sha512 = "++PrQIjrom+bFDPpfmqXfAGSQs40116JRrqqyf53dymUMvvb5d/LMRyicRoF1AUKoXVS1/IgJXlEgcpr4gTF3Q==";
+        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.3.tgz";
+        sha512 = "TtpvOqwB5Gdz/PQmOjgsrGH1nHjAQVCN7JG4A6r1sXRWESL5rNMAiRcBQlCAdKxZcAbstExQePYG8xof/JVRgg==";
       };
     };
     "pseudomap-1.0.2" = {
@@ -6310,7 +6310,7 @@ in
       sources."escape-string-regexp-4.0.0"
       sources."eslint-8.36.0"
       sources."eslint-scope-7.1.1"
-      sources."eslint-visitor-keys-3.3.0"
+      sources."eslint-visitor-keys-3.4.0"
       sources."espree-9.5.0"
       sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
@@ -6432,7 +6432,7 @@ in
       sources."escape-string-regexp-4.0.0"
       sources."eslint-8.36.0"
       sources."eslint-scope-7.1.1"
-      sources."eslint-visitor-keys-3.3.0"
+      sources."eslint-visitor-keys-3.4.0"
       sources."espree-9.5.0"
       sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
@@ -6618,7 +6618,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.340"
+      sources."electron-to-chromium-1.4.341"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7616,10 +7616,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "3.3.0";
+    version = "3.3.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.3.0.tgz";
-      sha512 = "dwHmsXWMqCFJ44XTzrmpq6yIjmprGlh3NUSc6zs1YU63ZFPEyn+K3+66misKrISJ4UfmBpugJmFUtQrik7PuvQ==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.3.1.tgz";
+      sha512 = "sm9KNsjYMxzXTNhkNK05K3BN1NkYlOFF4TgqVvzk8l9E2I5SBE7Odrhe3LzCA/78MASO1nWfXx3u96wAhLIhsw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7890,7 +7890,7 @@ in
       sources."picomatch-2.3.1"
       sources."process-0.11.10"
       sources."proto-list-1.2.4"
-      sources."protobufjs-7.2.2"
+      sources."protobufjs-7.2.3"
       sources."pseudomap-1.0.2"
       sources."psl-1.9.0"
       sources."punycode-2.3.0"
