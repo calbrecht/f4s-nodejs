@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.356" = {
+    "electron-to-chromium-1.4.359" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.356";
+      version = "1.4.359";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.356.tgz";
-        sha512 = "nEftV1dRX3omlxAj42FwqRZT0i4xd2dIg39sog/CnCJeCcL1TRd2Uh0i9Oebgv8Ou0vzTPw++xc+Z20jzS2B6A==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.359.tgz";
+        sha512 = "OoVcngKCIuNXtZnsYoqlCvr0Cf3NIPzDIgwUfI9bdTFjXCrr79lI0kwQstLPZ7WhCezLlGksZk/BFAzoXC7GDw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3829,13 +3829,13 @@ let
         sha512 = "DxiNidxSEK+tHG6zOIklvNOwm3hvCrbUrdtzY74U6HKTJxvIDfOUL5W5P2Ghd3DTkhhKPYGqeNUIh5qcM4YBfw==";
       };
     };
-    "minipass-4.2.7" = {
+    "minipass-4.2.8" = {
       name = "minipass";
       packageName = "minipass";
-      version = "4.2.7";
+      version = "4.2.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-4.2.7.tgz";
-        sha512 = "ScVIgqHcXRMyfflqHmEW0bm8z8rb5McHyOY3ewX9JBgZaR77G7nxq9L/mtV96/QbAAwtbCAHVVLzD1kkyfFQEw==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-4.2.8.tgz";
+        sha512 = "fNzuVyifolSLFL4NzpF+wEF4qrgqaaKX0haXPQEdQ7NKAN+WecoKMHV09YcuL/DHxrUsYQOK3MiuDf7Ip2OXfQ==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6079,13 +6079,13 @@ let
         sha512 = "eOpPHogvorZRobNqJGhapa0JdwaxpjVvyBp0QIUMRMSf8ZAlqOdEquKuRmw9Qwu0qXtJIWqFtMkmvJjUZmMjVA==";
       };
     };
-    "web-tree-sitter-0.20.7" = {
+    "web-tree-sitter-0.20.8" = {
       name = "web-tree-sitter";
       packageName = "web-tree-sitter";
-      version = "0.20.7";
+      version = "0.20.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.20.7.tgz";
-        sha512 = "flC9JJmTII9uAeeYpWF8hxDJ7bfY+leldQryetll8Nv4WgI+MXc6h7TiyAZASWl9uC9TvmfdgOjZn1DAQecb3A==";
+        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.20.8.tgz";
+        sha512 = "weOVgZ3aAARgdnb220GqYuh7+rZU0Ka9k9yfKtGAzEYMa6GgiCzW9JjQRJyCJakvibQW+dfjJdihjInKuuCAUQ==";
       };
     };
     "webidl-conversions-3.0.1" = {
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.356"
+      sources."electron-to-chromium-1.4.359"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6684,7 +6684,7 @@ in
         ];
       })
       sources."minimatch-3.1.2"
-      sources."minipass-4.2.7"
+      sources."minipass-4.2.8"
       (sources."minipass-collect-1.0.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -6936,7 +6936,7 @@ in
       sources."strip-ansi-6.0.1"
       (sources."tar-6.1.13" // {
         dependencies = [
-          sources."minipass-4.2.7"
+          sources."minipass-4.2.8"
         ];
       })
       sources."unique-filename-2.0.1"
@@ -7642,10 +7642,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.9.0";
+    version = "4.9.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.9.0.tgz";
-      sha512 = "rMb/d5NeFWviMzuW5DSJSWQ6eHlGPnt0ArfKP0Ayk00bUQzd5GlATJ1BUQ8UACYG/nn7pU6+JWiLgYAw32GL3Q==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.9.1.tgz";
+      sha512 = "2W09QiXguGH5i9yvW6tYd28DnLlLIpf0FeUfN8yrYD0O0DDm6qwvqu7bfOmxkO2AnWeCJ/EY3lv6b+Zc7FQc1w==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7679,7 +7679,7 @@ in
       sources."vscode-languageserver-protocol-3.17.2"
       sources."vscode-languageserver-textdocument-1.0.8"
       sources."vscode-languageserver-types-3.17.2"
-      sources."web-tree-sitter-0.20.7"
+      sources."web-tree-sitter-0.20.8"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
       sources."zod-3.21.4"
@@ -7876,7 +7876,7 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-5.1.6"
-      sources."minipass-4.2.7"
+      sources."minipass-4.2.8"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
