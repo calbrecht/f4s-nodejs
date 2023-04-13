@@ -562,40 +562,40 @@ let
         sha512 = "O2yRJce1GOc6PAy3QxFM4NzFiWzvScDC1/5ihYBL6BUEVdq0XMWN01sppE+H6bBXbaFYipjwFLEWLg5PaSOThA==";
       };
     };
-    "@opentelemetry/core-1.11.0" = {
+    "@opentelemetry/core-1.12.0" = {
       name = "_at_opentelemetry_slash_core";
       packageName = "@opentelemetry/core";
-      version = "1.11.0";
+      version = "1.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.11.0.tgz";
-        sha512 = "aP1wHSb+YfU0pM63UAkizYPuS4lZxzavHHw5KJfFNN2oWQ79HSm6JR3CzwFKHwKhSzHN8RE9fgP1IdVJ8zmo1w==";
+        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.12.0.tgz";
+        sha512 = "4DWYNb3dLs2mSCGl65jY3aEgbvPWSHVQV/dmDWiYeWUrMakZQFcymqZOSUNZO0uDrEJoxMu8O5tZktX6UKFwag==";
       };
     };
-    "@opentelemetry/resources-1.11.0" = {
+    "@opentelemetry/resources-1.12.0" = {
       name = "_at_opentelemetry_slash_resources";
       packageName = "@opentelemetry/resources";
-      version = "1.11.0";
+      version = "1.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.11.0.tgz";
-        sha512 = "y0z2YJTqk0ag+hGT4EXbxH/qPhDe8PfwltYb4tXIEsozgEFfut/bqW7H7pDvylmCjBRMG4NjtLp57V1Ev++brA==";
+        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.12.0.tgz";
+        sha512 = "gunMKXG0hJrR0LXrqh7BVbziA/+iJBL3ZbXCXO64uY+SrExkwoyJkpiq9l5ismkGF/A20mDEV7tGwh+KyPw00Q==";
       };
     };
-    "@opentelemetry/sdk-trace-base-1.11.0" = {
+    "@opentelemetry/sdk-trace-base-1.12.0" = {
       name = "_at_opentelemetry_slash_sdk-trace-base";
       packageName = "@opentelemetry/sdk-trace-base";
-      version = "1.11.0";
+      version = "1.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.11.0.tgz";
-        sha512 = "DV8e5/Qo42V8FMBlQ0Y0Liv6Hl/Pp5bAZ73s7r1euX8w4bpRes1B7ACiA4yujADbWMJxBgSo4fGbi4yjmTMG2A==";
+        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.12.0.tgz";
+        sha512 = "pfCOB3tNDlYVoWuz4D7Ji+Jmy9MHnATWHVpkERdCEiwUGEZ+4IvNPXUcPc37wJVmMpjGLeaWgPPrie0KIpWf1A==";
       };
     };
-    "@opentelemetry/semantic-conventions-1.11.0" = {
+    "@opentelemetry/semantic-conventions-1.12.0" = {
       name = "_at_opentelemetry_slash_semantic-conventions";
       packageName = "@opentelemetry/semantic-conventions";
-      version = "1.11.0";
+      version = "1.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.11.0.tgz";
-        sha512 = "fG4D0AktoHyHwGhFGv+PzKrZjxbKJfckJauTJdq2A+ej5cTazmNYjJVAODXXkYyrsI10muMl+B1iO2q1R6Lp+w==";
+        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.12.0.tgz";
+        sha512 = "hO+bdeGOlJwqowUBoZF5LyP3ORUFOP1G0GRv8N45W/cztXbT2ZEXaAzfokRS9Xc9FWmYrDj32mF6SzH6wuoIyA==";
       };
     };
     "@protobufjs/aspromise-1.1.2" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.360" = {
+    "electron-to-chromium-1.4.362" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.360";
+      version = "1.4.362";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.360.tgz";
-        sha512 = "EP/jdF15S+l3iSSzgUpUqeazvkbVFXNuVxwwLMVUSie3lUeH1HH70gKe0IS7TASB/0h5QPG2bLMzv2jelSztIQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.362.tgz";
+        sha512 = "PYzAoScDfUcAwZfJQvr6hK2xXzLsMocj/Wuz6LpW6TZQNVv9TflBSB+UoEPuFujc478BgAxCoCFarcVPmjzsog==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1921,13 +1921,13 @@ let
         sha512 = "yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg==";
       };
     };
-    "entities-4.4.0" = {
+    "entities-4.5.0" = {
       name = "entities";
       packageName = "entities";
-      version = "4.4.0";
+      version = "4.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/entities/-/entities-4.4.0.tgz";
-        sha512 = "oYp7156SP8LkeGD0GF85ad1X9Ai79WtRsZ2gxJqtBuzH+98YUV6jkHEKlZkMbcrjJjIVJNIDP/3WL9wQkoPbWA==";
+        url = "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz";
+        sha512 = "V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==";
       };
     };
     "env-paths-2.2.1" = {
@@ -2128,13 +2128,13 @@ let
         sha512 = "2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==";
       };
     };
-    "eslint-scope-7.1.1" = {
+    "eslint-scope-7.2.0" = {
       name = "eslint-scope";
       packageName = "eslint-scope";
-      version = "7.1.1";
+      version = "7.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.1.1.tgz";
-        sha512 = "QKQM/UXpIiHcLqJ5AOyIW7XZmzjkzQXYE54n1++wb0u9V/abW3l9uQnxX8Z5Xd18xyKIMTUAyQ0k1e8pz6LUrw==";
+        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.2.0.tgz";
+        sha512 = "DYj5deGlHBfMt15J7rdtyKNq/Nqlv5KfU4iodrQ019XESsRnwXH9KAE0y3cwtUHDo2ob7CypAnCqefh6vioWRw==";
       };
     };
     "eslint-utils-2.1.0" = {
@@ -6318,7 +6318,7 @@ in
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
       sources."eslint-8.38.0"
-      sources."eslint-scope-7.1.1"
+      sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.0"
       sources."espree-9.5.1"
       sources."esquery-1.5.0"
@@ -6440,7 +6440,7 @@ in
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
       sources."eslint-8.38.0"
-      sources."eslint-scope-7.1.1"
+      sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.0"
       sources."espree-9.5.1"
       sources."esquery-1.5.0"
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.360"
+      sources."electron-to-chromium-1.4.362"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7721,10 +7721,10 @@ in
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
       sources."@opentelemetry/api-1.4.1"
-      sources."@opentelemetry/core-1.11.0"
-      sources."@opentelemetry/resources-1.11.0"
-      sources."@opentelemetry/sdk-trace-base-1.11.0"
-      sources."@opentelemetry/semantic-conventions-1.11.0"
+      sources."@opentelemetry/core-1.12.0"
+      sources."@opentelemetry/resources-1.12.0"
+      sources."@opentelemetry/sdk-trace-base-1.12.0"
+      sources."@opentelemetry/semantic-conventions-1.12.0"
       sources."@protobufjs/aspromise-1.1.2"
       sources."@protobufjs/base64-1.1.2"
       sources."@protobufjs/codegen-2.0.4"
@@ -7809,7 +7809,7 @@ in
       sources."emitter-listener-1.1.2"
       sources."emoji-regex-8.0.0"
       sources."encoding-0.1.13"
-      sources."entities-4.4.0"
+      sources."entities-4.5.0"
       sources."extend-3.0.2"
       sources."extsprintf-1.3.0"
       sources."fast-deep-equal-3.1.3"
