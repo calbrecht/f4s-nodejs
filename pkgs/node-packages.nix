@@ -1291,13 +1291,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001478" = {
+    "caniuse-lite-1.0.30001479" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001478";
+      version = "1.0.30001479";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001478.tgz";
-        sha512 = "gMhDyXGItTHipJj2ApIvR+iVB5hd0KP3svMWWXDvZOmjzJJassGLMfxRkQCSYgGd2gtdL/ReeiyvMSFD1Ss6Mw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001479.tgz";
+        sha512 = "6nuRFim5dx8Eu2tO+KJ9PiBdPHs7WB5Hdf+klDcyefyEuOAcfhihIv7pS+JFknJLUiNQbm1AJYKm0c9QOlQS/Q==";
       };
     };
     "cardinal-1.0.0" = {
@@ -3622,13 +3622,13 @@ let
         sha512 = "9FyqAm9o9NKKfiAKfZoYo9bGXXuwMkxQiQttkT4YjjVtQVIQtK6LmVtlxmCaFswo6N4AfEkHqZTV0taDtPotNg==";
       };
     };
-    "long-5.2.2" = {
+    "long-5.2.3" = {
       name = "long";
       packageName = "long";
-      version = "5.2.2";
+      version = "5.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/long/-/long-5.2.2.tgz";
-        sha512 = "FcRNYR7XWu4a9dHZfBTTpRy66IJgAg1dkRSQHQfrLKbTi8I7Awop0fUNqvcWPOSwu0/VX0CSDWlCcQz1LFUdoA==";
+        url = "https://registry.npmjs.org/long/-/long-5.2.3.tgz";
+        sha512 = "lcHwpNoggQTObv5apGNCTdJrO69eHOZMi4BNC+rTLER8iHAqGrUVeLh/irVIM7zTw2bOXA8T6uNPeujwOLg/2Q==";
       };
     };
     "loose-envify-1.4.0" = {
@@ -6609,7 +6609,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001478"
+      sources."caniuse-lite-1.0.30001479"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7864,7 +7864,7 @@ in
       })
       sources."jsprim-1.4.2"
       sources."leac-0.6.0"
-      sources."long-5.2.2"
+      sources."long-5.2.3"
       sources."lru-cache-7.14.1"
       (sources."make-dir-3.1.0" // {
         dependencies = [
