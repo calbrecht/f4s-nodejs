@@ -3622,13 +3622,13 @@ let
         sha512 = "9FyqAm9o9NKKfiAKfZoYo9bGXXuwMkxQiQttkT4YjjVtQVIQtK6LmVtlxmCaFswo6N4AfEkHqZTV0taDtPotNg==";
       };
     };
-    "long-5.2.1" = {
+    "long-5.2.2" = {
       name = "long";
       packageName = "long";
-      version = "5.2.1";
+      version = "5.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/long/-/long-5.2.1.tgz";
-        sha512 = "GKSNGeNAtw8IryjjkhZxuKB3JzlcLTwjtiQCHKvqQet81I93kXslhDQruGI/QsddO83mcDToBVy7GqGS/zYf/A==";
+        url = "https://registry.npmjs.org/long/-/long-5.2.2.tgz";
+        sha512 = "FcRNYR7XWu4a9dHZfBTTpRy66IJgAg1dkRSQHQfrLKbTi8I7Awop0fUNqvcWPOSwu0/VX0CSDWlCcQz1LFUdoA==";
       };
     };
     "loose-envify-1.4.0" = {
@@ -7864,7 +7864,7 @@ in
       })
       sources."jsprim-1.4.2"
       sources."leac-0.6.0"
-      sources."long-5.2.1"
+      sources."long-5.2.2"
       sources."lru-cache-7.14.1"
       (sources."make-dir-3.1.0" // {
         dependencies = [
