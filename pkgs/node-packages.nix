@@ -31,13 +31,13 @@ let
         sha512 = "HFrcTgmuSuukRf/EdPmqBrc5l6Q5Uu+2TbuhaKbgaCpP2TfAeiNaQPAadxO+CYBRHGUzIDteMAjFspFLDLnKVQ==";
       };
     };
-    "@azure/core-http-2.3.1" = {
+    "@azure/core-http-2.3.2" = {
       name = "_at_azure_slash_core-http";
       packageName = "@azure/core-http";
-      version = "2.3.1";
+      version = "2.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-http/-/core-http-2.3.1.tgz";
-        sha512 = "cur03BUwV0Tbv81bQBOLafFB02B6G++K6F2O3IMl8pSE2QlXm3cu11bfyBNlDUKi5U+xnB3GC63ae3athhkx6Q==";
+        url = "https://registry.npmjs.org/@azure/core-http/-/core-http-2.3.2.tgz";
+        sha512 = "Z4dfbglV9kNZO177CNx4bo5ekFuYwwsvjLiKdZI4r84bYGv3irrbQz7JC3/rUfFH2l4T/W6OFleJaa2X0IaQqw==";
       };
     };
     "@azure/core-tracing-1.0.0-preview.13" = {
@@ -1291,13 +1291,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001479" = {
+    "caniuse-lite-1.0.30001480" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001479";
+      version = "1.0.30001480";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001479.tgz";
-        sha512 = "6nuRFim5dx8Eu2tO+KJ9PiBdPHs7WB5Hdf+klDcyefyEuOAcfhihIv7pS+JFknJLUiNQbm1AJYKm0c9QOlQS/Q==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001480.tgz";
+        sha512 = "q7cpoPPvZYgtyC4VaBSN0Bt+PJ4c4EYRf0DrduInOz2SkFpHD5p3LnvEpqBp7UnJn+8x1Ogl1s38saUxe+ihQQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.365" = {
+    "electron-to-chromium-1.4.366" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.365";
+      version = "1.4.366";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.365.tgz";
-        sha512 = "FRHZO+1tUNO4TOPXmlxetkoaIY8uwHzd1kKopK/Gx2SKn1L47wJXWD44wxP5CGRyyP98z/c8e1eBzJrgPeiBOg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.366.tgz";
+        sha512 = "XjC4pyf1no8kJe24nUfyexpWwiGRbZWXU/KbprSEvXcTXUlr3Zr5vK3lQt2to0ttpMhAc3iENccwPSKbnEW2Fg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5089,13 +5089,13 @@ let
         sha512 = "NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==";
       };
     };
-    "semver-7.4.0" = {
+    "semver-7.5.0" = {
       name = "semver";
       packageName = "semver";
-      version = "7.4.0";
+      version = "7.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.4.0.tgz";
-        sha512 = "RgOxM8Mw+7Zus0+zcLEUn8+JfoLpj/huFTItQy2hsM4khuC1HYRDp0cU482Ewn/Fcy6bCjufD8vAj7voC66KQw==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.5.0.tgz";
+        sha512 = "+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -6205,13 +6205,13 @@ let
         sha512 = "PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==";
       };
     };
-    "xml2js-0.4.23" = {
+    "xml2js-0.5.0" = {
       name = "xml2js";
       packageName = "xml2js";
-      version = "0.4.23";
+      version = "0.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz";
-        sha512 = "ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==";
+        url = "https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz";
+        sha512 = "drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==";
       };
     };
     "xmlbuilder-11.0.1" = {
@@ -6575,14 +6575,14 @@ in
       (sources."@mapbox/node-pre-gyp-1.0.10" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.4.0"
+          sources."semver-7.5.0"
           sources."yallist-4.0.0"
         ];
       })
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.4.0"
+          sources."semver-7.5.0"
           sources."yallist-4.0.0"
         ];
       })
@@ -6609,7 +6609,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001479"
+      sources."caniuse-lite-1.0.30001480"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.365"
+      sources."electron-to-chromium-1.4.366"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6732,7 +6732,7 @@ in
           sources."gauge-4.0.4"
           sources."lru-cache-6.0.0"
           sources."npmlog-6.0.2"
-          sources."semver-7.4.0"
+          sources."semver-7.5.0"
           sources."yallist-4.0.0"
         ];
       })
@@ -6920,7 +6920,7 @@ in
       sources."rimraf-3.0.2"
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
-      (sources."semver-7.4.0" // {
+      (sources."semver-7.5.0" // {
         dependencies = [
           sources."lru-cache-6.0.0"
         ];
@@ -7328,7 +7328,7 @@ in
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."safe-regex-test-1.0.0"
-      sources."semver-7.4.0"
+      sources."semver-7.5.0"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."side-channel-1.0.4"
@@ -7625,10 +7625,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "3.3.1";
+    version = "3.3.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.3.1.tgz";
-      sha512 = "sm9KNsjYMxzXTNhkNK05K3BN1NkYlOFF4TgqVvzk8l9E2I5SBE7Odrhe3LzCA/78MASO1nWfXx3u96wAhLIhsw==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-3.3.2.tgz";
+      sha512 = "jzun53CIkTbpAki0nP+hk5baGW+86SNNlVhyIj2ZUy45zUkCnmoetWuAtfRRQYrlIr8x4QB3ymGJPuwDQSd/ew==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7705,7 +7705,7 @@ in
     dependencies = [
       sources."@azure/abort-controller-1.1.0"
       sources."@azure/core-auth-1.4.0"
-      sources."@azure/core-http-2.3.1"
+      sources."@azure/core-http-2.3.2"
       sources."@azure/core-tracing-1.0.0-preview.13"
       sources."@azure/core-util-1.3.1"
       sources."@azure/logger-1.0.4"
@@ -7990,7 +7990,7 @@ in
       sources."whatwg-url-5.0.0"
       sources."wide-align-1.1.5"
       sources."wrappy-1.0.2"
-      sources."xml2js-0.4.23"
+      sources."xml2js-0.5.0"
       sources."xmlbuilder-11.0.1"
       sources."yallist-2.1.2"
     ];
