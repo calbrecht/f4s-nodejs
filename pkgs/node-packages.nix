@@ -4864,13 +4864,13 @@ let
         sha512 = "kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==";
       };
     };
-    "regexp.prototype.flags-1.4.3" = {
+    "regexp.prototype.flags-1.5.0" = {
       name = "regexp.prototype.flags";
       packageName = "regexp.prototype.flags";
-      version = "1.4.3";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.4.3.tgz";
-        sha512 = "fjggEOO3slI6Wvgjwflkc4NFRCTZAu5CnNfBd5qOMYhWdn67nJBBu34/TkD++eeFmd8C9r9jfXJ27+nSiRkSUA==";
+        url = "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.5.0.tgz";
+        sha512 = "0SutC3pNudRKgquxGoRGIz946MZVHqbNfPjBdxeOhBrdgDKlRoXmYLQN9xRbrR09ZXWeGAdPuif7egofn6v5LA==";
       };
     };
     "regexpp-3.2.0" = {
@@ -6016,6 +6016,15 @@ let
         sha512 = "924/h0AqsMtA5yK22GgMtCYiMdCOtWTSGgUOkgEDX+wk2b0x4sAfLiO4NxBxqbiVtz7K7/1/RgVrVI0NClZwqA==";
       };
     };
+    "vscode-languageserver-textdocument-1.0.10" = {
+      name = "vscode-languageserver-textdocument";
+      packageName = "vscode-languageserver-textdocument";
+      version = "1.0.10";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.10.tgz";
+        sha512 = "dPA6WqtAQJ/Iopm0Hrj11VvaKxsEcm62jpqyaYbY0xuvUffeWAn77f3VKr2SCsJphSyEw4Fjkjqm2gQ24KQfrA==";
+      };
+    };
     "vscode-languageserver-textdocument-1.0.8" = {
       name = "vscode-languageserver-textdocument";
       packageName = "vscode-languageserver-textdocument";
@@ -6023,15 +6032,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.8.tgz";
         sha512 = "1bonkGqQs5/fxGT5UchTgjGVnfysL0O8v1AYMBjqTbWQTFn721zaPGDYFkOKtfDgFiSgXM3KwaG3FMGfW4Ed9Q==";
-      };
-    };
-    "vscode-languageserver-textdocument-1.0.9" = {
-      name = "vscode-languageserver-textdocument";
-      packageName = "vscode-languageserver-textdocument";
-      version = "1.0.9";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.9.tgz";
-        sha512 = "NPfHVGFW2/fQEWHspr8x3PXhRgtFbuDZdl7p6ifuN3M7nk2Yjf5POr/NfDBuAiQG88DehDyJ7nGOT+p+edEtbw==";
       };
     };
     "vscode-languageserver-types-3.16.0" = {
@@ -7321,7 +7321,7 @@ in
       sources."react-is-16.13.1"
       sources."read-pkg-3.0.0"
       sources."read-pkg-up-3.0.0"
-      sources."regexp.prototype.flags-1.4.3"
+      sources."regexp.prototype.flags-1.5.0"
       sources."regexpp-3.2.0"
       sources."require-from-string-2.0.2"
       sources."resolve-1.22.3"
@@ -7982,7 +7982,7 @@ in
           sources."vscode-languageserver-types-3.17.3"
         ];
       })
-      sources."vscode-languageserver-textdocument-1.0.9"
+      sources."vscode-languageserver-textdocument-1.0.10"
       sources."vscode-languageserver-types-3.17.2"
       sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.7"
@@ -8030,7 +8030,7 @@ in
           sources."vscode-languageserver-types-3.16.0"
         ];
       })
-      sources."vscode-languageserver-textdocument-1.0.9"
+      sources."vscode-languageserver-textdocument-1.0.10"
       sources."vscode-languageserver-types-3.17.3"
       sources."vscode-nls-5.2.0"
       sources."vscode-uri-3.0.7"
