@@ -4459,13 +4459,13 @@ let
         sha512 = "aOIos8bujGN93/8Ox/jPLh7RwVnPEysynVFE+fQZyg6jKELEHwzgKdLRFHUgXJL6kylijVSBC4BvN9OmsB48Rw==";
       };
     };
-    "parseley-0.12.0" = {
+    "parseley-0.12.1" = {
       name = "parseley";
       packageName = "parseley";
-      version = "0.12.0";
+      version = "0.12.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/parseley/-/parseley-0.12.0.tgz";
-        sha512 = "uLqDm6IQVb6m50a3dIxF66hI8VWr7wFDYUULtHa1ITRh9mwYIXzFpPTkPM66Cm5V0t+bMyeSHgUCGzoXTV96LQ==";
+        url = "https://registry.npmjs.org/parseley/-/parseley-0.12.1.tgz";
+        sha512 = "e6qHKe3a9HWr0oMRVDTRhKce+bRO8VGQR3NyVwcjwrbhMmFCX9KszEV35+rn4AdilFAq9VPxP/Fe1wC9Qjd2lw==";
       };
     };
     "path-exists-3.0.0" = {
@@ -7892,7 +7892,7 @@ in
       sources."oauth-sign-0.9.0"
       sources."object-assign-4.1.1"
       sources."once-1.4.0"
-      sources."parseley-0.12.0"
+      sources."parseley-0.12.1"
       sources."path-is-absolute-1.0.1"
       sources."peberminta-0.9.0"
       sources."performance-now-2.1.0"
