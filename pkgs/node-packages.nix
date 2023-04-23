@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.15.13" = {
+    "@types/node-18.16.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.15.13";
+      version = "18.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.15.13.tgz";
-        sha512 = "N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.16.0.tgz";
+        sha512 = "BsAaKhB+7X+H4GnSjGhJG9Qi8Tw+inU9nJDwmD5CgOmBLEI6ArdhikpLX7DjbjDRDTbqZzU2LSQNZg8WGPiSZQ==";
       };
     };
     "@types/node-fetch-2.6.3" = {
@@ -7067,10 +7067,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "2.8.7";
+    version = "2.8.8";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-2.8.7.tgz";
-      sha512 = "yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-2.8.8.tgz";
+      sha512 = "tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7403,7 +7403,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.15.13"
+      sources."@types/node-18.16.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7736,7 +7736,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-18.15.13"
+      sources."@types/node-18.16.0"
       (sources."@types/node-fetch-2.6.3" // {
         dependencies = [
           sources."form-data-3.0.1"
