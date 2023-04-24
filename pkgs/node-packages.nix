@@ -778,13 +778,13 @@ let
         sha512 = "sOUTGn6h1SfQ+gbgqC364jLFBw2lnFqkgF3q0WovEHRLMrVD1sd5aufqi/aJObLekJO+Aq5z646U4Oxy6shXMA==";
       };
     };
-    "@vscode/l10n-0.0.11" = {
+    "@vscode/l10n-0.0.13" = {
       name = "_at_vscode_slash_l10n";
       packageName = "@vscode/l10n";
-      version = "0.0.11";
+      version = "0.0.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.11.tgz";
-        sha512 = "ukOMWnCg1tCvT7WnDfsUKQOFDQGsyR5tNgRpwmqi+5/vzU3ghdDXzvIM4IOPdSb3OeSsBNvmSL8nxIVOqi2WXA==";
+        url = "https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.13.tgz";
+        sha512 = "A3uY356uOU9nGa+TQIT/i3ziWUgJjVMUrGGXSrtRiTwklyCFjGVWIOHoEIHbJpiyhDkJd9kvIWUOfXK1IkK8XQ==";
       };
     };
     "JSV-4.0.2" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.369" = {
+    "electron-to-chromium-1.4.371" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.369";
+      version = "1.4.371";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.369.tgz";
-        sha512 = "LfxbHXdA/S+qyoTEA4EbhxGjrxx7WK2h6yb5K2v0UCOufUKX+VZaHbl3svlzZfv9sGseym/g3Ne4DpsgRULmqg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.371.tgz";
+        sha512 = "jlBzY4tFcJaiUjzhRTCWAqRvTO/fWzjA3Bls0mykzGZ7zvcMP7h05W6UcgzfT9Ca1SW2xyKDOFRyI0pQeRNZGw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5917,22 +5917,22 @@ let
         sha512 = "ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==";
       };
     };
-    "vscode-css-languageservice-6.2.4" = {
+    "vscode-css-languageservice-6.2.5" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "6.2.4";
+      version = "6.2.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.4.tgz";
-        sha512 = "9UG0s3Ss8rbaaPZL1AkGzdjrGY8F+P+Ne9snsrvD9gxltDGhsn8C2dQpqQewHrMW37OvlqJoI8sUU2AWDb+qNw==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.5.tgz";
+        sha512 = "/1oyBZK3jfx6A0cA46FCUpy6OlqEsMT47LUIldCIP1YMKRYezJ9No+aNj9IM0AqhRZ92DxZ1DmU5lJ+biuiacA==";
       };
     };
-    "vscode-html-languageservice-5.0.4" = {
+    "vscode-html-languageservice-5.0.5" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "5.0.4";
+      version = "5.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.0.4.tgz";
-        sha512 = "tvrySfpglu4B2rQgWGVO/IL+skvU7kBkQotRlxA7ocSyRXOZUd6GA13XHkxo8LPe07KWjeoBlN1aVGqdfTK4xA==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.0.5.tgz";
+        sha512 = "7788ZT+I7/UhFoI4+bzaAiGGZEW7X39kTeuytLtw6jJA6W7ez85bWKYoFDcwrPNmywj3n/IkU9Op9asaje44jg==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.369"
+      sources."electron-to-chromium-1.4.371"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7743,7 +7743,7 @@ in
         ];
       })
       sources."@types/tunnel-0.0.3"
-      sources."@vscode/l10n-0.0.11"
+      sources."@vscode/l10n-0.0.13"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
       sources."ajv-6.12.6"
@@ -7964,12 +7964,16 @@ in
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-6.2.4" // {
+      (sources."vscode-css-languageservice-6.2.5" // {
         dependencies = [
           sources."vscode-languageserver-types-3.17.3"
         ];
       })
-      sources."vscode-html-languageservice-5.0.4"
+      (sources."vscode-html-languageservice-5.0.5" // {
+        dependencies = [
+          sources."vscode-languageserver-types-3.17.3"
+        ];
+      })
       sources."vscode-jsonrpc-8.1.0"
       (sources."vscode-languageserver-8.0.2" // {
         dependencies = [
