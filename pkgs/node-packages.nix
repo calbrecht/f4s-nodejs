@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.16.0" = {
+    "@types/node-18.16.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.16.0";
+      version = "18.16.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.16.0.tgz";
-        sha512 = "BsAaKhB+7X+H4GnSjGhJG9Qi8Tw+inU9nJDwmD5CgOmBLEI6ArdhikpLX7DjbjDRDTbqZzU2LSQNZg8WGPiSZQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.16.1.tgz";
+        sha512 = "DZxSZWXxFfOlx7k7Rv4LAyiMroaxa3Ly/7OOzZO8cBNho0YzAi4qlbrx8W27JGqG57IgR/6J7r+nOJWw6kcvZA==";
       };
     };
     "@types/node-fetch-2.6.3" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.371" = {
+    "electron-to-chromium-1.4.372" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.371";
+      version = "1.4.372";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.371.tgz";
-        sha512 = "jlBzY4tFcJaiUjzhRTCWAqRvTO/fWzjA3Bls0mykzGZ7zvcMP7h05W6UcgzfT9Ca1SW2xyKDOFRyI0pQeRNZGw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.372.tgz";
+        sha512 = "MrlFq/j+TYHOjeWsWGYfzevc25HNeJdsF6qaLFrqBTRWZQtWkb1myq/Q2veLWezVaa5OcSZ99CFwTT4aF4Mung==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.371"
+      sources."electron-to-chromium-1.4.372"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7403,7 +7403,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.16.0"
+      sources."@types/node-18.16.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7736,7 +7736,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-18.16.0"
+      sources."@types/node-18.16.1"
       (sources."@types/node-fetch-2.6.3" // {
         dependencies = [
           sources."form-data-3.0.1"
