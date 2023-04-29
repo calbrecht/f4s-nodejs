@@ -76,13 +76,13 @@ let
         sha512 = "LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==";
       };
     };
-    "@babel/compat-data-7.21.5" = {
+    "@babel/compat-data-7.21.7" = {
       name = "_at_babel_slash_compat-data";
       packageName = "@babel/compat-data";
-      version = "7.21.5";
+      version = "7.21.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.21.5.tgz";
-        sha512 = "M+XAiQ7GzQ3FDPf0KOLkugzptnIypt0X0ma0wmlTKPR3IchgNFdx2JXxZdvd18JY5s7QkaFD/qyX0dsMpog/Ug==";
+        url = "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.21.7.tgz";
+        sha512 = "KYMqFYTaenzMK4yUtf4EW9wc4N9ef80FsbMtkwool5zpwl4YrT1SdWYSTRcT94KO4hannogdS+LxY7L+arP3gA==";
       };
     };
     "@babel/core-7.21.5" = {
@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-18.16.2" = {
+    "@types/node-18.16.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.16.2";
+      version = "18.16.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.16.2.tgz";
-        sha512 = "GQW/JL/5Fz/0I8RpeBG9lKp0+aNcXEaVL71c0D2Q0QHDTFvlYKT7an0onCUXj85anv7b4/WesqdfchLc0jtsCg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.16.3.tgz";
+        sha512 = "OPs5WnnT1xkCBiuQrZA4+YAV4HEJejmHneyraIaxsbev5yCEr6KMwINNFP9wQeFIw8FWcoTqF3vQsa5CDaI+8Q==";
       };
     };
     "@types/node-fetch-2.6.3" = {
@@ -1831,13 +1831,13 @@ let
         sha512 = "3VdM/SXBZX2omc9JF9nOPCtDaYQ67BGp5CoLpIQlO2KCAPETs8TcDHacF26jXadGbvUteZzRTeos2fhID5+ucQ==";
       };
     };
-    "domutils-3.0.1" = {
+    "domutils-3.1.0" = {
       name = "domutils";
       packageName = "domutils";
-      version = "3.0.1";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/domutils/-/domutils-3.0.1.tgz";
-        sha512 = "z08c1l761iKhDFtfXO04C7kTdPBLi41zwOZl00WS8b5eiaebNpY00HKbztwBq+e3vyqWNwWF3mP9YLUeqIrF+Q==";
+        url = "https://registry.npmjs.org/domutils/-/domutils-3.1.0.tgz";
+        sha512 = "H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==";
       };
     };
     "ecc-jsbn-0.1.2" = {
@@ -6531,7 +6531,7 @@ in
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.21.4"
-      sources."@babel/compat-data-7.21.5"
+      sources."@babel/compat-data-7.21.7"
       sources."@babel/core-7.21.5"
       sources."@babel/generator-7.21.5"
       sources."@babel/helper-compilation-targets-7.21.5"
@@ -7403,7 +7403,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-18.16.2"
+      sources."@types/node-18.16.3"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7736,7 +7736,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-18.16.2"
+      sources."@types/node-18.16.3"
       (sources."@types/node-fetch-2.6.3" // {
         dependencies = [
           sources."form-data-3.0.1"
@@ -7798,7 +7798,7 @@ in
       sources."domelementtype-2.3.0"
       sources."domhandler-5.0.3"
       sources."domino-2.1.6"
-      sources."domutils-3.0.1"
+      sources."domutils-3.1.0"
       sources."ecc-jsbn-0.1.2"
       (sources."editorconfig-0.15.3" // {
         dependencies = [
