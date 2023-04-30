@@ -346,13 +346,13 @@ let
         sha512 = "1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==";
       };
     };
-    "@eslint-community/regexpp-4.5.0" = {
+    "@eslint-community/regexpp-4.5.1" = {
       name = "_at_eslint-community_slash_regexpp";
       packageName = "@eslint-community/regexpp";
-      version = "4.5.0";
+      version = "4.5.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.5.0.tgz";
-        sha512 = "vITaYzIcNmjn5tF5uxcZ/ft7/RXGrMUIS9HalWckEOF6ESiwXKoMzAQf2UW0aVd6rnOeExTJVd5hmWXucBKGXQ==";
+        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.5.1.tgz";
+        sha512 = "Z5ba73P98O1KUYCCJTUeVpja9RcGoMdncZ6T49FCUl2lN38JtCJ+3WgIDBv0AuY4WChU5PmtJmOCTlN6FZTFKQ==";
       };
     };
     "@eslint/eslintrc-0.3.0" = {
@@ -6290,7 +6290,7 @@ in
     };
     dependencies = [
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.5.0"
+      sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.2"
       sources."@eslint/js-8.39.0"
       sources."@humanwhocodes/config-array-0.11.8"
@@ -6407,7 +6407,7 @@ in
     };
     dependencies = [
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.5.0"
+      sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.2"
       sources."@eslint/js-8.39.0"
       sources."@humanwhocodes/config-array-0.11.8"
