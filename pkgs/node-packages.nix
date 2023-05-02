@@ -85,13 +85,13 @@ let
         sha512 = "KYMqFYTaenzMK4yUtf4EW9wc4N9ef80FsbMtkwool5zpwl4YrT1SdWYSTRcT94KO4hannogdS+LxY7L+arP3gA==";
       };
     };
-    "@babel/core-7.21.5" = {
+    "@babel/core-7.21.8" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.21.5";
+      version = "7.21.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.21.5.tgz";
-        sha512 = "9M398B/QH5DlfCOTKDZT1ozXr0x8uBEeFd+dJraGUZGiaNpGCDVGCc14hZexsMblw3XxltJ+6kSvogp9J+5a9g==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.21.8.tgz";
+        sha512 = "YeM22Sondbo523Sz0+CirSPnbj9bG3P0CdHcBZdqUuaeOaYEFbOLoGU7lebvGP6P5J/WE9wOn7u7C4J9HvS1xQ==";
       };
     };
     "@babel/generator-7.21.5" = {
@@ -229,13 +229,13 @@ let
         sha512 = "u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==";
       };
     };
-    "@babel/parser-7.21.5" = {
+    "@babel/parser-7.21.8" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.21.5";
+      version = "7.21.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.5.tgz";
-        sha512 = "J+IxH2IsxV4HbnTrSWgMAQj0UEo61hDA4Ny8h8PCX0MLXiibqHbqIOVneqdocemSBc22VpBKxt4J6FQzy9HarQ==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.21.8.tgz";
+        sha512 = "6zavDGdzG3gUqAdWvlLFfk+36RilI+Pwyuuh7HItyeScCWP3k6i8vKclAQ0bM/0y/Kz/xiwvxhMv9MgTJP5gmA==";
       };
     };
     "@babel/plugin-syntax-flow-7.21.4" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.378" = {
+    "electron-to-chromium-1.4.380" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.378";
+      version = "1.4.380";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.378.tgz";
-        sha512 = "RfCD26kGStl6+XalfX3DGgt3z2DNwJS5DKRHCpkPq5T/PqpZMPB1moSRXuK9xhkt/sF57LlpzJgNoYl7mO7Z6w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.380.tgz";
+        sha512 = "XKGdI4pWM78eLH2cbXJHiBnWUwFSzZM7XujsB6stDiGu9AeSqziedP6amNLpJzE3i0rLTcfAwdCTs5ecP5yeSg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6532,7 +6532,7 @@ in
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.21.4"
       sources."@babel/compat-data-7.21.7"
-      sources."@babel/core-7.21.5"
+      sources."@babel/core-7.21.8"
       sources."@babel/generator-7.21.5"
       sources."@babel/helper-compilation-targets-7.21.5"
       sources."@babel/helper-environment-visitor-7.21.5"
@@ -6548,7 +6548,7 @@ in
       sources."@babel/helper-validator-option-7.21.0"
       sources."@babel/helpers-7.21.5"
       sources."@babel/highlight-7.18.6"
-      sources."@babel/parser-7.21.5"
+      sources."@babel/parser-7.21.8"
       sources."@babel/plugin-syntax-flow-7.21.4"
       sources."@babel/plugin-syntax-jsx-7.21.4"
       sources."@babel/plugin-syntax-typescript-7.21.4"
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.378"
+      sources."electron-to-chromium-1.4.380"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
