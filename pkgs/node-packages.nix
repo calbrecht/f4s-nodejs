@@ -49,13 +49,13 @@ let
         sha512 = "KxDlhXyMlh2Jhj2ykX6vNEU0Vou4nHr025KoSEiz7cS3BNiHNaZcdECk/DmLkEB0as5T7b/TpRcehJ5yV6NeXQ==";
       };
     };
-    "@azure/core-util-1.3.1" = {
+    "@azure/core-util-1.3.2" = {
       name = "_at_azure_slash_core-util";
       packageName = "@azure/core-util";
-      version = "1.3.1";
+      version = "1.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.3.1.tgz";
-        sha512 = "pjfOUAb+MPLODhGuXot/Hy8wUgPD0UTqYkY3BiYcwEETrLcUCVM1t0roIvlQMgvn1lc48TGy5bsonsFpF862Jw==";
+        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.3.2.tgz";
+        sha512 = "2bECOUh88RvL1pMZTcc6OzfobBeWDBf5oBbhjIhT1MV9otMVWCzpOJkkiKtrnO88y5GGBelgY8At73KGAdbkeQ==";
       };
     };
     "@azure/logger-1.0.4" = {
@@ -1291,13 +1291,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001482" = {
+    "caniuse-lite-1.0.30001485" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001482";
+      version = "1.0.30001485";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001482.tgz";
-        sha512 = "F1ZInsg53cegyjroxLNW9DmrEQ1SuGRTO1QlpA0o2/6OpQ0gFeDRoq1yFmnr8Sakn9qwwt9DmbxHB6w167OSuQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001485.tgz";
+        sha512 = "8aUpZ7sjhlOyiNsg+pgcrTTPUXKh+rg544QYHSvQErljVEKJzvkYkCR/hUFeeVoEfTToUtY9cUKNRC7+c45YkA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6609,7 +6609,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001482"
+      sources."caniuse-lite-1.0.30001485"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7707,7 +7707,7 @@ in
       sources."@azure/core-auth-1.4.0"
       sources."@azure/core-http-2.3.2"
       sources."@azure/core-tracing-1.0.0-preview.13"
-      sources."@azure/core-util-1.3.1"
+      sources."@azure/core-util-1.3.2"
       sources."@azure/logger-1.0.4"
       sources."@bmewburn/js-beautify-1.14.7"
       sources."@bmewburn/vscode-html-languageserver-1.9.0"
