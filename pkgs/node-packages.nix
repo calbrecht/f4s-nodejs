@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.1.0" = {
+    "@types/node-20.1.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.1.0";
+      version = "20.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.1.0.tgz";
-        sha512 = "O+z53uwx64xY7D6roOi4+jApDGFg0qn6WHcxe5QeqjMaTezBO/mxdfFXIVAVVyNWKx84OmPB3L8kbVYOTeN34A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.1.1.tgz";
+        sha512 = "uKBEevTNb+l6/aCQaKVnUModfEMjAl98lw2Si9P5y4hLu9tm6AlX2ZIoXZX6Wh9lJueYPrGPKk5WMCNHg/u6/A==";
       };
     };
     "@types/node-fetch-2.6.3" = {
@@ -4036,6 +4036,15 @@ let
         sha512 = "wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==";
       };
     };
+    "node-fetch-2.6.10" = {
+      name = "node-fetch";
+      packageName = "node-fetch";
+      version = "2.6.10";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.10.tgz";
+        sha512 = "5YytjUVbwzjE/BX4N62vnPPkGNxlJPwdA9/ArUc4pcM6cYS4Hinuv4VazzwjMGgnWuiQqcemOanib/5PpcsGug==";
+      };
+    };
     "node-fetch-2.6.9" = {
       name = "node-fetch";
       packageName = "node-fetch";
@@ -6725,7 +6734,7 @@ in
       sources."ms-2.1.2"
       sources."negotiator-0.6.3"
       sources."node-addon-api-4.3.0"
-      sources."node-fetch-2.6.9"
+      sources."node-fetch-2.6.10"
       (sources."node-gyp-8.4.1" // {
         dependencies = [
           sources."are-we-there-yet-3.0.1"
@@ -7403,7 +7412,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.1.0"
+      sources."@types/node-20.1.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7736,7 +7745,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.1.0"
+      sources."@types/node-20.1.1"
       (sources."@types/node-fetch-2.6.3" // {
         dependencies = [
           sources."form-data-3.0.1"
@@ -7886,7 +7895,7 @@ in
       sources."mkdirp-1.0.4"
       sources."ms-2.1.2"
       sources."nan-2.17.0"
-      sources."node-fetch-2.6.9"
+      sources."node-fetch-2.6.10"
       sources."nopt-6.0.0"
       sources."npmlog-5.0.1"
       sources."oauth-sign-0.9.0"
