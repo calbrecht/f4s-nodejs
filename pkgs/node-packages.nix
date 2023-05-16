@@ -742,22 +742,22 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.1.4" = {
+    "@types/node-20.1.7" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.1.4";
+      version = "20.1.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.1.4.tgz";
-        sha512 = "At4pvmIOki8yuwLtd7BNHl3CiWNbtclUbNtScGx4OHfBd4/oWoJC8KRCIxXwkdndzhxOsPXihrsOoydxBjlE9Q==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.1.7.tgz";
+        sha512 = "WCuw/o4GSwDGMoonES8rcvwsig77dGCMbZDrZr2x4ZZiNW4P/gcoZXe/0twgtobcTkmg9TuKflxYL/DuwDyJzg==";
       };
     };
-    "@types/node-fetch-2.6.3" = {
+    "@types/node-fetch-2.6.4" = {
       name = "_at_types_slash_node-fetch";
       packageName = "@types/node-fetch";
-      version = "2.6.3";
+      version = "2.6.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.3.tgz";
-        sha512 = "ETTL1mOEdq/sxUtgtOhKjyB2Irra4cjxksvcMUR5Zr4n+PxVhsCD9WS46oPbHL3et9Zde7CNRr+WUNlcHvsX+w==";
+        url = "https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.4.tgz";
+        sha512 = "1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==";
       };
     };
     "@types/triple-beam-1.3.2" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.396" = {
+    "electron-to-chromium-1.4.397" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.396";
+      version = "1.4.397";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.396.tgz";
-        sha512 = "pqKTdqp/c5vsrc0xUPYXTDBo9ixZuGY8es4ZOjjd6HD6bFYbu5QA09VoW3fkY4LF1T0zYk86lN6bZnNlBuOpdQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.397.tgz";
+        sha512 = "jwnPxhh350Q/aMatQia31KAIQdhEsYS0fFZ0BQQlN9tfvOEwShu6ZNwI4kL/xBabjcB/nTy6lSt17kNIluJZ8Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3127,13 +3127,13 @@ let
         sha512 = "1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==";
       };
     };
-    "is-core-module-2.12.0" = {
+    "is-core-module-2.12.1" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.12.0";
+      version = "2.12.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.0.tgz";
-        sha512 = "RECHCBCd/viahWmwj6enj19sKbHfJrddi/6cBDsNTKbNq0f7VeaUkBo60BqzvPqo/W54ChS62Z5qyun7cfOMqQ==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.1.tgz";
+        sha512 = "Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==";
       };
     };
     "is-date-object-1.0.5" = {
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.396"
+      sources."electron-to-chromium-1.4.397"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7243,7 +7243,7 @@ in
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
       sources."is-callable-1.2.7"
-      sources."is-core-module-2.12.0"
+      sources."is-core-module-2.12.1"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
@@ -7403,7 +7403,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.1.4"
+      sources."@types/node-20.1.7"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7575,7 +7575,7 @@ in
       sources."has-flag-3.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-core-module-2.12.0"
+      sources."is-core-module-2.12.1"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."minimatch-3.1.2"
@@ -7736,8 +7736,8 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.1.4"
-      (sources."@types/node-fetch-2.6.3" // {
+      sources."@types/node-20.1.7"
+      (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
         ];
