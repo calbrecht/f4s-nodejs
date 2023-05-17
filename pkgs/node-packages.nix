@@ -1291,13 +1291,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001487" = {
+    "caniuse-lite-1.0.30001488" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001487";
+      version = "1.0.30001488";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001487.tgz";
-        sha512 = "83564Z3yWGqXsh2vaH/mhXfEM0wX+NlBCm1jYHOb97TrTWJEmPTccZgeLTPBUUb0PNVo+oomb7wkimZBIERClA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001488.tgz";
+        sha512 = "NORIQuuL4xGpIy6iCCQGN4iFjlBXtfKWIenlUuyZJumLRIindLb7wXM+GO8erEhb7vXfcnf4BAg2PrSDN5TNLQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.397" = {
+    "electron-to-chromium-1.4.398" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.397";
+      version = "1.4.398";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.397.tgz";
-        sha512 = "jwnPxhh350Q/aMatQia31KAIQdhEsYS0fFZ0BQQlN9tfvOEwShu6ZNwI4kL/xBabjcB/nTy6lSt17kNIluJZ8Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.398.tgz";
+        sha512 = "tT90Lmieb+Y4jX5Awub8BsvuFM/ICKr01oZFBR9Cy6pxCf+rAmwcpRl4xfXb66DzTXc4qSMPqlqLDoghm27utQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5539,13 +5539,13 @@ let
         sha512 = "a20gEsvHnWe0ygBY8JbxoM4w3SJdhc7ZAuxkLqh+nvNQN2IOt0B5lLgM490X5Hl8FF0dl0tOf2ewFYAlIFgzVA==";
       };
     };
-    "tar-6.1.14" = {
+    "tar-6.1.15" = {
       name = "tar";
       packageName = "tar";
-      version = "6.1.14";
+      version = "6.1.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tar/-/tar-6.1.14.tgz";
-        sha512 = "piERznXu0U7/pW7cdSn7hjqySIVTYT6F76icmFk7ptU7dDYlXTm5r9A6K04R2vU3olYgoKeo1Cg3eeu5nhftAw==";
+        url = "https://registry.npmjs.org/tar/-/tar-6.1.15.tgz";
+        sha512 = "/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==";
       };
     };
     "text-hex-1.0.0" = {
@@ -6609,7 +6609,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001487"
+      sources."caniuse-lite-1.0.30001488"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.397"
+      sources."electron-to-chromium-1.4.398"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6775,7 +6775,7 @@ in
       sources."string_decoder-1.3.0"
       sources."strip-ansi-6.0.1"
       sources."supports-color-5.5.0"
-      (sources."tar-6.1.14" // {
+      (sources."tar-6.1.15" // {
         dependencies = [
           sources."yallist-4.0.0"
         ];
@@ -6934,7 +6934,7 @@ in
       sources."string-width-4.2.3"
       sources."string_decoder-1.3.0"
       sources."strip-ansi-6.0.1"
-      (sources."tar-6.1.14" // {
+      (sources."tar-6.1.15" // {
         dependencies = [
           sources."minipass-5.0.0"
         ];
@@ -7943,7 +7943,7 @@ in
       sources."string-width-4.2.3"
       sources."string_decoder-1.3.0"
       sources."strip-ansi-6.0.1"
-      (sources."tar-6.1.14" // {
+      (sources."tar-6.1.15" // {
         dependencies = [
           sources."yallist-4.0.0"
         ];
