@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.1.7" = {
+    "@types/node-20.2.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.1.7";
+      version = "20.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.1.7.tgz";
-        sha512 = "WCuw/o4GSwDGMoonES8rcvwsig77dGCMbZDrZr2x4ZZiNW4P/gcoZXe/0twgtobcTkmg9TuKflxYL/DuwDyJzg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.2.1.tgz";
+        sha512 = "DqJociPbZP1lbZ5SQPk4oag6W7AyaGMO6gSfRwq3PWl4PXTwJpRQJhDq4W0kzrg3w6tJ1SwlvGZ5uKFHY13LIg==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.398" = {
+    "electron-to-chromium-1.4.400" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.398";
+      version = "1.4.400";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.398.tgz";
-        sha512 = "tT90Lmieb+Y4jX5Awub8BsvuFM/ICKr01oZFBR9Cy6pxCf+rAmwcpRl4xfXb66DzTXc4qSMPqlqLDoghm27utQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.400.tgz";
+        sha512 = "Lsvf7cvwbIxCfB8VqbnVtEsjGi3+48ejDiQZfWo5gkT+1vQ2DHQI5pl0nUvPD6z1IQk6JgFeMC5ZQJqVhalEHg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5638,13 +5638,13 @@ let
         sha512 = "Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==";
       };
     };
-    "tslib-2.5.0" = {
+    "tslib-2.5.2" = {
       name = "tslib";
       packageName = "tslib";
-      version = "2.5.0";
+      version = "2.5.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tslib/-/tslib-2.5.0.tgz";
-        sha512 = "336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==";
+        url = "https://registry.npmjs.org/tslib/-/tslib-2.5.2.tgz";
+        sha512 = "5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==";
       };
     };
     "tsutils-2.29.0" = {
@@ -6627,7 +6627,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.398"
+      sources."electron-to-chromium-1.4.400"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7403,7 +7403,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.1.7"
+      sources."@types/node-20.2.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7736,7 +7736,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.1.7"
+      sources."@types/node-20.2.1"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
@@ -7951,7 +7951,7 @@ in
       sources."to-regex-range-5.0.1"
       sources."tough-cookie-4.1.2"
       sources."tr46-0.0.3"
-      sources."tslib-2.5.0"
+      sources."tslib-2.5.2"
       sources."tunnel-0.0.6"
       sources."tunnel-agent-0.6.0"
       sources."turndown-7.1.2"
