@@ -373,13 +373,13 @@ let
         sha512 = "+5gy6OQfk+xx3q0d6jGZZC3f3KzAkXc/IanVxd1is/VIIziRqqt3ongQz0FiTUXqTk0c7aDB3OaFuKnuSoJicQ==";
       };
     };
-    "@eslint/js-8.40.0" = {
+    "@eslint/js-8.41.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "8.40.0";
+      version = "8.41.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-8.40.0.tgz";
-        sha512 = "ElyB54bJIhXQYVKjDSvCkPO1iU1tSAeVQJbllWJq1XQSmmA4dgFk8CbiBGpiOPxleE48vDogxCtmMYku4HSVLA==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-8.41.0.tgz";
+        sha512 = "LxcyMGxwmTh2lY9FwHPGWOHmYFCZvbrFCBZL4FzSSsxsRPuhrYUg/49/0KDfW8tnIEaEHtfmn6+NPN+1DqaNmA==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.401" = {
+    "electron-to-chromium-1.4.402" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.401";
+      version = "1.4.402";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.401.tgz";
-        sha512 = "AswqHsYyEbfSn0x87n31Na/xttUqEAg7NUjpiyxC20MaWKLyadOYHMzyLdF78N1iw+FK8/2KHLpZxRdyRILgtA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.402.tgz";
+        sha512 = "gWYvJSkohOiBE6ecVYXkrDgNaUjo47QEKK0kQzmWyhkH+yoYiG44bwuicTGNSIQRG3WDMsWVZJLRnJnLNkbWvA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2029,13 +2029,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.40.0" = {
+    "eslint-8.41.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.40.0";
+      version = "8.41.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.40.0.tgz";
-        sha512 = "bvR+TsP9EHL3TqNtj9sCNJVAFK3fBN8Q7g5waghxyRsPLIMwL73XSKnZFK0hk/O2ANC+iAoq6PWMQ+IfBAJIiQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.41.0.tgz";
+        sha512 = "WQDQpzGBOP5IrXPo4Hc0814r4/v2rrIsB0rhT7jtunIalgg6gYXWhRMOejVO8yH21T/FGaxjmFjBMNqcIlmH1Q==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -2731,13 +2731,13 @@ let
         sha512 = "RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==";
       };
     };
-    "grapheme-splitter-1.0.4" = {
-      name = "grapheme-splitter";
-      packageName = "grapheme-splitter";
-      version = "1.0.4";
+    "graphemer-1.4.0" = {
+      name = "graphemer";
+      packageName = "graphemer";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz";
-        sha512 = "bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==";
+        url = "https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz";
+        sha512 = "EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==";
       };
     };
     "har-schema-2.0.0" = {
@@ -3332,15 +3332,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz";
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
-      };
-    };
-    "js-sdsl-4.4.0" = {
-      name = "js-sdsl";
-      packageName = "js-sdsl";
-      version = "4.4.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/js-sdsl/-/js-sdsl-4.4.0.tgz";
-        sha512 = "FfVSdx6pJ41Oa+CF7RDaFmTnCaFhua+SNYQX74riGOpl96x+2jQCqEfQ2bnXu/5DPCqlRuiqyvTJM0Qjz26IVg==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -6283,16 +6274,16 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.40.0";
+    version = "8.41.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.40.0.tgz";
-      sha512 = "bvR+TsP9EHL3TqNtj9sCNJVAFK3fBN8Q7g5waghxyRsPLIMwL73XSKnZFK0hk/O2ANC+iAoq6PWMQ+IfBAJIiQ==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.41.0.tgz";
+      sha512 = "WQDQpzGBOP5IrXPo4Hc0814r4/v2rrIsB0rhT7jtunIalgg6gYXWhRMOejVO8yH21T/FGaxjmFjBMNqcIlmH1Q==";
     };
     dependencies = [
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.3"
-      sources."@eslint/js-8.40.0"
+      sources."@eslint/js-8.41.0"
       sources."@humanwhocodes/config-array-0.11.8"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6317,7 +6308,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.40.0"
+      sources."eslint-8.41.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
       sources."espree-9.5.2"
@@ -6337,7 +6328,7 @@ in
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.20.0"
-      sources."grapheme-splitter-1.0.4"
+      sources."graphemer-1.4.0"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.4"
       sources."import-fresh-3.3.0"
@@ -6348,7 +6339,6 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."js-sdsl-4.4.0"
       sources."js-yaml-4.1.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
@@ -6409,7 +6399,7 @@ in
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.3"
-      sources."@eslint/js-8.40.0"
+      sources."@eslint/js-8.41.0"
       sources."@humanwhocodes/config-array-0.11.8"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6439,7 +6429,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.40.0"
+      sources."eslint-8.41.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
       sources."espree-9.5.2"
@@ -6459,7 +6449,7 @@ in
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
       sources."globals-13.20.0"
-      sources."grapheme-splitter-1.0.4"
+      sources."graphemer-1.4.0"
       sources."has-flag-4.0.0"
       sources."ignore-5.2.4"
       sources."import-fresh-3.3.0"
@@ -6470,7 +6460,6 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."js-sdsl-4.4.0"
       sources."js-yaml-4.1.0"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
@@ -6627,7 +6616,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.401"
+      sources."electron-to-chromium-1.4.402"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
