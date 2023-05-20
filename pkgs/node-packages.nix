@@ -4054,13 +4054,13 @@ let
         sha512 = "O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==";
       };
     };
-    "node-releases-2.0.10" = {
+    "node-releases-2.0.11" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "2.0.10";
+      version = "2.0.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.10.tgz";
-        sha512 = "5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.11.tgz";
+        sha512 = "+M0PwXeU80kRohZ3aT4J/OnR+l9/KD2nVLNNoRgFtnf+umQVFdGBAO2N8+nCnEi0xlh/Wk3zOGC+vNNx+uM79Q==";
       };
     };
     "nomnom-1.8.1" = {
@@ -6726,7 +6726,7 @@ in
         ];
       })
       sources."node-int64-0.4.0"
-      sources."node-releases-2.0.10"
+      sources."node-releases-2.0.11"
       sources."nopt-5.0.0"
       sources."npmlog-5.0.1"
       sources."object-assign-4.1.1"
