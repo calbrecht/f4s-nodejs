@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.2.1" = {
+    "@types/node-20.2.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.2.1";
+      version = "20.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.2.1.tgz";
-        sha512 = "DqJociPbZP1lbZ5SQPk4oag6W7AyaGMO6gSfRwq3PWl4PXTwJpRQJhDq4W0kzrg3w6tJ1SwlvGZ5uKFHY13LIg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.2.3.tgz";
+        sha512 = "pg9d0yC4rVNWQzX8U7xb4olIOFuuVL9za3bzMT2pu2SU0SNEi66i2qrvhE2qt0HvkhuCaWJu7pLNOt/Pj8BIrw==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -7392,7 +7392,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.2.1"
+      sources."@types/node-20.2.3"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7725,7 +7725,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.2.1"
+      sources."@types/node-20.2.3"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
