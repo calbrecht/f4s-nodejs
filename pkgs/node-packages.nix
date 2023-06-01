@@ -391,13 +391,13 @@ let
         sha512 = "k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==";
       };
     };
-    "@humanwhocodes/config-array-0.11.8" = {
+    "@humanwhocodes/config-array-0.11.10" = {
       name = "_at_humanwhocodes_slash_config-array";
       packageName = "@humanwhocodes/config-array";
-      version = "0.11.8";
+      version = "0.11.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.8.tgz";
-        sha512 = "UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==";
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.10.tgz";
+        sha512 = "KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==";
       };
     };
     "@humanwhocodes/module-importer-1.0.1" = {
@@ -776,15 +776,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@types/tunnel/-/tunnel-0.0.3.tgz";
         sha512 = "sOUTGn6h1SfQ+gbgqC364jLFBw2lnFqkgF3q0WovEHRLMrVD1sd5aufqi/aJObLekJO+Aq5z646U4Oxy6shXMA==";
-      };
-    };
-    "@vscode/l10n-0.0.13" = {
-      name = "_at_vscode_slash_l10n";
-      packageName = "@vscode/l10n";
-      version = "0.0.13";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.13.tgz";
-        sha512 = "A3uY356uOU9nGa+TQIT/i3ziWUgJjVMUrGGXSrtRiTwklyCFjGVWIOHoEIHbJpiyhDkJd9kvIWUOfXK1IkK8XQ==";
       };
     };
     "@vscode/l10n-0.0.14" = {
@@ -1867,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.415" = {
+    "electron-to-chromium-1.4.417" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.415";
+      version = "1.4.417";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.415.tgz";
-        sha512 = "3meOxxvyUOJVwa7cem6O2/MRPZ+FTzblSPSpG7biZoF9yOVrhCaS2l9C4jjW6YTm8uuEpmApuP0xQJSmUglfdg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.417.tgz";
+        sha512 = "8rY8HdCxuSVY8wku3i/eDac4g1b4cSbruzocenrqBlzqruAZYHjQCHIjC66dLR9DXhEHTojsC4EjhZ8KmzwXqA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5755,13 +5746,13 @@ let
         sha512 = "1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==";
       };
     };
-    "typescript-5.0.4" = {
+    "typescript-5.1.3" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.0.4";
+      version = "5.1.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.0.4.tgz";
-        sha512 = "cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.1.3.tgz";
+        sha512 = "XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -5926,13 +5917,13 @@ let
         sha512 = "SA2WkeOecIpUiEbZnjOsP/fI5CRITZEiQGSHXKiDQDwLApfKcnLhZwMtOBbIifSzESVcQa7b/shX/nbnF4NoCg==";
       };
     };
-    "vscode-html-languageservice-5.0.5" = {
+    "vscode-html-languageservice-5.0.6" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "5.0.5";
+      version = "5.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.0.5.tgz";
-        sha512 = "7788ZT+I7/UhFoI4+bzaAiGGZEW7X39kTeuytLtw6jJA6W7ez85bWKYoFDcwrPNmywj3n/IkU9Op9asaje44jg==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.0.6.tgz";
+        sha512 = "gCixNg6fjPO7+kwSMBAVXcwDRHdjz1WOyNfI0n5Wx0J7dfHG8ggb3zD1FI8E2daTZrwS1cooOiSoc1Xxph4qRQ==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6293,7 +6284,7 @@ in
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.3"
       sources."@eslint/js-8.41.0"
-      sources."@humanwhocodes/config-array-0.11.8"
+      sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6409,7 +6400,7 @@ in
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.3"
       sources."@eslint/js-8.41.0"
-      sources."@humanwhocodes/config-array-0.11.8"
+      sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6625,7 +6616,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.415"
+      sources."electron-to-chromium-1.4.417"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7589,7 +7580,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-5.0.4"
+      sources."typescript-5.1.3"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -7605,10 +7596,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "5.0.4";
+    version = "5.1.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-5.0.4.tgz";
-      sha512 = "cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.1.3.tgz";
+      sha512 = "XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7967,9 +7958,8 @@ in
           sources."vscode-languageserver-types-3.17.3"
         ];
       })
-      (sources."vscode-html-languageservice-5.0.5" // {
+      (sources."vscode-html-languageservice-5.0.6" // {
         dependencies = [
-          sources."@vscode/l10n-0.0.13"
           sources."vscode-languageserver-types-3.17.3"
         ];
       })
