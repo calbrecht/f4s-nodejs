@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.417" = {
+    "electron-to-chromium-1.4.419" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.417";
+      version = "1.4.419";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.417.tgz";
-        sha512 = "8rY8HdCxuSVY8wku3i/eDac4g1b4cSbruzocenrqBlzqruAZYHjQCHIjC66dLR9DXhEHTojsC4EjhZ8KmzwXqA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz";
+        sha512 = "jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5629,13 +5629,13 @@ let
         sha512 = "Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==";
       };
     };
-    "tslib-2.5.2" = {
+    "tslib-2.5.3" = {
       name = "tslib";
       packageName = "tslib";
-      version = "2.5.2";
+      version = "2.5.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tslib/-/tslib-2.5.2.tgz";
-        sha512 = "5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==";
+        url = "https://registry.npmjs.org/tslib/-/tslib-2.5.3.tgz";
+        sha512 = "mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==";
       };
     };
     "tsutils-2.29.0" = {
@@ -6616,7 +6616,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.417"
+      sources."electron-to-chromium-1.4.419"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7940,7 +7940,7 @@ in
       sources."to-regex-range-5.0.1"
       sources."tough-cookie-4.1.2"
       sources."tr46-0.0.3"
-      sources."tslib-2.5.2"
+      sources."tslib-2.5.3"
       sources."tunnel-0.0.6"
       sources."tunnel-agent-0.6.0"
       sources."turndown-7.1.2"
