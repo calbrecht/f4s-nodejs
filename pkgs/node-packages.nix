@@ -1291,13 +1291,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001494" = {
+    "caniuse-lite-1.0.30001495" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001494";
+      version = "1.0.30001495";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001494.tgz";
-        sha512 = "sY2B5Qyl46ZzfYDegrl8GBCzdawSLT4ThM9b9F+aDYUrAG2zCOyMbd2Tq34mS1g4ZKBfjRlzOohQMxx28x6wJg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001495.tgz";
+        sha512 = "F6x5IEuigtUfU5ZMQK2jsy5JqUUlEFRVZq8bO2a+ysq5K7jD6PPc9YXZj78xDNS3uNchesp1Jw47YXEqr+Viyg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1858,13 +1858,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.419" = {
+    "electron-to-chromium-1.4.421" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.419";
+      version = "1.4.421";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.419.tgz";
-        sha512 = "jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.421.tgz";
+        sha512 = "wZOyn3s/aQOtLGAwXMZfteQPN68kgls2wDAnYOA8kCjBvKVrW5RwmWVspxJYTqrcN7Y263XJVsC66VCIGzDO3g==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5584,13 +5584,13 @@ let
         sha512 = "nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==";
       };
     };
-    "tough-cookie-4.1.2" = {
+    "tough-cookie-4.1.3" = {
       name = "tough-cookie";
       packageName = "tough-cookie";
-      version = "4.1.2";
+      version = "4.1.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.2.tgz";
-        sha512 = "G9fqXWoYFZgTc2z8Q5zaHy/vJMjm+WV0AkAeHxVCQiEB1b+dGvWzFW6QV07cY5jQ5gRkeid2qIkzkxUnmoQZUQ==";
+        url = "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.3.tgz";
+        sha512 = "aX/y5pVRkfRnfmuX+OdbSdXvPe6ieKX/G2s7e98f4poJHnqH3281gDPm/metm6E/WRamfx7WC4HUqkWHfQHprw==";
       };
     };
     "tr46-0.0.3" = {
@@ -6598,7 +6598,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001494"
+      sources."caniuse-lite-1.0.30001495"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6616,7 +6616,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.419"
+      sources."electron-to-chromium-1.4.421"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7938,7 +7938,7 @@ in
         ];
       })
       sources."to-regex-range-5.0.1"
-      sources."tough-cookie-4.1.2"
+      sources."tough-cookie-4.1.3"
       sources."tr46-0.0.3"
       sources."tslib-2.5.3"
       sources."tunnel-0.0.6"
