@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.2.6" = {
+    "@types/node-20.3.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.2.6";
+      version = "20.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.2.6.tgz";
-        sha512 = "GQBWUtGoefMEOx/vu+emHEHU5aw6JdDoEtZhoBrHFPZbA/YNRFfN996XbBASEWdvmLSLyv9FKYppYGyZjCaq/g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.3.0.tgz";
+        sha512 = "cumHmIAf6On83X7yP+LrsEyUOf/YlociZelmpRYaGFydoaPdxdt80MAbu6vWerQT2COCp2nPvHdsbD7tHn/YlQ==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -7392,7 +7392,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.2.6"
+      sources."@types/node-20.3.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7631,10 +7631,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.9.2";
+    version = "4.10.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.9.2.tgz";
-      sha512 = "WchUA3WdUbgocLSJddbmECbkfHxp7hNFbFh7rLaPbqVsL9506HZYumlOQq1fcPGss1iTshJtQYyPzNsPV3XZag==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.10.0.tgz";
+      sha512 = "MGrf+vbu1HQa2t8BRQQ1RjtryWOOxzumpyuv0QGNpMGHGmHj4lv2iIitNaseo2cuUyQ/cVLZkj6LMnAZl5kByQ==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7725,7 +7725,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.2.6"
+      sources."@types/node-20.3.0"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
