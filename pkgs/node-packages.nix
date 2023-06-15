@@ -1246,13 +1246,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.21.8" = {
+    "browserslist-4.21.9" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.21.8";
+      version = "4.21.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.8.tgz";
-        sha512 = "j+7xYe+v+q2Id9qbBeCI8WX5NmZSRe8es1+0xntD/+gaWXznP8tFEkv5IgSaHf5dS1YwVMbX/4W6m937mj+wQw==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.9.tgz";
+        sha512 = "M0MFoZzbUrRU4KNfCrDLnvyE7gub+peetoTid3TBIqtunaDJyXlwhakT+/VkvSXcfIzFfK/nkCs4nmyTmxdNSg==";
       };
     };
     "bser-2.1.1" = {
@@ -5197,13 +5197,13 @@ let
         sha512 = "NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==";
       };
     };
-    "semver-7.5.1" = {
+    "semver-7.5.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.5.1";
+      version = "7.5.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.5.1.tgz";
-        sha512 = "Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.5.2.tgz";
+        sha512 = "SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -6744,14 +6744,14 @@ in
       (sources."@mapbox/node-pre-gyp-1.0.10" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.5.1"
+          sources."semver-7.5.2"
           sources."yallist-4.0.0"
         ];
       })
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.5.1"
+          sources."semver-7.5.2"
           sources."yallist-4.0.0"
         ];
       })
@@ -6769,7 +6769,7 @@ in
       sources."async-3.2.4"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.8"
+      sources."browserslist-4.21.9"
       sources."bser-2.1.1"
       (sources."cacache-15.3.0" // {
         dependencies = [
@@ -6901,7 +6901,7 @@ in
           sources."gauge-4.0.4"
           sources."lru-cache-6.0.0"
           sources."npmlog-6.0.2"
-          sources."semver-7.5.1"
+          sources."semver-7.5.2"
           sources."yallist-4.0.0"
         ];
       })
@@ -7128,7 +7128,7 @@ in
       sources."rimraf-3.0.2"
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
-      (sources."semver-7.5.1" // {
+      (sources."semver-7.5.2" // {
         dependencies = [
           sources."lru-cache-6.0.0"
         ];
@@ -7568,7 +7568,7 @@ in
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."safe-regex-test-1.0.0"
-      sources."semver-7.5.1"
+      sources."semver-7.5.2"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."side-channel-1.0.4"
