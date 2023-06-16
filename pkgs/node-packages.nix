@@ -373,13 +373,13 @@ let
         sha512 = "+5gy6OQfk+xx3q0d6jGZZC3f3KzAkXc/IanVxd1is/VIIziRqqt3ongQz0FiTUXqTk0c7aDB3OaFuKnuSoJicQ==";
       };
     };
-    "@eslint/js-8.42.0" = {
+    "@eslint/js-8.43.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "8.42.0";
+      version = "8.43.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-8.42.0.tgz";
-        sha512 = "6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-8.43.0.tgz";
+        sha512 = "s2UHCoiXfxMvmfzqoN+vrQ84ahUSYde9qNO1MdxmoEhyHWsfmwOpFlwYV+ePJEVc7gFnATGUi376WowX1N7tFg==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -823,13 +823,13 @@ let
         sha512 = "nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==";
       };
     };
-    "acorn-8.8.2" = {
+    "acorn-8.9.0" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.8.2";
+      version = "8.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.8.2.tgz";
-        sha512 = "xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.9.0.tgz";
+        sha512 = "jaVNAFBHNLXspO543WnNNPZFRtavh3skAkITqD0/2aeMkKZTN+254PyhwxFYrk3vQ1xfY+2wbesJMs/JC8/PwQ==";
       };
     };
     "acorn-jsx-5.3.2" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.431" = {
+    "electron-to-chromium-1.4.433" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.431";
+      version = "1.4.433";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.431.tgz";
-        sha512 = "m232JTVmCawA2vG+1azVxhKZ9Sv1Q//xxNv5PkP5rWxGgQE8c3CiZFrh8Xnp+d1NmNxlu3QQrGIfdeW5TtXX5w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.433.tgz";
+        sha512 = "MGO1k0w1RgrfdbLVwmXcDhHHuxCn2qRgR7dYsJvWFKDttvYPx6FNzCGG0c/fBBvzK2LDh3UV7Tt9awnHnvAAUQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2074,13 +2074,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.42.0" = {
+    "eslint-8.43.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.42.0";
+      version = "8.43.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.42.0.tgz";
-        sha512 = "ulg9Ms6E1WPf67PHaEY4/6E2tEn5/f7FXGzr3t9cBMugOmf1INYvuUwwh1aXQN4MfJ6a5K2iNwP3w4AColvI9A==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.43.0.tgz";
+        sha512 = "aaCpf2JqqKesMFGgmRPessmVKjcGXqdlAYLLC3THM8t5nBRZRQ+st5WM/hoJXkdioEXLLbXgclUpM0TXo5HX5Q==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6454,23 +6454,23 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.42.0";
+    version = "8.43.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.42.0.tgz";
-      sha512 = "ulg9Ms6E1WPf67PHaEY4/6E2tEn5/f7FXGzr3t9cBMugOmf1INYvuUwwh1aXQN4MfJ6a5K2iNwP3w4AColvI9A==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.43.0.tgz";
+      sha512 = "aaCpf2JqqKesMFGgmRPessmVKjcGXqdlAYLLC3THM8t5nBRZRQ+st5WM/hoJXkdioEXLLbXgclUpM0TXo5HX5Q==";
     };
     dependencies = [
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.3"
-      sources."@eslint/js-8.42.0"
+      sources."@eslint/js-8.43.0"
       sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."acorn-8.8.2"
+      sources."acorn-8.9.0"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6488,7 +6488,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.42.0"
+      sources."eslint-8.43.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
       sources."espree-9.5.2"
@@ -6579,14 +6579,14 @@ in
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.0.3"
-      sources."@eslint/js-8.42.0"
+      sources."@eslint/js-8.43.0"
       sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."acorn-8.8.2"
+      sources."acorn-8.9.0"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6609,7 +6609,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.42.0"
+      sources."eslint-8.43.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
       sources."espree-9.5.2"
@@ -6796,7 +6796,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.431"
+      sources."electron-to-chromium-1.4.433"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
