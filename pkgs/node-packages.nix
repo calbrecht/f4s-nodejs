@@ -1318,13 +1318,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001505" = {
+    "caniuse-lite-1.0.30001506" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001505";
+      version = "1.0.30001506";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001505.tgz";
-        sha512 = "jaAOR5zVtxHfL0NjZyflVTtXm3D3J9P15zSJ7HmQF8dSKGA6tqzQq+0ZI3xkjyQj46I4/M0K2GbMpcAFOcbr3A==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001506.tgz";
+        sha512 = "6XNEcpygZMCKaufIcgpQNZNf00GEqc7VQON+9Rd0K1bMYo8xhMZRAo5zpbnbMNizi4YNgIDAFrdykWsvY3H4Hw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.435" = {
+    "electron-to-chromium-1.4.436" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.435";
+      version = "1.4.436";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.435.tgz";
-        sha512 = "B0CBWVFhvoQCW/XtjRzgrmqcgVWg6RXOEM/dK59+wFV93BFGR6AeNKc4OyhM+T3IhJaOOG8o/V+33Y2mwJWtzw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.436.tgz";
+        sha512 = "aktOxo8fnrMC8vOIBMVS3PXbT1nrPQ+SouUuN7Y0a+Rw3pOMrvIV92Ybnax7x4tugA+ZpYA5fOHTby7ama8OQQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2704,13 +2704,13 @@ let
         sha512 = "0fzj9JxOLfJ+XGLhR8ze3unN0KZCgZwiSSDz168VERjK8Wl8kVSdcu2kspd4s4wtAa1y/qrVRiAA0WclVsu0ng==";
       };
     };
-    "glob-10.2.7" = {
+    "glob-10.3.0" = {
       name = "glob";
       packageName = "glob";
-      version = "10.2.7";
+      version = "10.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-10.2.7.tgz";
-        sha512 = "jTKehsravOJo8IJxUGfZILnkvVJM/MOfHRs8QcXolVef2zNI9Tqyy5+SeuOAZd3upViEZQLyFpQhYiHLrMUNmA==";
+        url = "https://registry.npmjs.org/glob/-/glob-10.3.0.tgz";
+        sha512 = "AQ1/SB9HH0yCx1jXAT4vmCbTOPe5RQ+kCurjbel5xSCGhebumUv+GJZfa1rEqor3XIViqwSEmlkZCQD43RWrBg==";
       };
     };
     "glob-7.2.3" = {
@@ -6778,7 +6778,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001505"
+      sources."caniuse-lite-1.0.30001506"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6796,7 +6796,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.435"
+      sources."electron-to-chromium-1.4.436"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7029,7 +7029,7 @@ in
       (sources."cacache-17.1.3" // {
         dependencies = [
           sources."brace-expansion-2.0.1"
-          sources."glob-10.2.7"
+          sources."glob-10.3.0"
           sources."minimatch-9.0.1"
         ];
       })
