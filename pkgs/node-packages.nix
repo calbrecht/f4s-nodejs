@@ -751,13 +751,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.3.1" = {
+    "@types/node-20.3.2" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.3.1";
+      version = "20.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.3.1.tgz";
-        sha512 = "EhcH/wvidPy1WeML3TtYFGR83UzjxeWRen9V402T8aUGYsCHOmfoisV3ZSg03gAFIbLq8TnWOJ0f4cALtnSEUg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.3.2.tgz";
+        sha512 = "vOBLVQeCQfIcF/2Y7eKFTqrMnizK5lRNQ7ykML/5RuwVXVWxYkgwS7xbt4B6fKCUPgbSL5FSsjHQpaGQP/dQmw==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -1318,13 +1318,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001507" = {
+    "caniuse-lite-1.0.30001508" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001507";
+      version = "1.0.30001508";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001507.tgz";
-        sha512 = "SFpUDoSLCaE5XYL2jfqe9ova/pbQHEmbheDf5r4diNwbAgR3qxM9NQtfsiSscjqoya5K7kFcHPUQ+VsUkIJR4A==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001508.tgz";
+        sha512 = "sdQZOJdmt3GJs1UMNpCCCyeuS2IEGLXnHyAo9yIO5JJDjbjoVRij4M1qep6P6gFpptD1PqIYgzM+gwJbOi92mw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.440" = {
+    "electron-to-chromium-1.4.441" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.440";
+      version = "1.4.441";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.440.tgz";
-        sha512 = "r6dCgNpRhPwiWlxbHzZQ/d9swfPaEJGi8ekqRBwQYaR3WmA5VkqQfBWSDDjuJU1ntO+W9tHx8OHV/96Q8e0dVw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.441.tgz";
+        sha512 = "LlCgQ8zgYZPymf5H4aE9itwiIWH4YlCiv1HFLmmcBeFYi5E+3eaIFnjHzYtcFQbaKfAW+CqZ9pgxo33DZuoqPg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6778,7 +6778,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001507"
+      sources."caniuse-lite-1.0.30001508"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6796,7 +6796,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.440"
+      sources."electron-to-chromium-1.4.441"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7632,10 +7632,10 @@ in
   testcafe-browser-tools = nodeEnv.buildNodePackage {
     name = "testcafe-browser-tools";
     packageName = "testcafe-browser-tools";
-    version = "2.0.25";
+    version = "2.0.26";
     src = fetchurl {
-      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.25.tgz";
-      sha512 = "LK/ZOJUwnpjdJl131qrBN0toCv2wZj2Elb8UPTU71n9Woq7kZtGine4P5XvvvO7mE8bjBfWJOBW9jRhHxyIWzQ==";
+      url = "https://registry.npmjs.org/testcafe-browser-tools/-/testcafe-browser-tools-2.0.26.tgz";
+      sha512 = "nTKSJhBzn9BmnOs0xVzXMu8dN2Gu13Ca3x3SJr/zF6ZdKjXO82JlbHu55dt5MFoWjzAQmwlqBkSxPaYicsTgUw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7643,7 +7643,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.3.1"
+      sources."@types/node-20.3.2"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7976,7 +7976,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.3.1"
+      sources."@types/node-20.3.2"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
