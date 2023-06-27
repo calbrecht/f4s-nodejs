@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.441" = {
+    "electron-to-chromium-1.4.442" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.441";
+      version = "1.4.442";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.441.tgz";
-        sha512 = "LlCgQ8zgYZPymf5H4aE9itwiIWH4YlCiv1HFLmmcBeFYi5E+3eaIFnjHzYtcFQbaKfAW+CqZ9pgxo33DZuoqPg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.442.tgz";
+        sha512 = "RkrZF//Ya+0aJq2NM3OdisNh5ZodZq1rdXOS96G8DdDgpDKqKE81yTbbQ3F/4CKm1JBPsGu1Lp/akkna2xO06Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4819,13 +4819,13 @@ let
         sha512 = "vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==";
       };
     };
-    "protobufjs-7.2.3" = {
+    "protobufjs-7.2.4" = {
       name = "protobufjs";
       packageName = "protobufjs";
-      version = "7.2.3";
+      version = "7.2.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.3.tgz";
-        sha512 = "TtpvOqwB5Gdz/PQmOjgsrGH1nHjAQVCN7JG4A6r1sXRWESL5rNMAiRcBQlCAdKxZcAbstExQePYG8xof/JVRgg==";
+        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.4.tgz";
+        sha512 = "AT+RJgD2sH8phPmCf7OUZR8xGdcJRga4+1cOaXJ64hvcSkVhNcRHOwIxUatPH15+nj59WAGTDv3LSGZPEQbJaQ==";
       };
     };
     "pseudomap-1.0.2" = {
@@ -5791,13 +5791,13 @@ let
         sha512 = "Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==";
       };
     };
-    "tslib-2.5.3" = {
+    "tslib-2.6.0" = {
       name = "tslib";
       packageName = "tslib";
-      version = "2.5.3";
+      version = "2.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tslib/-/tslib-2.5.3.tgz";
-        sha512 = "mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==";
+        url = "https://registry.npmjs.org/tslib/-/tslib-2.6.0.tgz";
+        sha512 = "7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==";
       };
     };
     "tsutils-2.29.0" = {
@@ -6796,7 +6796,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.441"
+      sources."electron-to-chromium-1.4.442"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7882,10 +7882,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.10.0";
+    version = "4.10.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.10.0.tgz";
-      sha512 = "MGrf+vbu1HQa2t8BRQQ1RjtryWOOxzumpyuv0QGNpMGHGmHj4lv2iIitNaseo2cuUyQ/cVLZkj6LMnAZl5kByQ==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.10.1.tgz";
+      sha512 = "yNHApNZUnetRC8w6GioGdS/HrNr3pecMTTXb20YZNLxqA70HfUwT37Gts+kCZ6XLEEffkwL5j6Pt3nzACBZVaw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -8139,7 +8139,7 @@ in
       sources."picomatch-2.3.1"
       sources."process-0.11.10"
       sources."proto-list-1.2.4"
-      sources."protobufjs-7.2.3"
+      sources."protobufjs-7.2.4"
       sources."pseudomap-1.0.2"
       sources."psl-1.9.0"
       sources."punycode-2.3.0"
@@ -8191,7 +8191,7 @@ in
       sources."to-regex-range-5.0.1"
       sources."tough-cookie-4.1.3"
       sources."tr46-0.0.3"
-      sources."tslib-2.5.3"
+      sources."tslib-2.6.0"
       sources."tunnel-0.0.6"
       sources."tunnel-agent-0.6.0"
       sources."turndown-7.1.2"
