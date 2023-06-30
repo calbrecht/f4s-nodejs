@@ -373,13 +373,13 @@ let
         sha512 = "1JTKgrOKAHVivSvOYw+sJOunkBjUOvjqWk1DPja7ZFhIS2mX/4EgTT8M7eTK9jrKhL/FvXXEbQwIs3pg1xp3dg==";
       };
     };
-    "@eslint/eslintrc-2.0.3" = {
+    "@eslint/eslintrc-2.1.0" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
-      version = "2.0.3";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.0.3.tgz";
-        sha512 = "+5gy6OQfk+xx3q0d6jGZZC3f3KzAkXc/IanVxd1is/VIIziRqqt3ongQz0FiTUXqTk0c7aDB3OaFuKnuSoJicQ==";
+        url = "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.1.0.tgz";
+        sha512 = "Lj7DECXqIVCqnqjjHMPna4vn6GJcMgul/wuS0je9OZ9gsL0zzDpKPVtcG1HaDVc+9y+qgXneTeUMbCqXJNpH1A==";
       };
     };
     "@eslint/js-8.43.0" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.445" = {
+    "electron-to-chromium-1.4.447" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.445";
+      version = "1.4.447";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.445.tgz";
-        sha512 = "++DB+9VK8SBJwC+X1zlMfJ1tMA3F0ipi39GdEp+x3cV2TyBihqAgad8cNMWtLDEkbH39nlDQP7PfGrDr3Dr7HA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.447.tgz";
+        sha512 = "sxX0LXh+uL41hSJsujAN86PjhrV/6c79XmpY0TvjZStV6VxIgarf8SRkUoUTuYmFcZQTemsoqo8qXOGw5npWfw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2236,13 +2236,13 @@ let
         sha512 = "v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==";
       };
     };
-    "espree-9.5.2" = {
+    "espree-9.6.0" = {
       name = "espree";
       packageName = "espree";
-      version = "9.5.2";
+      version = "9.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-9.5.2.tgz";
-        sha512 = "7OASN1Wma5fum5SrNhFMAMJxOUAbhyfQ8dQ//PJaJbNw0URTPWqIghHWt1MmAANKhHZIYOHruW4Kw4ruUWOdGw==";
+        url = "https://registry.npmjs.org/espree/-/espree-9.6.0.tgz";
+        sha512 = "1FH/IiruXZ84tpUlm0aCUEwMl2Ho5ilqVh0VvQXw+byAz/4SAciyHLlfmL5WYqsvD38oymdUwBss0LtK8m4s/A==";
       };
     };
     "esprima-3.0.0" = {
@@ -2360,6 +2360,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.2.12.tgz";
         sha512 = "DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==";
+      };
+    };
+    "fast-glob-3.3.0" = {
+      name = "fast-glob";
+      packageName = "fast-glob";
+      version = "3.3.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.0.tgz";
+        sha512 = "ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==";
       };
     };
     "fast-json-stable-stringify-2.1.0" = {
@@ -6472,7 +6481,7 @@ in
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
-      sources."@eslint/eslintrc-2.0.3"
+      sources."@eslint/eslintrc-2.1.0"
       sources."@eslint/js-8.43.0"
       sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
@@ -6501,7 +6510,7 @@ in
       sources."eslint-8.43.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
-      sources."espree-9.5.2"
+      sources."espree-9.6.0"
       sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6588,7 +6597,7 @@ in
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
-      sources."@eslint/eslintrc-2.0.3"
+      sources."@eslint/eslintrc-2.1.0"
       sources."@eslint/js-8.43.0"
       sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
@@ -6622,7 +6631,7 @@ in
       sources."eslint-8.43.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
-      sources."espree-9.5.2"
+      sources."espree-9.6.0"
       sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6805,7 +6814,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.445"
+      sources."electron-to-chromium-1.4.447"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7669,7 +7678,7 @@ in
       sources."dir-glob-3.0.1"
       sources."end-of-stream-1.4.4"
       sources."execa-3.4.0"
-      sources."fast-glob-3.2.12"
+      sources."fast-glob-3.3.0"
       sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.1.0"
