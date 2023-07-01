@@ -382,13 +382,13 @@ let
         sha512 = "Lj7DECXqIVCqnqjjHMPna4vn6GJcMgul/wuS0je9OZ9gsL0zzDpKPVtcG1HaDVc+9y+qgXneTeUMbCqXJNpH1A==";
       };
     };
-    "@eslint/js-8.43.0" = {
+    "@eslint/js-8.44.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "8.43.0";
+      version = "8.44.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-8.43.0.tgz";
-        sha512 = "s2UHCoiXfxMvmfzqoN+vrQ84ahUSYde9qNO1MdxmoEhyHWsfmwOpFlwYV+ePJEVc7gFnATGUi376WowX1N7tFg==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-8.44.0.tgz";
+        sha512 = "Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -760,13 +760,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.3.2" = {
+    "@types/node-20.3.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.3.2";
+      version = "20.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.3.2.tgz";
-        sha512 = "vOBLVQeCQfIcF/2Y7eKFTqrMnizK5lRNQ7ykML/5RuwVXVWxYkgwS7xbt4B6fKCUPgbSL5FSsjHQpaGQP/dQmw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.3.3.tgz";
+        sha512 = "wheIYdr4NYML61AjC8MKj/2jrR/kDQri/CIpVoZwldwhnIrD/j9jIU5bJ8yBKuB2VhpFV7Ab6G2XkBjv9r9Zzw==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -2083,13 +2083,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.43.0" = {
+    "eslint-8.44.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.43.0";
+      version = "8.44.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.43.0.tgz";
-        sha512 = "aaCpf2JqqKesMFGgmRPessmVKjcGXqdlAYLLC3THM8t5nBRZRQ+st5WM/hoJXkdioEXLLbXgclUpM0TXo5HX5Q==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.44.0.tgz";
+        sha512 = "0wpHoUbDUHgNCyvFB5aXLiQVfK9B0at6gUvzy83k4kAsQ/u769TQDX6iKC+aO4upIHO9WSaA3QoXYQDHbNwf1A==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6472,17 +6472,17 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.43.0";
+    version = "8.44.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.43.0.tgz";
-      sha512 = "aaCpf2JqqKesMFGgmRPessmVKjcGXqdlAYLLC3THM8t5nBRZRQ+st5WM/hoJXkdioEXLLbXgclUpM0TXo5HX5Q==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.44.0.tgz";
+      sha512 = "0wpHoUbDUHgNCyvFB5aXLiQVfK9B0at6gUvzy83k4kAsQ/u769TQDX6iKC+aO4upIHO9WSaA3QoXYQDHbNwf1A==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.1.0"
-      sources."@eslint/js-8.43.0"
+      sources."@eslint/js-8.44.0"
       sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6507,7 +6507,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.43.0"
+      sources."eslint-8.44.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
       sources."espree-9.6.0"
@@ -6598,7 +6598,7 @@ in
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.5.1"
       sources."@eslint/eslintrc-2.1.0"
-      sources."@eslint/js-8.43.0"
+      sources."@eslint/js-8.44.0"
       sources."@humanwhocodes/config-array-0.11.10"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6628,7 +6628,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.43.0"
+      sources."eslint-8.44.0"
       sources."eslint-scope-7.2.0"
       sources."eslint-visitor-keys-3.4.1"
       sources."espree-9.6.0"
@@ -7661,7 +7661,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.3.2"
+      sources."@types/node-20.3.3"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7994,7 +7994,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.3.2"
+      sources."@types/node-20.3.3"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
