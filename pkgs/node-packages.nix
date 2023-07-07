@@ -1336,13 +1336,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001512" = {
+    "caniuse-lite-1.0.30001513" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001512";
+      version = "1.0.30001513";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001512.tgz";
-        sha512 = "2S9nK0G/mE+jasCUsMPlARhRCts1ebcp2Ji8Y8PWi4NDE1iRdLCnEPHkEfeBrGC45L4isBx5ur3IQ6yTE2mRZw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001513.tgz";
+        sha512 = "pnjGJo7SOOjAGytZZ203Em95MRM8Cr6jhCXNF/FAXTpCTRTECnqQWLpiTRqrFtdYcth8hf4WECUpkezuYsMVww==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.451" = {
+    "electron-to-chromium-1.4.454" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.451";
+      version = "1.4.454";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.451.tgz";
-        sha512 = "YYbXHIBxAHe3KWvGOJOuWa6f3tgow44rBW+QAuwVp2DvGqNZeE//K2MowNdWS7XE8li5cgQDrX1LdBr41LufkA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.454.tgz";
+        sha512 = "pmf1rbAStw8UEQ0sr2cdJtWl48ZMuPD9Sto8HVQOq9vx9j2WgDEN6lYoaqFvqEHYOmGA9oRGn7LqWI9ta0YugQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4198,13 +4198,13 @@ let
         sha512 = "O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==";
       };
     };
-    "node-releases-2.0.12" = {
+    "node-releases-2.0.13" = {
       name = "node-releases";
       packageName = "node-releases";
-      version = "2.0.12";
+      version = "2.0.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.12.tgz";
-        sha512 = "QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==";
+        url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.13.tgz";
+        sha512 = "uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==";
       };
     };
     "nomnom-1.8.1" = {
@@ -5233,13 +5233,13 @@ let
         sha512 = "NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==";
       };
     };
-    "semver-7.5.3" = {
+    "semver-7.5.4" = {
       name = "semver";
       packageName = "semver";
-      version = "7.5.3";
+      version = "7.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.5.3.tgz";
-        sha512 = "QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.5.4.tgz";
+        sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -6771,7 +6771,7 @@ in
       (sources."@mapbox/node-pre-gyp-1.0.10" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.5.3"
+          sources."semver-7.5.4"
           sources."yallist-4.0.0"
         ];
       })
@@ -6779,7 +6779,7 @@ in
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.5.3"
+          sources."semver-7.5.4"
           sources."yallist-4.0.0"
         ];
       })
@@ -6806,7 +6806,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001512"
+      sources."caniuse-lite-1.0.30001513"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6824,7 +6824,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.451"
+      sources."electron-to-chromium-1.4.454"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6929,12 +6929,12 @@ in
           sources."gauge-4.0.4"
           sources."lru-cache-6.0.0"
           sources."npmlog-6.0.2"
-          sources."semver-7.5.3"
+          sources."semver-7.5.4"
           sources."yallist-4.0.0"
         ];
       })
       sources."node-int64-0.4.0"
-      sources."node-releases-2.0.12"
+      sources."node-releases-2.0.13"
       sources."nopt-5.0.0"
       sources."npmlog-5.0.1"
       sources."object-assign-4.1.1"
@@ -7156,7 +7156,7 @@ in
       sources."rimraf-3.0.2"
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
-      (sources."semver-7.5.3" // {
+      (sources."semver-7.5.4" // {
         dependencies = [
           sources."lru-cache-6.0.0"
         ];
@@ -7597,7 +7597,7 @@ in
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."safe-regex-test-1.0.0"
-      sources."semver-7.5.3"
+      sources."semver-7.5.4"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."side-channel-1.0.4"
