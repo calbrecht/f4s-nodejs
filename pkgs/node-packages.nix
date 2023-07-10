@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.454" = {
+    "electron-to-chromium-1.4.455" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.454";
+      version = "1.4.455";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.454.tgz";
-        sha512 = "pmf1rbAStw8UEQ0sr2cdJtWl48ZMuPD9Sto8HVQOq9vx9j2WgDEN6lYoaqFvqEHYOmGA9oRGn7LqWI9ta0YugQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.455.tgz";
+        sha512 = "8tgdX0Odl24LtmLwxotpJCVjIndN559AvaOtd67u+2mo+IDsgsTF580NB+uuDCqsHw8yFg53l5+imFV9Fw3cbA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5206,13 +5206,13 @@ let
         sha512 = "5TF+l7p4+OsnP8BCCvSyZiSPc4x4//p5uPwK8TCnVPJYRmU2aYKMpOXvw8zM5a5JvuuCGN1jmsMwuU2W02ukfA==";
       };
     };
-    "semver-5.7.1" = {
+    "semver-5.7.2" = {
       name = "semver";
       packageName = "semver";
-      version = "5.7.1";
+      version = "5.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-5.7.1.tgz";
-        sha512 = "sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==";
+        url = "https://registry.npmjs.org/semver/-/semver-5.7.2.tgz";
+        sha512 = "cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==";
       };
     };
     "semver-6.3.0" = {
@@ -5800,13 +5800,13 @@ let
         sha512 = "N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==";
       };
     };
-    "triple-beam-1.3.0" = {
+    "triple-beam-1.4.1" = {
       name = "triple-beam";
       packageName = "triple-beam";
-      version = "1.3.0";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/triple-beam/-/triple-beam-1.3.0.tgz";
-        sha512 = "XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==";
+        url = "https://registry.npmjs.org/triple-beam/-/triple-beam-1.4.1.tgz";
+        sha512 = "aZbgViZrg1QNcG+LULa7nhZpJTZSLm/mXnHXnbAbjmN5aSa0y7V+wvv6+4WaBtpISJzThKy+PIPxc1Nq1EJ9mg==";
       };
     };
     "tsconfig-paths-3.14.2" = {
@@ -6331,13 +6331,13 @@ let
         sha512 = "15ahjtDr3H+RBtTrvBcKhOFhIEiN3RZSCevDPWtBys+QUivZX9cYyNJcyWNIrUMVsgGrEuIThif9jxeEAQFauw==";
       };
     };
-    "which-typed-array-1.1.9" = {
+    "which-typed-array-1.1.10" = {
       name = "which-typed-array";
       packageName = "which-typed-array";
-      version = "1.1.9";
+      version = "1.1.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.9.tgz";
-        sha512 = "w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA==";
+        url = "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.10.tgz";
+        sha512 = "uxoA5vLUfRPdjCuJ1h5LlYdmTLbYfums398v3WLkM+i/Wltl2/XyZpQWKbN++ck5L64SR/grOHqtXCUKmlZPNA==";
       };
     };
     "wide-align-1.1.5" = {
@@ -6349,13 +6349,13 @@ let
         sha512 = "eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==";
       };
     };
-    "winston-3.9.0" = {
+    "winston-3.10.0" = {
       name = "winston";
       packageName = "winston";
-      version = "3.9.0";
+      version = "3.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston/-/winston-3.9.0.tgz";
-        sha512 = "jW51iW/X95BCW6MMtZWr2jKQBP4hV5bIDq9QrIjfDk6Q9QuxvTKEAlpUNAzP+HYHFFCeENhph16s0zEunu4uuQ==";
+        url = "https://registry.npmjs.org/winston/-/winston-3.10.0.tgz";
+        sha512 = "nT6SIDaE9B7ZRO0u3UvdrimG0HkB7dSTAgInQnNR2SOPJ4bvq5q79+pXLftKmP52lJGW15+H5MCK0nM9D3KB/g==";
       };
     };
     "winston-transport-4.5.0" = {
@@ -6824,7 +6824,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.454"
+      sources."electron-to-chromium-1.4.455"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6980,7 +6980,7 @@ in
       sources."text-hex-1.0.0"
       sources."to-fast-properties-2.0.0"
       sources."tr46-0.0.3"
-      sources."triple-beam-1.3.0"
+      sources."triple-beam-1.4.1"
       sources."type-fest-0.8.1"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
@@ -6990,7 +6990,7 @@ in
       sources."whatwg-url-5.0.0"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
-      sources."winston-3.9.0"
+      sources."winston-3.10.0"
       sources."winston-transport-4.5.0"
       sources."wrappy-1.0.2"
       sources."yallist-3.1.1"
@@ -7305,7 +7305,7 @@ in
       sources."safe-buffer-5.1.2"
       sources."safer-buffer-2.1.2"
       sources."sax-1.2.4"
-      sources."semver-5.7.1"
+      sources."semver-5.7.2"
       sources."set-blocking-2.0.0"
       sources."signal-exit-3.0.7"
       sources."string-width-1.0.2"
@@ -7546,7 +7546,7 @@ in
       sources."natural-compare-1.4.0"
       (sources."normalize-package-data-2.5.0" // {
         dependencies = [
-          sources."semver-5.7.1"
+          sources."semver-5.7.2"
         ];
       })
       sources."object-assign-4.1.1"
@@ -7642,7 +7642,7 @@ in
       sources."validate-npm-package-license-3.0.4"
       sources."which-2.0.2"
       sources."which-boxed-primitive-1.0.2"
-      sources."which-typed-array-1.1.9"
+      sources."which-typed-array-1.1.10"
       sources."wrappy-1.0.2"
       sources."xdg-basedir-4.0.0"
       sources."yallist-4.0.0"
@@ -7853,7 +7853,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-parse-1.0.7"
       sources."resolve-1.22.3"
-      sources."semver-5.7.1"
+      sources."semver-5.7.2"
       sources."sprintf-js-1.0.3"
       sources."supports-color-5.5.0"
       sources."supports-preserve-symlinks-flag-1.0.0"
@@ -8025,7 +8025,7 @@ in
       sources."async-hook-jl-1.7.6"
       (sources."async-listener-0.6.10" // {
         dependencies = [
-          sources."semver-5.7.1"
+          sources."semver-5.7.2"
         ];
       })
       sources."asynckit-0.4.0"
@@ -8039,7 +8039,7 @@ in
       sources."chownr-2.0.0"
       (sources."cls-hooked-4.2.2" // {
         dependencies = [
-          sources."semver-5.7.1"
+          sources."semver-5.7.2"
         ];
       })
       sources."color-support-1.1.3"
@@ -8058,7 +8058,7 @@ in
       sources."detect-libc-2.0.1"
       (sources."diagnostic-channel-1.1.0" // {
         dependencies = [
-          sources."semver-5.7.1"
+          sources."semver-5.7.2"
         ];
       })
       sources."diagnostic-channel-publishers-1.0.5"
@@ -8071,7 +8071,7 @@ in
       (sources."editorconfig-0.15.3" // {
         dependencies = [
           sources."lru-cache-4.1.5"
-          sources."semver-5.7.1"
+          sources."semver-5.7.2"
         ];
       })
       sources."emitter-listener-1.1.2"
