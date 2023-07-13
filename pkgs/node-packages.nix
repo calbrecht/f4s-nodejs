@@ -760,13 +760,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.4.1" = {
+    "@types/node-20.4.2" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.4.1";
+      version = "20.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.4.1.tgz";
-        sha512 = "JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.4.2.tgz";
+        sha512 = "Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.458" = {
+    "electron-to-chromium-1.4.460" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.458";
+      version = "1.4.460";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.458.tgz";
-        sha512 = "fYaH2f9dlJ/W3EV7wpRgzAoE85UwCUFeJIiL24PCRtvzdXJNy3AZdS/0zLqw5Omnp9GSR/hApMUQjacW2nfgsw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.460.tgz";
+        sha512 = "kKiHnbrHME7z8E6AYaw0ehyxY5+hdaRmeUbjBO22LZMdqTYCO29EvF0T1cQ3pJ1RN5fyMcHl1Lmcsdt9WWJpJQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4151,15 +4151,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/node-emoji/-/node-emoji-1.11.0.tgz";
         sha512 = "wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==";
-      };
-    };
-    "node-fetch-2.6.11" = {
-      name = "node-fetch";
-      packageName = "node-fetch";
-      version = "2.6.11";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.11.tgz";
-        sha512 = "4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==";
       };
     };
     "node-fetch-2.6.12" = {
@@ -6823,7 +6814,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.458"
+      sources."electron-to-chromium-1.4.460"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7671,7 +7662,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.4.1"
+      sources."@types/node-20.4.2"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7910,10 +7901,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "4.10.1";
+    version = "4.10.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.10.1.tgz";
-      sha512 = "yNHApNZUnetRC8w6GioGdS/HrNr3pecMTTXb20YZNLxqA70HfUwT37Gts+kCZ6XLEEffkwL5j6Pt3nzACBZVaw==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-4.10.2.tgz";
+      sha512 = "NnLILCZLI+eFj1oymBRTg+6CbZ1D0iNh3tes91ysNFE+/LCUmj5qUtvkUmHIgcCzC40KTlom+Crj2aKwzS9DaA==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7922,7 +7913,7 @@ in
       sources."braces-3.0.2"
       sources."domino-2.1.6"
       sources."encoding-0.1.13"
-      sources."fast-glob-3.2.12"
+      sources."fast-glob-3.3.0"
       sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
       sources."fuzzy-search-3.2.1"
@@ -7933,7 +7924,7 @@ in
       sources."is-number-7.0.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.5"
-      sources."node-fetch-2.6.11"
+      sources."node-fetch-2.6.12"
       sources."picomatch-2.3.1"
       sources."queue-microtask-1.2.3"
       sources."reusify-1.0.4"
@@ -8004,7 +7995,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.4.1"
+      sources."@types/node-20.4.2"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
