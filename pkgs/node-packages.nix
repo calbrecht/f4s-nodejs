@@ -1120,6 +1120,15 @@ let
         sha512 = "8UGn9O1FDVvMNB0UlLv4voxRMze7+FpHyF5mSMRjWHUMlpoDViniy05870VlxhfgTnLbpuwTzvD76MTtWxB/mQ==";
       };
     };
+    "arraybuffer.prototype.slice-1.0.1" = {
+      name = "arraybuffer.prototype.slice";
+      packageName = "arraybuffer.prototype.slice";
+      version = "1.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/arraybuffer.prototype.slice/-/arraybuffer.prototype.slice-1.0.1.tgz";
+        sha512 = "09x0ZWFEjj4WD8PDbykUwo3t9arLn8NIzmmYEJFpYekOAQjpkGSyrQhNoRTcwwcFRu+ycWF78QZ63oWTqSjBcw==";
+      };
+    };
     "asn1-0.2.6" = {
       name = "asn1";
       packageName = "asn1";
@@ -2011,13 +2020,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.21.3" = {
+    "es-abstract-1.22.1" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.21.3";
+      version = "1.22.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.21.3.tgz";
-        sha512 = "ZU4miiY1j3sGPFLJ34VJXEqhpmL+HGByCinGHv4HC+Fxl2fI2Z4yR6tl0mORnDr6PA8eihWo4LmSWDbvhALckg==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.22.1.tgz";
+        sha512 = "ioRRcXMO6OFyRpyzV3kE1IIBd4WG5/kltnzdxSCqoP8CMGs/Li+M1uF5o7lOkZVFjDs+NLesthnF66Pg/0q0Lw==";
       };
     };
     "es-set-tostringtag-2.0.1" = {
@@ -3413,6 +3422,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz";
         sha512 = "VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==";
+      };
+    };
+    "isarray-2.0.5" = {
+      name = "isarray";
+      packageName = "isarray";
+      version = "2.0.5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/isarray/-/isarray-2.0.5.tgz";
+        sha512 = "xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==";
       };
     };
     "isexe-2.0.0" = {
@@ -5125,6 +5143,15 @@ let
         sha512 = "5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==";
       };
     };
+    "safe-array-concat-1.0.0" = {
+      name = "safe-array-concat";
+      packageName = "safe-array-concat";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.0.0.tgz";
+        sha512 = "9dVEFruWIsnie89yym+xWTAYASdpw3CJV7Li/6zBewGf9z2i1j31rP6jnY0pHEO4QZh6N0K11bFjWmdR8UGdPQ==";
+      };
+    };
     "safe-buffer-5.1.2" = {
       name = "safe-buffer";
       packageName = "safe-buffer";
@@ -5906,6 +5933,24 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz";
         sha512 = "4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==";
+      };
+    };
+    "typed-array-buffer-1.0.0" = {
+      name = "typed-array-buffer";
+      packageName = "typed-array-buffer";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/typed-array-buffer/-/typed-array-buffer-1.0.0.tgz";
+        sha512 = "Y8KTSIglk9OZEr8zywiIHG/kmQ7KWyjseXs1CbSo8vC42w7hg2HgYTxSWwP0+is7bWDc1H+Fo026CpHFwm8tkw==";
+      };
+    };
+    "typed-array-byte-length-1.0.0" = {
+      name = "typed-array-byte-length";
+      packageName = "typed-array-byte-length";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/typed-array-byte-length/-/typed-array-byte-length-1.0.0.tgz";
+        sha512 = "Or/+kvLxNpeQ9DtSydonMxCx+9ZXOswtwJn17SNLvhptaXYDJvkFFP5zbfU/uLmvnBJlI4yrnXRxpdWH/M5tNA==";
       };
     };
     "typed-array-byte-offset-1.0.0" = {
@@ -7370,6 +7415,7 @@ in
       sources."array-includes-3.1.6"
       sources."array.prototype.flat-1.3.1"
       sources."array.prototype.flatmap-1.3.1"
+      sources."arraybuffer.prototype.slice-1.0.1"
       sources."astral-regex-2.0.0"
       sources."available-typed-arrays-1.0.5"
       sources."balanced-match-1.0.2"
@@ -7396,7 +7442,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.3.6"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.21.3"
+      sources."es-abstract-1.22.1"
       sources."es-set-tostringtag-2.0.1"
       sources."es-shim-unscopables-1.0.0"
       sources."es-to-primitive-1.2.1"
@@ -7515,6 +7561,7 @@ in
       sources."is-symbol-1.0.4"
       sources."is-typed-array-1.1.10"
       sources."is-weakref-1.0.2"
+      sources."isarray-2.0.5"
       sources."isexe-2.0.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
@@ -7586,6 +7633,7 @@ in
       sources."resolve-1.22.3"
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
+      sources."safe-array-concat-1.0.0"
       sources."safe-regex-test-1.0.0"
       sources."semver-7.5.4"
       sources."shebang-command-2.0.0"
@@ -7625,6 +7673,8 @@ in
       sources."tsconfig-paths-3.14.2"
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
+      sources."typed-array-buffer-1.0.0"
+      sources."typed-array-byte-length-1.0.0"
       sources."typed-array-byte-offset-1.0.0"
       sources."typed-array-length-1.0.4"
       sources."unbox-primitive-1.0.2"
