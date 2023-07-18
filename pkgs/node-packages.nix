@@ -1777,13 +1777,13 @@ let
         sha512 = "pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==";
       };
     };
-    "detect-libc-2.0.1" = {
+    "detect-libc-2.0.2" = {
       name = "detect-libc";
       packageName = "detect-libc";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.1.tgz";
-        sha512 = "463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==";
+        url = "https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.2.tgz";
+        sha512 = "UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==";
       };
     };
     "diagnostic-channel-1.1.0" = {
@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.462" = {
+    "electron-to-chromium-1.4.464" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.462";
+      version = "1.4.464";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.462.tgz";
-        sha512 = "ux2LqN9JKRBDKXMT+78jtiBLPiXf+rLtYlsrOg5Qn7uv6Cbg7+9JyIalE3wcqkOdB2wPCUYNWAuL7suKRMHe9w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.464.tgz";
+        sha512 = "guZ84yoou4+ILNdj0XEbmGs6DEWj6zpVOWYpY09GU66yEb0DSYvP/biBPzHn0GuW/3RC/pnaYNUWlQE1fJYtgA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3388,13 +3388,13 @@ let
         sha512 = "C/CPBqKWnvdcxqIARxyOh4v1UUEOCHpgDa0WYgpKDFMszcrPcffg5uhwSgPCLD2WWxmq6isisz87tzT01tuGhg==";
       };
     };
-    "is-typed-array-1.1.10" = {
+    "is-typed-array-1.1.12" = {
       name = "is-typed-array";
       packageName = "is-typed-array";
-      version = "1.1.10";
+      version = "1.1.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.10.tgz";
-        sha512 = "PJqgEHiWZvMpaFZ3uTc8kHPM4+4ADTlDniuQL7cU/UDA0Ql7F70yGfHph3cLNe+c9toaigv+DFzTJKhc2CtO6A==";
+        url = "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.12.tgz";
+        sha512 = "Z14TF2JNG8Lss5/HMqt0//T9JeHXttXy5pH/DBU4vi98ozO2btxzq9MwYDZYnKwU8nRsz/+GVFVRDq3DkVuSPg==";
       };
     };
     "is-typedarray-1.0.0" = {
@@ -6367,13 +6367,13 @@ let
         sha512 = "15ahjtDr3H+RBtTrvBcKhOFhIEiN3RZSCevDPWtBys+QUivZX9cYyNJcyWNIrUMVsgGrEuIThif9jxeEAQFauw==";
       };
     };
-    "which-typed-array-1.1.10" = {
+    "which-typed-array-1.1.11" = {
       name = "which-typed-array";
       packageName = "which-typed-array";
-      version = "1.1.10";
+      version = "1.1.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.10.tgz";
-        sha512 = "uxoA5vLUfRPdjCuJ1h5LlYdmTLbYfums398v3WLkM+i/Wltl2/XyZpQWKbN++ck5L64SR/grOHqtXCUKmlZPNA==";
+        url = "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.11.tgz";
+        sha512 = "qe9UWWpkeG5yzZ0tNYxDmd7vo58HDBc39mZ0xWWpolAGADdFOzkfamWLDxkOWcvHQKVmdTyQdLD4NOfjLWTKew==";
       };
     };
     "wide-align-1.1.5" = {
@@ -6858,8 +6858,8 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
-      sources."detect-libc-2.0.1"
-      sources."electron-to-chromium-1.4.462"
+      sources."detect-libc-2.0.2"
+      sources."electron-to-chromium-1.4.464"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7559,7 +7559,7 @@ in
       sources."is-shared-array-buffer-1.0.2"
       sources."is-string-1.0.7"
       sources."is-symbol-1.0.4"
-      sources."is-typed-array-1.1.10"
+      sources."is-typed-array-1.1.12"
       sources."is-weakref-1.0.2"
       sources."isarray-2.0.5"
       sources."isexe-2.0.0"
@@ -7683,7 +7683,7 @@ in
       sources."validate-npm-package-license-3.0.4"
       sources."which-2.0.2"
       sources."which-boxed-primitive-1.0.2"
-      sources."which-typed-array-1.1.10"
+      sources."which-typed-array-1.1.11"
       sources."wrappy-1.0.2"
       sources."xdg-basedir-4.0.0"
       sources."yallist-4.0.0"
@@ -8096,7 +8096,7 @@ in
       sources."deepmerge-4.3.1"
       sources."delayed-stream-1.0.0"
       sources."delegates-1.0.0"
-      sources."detect-libc-2.0.1"
+      sources."detect-libc-2.0.2"
       (sources."diagnostic-channel-1.1.0" // {
         dependencies = [
           sources."semver-5.7.2"
