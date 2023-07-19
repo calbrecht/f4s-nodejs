@@ -1336,13 +1336,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001516" = {
+    "caniuse-lite-1.0.30001517" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001516";
+      version = "1.0.30001517";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001516.tgz";
-        sha512 = "Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001517.tgz";
+        sha512 = "Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.464" = {
+    "electron-to-chromium-1.4.465" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.464";
+      version = "1.4.465";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.464.tgz";
-        sha512 = "guZ84yoou4+ILNdj0XEbmGs6DEWj6zpVOWYpY09GU66yEb0DSYvP/biBPzHn0GuW/3RC/pnaYNUWlQE1fJYtgA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.465.tgz";
+        sha512 = "XQcuHvEJRMU97UJ75e170mgcITZoz0lIyiaVjk6R+NMTJ8KBIvUHYd1779swgOppUlzxR+JsLpq59PumaXS1jQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6841,7 +6841,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001516"
+      sources."caniuse-lite-1.0.30001517"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6859,7 +6859,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.464"
+      sources."electron-to-chromium-1.4.465"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8320,10 +8320,10 @@ in
   yaml-language-server = nodeEnv.buildNodePackage {
     name = "yaml-language-server";
     packageName = "yaml-language-server";
-    version = "1.13.0";
+    version = "1.14.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.13.0.tgz";
-      sha512 = "CzekVjFOUkiXI6tg3BPuSkxE60keDT4/+LjPLXwnt4gCRzaaWMCjT92NxOHv1derbBLHWoecay48tse/De181Q==";
+      url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-1.14.0.tgz";
+      sha512 = "HnNiHM5AOTXuM8ZpubzqgTy+7V5kFiMXVedOT2yjhvnxCw6pbMXcD/ymHaaT5v2ue0H8GGH4NFkvCEzcIcTJDg==";
     };
     dependencies = [
       sources."ajv-8.12.0"
