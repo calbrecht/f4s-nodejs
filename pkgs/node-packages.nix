@@ -355,13 +355,13 @@ let
         sha512 = "1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==";
       };
     };
-    "@eslint-community/regexpp-4.5.1" = {
+    "@eslint-community/regexpp-4.6.0" = {
       name = "_at_eslint-community_slash_regexpp";
       packageName = "@eslint-community/regexpp";
-      version = "4.5.1";
+      version = "4.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.5.1.tgz";
-        sha512 = "Z5ba73P98O1KUYCCJTUeVpja9RcGoMdncZ6T49FCUl2lN38JtCJ+3WgIDBv0AuY4WChU5PmtJmOCTlN6FZTFKQ==";
+        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.6.0.tgz";
+        sha512 = "uiPeRISaglZnaZk8vwrjQZ1CxogZeY/4IYft6gBOTqu1WhVXWmCmZMWxUv2Q/pxSvPdp1JPaO62kLOcOkMqWrw==";
       };
     };
     "@eslint/eslintrc-0.3.0" = {
@@ -760,13 +760,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.4.2" = {
+    "@types/node-20.4.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.4.2";
+      version = "20.4.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.4.2.tgz";
-        sha512 = "Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.4.4.tgz";
+        sha512 = "CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.467" = {
+    "electron-to-chromium-1.4.468" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.467";
+      version = "1.4.468";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.467.tgz";
-        sha512 = "2qI70O+rR4poYeF2grcuS/bCps5KJh6y1jtZMDDEteyKJQrzLOEhFyXCLcHW6DTBjKjWkk26JhWoAi+Ux9A0fg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.468.tgz";
+        sha512 = "6M1qyhaJOt7rQtNti1lBA0GwclPH+oKCmsra/hkcWs5INLxfXXD/dtdnaKUYQu/pjOBP/8Osoe4mAcNvvzoFag==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2378,6 +2378,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.0.tgz";
         sha512 = "ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==";
+      };
+    };
+    "fast-glob-3.3.1" = {
+      name = "fast-glob";
+      packageName = "fast-glob";
+      version = "3.3.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.1.tgz";
+        sha512 = "kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==";
       };
     };
     "fast-json-stable-stringify-2.1.0" = {
@@ -6525,7 +6534,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.5.1"
+      sources."@eslint-community/regexpp-4.6.0"
       sources."@eslint/eslintrc-2.1.0"
       sources."@eslint/js-8.44.0"
       sources."@humanwhocodes/config-array-0.11.10"
@@ -6641,7 +6650,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.5.1"
+      sources."@eslint-community/regexpp-4.6.0"
       sources."@eslint/eslintrc-2.1.0"
       sources."@eslint/js-8.44.0"
       sources."@humanwhocodes/config-array-0.11.10"
@@ -6859,7 +6868,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.467"
+      sources."electron-to-chromium-1.4.468"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7712,7 +7721,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.4.2"
+      sources."@types/node-20.4.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7729,7 +7738,7 @@ in
       sources."dir-glob-3.0.1"
       sources."end-of-stream-1.4.4"
       sources."execa-3.4.0"
-      sources."fast-glob-3.3.0"
+      sources."fast-glob-3.3.1"
       sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.1.0"
@@ -8045,7 +8054,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.4.2"
+      sources."@types/node-20.4.4"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
