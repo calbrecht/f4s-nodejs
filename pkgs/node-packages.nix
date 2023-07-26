@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.471" = {
+    "electron-to-chromium-1.4.472" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.471";
+      version = "1.4.472";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.471.tgz";
-        sha512 = "GpmGRC1vTl60w/k6YpQ18pSiqnmr0j3un//5TV1idPi6aheNfkT1Ye71tMEabWyNDO6sBMgAR+95Eb0eUUr1tA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.472.tgz";
+        sha512 = "JL+vQaO4/3mnE68YLaO6tS61YFTlQp8/9JJj1kMP0CL9GHjLYt8t3T0aA3sW3PvdiXjnVeaZ6Kf0mGtt9+2j+Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==";
       };
     };
-    "enquirer-2.3.6" = {
+    "enquirer-2.4.0" = {
       name = "enquirer";
       packageName = "enquirer";
-      version = "2.3.6";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/enquirer/-/enquirer-2.3.6.tgz";
-        sha512 = "yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg==";
+        url = "https://registry.npmjs.org/enquirer/-/enquirer-2.4.0.tgz";
+        sha512 = "ehu97t6FTYK2I3ZYtnp0BZ9vt0mvEL/cnHBds7Ct6jo9VX1VIkiFhOvVRWh6eblQqd7KOoICIQV+syZ3neXO/Q==";
       };
     };
     "entities-4.5.0" = {
@@ -6868,7 +6868,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.471"
+      sources."electron-to-chromium-1.4.472"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7449,7 +7449,7 @@ in
       sources."define-properties-1.2.0"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
-      sources."enquirer-2.3.6"
+      sources."enquirer-2.4.0"
       sources."error-ex-1.3.2"
       sources."es-abstract-1.22.1"
       sources."es-set-tostringtag-2.0.1"
