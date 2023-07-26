@@ -355,13 +355,13 @@ let
         sha512 = "1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==";
       };
     };
-    "@eslint-community/regexpp-4.6.1" = {
+    "@eslint-community/regexpp-4.6.2" = {
       name = "_at_eslint-community_slash_regexpp";
       packageName = "@eslint-community/regexpp";
-      version = "4.6.1";
+      version = "4.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.6.1.tgz";
-        sha512 = "O7x6dMstWLn2ktjcoiNLDkAGG2EjveHL+Vvc+n0fXumkJYAcSqcVYKtwDU+hDZ0uDUsnUagSYaZrOLAYE8un1A==";
+        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.6.2.tgz";
+        sha512 = "pPTNuaAG3QMH+buKyBIGJs3g/S5y0caxw0ygM3YyE6yJFySwiGGSzA+mM3KJ8QQvzeLh3blwgSonkFjgQdxzMw==";
       };
     };
     "@eslint/eslintrc-0.3.0" = {
@@ -6534,7 +6534,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.6.1"
+      sources."@eslint-community/regexpp-4.6.2"
       sources."@eslint/eslintrc-2.1.0"
       sources."@eslint/js-8.44.0"
       sources."@humanwhocodes/config-array-0.11.10"
@@ -6650,7 +6650,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.6.1"
+      sources."@eslint-community/regexpp-4.6.2"
       sources."@eslint/eslintrc-2.1.0"
       sources."@eslint/js-8.44.0"
       sources."@humanwhocodes/config-array-0.11.10"
