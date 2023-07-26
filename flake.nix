@@ -37,6 +37,7 @@
         "intelephense"
         "yaml-language-server"
       ];
+      nodejs_latest = pkgs.nodejs_latest;
     in
     {
       apps."${system}".node2nixup = {
@@ -53,8 +54,8 @@
 
       legacyPackages."${system}" = {
         inherit (pkgs) nodejs nodePackages;
-        nodejs_latest = pkgs.nodejs-18_x;
-        nodePackages_latest = pkgs.lib.dontRecurseIntoAttrs pkgs.nodejs-18_x.pkgs;
+        inherit nodejs_latest;
+        nodePackages_latest = pkgs.lib.dontRecurseIntoAttrs nodejs_latest.pkgs;
       };
 
       defaultPackage."${system}" = self.legacyPackages."${system}".nodejs;
@@ -81,7 +82,7 @@
             });
           };
 
-          nodejs_latest = pkgs.nodejs-18_x;
+          #nodejs_latest = pkgs.nodejs-18_x;
 
           nodePackages_latest = prev.nodePackages_latest
           // (pkgs.lib.dontRecurseIntoAttrs final.nodejs_latest.pkgs)
