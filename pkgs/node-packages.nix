@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.476" = {
+    "electron-to-chromium-1.4.477" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.476";
+      version = "1.4.477";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.476.tgz";
-        sha512 = "gzWl1m8pNy+5Kj17XcziNcbOhripjTqR2wAQmtdlFUngPYuFy7zUpJScVQAvCvQSFHNk3mS5fetNKW6BSpytFg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.477.tgz";
+        sha512 = "shUVy6Eawp33dFBFIoYbIwLHrX0IZ857AlH9ug2o4rvbWmpaCUdBpQ5Zw39HRrfzAFm4APJE9V+E2A/WB0YqJw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3613,13 +3613,13 @@ let
         sha512 = "P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==";
       };
     };
-    "jsx-ast-utils-3.3.4" = {
+    "jsx-ast-utils-3.3.5" = {
       name = "jsx-ast-utils";
       packageName = "jsx-ast-utils";
-      version = "3.3.4";
+      version = "3.3.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.4.tgz";
-        sha512 = "fX2TVdCViod6HwKEtSWGHs57oFhVfCMwieb9PuRDgjDPh5XeqJiHFFFJCHxU5cnTc3Bu/GRL+kPiFmw8XWOfKw==";
+        url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.5.tgz";
+        sha512 = "ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==";
       };
     };
     "kuler-2.0.0" = {
@@ -5323,13 +5323,13 @@ let
         sha512 = "wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==";
       };
     };
-    "signal-exit-4.0.2" = {
+    "signal-exit-4.1.0" = {
       name = "signal-exit";
       packageName = "signal-exit";
-      version = "4.0.2";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/signal-exit/-/signal-exit-4.0.2.tgz";
-        sha512 = "MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==";
+        url = "https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz";
+        sha512 = "bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==";
       };
     };
     "simple-swizzle-0.2.2" = {
@@ -6868,7 +6868,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.476"
+      sources."electron-to-chromium-1.4.477"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7208,7 +7208,7 @@ in
       sources."set-blocking-2.0.0"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
-      sources."signal-exit-4.0.2"
+      sources."signal-exit-4.1.0"
       sources."smart-buffer-4.2.0"
       sources."socks-2.7.1"
       sources."socks-proxy-agent-7.0.0"
@@ -7578,7 +7578,7 @@ in
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."json5-1.0.2"
-      sources."jsx-ast-utils-3.3.4"
+      sources."jsx-ast-utils-3.3.5"
       sources."levn-0.4.1"
       sources."load-json-file-4.0.0"
       sources."locate-path-2.0.0"
