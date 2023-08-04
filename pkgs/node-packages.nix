@@ -31,13 +31,13 @@ let
         sha512 = "TrRLIoSQVzfAJX9H1JeFjzAoDGcoK1IYX1UImfceTZpsyYfWr09Ss1aHW1y5TrrR3iq6RZLBwJ3E24uwPhwahw==";
       };
     };
-    "@azure/core-auth-1.4.0" = {
+    "@azure/core-auth-1.5.0" = {
       name = "_at_azure_slash_core-auth";
       packageName = "@azure/core-auth";
-      version = "1.4.0";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.4.0.tgz";
-        sha512 = "HFrcTgmuSuukRf/EdPmqBrc5l6Q5Uu+2TbuhaKbgaCpP2TfAeiNaQPAadxO+CYBRHGUzIDteMAjFspFLDLnKVQ==";
+        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.5.0.tgz";
+        sha512 = "udzoBuYG1VBoHVohDTrvKjyzel34zt77Bhp7dQntVGGD0ehVq48owENbBG8fIgkHRNUBQH5k1r0hpoMu5L8+kw==";
       };
     };
     "@azure/core-http-2.3.2" = {
@@ -58,13 +58,13 @@ let
         sha512 = "KxDlhXyMlh2Jhj2ykX6vNEU0Vou4nHr025KoSEiz7cS3BNiHNaZcdECk/DmLkEB0as5T7b/TpRcehJ5yV6NeXQ==";
       };
     };
-    "@azure/core-util-1.3.2" = {
+    "@azure/core-util-1.4.0" = {
       name = "_at_azure_slash_core-util";
       packageName = "@azure/core-util";
-      version = "1.3.2";
+      version = "1.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.3.2.tgz";
-        sha512 = "2bECOUh88RvL1pMZTcc6OzfobBeWDBf5oBbhjIhT1MV9otMVWCzpOJkkiKtrnO88y5GGBelgY8At73KGAdbkeQ==";
+        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.4.0.tgz";
+        sha512 = "eGAyJpm3skVQoLiRqm/xPa+SXi/NPDdSHMxbRAz2lSprd+Zs+qrpQGQQ2VQ3Nttu+nSZR4XoYQC71LbEI7jsig==";
       };
     };
     "@azure/logger-1.0.4" = {
@@ -760,13 +760,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.4.6" = {
+    "@types/node-20.4.7" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.4.6";
+      version = "20.4.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.4.6.tgz";
-        sha512 = "q0RkvNgMweWWIvSMDiXhflGUKMdIxBo2M2tYM/0kEGDueQByFzK4KZAgu5YHGFNxziTlppNpTIBcqHQAxlfHdA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.4.7.tgz";
+        sha512 = "bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -859,13 +859,13 @@ let
         sha512 = "RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==";
       };
     };
-    "agentkeepalive-4.3.0" = {
+    "agentkeepalive-4.4.0" = {
       name = "agentkeepalive";
       packageName = "agentkeepalive";
-      version = "4.3.0";
+      version = "4.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.3.0.tgz";
-        sha512 = "7Epl1Blf4Sy37j4v9f9FjICCh4+KAQOyXgHEwlyBiAQLbhKdq/i2QQU3amQalS/wPhdPzDXPL5DMR5bkn+YeWg==";
+        url = "https://registry.npmjs.org/agentkeepalive/-/agentkeepalive-4.4.0.tgz";
+        sha512 = "MysLRwkhsJTZKs+fsZIsTgBlr3IjQroonVJWMSqC9k3LS6f6ZifePl9fCqOtvc8p0CeYDSZVFvytdkwhOGaSZA==";
       };
     };
     "aggregate-error-3.1.0" = {
@@ -1912,13 +1912,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.484" = {
+    "electron-to-chromium-1.4.485" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.484";
+      version = "1.4.485";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.484.tgz";
-        sha512 = "nO3ZEomTK2PO/3TUXgEx0A97xZTpKVf4p427lABHuCpT1IQ2N+njVh29DkQkCk6Q4m2wjU+faK4xAcfFndwjvw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.485.tgz";
+        sha512 = "1ndQ5IBNEnFirPwvyud69GHL+31FkE09gH/CJ6m3KCbkx3i0EVOrjwz4UNxRmN9H8OVHbC6vMRZGN1yCvjSs9w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6832,7 +6832,7 @@ in
       sources."@types/triple-beam-1.3.2"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
-      sources."agentkeepalive-4.3.0"
+      sources."agentkeepalive-4.4.0"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
@@ -6868,7 +6868,7 @@ in
       sources."delegates-1.0.0"
       sources."depd-2.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.484"
+      sources."electron-to-chromium-1.4.485"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7090,7 +7090,7 @@ in
       sources."@tootallnate/once-2.0.0"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
-      sources."agentkeepalive-4.3.0"
+      sources."agentkeepalive-4.4.0"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-6.2.1"
@@ -7721,7 +7721,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.4.6"
+      sources."@types/node-20.4.7"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8022,10 +8022,10 @@ in
     };
     dependencies = [
       sources."@azure/abort-controller-1.1.0"
-      sources."@azure/core-auth-1.4.0"
+      sources."@azure/core-auth-1.5.0"
       sources."@azure/core-http-2.3.2"
       sources."@azure/core-tracing-1.0.0-preview.13"
-      sources."@azure/core-util-1.3.2"
+      sources."@azure/core-util-1.4.0"
       sources."@azure/logger-1.0.4"
       sources."@bmewburn/js-beautify-1.14.7"
       sources."@bmewburn/vscode-html-languageserver-1.9.0"
@@ -8054,7 +8054,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.4.6"
+      sources."@types/node-20.4.7"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
