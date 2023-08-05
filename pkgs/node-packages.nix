@@ -760,13 +760,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.4.7" = {
+    "@types/node-20.4.8" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.4.7";
+      version = "20.4.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.4.7.tgz";
-        sha512 = "bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.4.8.tgz";
+        sha512 = "0mHckf6D2DiIAzh8fM8f3HQCvMKDpK94YQ0DSVkfWTG9BZleYIWudw9cJxX8oCk9bM+vAkDyujDV6dmKHbvQpg==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -2119,13 +2119,13 @@ let
         sha512 = "hLeA2f5e06W1xyr/93/QJulN/rLbUVUmqTlexv9PRKHFwEC9ffJcH2LvJhMoEqYQBEYafedgGZXH2W8NUpt5lA==";
       };
     };
-    "eslint-import-resolver-node-0.3.7" = {
+    "eslint-import-resolver-node-0.3.8" = {
       name = "eslint-import-resolver-node";
       packageName = "eslint-import-resolver-node";
-      version = "0.3.7";
+      version = "0.3.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.7.tgz";
-        sha512 = "gozW2blMLJCeFpBwugLTGyvVjNoeo1knonXAcatC6bjPBZitotxdWf7Gimr25N4c0AAOo4eOUfaG82IJPDpqCA==";
+        url = "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.8.tgz";
+        sha512 = "tEe+Pok22qIGaK3KoMP+N96GVDS66B/zreoVVmiavLvRUEmGRtvb4B8wO9jwnb8d2lvHtrkhZ7UD73dWBVnf/Q==";
       };
     };
     "eslint-module-utils-2.8.0" = {
@@ -3244,13 +3244,13 @@ let
         sha512 = "1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==";
       };
     };
-    "is-core-module-2.12.1" = {
+    "is-core-module-2.13.0" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.12.1";
+      version = "2.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.12.1.tgz";
-        sha512 = "Q4ZuBAe2FUsKtyQJoQHlvP8OvBERxO3jEmy1I7hcRXcJBGGHFh/aJBswbXuS9sgrDH2QUO8ilkwNPHvHMd8clg==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.13.0.tgz";
+        sha512 = "Z7dk6Qo8pOCp3l4tsX2C5ZVas4V+UxwQodwZhLopL91TX8UyyHEXafPcyoeeWuLrwzHcr3igO78wNLwHJHsMCQ==";
       };
     };
     "is-date-object-1.0.5" = {
@@ -5080,13 +5080,13 @@ let
         sha512 = "KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==";
       };
     };
-    "resolve-1.22.3" = {
+    "resolve-1.22.4" = {
       name = "resolve";
       packageName = "resolve";
-      version = "1.22.3";
+      version = "1.22.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/resolve/-/resolve-1.22.3.tgz";
-        sha512 = "P8ur/gp/AmbEzjr729bZnLjXK5Z+4P0zhIJgBgzqRih7hL7BOukHGtSTA3ACMY467GRFz3duQsi0bDZdR7DKdw==";
+        url = "https://registry.npmjs.org/resolve/-/resolve-1.22.4.tgz";
+        sha512 = "PXNdCiPqDqeUou+w1C2eTQbNfxKSuMxqTCuvlmmMsk1NWHL5fRrhY6Pl0qEYYc6+QqGClco1Qj8XnjPego4wfg==";
       };
     };
     "resolve-2.0.0-next.4" = {
@@ -7459,7 +7459,7 @@ in
       sources."eslint-7.18.0"
       sources."eslint-config-standard-16.0.3"
       sources."eslint-config-standard-jsx-10.0.0"
-      (sources."eslint-import-resolver-node-0.3.7" // {
+      (sources."eslint-import-resolver-node-0.3.8" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -7557,7 +7557,7 @@ in
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
       sources."is-callable-1.2.7"
-      sources."is-core-module-2.12.1"
+      sources."is-core-module-2.13.0"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
@@ -7639,7 +7639,7 @@ in
       sources."regexp.prototype.flags-1.5.0"
       sources."regexpp-3.2.0"
       sources."require-from-string-2.0.2"
-      sources."resolve-1.22.3"
+      sources."resolve-1.22.4"
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."safe-array-concat-1.0.0"
@@ -7721,7 +7721,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.4.7"
+      sources."@types/node-20.4.8"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7893,7 +7893,7 @@ in
       sources."has-flag-3.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-core-module-2.12.1"
+      sources."is-core-module-2.13.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."minimatch-3.1.2"
@@ -7902,7 +7902,7 @@ in
       sources."once-1.4.0"
       sources."path-is-absolute-1.0.1"
       sources."path-parse-1.0.7"
-      sources."resolve-1.22.3"
+      sources."resolve-1.22.4"
       sources."semver-5.7.2"
       sources."sprintf-js-1.0.3"
       sources."supports-color-5.5.0"
@@ -8054,7 +8054,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.4.7"
+      sources."@types/node-20.4.8"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
