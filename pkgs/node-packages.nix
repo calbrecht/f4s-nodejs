@@ -598,15 +598,6 @@ let
         sha512 = "CjbOKwk2s+3xPIMcd5UNYQzsf+v94RczbdNix9/kQh38WiQkM90sUOi3if8eyHFgiBjBjhwXrA7W3ydiSQP9mw==";
       };
     };
-    "@pkgjs/parseargs-0.11.0" = {
-      name = "_at_pkgjs_slash_parseargs";
-      packageName = "@pkgjs/parseargs";
-      version = "0.11.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz";
-        sha512 = "+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==";
-      };
-    };
     "@protobufjs/aspromise-1.1.2" = {
       name = "_at_protobufjs_slash_aspromise";
       packageName = "@protobufjs/aspromise";
@@ -1894,13 +1885,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.488" = {
+    "electron-to-chromium-1.4.489" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.488";
+      version = "1.4.489";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.488.tgz";
-        sha512 = "Dv4sTjiW7t/UWGL+H8ZkgIjtUAVZDgb/PwGWvMsCT7jipzUV/u5skbLXPFKb6iV0tiddVi/bcS2/kUrczeWgIQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.489.tgz";
+        sha512 = "QNx+cirm4ENixfdSk9rp/3HKpjlxHFsmDoHtU1IiXdkJcpkKrd/o20LT5h1f3Qz+yfTMb4Ji3YDT/IvJkNfEkA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3442,13 +3433,13 @@ let
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
       };
     };
-    "jackspeak-2.2.2" = {
+    "jackspeak-2.2.3" = {
       name = "jackspeak";
       packageName = "jackspeak";
-      version = "2.2.2";
+      version = "2.2.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-2.2.2.tgz";
-        sha512 = "mgNtVv4vUuaKA97yxUHoA3+FkuhtxkjdXEWOyB/N76fjy0FjezEt34oy3epBtvCvS+7DyKwqCFWx/oJLV5+kCg==";
+        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-2.2.3.tgz";
+        sha512 = "pF0kfjmg8DJLxDrizHoCZGUFz4P4czQ3HyfW4BU0ffebYkzAVlBywp5zaxW/TM+r0sGbmrQdi8EQQVTJFxnGsQ==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -6845,7 +6836,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.488"
+      sources."electron-to-chromium-1.4.489"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7063,7 +7054,6 @@ in
     dependencies = [
       sources."@isaacs/cliui-8.0.2"
       sources."@npmcli/fs-3.1.0"
-      sources."@pkgjs/parseargs-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
@@ -7129,7 +7119,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."jackspeak-2.2.2"
+      sources."jackspeak-2.2.3"
       sources."lru-cache-7.18.3"
       sources."make-fetch-happen-11.1.1"
       sources."minimatch-3.1.2"
