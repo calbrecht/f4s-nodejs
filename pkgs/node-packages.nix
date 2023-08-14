@@ -1282,13 +1282,13 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "cacache-17.1.3" = {
+    "cacache-17.1.4" = {
       name = "cacache";
       packageName = "cacache";
-      version = "17.1.3";
+      version = "17.1.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-17.1.3.tgz";
-        sha512 = "jAdjGxmPxZh0IipMdR7fK/4sDSrHMLUV0+GvVUsjwyGNKHsh79kW/otg+GkbXwl6Uzvy9wsvHOX4nUoWldeZMg==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-17.1.4.tgz";
+        sha512 = "/aJwG2l3ZMJ1xNAnqbMpA40of9dj/pIH3QfiuQSqjfPJF747VR0J/bHn+/KdNnHKc6XQcWt/AfRSBft82W1d2A==";
       };
     };
     "call-bind-1.0.2" = {
@@ -2569,13 +2569,13 @@ let
         sha512 = "V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==";
       };
     };
-    "fs-minipass-3.0.2" = {
+    "fs-minipass-3.0.3" = {
       name = "fs-minipass";
       packageName = "fs-minipass";
-      version = "3.0.2";
+      version = "3.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fs-minipass/-/fs-minipass-3.0.2.tgz";
-        sha512 = "2GAfyfoaCDRrM6jaOS3UsBts8yJ55VioXdWcOL7dK9zdAuKT71+WBA4ifnNYqVjYv+4SsPxjK0JT4yIIn4cA/g==";
+        url = "https://registry.npmjs.org/fs-minipass/-/fs-minipass-3.0.3.tgz";
+        sha512 = "XUBA9XClHbnJWSfBzjkm6RvPsyg3sryZt06BEQoXcF7EK/xpGaQYJgQKDJSUH5SGZ76Y7pFx1QBnXz09rU5Fbw==";
       };
     };
     "fs.realpath-1.0.0" = {
@@ -3955,6 +3955,15 @@ let
         sha512 = "3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==";
       };
     };
+    "minipass-7.0.3" = {
+      name = "minipass";
+      packageName = "minipass";
+      version = "7.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/minipass/-/minipass-7.0.3.tgz";
+        sha512 = "LhbbwCfz3vsb12j/WkWQPZfKTsgqIe1Nf/ti1pKjYESGLHIVjWU96G9/ljLH4F9mWNVhlQOm0VySdAWzf05dpg==";
+      };
+    };
     "minipass-collect-1.0.2" = {
       name = "minipass-collect";
       packageName = "minipass-collect";
@@ -3973,13 +3982,13 @@ let
         sha512 = "CGH1eblLq26Y15+Azk7ey4xh0J/XfJfrCox5LDJiKqI2Q2iwOLOKrlmIaODiSQS8d18jalF6y2K2ePUm0CmShw==";
       };
     };
-    "minipass-fetch-3.0.3" = {
+    "minipass-fetch-3.0.4" = {
       name = "minipass-fetch";
       packageName = "minipass-fetch";
-      version = "3.0.3";
+      version = "3.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-3.0.3.tgz";
-        sha512 = "n5ITsTkDqYkYJZjcRWzZt9qnZKCT7nKCosJhHoj7S7zD+BP4jVbWs+odsniw5TA3E0sLomhTKOKjF86wf11PuQ==";
+        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-3.0.4.tgz";
+        sha512 = "jHAqnA728uUpIaFm7NWsCnqKT6UqZz7GcI/bDpPATuwYyKwJwW0remxSCxUlKiEty+eopHGa3oc8WxgQ1FFJqg==";
       };
     };
     "minipass-flush-1.0.5" = {
@@ -5431,13 +5440,13 @@ let
         sha512 = "/9HIEs1ZXGhSPE8X6Ccm7Nam1z8KcoCqPdI7ecm1N33EzAetWahvQWVqLZtaZQ+IDKX4IyA2o0gBzqIMkAagHQ==";
       };
     };
-    "ssri-10.0.4" = {
+    "ssri-10.0.5" = {
       name = "ssri";
       packageName = "ssri";
-      version = "10.0.4";
+      version = "10.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ssri/-/ssri-10.0.4.tgz";
-        sha512 = "12+IR2CB2C28MMAw0Ncqwj5QbTcs0nGIhgJzYWzDkb21vWmfNI83KS4f3Ci6GI98WreIfG7o9UXp3C0qbpA8nQ==";
+        url = "https://registry.npmjs.org/ssri/-/ssri-10.0.5.tgz";
+        sha512 = "bSf16tAFkGeRlUNDjXu8FzaMQt6g2HZJrun7mtMbIPOddxt3GLMSz5VWUWcqTJUPfLEaDIepGxv+bYQW49596A==";
       };
     };
     "ssri-8.0.1" = {
@@ -6097,13 +6106,13 @@ let
         sha512 = "+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==";
       };
     };
-    "v8-compile-cache-2.3.0" = {
+    "v8-compile-cache-2.4.0" = {
       name = "v8-compile-cache";
       packageName = "v8-compile-cache";
-      version = "2.3.0";
+      version = "2.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz";
-        sha512 = "l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==";
+        url = "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.4.0.tgz";
+        sha512 = "ocyWc3bAHBB/guyqJQVI5o4BZkPhznPYUG2ea80Gond/BgNWpap8TOmLSeeQG7bnh2KMISxskdADG59j7zruhw==";
       };
     };
     "validate-npm-package-license-3.0.4" = {
@@ -7065,11 +7074,12 @@ in
       sources."are-we-there-yet-3.0.1"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      (sources."cacache-17.1.3" // {
+      (sources."cacache-17.1.4" // {
         dependencies = [
           sources."brace-expansion-2.0.1"
           sources."glob-10.3.3"
           sources."minimatch-9.0.3"
+          sources."minipass-7.0.3"
         ];
       })
       sources."chownr-2.0.0"
@@ -7088,12 +7098,15 @@ in
       sources."delegates-1.0.0"
       sources."eastasianwidth-0.2.0"
       sources."emoji-regex-9.2.2"
-      sources."encoding-0.1.13"
       sources."env-paths-2.2.1"
       sources."err-code-2.0.3"
       sources."exponential-backoff-3.1.1"
       sources."foreground-child-3.1.1"
-      sources."fs-minipass-3.0.2"
+      (sources."fs-minipass-3.0.3" // {
+        dependencies = [
+          sources."minipass-7.0.3"
+        ];
+      })
       sources."fs.realpath-1.0.0"
       (sources."gauge-4.0.4" // {
         dependencies = [
@@ -7110,7 +7123,6 @@ in
       sources."http-proxy-agent-5.0.0"
       sources."https-proxy-agent-5.0.1"
       sources."humanize-ms-1.2.1"
-      sources."iconv-lite-0.6.3"
       sources."imurmurhash-0.1.4"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"
@@ -7129,7 +7141,11 @@ in
           sources."minipass-3.3.6"
         ];
       })
-      sources."minipass-fetch-3.0.3"
+      (sources."minipass-fetch-3.0.4" // {
+        dependencies = [
+          sources."minipass-7.0.3"
+        ];
+      })
       (sources."minipass-flush-1.0.5" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -7169,7 +7185,6 @@ in
       sources."retry-0.12.0"
       sources."rimraf-3.0.2"
       sources."safe-buffer-5.2.1"
-      sources."safer-buffer-2.1.2"
       (sources."semver-7.5.4" // {
         dependencies = [
           sources."lru-cache-6.0.0"
@@ -7182,7 +7197,11 @@ in
       sources."smart-buffer-4.2.0"
       sources."socks-2.7.1"
       sources."socks-proxy-agent-7.0.0"
-      sources."ssri-10.0.4"
+      (sources."ssri-10.0.5" // {
+        dependencies = [
+          sources."minipass-7.0.3"
+        ];
+      })
       sources."string-width-5.1.2"
       (sources."string-width-cjs-4.2.3" // {
         dependencies = [
@@ -7662,7 +7681,7 @@ in
       sources."typed-array-length-1.0.4"
       sources."unbox-primitive-1.0.2"
       sources."uri-js-4.4.1"
-      sources."v8-compile-cache-2.3.0"
+      sources."v8-compile-cache-2.4.0"
       sources."validate-npm-package-license-3.0.4"
       sources."which-2.0.2"
       sources."which-boxed-primitive-1.0.2"
