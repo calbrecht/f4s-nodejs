@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.5.3" = {
+    "@types/node-20.5.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.5.3";
+      version = "20.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.5.3.tgz";
-        sha512 = "ITI7rbWczR8a/S6qjAW7DMqxqFMjjTo61qZVWJ1ubPvbIQsL5D/TvwjYEalM8Kthpe3hTzOGrF2TGbAu2uyqeA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.5.4.tgz";
+        sha512 = "Y9vbIAoM31djQZrPYjpTLo0XlaSwOIsrlfE3LpulZeRblttsLQRFRlBAppW0LOxyT3ALj2M5vU1ucQQayQH3jA==";
       };
     };
     "@types/node-fetch-2.6.4" = {
@@ -1885,13 +1885,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.499" = {
+    "electron-to-chromium-1.4.500" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.499";
+      version = "1.4.500";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.499.tgz";
-        sha512 = "0NmjlYBLKVHva4GABWAaHuPJolnDuL0AhV3h1hES6rcLCWEIbRL6/8TghfsVwkx6TEroQVdliX7+aLysUpKvjw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.500.tgz";
+        sha512 = "P38NO8eOuWOKY1sQk5yE0crNtrjgjJj6r3NrbIKtG18KzCHmHE2Bt+aQA7/y0w3uYsHWxDa6icOohzjLJ4vJ4A==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4171,13 +4171,13 @@ let
         sha512 = "C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==";
       };
     };
-    "node-fetch-2.6.13" = {
+    "node-fetch-2.7.0" = {
       name = "node-fetch";
       packageName = "node-fetch";
-      version = "2.6.13";
+      version = "2.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.13.tgz";
-        sha512 = "StxNAxh15zr77QvvkmveSQ8uCQ4+v5FkvNTj0OESmiHu+VRi/gXArXtkWMElOsOUNLtUEvI4yS+rdtOHZTwlQA==";
+        url = "https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz";
+        sha512 = "c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==";
       };
     };
     "node-gyp-8.4.1" = {
@@ -6854,7 +6854,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.499"
+      sources."electron-to-chromium-1.4.500"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6952,7 +6952,7 @@ in
       sources."ms-2.1.2"
       sources."negotiator-0.6.3"
       sources."node-addon-api-4.3.0"
-      sources."node-fetch-2.6.13"
+      sources."node-fetch-2.7.0"
       (sources."node-gyp-8.4.1" // {
         dependencies = [
           sources."are-we-there-yet-3.0.1"
@@ -7723,7 +7723,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.5.3"
+      sources."@types/node-20.5.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8056,7 +8056,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.5.3"
+      sources."@types/node-20.5.4"
       (sources."@types/node-fetch-2.6.4" // {
         dependencies = [
           sources."form-data-3.0.1"
@@ -8206,7 +8206,7 @@ in
       sources."mkdirp-1.0.4"
       sources."ms-2.1.2"
       sources."nan-2.17.0"
-      sources."node-fetch-2.6.13"
+      sources."node-fetch-2.7.0"
       sources."nopt-6.0.0"
       sources."npmlog-5.0.1"
       sources."oauth-sign-0.9.0"
