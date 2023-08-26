@@ -2452,13 +2452,13 @@ let
         sha512 = "78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==";
       };
     };
-    "flat-cache-3.0.4" = {
+    "flat-cache-3.1.0" = {
       name = "flat-cache";
       packageName = "flat-cache";
-      version = "3.0.4";
+      version = "3.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flat-cache/-/flat-cache-3.0.4.tgz";
-        sha512 = "dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==";
+        url = "https://registry.npmjs.org/flat-cache/-/flat-cache-3.1.0.tgz";
+        sha512 = "OHx4Qwrrt0E4jEIcI5/Xb+f+QmJYNj2rrK8wiIdQOIrB9WrrJL8cjZvXdXuBTkkEwEqLycb5BeZDV1o2i9bTew==";
       };
     };
     "flatted-3.2.7" = {
@@ -3487,6 +3487,15 @@ let
         sha512 = "OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==";
       };
     };
+    "json-buffer-3.0.1" = {
+      name = "json-buffer";
+      packageName = "json-buffer";
+      version = "3.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/json-buffer/-/json-buffer-3.0.1.tgz";
+        sha512 = "4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==";
+      };
+    };
     "json-parse-better-errors-1.0.2" = {
       name = "json-parse-better-errors";
       packageName = "json-parse-better-errors";
@@ -3593,6 +3602,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.5.tgz";
         sha512 = "ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==";
+      };
+    };
+    "keyv-4.5.3" = {
+      name = "keyv";
+      packageName = "keyv";
+      version = "4.5.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/keyv/-/keyv-4.5.3.tgz";
+        sha512 = "QCiSav9WaX1PgETJ+SpNnx2PRRapJ/oRSXM4VO5OGYGSjrxbKPVFVhB3l2OCbLCk329N8qyAtsJjSjvVBWzEug==";
       };
     };
     "kuler-2.0.0" = {
@@ -6566,7 +6584,7 @@ in
       sources."fastq-1.15.0"
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
-      sources."flat-cache-3.0.4"
+      sources."flat-cache-3.1.0"
       sources."flatted-3.2.7"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
@@ -6584,8 +6602,10 @@ in
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
       sources."js-yaml-4.1.0"
+      sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
+      sources."keyv-4.5.3"
       sources."levn-0.4.1"
       sources."locate-path-6.0.0"
       sources."lodash.merge-4.6.2"
@@ -6687,7 +6707,7 @@ in
       sources."fastq-1.15.0"
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
-      sources."flat-cache-3.0.4"
+      sources."flat-cache-3.1.0"
       sources."flatted-3.2.7"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
@@ -6705,8 +6725,10 @@ in
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
       sources."js-yaml-4.1.0"
+      sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
+      sources."keyv-4.5.3"
       sources."levn-0.4.1"
       sources."locate-path-6.0.0"
       sources."lodash.merge-4.6.2"
@@ -7523,7 +7545,7 @@ in
       sources."fast-levenshtein-2.0.6"
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
-      sources."flat-cache-3.0.4"
+      sources."flat-cache-3.1.0"
       sources."flatted-3.2.7"
       sources."for-each-0.3.3"
       sources."fs.realpath-1.0.0"
@@ -7576,11 +7598,13 @@ in
       sources."isexe-2.0.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
+      sources."json-buffer-3.0.1"
       sources."json-parse-better-errors-1.0.2"
       sources."json-schema-traverse-0.4.1"
       sources."json-stable-stringify-without-jsonify-1.0.1"
       sources."json5-1.0.2"
       sources."jsx-ast-utils-3.3.5"
+      sources."keyv-4.5.3"
       sources."levn-0.4.1"
       sources."load-json-file-4.0.0"
       sources."locate-path-2.0.0"
