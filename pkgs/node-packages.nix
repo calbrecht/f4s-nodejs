@@ -400,13 +400,13 @@ let
         sha512 = "k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==";
       };
     };
-    "@humanwhocodes/config-array-0.11.10" = {
+    "@humanwhocodes/config-array-0.11.11" = {
       name = "_at_humanwhocodes_slash_config-array";
       packageName = "@humanwhocodes/config-array";
-      version = "0.11.10";
+      version = "0.11.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.10.tgz";
-        sha512 = "KVVjQmNUepDVGXNuoRRdmmEjruj0KfiGSbS8LVc12LMsWDQzRXJ0qdhN8L8uUigKpfEHRhlaQFY0ib1tnUbNeQ==";
+        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.11.tgz";
+        sha512 = "N2brEuAadi0CcdeMXUkhbZB84eskAc8MEX1By6qEchoVywSgXPIjou4rYsl0V3Hj0ZnuGycGCjdNgockbzeWNA==";
       };
     };
     "@humanwhocodes/module-importer-1.0.1" = {
@@ -1885,13 +1885,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.504" = {
+    "electron-to-chromium-1.4.505" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.504";
+      version = "1.4.505";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.504.tgz";
-        sha512 = "cSMwIAd8yUh54VwitVRVvHK66QqHWE39C3DRj8SWiXitEpVSY3wNPD9y1pxQtLIi4w3UdzF9klLsmuPshz09DQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.505.tgz";
+        sha512 = "0A50eL5BCCKdxig2SsCXhpuztnB9PfUgRMojj5tMvt8O54lbwz3t6wNgnpiTRosw5QjlJB7ixhVyeg8daLQwSQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3433,13 +3433,13 @@ let
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
       };
     };
-    "jackspeak-2.3.0" = {
+    "jackspeak-2.3.1" = {
       name = "jackspeak";
       packageName = "jackspeak";
-      version = "2.3.0";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-2.3.0.tgz";
-        sha512 = "uKmsITSsF4rUWQHzqaRUuyAir3fZfW3f202Ee34lz/gZCi970CPZwyQXLGNgWJvvZbvFyzeyGq0+4fcG/mBKZg==";
+        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-2.3.1.tgz";
+        sha512 = "4iSY3Bh1Htv+kLhiiZunUhQ+OYXIn0ze3ulq8JeWrFKmhPAJSySV2+kdtRh2pGcCeF0s6oR8Oc+pYZynJj4t8A==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -4396,13 +4396,13 @@ let
         sha512 = "jCBs/0plmPsOnrKAfFQXRG2NFjlhZgjjcBLSmTnEhU8U6vVTsVe8ANeQJCHTl3gSsI4J+0emOoCgoKlmQPMgmA==";
       };
     };
-    "object.fromentries-2.0.6" = {
+    "object.fromentries-2.0.7" = {
       name = "object.fromentries";
       packageName = "object.fromentries";
-      version = "2.0.6";
+      version = "2.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.6.tgz";
-        sha512 = "VciD13dswC4j1Xt5394WR4MzmAQmlgN72phd/riNp9vtD7tp4QQWJ0R4wvclXcafgcYK8veHRed2W6XeGBvcfg==";
+        url = "https://registry.npmjs.org/object.fromentries/-/object.fromentries-2.0.7.tgz";
+        sha512 = "UPbPHML6sL8PI/mOqPwsH4G6iyXcCGzLin8KvEPenOZN5lpCNBZZQ+V62vdjB1mQHrmqGQt5/OJzemUA+KJmEA==";
       };
     };
     "object.hasown-1.1.3" = {
@@ -5557,13 +5557,13 @@ let
         sha512 = "wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==";
       };
     };
-    "string.prototype.matchall-4.0.8" = {
+    "string.prototype.matchall-4.0.9" = {
       name = "string.prototype.matchall";
       packageName = "string.prototype.matchall";
-      version = "4.0.8";
+      version = "4.0.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.8.tgz";
-        sha512 = "6zOCOcJ+RJAQshcTvXPHoxoQGONa3e/Lqx90wUA+wEzX78sg5Bo+1tQo4N0pohS0erG9qtCqJDjNCQBjeWVxyg==";
+        url = "https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.9.tgz";
+        sha512 = "6i5hL3MqG/K2G43mWXWgP+qizFW/QH/7kCNN13JrJS5q48FN5IKksLDscexKP3dnmB6cdm9jlNgAsWNLpSykmA==";
       };
     };
     "string.prototype.trim-1.2.7" = {
@@ -6546,7 +6546,7 @@ in
       sources."@eslint-community/regexpp-4.8.0"
       sources."@eslint/eslintrc-2.1.2"
       sources."@eslint/js-8.48.0"
-      sources."@humanwhocodes/config-array-0.11.10"
+      sources."@humanwhocodes/config-array-0.11.11"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6664,7 +6664,7 @@ in
       sources."@eslint-community/regexpp-4.8.0"
       sources."@eslint/eslintrc-2.1.2"
       sources."@eslint/js-8.48.0"
-      sources."@humanwhocodes/config-array-0.11.10"
+      sources."@humanwhocodes/config-array-0.11.11"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6876,7 +6876,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.504"
+      sources."electron-to-chromium-1.4.505"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7162,7 +7162,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."jackspeak-2.3.0"
+      sources."jackspeak-2.3.1"
       sources."lru-cache-7.18.3"
       sources."make-fetch-happen-11.1.1"
       sources."minimatch-3.1.2"
@@ -7399,10 +7399,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "3.0.2";
+    version = "3.0.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-3.0.2.tgz";
-      sha512 = "o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-3.0.3.tgz";
+      sha512 = "L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7626,7 +7626,7 @@ in
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.4"
       sources."object.entries-1.1.7"
-      sources."object.fromentries-2.0.6"
+      sources."object.fromentries-2.0.7"
       sources."object.hasown-1.1.3"
       sources."object.values-1.1.7"
       sources."once-1.4.0"
@@ -7689,7 +7689,7 @@ in
       sources."standard-16.0.4"
       sources."standard-engine-14.0.1"
       sources."string-width-4.2.3"
-      sources."string.prototype.matchall-4.0.8"
+      sources."string.prototype.matchall-4.0.9"
       sources."string.prototype.trim-1.2.7"
       sources."string.prototype.trimend-1.0.6"
       sources."string.prototype.trimstart-1.0.6"
