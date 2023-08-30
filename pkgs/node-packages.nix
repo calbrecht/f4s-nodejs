@@ -238,13 +238,13 @@ let
         sha512 = "C/BaXcnnvBCmHTpz/VGZ8jgtE2aYlW4hxDhseJAWZb7gqGM/qtCK6iZUb0TyKFf7BOUsBH7Q7fkRsDRhg1XklQ==";
       };
     };
-    "@babel/parser-7.22.13" = {
+    "@babel/parser-7.22.14" = {
       name = "_at_babel_slash_parser";
       packageName = "@babel/parser";
-      version = "7.22.13";
+      version = "7.22.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.22.13.tgz";
-        sha512 = "3l6+4YOvc9wx7VlCSw4yQfcBo01ECA8TicQfbnCPuCEpRQrf+gTUyGdxNw+pyTUyywp6JRD1w0YQs9TpBXYlkw==";
+        url = "https://registry.npmjs.org/@babel/parser/-/parser-7.22.14.tgz";
+        sha512 = "1KucTHgOvaw/LzCVrEOAyXkr9rQlp0A1HiHRYnSUE9dmb8PvPW7o5sscg+5169r54n3vGlbx6GevTE/Iw/P3AQ==";
       };
     };
     "@babel/plugin-syntax-flow-7.22.5" = {
@@ -1885,13 +1885,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.505" = {
+    "electron-to-chromium-1.4.506" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.505";
+      version = "1.4.506";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.505.tgz";
-        sha512 = "0A50eL5BCCKdxig2SsCXhpuztnB9PfUgRMojj5tMvt8O54lbwz3t6wNgnpiTRosw5QjlJB7ixhVyeg8daLQwSQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.506.tgz";
+        sha512 = "xxGct4GPAKSRlrLBtJxJFYy74W11zX6PO9GyHgl/U+2s3Dp0ZEwAklDfNHXOWcvH7zWMpsmgbR0ggEuaYAVvHA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6802,7 +6802,7 @@ in
       sources."@babel/helper-validator-option-7.22.5"
       sources."@babel/helpers-7.22.11"
       sources."@babel/highlight-7.22.13"
-      sources."@babel/parser-7.22.13"
+      sources."@babel/parser-7.22.14"
       sources."@babel/plugin-syntax-flow-7.22.5"
       sources."@babel/plugin-syntax-jsx-7.22.5"
       sources."@babel/plugin-syntax-typescript-7.22.5"
@@ -6876,7 +6876,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.505"
+      sources."electron-to-chromium-1.4.506"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
