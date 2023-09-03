@@ -1066,13 +1066,13 @@ let
         sha512 = "kO/vVCacW9mnpn3WPWbTVlEnOabK2L7LWi2HViURtCM46y1zb6I8UMjx4LgbiqadTgHnLInUronwn3ampNTJtQ==";
       };
     };
-    "array-includes-3.1.6" = {
+    "array-includes-3.1.7" = {
       name = "array-includes";
       packageName = "array-includes";
-      version = "3.1.6";
+      version = "3.1.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/array-includes/-/array-includes-3.1.6.tgz";
-        sha512 = "sgTbLvL6cNnw24FnbaDyjmvddQ2ML8arZsgaJhoABMoplz/4QRhtrYS+alr1BUM1Bwp6dhx8vVCBSLG+StwOFw==";
+        url = "https://registry.npmjs.org/array-includes/-/array-includes-3.1.7.tgz";
+        sha512 = "dlcsNBIiWhPkHdOEEKnehA+RNUWDc4UqFtnIXU4uuYDPtA4LDkr7qip2p0VvFAEXNDr0yWZ9PJyIRiGjRLQzwQ==";
       };
     };
     "array-union-2.1.0" = {
@@ -7445,7 +7445,7 @@ in
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
       sources."array-buffer-byte-length-1.0.0"
-      sources."array-includes-3.1.6"
+      sources."array-includes-3.1.7"
       sources."array.prototype.flat-1.3.1"
       sources."array.prototype.flatmap-1.3.1"
       sources."arraybuffer.prototype.slice-1.0.1"
