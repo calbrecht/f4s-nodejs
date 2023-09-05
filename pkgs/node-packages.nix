@@ -1318,13 +1318,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001525" = {
+    "caniuse-lite-1.0.30001527" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001525";
+      version = "1.0.30001527";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001525.tgz";
-        sha512 = "/3z+wB4icFt3r0USMwxujAqRvaD/B7rvGTsKhbhSQErVrJvkZCLhgNLJxU8MevahQVH6hCU9FsHdNUFbiwmE7Q==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001527.tgz";
+        sha512 = "YkJi7RwPgWtXVSgK4lG9AHH57nSzvvOp9MesgXmw4Q7n0C3H04L0foHqfxcmSAm5AcWb8dW9AYj2tR7/5GnddQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -5584,13 +5584,13 @@ let
         sha512 = "JySq+4mrPf9EsDBEDYMOb/lM7XQLulwg5R/m1r0PXEFqrV0qHvl58sdTilSXtKOflCsK2E8jxf+GKC0T07RWwQ==";
       };
     };
-    "string.prototype.trimstart-1.0.6" = {
+    "string.prototype.trimstart-1.0.7" = {
       name = "string.prototype.trimstart";
       packageName = "string.prototype.trimstart";
-      version = "1.0.6";
+      version = "1.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.6.tgz";
-        sha512 = "omqjMDaY92pbn5HOX7f9IccLA+U1tA9GvtU4JrodiXFfYB7jPzzHpRzpglLAjtUV6bB557zwClJezTqnAiYnQA==";
+        url = "https://registry.npmjs.org/string.prototype.trimstart/-/string.prototype.trimstart-1.0.7.tgz";
+        sha512 = "NGhtDFu3jCEm7B4Fy0DpLewdJQOZcQ0rGbwQ/+stjnrp2i+rlKeCvos9hOIeCmqwratM47OBxY7uFZzjxHXmrg==";
       };
     };
     "string_decoder-1.1.1" = {
@@ -5755,13 +5755,13 @@ let
         sha512 = "a20gEsvHnWe0ygBY8JbxoM4w3SJdhc7ZAuxkLqh+nvNQN2IOt0B5lLgM490X5Hl8FF0dl0tOf2ewFYAlIFgzVA==";
       };
     };
-    "tar-6.1.15" = {
+    "tar-6.2.0" = {
       name = "tar";
       packageName = "tar";
-      version = "6.1.15";
+      version = "6.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tar/-/tar-6.1.15.tgz";
-        sha512 = "/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==";
+        url = "https://registry.npmjs.org/tar/-/tar-6.2.0.tgz";
+        sha512 = "/Wo7DcT0u5HUV486xg675HtjNd3BXZ6xDbzsCUZPt5iw8bTQ63bP0Raut3mvro9u+CUyq7YQd8Cx55fsZXxqLQ==";
       };
     };
     "text-hex-1.0.0" = {
@@ -6859,7 +6859,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001525"
+      sources."caniuse-lite-1.0.30001527"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7024,7 +7024,7 @@ in
       sources."string_decoder-1.3.0"
       sources."strip-ansi-6.0.1"
       sources."supports-color-5.5.0"
-      (sources."tar-6.1.15" // {
+      (sources."tar-6.2.0" // {
         dependencies = [
           sources."yallist-4.0.0"
         ];
@@ -7247,7 +7247,7 @@ in
         ];
       })
       sources."strip-ansi-cjs-6.0.1"
-      (sources."tar-6.1.15" // {
+      (sources."tar-6.2.0" // {
         dependencies = [
           (sources."fs-minipass-2.1.0" // {
             dependencies = [
@@ -7692,7 +7692,7 @@ in
       sources."string.prototype.matchall-4.0.9"
       sources."string.prototype.trim-1.2.7"
       sources."string.prototype.trimend-1.0.6"
-      sources."string.prototype.trimstart-1.0.6"
+      sources."string.prototype.trimstart-1.0.7"
       sources."strip-ansi-6.0.1"
       sources."strip-bom-3.0.0"
       sources."strip-json-comments-3.1.1"
@@ -8287,7 +8287,7 @@ in
       sources."string-width-4.2.3"
       sources."string_decoder-1.3.0"
       sources."strip-ansi-6.0.1"
-      (sources."tar-6.1.15" // {
+      (sources."tar-6.2.0" // {
         dependencies = [
           sources."yallist-4.0.0"
         ];
