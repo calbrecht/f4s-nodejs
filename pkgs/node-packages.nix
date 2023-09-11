@@ -553,49 +553,49 @@ let
         sha512 = "1SUf/Cg2GzGDyaf15aR9St9TWlb+XvbZXWpDx8YKs7MLzMH/BCeopv+y9vzrzgkfykCGuWOlSu3mZhj2+FQcrg==";
       };
     };
-    "@opentelemetry/api-1.4.1" = {
+    "@opentelemetry/api-1.5.0" = {
       name = "_at_opentelemetry_slash_api";
       packageName = "@opentelemetry/api";
-      version = "1.4.1";
+      version = "1.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/api/-/api-1.4.1.tgz";
-        sha512 = "O2yRJce1GOc6PAy3QxFM4NzFiWzvScDC1/5ihYBL6BUEVdq0XMWN01sppE+H6bBXbaFYipjwFLEWLg5PaSOThA==";
+        url = "https://registry.npmjs.org/@opentelemetry/api/-/api-1.5.0.tgz";
+        sha512 = "636km3y3pVyJldKGp9qM+lPvxuOvhThUED9cHNPsERkp+APbdtCtj0sALW+mZsbQqnqQkNRHqoGw/Uc82UP6fQ==";
       };
     };
-    "@opentelemetry/core-1.15.2" = {
+    "@opentelemetry/core-1.16.0" = {
       name = "_at_opentelemetry_slash_core";
       packageName = "@opentelemetry/core";
-      version = "1.15.2";
+      version = "1.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.15.2.tgz";
-        sha512 = "+gBv15ta96WqkHZaPpcDHiaz0utiiHZVfm2YOYSqFGrUaJpPkMoSuLBB58YFQGi6Rsb9EHos84X6X5+9JspmLw==";
+        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.16.0.tgz";
+        sha512 = "JMxz7kzAqmIDUDEpoRrumHk257vrA9ZGVdHLB829gu6i/ryKlnjXIzJk86pgjhmxjLMX43BY6J0nbzOhy0QGtw==";
       };
     };
-    "@opentelemetry/resources-1.15.2" = {
+    "@opentelemetry/resources-1.16.0" = {
       name = "_at_opentelemetry_slash_resources";
       packageName = "@opentelemetry/resources";
-      version = "1.15.2";
+      version = "1.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.15.2.tgz";
-        sha512 = "xmMRLenT9CXmm5HMbzpZ1hWhaUowQf8UB4jMjFlAxx1QzQcsD3KFNAVX/CAWzFPtllTyTplrA4JrQ7sCH3qmYw==";
+        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.16.0.tgz";
+        sha512 = "Z2LdmfbLDYtn1vMJrPDdbRozwj9+WX8G4dxnUeqIVIYjwolV3kLjV+fWgvxoo0N00kNZBCvor+iD81iXx3sDpA==";
       };
     };
-    "@opentelemetry/sdk-trace-base-1.15.2" = {
+    "@opentelemetry/sdk-trace-base-1.16.0" = {
       name = "_at_opentelemetry_slash_sdk-trace-base";
       packageName = "@opentelemetry/sdk-trace-base";
-      version = "1.15.2";
+      version = "1.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.15.2.tgz";
-        sha512 = "BEaxGZbWtvnSPchV98qqqqa96AOcb41pjgvhfzDij10tkBhIu9m0Jd6tZ1tJB5ZHfHbTffqYVYE0AOGobec/EQ==";
+        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.16.0.tgz";
+        sha512 = "UvV8v8cN0Bx5BI40IJ+sMWcbwWekPa9ngMHSOfCWtSAVKbzwFdDV4Jrs/ejC6uR/SI6CKFQB9ItHp/0nZzVbIQ==";
       };
     };
-    "@opentelemetry/semantic-conventions-1.15.2" = {
+    "@opentelemetry/semantic-conventions-1.16.0" = {
       name = "_at_opentelemetry_slash_semantic-conventions";
       packageName = "@opentelemetry/semantic-conventions";
-      version = "1.15.2";
+      version = "1.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.15.2.tgz";
-        sha512 = "CjbOKwk2s+3xPIMcd5UNYQzsf+v94RczbdNix9/kQh38WiQkM90sUOi3if8eyHFgiBjBjhwXrA7W3ydiSQP9mw==";
+        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.16.0.tgz";
+        sha512 = "jpbpOY0ahD/uTF16h4/NkFatwlulCpkvecK8zVJgHRfjK/ymJAw1Cg45KXiVSJML8uiMmRBciea/+gebrD398g==";
       };
     };
     "@protobufjs/aspromise-1.1.2" = {
@@ -1885,13 +1885,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.513" = {
+    "electron-to-chromium-1.4.515" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.513";
+      version = "1.4.515";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.513.tgz";
-        sha512 = "cOB0xcInjm+E5qIssHeXJ29BaUyWpMyFKT5RB3bsLENDheCja0wMkHJyiPl0NBE/VzDI7JDuNEQWhe6RitEUcw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.515.tgz";
+        sha512 = "VTq6vjk3kCfG2qdzQRd/i9dIyVVm0dbtZIgFzrLgfB73mXDQT2HPKVRc1EoZcAVUv9XhXAu08DWqJuababdGGg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6169,13 +6169,13 @@ let
         sha512 = "Jd8wpIg5kJ15CfrieoEPvu3gGFc36sbM3qXCtjVq5zrnLEX5NhHxikMDtf8AgQsYklXiDqiZLKoBnzkJtRbTHQ==";
       };
     };
-    "vscode-html-languageservice-5.0.7" = {
+    "vscode-html-languageservice-5.1.0" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "5.0.7";
+      version = "5.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.0.7.tgz";
-        sha512 = "jX+7/kUXrdOaRT8vqYR/jLxrGDib+Far8I7n/A6apuEl88k+mhIHZPwc6ezuLeiCKUCaLG4b0dqFwjVa7QL3/w==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.1.0.tgz";
+        sha512 = "cGOu5+lrz+2dDXSGS15y24lDtPaML1T8K/SfqgFbLmCZ1btYOxceFieR+ybTS2es/A67kRc62m2cKFLUQPWG5g==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6876,7 +6876,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.513"
+      sources."electron-to-chromium-1.4.515"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8064,11 +8064,11 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."@opentelemetry/api-1.4.1"
-      sources."@opentelemetry/core-1.15.2"
-      sources."@opentelemetry/resources-1.15.2"
-      sources."@opentelemetry/sdk-trace-base-1.15.2"
-      sources."@opentelemetry/semantic-conventions-1.15.2"
+      sources."@opentelemetry/api-1.5.0"
+      sources."@opentelemetry/core-1.16.0"
+      sources."@opentelemetry/resources-1.16.0"
+      sources."@opentelemetry/sdk-trace-base-1.16.0"
+      sources."@opentelemetry/semantic-conventions-1.16.0"
       sources."@protobufjs/aspromise-1.1.2"
       sources."@protobufjs/base64-1.1.2"
       sources."@protobufjs/codegen-2.0.4"
@@ -8313,7 +8313,7 @@ in
           sources."vscode-languageserver-types-3.17.3"
         ];
       })
-      (sources."vscode-html-languageservice-5.0.7" // {
+      (sources."vscode-html-languageservice-5.1.0" // {
         dependencies = [
           sources."vscode-languageserver-types-3.17.3"
         ];
