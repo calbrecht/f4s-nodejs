@@ -355,13 +355,13 @@ let
         sha512 = "1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==";
       };
     };
-    "@eslint-community/regexpp-4.8.0" = {
+    "@eslint-community/regexpp-4.8.1" = {
       name = "_at_eslint-community_slash_regexpp";
       packageName = "@eslint-community/regexpp";
-      version = "4.8.0";
+      version = "4.8.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.8.0.tgz";
-        sha512 = "JylOEEzDiOryeUnFbQz+oViCXS0KsvR1mvHkoMiu5+UiBvy+RYX7tzlIIIEstF/gVa2tj9AQXk3dgnxv6KxhFg==";
+        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.8.1.tgz";
+        sha512 = "PWiOzLIUAjN/w5K17PoF4n6sKBw0gqLHPhywmYHP4t1VFQQVYeb1yWsJwnMVEMl3tUHME7X/SJPZLmtG7XBDxQ==";
       };
     };
     "@eslint/eslintrc-0.3.0" = {
@@ -553,49 +553,49 @@ let
         sha512 = "1SUf/Cg2GzGDyaf15aR9St9TWlb+XvbZXWpDx8YKs7MLzMH/BCeopv+y9vzrzgkfykCGuWOlSu3mZhj2+FQcrg==";
       };
     };
-    "@opentelemetry/api-1.5.0" = {
+    "@opentelemetry/api-1.6.0" = {
       name = "_at_opentelemetry_slash_api";
       packageName = "@opentelemetry/api";
-      version = "1.5.0";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/api/-/api-1.5.0.tgz";
-        sha512 = "636km3y3pVyJldKGp9qM+lPvxuOvhThUED9cHNPsERkp+APbdtCtj0sALW+mZsbQqnqQkNRHqoGw/Uc82UP6fQ==";
+        url = "https://registry.npmjs.org/@opentelemetry/api/-/api-1.6.0.tgz";
+        sha512 = "OWlrQAnWn9577PhVgqjUvMr1pg57Bc4jv0iL4w0PRuOSRvq67rvHW9Ie/dZVMvCzhSCB+UxhcY/PmCmFj33Q+g==";
       };
     };
-    "@opentelemetry/core-1.16.0" = {
+    "@opentelemetry/core-1.17.0" = {
       name = "_at_opentelemetry_slash_core";
       packageName = "@opentelemetry/core";
-      version = "1.16.0";
+      version = "1.17.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.16.0.tgz";
-        sha512 = "JMxz7kzAqmIDUDEpoRrumHk257vrA9ZGVdHLB829gu6i/ryKlnjXIzJk86pgjhmxjLMX43BY6J0nbzOhy0QGtw==";
+        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.17.0.tgz";
+        sha512 = "tfnl3h+UefCgx1aeN2xtrmr6BmdWGKXypk0pflQR0urFS40aE88trnkOMc2HTJZbMrqEEl4HsaBeFhwLVXsrJg==";
       };
     };
-    "@opentelemetry/resources-1.16.0" = {
+    "@opentelemetry/resources-1.17.0" = {
       name = "_at_opentelemetry_slash_resources";
       packageName = "@opentelemetry/resources";
-      version = "1.16.0";
+      version = "1.17.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.16.0.tgz";
-        sha512 = "Z2LdmfbLDYtn1vMJrPDdbRozwj9+WX8G4dxnUeqIVIYjwolV3kLjV+fWgvxoo0N00kNZBCvor+iD81iXx3sDpA==";
+        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.17.0.tgz";
+        sha512 = "+u0ciVnj8lhuL/qGRBPeVYvk7fL+H/vOddfvmOeJaA1KC+5/3UED1c9KoZQlRsNT5Kw1FaK8LkY2NVLYfOVZQw==";
       };
     };
-    "@opentelemetry/sdk-trace-base-1.16.0" = {
+    "@opentelemetry/sdk-trace-base-1.17.0" = {
       name = "_at_opentelemetry_slash_sdk-trace-base";
       packageName = "@opentelemetry/sdk-trace-base";
-      version = "1.16.0";
+      version = "1.17.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.16.0.tgz";
-        sha512 = "UvV8v8cN0Bx5BI40IJ+sMWcbwWekPa9ngMHSOfCWtSAVKbzwFdDV4Jrs/ejC6uR/SI6CKFQB9ItHp/0nZzVbIQ==";
+        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.17.0.tgz";
+        sha512 = "2T5HA1/1iE36Q9eg6D4zYlC4Y4GcycI1J6NsHPKZY9oWfAxWsoYnRlkPfUqyY5XVtocCo/xHpnJvGNHwzT70oQ==";
       };
     };
-    "@opentelemetry/semantic-conventions-1.16.0" = {
+    "@opentelemetry/semantic-conventions-1.17.0" = {
       name = "_at_opentelemetry_slash_semantic-conventions";
       packageName = "@opentelemetry/semantic-conventions";
-      version = "1.16.0";
+      version = "1.17.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.16.0.tgz";
-        sha512 = "jpbpOY0ahD/uTF16h4/NkFatwlulCpkvecK8zVJgHRfjK/ymJAw1Cg45KXiVSJML8uiMmRBciea/+gebrD398g==";
+        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.17.0.tgz";
+        sha512 = "+fguCd2d8d2qruk0H0DsCEy2CTK3t0Tugg7MhZ/UQMvmewbZLNnJ6heSYyzIZWG5IPfAXzoj4f4F/qpM7l4VBA==";
       };
     };
     "@protobufjs/aspromise-1.1.2" = {
@@ -760,13 +760,13 @@ let
         sha512 = "1ZX9fcN4Rvkvgv4E6PAY5WXUFWFcRWxZa3EW83UjycOB9ljJCedb2CupIP4RZMEwF/M3eTcCihbBRgwtGbg5Rg==";
       };
     };
-    "@types/triple-beam-1.3.2" = {
+    "@types/triple-beam-1.3.3" = {
       name = "_at_types_slash_triple-beam";
       packageName = "@types/triple-beam";
-      version = "1.3.2";
+      version = "1.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/triple-beam/-/triple-beam-1.3.2.tgz";
-        sha512 = "txGIh+0eDFzKGC25zORnswy+br1Ha7hj5cMVwKIU7+s0U2AxxJru/jZSMU6OC9MJWP6+pc/hc6ZjyZShpsyY2g==";
+        url = "https://registry.npmjs.org/@types/triple-beam/-/triple-beam-1.3.3.tgz";
+        sha512 = "6tOUG+nVHn0cJbVp25JFayS5UE6+xlbcNF9Lo9mU7U0zk3zeUShZied4YEQZjy1JBF043FSkdXw8YkUJuVtB5g==";
       };
     };
     "@types/tunnel-0.0.3" = {
@@ -1318,13 +1318,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001532" = {
+    "caniuse-lite-1.0.30001533" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001532";
+      version = "1.0.30001533";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001532.tgz";
-        sha512 = "FbDFnNat3nMnrROzqrsg314zhqN5LGQ1kyyMk2opcrwGbVGpHRhgCWtAgD5YJUqNAiQ+dklreil/c3Qf1dfCTw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001533.tgz";
+        sha512 = "9aY/b05NKU4Yl2sbcJhn4A7MsGwR1EPfW/nrqsnqVA0Oq50wpmPaGI+R1Z0UKlUl96oxUkGEOILWtOHck0eCWw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1885,13 +1885,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.515" = {
+    "electron-to-chromium-1.4.517" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.515";
+      version = "1.4.517";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.515.tgz";
-        sha512 = "VTq6vjk3kCfG2qdzQRd/i9dIyVVm0dbtZIgFzrLgfB73mXDQT2HPKVRc1EoZcAVUv9XhXAu08DWqJuababdGGg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.517.tgz";
+        sha512 = "Int8C3a83q7OYvVZYktVnezC7u8NvLsBDDKJmyJBeKD8N9VrEGqKh3JOCSQz6Os77KgHVbUpCi4TMYtkZvvtuQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4108,13 +4108,13 @@ let
         sha512 = "KpMNwdQsYz3O/SBS1qJ/o3sqUJ5wSb8gb0pul8CO0S56b9Y2ALm8zCfsjPXsqGFfoNBkDwZuZIAjhsZI03gYVQ==";
       };
     };
-    "nan-2.17.0" = {
+    "nan-2.18.0" = {
       name = "nan";
       packageName = "nan";
-      version = "2.17.0";
+      version = "2.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nan/-/nan-2.17.0.tgz";
-        sha512 = "2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==";
+        url = "https://registry.npmjs.org/nan/-/nan-2.18.0.tgz";
+        sha512 = "W7tfG7vMOGtD30sHoZSSc/JVYiyDPEyQVso/Zz+/uQd0B0L46gtC+pHha5FFMRpil6fm/AoEcRWyOVi4+E/f8w==";
       };
     };
     "nanoid-3.3.6" = {
@@ -6543,7 +6543,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.8.0"
+      sources."@eslint-community/regexpp-4.8.1"
       sources."@eslint/eslintrc-2.1.2"
       sources."@eslint/js-8.49.0"
       sources."@humanwhocodes/config-array-0.11.11"
@@ -6661,7 +6661,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.8.0"
+      sources."@eslint-community/regexpp-4.8.1"
       sources."@eslint/eslintrc-2.1.2"
       sources."@eslint/js-8.49.0"
       sources."@humanwhocodes/config-array-0.11.11"
@@ -6838,7 +6838,7 @@ in
       })
       sources."@npmcli/move-file-1.1.2"
       sources."@tootallnate/once-1.1.2"
-      sources."@types/triple-beam-1.3.2"
+      sources."@types/triple-beam-1.3.3"
       sources."abbrev-1.1.1"
       sources."agent-base-6.0.2"
       sources."agentkeepalive-4.5.0"
@@ -6859,7 +6859,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001532"
+      sources."caniuse-lite-1.0.30001533"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6876,7 +6876,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.515"
+      sources."electron-to-chromium-1.4.517"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7871,7 +7871,7 @@ in
       sources."lodash.assign-4.2.0"
       sources."marked-0.3.19"
       sources."marked-terminal-1.7.0"
-      sources."nan-2.17.0"
+      sources."nan-2.18.0"
       sources."node-emoji-1.11.0"
       sources."redeyed-1.0.1"
       sources."strip-ansi-3.0.1"
@@ -8064,11 +8064,11 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."@opentelemetry/api-1.5.0"
-      sources."@opentelemetry/core-1.16.0"
-      sources."@opentelemetry/resources-1.16.0"
-      sources."@opentelemetry/sdk-trace-base-1.16.0"
-      sources."@opentelemetry/semantic-conventions-1.16.0"
+      sources."@opentelemetry/api-1.6.0"
+      sources."@opentelemetry/core-1.17.0"
+      sources."@opentelemetry/resources-1.17.0"
+      sources."@opentelemetry/sdk-trace-base-1.17.0"
+      sources."@opentelemetry/semantic-conventions-1.17.0"
       sources."@protobufjs/aspromise-1.1.2"
       sources."@protobufjs/base64-1.1.2"
       sources."@protobufjs/codegen-2.0.4"
@@ -8229,7 +8229,7 @@ in
       })
       sources."mkdirp-1.0.4"
       sources."ms-2.1.2"
-      sources."nan-2.17.0"
+      sources."nan-2.18.0"
       sources."node-fetch-2.7.0"
       sources."nopt-6.0.0"
       sources."npmlog-5.0.1"
