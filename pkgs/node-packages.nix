@@ -1246,13 +1246,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.21.10" = {
+    "browserslist-4.21.11" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.21.10";
+      version = "4.21.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.10.tgz";
-        sha512 = "bipEBdZfVH5/pwrvqc+Ub0kUPVfGUhlKxbvfD+z1BDnPEO/X98ruXGA1WP5ASpAFKan7Qr6j736IacbZQuAlKQ==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.21.11.tgz";
+        sha512 = "xn1UXOKUz7DjdGlg9RrUr0GGiWzI97UQJnugHtH0OLDfJB7jMgoIkYvRIEO1l9EeEERVqeqLYOcFBW9ldjypbQ==";
       };
     };
     "bser-2.1.1" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.526" = {
+    "electron-to-chromium-1.4.527" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.526";
+      version = "1.4.527";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.526.tgz";
-        sha512 = "tjjTMjmZAx1g6COrintLTa2/jcafYKxKoiEkdQOrVdbLaHh2wCt2nsAF8ZHweezkrP+dl/VG9T5nabcYoo0U5Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.527.tgz";
+        sha512 = "EafxEiEDzk2aLrdbtVczylHflHdHkNrpGNHIgDyA63sUQLQVS2ayj2hPw3RsVB42qkwURH+T2OxV7kGPUuYszA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2713,13 +2713,13 @@ let
         sha512 = "0fzj9JxOLfJ+XGLhR8ze3unN0KZCgZwiSSDz168VERjK8Wl8kVSdcu2kspd4s4wtAa1y/qrVRiAA0WclVsu0ng==";
       };
     };
-    "glob-10.3.4" = {
+    "glob-10.3.5" = {
       name = "glob";
       packageName = "glob";
-      version = "10.3.4";
+      version = "10.3.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-10.3.4.tgz";
-        sha512 = "6LFElP3A+i/Q8XQKEvZjkEWEOTgAIALR9AO2rwT8bgPhDd1anmqDJDZ6lLddI4ehxxxR1S5RIqKe1uapMQfYaQ==";
+        url = "https://registry.npmjs.org/glob/-/glob-10.3.5.tgz";
+        sha512 = "bYUpUD7XDEHI4Q2O5a7PXGvyw4deKR70kHiDxzQbe925wbZknhOzUt2xBgTkYL6RBcVeXYuD9iNYeqoWbBZQnA==";
       };
     };
     "glob-7.2.3" = {
@@ -6088,13 +6088,13 @@ let
         sha512 = "hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==";
       };
     };
-    "update-browserslist-db-1.0.12" = {
+    "update-browserslist-db-1.0.13" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.0.12";
+      version = "1.0.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.12.tgz";
-        sha512 = "tE1smlR58jxbFMtrMpFNRmsrOXlpNXss965T1CrpwuZUzUAg/TBQc94SpyhDLSzrqrJS9xTRBthnZAGcE1oaxg==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.13.tgz";
+        sha512 = "xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==";
       };
     };
     "uri-js-4.4.1" = {
@@ -6859,7 +6859,7 @@ in
       sources."async-3.2.4"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.21.10"
+      sources."browserslist-4.21.11"
       sources."bser-2.1.1"
       (sources."cacache-15.3.0" // {
         dependencies = [
@@ -6885,7 +6885,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.526"
+      sources."electron-to-chromium-1.4.527"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7045,7 +7045,7 @@ in
       sources."type-fest-0.8.1"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
-      sources."update-browserslist-db-1.0.12"
+      sources."update-browserslist-db-1.0.13"
       sources."util-deprecate-1.0.2"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
@@ -7117,7 +7117,7 @@ in
       (sources."cacache-17.1.4" // {
         dependencies = [
           sources."brace-expansion-2.0.1"
-          sources."glob-10.3.4"
+          sources."glob-10.3.5"
           sources."minimatch-9.0.3"
           sources."minipass-7.0.3"
         ];
