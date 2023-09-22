@@ -382,13 +382,13 @@ let
         sha512 = "+wvgpDsrB1YqAMdEUCcnTlpfVBH7Vqn6A/NT3D8WVXFIaKMlErPIZT3oCIAVCOtarRpMtelZLqJeU3t7WY6X6g==";
       };
     };
-    "@eslint/js-8.49.0" = {
+    "@eslint/js-8.50.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "8.49.0";
+      version = "8.50.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-8.49.0.tgz";
-        sha512 = "1S8uAY/MTJqVx0SC4epBq+N2yhuwtNwLbJYNZyhL2pO1ZVKn5HFXav5T41Ryzy9K9V7ZId2JB2oy/W4aCd9/2w==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-8.50.0.tgz";
+        sha512 = "NCC3zz2+nvYd+Ckfh87rA47zfu2QsQpvc6k1yzTk+b9KzRj0wkGa8LSoGOXN6Zv4lRf/EIoZ80biDh9HOI+RNQ==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.527" = {
+    "electron-to-chromium-1.4.528" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.527";
+      version = "1.4.528";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.527.tgz";
-        sha512 = "EafxEiEDzk2aLrdbtVczylHflHdHkNrpGNHIgDyA63sUQLQVS2ayj2hPw3RsVB42qkwURH+T2OxV7kGPUuYszA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.528.tgz";
+        sha512 = "UdREXMXzLkREF4jA8t89FQjA8WHI6ssP38PMY4/4KhXFQbtImnghh4GkCgrtiZwLKUKVD2iTVXvDVQjfomEQuA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2074,13 +2074,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.49.0" = {
+    "eslint-8.50.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.49.0";
+      version = "8.50.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.49.0.tgz";
-        sha512 = "jw03ENfm6VJI0jA9U+8H5zfl5b+FvuU3YYvZRdZHOlU2ggJkxrlkJH4HcDrZpj6YwD8kuYqvQM8LyesoazrSOQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.50.0.tgz";
+        sha512 = "FOnOGSuFuFLv/Sa+FDVRZl4GGVAAFFi8LecRsI5a1tMO5HIE8nCm4ivAlzt4dT3ol/PaaGC0rJEEXQmHJBGoOg==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6544,17 +6544,17 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.49.0";
+    version = "8.50.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.49.0.tgz";
-      sha512 = "jw03ENfm6VJI0jA9U+8H5zfl5b+FvuU3YYvZRdZHOlU2ggJkxrlkJH4HcDrZpj6YwD8kuYqvQM8LyesoazrSOQ==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.50.0.tgz";
+      sha512 = "FOnOGSuFuFLv/Sa+FDVRZl4GGVAAFFi8LecRsI5a1tMO5HIE8nCm4ivAlzt4dT3ol/PaaGC0rJEEXQmHJBGoOg==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.8.1"
       sources."@eslint/eslintrc-2.1.2"
-      sources."@eslint/js-8.49.0"
+      sources."@eslint/js-8.50.0"
       sources."@humanwhocodes/config-array-0.11.11"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6579,7 +6579,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.49.0"
+      sources."eslint-8.50.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -6672,7 +6672,7 @@ in
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.8.1"
       sources."@eslint/eslintrc-2.1.2"
-      sources."@eslint/js-8.49.0"
+      sources."@eslint/js-8.50.0"
       sources."@humanwhocodes/config-array-0.11.11"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-1.2.1"
@@ -6702,7 +6702,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.49.0"
+      sources."eslint-8.50.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -6885,7 +6885,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.527"
+      sources."electron-to-chromium-1.4.528"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
