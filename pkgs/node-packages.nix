@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.6.4" = {
+    "@types/node-20.6.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.6.4";
+      version = "20.6.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.6.4.tgz";
-        sha512 = "nU6d9MPY0NBUMiE/nXd2IIoC4OLvsLpwAjheoAeuzgvDZA1Cb10QYg+91AF6zQiKWRN5i1m07x6sMe0niBznoQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.6.5.tgz";
+        sha512 = "2qGq5LAOTh9izcc0+F+dToFigBWiK1phKPt7rNhOqJSr35y8rlIBjDwGtFSgAI6MGIhjwOVNSQZVdJsZJ2uR1w==";
       };
     };
     "@types/node-fetch-2.6.6" = {
@@ -2713,13 +2713,13 @@ let
         sha512 = "0fzj9JxOLfJ+XGLhR8ze3unN0KZCgZwiSSDz168VERjK8Wl8kVSdcu2kspd4s4wtAa1y/qrVRiAA0WclVsu0ng==";
       };
     };
-    "glob-10.3.6" = {
+    "glob-10.3.7" = {
       name = "glob";
       packageName = "glob";
-      version = "10.3.6";
+      version = "10.3.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-10.3.6.tgz";
-        sha512 = "mEfImdc/fiYHEcF6pHFfD2b/KrdFB1qH9mRe5vI5HROF8G51SWxQJ2V56Ezl6ZL9y86gsxQ1Lgo2S746KGUPSQ==";
+        url = "https://registry.npmjs.org/glob/-/glob-10.3.7.tgz";
+        sha512 = "wCMbE1m9Nx5yD9LYtgsVWq5VhHlk5WzJirw594qZR6AIvQYuHrdDtIktUVjQItalD53y7dqoedu9xP0u0WaxIQ==";
       };
     };
     "glob-7.2.3" = {
@@ -7117,7 +7117,7 @@ in
       (sources."cacache-17.1.4" // {
         dependencies = [
           sources."brace-expansion-2.0.1"
-          sources."glob-10.3.6"
+          sources."glob-10.3.7"
           sources."minimatch-9.0.3"
           sources."minipass-7.0.3"
         ];
@@ -7758,7 +7758,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.6.4"
+      sources."@types/node-20.6.5"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8091,7 +8091,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.6.4"
+      sources."@types/node-20.6.5"
       sources."@types/node-fetch-2.6.6"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
