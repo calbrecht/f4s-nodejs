@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.7.1" = {
+    "@types/node-20.7.2" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.7.1";
+      version = "20.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.7.1.tgz";
-        sha512 = "LT+OIXpp2kj4E2S/p91BMe+VgGX2+lfO+XTpfXhh+bCk2LkQtHZSub8ewFBMGP5ClysPjTDFa4sMI8Q3n4T0wg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.7.2.tgz";
+        sha512 = "RcdC3hOBOauLP+r/kRt27NrByYtDjsXyAuSbR87O6xpsvi763WI+5fbSIvYJrXnt9w4RuxhV6eAXfIs7aaf/FQ==";
       };
     };
     "@types/node-fetch-2.6.6" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.536" = {
+    "electron-to-chromium-1.4.537" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.536";
+      version = "1.4.537";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.536.tgz";
-        sha512 = "L4VgC/76m6y8WVCgnw5kJy/xs7hXrViCFdNKVG8Y7B2isfwrFryFyJzumh3ugxhd/oB1uEaEEvRdmeLrnd7OFA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.537.tgz";
+        sha512 = "W1+g9qs9hviII0HAwOdehGYkr+zt7KKdmCcJcjH0mYg6oL8+ioT3Skjmt7BLoAQqXhjf40AXd+HlR4oAWMlXjA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3973,13 +3973,13 @@ let
         sha512 = "3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==";
       };
     };
-    "minipass-7.0.3" = {
+    "minipass-7.0.4" = {
       name = "minipass";
       packageName = "minipass";
-      version = "7.0.3";
+      version = "7.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-7.0.3.tgz";
-        sha512 = "LhbbwCfz3vsb12j/WkWQPZfKTsgqIe1Nf/ti1pKjYESGLHIVjWU96G9/ljLH4F9mWNVhlQOm0VySdAWzf05dpg==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-7.0.4.tgz";
+        sha512 = "jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -6894,7 +6894,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.536"
+      sources."electron-to-chromium-1.4.537"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7128,7 +7128,7 @@ in
           sources."brace-expansion-2.0.1"
           sources."glob-10.3.10"
           sources."minimatch-9.0.3"
-          sources."minipass-7.0.3"
+          sources."minipass-7.0.4"
         ];
       })
       sources."chownr-2.0.0"
@@ -7153,7 +7153,7 @@ in
       sources."foreground-child-3.1.1"
       (sources."fs-minipass-3.0.3" // {
         dependencies = [
-          sources."minipass-7.0.3"
+          sources."minipass-7.0.4"
         ];
       })
       sources."fs.realpath-1.0.0"
@@ -7192,7 +7192,7 @@ in
       })
       (sources."minipass-fetch-3.0.4" // {
         dependencies = [
-          sources."minipass-7.0.3"
+          sources."minipass-7.0.4"
         ];
       })
       (sources."minipass-flush-1.0.5" // {
@@ -7248,7 +7248,7 @@ in
       sources."socks-proxy-agent-7.0.0"
       (sources."ssri-10.0.5" // {
         dependencies = [
-          sources."minipass-7.0.3"
+          sources."minipass-7.0.4"
         ];
       })
       sources."string-width-5.1.2"
@@ -7767,7 +7767,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.7.1"
+      sources."@types/node-20.7.2"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8100,7 +8100,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.7.1"
+      sources."@types/node-20.7.2"
       sources."@types/node-fetch-2.6.6"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
