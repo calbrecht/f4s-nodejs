@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.540" = {
+    "electron-to-chromium-1.4.541" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.540";
+      version = "1.4.541";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.540.tgz";
-        sha512 = "aoCqgU6r9+o9/S7wkcSbmPRFi7OWZWiXS9rtjEd+Ouyu/Xyw5RSq2XN8s5Qp8IaFOLiRrhQCphCIjAxgG3eCAg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.541.tgz";
+        sha512 = "do9EfdtgtowzRNdnUhFtc0wMjazMHiXBNP/848cNa22dmmRSVE2JuBKfcjt0tg2+FN90OIE4E6MbcQ2bzDRawg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6894,7 +6894,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.540"
+      sources."electron-to-chromium-1.4.541"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
