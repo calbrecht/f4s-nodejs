@@ -751,13 +751,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.8.3" = {
+    "@types/node-20.8.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.8.3";
+      version = "20.8.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.8.3.tgz";
-        sha512 = "jxiZQFpb+NlH5kjW49vXxvxTjeeqlbsnTAdBTKpzEdPs9itay7MscYXz3Fo9VYFEsfQ6LJFitHad3faerLAjCw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.8.4.tgz";
+        sha512 = "ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==";
       };
     };
     "@types/node-fetch-2.6.6" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.544" = {
+    "electron-to-chromium-1.4.546" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.544";
+      version = "1.4.546";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.544.tgz";
-        sha512 = "54z7squS1FyFRSUqq/knOFSptjjogLZXbKcYk3B0qkE1KZzvqASwRZnY2KzZQJqIYLVD38XZeoiMRflYSwyO4w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.546.tgz";
+        sha512 = "cz9bBM26ZqoEmGHkdHXU3LP7OofVyEzRoMqfALQ9Au9WlB4rogAHzqj/NkNvw2JJjy4xuxS1me+pP2lbCD5Mfw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6043,6 +6043,15 @@ let
         sha512 = "z4o1fvKUojIWh9XuaVLUDdf86RQiq13AC1dmHbTpoyuu+bquHms76v16CjycCbec87J7z0k//SiQVk0sMdFmpQ==";
       };
     };
+    "undici-types-5.25.3" = {
+      name = "undici-types";
+      packageName = "undici-types";
+      version = "5.25.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/undici-types/-/undici-types-5.25.3.tgz";
+        sha512 = "Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==";
+      };
+    };
     "unique-filename-1.1.1" = {
       name = "unique-filename";
       packageName = "unique-filename";
@@ -6178,13 +6187,13 @@ let
         sha512 = "ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==";
       };
     };
-    "vscode-css-languageservice-6.2.9" = {
+    "vscode-css-languageservice-6.2.10" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "6.2.9";
+      version = "6.2.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.9.tgz";
-        sha512 = "9MsOvAi+VycKomQ7KEq4o/hLtjHHrtRLLl8lM9nMcH8cxfNI7/6jVXmsV/7pdbDWu9L3DZhsspN1eMXZwiOymw==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.10.tgz";
+        sha512 = "sYUZPku4mQ06AWGCbMyjv2tdR6juBW6hTbVPFwbJvNVzdtEfBioQOgkdXg7yMJNWnXkvWSU1FL2kb4Vxu5Cdyw==";
       };
     };
     "vscode-html-languageservice-5.1.0" = {
@@ -6311,15 +6320,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.2.tgz";
         sha512 = "zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==";
-      };
-    };
-    "vscode-languageserver-types-3.17.3" = {
-      name = "vscode-languageserver-types";
-      packageName = "vscode-languageserver-types";
-      version = "3.17.3";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.3.tgz";
-        sha512 = "SYU4z1dL0PyIMd4Vj8YOqFvHu7Hz/enbWtpfnVbJHU4Nd1YNYx8u0ennumc6h48GQNeOLxmwySmnADouT/AuZA==";
       };
     };
     "vscode-languageserver-types-3.17.5" = {
@@ -6903,7 +6903,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.544"
+      sources."electron-to-chromium-1.4.546"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7780,7 +7780,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.8.3"
+      sources."@types/node-20.8.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7861,6 +7861,7 @@ in
       sources."slash-3.0.0"
       sources."strip-final-newline-2.0.0"
       sources."to-regex-range-5.0.1"
+      sources."undici-types-5.25.3"
       sources."universalify-2.0.0"
       sources."which-2.0.2"
       (sources."which-promise-1.0.0" // {
@@ -8112,7 +8113,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.8.3"
+      sources."@types/node-20.8.4"
       sources."@types/node-fetch-2.6.6"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
@@ -8330,15 +8331,16 @@ in
       sources."turndown-plugin-gfm-1.0.2"
       sources."tweetnacl-0.14.5"
       sources."typescript-4.9.5"
+      sources."undici-types-5.25.3"
       sources."universalify-0.2.0"
       sources."uri-js-4.4.1"
       sources."url-parse-1.5.10"
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-6.2.9" // {
+      (sources."vscode-css-languageservice-6.2.10" // {
         dependencies = [
-          sources."vscode-languageserver-types-3.17.3"
+          sources."vscode-languageserver-types-3.17.5"
         ];
       })
       (sources."vscode-html-languageservice-5.1.0" // {
