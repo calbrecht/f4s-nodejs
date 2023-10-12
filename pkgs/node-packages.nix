@@ -94,13 +94,13 @@ let
         sha512 = "0S9TQMmDHlqAZ2ITT95irXKfxN9bncq8ZCoJhun3nHL/lLUxd2NKBJYoNGWH7S0hz6fRQwWlAWn/ILM0C70KZQ==";
       };
     };
-    "@babel/core-7.23.0" = {
+    "@babel/core-7.23.2" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.23.0";
+      version = "7.23.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.0.tgz";
-        sha512 = "97z/ju/Jy1rZmDxybphrBuI+jtJjFVoz7Mr9yUQVVVi+DNZE333uFQeMOqcCIy1x3WYBIbWftUSLmbNXNT7qFQ==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.2.tgz";
+        sha512 = "n7s51eWdaWZ3vGT2tD4T7J6eJs3QoBXydv7vkUM06Bf1cbVD2Kc2UrkzhiQwobfV7NwOnQXYL7UBJ5VPU+RGoQ==";
       };
     };
     "@babel/generator-7.23.0" = {
@@ -751,13 +751,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.8.4" = {
+    "@types/node-20.8.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.8.4";
+      version = "20.8.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.8.4.tgz";
-        sha512 = "ZVPnqU58giiCjSxjVUESDtdPk4QR5WQhhINbc9UBrKLU68MX5BF6kbQzTrkwbolyr0X8ChBpXfavr5mZFKZQ5A==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.8.5.tgz";
+        sha512 = "SPlobFgbidfIeOYlzXiEjSYeIJiOCthv+9tSQVpvk4PAdIIc+2SmjNVzWXk9t0Y7dl73Zdf+OgXKHX9XtkqUpw==";
       };
     };
     "@types/node-fetch-2.6.6" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.551" = {
+    "electron-to-chromium-1.4.553" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.551";
+      version = "1.4.553";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.551.tgz";
-        sha512 = "/Ng/W/kFv7wdEHYzxdK7Cv0BHEGSkSB3M0Ssl8Ndr1eMiYeas/+Mv4cNaDqamqWx6nd2uQZfPz6g25z25M/sdw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.553.tgz";
+        sha512 = "HiRdtyKS2+VhiXvjhMvvxiMC33FJJqTA5EB2YHgFZW6v7HkK4Q9Ahv2V7O2ZPgAjw+MyCJVMQvigj13H8t+wvA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2596,13 +2596,13 @@ let
         sha512 = "OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==";
       };
     };
-    "function-bind-1.1.1" = {
+    "function-bind-1.1.2" = {
       name = "function-bind";
       packageName = "function-bind";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz";
-        sha512 = "yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==";
+        url = "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz";
+        sha512 = "7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==";
       };
     };
     "function.prototype.name-1.1.6" = {
@@ -6813,7 +6813,7 @@ in
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.22.13"
       sources."@babel/compat-data-7.23.2"
-      sources."@babel/core-7.23.0"
+      sources."@babel/core-7.23.2"
       sources."@babel/generator-7.23.0"
       sources."@babel/helper-compilation-targets-7.22.15"
       sources."@babel/helper-environment-visitor-7.22.20"
@@ -6903,7 +6903,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.551"
+      sources."electron-to-chromium-1.4.553"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7581,7 +7581,7 @@ in
       sources."flatted-3.2.9"
       sources."for-each-0.3.3"
       sources."fs.realpath-1.0.0"
-      sources."function-bind-1.1.1"
+      sources."function-bind-1.1.2"
       sources."function.prototype.name-1.1.6"
       sources."functional-red-black-tree-1.0.1"
       sources."functions-have-names-1.2.3"
@@ -7780,7 +7780,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.8.4"
+      sources."@types/node-20.8.5"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8113,7 +8113,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.8.4"
+      sources."@types/node-20.8.5"
       sources."@types/node-fetch-2.6.6"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
