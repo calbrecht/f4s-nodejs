@@ -328,15 +328,6 @@ let
         sha512 = "yzZ6OK0W7frfoCqvl0s3KeVUUB22wYs74Qu3Y+VGgvW7yvq5m0M82RZQWghKdtLyQejc4469QlmhQsJmCF7ULg==";
       };
     };
-    "@colors/colors-1.5.0" = {
-      name = "_at_colors_slash_colors";
-      packageName = "@colors/colors";
-      version = "1.5.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz";
-        sha512 = "ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==";
-      };
-    };
     "@colors/colors-1.6.0" = {
       name = "_at_colors_slash_colors";
       packageName = "@colors/colors";
@@ -1714,13 +1705,13 @@ let
         sha512 = "3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==";
       };
     };
-    "define-data-property-1.1.0" = {
+    "define-data-property-1.1.1" = {
       name = "define-data-property";
       packageName = "define-data-property";
-      version = "1.1.0";
+      version = "1.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.0.tgz";
-        sha512 = "UzGwzcjyv3OtAvolTj1GoyNYzfFR+iqbGjcnBEENZVCpM4/Ng1yhGNvS3lR/xDS74Tb2wGG9WzNSNIOS9UVb2g==";
+        url = "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.1.tgz";
+        sha512 = "E7uGkTzkk1d0ByLeSc6ZsFS79Axg+m1P/VsgYsxHgiuc3tFSj+MjMIwe90FC4lOAZzNBdY7kkO2P2wKdsQ1vgQ==";
       };
     };
     "define-properties-1.2.1" = {
@@ -1903,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.553" = {
+    "electron-to-chromium-1.4.554" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.553";
+      version = "1.4.554";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.553.tgz";
-        sha512 = "HiRdtyKS2+VhiXvjhMvvxiMC33FJJqTA5EB2YHgFZW6v7HkK4Q9Ahv2V7O2ZPgAjw+MyCJVMQvigj13H8t+wvA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.554.tgz";
+        sha512 = "Q0umzPJjfBrrj8unkONTgbKQXzXRrH7sVV7D9ea2yBV3Oaogz991yhbpfvo2LMNkJItmruXTEzVpP9cp7vaIiQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3739,13 +3730,13 @@ let
         sha512 = "jttmRe7bRse52OsWIMDLaXxWqRAmtIUccAQ3garviCqJjafXOfNMO0yMfNpdD6zbGaTU0P5Nz7e7gAT6cKmJRw==";
       };
     };
-    "logform-2.5.1" = {
+    "logform-2.6.0" = {
       name = "logform";
       packageName = "logform";
-      version = "2.5.1";
+      version = "2.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/logform/-/logform-2.5.1.tgz";
-        sha512 = "9FyqAm9o9NKKfiAKfZoYo9bGXXuwMkxQiQttkT4YjjVtQVIQtK6LmVtlxmCaFswo6N4AfEkHqZTV0taDtPotNg==";
+        url = "https://registry.npmjs.org/logform/-/logform-2.6.0.tgz";
+        sha512 = "1ulHeNPp6k/LD8H91o7VYFBng5i1BDE7HoKxVbZiGFidS1Rj65qcywLxX+pVfAPoQJEjRdvKcusKwOupHCVOVQ==";
       };
     };
     "long-5.2.3" = {
@@ -6903,7 +6894,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.553"
+      sources."electron-to-chromium-1.4.554"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -6949,11 +6940,7 @@ in
       sources."json5-2.2.3"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
-      (sources."logform-2.5.1" // {
-        dependencies = [
-          sources."@colors/colors-1.5.0"
-        ];
-      })
+      sources."logform-2.6.0"
       sources."lru-cache-5.1.1"
       sources."make-dir-3.1.0"
       (sources."make-fetch-happen-9.1.0" // {
@@ -7501,7 +7488,7 @@ in
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
-      sources."define-data-property-1.1.0"
+      sources."define-data-property-1.1.1"
       sources."define-properties-1.2.1"
       sources."doctrine-3.0.0"
       sources."emoji-regex-8.0.0"
