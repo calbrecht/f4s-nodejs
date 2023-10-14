@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.8.5" = {
+    "@types/node-20.8.6" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.8.5";
+      version = "20.8.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.8.5.tgz";
-        sha512 = "SPlobFgbidfIeOYlzXiEjSYeIJiOCthv+9tSQVpvk4PAdIIc+2SmjNVzWXk9t0Y7dl73Zdf+OgXKHX9XtkqUpw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.8.6.tgz";
+        sha512 = "eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==";
       };
     };
     "@types/node-fetch-2.6.6" = {
@@ -1318,13 +1318,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001547" = {
+    "caniuse-lite-1.0.30001549" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001547";
+      version = "1.0.30001549";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001547.tgz";
-        sha512 = "W7CrtIModMAxobGhz8iXmDfuJiiKg1WADMO/9x7/CLNin5cpSbuBjooyoIUVB5eyCc36QuTVlkVa1iB2S5+/eA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001549.tgz";
+        sha512 = "qRp48dPYSCYaP+KurZLhDYdVE+yEyht/3NlmcJgVQ2VMGt6JL36ndQ/7rgspdZsJuxDPFIo/OzBT2+GmIJ53BA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6430,13 +6430,13 @@ let
         sha512 = "L3yR6/MzZAOl0DsysUXHVjOwv8mKZ71TrA/41EIduGpOOV5LQVodqN+QdQ6BS6PJ/RdIshZhq84P/fStEZkk7g==";
       };
     };
-    "winston-transport-4.5.0" = {
+    "winston-transport-4.6.0" = {
       name = "winston-transport";
       packageName = "winston-transport";
-      version = "4.5.0";
+      version = "4.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston-transport/-/winston-transport-4.5.0.tgz";
-        sha512 = "YpZzcUzBedhlTAfJg6vJDlyEai/IFMIVcaEZZyl3UXIl4gmqRpU7AE89AHLkbzLUsv0NVmw7ts+iztqKxxPW1Q==";
+        url = "https://registry.npmjs.org/winston-transport/-/winston-transport-4.6.0.tgz";
+        sha512 = "wbBA9PbPAHxKiygo7ub7BYRiKxms0tpfU2ljtWzb3SjRjv5yl6Ozuy/TkXf00HTAt+Uylo3gSkNwzc4ME0wiIg==";
       };
     };
     "wrap-ansi-8.1.0" = {
@@ -6877,7 +6877,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001547"
+      sources."caniuse-lite-1.0.30001549"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -7061,7 +7061,7 @@ in
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
       sources."winston-3.11.0"
-      sources."winston-transport-4.5.0"
+      sources."winston-transport-4.6.0"
       sources."wrappy-1.0.2"
       sources."yallist-3.1.1"
     ];
@@ -7767,7 +7767,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.8.5"
+      sources."@types/node-20.8.6"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8100,7 +8100,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.8.5"
+      sources."@types/node-20.8.6"
       sources."@types/node-fetch-2.6.6"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
