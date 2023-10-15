@@ -4360,13 +4360,13 @@ let
         sha512 = "rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==";
       };
     };
-    "object-inspect-1.12.3" = {
+    "object-inspect-1.13.0" = {
       name = "object-inspect";
       packageName = "object-inspect";
-      version = "1.12.3";
+      version = "1.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.3.tgz";
-        sha512 = "geUvdk7c+eizMNUDkRpW1wJwgfOiOeHbxBR/hLXK1aT6zmVSO0jsQcs7fj6MGw89jC/cjGfLcNOrtMYtGqm81g==";
+        url = "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.0.tgz";
+        sha512 = "HQ4J+ic8hKrgIt3mqk6cVOVrW2ozL4KdvHlqpBv9vDYWx9ysAgENAdvy4FoGF+KFdhR7nQTNm5J0ctAeOwn+3g==";
       };
     };
     "object-keys-1.1.1" = {
@@ -7641,7 +7641,7 @@ in
         ];
       })
       sources."object-assign-4.1.1"
-      sources."object-inspect-1.12.3"
+      sources."object-inspect-1.13.0"
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.4"
       sources."object.entries-1.1.7"
