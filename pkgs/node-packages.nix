@@ -472,13 +472,13 @@ let
         sha512 = "eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.19" = {
+    "@jridgewell/trace-mapping-0.3.20" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.19";
+      version = "0.3.20";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.19.tgz";
-        sha512 = "kf37QtfW+Hwx/buWGMPcR60iF9ziHa6r/CZJIHbmcm4+0qrXiVdxegAH0F6yddEVQ7zdkjcGCgCzUu+BcbhQxw==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.20.tgz";
+        sha512 = "R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==";
       };
     };
     "@mapbox/node-pre-gyp-1.0.11" = {
@@ -1894,13 +1894,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.556" = {
+    "electron-to-chromium-1.4.557" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.556";
+      version = "1.4.557";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.556.tgz";
-        sha512 = "6RPN0hHfzDU8D56E72YkDvnLw5Cj2NMXZGg3UkgyoHxjVhG99KZpsKgBWMmTy0Ei89xwan+rbRsVB9yzATmYzQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.557.tgz";
+        sha512 = "6x0zsxyMXpnMJnHrondrD3SuAeKcwij9S+83j2qHAQPXbGTDDfgImzzwgGlzrIcXbHQ42tkG4qA6U860cImNhw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6839,7 +6839,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.1"
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
-      sources."@jridgewell/trace-mapping-0.3.19"
+      sources."@jridgewell/trace-mapping-0.3.20"
       (sources."@mapbox/node-pre-gyp-1.0.11" // {
         dependencies = [
           sources."lru-cache-6.0.0"
@@ -6894,7 +6894,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.556"
+      sources."electron-to-chromium-1.4.557"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
