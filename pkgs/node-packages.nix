@@ -2011,31 +2011,31 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.22.2" = {
+    "es-abstract-1.22.3" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.22.2";
+      version = "1.22.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.22.2.tgz";
-        sha512 = "YoxfFcDmhjOgWPWsV13+2RNjq1F6UQnfs+8TftwNqtzlmFzEXvlUwdrNrYeaizfjQzRMxkZ6ElWMOJIFKdVqwA==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.22.3.tgz";
+        sha512 = "eiiY8HQeYfYH2Con2berK+To6GrK2RxbPawDkGq4UiCQQfZHb6wX9qQqkbpPqaxQFcl8d9QzZqo0tGE0VcrdwA==";
       };
     };
-    "es-set-tostringtag-2.0.1" = {
+    "es-set-tostringtag-2.0.2" = {
       name = "es-set-tostringtag";
       packageName = "es-set-tostringtag";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.0.1.tgz";
-        sha512 = "g3OMbtlwY3QewlqAiMLI47KywjWZoEytKr8pf6iTC8uJq5bIAH52Z9pnQ8pVL6whrCto53JZDuUIsifGeLorTg==";
+        url = "https://registry.npmjs.org/es-set-tostringtag/-/es-set-tostringtag-2.0.2.tgz";
+        sha512 = "BuDyupZt65P9D2D2vA/zqcI3G5xRsklm5N3xCwuiy+/vKy8i0ifdsQP1sLgO4tZDSCaQUSnmC48khknGMV3D2Q==";
       };
     };
-    "es-shim-unscopables-1.0.0" = {
+    "es-shim-unscopables-1.0.2" = {
       name = "es-shim-unscopables";
       packageName = "es-shim-unscopables";
-      version = "1.0.0";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-shim-unscopables/-/es-shim-unscopables-1.0.0.tgz";
-        sha512 = "Jm6GPcCdC30eMLbZ2x8z2WuRwAws3zTBBKuusffYVUrNj/GVSUAZ+xKMaUpfNDR5IbyNA5LJbaecoUVbmUcB1w==";
+        url = "https://registry.npmjs.org/es-shim-unscopables/-/es-shim-unscopables-1.0.2.tgz";
+        sha512 = "J3yBRXCzDu4ULnQwxyToo/OjdMx6akgVC7K6few0a7F/0wLtmKKN7I73AH5T2836UuXRqN7Qg+IIUw/+YJksRw==";
       };
     };
     "es-to-primitive-1.2.1" = {
@@ -2677,13 +2677,13 @@ let
         sha512 = "3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==";
       };
     };
-    "get-intrinsic-1.2.1" = {
+    "get-intrinsic-1.2.2" = {
       name = "get-intrinsic";
       packageName = "get-intrinsic";
-      version = "1.2.1";
+      version = "1.2.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz";
-        sha512 = "2DcsyfABl+gVHEfCOaTrWgyt+tb6MSEGmKq+kI5HwLbIYgjgmMcV8KQ41uaKz1xxUcn9tJtgFbQUEVcEbd0FYw==";
+        url = "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.2.tgz";
+        sha512 = "0gSo4ml/0j98Y3lngkFEot/zhiCeWsbYIlZ+uZOVgzLyLaUw7wxUL+nCTP0XJvJg1AXulJRI3UJi8GsbDuxdGA==";
       };
     };
     "get-stdin-8.0.0" = {
@@ -2911,13 +2911,13 @@ let
         sha512 = "EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==";
       };
     };
-    "has-property-descriptors-1.0.0" = {
+    "has-property-descriptors-1.0.1" = {
       name = "has-property-descriptors";
       packageName = "has-property-descriptors";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.0.tgz";
-        sha512 = "62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==";
+        url = "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.1.tgz";
+        sha512 = "VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==";
       };
     };
     "has-proto-1.0.1" = {
@@ -2954,6 +2954,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/has-unicode/-/has-unicode-2.0.1.tgz";
         sha512 = "8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==";
+      };
+    };
+    "hasown-2.0.0" = {
+      name = "hasown";
+      packageName = "hasown";
+      version = "2.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/hasown/-/hasown-2.0.0.tgz";
+        sha512 = "vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==";
       };
     };
     "hosted-git-info-2.8.9" = {
@@ -3154,13 +3163,13 @@ let
         sha512 = "JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==";
       };
     };
-    "internal-slot-1.0.5" = {
+    "internal-slot-1.0.6" = {
       name = "internal-slot";
       packageName = "internal-slot";
-      version = "1.0.5";
+      version = "1.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/internal-slot/-/internal-slot-1.0.5.tgz";
-        sha512 = "Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==";
+        url = "https://registry.npmjs.org/internal-slot/-/internal-slot-1.0.6.tgz";
+        sha512 = "Xj6dv+PsbtwyPpEflsejS+oIZxmMlV44zAhG479uYu89MsjcYOhCFnNyKrkJrihbsiasQyY0afoCl/9BLR65bg==";
       };
     };
     "ip-2.0.0" = {
@@ -3226,13 +3235,13 @@ let
         sha512 = "1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==";
       };
     };
-    "is-core-module-2.13.0" = {
+    "is-core-module-2.13.1" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.13.0";
+      version = "2.13.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.13.0.tgz";
-        sha512 = "Z7dk6Qo8pOCp3l4tsX2C5ZVas4V+UxwQodwZhLopL91TX8UyyHEXafPcyoeeWuLrwzHcr3igO78wNLwHJHsMCQ==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.13.1.tgz";
+        sha512 = "hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==";
       };
     };
     "is-date-object-1.0.5" = {
@@ -7514,9 +7523,9 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.4.1"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.22.2"
-      sources."es-set-tostringtag-2.0.1"
-      sources."es-shim-unscopables-1.0.0"
+      sources."es-abstract-1.22.3"
+      sources."es-set-tostringtag-2.0.2"
+      sources."es-shim-unscopables-1.0.2"
       sources."es-to-primitive-1.2.1"
       sources."escape-string-regexp-1.0.5"
       sources."eslint-7.18.0"
@@ -7592,7 +7601,7 @@ in
       sources."function.prototype.name-1.1.6"
       sources."functional-red-black-tree-1.0.1"
       sources."functions-have-names-1.2.3"
-      sources."get-intrinsic-1.2.1"
+      sources."get-intrinsic-1.2.2"
       sources."get-stdin-8.0.0"
       sources."get-symbol-description-1.0.0"
       sources."glob-7.2.3"
@@ -7604,23 +7613,24 @@ in
       sources."has-1.0.4"
       sources."has-bigints-1.0.2"
       sources."has-flag-3.0.0"
-      sources."has-property-descriptors-1.0.0"
+      sources."has-property-descriptors-1.0.1"
       sources."has-proto-1.0.1"
       sources."has-symbols-1.0.3"
       sources."has-tostringtag-1.0.0"
+      sources."hasown-2.0.0"
       sources."hosted-git-info-2.8.9"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."internal-slot-1.0.5"
+      sources."internal-slot-1.0.6"
       sources."is-array-buffer-3.0.2"
       sources."is-arrayish-0.2.1"
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
       sources."is-callable-1.2.7"
-      sources."is-core-module-2.13.0"
+      sources."is-core-module-2.13.1"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
@@ -7955,12 +7965,13 @@ in
       sources."escape-string-regexp-1.0.5"
       sources."esprima-4.0.1"
       sources."fs.realpath-1.0.0"
+      sources."function-bind-1.1.2"
       sources."glob-7.2.3"
-      sources."has-1.0.4"
       sources."has-flag-3.0.0"
+      sources."hasown-2.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-core-module-2.13.0"
+      sources."is-core-module-2.13.1"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."minimatch-3.1.2"
