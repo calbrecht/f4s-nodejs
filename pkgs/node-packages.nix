@@ -58,13 +58,13 @@ let
         sha512 = "KxDlhXyMlh2Jhj2ykX6vNEU0Vou4nHr025KoSEiz7cS3BNiHNaZcdECk/DmLkEB0as5T7b/TpRcehJ5yV6NeXQ==";
       };
     };
-    "@azure/core-util-1.5.0" = {
+    "@azure/core-util-1.6.0" = {
       name = "_at_azure_slash_core-util";
       packageName = "@azure/core-util";
-      version = "1.5.0";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.5.0.tgz";
-        sha512 = "GZBpVFDtQ/15hW1OgBcRdT4Bl7AEpcEZqLfbAvOtm1CQUncKWiYapFHVD588hmlV27NbOOtSm3cnLF3lvoHi4g==";
+        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.6.0.tgz";
+        sha512 = "FE1CLFvGZ9Ni+B2R/2E30Z6N5quebrFbroC3Ws1bTt1kX2EEL8OiX2Dtz2XdTVzrKRMOjlJsae9m/7wCsKnTyw==";
       };
     };
     "@azure/logger-1.0.4" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.563" = {
+    "electron-to-chromium-1.4.565" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.563";
+      version = "1.4.565";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.563.tgz";
-        sha512 = "dg5gj5qOgfZNkPNeyKBZQAQitIQ/xwfIDmEQJHCbXaD9ebTZxwJXUsDYcBlAvZGZLi+/354l35J1wkmP6CqYaw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.565.tgz";
+        sha512 = "XbMoT6yIvg2xzcbs5hCADi0dXBh4//En3oFXmtPX+jiyyiCTiM9DGFT2SLottjpEs9Z8Mh8SqahbR96MaHfuSg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6214,13 +6214,13 @@ let
         sha512 = "sYUZPku4mQ06AWGCbMyjv2tdR6juBW6hTbVPFwbJvNVzdtEfBioQOgkdXg7yMJNWnXkvWSU1FL2kb4Vxu5Cdyw==";
       };
     };
-    "vscode-html-languageservice-5.1.0" = {
+    "vscode-html-languageservice-5.1.1" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "5.1.0";
+      version = "5.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.1.0.tgz";
-        sha512 = "cGOu5+lrz+2dDXSGS15y24lDtPaML1T8K/SfqgFbLmCZ1btYOxceFieR+ybTS2es/A67kRc62m2cKFLUQPWG5g==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.1.1.tgz";
+        sha512 = "JenrspIIG/Q+93R6G3L6HdK96itSisMynE0glURqHpQbL3dKAKzdm8L40lAHNkwJeBg+BBPpAshZKv/38onrTQ==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6923,7 +6923,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.563"
+      sources."electron-to-chromium-1.4.565"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8103,7 +8103,7 @@ in
       sources."@azure/core-auth-1.5.0"
       sources."@azure/core-http-2.3.2"
       sources."@azure/core-tracing-1.0.0-preview.13"
-      sources."@azure/core-util-1.5.0"
+      sources."@azure/core-util-1.6.0"
       sources."@azure/logger-1.0.4"
       sources."@bmewburn/js-beautify-1.14.7"
       sources."@bmewburn/vscode-html-languageserver-1.9.0"
@@ -8362,7 +8362,7 @@ in
           sources."vscode-languageserver-types-3.17.5"
         ];
       })
-      (sources."vscode-html-languageservice-5.1.0" // {
+      (sources."vscode-html-languageservice-5.1.1" // {
         dependencies = [
           sources."vscode-languageserver-types-3.17.5"
         ];
