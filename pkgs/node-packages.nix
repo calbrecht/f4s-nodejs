@@ -58,13 +58,13 @@ let
         sha512 = "KxDlhXyMlh2Jhj2ykX6vNEU0Vou4nHr025KoSEiz7cS3BNiHNaZcdECk/DmLkEB0as5T7b/TpRcehJ5yV6NeXQ==";
       };
     };
-    "@azure/core-util-1.6.0" = {
+    "@azure/core-util-1.6.1" = {
       name = "_at_azure_slash_core-util";
       packageName = "@azure/core-util";
-      version = "1.6.0";
+      version = "1.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.6.0.tgz";
-        sha512 = "FE1CLFvGZ9Ni+B2R/2E30Z6N5quebrFbroC3Ws1bTt1kX2EEL8OiX2Dtz2XdTVzrKRMOjlJsae9m/7wCsKnTyw==";
+        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.6.1.tgz";
+        sha512 = "h5taHeySlsV9qxuK64KZxy4iln1BtMYlNt5jbuEFN3UFSAd1EwKg/Gjl5a6tZ/W8t6li3xPnutOx7zbDyXnPmQ==";
       };
     };
     "@azure/logger-1.0.4" = {
@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.8.7" = {
+    "@types/node-20.8.8" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.8.7";
+      version = "20.8.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.8.7.tgz";
-        sha512 = "21TKHHh3eUHIi2MloeptJWALuCu5H7HQTdTrWIFReA8ad+aggoX+lRes3ex7/FtpC+sVUpFMQ+QTfYr74mruiQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.8.8.tgz";
+        sha512 = "YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==";
       };
     };
     "@types/node-fetch-2.6.7" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.565" = {
+    "electron-to-chromium-1.4.566" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.565";
+      version = "1.4.566";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.565.tgz";
-        sha512 = "XbMoT6yIvg2xzcbs5hCADi0dXBh4//En3oFXmtPX+jiyyiCTiM9DGFT2SLottjpEs9Z8Mh8SqahbR96MaHfuSg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.566.tgz";
+        sha512 = "mv+fAy27uOmTVlUULy15U3DVJ+jg+8iyKH1bpwboCRhtDC69GKf1PPTZvEIhCyDr81RFqfxZJYrbgp933a1vtg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6923,7 +6923,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.565"
+      sources."electron-to-chromium-1.4.566"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7798,7 +7798,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.8.7"
+      sources."@types/node-20.8.8"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8103,7 +8103,7 @@ in
       sources."@azure/core-auth-1.5.0"
       sources."@azure/core-http-2.3.2"
       sources."@azure/core-tracing-1.0.0-preview.13"
-      sources."@azure/core-util-1.6.0"
+      sources."@azure/core-util-1.6.1"
       sources."@azure/logger-1.0.4"
       sources."@bmewburn/js-beautify-1.14.7"
       sources."@bmewburn/vscode-html-languageserver-1.9.0"
@@ -8132,7 +8132,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.8.7"
+      sources."@types/node-20.8.8"
       sources."@types/node-fetch-2.6.7"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
