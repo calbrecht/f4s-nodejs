@@ -355,13 +355,13 @@ let
         sha512 = "1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==";
       };
     };
-    "@eslint-community/regexpp-4.9.1" = {
+    "@eslint-community/regexpp-4.10.0" = {
       name = "_at_eslint-community_slash_regexpp";
       packageName = "@eslint-community/regexpp";
-      version = "4.9.1";
+      version = "4.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.9.1.tgz";
-        sha512 = "Y27x+MBLjXa+0JWDhykM3+JE+il3kHKAEqabfEWq3SDhZjLYb6/BHL/JKFnH3fe207JaXkyDo685Oc2Glt6ifA==";
+        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.10.0.tgz";
+        sha512 = "Cu96Sd2By9mCNTx2iyKOmq10v22jUVQv0lQnlGNy16oE9589yE+QADPbrMGCkA51cKZSg3Pu/aTJVTGfL/qjUA==";
       };
     };
     "@eslint/eslintrc-0.3.0" = {
@@ -742,13 +742,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.8.8" = {
+    "@types/node-20.8.9" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.8.8";
+      version = "20.8.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.8.8.tgz";
-        sha512 = "YRsdVxq6OaLfmR9Hy816IMp33xOBjfyOgUd77ehqg96CFywxAPbDbXvAsuN2KVg2HOT8Eh6uAfU+l4WffwPVrQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.8.9.tgz";
+        sha512 = "UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==";
       };
     };
     "@types/node-fetch-2.6.7" = {
@@ -1327,13 +1327,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001553" = {
+    "caniuse-lite-1.0.30001554" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001553";
+      version = "1.0.30001554";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001553.tgz";
-        sha512 = "N0ttd6TrFfuqKNi+pMgWJTb9qrdJu4JSpgPFLe/lrD19ugC6fZgF0pUewRowDwzdDnb9V41mFcdlYgl/PyKf4A==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001554.tgz";
+        sha512 = "A2E3U//MBwbJVzebddm1YfNp7Nud5Ip+IPn4BozBmn4KqVX7AvluoIDFWjsv5OkGnKUXQVmMSoMKLa3ScCblcQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1903,13 +1903,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.566" = {
+    "electron-to-chromium-1.4.567" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.566";
+      version = "1.4.567";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.566.tgz";
-        sha512 = "mv+fAy27uOmTVlUULy15U3DVJ+jg+8iyKH1bpwboCRhtDC69GKf1PPTZvEIhCyDr81RFqfxZJYrbgp933a1vtg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.567.tgz";
+        sha512 = "8KR114CAYQ4/r5EIEsOmOMqQ9j0MRbJZR3aXD/KFA8RuKzyoUB4XrUCg+l8RUGqTVQgKNIgTpjaG8YHRPAbX2w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6061,13 +6061,13 @@ let
         sha512 = "z4o1fvKUojIWh9XuaVLUDdf86RQiq13AC1dmHbTpoyuu+bquHms76v16CjycCbec87J7z0k//SiQVk0sMdFmpQ==";
       };
     };
-    "undici-types-5.25.3" = {
+    "undici-types-5.26.5" = {
       name = "undici-types";
       packageName = "undici-types";
-      version = "5.25.3";
+      version = "5.26.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/undici-types/-/undici-types-5.25.3.tgz";
-        sha512 = "Ga1jfYwRn7+cP9v8auvEXN1rX3sWqlayd4HP7OKk4mZWylEmu3KzXDUGrQUN6Ol7qo1gPvB2e5gX6udnyEPgdA==";
+        url = "https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz";
+        sha512 = "JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==";
       };
     };
     "unique-filename-1.1.1" = {
@@ -6588,7 +6588,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.9.1"
+      sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.2"
       sources."@eslint/js-8.52.0"
       sources."@humanwhocodes/config-array-0.11.13"
@@ -6707,7 +6707,7 @@ in
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.9.1"
+      sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.2"
       sources."@eslint/js-8.52.0"
       sources."@humanwhocodes/config-array-0.11.13"
@@ -6906,7 +6906,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001553"
+      sources."caniuse-lite-1.0.30001554"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6923,7 +6923,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.566"
+      sources."electron-to-chromium-1.4.567"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7798,7 +7798,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.8.8"
+      sources."@types/node-20.8.9"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7879,7 +7879,7 @@ in
       sources."slash-3.0.0"
       sources."strip-final-newline-2.0.0"
       sources."to-regex-range-5.0.1"
-      sources."undici-types-5.25.3"
+      sources."undici-types-5.26.5"
       sources."universalify-2.0.0"
       sources."which-2.0.2"
       (sources."which-promise-1.0.0" // {
@@ -8132,7 +8132,7 @@ in
       sources."@protobufjs/pool-1.1.0"
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
-      sources."@types/node-20.8.8"
+      sources."@types/node-20.8.9"
       sources."@types/node-fetch-2.6.7"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
@@ -8350,7 +8350,7 @@ in
       sources."turndown-plugin-gfm-1.0.2"
       sources."tweetnacl-0.14.5"
       sources."typescript-4.9.5"
-      sources."undici-types-5.25.3"
+      sources."undici-types-5.26.5"
       sources."universalify-0.2.0"
       sources."uri-js-4.4.1"
       sources."url-parse-1.5.10"
