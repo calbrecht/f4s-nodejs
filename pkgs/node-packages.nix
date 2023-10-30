@@ -751,13 +751,13 @@ let
         sha512 = "UzykFsT3FhHb1h7yD4CA4YhBHq545JC0YnEz41xkipN88eKQtL6rSgocL5tbAP6Ola9Izm/Aw4Ora8He4x0BHg==";
       };
     };
-    "@types/node-fetch-2.6.7" = {
+    "@types/node-fetch-2.6.8" = {
       name = "_at_types_slash_node-fetch";
       packageName = "@types/node-fetch";
-      version = "2.6.7";
+      version = "2.6.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.7.tgz";
-        sha512 = "lX17GZVpJ/fuCjguZ5b3TjEbSENxmEk1B2z02yoXSK9WMEWRivhdSY73wWMn6bpcCDAOh6qAdktpKHIlkDk2lg==";
+        url = "https://registry.npmjs.org/@types/node-fetch/-/node-fetch-2.6.8.tgz";
+        sha512 = "nnH5lV9QCMPsbEVdTb5Y+F3GQxLSw1xQgIydrb2gSfEavRPs50FnMr+KUaa+LoPSqibm2N+ZZxH7lavZlAT4GA==";
       };
     };
     "@types/triple-beam-1.3.4" = {
@@ -1921,13 +1921,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.569" = {
+    "electron-to-chromium-1.4.570" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.569";
+      version = "1.4.570";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.569.tgz";
-        sha512 = "LsrJjZ0IbVy12ApW3gpYpcmHS3iRxH4bkKOW98y1/D+3cvDUWGcbzbsFinfUS8knpcZk/PG/2p/RnkMCYN7PVg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.570.tgz";
+        sha512 = "5GxH0PLSIfXKOUMMHMCT4M0olwj1WwAxsQHzVW5Vh3kbsvGw8b4k7LHQmTLC2aRhsgFzrF57XJomca4XLc/WHA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4972,13 +4972,13 @@ let
         sha512 = "LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==";
       };
     };
-    "punycode-2.3.0" = {
+    "punycode-2.3.1" = {
       name = "punycode";
       packageName = "punycode";
-      version = "2.3.0";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/punycode/-/punycode-2.3.0.tgz";
-        sha512 = "rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==";
+        url = "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz";
+        sha512 = "vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==";
       };
     };
     "qs-6.5.3" = {
@@ -6721,7 +6721,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."prelude-ls-1.2.1"
-      sources."punycode-2.3.0"
+      sources."punycode-2.3.1"
       sources."queue-microtask-1.2.3"
       sources."resolve-from-4.0.0"
       sources."reusify-1.0.4"
@@ -6846,7 +6846,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."prelude-ls-1.2.1"
-      sources."punycode-2.3.0"
+      sources."punycode-2.3.1"
       sources."queue-microtask-1.2.3"
       sources."resolve-from-4.0.0"
       sources."reusify-1.0.4"
@@ -6977,7 +6977,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.569"
+      sources."electron-to-chromium-1.4.570"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7707,7 +7707,7 @@ in
       sources."prelude-ls-1.2.1"
       sources."progress-2.0.3"
       sources."prop-types-15.8.1"
-      sources."punycode-2.3.0"
+      sources."punycode-2.3.1"
       sources."react-is-16.13.1"
       sources."read-pkg-3.0.0"
       sources."read-pkg-up-3.0.0"
@@ -8133,7 +8133,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@types/node-20.8.9"
-      sources."@types/node-fetch-2.6.7"
+      sources."@types/node-fetch-2.6.8"
       sources."@types/tunnel-0.0.3"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-1.1.1"
@@ -8294,7 +8294,7 @@ in
       sources."protobufjs-7.2.5"
       sources."pseudomap-1.0.2"
       sources."psl-1.9.0"
-      sources."punycode-2.3.0"
+      sources."punycode-2.3.1"
       sources."qs-6.5.3"
       sources."querystringify-2.2.0"
       sources."queue-microtask-1.2.3"
@@ -8415,7 +8415,7 @@ in
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.2.0"
       sources."lodash-4.17.21"
-      sources."punycode-2.3.0"
+      sources."punycode-2.3.1"
       sources."request-light-0.5.8"
       sources."require-from-string-2.0.2"
       sources."uri-js-4.4.1"
