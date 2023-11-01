@@ -1921,13 +1921,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.572" = {
+    "electron-to-chromium-1.4.573" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.572";
+      version = "1.4.573";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.572.tgz";
-        sha512 = "RlFobl4D3ieetbnR+2EpxdzFl9h0RAJkPK3pfiwMug2nhBin2ZCsGIAJWdpNniLz43sgXam/CgipOmvTA+rUiA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.573.tgz";
+        sha512 = "tzxxvKDTO3V5vzN2F+3v9jrK9gEbCdf1YYJUx/zVq1cyzyh+x1ddeYNNWh0ZS2ETNCVK3+Pns1LHIBq4w20X2Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6160,13 +6160,13 @@ let
         sha512 = "CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==";
       };
     };
-    "universalify-2.0.0" = {
+    "universalify-2.0.1" = {
       name = "universalify";
       packageName = "universalify";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/universalify/-/universalify-2.0.0.tgz";
-        sha512 = "hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==";
+        url = "https://registry.npmjs.org/universalify/-/universalify-2.0.1.tgz";
+        sha512 = "gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==";
       };
     };
     "update-browserslist-db-1.0.13" = {
@@ -6977,7 +6977,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.572"
+      sources."electron-to-chromium-1.4.573"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7880,7 +7880,7 @@ in
       sources."strip-final-newline-2.0.0"
       sources."to-regex-range-5.0.1"
       sources."undici-types-5.26.5"
-      sources."universalify-2.0.0"
+      sources."universalify-2.0.1"
       sources."which-2.0.2"
       (sources."which-promise-1.0.0" // {
         dependencies = [
@@ -8213,7 +8213,7 @@ in
       sources."form-data-4.0.0"
       (sources."fs-extra-11.1.1" // {
         dependencies = [
-          sources."universalify-2.0.0"
+          sources."universalify-2.0.1"
         ];
       })
       (sources."fs-minipass-2.1.0" // {
@@ -8251,7 +8251,7 @@ in
       sources."json-stringify-safe-5.0.1"
       (sources."jsonfile-6.1.0" // {
         dependencies = [
-          sources."universalify-2.0.0"
+          sources."universalify-2.0.1"
         ];
       })
       sources."jsprim-1.4.2"
