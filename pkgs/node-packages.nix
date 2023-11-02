@@ -1921,13 +1921,13 @@ let
         sha512 = "M9wIMFx96vq0R4F+gRpY3o2exzb8hEj/n9S8unZtHSvYjibBp/iMufSzvmOcV/laG0ZtuTVGtiJggPOSW2r93g==";
       };
     };
-    "electron-to-chromium-1.4.573" = {
+    "electron-to-chromium-1.4.574" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.573";
+      version = "1.4.574";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.573.tgz";
-        sha512 = "tzxxvKDTO3V5vzN2F+3v9jrK9gEbCdf1YYJUx/zVq1cyzyh+x1ddeYNNWh0ZS2ETNCVK3+Pns1LHIBq4w20X2Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.574.tgz";
+        sha512 = "bg1m8L0n02xRzx4LsTTMbBPiUd9yIR+74iPtS/Ao65CuXvhVZHP0ym1kSdDG3yHFDXqHQQBKujlN1AQ8qZnyFg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6977,7 +6977,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.573"
+      sources."electron-to-chromium-1.4.574"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7187,10 +7187,10 @@ in
   node-gyp = nodeEnv.buildNodePackage {
     name = "node-gyp";
     packageName = "node-gyp";
-    version = "10.0.0";
+    version = "10.0.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/node-gyp/-/node-gyp-10.0.0.tgz";
-      sha512 = "LkaKUbjyacJGRHiuhUeUblzZNxTF1/XNooyAl6aiaJ6ZpeurR4Mk9sjxncGNSI7pETqyqM+hLAER0788oSxt0A==";
+      url = "https://registry.npmjs.org/node-gyp/-/node-gyp-10.0.1.tgz";
+      sha512 = "gg3/bHehQfZivQVfqIyy8wTdSymF9yTyP4CJifK73imyNMU8AIGQE2pUa7dNWfmMeG9cDVF2eehiRMv0LC1iAg==";
     };
     dependencies = [
       sources."@isaacs/cliui-8.0.2"
