@@ -382,13 +382,13 @@ let
         sha512 = "yZzuIG+jnVu6hNSzFEN07e8BxF3uAzYtQb6uDkaYZLo6oYZDCq454c5kB8zxnzfCYyP4MIuyBn10L0DqwujTmA==";
       };
     };
-    "@eslint/js-8.52.0" = {
+    "@eslint/js-8.53.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "8.52.0";
+      version = "8.53.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-8.52.0.tgz";
-        sha512 = "mjZVbpaeMZludF2fsWLD0Z9gCref1Tk4i9+wddjRvpUNqqcndPkBD09N/Mapey0b3jaXbLm2kICwFv2E64QinA==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-8.53.0.tgz";
+        sha512 = "Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -1165,13 +1165,13 @@ let
         sha512 = "Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==";
       };
     };
-    "async-3.2.4" = {
+    "async-3.2.5" = {
       name = "async";
       packageName = "async";
-      version = "3.2.4";
+      version = "3.2.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/async/-/async-3.2.4.tgz";
-        sha512 = "iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==";
+        url = "https://registry.npmjs.org/async/-/async-3.2.5.tgz";
+        sha512 = "baNZyqaaLhyLVKm/DlvdW051MSgO6b8eVfIezl9E5PqWxFgzLm/wQntEW4zOytVburDEr0JlALEpdOFwvErLsg==";
       };
     };
     "async-hook-jl-1.7.6" = {
@@ -1345,13 +1345,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001559" = {
+    "caniuse-lite-1.0.30001561" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001559";
+      version = "1.0.30001561";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001559.tgz";
-        sha512 = "cPiMKZgqgkg5LY3/ntGeLFUpi6tzddBNS58A4tnTgQw1zON7u2sZMU7SzOeVH4tj20++9ggL+V6FDOFMTaFFYA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001561.tgz";
+        sha512 = "NTt0DNoKe958Q0BE0j0c1V9jbUzhBxHIEJy7asmGrpE0yG63KTV7PLHPnK2E1O9RsQrQ081I3NLuXGS6zht3cw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2101,13 +2101,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.52.0" = {
+    "eslint-8.53.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.52.0";
+      version = "8.53.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.52.0.tgz";
-        sha512 = "zh/JHnaixqHZsolRB/w9/02akBk9EPrOs9JwcTP2ek7yL5bVvXuRariiaAjjoJ5DvuwQ1WAE/HsMz+w17YgBCg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.53.0.tgz";
+        sha512 = "N4VuiPjXDUa4xVeV/GC/RV3hQW9Nw+Y463lkWaKKXKYMvmRiRDAtfpuPFLN+E1/6ZhyR8J2ig+eVREnYgUsiag==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6634,17 +6634,17 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.52.0";
+    version = "8.53.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.52.0.tgz";
-      sha512 = "zh/JHnaixqHZsolRB/w9/02akBk9EPrOs9JwcTP2ek7yL5bVvXuRariiaAjjoJ5DvuwQ1WAE/HsMz+w17YgBCg==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.53.0.tgz";
+      sha512 = "N4VuiPjXDUa4xVeV/GC/RV3hQW9Nw+Y463lkWaKKXKYMvmRiRDAtfpuPFLN+E1/6ZhyR8J2ig+eVREnYgUsiag==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.3"
-      sources."@eslint/js-8.52.0"
+      sources."@eslint/js-8.53.0"
       sources."@humanwhocodes/config-array-0.11.13"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-2.0.1"
@@ -6670,7 +6670,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.52.0"
+      sources."eslint-8.53.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -6763,7 +6763,7 @@ in
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.3"
-      sources."@eslint/js-8.52.0"
+      sources."@eslint/js-8.53.0"
       sources."@humanwhocodes/config-array-0.11.13"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-2.0.1"
@@ -6794,7 +6794,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.52.0"
+      sources."eslint-8.53.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -6948,7 +6948,7 @@ in
       sources."ansi-styles-3.2.1"
       sources."aproba-2.0.0"
       sources."are-we-there-yet-2.0.0"
-      sources."async-3.2.4"
+      sources."async-3.2.5"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
       sources."browserslist-4.22.1"
@@ -6960,7 +6960,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001559"
+      sources."caniuse-lite-1.0.30001561"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
