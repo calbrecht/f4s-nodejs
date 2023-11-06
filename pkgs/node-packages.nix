@@ -2434,13 +2434,13 @@ let
         sha512 = "ChDuvbOypPuNjO8yIDf36x7BlZX1smcUMTTcyoIjycexOxd6DFsKsg21qVBzEmr3G7fUKIRy2/psii+CIUt7FA==";
       };
     };
-    "fast-glob-3.3.1" = {
+    "fast-glob-3.3.2" = {
       name = "fast-glob";
       packageName = "fast-glob";
-      version = "3.3.1";
+      version = "3.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.1.tgz";
-        sha512 = "kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==";
+        url = "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.2.tgz";
+        sha512 = "oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==";
       };
     };
     "fast-json-stable-stringify-2.1.0" = {
@@ -4207,13 +4207,13 @@ let
         sha512 = "W7tfG7vMOGtD30sHoZSSc/JVYiyDPEyQVso/Zz+/uQd0B0L46gtC+pHha5FFMRpil6fm/AoEcRWyOVi4+E/f8w==";
       };
     };
-    "nanoid-3.3.6" = {
+    "nanoid-3.3.7" = {
       name = "nanoid";
       packageName = "nanoid";
-      version = "3.3.6";
+      version = "3.3.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz";
-        sha512 = "BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==";
+        url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.7.tgz";
+        sha512 = "eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==";
       };
     };
     "nanolru-1.0.0" = {
@@ -7770,7 +7770,7 @@ in
       sources."dir-glob-3.0.1"
       sources."end-of-stream-1.4.4"
       sources."execa-3.4.0"
-      sources."fast-glob-3.3.1"
+      sources."fast-glob-3.3.2"
       sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.1.0"
@@ -7804,7 +7804,7 @@ in
       sources."mkdirp-0.5.6"
       sources."ms-2.1.2"
       sources."mustache-2.3.2"
-      sources."nanoid-3.3.6"
+      sources."nanoid-3.3.7"
       sources."npm-run-path-4.0.1"
       sources."once-1.4.0"
       sources."onetime-5.1.2"
@@ -8164,7 +8164,7 @@ in
       sources."extend-3.0.2"
       sources."extsprintf-1.3.0"
       sources."fast-deep-equal-3.1.3"
-      sources."fast-glob-3.3.1"
+      sources."fast-glob-3.3.2"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fastq-1.15.0"
       sources."fill-range-7.0.1"
