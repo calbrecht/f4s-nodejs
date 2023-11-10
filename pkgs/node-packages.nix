@@ -1696,13 +1696,13 @@ let
         sha512 = "ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==";
       };
     };
-    "core_d-6.0.0" = {
+    "core_d-6.1.0" = {
       name = "core_d";
       packageName = "core_d";
-      version = "6.0.0";
+      version = "6.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/core_d/-/core_d-6.0.0.tgz";
-        sha512 = "r0d8vUgwRyf6Ln45YrJUYXBTrEdrj5XrljmdY5DpLuN+xQ2I5SKZ3iSTnnxEfSxnrhUmyiPIRr6WfRYqVT2huA==";
+        url = "https://registry.npmjs.org/core_d/-/core_d-6.1.0.tgz";
+        sha512 = "vYgenhJ8CYCj+7LPbPdyFo2u0Doavfbi/vhFpR/BsW9/iUAhuKd+sw2l4CHXhaXIo4/058p2nlsAtbL7iswm5A==";
       };
     };
     "cross-spawn-7.0.3" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.580" = {
+    "electron-to-chromium-1.4.581" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.580";
+      version = "1.4.581";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.580.tgz";
-        sha512 = "T5q3pjQon853xxxHUq3ZP68ZpvJHuSMY2+BZaW3QzjS4HvNuvsMmZ/+lU+nCrftre1jFZ+OSlExynXWBihnXzw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.581.tgz";
+        sha512 = "6uhqWBIapTJUxgPTCHH9sqdbxIMPt7oXl0VcAL1kOtlU6aECdcMncCrX5Z7sHQ/invtrC9jUQUef7+HhO8vVFw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3865,13 +3865,13 @@ let
         sha512 = "lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==";
       };
     };
-    "lru-cache-10.0.1" = {
+    "lru-cache-10.0.2" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "10.0.1";
+      version = "10.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.0.1.tgz";
-        sha512 = "IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.0.2.tgz";
+        sha512 = "Yj9mA8fPiVgOUpByoTZO5pNrcl5Yk37FcSHsUINpAsaBIEZIuqcCclDZJCVxqQShDsmYX8QG63svJiTbOATZwg==";
       };
     };
     "lru-cache-5.1.1" = {
@@ -6743,7 +6743,7 @@ in
       sources."color-convert-2.0.1"
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
-      sources."core_d-6.0.0"
+      sources."core_d-6.1.0"
       sources."cross-spawn-7.0.3"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
@@ -6932,7 +6932,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.580"
+      sources."electron-to-chromium-1.4.581"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7188,7 +7188,7 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."jackspeak-2.3.6"
-      sources."lru-cache-10.0.1"
+      sources."lru-cache-10.0.2"
       sources."make-fetch-happen-13.0.0"
       sources."minimatch-9.0.3"
       sources."minipass-7.0.4"
@@ -8222,7 +8222,7 @@ in
       sources."jsprim-1.4.2"
       sources."leac-0.6.0"
       sources."long-5.2.3"
-      sources."lru-cache-10.0.1"
+      sources."lru-cache-10.0.2"
       (sources."make-dir-3.1.0" // {
         dependencies = [
           sources."semver-6.3.1"
