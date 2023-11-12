@@ -6708,10 +6708,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "13.0.0";
+    version = "13.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-13.0.0.tgz";
-      sha512 = "j9QABrJYIIm2hheAs5PbyTYtONP1dOYOJ1Nn007XxyEmsw1oplR0c+S8SxxIcL87UEAFB+q0/IiwFKm37oUnFQ==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-13.1.0.tgz";
+      sha512 = "OdKYE7BVeXjXd9D2Q67/6F9xP5OxxmTTbMgRlFWU9DGzB8VeQF5H8l+QpVJQTxyM8hweoFomBj0aHbIFE26DOw==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
