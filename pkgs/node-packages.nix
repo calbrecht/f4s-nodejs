@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.581" = {
+    "electron-to-chromium-1.4.582" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.581";
+      version = "1.4.582";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.581.tgz";
-        sha512 = "6uhqWBIapTJUxgPTCHH9sqdbxIMPt7oXl0VcAL1kOtlU6aECdcMncCrX5Z7sHQ/invtrC9jUQUef7+HhO8vVFw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.582.tgz";
+        sha512 = "89o0MGoocwYbzqUUjc+VNpeOFSOK9nIdC5wY4N+PVUarUK0MtjyTjks75AZS2bW4Kl8MdewdFsWaH0jLy+JNoA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2533,13 +2533,13 @@ let
         sha512 = "78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==";
       };
     };
-    "flat-cache-3.1.1" = {
+    "flat-cache-3.2.0" = {
       name = "flat-cache";
       packageName = "flat-cache";
-      version = "3.1.1";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flat-cache/-/flat-cache-3.1.1.tgz";
-        sha512 = "/qM2b3LUIaIgviBQovTLvijfyOQXPtSRnRK26ksj2J7rzPIecePUIpJsZ4T02Qg+xiAEKIs5K8dsHEd+VaKa/Q==";
+        url = "https://registry.npmjs.org/flat-cache/-/flat-cache-3.2.0.tgz";
+        sha512 = "CYcENa+FtcUKLmhhqyctpclsq7QF38pKjZHsGNiSQF5r4FtoKDWabFDl3hzaEQMvT1LHEysw5twgLvpYYb4vbw==";
       };
     };
     "flatted-3.2.9" = {
@@ -6639,7 +6639,7 @@ in
       sources."fastq-1.15.0"
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
-      sources."flat-cache-3.1.1"
+      sources."flat-cache-3.2.0"
       sources."flatted-3.2.9"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
@@ -6763,7 +6763,7 @@ in
       sources."fastq-1.15.0"
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
-      sources."flat-cache-3.1.1"
+      sources."flat-cache-3.2.0"
       sources."flatted-3.2.9"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
@@ -6932,7 +6932,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.581"
+      sources."electron-to-chromium-1.4.582"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7401,10 +7401,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "3.0.3";
+    version = "3.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-3.0.3.tgz";
-      sha512 = "L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-3.1.0.tgz";
+      sha512 = "TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7548,7 +7548,7 @@ in
       sources."fast-levenshtein-2.0.6"
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
-      sources."flat-cache-3.1.1"
+      sources."flat-cache-3.2.0"
       sources."flatted-3.2.9"
       sources."for-each-0.3.3"
       sources."fs.realpath-1.0.0"
@@ -8048,10 +8048,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.10.0";
+    version = "1.10.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.10.0.tgz";
-      sha512 = "Qr0HfhN1dGPHCAaboH2ypopDadAQyH3uIcIbegslWZao2msrpJ6sIJwKWc10QJBbS5s/jorA9NCk+x+2fwlhaw==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.10.1.tgz";
+      sha512 = "fzPdiPVsPfF+X3nMw/L4oI5d0pmXTkwTgCIo7O8HBideQ7/Vm/SMv+svLnh8++NpMT250QcGPwnc4rS5du9nLQ==";
     };
     dependencies = [
       sources."@azure/abort-controller-1.1.0"
