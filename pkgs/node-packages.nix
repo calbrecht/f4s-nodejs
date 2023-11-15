@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.583" = {
+    "electron-to-chromium-1.4.584" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.583";
+      version = "1.4.584";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.583.tgz";
-        sha512 = "93y1gcONABZ7uqYe/JWDVQP/Pj/sQSunF0HVAPdlg/pfBnOyBMLlQUxWvkqcljJg1+W6cjvPuYD+r1Th9Tn8mA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.584.tgz";
+        sha512 = "rXCtDiXCBtfTfEegkthruCvyWZnr1/FCrUGY/nYQiF+lSZDmwQBDxp0rivZxV8trXb6cbgojhcSTW5xsDcHQ8g==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6932,7 +6932,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.583"
+      sources."electron-to-chromium-1.4.584"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7976,10 +7976,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "4.1.1";
+    version = "4.1.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.1.1.tgz";
-      sha512 = "xxlU7z5NqgYuOvArWMSCWpPibvG8KUb4rIeGDjHD+adXgQglXeORqCFEU8hP/L6NTUGCd1HcPMPEwdJQ00MqeA==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.1.2.tgz";
+      sha512 = "RmTQUvlWmQ2y0x7DbOQuxEHtozKlWuhw8NhuLT7zL90rBjmeqjAMD/DlkcoQbkt3CEMMuBwZC+1OYQelw16cFA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
