@@ -778,13 +778,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.9.0" = {
+    "@types/node-20.9.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.9.0";
+      version = "20.9.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.9.0.tgz";
-        sha512 = "nekiGu2NDb1BcVofVcEKMIwzlx4NjHlcjhoxxKBNLtz15Y1z7MYf549DFvkHSId02Ax6kGwWntIBPC3l/JZcmw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.9.1.tgz";
+        sha512 = "HhmzZh5LSJNS5O8jQKpJ/3ZcrrlG6L70hpGqMIAoM9YVD0YBRNWYsfwcXq8VnSjlNpCpgLzMXdiPo+dxcvSmiA==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.584" = {
+    "electron-to-chromium-1.4.586" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.584";
+      version = "1.4.586";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.584.tgz";
-        sha512 = "rXCtDiXCBtfTfEegkthruCvyWZnr1/FCrUGY/nYQiF+lSZDmwQBDxp0rivZxV8trXb6cbgojhcSTW5xsDcHQ8g==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.586.tgz";
+        sha512 = "qMa+E6yf1fNQbg3G66pHLXeJUP5CCCzNat1VPczOZOqgI2w4u+8y9sQnswMdGs5m4C1rOePq37EVBr/nsPQY7w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3154,13 +3154,13 @@ let
         sha512 = "cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==";
       };
     };
-    "ignore-5.2.4" = {
+    "ignore-5.3.0" = {
       name = "ignore";
       packageName = "ignore";
-      version = "5.2.4";
+      version = "5.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ignore/-/ignore-5.2.4.tgz";
-        sha512 = "MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==";
+        url = "https://registry.npmjs.org/ignore/-/ignore-5.3.0.tgz";
+        sha512 = "g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==";
       };
     };
     "ignore-walk-3.0.4" = {
@@ -6647,7 +6647,7 @@ in
       sources."globals-13.23.0"
       sources."graphemer-1.4.0"
       sources."has-flag-4.0.0"
-      sources."ignore-5.2.4"
+      sources."ignore-5.3.0"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
       sources."inflight-1.0.6"
@@ -6771,7 +6771,7 @@ in
       sources."globals-13.23.0"
       sources."graphemer-1.4.0"
       sources."has-flag-4.0.0"
-      sources."ignore-5.2.4"
+      sources."ignore-5.3.0"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
       sources."inflight-1.0.6"
@@ -6932,7 +6932,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.584"
+      sources."electron-to-chromium-1.4.586"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7506,7 +7506,7 @@ in
       })
       (sources."eslint-plugin-node-11.1.0" // {
         dependencies = [
-          sources."ignore-5.2.4"
+          sources."ignore-5.3.0"
           sources."semver-6.3.1"
         ];
       })
@@ -7753,7 +7753,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.9.0"
+      sources."@types/node-20.9.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -7781,7 +7781,7 @@ in
       sources."globby-10.0.2"
       sources."graceful-fs-4.2.11"
       sources."human-signals-1.1.1"
-      sources."ignore-5.2.4"
+      sources."ignore-5.3.0"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
@@ -8093,7 +8093,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.9.0"
+      sources."@types/node-20.9.1"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
