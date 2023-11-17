@@ -391,13 +391,13 @@ let
         sha512 = "yZzuIG+jnVu6hNSzFEN07e8BxF3uAzYtQb6uDkaYZLo6oYZDCq454c5kB8zxnzfCYyP4MIuyBn10L0DqwujTmA==";
       };
     };
-    "@eslint/js-8.53.0" = {
+    "@eslint/js-8.54.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "8.53.0";
+      version = "8.54.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-8.53.0.tgz";
-        sha512 = "Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-8.54.0.tgz";
+        sha512 = "ut5V+D+fOoWPgGGNj83GGjnntO39xDy6DWxO0wb7Jp3DcMX0TfIqdzHF85VTQkerdyGmuuMD9AKAo5KiNlf/AQ==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -1381,13 +1381,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001562" = {
+    "caniuse-lite-1.0.30001563" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001562";
+      version = "1.0.30001563";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001562.tgz";
-        sha512 = "kfte3Hym//51EdX4239i+Rmp20EsLIYGdPkERegTgU19hQWCRhsRFGKHTliUlsry53tv17K7n077Kqa0WJU4ng==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001563.tgz";
+        sha512 = "na2WUmOxnwIZtwnFI2CZ/3er0wdNzU7hN+cPYz/z2ajHThnkWjNBOpEPP4n+4r2WPM847JaMotaJE3bnfzjyKw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.586" = {
+    "electron-to-chromium-1.4.588" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.586";
+      version = "1.4.588";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.586.tgz";
-        sha512 = "qMa+E6yf1fNQbg3G66pHLXeJUP5CCCzNat1VPczOZOqgI2w4u+8y9sQnswMdGs5m4C1rOePq37EVBr/nsPQY7w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.588.tgz";
+        sha512 = "soytjxwbgcCu7nh5Pf4S2/4wa6UIu+A3p03U2yVr53qGxi1/VTR3ENI+p50v+UxqqZAfl48j3z55ud7VHIOr9w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2155,13 +2155,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.53.0" = {
+    "eslint-8.54.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.53.0";
+      version = "8.54.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.53.0.tgz";
-        sha512 = "N4VuiPjXDUa4xVeV/GC/RV3hQW9Nw+Y463lkWaKKXKYMvmRiRDAtfpuPFLN+E1/6ZhyR8J2ig+eVREnYgUsiag==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.54.0.tgz";
+        sha512 = "NY0DfAkM8BIZDVl6PgSa1ttZbx3xHgJzSNJKYcQglem6CppHyMhRIQkBVSSMaSRnLhig3jsDbEzOjwCVt4AmmA==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6589,17 +6589,17 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.53.0";
+    version = "8.54.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.53.0.tgz";
-      sha512 = "N4VuiPjXDUa4xVeV/GC/RV3hQW9Nw+Y463lkWaKKXKYMvmRiRDAtfpuPFLN+E1/6ZhyR8J2ig+eVREnYgUsiag==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.54.0.tgz";
+      sha512 = "NY0DfAkM8BIZDVl6PgSa1ttZbx3xHgJzSNJKYcQglem6CppHyMhRIQkBVSSMaSRnLhig3jsDbEzOjwCVt4AmmA==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.3"
-      sources."@eslint/js-8.53.0"
+      sources."@eslint/js-8.54.0"
       sources."@humanwhocodes/config-array-0.11.13"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-2.0.1"
@@ -6625,7 +6625,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.53.0"
+      sources."eslint-8.54.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -6718,7 +6718,7 @@ in
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.3"
-      sources."@eslint/js-8.53.0"
+      sources."@eslint/js-8.54.0"
       sources."@humanwhocodes/config-array-0.11.13"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-2.0.1"
@@ -6749,7 +6749,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.53.0"
+      sources."eslint-8.54.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -6915,7 +6915,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001562"
+      sources."caniuse-lite-1.0.30001563"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6932,7 +6932,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.586"
+      sources."electron-to-chromium-1.4.588"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7294,10 +7294,10 @@ in
   node-gyp-build = nodeEnv.buildNodePackage {
     name = "node-gyp-build";
     packageName = "node-gyp-build";
-    version = "4.6.1";
+    version = "4.7.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.6.1.tgz";
-      sha512 = "24vnklJmyRS8ViBNI8KbtK/r/DmXQMRiOMXTNz2nrTnAYUwjmEEbnnpB/+kt+yWRv73bPsSPRFddrcIbAxSiMQ==";
+      url = "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.7.0.tgz";
+      sha512 = "PbZERfeFdrHQOOXiAKOY0VPbykZy90ndPKk0d+CFDegTKmWp1VgOTz2xACVbr1BjCWxrQp68CXtvNsveFhqDJg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
