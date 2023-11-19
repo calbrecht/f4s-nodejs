@@ -3865,13 +3865,13 @@ let
         sha512 = "lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==";
       };
     };
-    "lru-cache-10.0.2" = {
+    "lru-cache-10.0.3" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "10.0.2";
+      version = "10.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.0.2.tgz";
-        sha512 = "Yj9mA8fPiVgOUpByoTZO5pNrcl5Yk37FcSHsUINpAsaBIEZIuqcCclDZJCVxqQShDsmYX8QG63svJiTbOATZwg==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.0.3.tgz";
+        sha512 = "B7gr+F6MkqB3uzINHXNctGieGsRTMwIBgxkp0yq/5BwcuDzD4A8wQpHQW6vDAm1uKSLQghmRdD9sKqf2vJ1cEg==";
       };
     };
     "lru-cache-5.1.1" = {
@@ -7188,7 +7188,7 @@ in
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
       sources."jackspeak-2.3.6"
-      sources."lru-cache-10.0.2"
+      sources."lru-cache-10.0.3"
       sources."make-fetch-happen-13.0.0"
       sources."minimatch-9.0.3"
       sources."minipass-7.0.4"
@@ -8222,7 +8222,7 @@ in
       sources."jsprim-1.4.2"
       sources."leac-0.6.0"
       sources."long-5.2.3"
-      sources."lru-cache-10.0.2"
+      sources."lru-cache-10.0.3"
       (sources."make-dir-3.1.0" // {
         dependencies = [
           sources."semver-6.3.1"
