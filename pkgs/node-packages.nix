@@ -1345,13 +1345,13 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "cacache-18.0.0" = {
+    "cacache-18.0.1" = {
       name = "cacache";
       packageName = "cacache";
-      version = "18.0.0";
+      version = "18.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-18.0.0.tgz";
-        sha512 = "I7mVOPl3PUCeRub1U8YoGz2Lqv9WOBpobZ8RyWFXmReuILz+3OAyTa5oH3QPdtKZD7N0Yk00aLfzn0qvp8dZ1w==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-18.0.1.tgz";
+        sha512 = "g4Uf2CFZPaxtJKre6qr4zqLDOOPU7bNVhWjlNhvzc51xaTOx2noMOLhfFkTAqwtrAZAKQUuDfyjitzilpA8WsQ==";
       };
     };
     "call-bind-1.0.5" = {
@@ -1381,13 +1381,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001564" = {
+    "caniuse-lite-1.0.30001565" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001564";
+      version = "1.0.30001565";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001564.tgz";
-        sha512 = "DqAOf+rhof+6GVx1y+xzbFPeOumfQnhYzVnZD6LAXijR77yPtm9mfOcqOnT3mpnJiZVT+kwLAFnRlZcIz+c6bg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001565.tgz";
+        sha512 = "xrE//a3O7TP0vaJ8ikzkD2c2NgcVUvsEe2IvFTntV4Yd1Z9FVzh+gW+enX96L0psrbaFMcVcH2l90xNuGDWc8w==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.594" = {
+    "electron-to-chromium-1.4.595" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.594";
+      version = "1.4.595";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.594.tgz";
-        sha512 = "xT1HVAu5xFn7bDfkjGQi9dNpMqGchUkebwf1GL7cZN32NSwwlHRPMSDJ1KN6HkS0bWUtndbSQZqvpQftKG2uFQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.595.tgz";
+        sha512 = "+ozvXuamBhDOKvMNUQvecxfbyICmIAwS4GpLmR0bsiSBlGnLaOcs2Cj7J8XSbW+YEaN3Xl3ffgpm+srTUWFwFQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4079,6 +4079,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/minipass-collect/-/minipass-collect-1.0.2.tgz";
         sha512 = "6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==";
+      };
+    };
+    "minipass-collect-2.0.1" = {
+      name = "minipass-collect";
+      packageName = "minipass-collect";
+      version = "2.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/minipass-collect/-/minipass-collect-2.0.1.tgz";
+        sha512 = "D7V8PO9oaz7PWGLbCACuI1qEOsq7UKfLotx/C0Aet43fCUB/wfQ7DYeq2oR/svFJGYDHPr38SHATeaj/ZoKHKw==";
       };
     };
     "minipass-fetch-1.4.1" = {
@@ -6205,13 +6214,13 @@ let
         sha512 = "ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==";
       };
     };
-    "vscode-css-languageservice-6.2.10" = {
+    "vscode-css-languageservice-6.2.11" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "6.2.10";
+      version = "6.2.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.10.tgz";
-        sha512 = "sYUZPku4mQ06AWGCbMyjv2tdR6juBW6hTbVPFwbJvNVzdtEfBioQOgkdXg7yMJNWnXkvWSU1FL2kb4Vxu5Cdyw==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.11.tgz";
+        sha512 = "qn49Wa6K94LnizpVxmlYrcPf1Cb36gq1nNueW0COhi4shylXBzET5wuDbH8ZWQlJD0HM5Mmnn7WE9vQVVs+ULA==";
       };
     };
     "vscode-html-languageservice-5.1.1" = {
@@ -6717,10 +6726,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "13.1.0";
+    version = "13.1.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-13.1.0.tgz";
-      sha512 = "OdKYE7BVeXjXd9D2Q67/6F9xP5OxxmTTbMgRlFWU9DGzB8VeQF5H8l+QpVJQTxyM8hweoFomBj0aHbIFE26DOw==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-13.1.1.tgz";
+      sha512 = "xI5RssZEIiGyHjC9w4u+2dIqcXAD3mwBDxQ88Z5lpIH8dOvijLhcgsHYD8SmctftNKiC0k6gmJrdv8y+eio3vg==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
@@ -6924,7 +6933,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001564"
+      sources."caniuse-lite-1.0.30001565"
       sources."chalk-2.4.2"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
@@ -6941,7 +6950,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.594"
+      sources."electron-to-chromium-1.4.595"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7167,7 +7176,7 @@ in
       sources."ansi-styles-6.2.1"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-2.0.1"
-      sources."cacache-18.0.0"
+      sources."cacache-18.0.1"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
       sources."color-convert-2.0.1"
@@ -7201,11 +7210,7 @@ in
       sources."make-fetch-happen-13.0.0"
       sources."minimatch-9.0.3"
       sources."minipass-7.0.4"
-      (sources."minipass-collect-1.0.2" // {
-        dependencies = [
-          sources."minipass-3.3.6"
-        ];
-      })
+      sources."minipass-collect-2.0.1"
       sources."minipass-fetch-3.0.4"
       (sources."minipass-flush-1.0.5" // {
         dependencies = [
@@ -7985,10 +7990,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "4.1.2";
+    version = "4.1.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.1.2.tgz";
-      sha512 = "RmTQUvlWmQ2y0x7DbOQuxEHtozKlWuhw8NhuLT7zL90rBjmeqjAMD/DlkcoQbkt3CEMMuBwZC+1OYQelw16cFA==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.1.3.tgz";
+      sha512 = "miJcwsS5ZGuYlix9mbGZDF96ynzgxAZbCeQO2MpgaVahmnRjoZ3dI6hnnsvBbdTrpHAAEqdigOnVezoOzcXSag==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8340,7 +8345,7 @@ in
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
       sources."verror-1.10.0"
-      sources."vscode-css-languageservice-6.2.10"
+      sources."vscode-css-languageservice-6.2.11"
       sources."vscode-html-languageservice-5.1.1"
       sources."vscode-jsonrpc-8.2.0"
       (sources."vscode-languageserver-8.2.0-next.3" // {
