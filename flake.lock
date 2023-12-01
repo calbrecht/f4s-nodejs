@@ -18,11 +18,11 @@
       "flake": false,
       "locked": {
         "dir": "pkgs",
-        "lastModified": 1701381835,
-        "narHash": "sha256-EGKqm/7F02yZHudYeC9pyuiF8LESIZripgGK0mFg4fc=",
+        "lastModified": 1701468237,
+        "narHash": "sha256-ItsW0ljv+BiMqcjALF2+dHNH7kTWIDqcE97vO/oSjg4=",
         "owner": "calbrecht",
         "repo": "f4s-nodejs",
-        "rev": "99bb241a2effc6512e8a6cc7e955956556fe98e4",
+        "rev": "e3b7350be21417a71326b98b1cc1c1867a79f142",
         "type": "github"
       },
       "original": {
