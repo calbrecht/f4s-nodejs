@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.604" = {
+    "electron-to-chromium-1.4.606" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.604";
+      version = "1.4.606";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.604.tgz";
-        sha512 = "JAJ4lyLJYudlgJPYJicimU9R+qZ/3iyeyQS99bfT7PWi7psYWeN84lPswTjpHxQueU34PKxM/IJzQS6poYlovQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.606.tgz";
+        sha512 = "Zdv0XuhfyWZUsQ5Uq59d43ZmZOdoGZNWjeN4WCxxlQaP8crAWdnWcTxfHKcaJl6PW2SWpHx6DsxSx7v6KcGCuw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6061,13 +6061,13 @@ let
         sha512 = "KjZypGq+I/H7HI5HlOoGHkWUUGq+Q0TPhQurLbyrVrvnKTBgzLhIJ7j6J/XTQOi0d1RjyZ0wdas8bKs2p0x3Ng==";
       };
     };
-    "typescript-5.3.2" = {
+    "typescript-5.3.3" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.3.2";
+      version = "5.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.3.2.tgz";
-        sha512 = "6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz";
+        sha512 = "pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -6950,7 +6950,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.604"
+      sources."electron-to-chromium-1.4.606"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7956,7 +7956,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-5.3.2"
+      sources."typescript-5.3.3"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -7972,10 +7972,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "5.3.2";
+    version = "5.3.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-5.3.2.tgz";
-      sha512 = "6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz";
+      sha512 = "pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8338,7 +8338,7 @@ in
       sources."turndown-7.1.2"
       sources."turndown-plugin-gfm-1.0.2"
       sources."tweetnacl-0.14.5"
-      sources."typescript-5.3.2"
+      sources."typescript-5.3.3"
       sources."undici-types-5.26.5"
       sources."universalify-2.0.1"
       sources."uri-js-4.4.1"
