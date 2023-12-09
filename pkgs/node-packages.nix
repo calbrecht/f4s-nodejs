@@ -7990,10 +7990,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "4.1.3";
+    version = "4.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.1.3.tgz";
-      sha512 = "miJcwsS5ZGuYlix9mbGZDF96ynzgxAZbCeQO2MpgaVahmnRjoZ3dI6hnnsvBbdTrpHAAEqdigOnVezoOzcXSag==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.2.0.tgz";
+      sha512 = "1yKDqKeWLTQkN4mN+CT84aBr7ckp6sNVb8DZg+eXl0TDl14edn6Yh1wPqPA1rQ4AGVJc02fYbXTFsklaVYy4Uw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
