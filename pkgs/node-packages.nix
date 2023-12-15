@@ -1975,13 +1975,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.613" = {
+    "electron-to-chromium-1.4.614" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.613";
+      version = "1.4.614";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.613.tgz";
-        sha512 = "r4x5+FowKG6q+/Wj0W9nidx7QO31BJwmR2uEo+Qh3YLGQ8SbBAFuDFpTxzly/I2gsbrFwBuIjrMp423L3O5U3w==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.614.tgz";
+        sha512 = "X4ze/9Sc3QWs6h92yerwqv7aB/uU8vCjZcrMjA8N9R1pjMFRe44dLsck5FzLilOYvcXuDn93B+bpGYyufc70gQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5107,13 +5107,13 @@ let
         sha512 = "8eEWsNCkV2rvwKLS1Cvp5agNjMhwRe2um+y32B2+3LqOzg4C9BBPs6vzAfV16Ivb8B9HPNKIqd8OrdBws8kNlQ==";
       };
     };
-    "regenerator-runtime-0.14.0" = {
+    "regenerator-runtime-0.14.1" = {
       name = "regenerator-runtime";
       packageName = "regenerator-runtime";
-      version = "0.14.0";
+      version = "0.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.0.tgz";
-        sha512 = "srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==";
+        url = "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz";
+        sha512 = "dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==";
       };
     };
     "regexp.prototype.flags-1.5.1" = {
@@ -6950,7 +6950,7 @@ in
       sources."debug-4.3.4"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.613"
+      sources."electron-to-chromium-1.4.614"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7072,7 +7072,7 @@ in
       sources."promise-inflight-1.0.1"
       sources."promise-retry-2.0.1"
       sources."readable-stream-3.6.2"
-      sources."regenerator-runtime-0.14.0"
+      sources."regenerator-runtime-0.14.1"
       sources."require-relative-0.8.7"
       sources."retry-0.12.0"
       sources."rimraf-3.0.2"
