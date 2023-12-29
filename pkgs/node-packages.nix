@@ -103,13 +103,13 @@ let
         sha512 = "uU27kfDRlhfKl+w1U6vp16IuvSLtjAxdArVXPa9BvLkrr7CYIsxH5adpHObeAGY/41+syctUWOZ140a2Rvkgjw==";
       };
     };
-    "@babel/core-7.23.6" = {
+    "@babel/core-7.23.7" = {
       name = "_at_babel_slash_core";
       packageName = "@babel/core";
-      version = "7.23.6";
+      version = "7.23.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.6.tgz";
-        sha512 = "FxpRyGjrMJXh7X3wGLGhNDCRiwpWEF74sKjTLDJSG5Kyvow3QZaG0Adbqzi9ZrVjTWpsX+2cxWXD71NMg93kdw==";
+        url = "https://registry.npmjs.org/@babel/core/-/core-7.23.7.tgz";
+        sha512 = "+UpDgowcmqe36d4NwqvKsyPMlOLNGMsfMmQ5WGCu+siCe3t3dfe9njrzGfdN4qq+bcNUt0+Vw6haRxBOycs4dw==";
       };
     };
     "@babel/generator-7.23.6" = {
@@ -229,13 +229,13 @@ let
         sha512 = "85ttAOMLsr53VgXkTbkx8oA6YTfT4q7/HzXSLEYmjcSTJPMPQtvq1BD79Byep5xMUYbGRzEpDsjUf3dyp54IKw==";
       };
     };
-    "@babel/helpers-7.23.6" = {
+    "@babel/helpers-7.23.7" = {
       name = "_at_babel_slash_helpers";
       packageName = "@babel/helpers";
-      version = "7.23.6";
+      version = "7.23.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/helpers/-/helpers-7.23.6.tgz";
-        sha512 = "wCfsbN4nBidDRhpDhvcKlzHWCTlgJYUUdSJfzXb2NuBssDSIjc3xcb+znA7l+zYsFljAcGM0aFkN40cR3lXiGA==";
+        url = "https://registry.npmjs.org/@babel/helpers/-/helpers-7.23.7.tgz";
+        sha512 = "6AMnjCoC8wjqBzDHkuqpa7jAKwvMo4dC+lr/TFBz+ucfulO1XMpDnwWPGBNwClOKZ8h6xn5N81W/R5OrcKtCbQ==";
       };
     };
     "@babel/highlight-7.23.4" = {
@@ -283,13 +283,13 @@ let
         sha512 = "9EiNjVJOMwCO+43TqoTrgQ8jMwcAd0sWyXi9RPfIsLTj4R2MADDDQXELhffaUx/uJv2AYcxBgPwH6j4TIA4ytQ==";
       };
     };
-    "@babel/runtime-7.23.6" = {
+    "@babel/runtime-7.23.7" = {
       name = "_at_babel_slash_runtime";
       packageName = "@babel/runtime";
-      version = "7.23.6";
+      version = "7.23.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.6.tgz";
-        sha512 = "zHd0eUrf5GZoOWVCXp6koAKQTfZV07eit6bGPmJgnZdnSAvvZee6zniW2XMF7Cmc4ISOOnPy3QaSiIJGJkVEDQ==";
+        url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.7.tgz";
+        sha512 = "w06OXVOFso7LcbzMiDGt+3X7Rh7Ho8MmgPoWU3rarH+8upf+wSU/grlGbWzQyr3DkdN6ZeuMFjpdwW0Q+HxobA==";
       };
     };
     "@babel/template-7.22.15" = {
@@ -301,13 +301,13 @@ let
         sha512 = "QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==";
       };
     };
-    "@babel/traverse-7.23.6" = {
+    "@babel/traverse-7.23.7" = {
       name = "_at_babel_slash_traverse";
       packageName = "@babel/traverse";
-      version = "7.23.6";
+      version = "7.23.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.23.6.tgz";
-        sha512 = "czastdK1e8YByZqezMPFiZ8ahwVMh/ESl9vPgvgdB9AmFMGP5jfpFax74AQgl5zj4XHzqeYAg2l8PuUeRS1MgQ==";
+        url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.23.7.tgz";
+        sha512 = "tY3mM8rH9jM0YHFGyfC0/xf+SB5eKUu7HPj7/k3fpi9dAlsMc5YbQvDi0Sh2QTPXqMhyaAtzAr807TIyfQrmyg==";
       };
     };
     "@babel/types-7.23.6" = {
@@ -859,13 +859,13 @@ let
         sha512 = "nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==";
       };
     };
-    "acorn-8.11.2" = {
+    "acorn-8.11.3" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.11.2";
+      version = "8.11.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.11.2.tgz";
-        sha512 = "nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.11.3.tgz";
+        sha512 = "Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==";
       };
     };
     "acorn-import-assertions-1.9.0" = {
@@ -6598,7 +6598,7 @@ in
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
       sources."@ungap/structured-clone-1.2.0"
-      sources."acorn-8.11.2"
+      sources."acorn-8.11.3"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6717,7 +6717,7 @@ in
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
       sources."@ungap/structured-clone-1.2.0"
-      sources."acorn-8.11.2"
+      sources."acorn-8.11.3"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6833,7 +6833,7 @@ in
       sources."@ampproject/remapping-2.2.1"
       sources."@babel/code-frame-7.23.5"
       sources."@babel/compat-data-7.23.5"
-      sources."@babel/core-7.23.6"
+      sources."@babel/core-7.23.7"
       sources."@babel/generator-7.23.6"
       sources."@babel/helper-compilation-targets-7.23.6"
       sources."@babel/helper-environment-visitor-7.22.20"
@@ -6847,15 +6847,15 @@ in
       sources."@babel/helper-string-parser-7.23.4"
       sources."@babel/helper-validator-identifier-7.22.20"
       sources."@babel/helper-validator-option-7.23.5"
-      sources."@babel/helpers-7.23.6"
+      sources."@babel/helpers-7.23.7"
       sources."@babel/highlight-7.23.4"
       sources."@babel/parser-7.23.6"
       sources."@babel/plugin-syntax-flow-7.23.3"
       sources."@babel/plugin-syntax-jsx-7.23.3"
       sources."@babel/plugin-syntax-typescript-7.23.3"
-      sources."@babel/runtime-7.23.6"
+      sources."@babel/runtime-7.23.7"
       sources."@babel/template-7.22.15"
-      (sources."@babel/traverse-7.23.6" // {
+      (sources."@babel/traverse-7.23.7" // {
         dependencies = [
           sources."globals-11.12.0"
         ];
@@ -8084,7 +8084,7 @@ in
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
-      sources."acorn-8.11.2"
+      sources."acorn-8.11.3"
       sources."acorn-import-assertions-1.9.0"
       sources."agent-base-6.0.2"
       sources."ajv-6.12.6"
