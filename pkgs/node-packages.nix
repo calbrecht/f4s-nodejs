@@ -778,13 +778,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.10.7" = {
+    "@types/node-20.10.8" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.10.7";
+      version = "20.10.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.10.7.tgz";
-        sha512 = "fRbIKb8C/Y2lXxB5eVMj4IU7xpdox0Lh8bUPEdtLysaylsml1hOOx1+STloRs/B9nf7C6kPRmmg/V7aQW7usNg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.10.8.tgz";
+        sha512 = "f8nQs3cLxbAFc00vEU59yf9UyGUftkPaLGfvbVOIDdx2i1b8epBqj2aNGyP19fiyXWvlmZ7qC1XLjAzw/OKIeA==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2020,13 +2020,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.624" = {
+    "electron-to-chromium-1.4.625" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.624";
+      version = "1.4.625";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.624.tgz";
-        sha512 = "w9niWuheXjz23vezH3w90n9KKcHe0UkhTfJ+rXJkuGGogHyQbQ7KS1x0a8ER4LbI3ljFS/gqxKh1TidNXDMHOg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.625.tgz";
+        sha512 = "DENMhh3MFgaPDoXWrVIqSPInQoLImywfCwrSmVl3cf9QHzoZSiutHwGaB/Ql3VkqcQV30rzgdM+BjKqBAJxo5Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5395,13 +5395,13 @@ let
         sha512 = "rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==";
       };
     };
-    "safe-regex-test-1.0.0" = {
+    "safe-regex-test-1.0.1" = {
       name = "safe-regex-test";
       packageName = "safe-regex-test";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.0.0.tgz";
-        sha512 = "JBUUzyOgEwXQY1NuPtvcj/qcBDbDmEvWufhlnXZIm75DEHp+afM1r1ujJpJsV/gSM4t59tpDyPi1sd6ZaPFfsA==";
+        url = "https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.0.1.tgz";
+        sha512 = "Y5NejJTTliTyY4H7sipGqY+RX5P87i3F7c4Rcepy72nq+mNLhIsD0W4c7kEmduMDQCSqtPsXPlSTsFhh2LQv+g==";
       };
     };
     "safe-stable-stringify-2.4.3" = {
@@ -7094,7 +7094,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.624"
+      sources."electron-to-chromium-1.4.625"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7850,7 +7850,7 @@ in
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."safe-array-concat-1.0.1"
-      sources."safe-regex-test-1.0.0"
+      sources."safe-regex-test-1.0.1"
       sources."semver-7.5.4"
       sources."set-function-length-1.1.1"
       sources."set-function-name-2.0.1"
@@ -7930,7 +7930,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.10.7"
+      sources."@types/node-20.10.8"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8153,10 +8153,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "4.2.0";
+    version = "4.3.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.2.0.tgz";
-      sha512 = "1yKDqKeWLTQkN4mN+CT84aBr7ckp6sNVb8DZg+eXl0TDl14edn6Yh1wPqPA1rQ4AGVJc02fYbXTFsklaVYy4Uw==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.0.tgz";
+      sha512 = "0Kl+6skQgOh+10nCzwjtkPr5Xb6YRBw14kqmWU1fC9vYCkg+T6Vt2G/kfKsTngM4/wa5MVXML7tlZTcY+3q3/g==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8270,7 +8270,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.10.7"
+      sources."@types/node-20.10.8"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
