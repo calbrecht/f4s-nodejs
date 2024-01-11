@@ -778,13 +778,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.10.8" = {
+    "@types/node-20.11.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.10.8";
+      version = "20.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.10.8.tgz";
-        sha512 = "f8nQs3cLxbAFc00vEU59yf9UyGUftkPaLGfvbVOIDdx2i1b8epBqj2aNGyP19fiyXWvlmZ7qC1XLjAzw/OKIeA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.0.tgz";
+        sha512 = "o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2020,13 +2020,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.627" = {
+    "electron-to-chromium-1.4.628" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.627";
+      version = "1.4.628";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.627.tgz";
-        sha512 = "BPFdHKPzyGxYQpgiCoIGnkzlMlps3bRdnjeh3qd/Q2pSacL0YW81i4llqsTY/wNbN/Ztw++7HNfp8v4Rm8VDuA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.628.tgz";
+        sha512 = "2k7t5PHvLsufpP6Zwk0nof62yLOsCf032wZx7/q0mv8gwlXjhcxI3lz6f0jBr0GrnWKcm3burXzI3t5IrcdUxw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5395,13 +5395,13 @@ let
         sha512 = "rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==";
       };
     };
-    "safe-regex-test-1.0.1" = {
+    "safe-regex-test-1.0.2" = {
       name = "safe-regex-test";
       packageName = "safe-regex-test";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.0.1.tgz";
-        sha512 = "Y5NejJTTliTyY4H7sipGqY+RX5P87i3F7c4Rcepy72nq+mNLhIsD0W4c7kEmduMDQCSqtPsXPlSTsFhh2LQv+g==";
+        url = "https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.0.2.tgz";
+        sha512 = "83S9w6eFq12BBIJYvjMux6/dkirb8+4zJRA9cxNBVb7Wq5fJBW+Xze48WqR8pxua7bDuAaaAxtVVd4Idjp1dBQ==";
       };
     };
     "safe-stable-stringify-2.4.3" = {
@@ -7094,7 +7094,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.627"
+      sources."electron-to-chromium-1.4.628"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7850,7 +7850,7 @@ in
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
       sources."safe-array-concat-1.0.1"
-      sources."safe-regex-test-1.0.1"
+      sources."safe-regex-test-1.0.2"
       sources."semver-7.5.4"
       sources."set-function-length-1.1.1"
       sources."set-function-name-2.0.1"
@@ -7930,7 +7930,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.10.8"
+      sources."@types/node-20.11.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8270,7 +8270,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.10.8"
+      sources."@types/node-20.11.0"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
