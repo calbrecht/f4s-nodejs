@@ -481,13 +481,13 @@ let
         sha512 = "eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.20" = {
+    "@jridgewell/trace-mapping-0.3.21" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.20";
+      version = "0.3.21";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.20.tgz";
-        sha512 = "R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.21.tgz";
+        sha512 = "SRfKmRe1KvYnxjEMtxEr+J4HIeMX5YBg/qhRHpxEIGjhX1rshcHlnFUE9K0GazhVKWM7B+nARSkV8LuvJdJ5/g==";
       };
     };
     "@mapbox/node-pre-gyp-1.0.11" = {
@@ -2020,13 +2020,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.628" = {
+    "electron-to-chromium-1.4.630" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.628";
+      version = "1.4.630";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.628.tgz";
-        sha512 = "2k7t5PHvLsufpP6Zwk0nof62yLOsCf032wZx7/q0mv8gwlXjhcxI3lz6f0jBr0GrnWKcm3burXzI3t5IrcdUxw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.630.tgz";
+        sha512 = "osHqhtjojpCsACVnuD11xO5g9xaCyw7Qqn/C2KParkMv42i8jrJJgx3g7mkHfpxwhy9MnOJr8+pKOdZ7qzgizg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6995,10 +6995,10 @@ in
   import-js = nodeEnv.buildNodePackage {
     name = "import-js";
     packageName = "import-js";
-    version = "5.0.0";
+    version = "5.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/import-js/-/import-js-5.0.0.tgz";
-      sha512 = "8sVqR50yMXoS/yC6vLEsXzrOtVN6yMutdS4FpCOt7ak+xUdZUeiUakXzkBFox44whfNupB7WcBx6gAHr+8lJmw==";
+      url = "https://registry.npmjs.org/import-js/-/import-js-5.1.0.tgz";
+      sha512 = "p1haBy7wgvbbTcG0/gWAkXIvnsYXJ6lYnSHb1KOnvZXCSdExb0LgNWmaWIYqAJP4RvIv0CTOvGeDSk6/ef3cow==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.2.1"
@@ -7039,7 +7039,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.1"
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
-      sources."@jridgewell/trace-mapping-0.3.20"
+      sources."@jridgewell/trace-mapping-0.3.21"
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
@@ -7094,7 +7094,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.628"
+      sources."electron-to-chromium-1.4.630"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7578,10 +7578,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "3.1.1";
+    version = "3.2.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-3.1.1.tgz";
-      sha512 = "22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-3.2.1.tgz";
+      sha512 = "qSUWshj1IobVbKc226Gw2pync27t0Kf0EdufZa9j7uBSJay1CC+B3K5lAAZoqgX3ASiKuWsk6OmzKRetXNObWg==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8153,10 +8153,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "4.3.0";
+    version = "4.3.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.0.tgz";
-      sha512 = "0Kl+6skQgOh+10nCzwjtkPr5Xb6YRBw14kqmWU1fC9vYCkg+T6Vt2G/kfKsTngM4/wa5MVXML7tlZTcY+3q3/g==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.1.tgz";
+      sha512 = "DyRbGI9bM35tRq7THqOEUkksng73iZt7s4sfdrqjoX6Ij3BXV2rT95V5x20A0I8jUCV/DU3osOMC+2wPL+WXNQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8170,10 +8170,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "5.1.1";
+    version = "5.1.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.1.1.tgz";
-      sha512 = "olPB+r2ewiPWeK4ZgcU2Pn9MqjHpSVROaXgFwWiVMEu3UKKhy+Wkltn0ZoIwCKTz6O+qt+lLk/oS3thTP51dZQ==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.1.2.tgz";
+      sha512 = "hXgN71VWVV2nQVE1ej7scAHVGvRAxoYhs2KwzvJq+lSqp4VQ60M0Cff1QzJKJM/cTyLWNjabb98bDGZgDMMh2g==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
