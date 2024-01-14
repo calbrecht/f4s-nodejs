@@ -5476,13 +5476,13 @@ let
         sha512 = "KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==";
       };
     };
-    "set-function-length-1.1.1" = {
+    "set-function-length-1.2.0" = {
       name = "set-function-length";
       packageName = "set-function-length";
-      version = "1.1.1";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/set-function-length/-/set-function-length-1.1.1.tgz";
-        sha512 = "VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==";
+        url = "https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.0.tgz";
+        sha512 = "4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==";
       };
     };
     "set-function-name-2.0.1" = {
@@ -7578,10 +7578,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "3.2.1";
+    version = "3.2.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-3.2.1.tgz";
-      sha512 = "qSUWshj1IobVbKc226Gw2pync27t0Kf0EdufZa9j7uBSJay1CC+B3K5lAAZoqgX3ASiKuWsk6OmzKRetXNObWg==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-3.2.2.tgz";
+      sha512 = "HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7852,7 +7852,7 @@ in
       sources."safe-array-concat-1.0.1"
       sources."safe-regex-test-1.0.2"
       sources."semver-7.5.4"
-      sources."set-function-length-1.1.1"
+      sources."set-function-length-1.2.0"
       sources."set-function-name-2.0.1"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
