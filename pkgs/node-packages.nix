@@ -589,13 +589,13 @@ let
         sha512 = "AdY5wvN0P2vXBi3b29hxZgSFvdhdxPB9+f0B6s//P9Q8nibRWeA3cHm8UmLpio9ABigkVHJ5NMPk+Mz8VCCyrw==";
       };
     };
-    "@opentelemetry/core-1.19.0" = {
+    "@opentelemetry/core-1.20.0" = {
       name = "_at_opentelemetry_slash_core";
       packageName = "@opentelemetry/core";
-      version = "1.19.0";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.19.0.tgz";
-        sha512 = "w42AukJh3TP8R0IZZOVJVM/kMWu8g+lm4LzT70WtuKqhwq7KVhcDzZZuZinWZa6TtQCl7Smt2wolEYzpHabOgw==";
+        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.20.0.tgz";
+        sha512 = "lSRvk5AIdD6CtgYJcJXh0wGibQ3S/8bC2qbqKs9wK8e0K1tsWV6YkGFOqVc+jIRlCbZoIBeZzDe5UI+vb94uvg==";
       };
     };
     "@opentelemetry/instrumentation-0.41.2" = {
@@ -607,31 +607,31 @@ let
         sha512 = "rxU72E0pKNH6ae2w5+xgVYZLzc5mlxAbGzF4shxMVK8YC2QQsfN38B2GPbj0jvrKWWNUElfclQ+YTykkNg/grw==";
       };
     };
-    "@opentelemetry/resources-1.19.0" = {
+    "@opentelemetry/resources-1.20.0" = {
       name = "_at_opentelemetry_slash_resources";
       packageName = "@opentelemetry/resources";
-      version = "1.19.0";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.19.0.tgz";
-        sha512 = "RgxvKuuMOf7nctOeOvpDjt2BpZvZGr9Y0vf7eGtY5XYZPkh2p7e2qub1S2IArdBMf9kEbz0SfycqCviOu9isqg==";
+        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.20.0.tgz";
+        sha512 = "nOpV0vGegSq+9ze2cEDvO3BMA5pGBhmhKZiAlj+xQZjiEjPmJtdHIuBLRvptu2ahcbFJw85gIB9BYHZOvZK1JQ==";
       };
     };
-    "@opentelemetry/sdk-trace-base-1.19.0" = {
+    "@opentelemetry/sdk-trace-base-1.20.0" = {
       name = "_at_opentelemetry_slash_sdk-trace-base";
       packageName = "@opentelemetry/sdk-trace-base";
-      version = "1.19.0";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.19.0.tgz";
-        sha512 = "+IRvUm+huJn2KqfFW3yW/cjvRwJ8Q7FzYHoUNx5Fr0Lws0LxjMJG1uVB8HDpLwm7mg5XXH2M5MF+0jj5cM8BpQ==";
+        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.20.0.tgz";
+        sha512 = "BAIZ0hUgnhdb3OBQjn1FKGz/Iwie4l+uOMKklP7FGh7PTqEAbbzDNMJKaZQh6KepF7Fq+CZDRKslD3yrYy2Tzw==";
       };
     };
-    "@opentelemetry/semantic-conventions-1.19.0" = {
+    "@opentelemetry/semantic-conventions-1.20.0" = {
       name = "_at_opentelemetry_slash_semantic-conventions";
       packageName = "@opentelemetry/semantic-conventions";
-      version = "1.19.0";
+      version = "1.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.19.0.tgz";
-        sha512 = "14jRpC8f5c0gPSwoZ7SbEJni1PqI+AhAE8m1bMz6v+RPM4OlP1PT2UHBJj5Qh/ALLPjhVU/aZUK3YyjTUqqQVg==";
+        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.20.0.tgz";
+        sha512 = "3zLJJCgTKYpbqFX8drl8hOCHtdchELC+kGqlVcV4mHW1DiElTtv1Nt9EKBptTd1IfL56QkuYnWJ3DeHd2Gtu/A==";
       };
     };
     "@protobufjs/aspromise-1.1.2" = {
@@ -778,13 +778,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.11.0" = {
+    "@types/node-20.11.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.0";
+      version = "20.11.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.0.tgz";
-        sha512 = "o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.3.tgz";
+        sha512 = "nrlmbvGPNGaj84IJZXMPhQuCMEVTT/hXZMJJG/aIqVL9fKxqk814sGGtJA4GI6hpJSLQjpi6cn0Qx9eOf9SDVg==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -5368,13 +5368,13 @@ let
         sha512 = "5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==";
       };
     };
-    "safe-array-concat-1.0.1" = {
+    "safe-array-concat-1.1.0" = {
       name = "safe-array-concat";
       packageName = "safe-array-concat";
-      version = "1.0.1";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.0.1.tgz";
-        sha512 = "6XbUAseYE2KtOuGueyeobCySj9L4+66Tn6KQMOPQJrAJEowYKW/YR/MGJZl7FdydUdaFu4LYyDZjxf4/Nmo23Q==";
+        url = "https://registry.npmjs.org/safe-array-concat/-/safe-array-concat-1.1.0.tgz";
+        sha512 = "ZdQ0Jeb9Ofti4hbt5lX3T2JcAamT9hfzYU1MNB+z/jaEbB6wfFfPIR/zEORmZqobkCCJhSjodobH6WHNmJ97dg==";
       };
     };
     "safe-buffer-5.1.2" = {
@@ -7849,7 +7849,7 @@ in
       sources."resolve-1.22.8"
       sources."resolve-from-4.0.0"
       sources."rimraf-3.0.2"
-      sources."safe-array-concat-1.0.1"
+      sources."safe-array-concat-1.1.0"
       sources."safe-regex-test-1.0.2"
       sources."semver-7.5.4"
       sources."set-function-length-1.2.0"
@@ -7930,7 +7930,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.11.0"
+      sources."@types/node-20.11.3"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8253,11 +8253,11 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@one-ini/wasm-0.1.1"
       sources."@opentelemetry/api-1.7.0"
-      sources."@opentelemetry/core-1.19.0"
+      sources."@opentelemetry/core-1.20.0"
       sources."@opentelemetry/instrumentation-0.41.2"
-      sources."@opentelemetry/resources-1.19.0"
-      sources."@opentelemetry/sdk-trace-base-1.19.0"
-      sources."@opentelemetry/semantic-conventions-1.19.0"
+      sources."@opentelemetry/resources-1.20.0"
+      sources."@opentelemetry/sdk-trace-base-1.20.0"
+      sources."@opentelemetry/semantic-conventions-1.20.0"
       sources."@protobufjs/aspromise-1.1.2"
       sources."@protobufjs/base64-1.1.2"
       sources."@protobufjs/codegen-2.0.4"
@@ -8270,7 +8270,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.11.0"
+      sources."@types/node-20.11.3"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
