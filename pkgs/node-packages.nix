@@ -778,13 +778,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.11.4" = {
+    "@types/node-20.11.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.4";
+      version = "20.11.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.4.tgz";
-        sha512 = "6I0fMH8Aoy2lOejL3s4LhyIYX34DPwY8bl5xlNjBvUEk8OHrcuzsFt+Ied4LvJihbtXPM+8zUqdydfIti86v9g==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.5.tgz";
+        sha512 = "g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -1417,13 +1417,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001577" = {
+    "caniuse-lite-1.0.30001578" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001577";
+      version = "1.0.30001578";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001577.tgz";
-        sha512 = "rs2ZygrG1PNXMfmncM0B5H1hndY5ZCC9b5TkFaVNfZ+AUlyqcMyVIQtc3fsezi0NUCk5XZfDf9WS6WxMxnfdrg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001578.tgz";
+        sha512 = "J/jkFgsQ3NEl4w2lCoM9ZPxrD+FoBNJ7uJUpGVjIg/j0OwJosWM36EPDv+Yyi0V4twBk9pPmlFS+PLykgEvUmg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2020,13 +2020,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.633" = {
+    "electron-to-chromium-1.4.636" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.633";
+      version = "1.4.636";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.633.tgz";
-        sha512 = "7BvxzXrHFliyQ1oZc6NRMjyEaKOO1Ma1NY98sFZofogWlm+klLWSgrDw7EhatiMgi4R4NV+iWxDdxuIKXtPbOw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.636.tgz";
+        sha512 = "NLE0GIy1OL9wRiKL20h9TkctBEYZuc99tquSS9MVdTahnuHputoETHeqDzgqGqyOY9NUH0g9wjfEuw5OD+wRcQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5098,13 +5098,13 @@ let
         sha512 = "vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==";
       };
     };
-    "protobufjs-7.2.5" = {
+    "protobufjs-7.2.6" = {
       name = "protobufjs";
       packageName = "protobufjs";
-      version = "7.2.5";
+      version = "7.2.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.5.tgz";
-        sha512 = "gGXRSXvxQ7UiPgfw8gevrfRWcTlSbOFg+p/N+JVJEK5VhueL2miT6qTymqAmjr1Q5WbOCyJbyrk6JfWKwlFn6A==";
+        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.2.6.tgz";
+        sha512 = "dgJaEDDL6x8ASUZ1YqWciTRrdOuYNzoOf27oHNfdyvKqHr5i0FV7FSLU+aIeFjyFgVxrpTOtQUi0BLLBymZaBw==";
       };
     };
     "psl-1.9.0" = {
@@ -7075,7 +7075,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001577"
+      sources."caniuse-lite-1.0.30001578"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7094,7 +7094,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.633"
+      sources."electron-to-chromium-1.4.636"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7578,10 +7578,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "3.2.2";
+    version = "3.2.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-3.2.2.tgz";
-      sha512 = "HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-3.2.4.tgz";
+      sha512 = "FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7930,7 +7930,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.11.4"
+      sources."@types/node-20.11.5"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8270,7 +8270,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.11.4"
+      sources."@types/node-20.11.5"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
@@ -8435,7 +8435,7 @@ in
       sources."performance-now-2.1.0"
       sources."picomatch-2.3.1"
       sources."proto-list-1.2.4"
-      sources."protobufjs-7.2.5"
+      sources."protobufjs-7.2.6"
       sources."psl-1.9.0"
       sources."punycode-2.3.1"
       sources."qs-6.5.3"
