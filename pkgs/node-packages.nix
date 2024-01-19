@@ -2020,13 +2020,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.638" = {
+    "electron-to-chromium-1.4.639" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.638";
+      version = "1.4.639";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.638.tgz";
-        sha512 = "gpmbAG2LbfPKcDaL5m9IKutKjUx4ZRkvGNkgL/8nKqxkXsBVYykVULboWlqCrHsh3razucgDJDuKoWJmGPdItA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.639.tgz";
+        sha512 = "CkKf3ZUVZchr+zDpAlNLEEy2NJJ9T64ULWaDgy3THXXlPVPkLu3VOs9Bac44nebVtdwl2geSj6AxTtGDOxoXhg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4387,13 +4387,13 @@ let
         sha512 = "p7eGEiQil0YUV3ItH4/tBb781L5impVmmx2E9FRKF7d18XXzp4PGT2tdYMFY6wQqgxD0IwNZOiSJ0/K0fSi/OA==";
       };
     };
-    "node-addon-api-7.0.0" = {
+    "node-addon-api-7.1.0" = {
       name = "node-addon-api";
       packageName = "node-addon-api";
-      version = "7.0.0";
+      version = "7.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.0.0.tgz";
-        sha512 = "vgbBJTS4m5/KkE16t5Ly0WW9hz46swAstv0hYYwMtbG7AznRhNyfLRe8HZAiWIpcHzoO7HxhLuBQj9rJ/Ho0ZA==";
+        url = "https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.0.tgz";
+        sha512 = "mNcltoe1R8o7STTegSOHdnJNN7s5EUvhoS7ShnTHDyOSd+8H+UdWODq6qSv67PjC8Zc5JRT8+oLAMCr0SIXw7g==";
       };
     };
     "node-emoji-1.11.0" = {
@@ -7094,7 +7094,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.638"
+      sources."electron-to-chromium-1.4.639"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7208,7 +7208,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."node-addon-api-7.0.0"
+      sources."node-addon-api-7.1.0"
       (sources."node-gyp-8.4.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
