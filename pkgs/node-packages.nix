@@ -31,13 +31,22 @@ let
         sha512 = "TrRLIoSQVzfAJX9H1JeFjzAoDGcoK1IYX1UImfceTZpsyYfWr09Ss1aHW1y5TrrR3iq6RZLBwJ3E24uwPhwahw==";
       };
     };
-    "@azure/core-auth-1.5.0" = {
+    "@azure/abort-controller-2.0.0" = {
+      name = "_at_azure_slash_abort-controller";
+      packageName = "@azure/abort-controller";
+      version = "2.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@azure/abort-controller/-/abort-controller-2.0.0.tgz";
+        sha512 = "RP/mR/WJchR+g+nQFJGOec+nzeN/VvjlwbinccoqfhTsTHbb8X5+mLDp48kHT0ueyum0BNSwGm0kX0UZuIqTGg==";
+      };
+    };
+    "@azure/core-auth-1.6.0" = {
       name = "_at_azure_slash_core-auth";
       packageName = "@azure/core-auth";
-      version = "1.5.0";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.5.0.tgz";
-        sha512 = "udzoBuYG1VBoHVohDTrvKjyzel34zt77Bhp7dQntVGGD0ehVq48owENbBG8fIgkHRNUBQH5k1r0hpoMu5L8+kw==";
+        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.6.0.tgz";
+        sha512 = "3X9wzaaGgRaBCwhLQZDtFp5uLIXCPrGbwJNWPPugvL4xbIGgScv77YzzxToKGLAKvG9amDoofMoP+9hsH1vs1w==";
       };
     };
     "@azure/core-rest-pipeline-1.10.1" = {
@@ -1426,13 +1435,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001582" = {
+    "caniuse-lite-1.0.30001583" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001582";
+      version = "1.0.30001583";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001582.tgz";
-        sha512 = "vsJG3V5vgfduaQGVxL53uSX/HUzxyr2eA8xCo36OLal7sRcSZbibJtLeh0qja4sFOr/QQGt4opB4tOy+eOgAxg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001583.tgz";
+        sha512 = "acWTYaha8xfhA/Du/z4sNZjHUWjkiuoAi2LM+T/aL+kemKQgPT1xBb/YKjlQ0Qo8gvbHsGNplrEJ+9G3gL7i4Q==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2029,13 +2038,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.653" = {
+    "electron-to-chromium-1.4.656" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.653";
+      version = "1.4.656";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.653.tgz";
-        sha512 = "wA2A2LQCqnEwQAvwADQq3KpMpNwgAUBnRmrFgRzHnPhbQUFArTR32Ab46f4p0MovDLcg4uqd4nCsN2hTltslpA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.656.tgz";
+        sha512 = "9AQB5eFTHyR3Gvt2t/NwR0le2jBSUNwCnMbUCejFWHD+so4tH40/dRLgoE+jxlPeWS43XJewyvCv+I8LPMl49Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3559,13 +3568,13 @@ let
         sha512 = "C/CPBqKWnvdcxqIARxyOh4v1UUEOCHpgDa0WYgpKDFMszcrPcffg5uhwSgPCLD2WWxmq6isisz87tzT01tuGhg==";
       };
     };
-    "is-typed-array-1.1.12" = {
+    "is-typed-array-1.1.13" = {
       name = "is-typed-array";
       packageName = "is-typed-array";
-      version = "1.1.12";
+      version = "1.1.13";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.12.tgz";
-        sha512 = "Z14TF2JNG8Lss5/HMqt0//T9JeHXttXy5pH/DBU4vi98ozO2btxzq9MwYDZYnKwU8nRsz/+GVFVRDq3DkVuSPg==";
+        url = "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.13.tgz";
+        sha512 = "uZ25/bUAlUY5fR4OKT4rZQEBrzQWYV9ZJYGGsUmEJ6thodVJ1HX64ePQ6Z0qPWP+m+Uq6e9UugrE38jeYsDSMw==";
       };
     };
     "is-typedarray-1.0.0" = {
@@ -7084,7 +7093,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001582"
+      sources."caniuse-lite-1.0.30001583"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7103,7 +7112,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.653"
+      sources."electron-to-chromium-1.4.656"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7782,7 +7791,7 @@ in
       sources."is-shared-array-buffer-1.0.2"
       sources."is-string-1.0.7"
       sources."is-symbol-1.0.4"
-      sources."is-typed-array-1.1.12"
+      sources."is-typed-array-1.1.13"
       sources."is-weakref-1.0.2"
       sources."isarray-2.0.5"
       sources."isexe-2.0.0"
@@ -8162,10 +8171,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "4.3.1";
+    version = "4.3.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.1.tgz";
-      sha512 = "DyRbGI9bM35tRq7THqOEUkksng73iZt7s4sfdrqjoX6Ij3BXV2rT95V5x20A0I8jUCV/DU3osOMC+2wPL+WXNQ==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.2.tgz";
+      sha512 = "I2BxhjySsfMjchedqUGutaoCTEAL/9f/kf8wjPtBx7MICQxXuSfNYvkDp51TfC29RW95pjz2BUgaezJoti4flA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8240,11 +8249,19 @@ in
       sha512 = "bvN8aH5mHnuQH0yAr2ZFwQPtC6nE3MfxQvtzjCICxwAMvdngJyUPFvFR8aFKhwgRYMNzVmIMZSOlx+3DJWviUA==";
     };
     dependencies = [
-      sources."@azure/abort-controller-1.1.0"
-      sources."@azure/core-auth-1.5.0"
-      sources."@azure/core-rest-pipeline-1.10.1"
+      sources."@azure/abort-controller-2.0.0"
+      sources."@azure/core-auth-1.6.0"
+      (sources."@azure/core-rest-pipeline-1.10.1" // {
+        dependencies = [
+          sources."@azure/abort-controller-1.1.0"
+        ];
+      })
       sources."@azure/core-tracing-1.0.1"
-      sources."@azure/core-util-1.2.0"
+      (sources."@azure/core-util-1.2.0" // {
+        dependencies = [
+          sources."@azure/abort-controller-1.1.0"
+        ];
+      })
       sources."@azure/logger-1.0.4"
       sources."@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5"
       sources."@bmewburn/js-beautify-1.14.9"
