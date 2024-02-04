@@ -1129,13 +1129,13 @@ let
         sha512 = "8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
       };
     };
-    "array-buffer-byte-length-1.0.0" = {
+    "array-buffer-byte-length-1.0.1" = {
       name = "array-buffer-byte-length";
       packageName = "array-buffer-byte-length";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.0.tgz";
-        sha512 = "LPuwb2P+NrQw3XhxGc36+XSvuBPopovXYTR9Ew++Du9Yb/bx5AzBfrIsBoj0EZUifjQU+sHL21sseZ3jerWO/A==";
+        url = "https://registry.npmjs.org/array-buffer-byte-length/-/array-buffer-byte-length-1.0.1.tgz";
+        sha512 = "ahC5W1xgou+KTXix4sAO8Ki12Q+jf4i0+tmk3sC+zgcynshkHxzpXdImBehiUYKKKDwvfFiJl1tZt6ewscS1Mg==";
       };
     };
     "array-find-1.0.0" = {
@@ -6682,13 +6682,13 @@ let
         sha512 = "L3yR6/MzZAOl0DsysUXHVjOwv8mKZ71TrA/41EIduGpOOV5LQVodqN+QdQ6BS6PJ/RdIshZhq84P/fStEZkk7g==";
       };
     };
-    "winston-transport-4.6.0" = {
+    "winston-transport-4.7.0" = {
       name = "winston-transport";
       packageName = "winston-transport";
-      version = "4.6.0";
+      version = "4.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/winston-transport/-/winston-transport-4.6.0.tgz";
-        sha512 = "wbBA9PbPAHxKiygo7ub7BYRiKxms0tpfU2ljtWzb3SjRjv5yl6Ozuy/TkXf00HTAt+Uylo3gSkNwzc4ME0wiIg==";
+        url = "https://registry.npmjs.org/winston-transport/-/winston-transport-4.7.0.tgz";
+        sha512 = "ajBj65K5I7denzer2IYW6+2bNIVqLGDHqDw3Ow8Ohh+vdW+rv4MZ6eiDvHoKhfJFZ2auyN8byXieDDJ96ViONg==";
       };
     };
     "wrap-ansi-8.1.0" = {
@@ -7307,7 +7307,7 @@ in
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
       sources."winston-3.11.0"
-      sources."winston-transport-4.6.0"
+      sources."winston-transport-4.7.0"
       sources."wrappy-1.0.2"
       sources."yallist-3.1.1"
     ];
@@ -7605,10 +7605,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "3.2.4";
+    version = "3.2.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-3.2.4.tgz";
-      sha512 = "FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-3.2.5.tgz";
+      sha512 = "3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7650,7 +7650,7 @@ in
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
       sources."argparse-1.0.10"
-      sources."array-buffer-byte-length-1.0.0"
+      sources."array-buffer-byte-length-1.0.1"
       sources."array-includes-3.1.7"
       sources."array.prototype.flat-1.3.2"
       sources."array.prototype.flatmap-1.3.2"
