@@ -544,13 +544,13 @@ let
         sha512 = "oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==";
       };
     };
-    "@npmcli/agent-2.2.0" = {
+    "@npmcli/agent-2.2.1" = {
       name = "_at_npmcli_slash_agent";
       packageName = "@npmcli/agent";
-      version = "2.2.0";
+      version = "2.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@npmcli/agent/-/agent-2.2.0.tgz";
-        sha512 = "2yThA1Es98orMkpSLVqlDZAMPK3jHJhifP2gnNUdk1754uZ8yI5c+ulCoVG+WlntQA6MzhrURMXjSd9Z7dJ2/Q==";
+        url = "https://registry.npmjs.org/@npmcli/agent/-/agent-2.2.1.tgz";
+        sha512 = "H4FrOVtNyWC8MUwL3UfjOsAihHvT1Pe8POj3JvjXhSTJipsZMtgUALCT4mGyYZNxymkUfOw3PUj6dE4QPp6osQ==";
       };
     };
     "@npmcli/fs-1.1.1" = {
@@ -2038,13 +2038,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.656" = {
+    "electron-to-chromium-1.4.657" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.656";
+      version = "1.4.657";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.656.tgz";
-        sha512 = "9AQB5eFTHyR3Gvt2t/NwR0le2jBSUNwCnMbUCejFWHD+so4tH40/dRLgoE+jxlPeWS43XJewyvCv+I8LPMl49Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.657.tgz";
+        sha512 = "On2ymeleg6QbRuDk7wNgDdXtNqlJLM2w4Agx1D/RiTmItiL+a9oq5p7HUa2ZtkAtGBe/kil2dq/7rPfkbe0r5w==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2191,13 +2191,13 @@ let
         sha512 = "QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==";
       };
     };
-    "escalade-3.1.1" = {
+    "escalade-3.1.2" = {
       name = "escalade";
       packageName = "escalade";
-      version = "3.1.1";
+      version = "3.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz";
-        sha512 = "k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==";
+        url = "https://registry.npmjs.org/escalade/-/escalade-3.1.2.tgz";
+        sha512 = "ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==";
       };
     };
     "escape-string-regexp-1.0.5" = {
@@ -2533,13 +2533,13 @@ let
         sha512 = "DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==";
       };
     };
-    "fastq-1.17.0" = {
+    "fastq-1.17.1" = {
       name = "fastq";
       packageName = "fastq";
-      version = "1.17.0";
+      version = "1.17.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fastq/-/fastq-1.17.0.tgz";
-        sha512 = "zGygtijUMT7jnk3h26kUms3BkSDp4IfIKjmnqI2tvx6nuBfiF1UqOxbnLfzdv+apBy+53oaImsKtMw/xYbW+1w==";
+        url = "https://registry.npmjs.org/fastq/-/fastq-1.17.1.tgz";
+        sha512 = "sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==";
       };
     };
     "fb-watchman-2.0.2" = {
@@ -5494,6 +5494,15 @@ let
         sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
       };
     };
+    "semver-7.6.0" = {
+      name = "semver";
+      packageName = "semver";
+      version = "7.6.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.0.tgz";
+        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
+      };
+    };
     "set-blocking-2.0.0" = {
       name = "set-blocking";
       packageName = "set-blocking";
@@ -6825,7 +6834,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
-      sources."fastq-1.17.0"
+      sources."fastq-1.17.1"
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.2.0"
@@ -6949,7 +6958,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
-      sources."fastq-1.17.0"
+      sources."fastq-1.17.1"
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.2.0"
@@ -7070,7 +7079,7 @@ in
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.5.4"
+          sources."semver-7.6.0"
           sources."yallist-4.0.0"
         ];
       })
@@ -7121,14 +7130,14 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.656"
+      sources."electron-to-chromium-1.4.657"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
       sources."end-of-stream-1.4.4"
       sources."env-paths-2.2.1"
       sources."err-code-2.0.3"
-      sources."escalade-3.1.1"
+      sources."escalade-3.1.2"
       sources."escape-string-regexp-1.0.5"
       sources."expand-template-2.0.3"
       sources."fb-watchman-2.0.2"
@@ -7231,7 +7240,7 @@ in
       (sources."node-abi-3.54.0" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.5.4"
+          sources."semver-7.6.0"
           sources."yallist-4.0.0"
         ];
       })
@@ -7239,7 +7248,7 @@ in
       (sources."node-gyp-8.4.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
-          sources."semver-7.5.4"
+          sources."semver-7.6.0"
           sources."yallist-4.0.0"
         ];
       })
@@ -7357,7 +7366,7 @@ in
     };
     dependencies = [
       sources."@isaacs/cliui-8.0.2"
-      sources."@npmcli/agent-2.2.0"
+      sources."@npmcli/agent-2.2.1"
       sources."@npmcli/fs-3.1.0"
       sources."abbrev-2.0.0"
       sources."agent-base-7.1.0"
@@ -7432,7 +7441,7 @@ in
       sources."proc-log-3.0.0"
       sources."promise-retry-2.0.1"
       sources."retry-0.12.0"
-      (sources."semver-7.5.4" // {
+      (sources."semver-7.6.0" // {
         dependencies = [
           sources."lru-cache-6.0.0"
         ];
@@ -7879,7 +7888,7 @@ in
       sources."rimraf-3.0.2"
       sources."safe-array-concat-1.1.0"
       sources."safe-regex-test-1.0.2"
-      sources."semver-7.5.4"
+      sources."semver-7.6.0"
       sources."set-function-length-1.2.0"
       sources."set-function-name-2.0.1"
       sources."shebang-command-2.0.0"
@@ -7976,7 +7985,7 @@ in
       sources."end-of-stream-1.4.4"
       sources."execa-3.4.0"
       sources."fast-glob-3.3.2"
-      sources."fastq-1.17.0"
+      sources."fastq-1.17.1"
       sources."fill-range-7.0.1"
       sources."fs-extra-10.1.0"
       sources."fs.realpath-1.0.0"
@@ -8211,7 +8220,7 @@ in
       sources."domino-2.1.6"
       sources."encoding-0.1.13"
       sources."fast-glob-3.3.2"
-      sources."fastq-1.17.0"
+      sources."fastq-1.17.1"
       sources."fill-range-7.0.1"
       sources."fuzzy-search-3.2.1"
       sources."glob-parent-5.1.2"
@@ -8379,7 +8388,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-glob-3.3.2"
       sources."fast-json-stable-stringify-2.1.0"
-      sources."fastq-1.17.0"
+      sources."fastq-1.17.1"
       sources."fill-range-7.0.1"
       sources."foreground-child-3.1.1"
       sources."forever-agent-0.6.1"
