@@ -1183,13 +1183,13 @@ let
         sha512 = "Ewyx0c9PmpcsByhSW4r+9zDU7sGjFc86qf/kKtuSCRdhfbk0SNLLkaT5qvcHnRGgc5NP/ly/y+qkXkqONX54CQ==";
       };
     };
-    "arraybuffer.prototype.slice-1.0.2" = {
+    "arraybuffer.prototype.slice-1.0.3" = {
       name = "arraybuffer.prototype.slice";
       packageName = "arraybuffer.prototype.slice";
-      version = "1.0.2";
+      version = "1.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/arraybuffer.prototype.slice/-/arraybuffer.prototype.slice-1.0.2.tgz";
-        sha512 = "yMBKppFur/fbHu9/6USUe03bZ4knMYiwFBcyiaXB8Go0qNehwX6inYPzK9U0NeQvGxKthcmHcaR8P5MStSRBAw==";
+        url = "https://registry.npmjs.org/arraybuffer.prototype.slice/-/arraybuffer.prototype.slice-1.0.3.tgz";
+        sha512 = "bMxMKAjg13EBSVscxTaYA4mRc5t1UAXa2kXiGTNfZ079HIWXEkKmkgFrh/nJqamaLSrXO5H4WFFkPEaLJWbs3A==";
       };
     };
     "asn1-0.2.6" = {
@@ -1435,13 +1435,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001583" = {
+    "caniuse-lite-1.0.30001584" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001583";
+      version = "1.0.30001584";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001583.tgz";
-        sha512 = "acWTYaha8xfhA/Du/z4sNZjHUWjkiuoAi2LM+T/aL+kemKQgPT1xBb/YKjlQ0Qo8gvbHsGNplrEJ+9G3gL7i4Q==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001584.tgz";
+        sha512 = "LOz7CCQ9M1G7OjJOF9/mzmqmj3jE/7VOmrfw6Mgs0E8cjOsbRXQJHsPBfmBOXDskXKrHLyyW3n7kpDW/4BsfpQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2155,13 +2155,13 @@ let
         sha512 = "eiiY8HQeYfYH2Con2berK+To6GrK2RxbPawDkGq4UiCQQfZHb6wX9qQqkbpPqaxQFcl8d9QzZqo0tGE0VcrdwA==";
       };
     };
-    "es-errors-1.2.1" = {
+    "es-errors-1.3.0" = {
       name = "es-errors";
       packageName = "es-errors";
-      version = "1.2.1";
+      version = "1.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-errors/-/es-errors-1.2.1.tgz";
-        sha512 = "pxzkrX6Jf/KtJH+qn7qyy8XQjNLwcLiU2gL6+gozhYXKBE8DoTaeCn3Tobb324QI6Fe3L8FuaVUMUaWtnSCRRw==";
+        url = "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz";
+        sha512 = "Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==";
       };
     };
     "es-set-tostringtag-2.0.2" = {
@@ -7102,7 +7102,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001583"
+      sources."caniuse-lite-1.0.30001584"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7654,7 +7654,7 @@ in
       sources."array-includes-3.1.7"
       sources."array.prototype.flat-1.3.2"
       sources."array.prototype.flatmap-1.3.2"
-      sources."arraybuffer.prototype.slice-1.0.2"
+      sources."arraybuffer.prototype.slice-1.0.3"
       sources."astral-regex-2.0.0"
       sources."available-typed-arrays-1.0.6"
       sources."balanced-match-1.0.2"
@@ -7683,7 +7683,7 @@ in
       sources."enquirer-2.4.1"
       sources."error-ex-1.3.2"
       sources."es-abstract-1.22.3"
-      sources."es-errors-1.2.1"
+      sources."es-errors-1.3.0"
       sources."es-set-tostringtag-2.0.2"
       sources."es-shim-unscopables-1.0.2"
       sources."es-to-primitive-1.2.1"
