@@ -2155,13 +2155,13 @@ let
         sha512 = "eiiY8HQeYfYH2Con2berK+To6GrK2RxbPawDkGq4UiCQQfZHb6wX9qQqkbpPqaxQFcl8d9QzZqo0tGE0VcrdwA==";
       };
     };
-    "es-errors-1.0.0" = {
+    "es-errors-1.2.1" = {
       name = "es-errors";
       packageName = "es-errors";
-      version = "1.0.0";
+      version = "1.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-errors/-/es-errors-1.0.0.tgz";
-        sha512 = "yHV74THqMJUyFKkHyN7hyENcEZM3Dj2a2IrdClY+IT4BFQHkIVwlh8s6uZfjsFydMdNHv0F5mWgAA3ajFbsvVQ==";
+        url = "https://registry.npmjs.org/es-errors/-/es-errors-1.2.1.tgz";
+        sha512 = "pxzkrX6Jf/KtJH+qn7qyy8XQjNLwcLiU2gL6+gozhYXKBE8DoTaeCn3Tobb324QI6Fe3L8FuaVUMUaWtnSCRRw==";
       };
     };
     "es-set-tostringtag-2.0.2" = {
@@ -7683,7 +7683,7 @@ in
       sources."enquirer-2.4.1"
       sources."error-ex-1.3.2"
       sources."es-abstract-1.22.3"
-      sources."es-errors-1.0.0"
+      sources."es-errors-1.2.1"
       sources."es-set-tostringtag-2.0.2"
       sources."es-shim-unscopables-1.0.2"
       sources."es-to-primitive-1.2.1"
