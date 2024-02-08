@@ -787,13 +787,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.11.16" = {
+    "@types/node-20.11.17" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.16";
+      version = "20.11.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.16.tgz";
-        sha512 = "gKb0enTmRCzXSSUJDq6/sPcqrfCv2mkkG6Jt/clpn5eiCbKTY+SgZUxo+p8ZKMof5dCp9vHQUAB7wOUTod22wQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.17.tgz";
+        sha512 = "QmgQZGWu1Yw9TDyAP9ZzpFJKynYNeOvwMJmaxABfieQoVoiVOS6MN1WSpqpRcbeA5+RW82kraAVxCCJg+780Qw==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2038,13 +2038,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.660" = {
+    "electron-to-chromium-1.4.662" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.660";
+      version = "1.4.662";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.660.tgz";
-        sha512 = "1BqvQG0BBQrAA7FVL2EMrb5A1sVyXF3auwJneXjGWa1TpN+g0C4KbUsYWePz6OZ0mXZfXGy+RmQDELJWwE8v/Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.662.tgz";
+        sha512 = "gfl1XVWTQmPHhqEG0kN77SpUxaqPpMb9r83PT4gvKhg7P3irSxru3lW85RxvK1uI1j2CAcTWPjG/HbE0IP/Rtg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2857,13 +2857,13 @@ let
         sha512 = "nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==";
       };
     };
-    "get-symbol-description-1.0.1" = {
+    "get-symbol-description-1.0.2" = {
       name = "get-symbol-description";
       packageName = "get-symbol-description";
-      version = "1.0.1";
+      version = "1.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/get-symbol-description/-/get-symbol-description-1.0.1.tgz";
-        sha512 = "KmuibvwbWaM4BHcBRYwJfZ1JxyJeBwB8ct9YYu67SvYdbEIlcQ2e56dHxfbobqW38GXo8/zDFqJeGtHiVbWyQw==";
+        url = "https://registry.npmjs.org/get-symbol-description/-/get-symbol-description-1.0.2.tgz";
+        sha512 = "g0QYk1dZBxGwk+Ngc+ltRH2IBp2f7zBkBMBJZCDerh6EhlhSR6+9irMCuT/09zD6qkarHUSn529sK/yL4S27mg==";
       };
     };
     "getpass-0.1.7" = {
@@ -7130,7 +7130,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.660"
+      sources."electron-to-chromium-1.4.662"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7772,7 +7772,7 @@ in
       sources."functions-have-names-1.2.3"
       sources."get-intrinsic-1.2.4"
       sources."get-stdin-8.0.0"
-      sources."get-symbol-description-1.0.1"
+      sources."get-symbol-description-1.0.2"
       sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globals-12.4.0"
@@ -7967,7 +7967,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.11.16"
+      sources."@types/node-20.11.17"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8315,7 +8315,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.11.16"
+      sources."@types/node-20.11.17"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
