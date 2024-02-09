@@ -2038,13 +2038,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.662" = {
+    "electron-to-chromium-1.4.665" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.662";
+      version = "1.4.665";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.662.tgz";
-        sha512 = "gfl1XVWTQmPHhqEG0kN77SpUxaqPpMb9r83PT4gvKhg7P3irSxru3lW85RxvK1uI1j2CAcTWPjG/HbE0IP/Rtg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.665.tgz";
+        sha512 = "UpyCWObBoD+nSZgOC2ToaIdZB0r9GhqT2WahPKiSki6ckkSuKhQNso8V2PrFcHBMleI/eqbKgVQgVC4Wni4ilw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5692,13 +5692,13 @@ let
         sha512 = "cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==";
       };
     };
-    "spdx-license-ids-3.0.16" = {
+    "spdx-license-ids-3.0.17" = {
       name = "spdx-license-ids";
       packageName = "spdx-license-ids";
-      version = "3.0.16";
+      version = "3.0.17";
       src = fetchurl {
-        url = "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.16.tgz";
-        sha512 = "eWN+LnM3GR6gPu35WxNgbGl8rmY1AEmoMDvL/QD6zYmPWgywxWqJWNdLGT+ke8dKNWrcYgYjPpG5gbTfghP8rw==";
+        url = "https://registry.npmjs.org/spdx-license-ids/-/spdx-license-ids-3.0.17.tgz";
+        sha512 = "sh8PWc/ftMqAAdFiBu6Fy6JUOYjqDJBJvIhpfDMyHrr0Rbp5liZqd4TjtQ/RgfLjKFZb+LMx5hpml5qOWy0qvg==";
       };
     };
     "sprintf-js-1.0.3" = {
@@ -7130,7 +7130,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.662"
+      sources."electron-to-chromium-1.4.665"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7904,7 +7904,7 @@ in
       sources."spdx-correct-3.2.0"
       sources."spdx-exceptions-2.4.0"
       sources."spdx-expression-parse-3.0.1"
-      sources."spdx-license-ids-3.0.16"
+      sources."spdx-license-ids-3.0.17"
       sources."sprintf-js-1.0.3"
       sources."standard-16.0.4"
       sources."standard-engine-14.0.1"
@@ -8190,10 +8190,10 @@ in
   typescript-language-server = nodeEnv.buildNodePackage {
     name = "typescript-language-server";
     packageName = "typescript-language-server";
-    version = "4.3.2";
+    version = "4.3.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.2.tgz";
-      sha512 = "I2BxhjySsfMjchedqUGutaoCTEAL/9f/kf8wjPtBx7MICQxXuSfNYvkDp51TfC29RW95pjz2BUgaezJoti4flA==";
+      url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.3.tgz";
+      sha512 = "3QLj57Ru9S6zv10sa4z1pA3TIR1Rdkd04Ke0EszbO4fx5PLdlYhlC/PMxwlyxls9wrZs7wPCME1Ru0s1Gabz4Q==";
     };
     buildInputs = globalBuildInputs;
     meta = {
