@@ -3109,13 +3109,13 @@ let
         sha512 = "8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==";
       };
     };
-    "hasown-2.0.0" = {
+    "hasown-2.0.1" = {
       name = "hasown";
       packageName = "hasown";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/hasown/-/hasown-2.0.0.tgz";
-        sha512 = "vUptKVTpIJhcczKBbgnS+RtcuYMB8+oNzPK2/Hp3hanz8JmpATdmmgLgSaadVREkDm+e2giHwY3ZRkyjSIDDFA==";
+        url = "https://registry.npmjs.org/hasown/-/hasown-2.0.1.tgz";
+        sha512 = "1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==";
       };
     };
     "hosted-git-info-2.8.9" = {
@@ -5260,13 +5260,13 @@ let
         sha512 = "dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==";
       };
     };
-    "regexp.prototype.flags-1.5.1" = {
+    "regexp.prototype.flags-1.5.2" = {
       name = "regexp.prototype.flags";
       packageName = "regexp.prototype.flags";
-      version = "1.5.1";
+      version = "1.5.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.5.1.tgz";
-        sha512 = "sy6TXMN+hnP/wMy+ISxg3krXx7BAtWVO4UouuCN/ziM9UEne0euamVNafDfvC83bRNr95y0V5iijeDQFUNpvrg==";
+        url = "https://registry.npmjs.org/regexp.prototype.flags/-/regexp.prototype.flags-1.5.2.tgz";
+        sha512 = "NcDiDkTLuPR+++OCKB0nWafEmhg/Da8aUPLPMQbK+bxKKCm1/S5he+AqYa4PlMCVBalb4/yxIRub6qkEx5yJbw==";
       };
     };
     "regexpp-3.2.0" = {
@@ -7786,7 +7786,7 @@ in
       sources."has-proto-1.0.1"
       sources."has-symbols-1.0.3"
       sources."has-tostringtag-1.0.2"
-      sources."hasown-2.0.0"
+      sources."hasown-2.0.1"
       sources."hosted-git-info-2.8.9"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
@@ -7880,7 +7880,7 @@ in
       sources."react-is-16.13.1"
       sources."read-pkg-3.0.0"
       sources."read-pkg-up-3.0.0"
-      sources."regexp.prototype.flags-1.5.1"
+      sources."regexp.prototype.flags-1.5.2"
       sources."regexpp-3.2.0"
       sources."require-from-string-2.0.2"
       sources."resolve-1.22.8"
@@ -8137,7 +8137,7 @@ in
       sources."function-bind-1.1.2"
       sources."glob-7.2.3"
       sources."has-flag-3.0.0"
-      sources."hasown-2.0.0"
+      sources."hasown-2.0.1"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."is-core-module-2.13.1"
@@ -8416,7 +8416,7 @@ in
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-unicode-2.0.1"
-      sources."hasown-2.0.0"
+      sources."hasown-2.0.1"
       sources."html-to-text-9.0.5"
       sources."htmlparser2-8.0.2"
       sources."http-proxy-agent-5.0.0"
