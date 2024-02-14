@@ -463,13 +463,13 @@ let
         sha512 = "HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==";
       };
     };
-    "@jridgewell/resolve-uri-3.1.1" = {
+    "@jridgewell/resolve-uri-3.1.2" = {
       name = "_at_jridgewell_slash_resolve-uri";
       packageName = "@jridgewell/resolve-uri";
-      version = "3.1.1";
+      version = "3.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz";
-        sha512 = "dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==";
+        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz";
+        sha512 = "bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==";
       };
     };
     "@jridgewell/set-array-1.1.2" = {
@@ -1354,13 +1354,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.22.3" = {
+    "browserslist-4.23.0" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.22.3";
+      version = "4.23.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.22.3.tgz";
-        sha512 = "UAp55yfwNv0klWNapjs/ktHoguxuQNGnOzxYmfnXIS+8AsRDZkSDxg7R1AX3GKzn078SBI5dzwzj/Yx0Or0e3A==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.23.0.tgz";
+        sha512 = "QW8HiM1shhT2GuzkvklfjcKDiWFXHOeFCIA/huJPwHsslwcydgk7X+z2zXpEijP98UCY7HbubZt5J2Zgvf0CaQ==";
       };
     };
     "bser-2.1.1" = {
@@ -2038,13 +2038,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.668" = {
+    "electron-to-chromium-1.4.669" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.668";
+      version = "1.4.669";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.668.tgz";
-        sha512 = "ZOBocMYCehr9W31+GpMclR+KBaDZOoAEabLdhpZ8oU1JFDwIaFY0UDbpXVEUFc0BIP2O2Qn3rkfCjQmMR4T/bQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.669.tgz";
+        sha512 = "E2SmpffFPrZhBSgf8ibqanRS2mpuk3FIRDzLDwt7WFpfgJMKDHJs0hmacyP0PS1cWsq0dVkwIIzlscNaterkPg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7099,7 +7099,7 @@ in
       sources."@dabh/diagnostics-2.0.3"
       sources."@gar/promisify-1.1.3"
       sources."@jridgewell/gen-mapping-0.3.3"
-      sources."@jridgewell/resolve-uri-3.1.1"
+      sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/sourcemap-codec-1.4.15"
       sources."@jridgewell/trace-mapping-0.3.22"
@@ -7127,7 +7127,7 @@ in
       sources."bindings-1.5.0"
       sources."bl-4.1.0"
       sources."brace-expansion-1.1.11"
-      sources."browserslist-4.22.3"
+      sources."browserslist-4.23.0"
       sources."bser-2.1.1"
       sources."buffer-5.7.1"
       (sources."cacache-15.3.0" // {
@@ -7157,7 +7157,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.668"
+      sources."electron-to-chromium-1.4.669"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
