@@ -508,13 +508,67 @@ let
         sha512 = "Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==";
       };
     };
-    "@microsoft/applicationinsights-web-snippet-1.0.1" = {
+    "@microsoft/applicationinsights-common-3.1.0" = {
+      name = "_at_microsoft_slash_applicationinsights-common";
+      packageName = "@microsoft/applicationinsights-common";
+      version = "3.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@microsoft/applicationinsights-common/-/applicationinsights-common-3.1.0.tgz";
+        sha512 = "PpWdCbTPsH5MSDIkHKaIBpEJcsnPcnAjlTCk+ls0DOfIB/T6bTn3TuKsDfSu/sxdLhDQiJeUXu8G3qOQ3L0nBA==";
+      };
+    };
+    "@microsoft/applicationinsights-core-js-3.1.0" = {
+      name = "_at_microsoft_slash_applicationinsights-core-js";
+      packageName = "@microsoft/applicationinsights-core-js";
+      version = "3.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@microsoft/applicationinsights-core-js/-/applicationinsights-core-js-3.1.0.tgz";
+        sha512 = "pHaZ3CQx+KdfRV3yV/xuMEvIEJ1KxlK6klnFcuz4AMXOOPeuvWy1FsUIQ/sVA97TXEDl87LqV6QDnH99bLZpMg==";
+      };
+    };
+    "@microsoft/applicationinsights-shims-3.0.1" = {
+      name = "_at_microsoft_slash_applicationinsights-shims";
+      packageName = "@microsoft/applicationinsights-shims";
+      version = "3.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@microsoft/applicationinsights-shims/-/applicationinsights-shims-3.0.1.tgz";
+        sha512 = "DKwboF47H1nb33rSUfjqI6ryX29v+2QWcTrRvcQDA32AZr5Ilkr7whOOSsD1aBzwqX0RJEIP1Z81jfE3NBm/Lg==";
+      };
+    };
+    "@microsoft/applicationinsights-web-snippet-1.1.0" = {
       name = "_at_microsoft_slash_applicationinsights-web-snippet";
       packageName = "@microsoft/applicationinsights-web-snippet";
-      version = "1.0.1";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@microsoft/applicationinsights-web-snippet/-/applicationinsights-web-snippet-1.0.1.tgz";
-        sha512 = "2IHAOaLauc8qaAitvWS+U931T+ze+7MNWrDHY47IENP5y2UA0vqJDu67kWZDdpCN1fFC77sfgfB+HV7SrKshnQ==";
+        url = "https://registry.npmjs.org/@microsoft/applicationinsights-web-snippet/-/applicationinsights-web-snippet-1.1.0.tgz";
+        sha512 = "4P/5kSwJKvugTA0V01Or8sRagAgUnCUHx3TMIdsT9bzCP5Zm0gkqS81l3HlD81z5z49g54FVPEDJDAGuJy3/Gw==";
+      };
+    };
+    "@microsoft/dynamicproto-js-2.0.3" = {
+      name = "_at_microsoft_slash_dynamicproto-js";
+      packageName = "@microsoft/dynamicproto-js";
+      version = "2.0.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@microsoft/dynamicproto-js/-/dynamicproto-js-2.0.3.tgz";
+        sha512 = "JTWTU80rMy3mdxOjjpaiDQsTLZ6YSGGqsjURsY6AUQtIj0udlF/jYmhdLZu8693ZIC0T1IwYnFa0+QeiMnziBA==";
+      };
+    };
+    "@nevware21/ts-async-0.4.0" = {
+      name = "_at_nevware21_slash_ts-async";
+      packageName = "@nevware21/ts-async";
+      version = "0.4.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@nevware21/ts-async/-/ts-async-0.4.0.tgz";
+        sha512 = "dbV826TTehQIBIJjh8GDSbwn1Z6+cnkyNbRlpcpdBPH8mROD2zabIUKqWcw9WRdTjjUIm21K+OR4DXWlAyOVTQ==";
+      };
+    };
+    "@nevware21/ts-utils-0.10.5" = {
+      name = "_at_nevware21_slash_ts-utils";
+      packageName = "@nevware21/ts-utils";
+      version = "0.10.5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@nevware21/ts-utils/-/ts-utils-0.10.5.tgz";
+        sha512 = "+TEvP0+l/VBR5bJZoYFV+o6aQQ1O6y80uys5AVyyCKeWvrgWu/yNydqSBQNsk4BuEfkayg7R9+HCJRRRIvptTA==";
       };
     };
     "@nodelib/fs.scandir-2.1.5" = {
@@ -2038,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.671" = {
+    "electron-to-chromium-1.4.673" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.671";
+      version = "1.4.673";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.671.tgz";
-        sha512 = "UUlE+/rWbydmp+FW8xlnnTA5WNA0ZZd2XL8CuMS72rh+k4y1f8+z6yk3UQhEwqHQWj6IBdL78DwWOdGMvYfQyA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.673.tgz";
+        sha512 = "zjqzx4N7xGdl5468G+vcgzDhaHkaYgVcf9MqgexcTqsl2UHSCmOj/Bi3HAprg4BZCpC7HyD8a6nZl6QAZf72gw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7157,7 +7211,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.671"
+      sources."electron-to-chromium-1.4.673"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8324,7 +8378,13 @@ in
           sources."nopt-5.0.0"
         ];
       })
-      sources."@microsoft/applicationinsights-web-snippet-1.0.1"
+      sources."@microsoft/applicationinsights-common-3.1.0"
+      sources."@microsoft/applicationinsights-core-js-3.1.0"
+      sources."@microsoft/applicationinsights-shims-3.0.1"
+      sources."@microsoft/applicationinsights-web-snippet-1.1.0"
+      sources."@microsoft/dynamicproto-js-2.0.3"
+      sources."@nevware21/ts-async-0.4.0"
+      sources."@nevware21/ts-utils-0.10.5"
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
