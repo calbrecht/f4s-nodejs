@@ -2038,13 +2038,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.677" = {
+    "electron-to-chromium-1.4.678" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.677";
+      version = "1.4.678";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.677.tgz";
-        sha512 = "erDa3CaDzwJOpyvfKhOiJjBVNnMM0qxHq47RheVVwsSQrgBA9ZSGV9kdaOfZDPXcHzhG7lBxhj6A7KvfLJBd6Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.678.tgz";
+        sha512 = "NbdGC2p0O5Q5iVhLEsNBSfytaw7wbEFJlIvaF71wi6QDtLAph5/rVogjyOpf/QggJIt8hNK3KdwNJnc2bzckbw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2632,13 +2632,13 @@ let
         sha512 = "CYcENa+FtcUKLmhhqyctpclsq7QF38pKjZHsGNiSQF5r4FtoKDWabFDl3hzaEQMvT1LHEysw5twgLvpYYb4vbw==";
       };
     };
-    "flatted-3.3.0" = {
+    "flatted-3.3.1" = {
       name = "flatted";
       packageName = "flatted";
-      version = "3.3.0";
+      version = "3.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flatted/-/flatted-3.3.0.tgz";
-        sha512 = "noqGuLw158+DuD9UPRKHpJ2hGxpFyDlYYrfM0mWt4XhT4n0lwzTLh70Tkdyy4kyTmyTT9Bv7bWAJqw7cgkEXDg==";
+        url = "https://registry.npmjs.org/flatted/-/flatted-3.3.1.tgz";
+        sha512 = "X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==";
       };
     };
     "fn.name-1.1.0" = {
@@ -3550,13 +3550,13 @@ let
         sha512 = "kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==";
       };
     };
-    "is-shared-array-buffer-1.0.2" = {
+    "is-shared-array-buffer-1.0.3" = {
       name = "is-shared-array-buffer";
       packageName = "is-shared-array-buffer";
-      version = "1.0.2";
+      version = "1.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.2.tgz";
-        sha512 = "sqN2UDu1/0y6uvXyStCOzyhAjCSlHceFoMKJW8W9EU9cvic/QdsZ0kEU93HEy3IUEFZIiH/3w+AH/UQbPHNdhA==";
+        url = "https://registry.npmjs.org/is-shared-array-buffer/-/is-shared-array-buffer-1.0.3.tgz";
+        sha512 = "nA2hv5XIhLR3uVzDDfCIknerhx8XUKnstuOERPNNIinXG7v9u+ohXF67vxm4TPTEPU6lm61ZkwP3c9PCB97rhg==";
       };
     };
     "is-stream-2.0.1" = {
@@ -6259,13 +6259,13 @@ let
         sha512 = "gEymJYKZtKXzzBzM4jqa9w6Q1Jjm7x2d+sh19AdsD4wqnMPDYyvwpsIc2Q/835kHuo3BEQ7CjelGhfTsoBb2MQ==";
       };
     };
-    "typed-array-byte-length-1.0.0" = {
+    "typed-array-byte-length-1.0.1" = {
       name = "typed-array-byte-length";
       packageName = "typed-array-byte-length";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typed-array-byte-length/-/typed-array-byte-length-1.0.0.tgz";
-        sha512 = "Or/+kvLxNpeQ9DtSydonMxCx+9ZXOswtwJn17SNLvhptaXYDJvkFFP5zbfU/uLmvnBJlI4yrnXRxpdWH/M5tNA==";
+        url = "https://registry.npmjs.org/typed-array-byte-length/-/typed-array-byte-length-1.0.1.tgz";
+        sha512 = "3iMJ9q0ao7WE9tWcaYKIptkNBuOIcZCCT0d4MRvuuH88fEoEH62IuQe0OtraD3ebQEoTRk8XCBoknUNc1Y67pw==";
       };
     };
     "typed-array-byte-offset-1.0.2" = {
@@ -6874,7 +6874,7 @@ in
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.2.0"
-      sources."flatted-3.3.0"
+      sources."flatted-3.3.1"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
@@ -6998,7 +6998,7 @@ in
       sources."file-entry-cache-6.0.1"
       sources."find-up-5.0.0"
       sources."flat-cache-3.2.0"
-      sources."flatted-3.3.0"
+      sources."flatted-3.3.1"
       sources."fs.realpath-1.0.0"
       sources."glob-7.2.3"
       sources."glob-parent-6.0.2"
@@ -7166,7 +7166,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.677"
+      sources."electron-to-chromium-1.4.678"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7804,7 +7804,7 @@ in
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
       sources."flat-cache-3.2.0"
-      sources."flatted-3.3.0"
+      sources."flatted-3.3.1"
       sources."for-each-0.3.3"
       sources."fs.realpath-1.0.0"
       sources."function-bind-1.1.2"
@@ -7848,7 +7848,7 @@ in
       sources."is-negative-zero-2.0.3"
       sources."is-number-object-1.0.7"
       sources."is-regex-1.1.4"
-      sources."is-shared-array-buffer-1.0.2"
+      sources."is-shared-array-buffer-1.0.3"
       sources."is-string-1.0.7"
       sources."is-symbol-1.0.4"
       sources."is-typed-array-1.1.13"
@@ -7971,7 +7971,7 @@ in
       sources."type-check-0.4.0"
       sources."type-fest-0.8.1"
       sources."typed-array-buffer-1.0.2"
-      sources."typed-array-byte-length-1.0.0"
+      sources."typed-array-byte-length-1.0.1"
       sources."typed-array-byte-offset-1.0.2"
       sources."typed-array-length-1.0.5"
       sources."unbox-primitive-1.0.2"
