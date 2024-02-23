@@ -400,13 +400,13 @@ let
         sha512 = "269Z39MS6wVJtsoUl10L60WdkhJVdPG24Q4eZTH3nnF6lpvSShEK3wQjDX9JRWAUPvPh7COouPpU9IrqaZFvtQ==";
       };
     };
-    "@eslint/js-8.56.0" = {
+    "@eslint/js-8.57.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "8.56.0";
+      version = "8.57.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-8.56.0.tgz";
-        sha512 = "gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-8.57.0.tgz";
+        sha512 = "Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -2038,13 +2038,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.680" = {
+    "electron-to-chromium-1.4.681" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.680";
+      version = "1.4.681";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.680.tgz";
-        sha512 = "4nToZ5jlPO14W82NkF32wyjhYqQByVaDmLy4J2/tYcAbJfgO2TKJC780Az1V13gzq4l73CJ0yuyalpXvxXXD9A==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.681.tgz";
+        sha512 = "1PpuqJUFWoXZ1E54m8bsLPVYwIVCRzvaL+n5cjigGga4z854abDnFRc+cTa2th4S79kyGqya/1xoR7h+Y5G5lg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2236,13 +2236,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-8.56.0" = {
+    "eslint-8.57.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "8.56.0";
+      version = "8.57.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-8.56.0.tgz";
-        sha512 = "Go19xM6T9puCOWntie1/P997aXxFsOi37JIHRWI514Hc6ZnaHGKY9xFhrU65RT6CcBEzZoGG1e6Nq+DT04ZtZQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-8.57.0.tgz";
+        sha512 = "dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -5665,13 +5665,13 @@ let
         sha512 = "94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==";
       };
     };
-    "socks-2.8.0" = {
+    "socks-2.8.1" = {
       name = "socks";
       packageName = "socks";
-      version = "2.8.0";
+      version = "2.8.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks/-/socks-2.8.0.tgz";
-        sha512 = "AvXLNBlmf/AN7g6ZuCRNtwbLFacfNBYvy7pchLnpJ1aqCw7FPOK0HEC/LxOZxWiJpqwnjYPxxxNxXYOgX8+3fw==";
+        url = "https://registry.npmjs.org/socks/-/socks-2.8.1.tgz";
+        sha512 = "B6w7tkwNid7ToxjZ08rQMT8M9BJAf8DKx8Ft4NivzH0zBUfd6jldGcisJn/RLgxcX3FPNDdNQCUEMMT79b+oCQ==";
       };
     };
     "socks-proxy-agent-6.2.1" = {
@@ -6823,17 +6823,17 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "8.56.0";
+    version = "8.57.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-8.56.0.tgz";
-      sha512 = "Go19xM6T9puCOWntie1/P997aXxFsOi37JIHRWI514Hc6ZnaHGKY9xFhrU65RT6CcBEzZoGG1e6Nq+DT04ZtZQ==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-8.57.0.tgz";
+      sha512 = "dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.4"
-      sources."@eslint/js-8.56.0"
+      sources."@eslint/js-8.57.0"
       sources."@humanwhocodes/config-array-0.11.14"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-2.0.2"
@@ -6859,7 +6859,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.56.0"
+      sources."eslint-8.57.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -6952,7 +6952,7 @@ in
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.4"
-      sources."@eslint/js-8.56.0"
+      sources."@eslint/js-8.57.0"
       sources."@humanwhocodes/config-array-0.11.14"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-2.0.2"
@@ -6983,7 +6983,7 @@ in
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-8.56.0"
+      sources."eslint-8.57.0"
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
@@ -7166,7 +7166,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.680"
+      sources."electron-to-chromium-1.4.681"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7318,7 +7318,7 @@ in
       sources."simple-get-4.0.1"
       sources."simple-swizzle-0.2.2"
       sources."smart-buffer-4.2.0"
-      sources."socks-2.8.0"
+      sources."socks-2.8.1"
       sources."socks-proxy-agent-6.2.1"
       sources."sprintf-js-1.1.3"
       sources."sqlite3-5.1.7"
@@ -7489,7 +7489,7 @@ in
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
       sources."smart-buffer-4.2.0"
-      sources."socks-2.8.0"
+      sources."socks-2.8.1"
       sources."socks-proxy-agent-8.0.2"
       sources."sprintf-js-1.1.3"
       sources."ssri-10.0.5"
