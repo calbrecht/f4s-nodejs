@@ -1435,13 +1435,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001589" = {
+    "caniuse-lite-1.0.30001591" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001589";
+      version = "1.0.30001591";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001589.tgz";
-        sha512 = "vNQWS6kI+q6sBlHbh71IIeC+sRwK2N3EDySc/updIGhIee2x5z00J4c1242/5/d6EpEMdOnk/m+6tuk4/tcsqg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001591.tgz";
+        sha512 = "PCzRMei/vXjJyL5mJtzNiUCKP59dm8Apqc3PH8gJkMnMXZGox93RbE76jHsmLwmIo6/3nsYIpJtx0O7u5PqFuQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2272,13 +2272,13 @@ let
         sha512 = "WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==";
       };
     };
-    "eslint-module-utils-2.8.0" = {
+    "eslint-module-utils-2.8.1" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.8.0";
+      version = "2.8.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.8.0.tgz";
-        sha512 = "aWajIYfsqCKRDgUfjEXNN/JlrzauMuSEy5sbd7WXbtW3EH6A6MpwEh42c7qD+MqQo9QMJ6fWLAeIJynx0g6OAw==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.8.1.tgz";
+        sha512 = "rXDXR3h7cs7dy9RNpUlQf80nX31XWJEyGq1tRMo+6GsO5VmTe4UTwtmonAD4ZkAsrfMVDA2wlGJ3790Ys+D49Q==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -7147,7 +7147,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001589"
+      sources."caniuse-lite-1.0.30001591"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7746,7 +7746,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.8.0" // {
+      (sources."eslint-module-utils-2.8.1" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
