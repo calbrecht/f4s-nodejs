@@ -490,13 +490,13 @@ let
         sha512 = "eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==";
       };
     };
-    "@jridgewell/trace-mapping-0.3.24" = {
+    "@jridgewell/trace-mapping-0.3.25" = {
       name = "_at_jridgewell_slash_trace-mapping";
       packageName = "@jridgewell/trace-mapping";
-      version = "0.3.24";
+      version = "0.3.25";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.24.tgz";
-        sha512 = "+VaWXDa6+l6MhflBvVXjIEAzb59nQ2JUK3bwRp2zRpPtU+8TFRy9Gg/5oIcNlkEL5PGlBFGfemUVvIgLnTzq7Q==";
+        url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.25.tgz";
+        sha512 = "vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==";
       };
     };
     "@mapbox/node-pre-gyp-1.0.11" = {
@@ -508,13 +508,13 @@ let
         sha512 = "Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==";
       };
     };
-    "@microsoft/applicationinsights-web-snippet-1.1.1" = {
+    "@microsoft/applicationinsights-web-snippet-1.1.2" = {
       name = "_at_microsoft_slash_applicationinsights-web-snippet";
       packageName = "@microsoft/applicationinsights-web-snippet";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@microsoft/applicationinsights-web-snippet/-/applicationinsights-web-snippet-1.1.1.tgz";
-        sha512 = "uITh+P/cfN+nkUfazVt9paML6rjc6H/VWdw0jb4PUj7JG1w4hamjxkYWFvDjMZfhZ75tC4kgepPgOeG2i610Qg==";
+        url = "https://registry.npmjs.org/@microsoft/applicationinsights-web-snippet/-/applicationinsights-web-snippet-1.1.2.tgz";
+        sha512 = "qPoOk3MmEx3gS6hTc1/x8JWQG5g4BvRdH7iqZMENBsKCL927b7D7Mvl19bh3sW9Ucrg1fVrF+4hqShwQNdqLxQ==";
       };
     };
     "@nodelib/fs.scandir-2.1.5" = {
@@ -7111,7 +7111,7 @@ in
       sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.2.1"
       sources."@jridgewell/sourcemap-codec-1.4.15"
-      sources."@jridgewell/trace-mapping-0.3.24"
+      sources."@jridgewell/trace-mapping-0.3.25"
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
           sources."lru-cache-6.0.0"
@@ -8334,7 +8334,7 @@ in
           sources."nopt-5.0.0"
         ];
       })
-      sources."@microsoft/applicationinsights-web-snippet-1.1.1"
+      sources."@microsoft/applicationinsights-web-snippet-1.1.2"
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
