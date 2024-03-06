@@ -1777,6 +1777,33 @@ let
         sha512 = "jRFi8UDGo6j+odZiEpjazZaWqEal3w/basFjQHQEwVtZJGDpxbH1MeYluwCS8Xq5wmLJooDlMgvVarmWfGM44g==";
       };
     };
+    "data-view-buffer-1.0.1" = {
+      name = "data-view-buffer";
+      packageName = "data-view-buffer";
+      version = "1.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/data-view-buffer/-/data-view-buffer-1.0.1.tgz";
+        sha512 = "0lht7OugA5x3iJLOWFhWK/5ehONdprk0ISXqVFn/NFrDu+cuc8iADFrGQz5BnRK7LLU3JmkbXSxaqX+/mXYtUA==";
+      };
+    };
+    "data-view-byte-length-1.0.0" = {
+      name = "data-view-byte-length";
+      packageName = "data-view-byte-length";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/data-view-byte-length/-/data-view-byte-length-1.0.0.tgz";
+        sha512 = "osjbQqFifDjU/RWsmYPwULpkMSNTQs0G36adEntRgFzzo5+ZX+cr84XiawxMqi78d5avv6z88iOk7RScvW0CPw==";
+      };
+    };
+    "data-view-byte-offset-1.0.0" = {
+      name = "data-view-byte-offset";
+      packageName = "data-view-byte-offset";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/data-view-byte-offset/-/data-view-byte-offset-1.0.0.tgz";
+        sha512 = "t/Ygsytq+R995EJ5PZlD4Cu56sWa8InXySaViRzw9apusqsOO2bQP+SbYzAhR0pFKoB+43lYy8rWban9JSuXnA==";
+      };
+    };
     "debug-2.6.9" = {
       name = "debug";
       packageName = "debug";
@@ -2146,13 +2173,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.22.5" = {
+    "es-abstract-1.23.0" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.22.5";
+      version = "1.23.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.22.5.tgz";
-        sha512 = "oW69R+4q2wG+Hc3KZePPZxOiisRIqfKBVo/HLx94QcJeWGU/8sZhCvc829rd1kS366vlJbzBfXf9yWwf0+Ko7w==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.23.0.tgz";
+        sha512 = "vmuE7Uoevk2xkwu5Gwa7RfJk/ebVV6xRv7KuZNbUglmJHhWPMbLL20ztreVpBbdxBZijETx3Aml3NssX4SFMvQ==";
       };
     };
     "es-define-property-1.0.0" = {
@@ -3440,6 +3467,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.13.1.tgz";
         sha512 = "hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==";
+      };
+    };
+    "is-data-view-1.0.1" = {
+      name = "is-data-view";
+      packageName = "is-data-view";
+      version = "1.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/is-data-view/-/is-data-view-1.0.1.tgz";
+        sha512 = "AHkaJrsUVW6wq6JS8y3JnM/GJF/9cf+k20+iDzlSaJrinEo5+7vRiteOSwBhHRiAyQATN1AmY4hwzxJKPmYf+w==";
       };
     };
     "is-date-object-1.0.5" = {
@@ -7723,6 +7759,9 @@ in
       sources."color-name-1.1.3"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
+      sources."data-view-buffer-1.0.1"
+      sources."data-view-byte-length-1.0.0"
+      sources."data-view-byte-offset-1.0.0"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
       sources."define-data-property-1.1.4"
@@ -7731,7 +7770,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.4.1"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.22.5"
+      sources."es-abstract-1.23.0"
       sources."es-define-property-1.0.0"
       sources."es-errors-1.3.0"
       sources."es-set-tostringtag-2.0.3"
@@ -7841,6 +7880,7 @@ in
       sources."is-boolean-object-1.1.2"
       sources."is-callable-1.2.7"
       sources."is-core-module-2.13.1"
+      sources."is-data-view-1.0.1"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
