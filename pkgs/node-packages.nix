@@ -1786,13 +1786,13 @@ let
         sha512 = "0lht7OugA5x3iJLOWFhWK/5ehONdprk0ISXqVFn/NFrDu+cuc8iADFrGQz5BnRK7LLU3JmkbXSxaqX+/mXYtUA==";
       };
     };
-    "data-view-byte-length-1.0.0" = {
+    "data-view-byte-length-1.0.1" = {
       name = "data-view-byte-length";
       packageName = "data-view-byte-length";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/data-view-byte-length/-/data-view-byte-length-1.0.0.tgz";
-        sha512 = "osjbQqFifDjU/RWsmYPwULpkMSNTQs0G36adEntRgFzzo5+ZX+cr84XiawxMqi78d5avv6z88iOk7RScvW0CPw==";
+        url = "https://registry.npmjs.org/data-view-byte-length/-/data-view-byte-length-1.0.1.tgz";
+        sha512 = "4J7wRJD3ABAzr8wP+OcIcqq2dlUKp4DVflx++hs5h5ZKydWMI6/D/fAot+yh6g2tHh8fLFTvNOaVN357NvSrOQ==";
       };
     };
     "data-view-byte-offset-1.0.0" = {
@@ -7760,7 +7760,7 @@ in
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
       sources."data-view-buffer-1.0.1"
-      sources."data-view-byte-length-1.0.0"
+      sources."data-view-byte-length-1.0.1"
       sources."data-view-byte-offset-1.0.0"
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
