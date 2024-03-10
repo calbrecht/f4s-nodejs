@@ -3145,13 +3145,13 @@ let
         sha512 = "8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==";
       };
     };
-    "hasown-2.0.1" = {
+    "hasown-2.0.2" = {
       name = "hasown";
       packageName = "hasown";
-      version = "2.0.1";
+      version = "2.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/hasown/-/hasown-2.0.1.tgz";
-        sha512 = "1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==";
+        url = "https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz";
+        sha512 = "0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==";
       };
     };
     "hosted-git-info-2.8.9" = {
@@ -7866,7 +7866,7 @@ in
       sources."has-proto-1.0.3"
       sources."has-symbols-1.0.3"
       sources."has-tostringtag-1.0.2"
-      sources."hasown-2.0.1"
+      sources."hasown-2.0.2"
       sources."hosted-git-info-2.8.9"
       sources."ignore-4.0.6"
       sources."import-fresh-3.3.0"
@@ -8219,7 +8219,7 @@ in
       sources."function-bind-1.1.2"
       sources."glob-7.2.3"
       sources."has-flag-3.0.0"
-      sources."hasown-2.0.1"
+      sources."hasown-2.0.2"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."is-core-module-2.13.1"
@@ -8498,7 +8498,7 @@ in
       sources."har-schema-2.0.0"
       sources."har-validator-5.1.5"
       sources."has-unicode-2.0.1"
-      sources."hasown-2.0.1"
+      sources."hasown-2.0.2"
       sources."html-to-text-9.0.5"
       sources."htmlparser2-8.0.2"
       sources."http-proxy-agent-5.0.0"
