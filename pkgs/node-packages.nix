@@ -1435,13 +1435,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001596" = {
+    "caniuse-lite-1.0.30001597" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001596";
+      version = "1.0.30001597";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001596.tgz";
-        sha512 = "zpkZ+kEr6We7w63ORkoJ2pOfBwBkY/bJrG/UZ90qNb45Isblu8wzDgevEOrRL1r9dWayHjYiiyCMEXPn4DweGQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001597.tgz";
+        sha512 = "7LjJvmQU6Sj7bL0j5b5WY/3n7utXUJvAe1lxhsHDbLmwX9mdL86Yjtr+5SRCyf8qME4M7pU2hswj0FpyBVCv9w==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.699" = {
+    "electron-to-chromium-1.4.700" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.699";
+      version = "1.4.700";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.699.tgz";
-        sha512 = "I7q3BbQi6e4tJJN5CRcyvxhK0iJb34TV8eJQcgh+fR2fQ8miMgZcEInckCo1U9exDHbfz7DLDnFn8oqH/VcRKw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.700.tgz";
+        sha512 = "40dqKQ3F7C8fbBEmjSeJ+qEHCKzPyrP9SkeIBZ3wSCUH9nhWStrDz030XlDzlhNhlul1Z0fz7TpDFnsIzo4Jtg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6736,13 +6736,13 @@ let
         sha512 = "15ahjtDr3H+RBtTrvBcKhOFhIEiN3RZSCevDPWtBys+QUivZX9cYyNJcyWNIrUMVsgGrEuIThif9jxeEAQFauw==";
       };
     };
-    "which-typed-array-1.1.14" = {
+    "which-typed-array-1.1.15" = {
       name = "which-typed-array";
       packageName = "which-typed-array";
-      version = "1.1.14";
+      version = "1.1.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.14.tgz";
-        sha512 = "VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==";
+        url = "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.15.tgz";
+        sha512 = "oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==";
       };
     };
     "wide-align-1.1.5" = {
@@ -7183,7 +7183,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001596"
+      sources."caniuse-lite-1.0.30001597"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7202,7 +7202,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.699"
+      sources."electron-to-chromium-1.4.700"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8020,7 +8020,7 @@ in
       sources."validate-npm-package-license-3.0.4"
       sources."which-2.0.2"
       sources."which-boxed-primitive-1.0.2"
-      sources."which-typed-array-1.1.14"
+      sources."which-typed-array-1.1.15"
       sources."wrappy-1.0.2"
       sources."xdg-basedir-4.0.0"
       sources."yallist-4.0.0"
