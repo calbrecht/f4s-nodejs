@@ -787,13 +787,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.11.26" = {
+    "@types/node-20.11.27" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.26";
+      version = "20.11.27";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.26.tgz";
-        sha512 = "YwOMmyhNnAWijOBQweOJnQPl068Oqd4K3OFbTc6AHJwzweUwwWG3GIFY74OKks2PJUDkQPeddOQES9mLn1CTEQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.27.tgz";
+        sha512 = "qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.702" = {
+    "electron-to-chromium-1.4.703" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.702";
+      version = "1.4.703";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.702.tgz";
-        sha512 = "LYLXyEUsZ3nNSwiOWjI88N1PJUAMU2QphQSgGLVkFnb3FxZxNui2Vzi2PaKPgPWbsWbZstZnh6BMf/VQJamjiQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.703.tgz";
+        sha512 = "094ZZC4nHXPKl/OwPinSMtLN9+hoFkdfQGKnvXbY+3WEAYtVDpz9UhJIViiY6Zb8agvqxiaJzNG9M+pRZWvSZw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5368,13 +5368,13 @@ let
         sha512 = "Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==";
       };
     };
-    "require-in-the-middle-7.2.0" = {
+    "require-in-the-middle-7.2.1" = {
       name = "require-in-the-middle";
       packageName = "require-in-the-middle";
-      version = "7.2.0";
+      version = "7.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/require-in-the-middle/-/require-in-the-middle-7.2.0.tgz";
-        sha512 = "3TLx5TGyAY6AOqLBoXmHkNql0HIf2RGbuMgCDT2WO/uGVAPJs6h7Kl+bN6TIZGd9bWhWPwnDnTHGtW8Iu77sdw==";
+        url = "https://registry.npmjs.org/require-in-the-middle/-/require-in-the-middle-7.2.1.tgz";
+        sha512 = "u5XngygsJ+XV2dBV/Pl4SrcNpUXQfmYmXtuFeHDXfzk4i4NnGnret6xKWkkJHjMHS/16yMV9pEAlAunqmjllkA==";
       };
     };
     "require-relative-0.8.7" = {
@@ -7202,7 +7202,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.702"
+      sources."electron-to-chromium-1.4.703"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8049,7 +8049,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.11.26"
+      sources."@types/node-20.11.27"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8397,7 +8397,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.11.26"
+      sources."@types/node-20.11.27"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
@@ -8574,7 +8574,7 @@ in
           sources."uuid-3.4.0"
         ];
       })
-      sources."require-in-the-middle-7.2.0"
+      sources."require-in-the-middle-7.2.1"
       sources."resolve-1.22.8"
       sources."reusify-1.0.4"
       (sources."rimraf-3.0.2" // {
