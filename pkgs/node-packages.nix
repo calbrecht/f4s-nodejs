@@ -31,22 +31,22 @@ let
         sha512 = "TrRLIoSQVzfAJX9H1JeFjzAoDGcoK1IYX1UImfceTZpsyYfWr09Ss1aHW1y5TrrR3iq6RZLBwJ3E24uwPhwahw==";
       };
     };
-    "@azure/abort-controller-2.0.0" = {
+    "@azure/abort-controller-2.1.0" = {
       name = "_at_azure_slash_abort-controller";
       packageName = "@azure/abort-controller";
-      version = "2.0.0";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/abort-controller/-/abort-controller-2.0.0.tgz";
-        sha512 = "RP/mR/WJchR+g+nQFJGOec+nzeN/VvjlwbinccoqfhTsTHbb8X5+mLDp48kHT0ueyum0BNSwGm0kX0UZuIqTGg==";
+        url = "https://registry.npmjs.org/@azure/abort-controller/-/abort-controller-2.1.0.tgz";
+        sha512 = "SYtcG13aiV7znycu6plCClWUzD9BBtfnsbIxT89nkkRvQRB4n0kuZyJJvJ7hqdKOn7x7YoGKZ9lVStLJpLnOFw==";
       };
     };
-    "@azure/core-auth-1.6.0" = {
+    "@azure/core-auth-1.7.0" = {
       name = "_at_azure_slash_core-auth";
       packageName = "@azure/core-auth";
-      version = "1.6.0";
+      version = "1.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.6.0.tgz";
-        sha512 = "3X9wzaaGgRaBCwhLQZDtFp5uLIXCPrGbwJNWPPugvL4xbIGgScv77YzzxToKGLAKvG9amDoofMoP+9hsH1vs1w==";
+        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.7.0.tgz";
+        sha512 = "OuDVn9z2LjyYbpu6e7crEwSipa62jX7/ObV/pmXQfnOG8cHwm363jYtg3FSX3GB1V7jsIKri1zgq7mfXkFk/qw==";
       };
     };
     "@azure/core-rest-pipeline-1.10.1" = {
@@ -58,13 +58,13 @@ let
         sha512 = "Kji9k6TOFRDB5ZMTw8qUf2IJ+CeJtsuMdAHox9eqpTf1cefiNMpzrfnF6sINEBZJsaVaWgQ0o48B6kcUH68niA==";
       };
     };
-    "@azure/core-tracing-1.0.1" = {
+    "@azure/core-tracing-1.1.0" = {
       name = "_at_azure_slash_core-tracing";
       packageName = "@azure/core-tracing";
-      version = "1.0.1";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.0.1.tgz";
-        sha512 = "I5CGMoLtX+pI17ZdiFJZgxMJApsK6jjfm85hpgp3oazCdq5Wxgh4wMr7ge/TTWW1B5WBuvIOI1fMU/FrOAMKrw==";
+        url = "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.1.0.tgz";
+        sha512 = "MVeJvGHB4jmF7PeHhyr72vYJsBJ3ff1piHikMgRaabPAC4P3rxhf9fm42I+DixLysBunskJWhsDQD2A+O+plkQ==";
       };
     };
     "@azure/core-util-1.2.0" = {
@@ -76,13 +76,13 @@ let
         sha512 = "ffGIw+Qs8bNKNLxz5UPkz4/VBM/EZY07mPve1ZYFqYUdPwFqRj0RPk0U7LZMOfT7GCck9YjuT1Rfp1PApNl1ng==";
       };
     };
-    "@azure/logger-1.0.4" = {
+    "@azure/logger-1.1.0" = {
       name = "_at_azure_slash_logger";
       packageName = "@azure/logger";
-      version = "1.0.4";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.0.4.tgz";
-        sha512 = "ustrPY8MryhloQj7OWGe+HrYx+aoiOxzbXTtgblbV3xwCqpzUK36phH3XNHQKj3EPonyFUuDTfR3qFhTEAuZEg==";
+        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.1.0.tgz";
+        sha512 = "BnfkfzVEsrgbVCtqq0RYRMePSH2lL/cgUUR5sYRF4yNN10zJZq/cODz0r89k3ykY83MqeM3twR292a3YBNgC3w==";
       };
     };
     "@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.703" = {
+    "electron-to-chromium-1.4.706" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.703";
+      version = "1.4.706";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.703.tgz";
-        sha512 = "094ZZC4nHXPKl/OwPinSMtLN9+hoFkdfQGKnvXbY+3WEAYtVDpz9UhJIViiY6Zb8agvqxiaJzNG9M+pRZWvSZw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.706.tgz";
+        sha512 = "fO01fufoGd6jKK3HR8ofBapF3ZPfgxNJ/ua9xQAhFu93TwWIs4d+weDn3kje3GB4S7aGUTfk5nvdU5F7z5mF9Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7202,7 +7202,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.703"
+      sources."electron-to-chromium-1.4.706"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8350,20 +8350,20 @@ in
       sha512 = "bvN8aH5mHnuQH0yAr2ZFwQPtC6nE3MfxQvtzjCICxwAMvdngJyUPFvFR8aFKhwgRYMNzVmIMZSOlx+3DJWviUA==";
     };
     dependencies = [
-      sources."@azure/abort-controller-2.0.0"
-      sources."@azure/core-auth-1.6.0"
+      sources."@azure/abort-controller-2.1.0"
+      sources."@azure/core-auth-1.7.0"
       (sources."@azure/core-rest-pipeline-1.10.1" // {
         dependencies = [
           sources."@azure/abort-controller-1.1.0"
         ];
       })
-      sources."@azure/core-tracing-1.0.1"
+      sources."@azure/core-tracing-1.1.0"
       (sources."@azure/core-util-1.2.0" // {
         dependencies = [
           sources."@azure/abort-controller-1.1.0"
         ];
       })
-      sources."@azure/logger-1.0.4"
+      sources."@azure/logger-1.1.0"
       sources."@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5"
       sources."@bmewburn/js-beautify-1.14.9"
       sources."@bmewburn/vscode-html-languageserver-1.10.0"
