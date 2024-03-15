@@ -787,13 +787,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.11.27" = {
+    "@types/node-20.11.28" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.27";
+      version = "20.11.28";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.27.tgz";
-        sha512 = "qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.28.tgz";
+        sha512 = "M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.706" = {
+    "electron-to-chromium-1.4.708" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.706";
+      version = "1.4.708";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.706.tgz";
-        sha512 = "fO01fufoGd6jKK3HR8ofBapF3ZPfgxNJ/ua9xQAhFu93TwWIs4d+weDn3kje3GB4S7aGUTfk5nvdU5F7z5mF9Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.708.tgz";
+        sha512 = "iWgEEvREL4GTXXHKohhh33+6Y8XkPI5eHihDmm8zUk5Zo7HICEW+wI/j5kJ2tbuNUCXJ/sNXa03ajW635DiJXA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6232,6 +6232,15 @@ let
         sha512 = "ntI9R7fcUKjqBP6QU8rBK2Ehyt8LAzt3UBT9JR9tgo6GtuKvyUzpayWmeMKJw1DPdXzktvtIT8m2mVXz+bL/Qg==";
       };
     };
+    "turndown-7.1.3" = {
+      name = "turndown";
+      packageName = "turndown";
+      version = "7.1.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/turndown/-/turndown-7.1.3.tgz";
+        sha512 = "Z3/iJ6IWh8VBiACWQJaA5ulPQE5E1QwvBHj00uGzdQxdRnd8fh1DPqNOJqzQDu6DkOstORrtXzf/9adB+vMtEA==";
+      };
+    };
     "turndown-plugin-gfm-1.0.2" = {
       name = "turndown-plugin-gfm";
       packageName = "turndown-plugin-gfm";
@@ -7202,7 +7211,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.706"
+      sources."electron-to-chromium-1.4.708"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8049,7 +8058,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.11.27"
+      sources."@types/node-20.11.28"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8397,7 +8406,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.11.27"
+      sources."@types/node-20.11.28"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
@@ -8625,7 +8634,7 @@ in
       sources."tr46-0.0.3"
       sources."tslib-2.6.2"
       sources."tunnel-agent-0.6.0"
-      sources."turndown-7.1.2"
+      sources."turndown-7.1.3"
       sources."turndown-plugin-gfm-1.0.2"
       sources."tweetnacl-0.14.5"
       sources."typescript-5.4.2"
