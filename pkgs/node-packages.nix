@@ -1435,13 +1435,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001597" = {
+    "caniuse-lite-1.0.30001599" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001597";
+      version = "1.0.30001599";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001597.tgz";
-        sha512 = "7LjJvmQU6Sj7bL0j5b5WY/3n7utXUJvAe1lxhsHDbLmwX9mdL86Yjtr+5SRCyf8qME4M7pU2hswj0FpyBVCv9w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001599.tgz";
+        sha512 = "LRAQHZ4yT1+f9LemSMeqdMpMxZcc4RMWdj4tiFe3G8tNkWK+E58g+/tzotb5cU6TbcVJLr4fySiAW7XmxQvZQA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2173,13 +2173,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.23.0" = {
+    "es-abstract-1.23.1" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.23.0";
+      version = "1.23.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.23.0.tgz";
-        sha512 = "vmuE7Uoevk2xkwu5Gwa7RfJk/ebVV6xRv7KuZNbUglmJHhWPMbLL20ztreVpBbdxBZijETx3Aml3NssX4SFMvQ==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.23.1.tgz";
+        sha512 = "r+YVn6hTqQb+P5kK0u3KeDqrmhHKm+OhU/Mw4jSL4eQtOxXmp75fXIUUb3sUqFZOlb/YtW5JRaIfEC3UyjYUZQ==";
       };
     };
     "es-define-property-1.0.0" = {
@@ -2198,6 +2198,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz";
         sha512 = "Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==";
+      };
+    };
+    "es-object-atoms-1.0.0" = {
+      name = "es-object-atoms";
+      packageName = "es-object-atoms";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/es-object-atoms/-/es-object-atoms-1.0.0.tgz";
+        sha512 = "MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==";
       };
     };
     "es-set-tostringtag-2.0.3" = {
@@ -5899,22 +5908,22 @@ let
         sha512 = "rGXbGmOEosIQi6Qva94HUjgPs9vKW+dkG7Y8Q5O2OYkWL6wFaTRZO8zM4mhP94uX55wgyrXzfS2aGtGzUL7EJQ==";
       };
     };
-    "string.prototype.trim-1.2.8" = {
+    "string.prototype.trim-1.2.9" = {
       name = "string.prototype.trim";
       packageName = "string.prototype.trim";
-      version = "1.2.8";
+      version = "1.2.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.8.tgz";
-        sha512 = "lfjY4HcixfQXOfaqCvcBuOIapyaroTXhbkfJN3gcB1OtyupngWK4sEET9Knd0cXd28kTUqu/kHoV4HKSJdnjiQ==";
+        url = "https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.9.tgz";
+        sha512 = "klHuCNxiMZ8MlsOihJhJEBJAiMVqU3Z2nEXWfWnIqjN0gEFS9J9+IxKozWWtQGcgoa1WUZzLjKPTr4ZHNFTFxw==";
       };
     };
-    "string.prototype.trimend-1.0.7" = {
+    "string.prototype.trimend-1.0.8" = {
       name = "string.prototype.trimend";
       packageName = "string.prototype.trimend";
-      version = "1.0.7";
+      version = "1.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.7.tgz";
-        sha512 = "Ni79DqeB72ZFq1uH/L6zJ+DKZTkOtPIHovb3YZHQViE+HDouuU4mBrLOLDn5Dde3RF8qw5qVETEjhu9locMLvA==";
+        url = "https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.8.tgz";
+        sha512 = "p73uL5VCHCO2BZZ6krwwQE3kCzM7NKmis8S//xEC6fQonchbum4eP6kR4DLEjQFO3Wnj3Fuo8NM0kOSjVdHjZQ==";
       };
     };
     "string.prototype.trimstart-1.0.7" = {
@@ -7192,7 +7201,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001597"
+      sources."caniuse-lite-1.0.30001599"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7779,9 +7788,10 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.4.1"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.23.0"
+      sources."es-abstract-1.23.1"
       sources."es-define-property-1.0.0"
       sources."es-errors-1.3.0"
+      sources."es-object-atoms-1.0.0"
       sources."es-set-tostringtag-2.0.3"
       sources."es-shim-unscopables-1.0.2"
       sources."es-to-primitive-1.2.1"
@@ -8001,8 +8011,8 @@ in
       sources."standard-engine-14.0.1"
       sources."string-width-4.2.3"
       sources."string.prototype.matchall-4.0.10"
-      sources."string.prototype.trim-1.2.8"
-      sources."string.prototype.trimend-1.0.7"
+      sources."string.prototype.trim-1.2.9"
+      sources."string.prototype.trimend-1.0.8"
       sources."string.prototype.trimstart-1.0.7"
       sources."strip-ansi-6.0.1"
       sources."strip-bom-3.0.0"
