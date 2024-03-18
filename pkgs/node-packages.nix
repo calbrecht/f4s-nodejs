@@ -787,13 +787,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.11.28" = {
+    "@types/node-20.11.29" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.28";
+      version = "20.11.29";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.28.tgz";
-        sha512 = "M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.29.tgz";
+        sha512 = "P99thMkD/1YkCvAtOd6/zGedKNA0p2fj4ZpjCzcNiSCBWgm3cNRTBfa/qjFnsKkkojxu4vVLtWpesnZ9+ap+gA==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.708" = {
+    "electron-to-chromium-1.4.709" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.708";
+      version = "1.4.709";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.708.tgz";
-        sha512 = "iWgEEvREL4GTXXHKohhh33+6Y8XkPI5eHihDmm8zUk5Zo7HICEW+wI/j5kJ2tbuNUCXJ/sNXa03ajW635DiJXA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.709.tgz";
+        sha512 = "ixj1cyHrKqmdXF5CeHDSLbO0KRuOE1BHdCYKbcRA04dPLaKu8Vi7JDK5KLnGrfD6WxKcSEGm9gtHR4MqBq8gmg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4693,13 +4693,13 @@ let
         sha512 = "byy+U7gp+FVwmyzKPYhW2h5l3crpmGsxl7X2s8y43IgxvG4g3QZ6CffDtsNQy1WsmZpQbO+ybo0AlW7TY6DcBQ==";
       };
     };
-    "object.entries-1.1.7" = {
+    "object.entries-1.1.8" = {
       name = "object.entries";
       packageName = "object.entries";
-      version = "1.1.7";
+      version = "1.1.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object.entries/-/object.entries-1.1.7.tgz";
-        sha512 = "jCBs/0plmPsOnrKAfFQXRG2NFjlhZgjjcBLSmTnEhU8U6vVTsVe8ANeQJCHTl3gSsI4J+0emOoCgoKlmQPMgmA==";
+        url = "https://registry.npmjs.org/object.entries/-/object.entries-1.1.8.tgz";
+        sha512 = "cmopxi8VwRIAw/fkijJohSfpef5PdN0pMQJN6VC/ZKvn0LIknWD8KtgY6KlQdEc4tIjcQ3HxSMmnvtzIscdaYQ==";
       };
     };
     "object.fromentries-2.0.7" = {
@@ -4720,13 +4720,13 @@ let
         sha512 = "fFI4VcYpRHvSLXxP7yiZOMAd331cPfd2p7PFDVbgUsYOfCT3tICVqXWngbjr4m49OvsBwUBQ6O2uQoJvy3RexA==";
       };
     };
-    "object.values-1.1.7" = {
+    "object.values-1.2.0" = {
       name = "object.values";
       packageName = "object.values";
-      version = "1.1.7";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/object.values/-/object.values-1.1.7.tgz";
-        sha512 = "aU6xnDFYT3x17e/f0IiiwlGPTy2jzMySGfUB4fq6z7CV8l85CWHDk5ErhyhpfDHhrOMwGFhSQkhMGHaIotA6Ng==";
+        url = "https://registry.npmjs.org/object.values/-/object.values-1.2.0.tgz";
+        sha512 = "yBYjY9QX2hnRmZHAjG/f13MzmBzxzYgQhFrke06TTyKY5zSTEqkOeukBzIdVA3j3ulu8Qa3MbVFShV7T2RmGtQ==";
       };
     };
     "once-1.4.0" = {
@@ -7220,7 +7220,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.2"
-      sources."electron-to-chromium-1.4.708"
+      sources."electron-to-chromium-1.4.709"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7943,10 +7943,10 @@ in
       sources."object-inspect-1.13.1"
       sources."object-keys-1.1.1"
       sources."object.assign-4.1.5"
-      sources."object.entries-1.1.7"
+      sources."object.entries-1.1.8"
       sources."object.fromentries-2.0.7"
       sources."object.hasown-1.1.3"
-      sources."object.values-1.1.7"
+      sources."object.values-1.2.0"
       sources."once-1.4.0"
       sources."optionator-0.9.3"
       sources."p-limit-1.3.0"
@@ -8068,7 +8068,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.11.28"
+      sources."@types/node-20.11.29"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8416,7 +8416,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.11.28"
+      sources."@types/node-20.11.29"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
