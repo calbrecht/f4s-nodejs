@@ -2173,13 +2173,13 @@ let
         sha512 = "7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==";
       };
     };
-    "es-abstract-1.23.1" = {
+    "es-abstract-1.23.2" = {
       name = "es-abstract";
       packageName = "es-abstract";
-      version = "1.23.1";
+      version = "1.23.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.23.1.tgz";
-        sha512 = "r+YVn6hTqQb+P5kK0u3KeDqrmhHKm+OhU/Mw4jSL4eQtOxXmp75fXIUUb3sUqFZOlb/YtW5JRaIfEC3UyjYUZQ==";
+        url = "https://registry.npmjs.org/es-abstract/-/es-abstract-1.23.2.tgz";
+        sha512 = "60s3Xv2T2p1ICykc7c+DNDPLDMm9t4QxCOUU0K9JxiLjM3C1zB9YVdN7tjxrFd4+AkZ8CdX1ovUga4P2+1e+/w==";
       };
     };
     "es-define-property-1.0.0" = {
@@ -7788,7 +7788,7 @@ in
       sources."emoji-regex-8.0.0"
       sources."enquirer-2.4.1"
       sources."error-ex-1.3.2"
-      sources."es-abstract-1.23.1"
+      sources."es-abstract-1.23.2"
       sources."es-define-property-1.0.0"
       sources."es-errors-1.3.0"
       sources."es-object-atoms-1.0.0"
