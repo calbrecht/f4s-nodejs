@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.715" = {
+    "electron-to-chromium-1.4.716" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.715";
+      version = "1.4.716";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.715.tgz";
-        sha512 = "XzWNH4ZSa9BwVUQSDorPWAUQ5WGuYz7zJUNpNif40zFCiCl20t8zgylmreNmn26h5kiyw2lg7RfTmeMBsDklqg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.716.tgz";
+        sha512 = "t/MXMzFKQC3UfMDpw7V5wdB/UAB8dWx4hEsy+fpPYJWW3gqh3u5T1uXp6vR+H6dGCPBxkRo+YBcapBLvbGQHRw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7220,7 +7220,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.715"
+      sources."electron-to-chromium-1.4.716"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7451,10 +7451,10 @@ in
   node-gyp = nodeEnv.buildNodePackage {
     name = "node-gyp";
     packageName = "node-gyp";
-    version = "10.0.1";
+    version = "10.1.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/node-gyp/-/node-gyp-10.0.1.tgz";
-      sha512 = "gg3/bHehQfZivQVfqIyy8wTdSymF9yTyP4CJifK73imyNMU8AIGQE2pUa7dNWfmMeG9cDVF2eehiRMv0LC1iAg==";
+      url = "https://registry.npmjs.org/node-gyp/-/node-gyp-10.1.0.tgz";
+      sha512 = "B4J5M1cABxPc5PwfjhbV5hoy2DP9p8lFXASnEN6hugXOa61416tnTZ29x9sSwAd0o99XNIcpvDDy1swAExsVKA==";
     };
     dependencies = [
       sources."@isaacs/cliui-8.0.2"
@@ -8361,10 +8361,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.10.2";
+    version = "1.10.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.10.2.tgz";
-      sha512 = "bvN8aH5mHnuQH0yAr2ZFwQPtC6nE3MfxQvtzjCICxwAMvdngJyUPFvFR8aFKhwgRYMNzVmIMZSOlx+3DJWviUA==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.10.3.tgz";
+      sha512 = "oNgnkdiygJIbbRjqHs9zCMkye14QVCdEFe+A3ZEvzYnnt0ngDQNetJqFZsJjF8CSWo4fi8AR0GKsz28FAdTnvA==";
     };
     dependencies = [
       sources."@azure/abort-controller-2.1.1"
