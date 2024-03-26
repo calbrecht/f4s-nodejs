@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.716" = {
+    "electron-to-chromium-1.4.717" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.716";
+      version = "1.4.717";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.716.tgz";
-        sha512 = "t/MXMzFKQC3UfMDpw7V5wdB/UAB8dWx4hEsy+fpPYJWW3gqh3u5T1uXp6vR+H6dGCPBxkRo+YBcapBLvbGQHRw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.717.tgz";
+        sha512 = "6Fmg8QkkumNOwuZ/5mIbMU9WI3H2fmn5ajcVya64I5Yr5CcNmO7vcLt0Y7c96DCiMO5/9G+4sI2r6eEvdg1F7A==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6079,13 +6079,13 @@ let
         sha512 = "ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==";
       };
     };
-    "table-6.8.1" = {
+    "table-6.8.2" = {
       name = "table";
       packageName = "table";
-      version = "6.8.1";
+      version = "6.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/table/-/table-6.8.1.tgz";
-        sha512 = "Y4X9zqrCftUhMeH2EptSSERdVKt/nEdijTOacGD/97EKjhQ/Qs8RTlEGABSJNNN8lac9kheH+af7yAkEWlgneA==";
+        url = "https://registry.npmjs.org/table/-/table-6.8.2.tgz";
+        sha512 = "w2sfv80nrAh2VCbqR5AK27wswXhqcck2AhfnNW76beQXskGZ1V12GwS//yYVa3d3fcvAip2OUnbDAjW2k3v9fA==";
       };
     };
     "tar-4.4.19" = {
@@ -7220,7 +7220,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.716"
+      sources."electron-to-chromium-1.4.717"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8016,7 +8016,7 @@ in
       sources."strip-json-comments-3.1.1"
       sources."supports-color-5.5.0"
       sources."supports-preserve-symlinks-flag-1.0.0"
-      (sources."table-6.8.1" // {
+      (sources."table-6.8.2" // {
         dependencies = [
           sources."ajv-8.12.0"
           sources."json-schema-traverse-1.0.0"
@@ -8361,10 +8361,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.10.3";
+    version = "1.10.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.10.3.tgz";
-      sha512 = "oNgnkdiygJIbbRjqHs9zCMkye14QVCdEFe+A3ZEvzYnnt0ngDQNetJqFZsJjF8CSWo4fi8AR0GKsz28FAdTnvA==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.10.4.tgz";
+      sha512 = "YcSeqygon2uNn3GjQqxs3vSZQTvdbZ13WG54i+c0t6UcViEso/K5Vq9To/024h3OqCvJR2RlmunnEIuorvDqHg==";
     };
     dependencies = [
       sources."@azure/abort-controller-2.1.1"
