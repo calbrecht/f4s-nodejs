@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.717" = {
+    "electron-to-chromium-1.4.718" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.717";
+      version = "1.4.718";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.717.tgz";
-        sha512 = "6Fmg8QkkumNOwuZ/5mIbMU9WI3H2fmn5ajcVya64I5Yr5CcNmO7vcLt0Y7c96DCiMO5/9G+4sI2r6eEvdg1F7A==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.718.tgz";
+        sha512 = "6FpOapKxHuRNUoNQEP54sAacMod/XX68/Oaau+UoTEC8yxy5lR8jAvTlyrb60oZ9OtuUuAEtKvCQOJm6S4MtBQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5377,13 +5377,13 @@ let
         sha512 = "Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==";
       };
     };
-    "require-in-the-middle-7.2.1" = {
+    "require-in-the-middle-7.3.0" = {
       name = "require-in-the-middle";
       packageName = "require-in-the-middle";
-      version = "7.2.1";
+      version = "7.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/require-in-the-middle/-/require-in-the-middle-7.2.1.tgz";
-        sha512 = "u5XngygsJ+XV2dBV/Pl4SrcNpUXQfmYmXtuFeHDXfzk4i4NnGnret6xKWkkJHjMHS/16yMV9pEAlAunqmjllkA==";
+        url = "https://registry.npmjs.org/require-in-the-middle/-/require-in-the-middle-7.3.0.tgz";
+        sha512 = "nQFEv9gRw6SJAwWD2LrL0NmQvAcO7FBwJbwmr2ttPAacfy0xuiOjE5zt+zM4xDyuyvUaxBi/9gb2SoCyNEVJcw==";
       };
     };
     "require-relative-0.8.7" = {
@@ -7220,7 +7220,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.717"
+      sources."electron-to-chromium-1.4.718"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8591,7 +8591,7 @@ in
           sources."uuid-3.4.0"
         ];
       })
-      sources."require-in-the-middle-7.2.1"
+      sources."require-in-the-middle-7.3.0"
       sources."resolve-1.22.8"
       sources."reusify-1.0.4"
       (sources."rimraf-3.0.2" // {
