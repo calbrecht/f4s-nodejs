@@ -787,13 +787,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.11.30" = {
+    "@types/node-20.12.2" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.30";
+      version = "20.12.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.30.tgz";
-        sha512 = "dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.2.tgz";
+        sha512 = "zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -913,13 +913,13 @@ let
         sha512 = "RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==";
       };
     };
-    "agent-base-7.1.0" = {
+    "agent-base-7.1.1" = {
       name = "agent-base";
       packageName = "agent-base";
-      version = "7.1.0";
+      version = "7.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/agent-base/-/agent-base-7.1.0.tgz";
-        sha512 = "o/zjMZRhJxny7OyEF+Op8X+efiELC7k7yOjMzgfzVqOzXqkBkWI79YoTdOtsuWd5BWhAGAuOY/Xa6xpiaWXiNg==";
+        url = "https://registry.npmjs.org/agent-base/-/agent-base-7.1.1.tgz";
+        sha512 = "H0TSyFNDMomMNJQBn8wFV5YC/2eJ+VXECwOadZJT554xP6cODZHPX3H9QMQECxvrgiSOP1pHjy1sMWQVYJOUOA==";
       };
     };
     "agentkeepalive-4.5.0" = {
@@ -5728,13 +5728,13 @@ let
         sha512 = "a6KW9G+6B3nWZ1yB8G7pJwL3ggLy1uTzKAgCb7ttblwqdz9fMGJUuTy3uFzEP48FAs9FLILlmzDlE2JJhVQaXQ==";
       };
     };
-    "socks-proxy-agent-8.0.2" = {
+    "socks-proxy-agent-8.0.3" = {
       name = "socks-proxy-agent";
       packageName = "socks-proxy-agent";
-      version = "8.0.2";
+      version = "8.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.2.tgz";
-        sha512 = "8zuqoLv1aP/66PHF5TqwJ7Czm3Yv32urJQHrVyhD7mmA6d61Zv8cIXQYPTWwmg6qlupnPvs/QKDmfa4P/qct2g==";
+        url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.3.tgz";
+        sha512 = "VNegTZKhuGq5vSD6XNKlbqWhyt/40CgoEw8XxD6dhnm8Jq9IEa3nIa4HwnM8XOqU0CdB0BwWVXusqiFXfHB3+A==";
       };
     };
     "spdx-correct-3.2.0" = {
@@ -7461,7 +7461,7 @@ in
       sources."@npmcli/agent-2.2.1"
       sources."@npmcli/fs-3.1.0"
       sources."abbrev-2.0.0"
-      sources."agent-base-7.1.0"
+      sources."agent-base-7.1.1"
       sources."aggregate-error-3.1.0"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-6.2.1"
@@ -7544,7 +7544,7 @@ in
       sources."signal-exit-4.1.0"
       sources."smart-buffer-4.2.0"
       sources."socks-2.8.1"
-      sources."socks-proxy-agent-8.0.2"
+      sources."socks-proxy-agent-8.0.3"
       sources."sprintf-js-1.1.3"
       sources."ssri-10.0.5"
       sources."string-width-5.1.2"
@@ -8065,7 +8065,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.11.30"
+      sources."@types/node-20.12.2"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8414,7 +8414,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.11.30"
+      sources."@types/node-20.12.2"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
