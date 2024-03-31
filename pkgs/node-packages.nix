@@ -1435,13 +1435,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001600" = {
+    "caniuse-lite-1.0.30001603" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001600";
+      version = "1.0.30001603";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001600.tgz";
-        sha512 = "+2S9/2JFhYmYaDpZvo0lKkfvuKIglrx68MwOBqMGHhQsNkLjB5xtc/TGoEPs+MxjSyN/72qer2g97nzR641mOQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001603.tgz";
+        sha512 = "iL2iSS0eDILMb9n5yKQoTBim9jMZ0Yrk8g0N9K7UzYyWnfIKzXBZD5ngpM37ZcL/cv0Mli8XtVMRYMQAfFpi5Q==";
       };
     };
     "cardinal-1.0.0" = {
@@ -4468,13 +4468,13 @@ let
         sha512 = "+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==";
       };
     };
-    "node-abi-3.56.0" = {
+    "node-abi-3.57.0" = {
       name = "node-abi";
       packageName = "node-abi";
-      version = "3.56.0";
+      version = "3.57.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.56.0.tgz";
-        sha512 = "fZjdhDOeRcaS+rcpve7XuwHBmktS1nS1gzgghwKUQQ8nTy2FdSDr6ZT8k6YhvlJeHmmQMYiT/IH9hfco5zeW2Q==";
+        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.57.0.tgz";
+        sha512 = "Dp+A9JWxRaKuHP35H77I4kCKesDy5HUDEmScia2FyncMTOXASMyg251F5PhFoDA5uqBrDDffiLpbqnrZmNXW+g==";
       };
     };
     "node-addon-api-7.1.0" = {
@@ -7201,7 +7201,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001600"
+      sources."caniuse-lite-1.0.30001603"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7328,7 +7328,7 @@ in
       sources."ms-2.1.2"
       sources."napi-build-utils-1.0.2"
       sources."negotiator-0.6.3"
-      (sources."node-abi-3.56.0" // {
+      (sources."node-abi-3.57.0" // {
         dependencies = [
           sources."lru-cache-6.0.0"
           sources."semver-7.6.0"
