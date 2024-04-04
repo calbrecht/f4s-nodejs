@@ -787,13 +787,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.12.3" = {
+    "@types/node-20.12.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.3";
+      version = "20.12.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.3.tgz";
-        sha512 = "sD+ia2ubTeWrOu+YMF+MTAB7E+O7qsMqAbMfW7DG3K1URwhZ5hN1pLlRVGbf4wDFzSfikL05M17EyorS86jShw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.4.tgz";
+        sha512 = "E+Fa9z3wSQpzgYQdYmme5X3OTuejnnTx88A6p6vkkJosR3KBz+HpE3kqNm98VE6cfLFcISx7zW7MsJkH6KwbTw==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2065,13 +2065,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.725" = {
+    "electron-to-chromium-1.4.727" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.725";
+      version = "1.4.727";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.725.tgz";
-        sha512 = "OGkMXLY7XH6ykHE5ZOVVIMHaGAvvxqw98cswTKB683dntBJre7ufm9wouJ0ExDm0VXhHenU8mREvxIbV5nNoVQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.727.tgz";
+        sha512 = "brpv4KTeC4g0Fx2FeIKytLd4UGn1zBQq5Lauy7zEWT9oqkaj5mgsxblEZIAOf1HHLlXxzr6adGViiBy5Z39/CA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6340,13 +6340,13 @@ let
         sha512 = "/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==";
       };
     };
-    "typescript-5.4.3" = {
+    "typescript-5.4.4" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.4.3";
+      version = "5.4.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.4.3.tgz";
-        sha512 = "KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.4.4.tgz";
+        sha512 = "dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -7220,7 +7220,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.725"
+      sources."electron-to-chromium-1.4.727"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8065,7 +8065,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.12.3"
+      sources."@types/node-20.12.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8255,7 +8255,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-5.4.3"
+      sources."typescript-5.4.4"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -8271,10 +8271,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "5.4.3";
+    version = "5.4.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-5.4.3.tgz";
-      sha512 = "KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.4.4.tgz";
+      sha512 = "dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8414,7 +8414,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.12.3"
+      sources."@types/node-20.12.4"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
@@ -8649,7 +8649,7 @@ in
       sources."turndown-7.1.3"
       sources."turndown-plugin-gfm-1.0.2"
       sources."tweetnacl-0.14.5"
-      sources."typescript-5.4.3"
+      sources."typescript-5.4.4"
       sources."undici-types-5.26.5"
       sources."universalify-2.0.1"
       sources."uri-js-4.4.1"
