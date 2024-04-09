@@ -814,13 +814,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.12.5" = {
+    "@types/node-20.12.7" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.5";
+      version = "20.12.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.5.tgz";
-        sha512 = "BD+BjQ9LS/D8ST9p5uqBxghlN+S42iuNxjsUGjeZobe/ciXzk2qb1B6IXc6AnRLS+yFJRpN2IPEHMzwspfDJNw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.7.tgz";
+        sha512 = "wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -5800,13 +5800,13 @@ let
         sha512 = "94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==";
       };
     };
-    "socks-2.8.1" = {
+    "socks-2.8.2" = {
       name = "socks";
       packageName = "socks";
-      version = "2.8.1";
+      version = "2.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks/-/socks-2.8.1.tgz";
-        sha512 = "B6w7tkwNid7ToxjZ08rQMT8M9BJAf8DKx8Ft4NivzH0zBUfd6jldGcisJn/RLgxcX3FPNDdNQCUEMMT79b+oCQ==";
+        url = "https://registry.npmjs.org/socks/-/socks-2.8.2.tgz";
+        sha512 = "5Hvyu6Md91ooZzdrN/bSn/zlulFaRHrk2/6IY6qQNa3oVHTiG+CKxBV5PynKCGf31ar+3/hyPvlHFAYaBEOa3A==";
       };
     };
     "socks-proxy-agent-6.2.1" = {
@@ -7455,7 +7455,7 @@ in
       sources."simple-get-4.0.1"
       sources."simple-swizzle-0.2.2"
       sources."smart-buffer-4.2.0"
-      sources."socks-2.8.1"
+      sources."socks-2.8.2"
       sources."socks-proxy-agent-6.2.1"
       sources."sprintf-js-1.1.3"
       sources."sqlite3-5.1.7"
@@ -7626,7 +7626,7 @@ in
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
       sources."smart-buffer-4.2.0"
-      sources."socks-2.8.1"
+      sources."socks-2.8.2"
       sources."socks-proxy-agent-8.0.3"
       sources."sprintf-js-1.1.3"
       sources."ssri-10.0.5"
@@ -8148,7 +8148,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.12.5"
+      sources."@types/node-20.12.7"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8497,7 +8497,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.12.5"
+      sources."@types/node-20.12.7"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
