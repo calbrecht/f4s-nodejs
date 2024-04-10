@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001607" = {
+    "caniuse-lite-1.0.30001608" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001607";
+      version = "1.0.30001608";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001607.tgz";
-        sha512 = "WcvhVRjXLKFB/kmOFVwELtMxyhq3iM/MvmXcyCe2PNf166c39mptscOc/45TTS96n2gpNV2z7+NakArTWZCQ3w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001608.tgz";
+        sha512 = "cjUJTQkk9fQlJR2s4HMuPMvTiRggl0rAVMtthQuyOlDWuqHXqN8azLq+pi8B2TjwKJ32diHjUqRIKeFX4z1FoA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.730" = {
+    "electron-to-chromium-1.4.732" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.730";
+      version = "1.4.732";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.730.tgz";
-        sha512 = "oJRPo82XEqtQAobHpJIR3zW5YO3sSRRkPz2an4yxi1UvqhsGm54vR/wzTFV74a3soDOJ8CKW7ajOOX5ESzddwg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.732.tgz";
+        sha512 = "nLrzr6UML+oqCyvseTxJ1WxLsnMSQPJCoHu+MuOuNiCp7BHEdG9AmCTw2Y9FU/wFFc/ETE0F6JVtzzPryEjecw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5800,13 +5800,13 @@ let
         sha512 = "94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==";
       };
     };
-    "socks-2.8.2" = {
+    "socks-2.8.3" = {
       name = "socks";
       packageName = "socks";
-      version = "2.8.2";
+      version = "2.8.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/socks/-/socks-2.8.2.tgz";
-        sha512 = "5Hvyu6Md91ooZzdrN/bSn/zlulFaRHrk2/6IY6qQNa3oVHTiG+CKxBV5PynKCGf31ar+3/hyPvlHFAYaBEOa3A==";
+        url = "https://registry.npmjs.org/socks/-/socks-2.8.3.tgz";
+        sha512 = "l5x7VUUWbjVFbafGLxPWkYsHIhEvmF85tbIeFZWc8ZPtoMyybuEhL7Jye/ooC4/d48FgOjSJXgsF/AJPYCW8Zw==";
       };
     };
     "socks-proxy-agent-6.2.1" = {
@@ -6430,13 +6430,13 @@ let
         sha512 = "/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==";
       };
     };
-    "typescript-5.4.4" = {
+    "typescript-5.4.5" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.4.4";
+      version = "5.4.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.4.4.tgz";
-        sha512 = "dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.4.5.tgz";
+        sha512 = "vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -7284,7 +7284,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001607"
+      sources."caniuse-lite-1.0.30001608"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7303,7 +7303,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.730"
+      sources."electron-to-chromium-1.4.732"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7455,7 +7455,7 @@ in
       sources."simple-get-4.0.1"
       sources."simple-swizzle-0.2.2"
       sources."smart-buffer-4.2.0"
-      sources."socks-2.8.2"
+      sources."socks-2.8.3"
       sources."socks-proxy-agent-6.2.1"
       sources."sprintf-js-1.1.3"
       sources."sqlite3-5.1.7"
@@ -7626,7 +7626,7 @@ in
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
       sources."smart-buffer-4.2.0"
-      sources."socks-2.8.2"
+      sources."socks-2.8.3"
       sources."socks-proxy-agent-8.0.3"
       sources."sprintf-js-1.1.3"
       sources."ssri-10.0.5"
@@ -8338,7 +8338,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-5.4.4"
+      sources."typescript-5.4.5"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -8354,10 +8354,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "5.4.4";
+    version = "5.4.5";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-5.4.4.tgz";
-      sha512 = "dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.4.5.tgz";
+      sha512 = "vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -8732,7 +8732,7 @@ in
       sources."turndown-7.1.3"
       sources."turndown-plugin-gfm-1.0.2"
       sources."tweetnacl-0.14.5"
-      sources."typescript-5.4.4"
+      sources."typescript-5.4.5"
       sources."undici-types-5.26.5"
       sources."universalify-2.0.1"
       sources."uri-js-4.4.1"
