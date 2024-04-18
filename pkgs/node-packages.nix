@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001610" = {
+    "caniuse-lite-1.0.30001611" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001610";
+      version = "1.0.30001611";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001610.tgz";
-        sha512 = "QFutAY4NgaelojVMjY63o6XlZyORPaLfyMnsl3HgnWdJUcX6K0oaJymHjH8PT5Gk7sTm8rvC/c5COUQKXqmOMA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001611.tgz";
+        sha512 = "19NuN1/3PjA3QI8Eki55N8my4LzfkMCRLgCVfrl/slbSAchQfV0+GwjPrK3rq37As4UCLlM/DHajbKkAqbv92Q==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.739" = {
+    "electron-to-chromium-1.4.743" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.739";
+      version = "1.4.743";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.739.tgz";
-        sha512 = "koRkawXOuN9w/ymhTNxGfB8ta4MRKVW0nzifU17G1UwTWlBg0vv7xnz4nxDnRFSBe9nXMGRgICcAzqXc0PmLeA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.743.tgz";
+        sha512 = "AYgFmGUanfwZd4QmlGl9KBjoHRvJi6FUnbmfSr6NUk2JKCdHRHpljFGgxLp7L5h0p7uANrLzv0OgHo4TaCk4gA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4558,13 +4558,13 @@ let
         sha512 = "+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==";
       };
     };
-    "node-abi-3.58.0" = {
+    "node-abi-3.59.0" = {
       name = "node-abi";
       packageName = "node-abi";
-      version = "3.58.0";
+      version = "3.59.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.58.0.tgz";
-        sha512 = "pXY1jnGf5T7b8UNzWzIqf0EkX4bx/w8N2AvwlGnk2SYYA/kzDVPaH0Dh0UG4EwxBB5eKOIZKPr8VAHSHL1DPGg==";
+        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.59.0.tgz";
+        sha512 = "HyyfzvTLCE8b1SX2nWimlra8cibEsypcSu/Az4SXMhWhtuctkwAX7qsEYNjUOIoYtPV884oN3wtYTN+iZKBtvw==";
       };
     };
     "node-addon-api-7.1.0" = {
@@ -7284,7 +7284,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001610"
+      sources."caniuse-lite-1.0.30001611"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7303,7 +7303,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.739"
+      sources."electron-to-chromium-1.4.743"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7411,7 +7411,7 @@ in
       sources."ms-2.1.2"
       sources."napi-build-utils-1.0.2"
       sources."negotiator-0.6.3"
-      (sources."node-abi-3.58.0" // {
+      (sources."node-abi-3.59.0" // {
         dependencies = [
           sources."lru-cache-6.0.0"
           sources."semver-7.6.0"
