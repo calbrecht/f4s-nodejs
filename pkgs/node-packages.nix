@@ -2101,13 +2101,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.746" = {
+    "electron-to-chromium-1.4.747" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.746";
+      version = "1.4.747";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.746.tgz";
-        sha512 = "jeWaIta2rIG2FzHaYIhSuVWqC6KJYo7oSBX4Jv7g+aVujKztfvdpf+n6MGwZdC5hQXbax4nntykLH2juIQrfPg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.747.tgz";
+        sha512 = "+FnSWZIAvFHbsNVmUxhEqWiaOiPMcfum1GQzlWCg/wLigVtshOsjXHyEFfmt6cFK6+HkS3QOJBv6/3OPumbBfw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4567,13 +4567,13 @@ let
         sha512 = "+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==";
       };
     };
-    "node-abi-3.60.0" = {
+    "node-abi-3.62.0" = {
       name = "node-abi";
       packageName = "node-abi";
-      version = "3.60.0";
+      version = "3.62.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.60.0.tgz";
-        sha512 = "zcGgwoXbzw9NczqbGzAWL/ToDYAxv1V8gL1D67ClbdkIfeeDBbY0GelZtC25ayLvVjr2q2cloHeQV1R0QAWqRQ==";
+        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.62.0.tgz";
+        sha512 = "CPMcGa+y33xuL1E0TcNIu4YyaZCxnnvkVaEXrsosR3FxN+fV8xvb7Mzpb7IgKler10qeMkE6+Dp8qJhpzdq35g==";
       };
     };
     "node-addon-api-7.1.0" = {
@@ -6331,15 +6331,6 @@ let
         sha512 = "McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==";
       };
     };
-    "turndown-7.1.2" = {
-      name = "turndown";
-      packageName = "turndown";
-      version = "7.1.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/turndown/-/turndown-7.1.2.tgz";
-        sha512 = "ntI9R7fcUKjqBP6QU8rBK2Ehyt8LAzt3UBT9JR9tgo6GtuKvyUzpayWmeMKJw1DPdXzktvtIT8m2mVXz+bL/Qg==";
-      };
-    };
     "turndown-7.1.3" = {
       name = "turndown";
       packageName = "turndown";
@@ -6781,13 +6772,13 @@ let
         sha512 = "AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==";
       };
     };
-    "web-tree-sitter-0.20.8" = {
+    "web-tree-sitter-0.22.5" = {
       name = "web-tree-sitter";
       packageName = "web-tree-sitter";
-      version = "0.20.8";
+      version = "0.22.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.20.8.tgz";
-        sha512 = "weOVgZ3aAARgdnb220GqYuh7+rZU0Ka9k9yfKtGAzEYMa6GgiCzW9JjQRJyCJakvibQW+dfjJdihjInKuuCAUQ==";
+        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.22.5.tgz";
+        sha512 = "rGX2jRXjcGOhf35zWyO0i/+Wjz4/KVUYN9Oh3AhDsZ0fGOgTIkw/bMhqwvc8L7HgMK8rqDq9RcROWc7lnsnhWg==";
       };
     };
     "webidl-conversions-3.0.1" = {
@@ -7312,7 +7303,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.746"
+      sources."electron-to-chromium-1.4.747"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7420,7 +7411,7 @@ in
       sources."ms-2.1.2"
       sources."napi-build-utils-1.0.2"
       sources."negotiator-0.6.3"
-      (sources."node-abi-3.60.0" // {
+      (sources."node-abi-3.62.0" // {
         dependencies = [
           sources."lru-cache-6.0.0"
           sources."semver-7.6.0"
@@ -8398,10 +8389,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "5.1.2";
+    version = "5.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.1.2.tgz";
-      sha512 = "hXgN71VWVV2nQVE1ej7scAHVGvRAxoYhs2KwzvJq+lSqp4VQ60M0Cff1QzJKJM/cTyLWNjabb98bDGZgDMMh2g==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.2.0.tgz";
+      sha512 = "hELDWc5WkdvNat/dv/pnbrebMxc8UtSmjsY1/ER5K7+LKE6BczC1HZQZ/rMTNOeFgaGSeykL63kDTUFRImxXWA==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -8429,13 +8420,13 @@ in
       sources."safer-buffer-2.1.2"
       sources."to-regex-range-5.0.1"
       sources."tr46-0.0.3"
-      sources."turndown-7.1.2"
+      sources."turndown-7.1.3"
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
       sources."vscode-languageserver-textdocument-1.0.11"
       sources."vscode-languageserver-types-3.17.2"
-      sources."web-tree-sitter-0.20.8"
+      sources."web-tree-sitter-0.22.5"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
       sources."zod-3.22.4"
