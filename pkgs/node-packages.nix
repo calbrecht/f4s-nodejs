@@ -2101,13 +2101,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.748" = {
+    "electron-to-chromium-1.4.749" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.748";
+      version = "1.4.749";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.748.tgz";
-        sha512 = "VWqjOlPZn70UZ8FTKUOkUvBLeTQ0xpty66qV0yJcAGY2/CthI4xyW9aEozRVtuwv3Kpf5xTesmJUcPwuJmgP4A==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.749.tgz";
+        sha512 = "LRMMrM9ITOvue0PoBrvNIraVmuDbJV5QC9ierz/z5VilMdPOVMjOtpICNld3PuXuTZ3CHH/UPxX9gHhAPwi+0Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4144,13 +4144,13 @@ let
         sha512 = "B7gr+F6MkqB3uzINHXNctGieGsRTMwIBgxkp0yq/5BwcuDzD4A8wQpHQW6vDAm1uKSLQghmRdD9sKqf2vJ1cEg==";
       };
     };
-    "lru-cache-10.2.0" = {
+    "lru-cache-10.2.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "10.2.0";
+      version = "10.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.2.0.tgz";
-        sha512 = "2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.2.1.tgz";
+        sha512 = "tS24spDe/zXhWbNPErCHs/AGOzbKGHT+ybSBqmdLm8WZ1xXLWvH8Qn71QPAlqVhd0qUTWjy+Kl9JmISgDdEjsA==";
       };
     };
     "lru-cache-5.1.1" = {
@@ -7303,7 +7303,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.748"
+      sources."electron-to-chromium-1.4.749"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7581,7 +7581,7 @@ in
       sources."isexe-2.0.0"
       sources."jackspeak-2.3.6"
       sources."jsbn-1.1.0"
-      sources."lru-cache-10.2.0"
+      sources."lru-cache-10.2.1"
       sources."make-fetch-happen-13.0.0"
       sources."minimatch-9.0.4"
       sources."minipass-7.0.4"
@@ -8659,7 +8659,7 @@ in
       sources."path-parse-1.0.7"
       (sources."path-scurry-1.10.2" // {
         dependencies = [
-          sources."lru-cache-10.2.0"
+          sources."lru-cache-10.2.1"
         ];
       })
       sources."peberminta-0.9.0"
