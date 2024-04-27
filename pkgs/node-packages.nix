@@ -4,15 +4,6 @@
 
 let
   sources = {
-    "@aashutoshrathi/word-wrap-1.2.6" = {
-      name = "_at_aashutoshrathi_slash_word-wrap";
-      packageName = "@aashutoshrathi/word-wrap";
-      version = "1.2.6";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz";
-        sha512 = "1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==";
-      };
-    };
     "@ampproject/remapping-2.3.0" = {
       name = "_at_ampproject_slash_remapping";
       packageName = "@ampproject/remapping";
@@ -1471,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001612" = {
+    "caniuse-lite-1.0.30001613" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001612";
+      version = "1.0.30001613";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001612.tgz";
-        sha512 = "lFgnZ07UhaCcsSZgWW0K5j4e69dK1u/ltrL9lTUiFOwNHs12S3UMIEYgBV0Z6C6hRDev7iRnMzzYmKabYdXF9g==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001613.tgz";
+        sha512 = "BNjJULJfOONQERivfxte7alLfeLW4QnwHvNW4wEcLEbXfV6VSCYvr+REbf2Sojv8tC1THpjPXBxWgDbq4NtLWg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -4855,13 +4846,13 @@ let
         sha512 = "kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==";
       };
     };
-    "optionator-0.9.3" = {
+    "optionator-0.9.4" = {
       name = "optionator";
       packageName = "optionator";
-      version = "0.9.3";
+      version = "0.9.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/optionator/-/optionator-0.9.3.tgz";
-        sha512 = "JjCoypp+jKn1ttEFExxhetCKeJt9zhAgAve5FXHixTvFDW/5aEktX9bufBKLRRMdU7bNtpLfcGu94B3cdEJgjg==";
+        url = "https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz";
+        sha512 = "6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==";
       };
     };
     "os-family-1.1.0" = {
@@ -6880,6 +6871,15 @@ let
         sha512 = "ajBj65K5I7denzer2IYW6+2bNIVqLGDHqDw3Ow8Ohh+vdW+rv4MZ6eiDvHoKhfJFZ2auyN8byXieDDJ96ViONg==";
       };
     };
+    "word-wrap-1.2.5" = {
+      name = "word-wrap";
+      packageName = "word-wrap";
+      version = "1.2.5";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/word-wrap/-/word-wrap-1.2.5.tgz";
+        sha512 = "BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==";
+      };
+    };
     "wrap-ansi-8.1.0" = {
       name = "wrap-ansi";
       packageName = "wrap-ansi";
@@ -6973,7 +6973,6 @@ in
       sha512 = "b4cRQ0BeZcSEzPpY2PjFY70VbO32K7BStTGtBsnIGdTSEEQzBi8hPBcGQmTG2zUvFr9uLe0TK42bw8YszuHEqg==";
     };
     dependencies = [
-      sources."@aashutoshrathi/word-wrap-1.2.6"
       (sources."@eslint-community/eslint-utils-4.4.0" // {
         dependencies = [
           sources."eslint-visitor-keys-3.4.3"
@@ -7043,7 +7042,7 @@ in
       sources."minimatch-3.1.2"
       sources."ms-2.1.2"
       sources."natural-compare-1.4.0"
-      sources."optionator-0.9.3"
+      sources."optionator-0.9.4"
       sources."p-limit-3.1.0"
       sources."p-locate-5.0.0"
       sources."parent-module-1.0.1"
@@ -7064,6 +7063,7 @@ in
       sources."type-check-0.4.0"
       sources."uri-js-4.4.1"
       sources."which-2.0.2"
+      sources."word-wrap-1.2.5"
       sources."yocto-queue-0.1.0"
     ];
     buildInputs = globalBuildInputs;
@@ -7085,7 +7085,6 @@ in
       sha512 = "kRQ6oxtY9TL+NtHaLrPPmqHmZ4bY9iE+A2LACQ9CMzzbatZbIXq55X8Tz76KaTlH2NQ1F2vccQ8UEKvL49zPOg==";
     };
     dependencies = [
-      sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@eslint-community/eslint-utils-4.4.0"
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-2.1.4"
@@ -7164,7 +7163,7 @@ in
       sources."nanolru-1.0.0"
       sources."natural-compare-1.4.0"
       sources."once-1.4.0"
-      sources."optionator-0.9.3"
+      sources."optionator-0.9.4"
       sources."p-limit-3.1.0"
       sources."p-locate-5.0.0"
       sources."parent-module-1.0.1"
@@ -7188,6 +7187,7 @@ in
       sources."type-fest-0.20.2"
       sources."uri-js-4.4.1"
       sources."which-2.0.2"
+      sources."word-wrap-1.2.5"
       sources."wrappy-1.0.2"
       sources."yocto-queue-0.1.0"
     ];
@@ -7284,7 +7284,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001612"
+      sources."caniuse-lite-1.0.30001613"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7815,7 +7815,6 @@ in
       sha512 = "Uh2LIWyMD0pMFn+zoAS52dforkE8MUWP6hK48iQhiohTC5DRqBgTdXdJbhSGyjamRxCfETBdfvJ7hvtme2M3jg==";
     };
     dependencies = [
-      sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@babel/code-frame-7.24.2"
       sources."@babel/helper-validator-identifier-7.22.20"
       (sources."@babel/highlight-7.24.2" // {
@@ -8027,7 +8026,7 @@ in
       sources."object.hasown-1.1.4"
       sources."object.values-1.2.0"
       sources."once-1.4.0"
-      sources."optionator-0.9.3"
+      sources."optionator-0.9.4"
       sources."p-limit-1.3.0"
       sources."p-locate-2.0.0"
       sources."p-try-1.0.0"
@@ -8120,6 +8119,7 @@ in
       sources."which-2.0.2"
       sources."which-boxed-primitive-1.0.2"
       sources."which-typed-array-1.1.15"
+      sources."word-wrap-1.2.5"
       sources."wrappy-1.0.2"
       sources."xdg-basedir-4.0.0"
       sources."yallist-4.0.0"
