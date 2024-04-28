@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001613" = {
+    "caniuse-lite-1.0.30001614" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001613";
+      version = "1.0.30001614";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001613.tgz";
-        sha512 = "BNjJULJfOONQERivfxte7alLfeLW4QnwHvNW4wEcLEbXfV6VSCYvr+REbf2Sojv8tC1THpjPXBxWgDbq4NtLWg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001614.tgz";
+        sha512 = "jmZQ1VpmlRwHgdP1/uiKzgiAuGOfLEJsYFP4+GBou/QQ4U6IOJCB4NP1c+1p9RGLpwObcT94jA5/uO+F1vBbog==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1543,13 +1543,13 @@ let
         sha512 = "bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==";
       };
     };
-    "cjs-module-lexer-1.2.3" = {
+    "cjs-module-lexer-1.3.1" = {
       name = "cjs-module-lexer";
       packageName = "cjs-module-lexer";
-      version = "1.2.3";
+      version = "1.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.3.tgz";
-        sha512 = "0TNiGstbQmCFwt4akjjBg5pLRTSyj/PkWQ1ZoO2zntmg9yLqSRxwEa4iCfQLGjqhiqBfOJa7W/E8wfGrTDmlZQ==";
+        url = "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.3.1.tgz";
+        sha512 = "a3KdPAANPbNE4ZUv9h6LckSl9zLsYOP4MBmhIPkRaeyybt+r4UghLvq+xw/YwUcC1gqylCkL4rdVs3Lwupjm4Q==";
       };
     };
     "clean-stack-2.2.0" = {
@@ -7284,7 +7284,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001613"
+      sources."caniuse-lite-1.0.30001614"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -8528,7 +8528,7 @@ in
       sources."braces-3.0.2"
       sources."caseless-0.12.0"
       sources."chownr-2.0.0"
-      sources."cjs-module-lexer-1.2.3"
+      sources."cjs-module-lexer-1.3.1"
       (sources."cls-hooked-4.2.2" // {
         dependencies = [
           sources."semver-5.7.2"
