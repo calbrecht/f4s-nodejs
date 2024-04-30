@@ -976,13 +976,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.12.0" = {
+    "ajv-8.13.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.12.0";
+      version = "8.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.12.0.tgz";
-        sha512 = "sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.13.0.tgz";
+        sha512 = "PRA911Blj99jR5RMeTunVbNXMF6Lp4vZXnk5GQjcnUWUTsrXtekg/pnmFFI2u/I36Y/2bITGS30GZCXei6uNkA==";
       };
     };
     "ansi-colors-4.1.3" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.751" = {
+    "electron-to-chromium-1.4.752" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.751";
+      version = "1.4.752";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.751.tgz";
-        sha512 = "2DEPi++qa89SMGRhufWTiLmzqyuGmNF3SK4+PQetW1JKiZdEpF4XQonJXJCzyuYSA6mauiMhbyVhqYAP45Hvfw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.752.tgz";
+        sha512 = "P3QJreYI/AUTcfBVrC4zy9KvnZWekViThgQMX/VpJ+IsOBbcX5JFpORM4qWapwWQ+agb2nYAOyn/4PMXOk0m2Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3082,13 +3082,13 @@ let
         sha512 = "oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==";
       };
     };
-    "globalthis-1.0.3" = {
+    "globalthis-1.0.4" = {
       name = "globalthis";
       packageName = "globalthis";
-      version = "1.0.3";
+      version = "1.0.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/globalthis/-/globalthis-1.0.3.tgz";
-        sha512 = "sFdI5LyBiNTHjRd7cGPWapiHWMOXKyuBNX/cWJ3NfzrZQVa8GI/8cofCl74AOVqq9W5kNmguTIzJ/1s2gyI9wA==";
+        url = "https://registry.npmjs.org/globalthis/-/globalthis-1.0.4.tgz";
+        sha512 = "DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==";
       };
     };
     "globby-10.0.2" = {
@@ -4171,13 +4171,13 @@ let
         sha512 = "g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==";
       };
     };
-    "make-fetch-happen-13.0.0" = {
+    "make-fetch-happen-13.0.1" = {
       name = "make-fetch-happen";
       packageName = "make-fetch-happen";
-      version = "13.0.0";
+      version = "13.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-13.0.0.tgz";
-        sha512 = "7ThobcL8brtGo9CavByQrQi+23aIfgYU++wg4B87AIS8Rb2ZBt/MEaDqzA00Xwv/jUjAjYkLHjVolYuTLKda2A==";
+        url = "https://registry.npmjs.org/make-fetch-happen/-/make-fetch-happen-13.0.1.tgz";
+        sha512 = "cKTUFc/rbKUd/9meOvgrpJ2WrNzymt6jfRDdwg5UCnVzv9dTpEj9JS5m3wtziXVCjluIXyL8pcaukYqezIzZQA==";
       };
     };
     "make-fetch-happen-9.1.0" = {
@@ -5231,6 +5231,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/proc-log/-/proc-log-3.0.0.tgz";
         sha512 = "++Vn7NS4Xf9NacaU9Xq3URUuqZETPsf8L4j5/ckhaRYsfPeRyzGw+iDjFhV/Jr3uNmTvvddEJFWh5R1gRgUH8A==";
+      };
+    };
+    "proc-log-4.2.0" = {
+      name = "proc-log";
+      packageName = "proc-log";
+      version = "4.2.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/proc-log/-/proc-log-4.2.0.tgz";
+        sha512 = "g8+OnU/L2v+wyiVK+D5fA34J7EH8jZ8DDlvwhRCMxmMj7UCBvxiO1mGeN+36JXIKF4zevU4kRBd8lVgG9vLelA==";
       };
     };
     "process-nextick-args-2.0.1" = {
@@ -7303,7 +7312,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.751"
+      sources."electron-to-chromium-1.4.752"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7582,7 +7591,11 @@ in
       sources."jackspeak-2.3.6"
       sources."jsbn-1.1.0"
       sources."lru-cache-10.2.2"
-      sources."make-fetch-happen-13.0.0"
+      (sources."make-fetch-happen-13.0.1" // {
+        dependencies = [
+          sources."proc-log-4.2.0"
+        ];
+      })
       sources."minimatch-9.0.4"
       sources."minipass-7.0.4"
       sources."minipass-collect-2.0.1"
@@ -7953,7 +7966,7 @@ in
       sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globals-12.4.0"
-      sources."globalthis-1.0.3"
+      sources."globalthis-1.0.4"
       sources."gopd-1.0.1"
       sources."graceful-fs-4.2.11"
       sources."has-1.0.4"
@@ -8100,7 +8113,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       (sources."table-6.8.2" // {
         dependencies = [
-          sources."ajv-8.12.0"
+          sources."ajv-8.13.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -8802,7 +8815,7 @@ in
       sha512 = "HnNiHM5AOTXuM8ZpubzqgTy+7V5kFiMXVedOT2yjhvnxCw6pbMXcD/ymHaaT5v2ue0H8GGH4NFkvCEzcIcTJDg==";
     };
     dependencies = [
-      sources."ajv-8.12.0"
+      sources."ajv-8.13.0"
       sources."fast-deep-equal-3.1.3"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.2.1"
