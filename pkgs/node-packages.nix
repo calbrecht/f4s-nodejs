@@ -814,13 +814,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.12.7" = {
+    "@types/node-20.12.8" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.7";
+      version = "20.12.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.7.tgz";
-        sha512 = "wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.8.tgz";
+        sha512 = "NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.752" = {
+    "electron-to-chromium-1.4.753" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.752";
+      version = "1.4.753";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.752.tgz";
-        sha512 = "P3QJreYI/AUTcfBVrC4zy9KvnZWekViThgQMX/VpJ+IsOBbcX5JFpORM4qWapwWQ+agb2nYAOyn/4PMXOk0m2Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.753.tgz";
+        sha512 = "Wn1XKa0Lc5kMe5UIwQc4+i5lhhBggF0l82C1bE3oOMASt4JVqdOyRIVc8mh0kiuL5CCptqwQJBmFbaPglLrN0Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -6511,13 +6511,13 @@ let
         sha512 = "gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==";
       };
     };
-    "update-browserslist-db-1.0.13" = {
+    "update-browserslist-db-1.0.14" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.0.13";
+      version = "1.0.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.13.tgz";
-        sha512 = "xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.14.tgz";
+        sha512 = "JixKH8GR2pWYshIPUg/NujK3JO7JiqEEUiNArE86NQyrgUuZeTlZQN3xuS/yiV5Kb48ev9K6RqNkaJjXsdg7Jw==";
       };
     };
     "uri-js-4.4.1" = {
@@ -7312,7 +7312,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.752"
+      sources."electron-to-chromium-1.4.753"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7495,7 +7495,7 @@ in
       sources."type-fest-0.8.1"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
-      sources."update-browserslist-db-1.0.13"
+      sources."update-browserslist-db-1.0.14"
       sources."util-deprecate-1.0.2"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
@@ -8161,7 +8161,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.12.7"
+      sources."@types/node-20.12.8"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8510,7 +8510,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.12.7"
+      sources."@types/node-20.12.8"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
