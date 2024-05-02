@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001614" = {
+    "caniuse-lite-1.0.30001615" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001614";
+      version = "1.0.30001615";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001614.tgz";
-        sha512 = "jmZQ1VpmlRwHgdP1/uiKzgiAuGOfLEJsYFP4+GBou/QQ4U6IOJCB4NP1c+1p9RGLpwObcT94jA5/uO+F1vBbog==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001615.tgz";
+        sha512 = "1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.753" = {
+    "electron-to-chromium-1.4.754" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.753";
+      version = "1.4.754";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.753.tgz";
-        sha512 = "Wn1XKa0Lc5kMe5UIwQc4+i5lhhBggF0l82C1bE3oOMASt4JVqdOyRIVc8mh0kiuL5CCptqwQJBmFbaPglLrN0Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.754.tgz";
+        sha512 = "7Kr5jUdns5rL/M9wFFmMZAgFDuL2YOnanFH4OI4iFzUqyh3XOL7nAGbSlSMZdzKMIyyTpNSbqZsWG9odwLeKvA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7293,7 +7293,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001614"
+      sources."caniuse-lite-1.0.30001615"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7312,7 +7312,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.753"
+      sources."electron-to-chromium-1.4.754"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7697,10 +7697,10 @@ in
   node-gyp-build = nodeEnv.buildNodePackage {
     name = "node-gyp-build";
     packageName = "node-gyp-build";
-    version = "4.8.0";
+    version = "4.8.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.0.tgz";
-      sha512 = "u6fs2AEUljNho3EYTJNBfImO5QTo/J/1Etd+NVdCj7qWKUSN/bSLkZwhDv7I+w/MSC6qJ4cknepkAYykDdK8og==";
+      url = "https://registry.npmjs.org/node-gyp-build/-/node-gyp-build-4.8.1.tgz";
+      sha512 = "OSs33Z9yWr148JZcbZd5WiAXhh/n9z8TxQcdMhIOlpN9AhWpLfvVFO73+m77bBABQMaY9XSvIa+qk0jlI7Gcaw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
