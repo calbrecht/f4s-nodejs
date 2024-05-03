@@ -409,13 +409,13 @@ let
         sha512 = "Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==";
       };
     };
-    "@eslint/js-9.1.1" = {
+    "@eslint/js-9.2.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "9.1.1";
+      version = "9.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-9.1.1.tgz";
-        sha512 = "5WoDz3Y19Bg2BnErkZTp0en+c/i9PvgFS7MBe1+m60HjFr0hrphlAGp4yzI7pxpt4xShln4ZyYp4neJm8hmOkQ==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-9.2.0.tgz";
+        sha512 = "ESiIudvhoYni+MdsI8oD7skpprZ89qKocwRM2KEvhhBJ9nl5MRh7BXU5GTod7Mdygq+AUl+QzId6iWJKR/wABA==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -463,13 +463,13 @@ let
         sha512 = "93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==";
       };
     };
-    "@humanwhocodes/retry-0.2.3" = {
+    "@humanwhocodes/retry-0.2.4" = {
       name = "_at_humanwhocodes_slash_retry";
       packageName = "@humanwhocodes/retry";
-      version = "0.2.3";
+      version = "0.2.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.2.3.tgz";
-        sha512 = "X38nUbachlb01YMlvPFojKoiXq+LzZvuSce70KPMPdeM1Rj03k4dR7lDslhbqXn3Ang4EU3+EAmwEAsbrjHW3g==";
+        url = "https://registry.npmjs.org/@humanwhocodes/retry/-/retry-0.2.4.tgz";
+        sha512 = "Ttl/jHpxfS3st5sxwICYfk4pOH0WrLI1SpW283GgQL7sCWU7EHIOhX4b4fkIxr3tkfzwg8+FNojtzsIEE7Ecgg==";
       };
     };
     "@isaacs/cliui-8.0.2" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.754" = {
+    "electron-to-chromium-1.4.756" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.754";
+      version = "1.4.756";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.754.tgz";
-        sha512 = "7Kr5jUdns5rL/M9wFFmMZAgFDuL2YOnanFH4OI4iFzUqyh3XOL7nAGbSlSMZdzKMIyyTpNSbqZsWG9odwLeKvA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.756.tgz";
+        sha512 = "RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2308,13 +2308,13 @@ let
         sha512 = "dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==";
       };
     };
-    "eslint-9.1.1" = {
+    "eslint-9.2.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "9.1.1";
+      version = "9.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-9.1.1.tgz";
-        sha512 = "b4cRQ0BeZcSEzPpY2PjFY70VbO32K7BStTGtBsnIGdTSEEQzBi8hPBcGQmTG2zUvFr9uLe0TK42bw8YszuHEqg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-9.2.0.tgz";
+        sha512 = "0n/I88vZpCOzO+PQpt0lbsqmn9AsnsJAQseIqhZFI8ibQT0U1AkEKRxA3EVMos0BoHSXDQvCXY25TUjB5tr8Og==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6511,13 +6511,13 @@ let
         sha512 = "gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==";
       };
     };
-    "update-browserslist-db-1.0.14" = {
+    "update-browserslist-db-1.0.15" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.0.14";
+      version = "1.0.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.14.tgz";
-        sha512 = "JixKH8GR2pWYshIPUg/NujK3JO7JiqEEUiNArE86NQyrgUuZeTlZQN3xuS/yiV5Kb48ev9K6RqNkaJjXsdg7Jw==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.15.tgz";
+        sha512 = "K9HWH62x3/EalU1U6sjSZiylm9C8tgq2mSvshZpqc7QE69RaA2qjhkW2HlNA0tFpEbtyFz7HTqbSdN4MSwUodA==";
       };
     };
     "uri-js-4.4.1" = {
@@ -6976,10 +6976,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "9.1.1";
+    version = "9.2.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-9.1.1.tgz";
-      sha512 = "b4cRQ0BeZcSEzPpY2PjFY70VbO32K7BStTGtBsnIGdTSEEQzBi8hPBcGQmTG2zUvFr9uLe0TK42bw8YszuHEqg==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-9.2.0.tgz";
+      sha512 = "0n/I88vZpCOzO+PQpt0lbsqmn9AsnsJAQseIqhZFI8ibQT0U1AkEKRxA3EVMos0BoHSXDQvCXY25TUjB5tr8Og==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -6989,11 +6989,11 @@ in
       })
       sources."@eslint-community/regexpp-4.10.0"
       sources."@eslint/eslintrc-3.0.2"
-      sources."@eslint/js-9.1.1"
+      sources."@eslint/js-9.2.0"
       sources."@humanwhocodes/config-array-0.13.0"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/object-schema-2.0.3"
-      sources."@humanwhocodes/retry-0.2.3"
+      sources."@humanwhocodes/retry-0.2.4"
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
@@ -7014,7 +7014,7 @@ in
       sources."debug-4.3.4"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.1.1"
+      sources."eslint-9.2.0"
       sources."eslint-scope-8.0.1"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.0.1"
@@ -7312,7 +7312,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.754"
+      sources."electron-to-chromium-1.4.756"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7495,7 +7495,7 @@ in
       sources."type-fest-0.8.1"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
-      sources."update-browserslist-db-1.0.14"
+      sources."update-browserslist-db-1.0.15"
       sources."util-deprecate-1.0.2"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
