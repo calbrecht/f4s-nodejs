@@ -1426,13 +1426,13 @@ let
         sha512 = "VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==";
       };
     };
-    "cacache-18.0.2" = {
+    "cacache-18.0.3" = {
       name = "cacache";
       packageName = "cacache";
-      version = "18.0.2";
+      version = "18.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cacache/-/cacache-18.0.2.tgz";
-        sha512 = "r3NU8h/P+4lVUHfeRw1dtgQYar3DZMm4/cm2bZgOvrFC/su7budSOeqh52VJIC4U4iG1WWwV6vRW0znqBvxNuw==";
+        url = "https://registry.npmjs.org/cacache/-/cacache-18.0.3.tgz";
+        sha512 = "qXCd4rh6I07cnDqh8V48/94Tc/WSfj+o3Gn6NZ0aZovS255bUx8O13uKxRFd2eWG0xgsco7+YItQNPaa5E85hg==";
       };
     };
     "call-bind-1.0.7" = {
@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001615" = {
+    "caniuse-lite-1.0.30001616" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001615";
+      version = "1.0.30001616";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001615.tgz";
-        sha512 = "1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001616.tgz";
+        sha512 = "RHVYKov7IcdNjVHJFNY/78RdG4oGVjbayxv8u5IO74Wv7Hlq4PnJE6mo/OjFijjVFNy5ijnCt6H3IIo4t+wfEw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -4333,13 +4333,13 @@ let
         sha512 = "3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==";
       };
     };
-    "minipass-7.0.4" = {
+    "minipass-7.1.0" = {
       name = "minipass";
       packageName = "minipass";
-      version = "7.0.4";
+      version = "7.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-7.0.4.tgz";
-        sha512 = "jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-7.1.0.tgz";
+        sha512 = "oGZRv2OT1lO2UF1zUcwdTb3wqUwI0kBGTgt/T7OdSj6M6N5m3o5uPf0AIW6lVxGGoiWUR7e2AwTE+xiwK8WQig==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -4369,13 +4369,13 @@ let
         sha512 = "CGH1eblLq26Y15+Azk7ey4xh0J/XfJfrCox5LDJiKqI2Q2iwOLOKrlmIaODiSQS8d18jalF6y2K2ePUm0CmShw==";
       };
     };
-    "minipass-fetch-3.0.4" = {
+    "minipass-fetch-3.0.5" = {
       name = "minipass-fetch";
       packageName = "minipass-fetch";
-      version = "3.0.4";
+      version = "3.0.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-3.0.4.tgz";
-        sha512 = "jHAqnA728uUpIaFm7NWsCnqKT6UqZz7GcI/bDpPATuwYyKwJwW0remxSCxUlKiEty+eopHGa3oc8WxgQ1FFJqg==";
+        url = "https://registry.npmjs.org/minipass-fetch/-/minipass-fetch-3.0.5.tgz";
+        sha512 = "2N8elDQAtSnFV0Dk7gt15KHsS0Fyz6CbYZ360h0WTYV1Ty46li3rAXVOQj1THMNLdmrD9Vt5pBPtWtVkpwGBqg==";
       };
     };
     "minipass-flush-1.0.5" = {
@@ -4648,13 +4648,13 @@ let
         sha512 = "Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==";
       };
     };
-    "nopt-7.2.0" = {
+    "nopt-7.2.1" = {
       name = "nopt";
       packageName = "nopt";
-      version = "7.2.0";
+      version = "7.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nopt/-/nopt-7.2.0.tgz";
-        sha512 = "CVDtwCdhYIvnAzFoJ6NJ6dX3oga9/HyciQDnG1vQDjSLMeKLJ4A93ZqYKDrgYSr1FBY5/hMYC+2VCi24pgpkGA==";
+        url = "https://registry.npmjs.org/nopt/-/nopt-7.2.1.tgz";
+        sha512 = "taM24ViiimT/XntxbPyJQzCG+p4EKOpgD3mxFwW38mGjVUrfERQOeY4EDHjdnptttfHuHQXFx+lTP08Q+mLa/w==";
       };
     };
     "normalize-package-data-2.5.0" = {
@@ -5908,13 +5908,13 @@ let
         sha512 = "2p2KJZTSqQ/I3+HX42EpYOa2l3f8Erv8MWKsy2I9uf4wA7yFIkXRffYdsx86y6z4vHtV8u7g+pPlr8/4ouAxsQ==";
       };
     };
-    "ssri-10.0.5" = {
+    "ssri-10.0.6" = {
       name = "ssri";
       packageName = "ssri";
-      version = "10.0.5";
+      version = "10.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ssri/-/ssri-10.0.5.tgz";
-        sha512 = "bSf16tAFkGeRlUNDjXu8FzaMQt6g2HZJrun7mtMbIPOddxt3GLMSz5VWUWcqTJUPfLEaDIepGxv+bYQW49596A==";
+        url = "https://registry.npmjs.org/ssri/-/ssri-10.0.6.tgz";
+        sha512 = "MGrFH9Z4NP9Iyhqn16sDtBpRRNJ0Y2hNa6D65h736fVSaPCHr4DM4sWUNvVaSuC+0OBGhwsrydQwmgfg5LncqQ==";
       };
     };
     "ssri-8.0.1" = {
@@ -7293,7 +7293,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001615"
+      sources."caniuse-lite-1.0.30001616"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7559,7 +7559,7 @@ in
       sources."ansi-styles-6.2.1"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-2.0.1"
-      sources."cacache-18.0.2"
+      sources."cacache-18.0.3"
       sources."chownr-2.0.0"
       sources."clean-stack-2.2.0"
       sources."color-convert-2.0.1"
@@ -7597,9 +7597,9 @@ in
         ];
       })
       sources."minimatch-9.0.4"
-      sources."minipass-7.0.4"
+      sources."minipass-7.1.0"
       sources."minipass-collect-2.0.1"
-      sources."minipass-fetch-3.0.4"
+      sources."minipass-fetch-3.0.5"
       (sources."minipass-flush-1.0.5" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -7623,7 +7623,7 @@ in
       sources."mkdirp-1.0.4"
       sources."ms-2.1.2"
       sources."negotiator-0.6.3"
-      sources."nopt-7.2.0"
+      sources."nopt-7.2.1"
       sources."p-map-4.0.0"
       sources."path-key-3.1.1"
       sources."path-scurry-1.10.2"
@@ -7642,7 +7642,7 @@ in
       sources."socks-2.8.3"
       sources."socks-proxy-agent-8.0.3"
       sources."sprintf-js-1.1.3"
-      sources."ssri-10.0.5"
+      sources."ssri-10.0.6"
       sources."string-width-5.1.2"
       (sources."string-width-cjs-4.2.3" // {
         dependencies = [
@@ -8650,7 +8650,7 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-9.0.1"
-      sources."minipass-7.0.4"
+      sources."minipass-7.1.0"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -8661,7 +8661,7 @@ in
       sources."ms-2.1.2"
       sources."nan-2.19.0"
       sources."node-fetch-2.7.0"
-      sources."nopt-7.2.0"
+      sources."nopt-7.2.1"
       sources."npmlog-5.0.1"
       sources."oauth-sign-0.9.0"
       sources."object-assign-4.1.1"
