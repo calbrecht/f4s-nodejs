@@ -589,13 +589,13 @@ let
         sha512 = "8KG5RD0GVP4ydEzRn/I4BNDuxDtqVbOdm8675T49OIG/NGhaK0pjPX7ZcDlvKYbA+ulvVK3ztfcF4uBdOxuJbQ==";
       };
     };
-    "@npmcli/fs-3.1.0" = {
+    "@npmcli/fs-3.1.1" = {
       name = "_at_npmcli_slash_fs";
       packageName = "@npmcli/fs";
-      version = "3.1.0";
+      version = "3.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@npmcli/fs/-/fs-3.1.0.tgz";
-        sha512 = "7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==";
+        url = "https://registry.npmjs.org/@npmcli/fs/-/fs-3.1.1.tgz";
+        sha512 = "q9CRWjpHCMIh5sVyefoD1cA7PkvILqCZsnSOEUUivORLjxCO/Irmue2DprETiNgEqktDBZaM1Bi+jrarx1XdCg==";
       };
     };
     "@npmcli/move-file-1.1.2" = {
@@ -625,13 +625,13 @@ let
         sha512 = "I/s6F7yKUDdtMsoBWXJe8Qz40Tui5vsuKCWJEWVL+5q9sSWRzzx6v2KeNsOBEwd94j0eWkpWCH4yB6rZg9Mf0w==";
       };
     };
-    "@opentelemetry/core-1.24.0" = {
+    "@opentelemetry/core-1.24.1" = {
       name = "_at_opentelemetry_slash_core";
       packageName = "@opentelemetry/core";
-      version = "1.24.0";
+      version = "1.24.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.24.0.tgz";
-        sha512 = "FP2oN7mVPqcdxJDTTnKExj4mi91EH+DNuArKfHTjPuJWe2K1JfMIVXNfahw1h3onJxQnxS8K0stKkogX05s+Aw==";
+        url = "https://registry.npmjs.org/@opentelemetry/core/-/core-1.24.1.tgz";
+        sha512 = "wMSGfsdmibI88K9wB498zXY04yThPexo8jvwNNlm542HZB7XrrMRBbAyKJqG8qDRJwIBdBrPMi4V9ZPW/sqrcg==";
       };
     };
     "@opentelemetry/instrumentation-0.41.2" = {
@@ -643,31 +643,31 @@ let
         sha512 = "rxU72E0pKNH6ae2w5+xgVYZLzc5mlxAbGzF4shxMVK8YC2QQsfN38B2GPbj0jvrKWWNUElfclQ+YTykkNg/grw==";
       };
     };
-    "@opentelemetry/resources-1.24.0" = {
+    "@opentelemetry/resources-1.24.1" = {
       name = "_at_opentelemetry_slash_resources";
       packageName = "@opentelemetry/resources";
-      version = "1.24.0";
+      version = "1.24.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.24.0.tgz";
-        sha512 = "mxC7E7ocUS1tLzepnA7O9/G8G6ZTdjCH2pXme1DDDuCuk6n2/53GADX+GWBuyX0dfIxeMInIbJAdjlfN9GNr6A==";
+        url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-1.24.1.tgz";
+        sha512 = "cyv0MwAaPF7O86x5hk3NNgenMObeejZFLJJDVuSeSMIsknlsj3oOZzRv3qSzlwYomXsICfBeFFlxwHQte5mGXQ==";
       };
     };
-    "@opentelemetry/sdk-trace-base-1.24.0" = {
+    "@opentelemetry/sdk-trace-base-1.24.1" = {
       name = "_at_opentelemetry_slash_sdk-trace-base";
       packageName = "@opentelemetry/sdk-trace-base";
-      version = "1.24.0";
+      version = "1.24.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.24.0.tgz";
-        sha512 = "H9sLETZ4jw9UJ3totV8oM5R0m4CW0ZIOLfp4NV3g0CM8HD5zGZcaW88xqzWDgiYRpctFxd+WmHtGX/Upoa2vRg==";
+        url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-1.24.1.tgz";
+        sha512 = "zz+N423IcySgjihl2NfjBf0qw1RWe11XIAWVrTNOSSI6dtSPJiVom2zipFB2AEEtJWpv0Iz6DY6+TjnyTV5pWg==";
       };
     };
-    "@opentelemetry/semantic-conventions-1.24.0" = {
+    "@opentelemetry/semantic-conventions-1.24.1" = {
       name = "_at_opentelemetry_slash_semantic-conventions";
       packageName = "@opentelemetry/semantic-conventions";
-      version = "1.24.0";
+      version = "1.24.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.24.0.tgz";
-        sha512 = "yL0jI6Ltuz8R+Opj7jClGrul6pOoYrdfVmzQS4SITXRPH7I5IRZbrwe/6/v8v4WYMa6MYZG480S1+uc/IGfqsA==";
+        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.24.1.tgz";
+        sha512 = "VkliWlS4/+GHLLW7J/rVBA00uXus1SWvwFvcUDxDwmFxYfg/2VI6ekwdXS28cjI8Qz2ky2BzG8OUHo+WeYIWqw==";
       };
     };
     "@protobufjs/aspromise-1.1.2" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.757" = {
+    "electron-to-chromium-1.4.758" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.757";
+      version = "1.4.758";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.757.tgz";
-        sha512 = "jftDaCknYSSt/+KKeXzH3LX5E2CvRLm75P3Hj+J/dv3CL0qUYcOt13d5FN1NiL5IJbbhzHrb3BomeG2tkSlZmw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.758.tgz";
+        sha512 = "/o9x6TCdrYZBMdGeTifAP3wlF/gVT+TtWJe3BSmtNh92Mw81U9hrYwW9OAGUh+sEOX/yz5e34sksqRruZbjYrw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -5665,13 +5665,13 @@ let
         sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
       };
     };
-    "semver-7.6.0" = {
+    "semver-7.6.1" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.0";
+      version = "7.6.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.0.tgz";
-        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.1.tgz";
+        sha512 = "f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -7260,9 +7260,7 @@ in
       sources."@jridgewell/trace-mapping-0.3.25"
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.1"
         ];
       })
       sources."@npmcli/move-file-1.1.2"
@@ -7312,7 +7310,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.757"
+      sources."electron-to-chromium-1.4.758"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7422,17 +7420,13 @@ in
       sources."negotiator-0.6.3"
       (sources."node-abi-3.62.0" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.1"
         ];
       })
       sources."node-addon-api-7.1.0"
       (sources."node-gyp-8.4.1" // {
         dependencies = [
-          sources."lru-cache-6.0.0"
-          sources."semver-7.6.0"
-          sources."yallist-4.0.0"
+          sources."semver-7.6.1"
         ];
       })
       sources."node-int64-0.4.0"
@@ -7551,7 +7545,7 @@ in
     dependencies = [
       sources."@isaacs/cliui-8.0.2"
       sources."@npmcli/agent-2.2.2"
-      sources."@npmcli/fs-3.1.0"
+      sources."@npmcli/fs-3.1.1"
       sources."abbrev-2.0.0"
       sources."agent-base-7.1.1"
       sources."aggregate-error-3.1.0"
@@ -7630,11 +7624,7 @@ in
       sources."proc-log-3.0.0"
       sources."promise-retry-2.0.1"
       sources."retry-0.12.0"
-      (sources."semver-7.6.0" // {
-        dependencies = [
-          sources."lru-cache-6.0.0"
-        ];
-      })
+      sources."semver-7.6.1"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
@@ -8020,7 +8010,6 @@ in
       sources."lodash-4.17.21"
       sources."lodash.truncate-4.4.2"
       sources."loose-envify-1.4.0"
-      sources."lru-cache-6.0.0"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.8"
       sources."ms-2.1.2"
@@ -8081,7 +8070,7 @@ in
       sources."rimraf-3.0.2"
       sources."safe-array-concat-1.1.2"
       sources."safe-regex-test-1.0.3"
-      sources."semver-7.6.0"
+      sources."semver-7.6.1"
       sources."set-function-length-1.2.2"
       sources."set-function-name-2.0.2"
       sources."shebang-command-2.0.0"
@@ -8135,7 +8124,6 @@ in
       sources."word-wrap-1.2.5"
       sources."wrappy-1.0.2"
       sources."xdg-basedir-4.0.0"
-      sources."yallist-4.0.0"
     ];
     buildInputs = globalBuildInputs;
     meta = {
@@ -8493,11 +8481,11 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@one-ini/wasm-0.1.1"
       sources."@opentelemetry/api-1.8.0"
-      sources."@opentelemetry/core-1.24.0"
+      sources."@opentelemetry/core-1.24.1"
       sources."@opentelemetry/instrumentation-0.41.2"
-      sources."@opentelemetry/resources-1.24.0"
-      sources."@opentelemetry/sdk-trace-base-1.24.0"
-      sources."@opentelemetry/semantic-conventions-1.24.0"
+      sources."@opentelemetry/resources-1.24.1"
+      sources."@opentelemetry/sdk-trace-base-1.24.1"
+      sources."@opentelemetry/semantic-conventions-1.24.1"
       sources."@protobufjs/aspromise-1.1.2"
       sources."@protobufjs/base64-1.1.2"
       sources."@protobufjs/codegen-2.0.4"
