@@ -814,13 +814,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.12.10" = {
+    "@types/node-20.12.11" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.10";
+      version = "20.12.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.10.tgz";
-        sha512 = "Eem5pH9pmWBHoGAT8Dr5fdc5rYA+4NAovdM4EktRPVAAiJhmWWfQrA0cFhAbOsQdSfIHjAud6YdkbL69+zSKjw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.11.tgz";
+        sha512 = "vDg9PZ/zi+Nqp6boSOT7plNuthRugEKixDv5sFTIpkE89MmNtEArAShI4mxuX2+UrLEe9pxC1vm2cjm9YlWbJw==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.758" = {
+    "electron-to-chromium-1.4.759" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.758";
+      version = "1.4.759";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.758.tgz";
-        sha512 = "/o9x6TCdrYZBMdGeTifAP3wlF/gVT+TtWJe3BSmtNh92Mw81U9hrYwW9OAGUh+sEOX/yz5e34sksqRruZbjYrw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.759.tgz";
+        sha512 = "qZJc+zsuI+/5UjOSFnpkJBwwLMH1AZgyKqJ7LUNnRsB7v/cDjMu9DvXgp9kH6PTTZxjnPXGp2Uhurw+2Ll4Hjg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7310,7 +7310,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.758"
+      sources."electron-to-chromium-1.4.759"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8149,7 +8149,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.12.10"
+      sources."@types/node-20.12.11"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8498,7 +8498,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.12.10"
+      sources."@types/node-20.12.11"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
