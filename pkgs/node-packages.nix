@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001616" = {
+    "caniuse-lite-1.0.30001617" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001616";
+      version = "1.0.30001617";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001616.tgz";
-        sha512 = "RHVYKov7IcdNjVHJFNY/78RdG4oGVjbayxv8u5IO74Wv7Hlq4PnJE6mo/OjFijjVFNy5ijnCt6H3IIo4t+wfEw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001617.tgz";
+        sha512 = "mLyjzNI9I+Pix8zwcrpxEbGlfqOkF9kM3ptzmKNw5tizSyYwMe+nGLTqMK9cO+0E+Bh6TsBxNAaHWEM8xwSsmA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.759" = {
+    "electron-to-chromium-1.4.762" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.759";
+      version = "1.4.762";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.759.tgz";
-        sha512 = "qZJc+zsuI+/5UjOSFnpkJBwwLMH1AZgyKqJ7LUNnRsB7v/cDjMu9DvXgp9kH6PTTZxjnPXGp2Uhurw+2Ll4Hjg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.762.tgz";
+        sha512 = "rrFvGweLxPwwSwJOjIopy3Vr+J3cIPtZzuc74bmlvmBIgQO3VYJDvVrlj94iKZ3ukXUH64Ex31hSfRTLqvjYJQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3010,13 +3010,13 @@ let
         sha512 = "SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==";
       };
     };
-    "glob-10.3.12" = {
+    "glob-10.3.14" = {
       name = "glob";
       packageName = "glob";
-      version = "10.3.12";
+      version = "10.3.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-10.3.12.tgz";
-        sha512 = "TCNv8vJ+xz4QiqTpfOJA7HvYv+tNIRHKfUWw/q+v2jdgN4ebz+KY9tGx5J4rHP0o84mNP+ApH66HRX8us3Khqg==";
+        url = "https://registry.npmjs.org/glob/-/glob-10.3.14.tgz";
+        sha512 = "4fkAqu93xe9Mk7le9v0y3VrPDqLKHarNi2s4Pv7f2yOvfhWfhc7hRPHC/JyqMqb8B/Dt/eGS4n7ykwf3fOsl8g==";
       };
     };
     "glob-7.2.3" = {
@@ -4333,13 +4333,13 @@ let
         sha512 = "3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==";
       };
     };
-    "minipass-7.1.0" = {
+    "minipass-7.1.1" = {
       name = "minipass";
       packageName = "minipass";
-      version = "7.1.0";
+      version = "7.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/minipass/-/minipass-7.1.0.tgz";
-        sha512 = "oGZRv2OT1lO2UF1zUcwdTb3wqUwI0kBGTgt/T7OdSj6M6N5m3o5uPf0AIW6lVxGGoiWUR7e2AwTE+xiwK8WQig==";
+        url = "https://registry.npmjs.org/minipass/-/minipass-7.1.1.tgz";
+        sha512 = "UZ7eQ+h8ywIRAW1hIEl2AqdwzJucU/Kp59+8kkZeSvafXhZjul247BvIJjEVFVeON6d7lM46XX1HXCduKAS8VA==";
       };
     };
     "minipass-collect-1.0.2" = {
@@ -5062,13 +5062,13 @@ let
         sha512 = "LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==";
       };
     };
-    "path-scurry-1.10.2" = {
+    "path-scurry-1.11.0" = {
       name = "path-scurry";
       packageName = "path-scurry";
-      version = "1.10.2";
+      version = "1.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/path-scurry/-/path-scurry-1.10.2.tgz";
-        sha512 = "7xTavNy5RQXnsjANvVvMkEjvloOinkAjv/Z6Ildz9v2RinZ4SBKTWFOVRbaF8p0vpHnyjV/UwNDdKuUv6M5qcA==";
+        url = "https://registry.npmjs.org/path-scurry/-/path-scurry-1.11.0.tgz";
+        sha512 = "LNHTaVkzaYaLGlO+0u3rQTz7QrHTFOuKyba9JMTQutkmtNew8dw8wOD7mTU/5fCPZzCWpfW0XnQKzY61P0aTaw==";
       };
     };
     "path-type-3.0.0" = {
@@ -5665,13 +5665,13 @@ let
         sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
       };
     };
-    "semver-7.6.1" = {
+    "semver-7.6.2" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.1";
+      version = "7.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.1.tgz";
-        sha512 = "f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.2.tgz";
+        sha512 = "FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -7260,7 +7260,7 @@ in
       sources."@jridgewell/trace-mapping-0.3.25"
       (sources."@npmcli/fs-1.1.1" // {
         dependencies = [
-          sources."semver-7.6.1"
+          sources."semver-7.6.2"
         ];
       })
       sources."@npmcli/move-file-1.1.2"
@@ -7291,7 +7291,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001616"
+      sources."caniuse-lite-1.0.30001617"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7310,7 +7310,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.759"
+      sources."electron-to-chromium-1.4.762"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7420,13 +7420,13 @@ in
       sources."negotiator-0.6.3"
       (sources."node-abi-3.62.0" // {
         dependencies = [
-          sources."semver-7.6.1"
+          sources."semver-7.6.2"
         ];
       })
       sources."node-addon-api-7.1.0"
       (sources."node-gyp-8.4.1" // {
         dependencies = [
-          sources."semver-7.6.1"
+          sources."semver-7.6.2"
         ];
       })
       sources."node-int64-0.4.0"
@@ -7571,7 +7571,7 @@ in
       sources."exponential-backoff-3.1.1"
       sources."foreground-child-3.1.1"
       sources."fs-minipass-3.0.3"
-      sources."glob-10.3.12"
+      sources."glob-10.3.14"
       sources."graceful-fs-4.2.11"
       sources."http-cache-semantics-4.1.1"
       sources."http-proxy-agent-7.0.2"
@@ -7591,7 +7591,7 @@ in
         ];
       })
       sources."minimatch-9.0.4"
-      sources."minipass-7.1.0"
+      sources."minipass-7.1.1"
       sources."minipass-collect-2.0.1"
       sources."minipass-fetch-3.0.5"
       (sources."minipass-flush-1.0.5" // {
@@ -7620,11 +7620,11 @@ in
       sources."nopt-7.2.1"
       sources."p-map-4.0.0"
       sources."path-key-3.1.1"
-      sources."path-scurry-1.10.2"
+      sources."path-scurry-1.11.0"
       sources."proc-log-3.0.0"
       sources."promise-retry-2.0.1"
       sources."retry-0.12.0"
-      sources."semver-7.6.1"
+      sources."semver-7.6.2"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
@@ -8070,7 +8070,7 @@ in
       sources."rimraf-3.0.2"
       sources."safe-array-concat-1.1.2"
       sources."safe-regex-test-1.0.3"
-      sources."semver-7.6.1"
+      sources."semver-7.6.2"
       sources."set-function-length-1.2.2"
       sources."set-function-name-2.0.2"
       sources."shebang-command-2.0.0"
@@ -8593,7 +8593,7 @@ in
         ];
       })
       sources."getpass-0.1.7"
-      sources."glob-10.3.12"
+      sources."glob-10.3.14"
       sources."glob-parent-5.1.2"
       sources."graceful-fs-4.2.11"
       sources."har-schema-2.0.0"
@@ -8638,7 +8638,7 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-9.0.1"
-      sources."minipass-7.1.0"
+      sources."minipass-7.1.1"
       (sources."minizlib-2.1.2" // {
         dependencies = [
           sources."minipass-3.3.6"
@@ -8658,7 +8658,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."path-parse-1.0.7"
-      (sources."path-scurry-1.10.2" // {
+      (sources."path-scurry-1.11.0" // {
         dependencies = [
           sources."lru-cache-10.2.2"
         ];
