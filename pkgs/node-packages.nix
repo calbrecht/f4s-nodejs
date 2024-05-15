@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.768" = {
+    "electron-to-chromium-1.4.770" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.768";
+      version = "1.4.770";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.768.tgz";
-        sha512 = "z2U3QcvNuxdkk33YV7R1bVMNq7fL23vq3WfO5BHcqrm4TnDGReouBfYKLEFh5umoK1XACjEwp8mmnhXk2EJigw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.770.tgz";
+        sha512 = "ONwOsDiVvV07CMsyH4+dEaZ9L79HMH/ODHnDS3GkIhgNqdDHJN2C18kFb0fBj0RXpQywsPJl6k2Pqg1IY4r1ig==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7310,7 +7310,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.768"
+      sources."electron-to-chromium-1.4.770"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8390,10 +8390,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "5.3.1";
+    version = "5.3.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.3.1.tgz";
-      sha512 = "tMNPZv40Ro3Vv260Ptef4TATsFl0BgcZMBzNWzqRR8oCZKGFTXrOLmHP7hX8X4aTgeE83fREXvSY9OYUWeIeaw==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.3.3.tgz";
+      sha512 = "GKqUdue8N1rUvBHN5XwmTSVECQuRU4FVlhRFd0Q37e4ppEcJAKV9jJoi8TQc+2ra5jc020aM8CMluXBCwIn2Pw==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
