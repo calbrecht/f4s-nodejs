@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001618" = {
+    "caniuse-lite-1.0.30001620" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001618";
+      version = "1.0.30001620";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001618.tgz";
-        sha512 = "p407+D1tIkDvsEAPS22lJxLQQaG8OTBEqo0KhzfABGk0TU4juBNDSfH0hyAp/HRyx+M8L17z/ltyhxh27FTfQg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001620.tgz";
+        sha512 = "WJvYsOjd1/BYUY6SNGUosK9DUidBPDTnOARHp3fSmFO1ekdxaY6nKRttEVrfMmYi80ctS0kz1wiWmm14fVc3ew==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.770" = {
+    "electron-to-chromium-1.4.773" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.770";
+      version = "1.4.773";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.770.tgz";
-        sha512 = "ONwOsDiVvV07CMsyH4+dEaZ9L79HMH/ODHnDS3GkIhgNqdDHJN2C18kFb0fBj0RXpQywsPJl6k2Pqg1IY4r1ig==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.773.tgz";
+        sha512 = "87eHF+h3PlCRwbxVEAw9KtK3v7lWfc/sUDr0W76955AdYTG4bV/k0zrl585Qnj/skRMH2qOSiE+kqMeOQ+LOpw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7291,7 +7291,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001618"
+      sources."caniuse-lite-1.0.30001620"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7310,7 +7310,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.770"
+      sources."electron-to-chromium-1.4.773"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
