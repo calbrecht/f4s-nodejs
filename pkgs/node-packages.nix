@@ -1300,13 +1300,13 @@ let
         sha512 = "08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==";
       };
     };
-    "aws4-1.12.0" = {
+    "aws4-1.13.0" = {
       name = "aws4";
       packageName = "aws4";
-      version = "1.12.0";
+      version = "1.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws4/-/aws4-1.12.0.tgz";
-        sha512 = "NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==";
+        url = "https://registry.npmjs.org/aws4/-/aws4-1.13.0.tgz";
+        sha512 = "3AungXC4I8kKsS9PuS4JH2nc+0bVY/mjgrephHTIi8fpEeGsTHBUJeosp0Wc1myYMElmD0B3Oc4XL/HVJ4PV2g==";
       };
     };
     "balanced-match-1.0.2" = {
@@ -1372,13 +1372,13 @@ let
         sha512 = "XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==";
       };
     };
-    "braces-3.0.2" = {
+    "braces-3.0.3" = {
       name = "braces";
       packageName = "braces";
-      version = "3.0.2";
+      version = "3.0.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/braces/-/braces-3.0.2.tgz";
-        sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
+        url = "https://registry.npmjs.org/braces/-/braces-3.0.3.tgz";
+        sha512 = "yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==";
       };
     };
     "browserslist-4.23.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.775" = {
+    "electron-to-chromium-1.4.777" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.775";
+      version = "1.4.777";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.775.tgz";
-        sha512 = "JpOfl1aNAiZ88wFzjPczTLwYIoPIsij8S9/XQH9lqMpiJOf23kxea68B8wje4f68t4rOIq4Bh+vP4I65njiJBw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.777.tgz";
+        sha512 = "n02NCwLJ3wexLfK/yQeqfywCblZqLcXphzmid5e8yVPdtEcida7li0A5WQKghHNG0FeOMCzeFOzEbtAh5riXFw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2695,13 +2695,13 @@ let
         sha512 = "0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==";
       };
     };
-    "fill-range-7.0.1" = {
+    "fill-range-7.1.1" = {
       name = "fill-range";
       packageName = "fill-range";
-      version = "7.0.1";
+      version = "7.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz";
-        sha512 = "qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==";
+        url = "https://registry.npmjs.org/fill-range/-/fill-range-7.1.1.tgz";
+        sha512 = "YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==";
       };
     };
     "find-up-2.1.0" = {
@@ -3010,13 +3010,13 @@ let
         sha512 = "SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==";
       };
     };
-    "glob-10.3.15" = {
+    "glob-10.3.16" = {
       name = "glob";
       packageName = "glob";
-      version = "10.3.15";
+      version = "10.3.16";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-10.3.15.tgz";
-        sha512 = "0c6RlJt1TICLyvJYIApxb8GsXoai0KUP7AxKKAtsYXdgJR1mGEUa7DgwShbdk1nly0PYoZj01xd4hzbq3fsjpw==";
+        url = "https://registry.npmjs.org/glob/-/glob-10.3.16.tgz";
+        sha512 = "JDKXl1DiuuHJ6fVS2FXjownaavciiHNUU4mOvV/B793RLh05vZL1rcPnCSaOgv1hDT6RDlY7AB7ZUvFYAtPgAw==";
       };
     };
     "glob-7.2.3" = {
@@ -3793,13 +3793,13 @@ let
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
       };
     };
-    "jackspeak-2.3.6" = {
+    "jackspeak-3.1.2" = {
       name = "jackspeak";
       packageName = "jackspeak";
-      version = "2.3.6";
+      version = "3.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-2.3.6.tgz";
-        sha512 = "N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ==";
+        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.1.2.tgz";
+        sha512 = "kWmLKn2tRtfYMF/BakihVVRzBKOxz4gJMiL2Rj91WnAB5TPZumSH99R/Yf1qE1u4uRimvCSJfm6hnxohXeEXjQ==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -4225,13 +4225,13 @@ let
         sha512 = "8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==";
       };
     };
-    "micromatch-4.0.5" = {
+    "micromatch-4.0.6" = {
       name = "micromatch";
       packageName = "micromatch";
-      version = "4.0.5";
+      version = "4.0.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz";
-        sha512 = "DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==";
+        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.6.tgz";
+        sha512 = "Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==";
       };
     };
     "mime-db-1.52.0" = {
@@ -5116,13 +5116,13 @@ let
         sha512 = "anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==";
       };
     };
-    "picomatch-2.3.1" = {
+    "picomatch-4.0.2" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "2.3.1";
+      version = "4.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz";
-        sha512 = "JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz";
+        sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
       };
     };
     "pify-2.3.0" = {
@@ -7310,7 +7310,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.775"
+      sources."electron-to-chromium-1.4.777"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7571,7 +7571,7 @@ in
       sources."exponential-backoff-3.1.1"
       sources."foreground-child-3.1.1"
       sources."fs-minipass-3.0.3"
-      sources."glob-10.3.15"
+      sources."glob-10.3.16"
       sources."graceful-fs-4.2.11"
       sources."http-cache-semantics-4.1.1"
       sources."http-proxy-agent-7.0.2"
@@ -7582,7 +7582,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."jackspeak-2.3.6"
+      sources."jackspeak-3.1.2"
       sources."jsbn-1.1.0"
       sources."lru-cache-10.2.2"
       (sources."make-fetch-happen-13.0.1" // {
@@ -8155,7 +8155,7 @@ in
       sources."array-union-2.1.0"
       sources."balanced-match-1.0.2"
       sources."brace-expansion-1.1.11"
-      sources."braces-3.0.2"
+      sources."braces-3.0.3"
       sources."callsite-1.0.0"
       sources."clean-stack-2.2.0"
       sources."concat-map-0.0.1"
@@ -8168,7 +8168,7 @@ in
       sources."execa-3.4.0"
       sources."fast-glob-3.3.2"
       sources."fastq-1.17.1"
-      sources."fill-range-7.0.1"
+      sources."fill-range-7.1.1"
       sources."fs-extra-10.1.0"
       sources."fs.realpath-1.0.0"
       sources."get-stream-5.2.0"
@@ -8193,7 +8193,7 @@ in
       sources."lodash-4.17.21"
       sources."merge-stream-2.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.5"
+      sources."micromatch-4.0.6"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.8"
@@ -8210,7 +8210,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."path-type-4.0.0"
-      sources."picomatch-2.3.1"
+      sources."picomatch-4.0.2"
       sources."pify-2.3.0"
       sources."pinkie-2.0.4"
       (sources."pinkie-promise-1.0.0" // {
@@ -8399,12 +8399,12 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."braces-3.0.2"
+      sources."braces-3.0.3"
       sources."domino-2.1.6"
       sources."encoding-0.1.13"
       sources."fast-glob-3.3.2"
       sources."fastq-1.17.1"
-      sources."fill-range-7.0.1"
+      sources."fill-range-7.1.1"
       sources."fuzzy-search-3.2.1"
       sources."glob-parent-5.1.2"
       sources."iconv-lite-0.6.3"
@@ -8412,9 +8412,9 @@ in
       sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.5"
+      sources."micromatch-4.0.6"
       sources."node-fetch-2.7.0"
-      sources."picomatch-2.3.1"
+      sources."picomatch-4.0.2"
       sources."queue-microtask-1.2.3"
       sources."reusify-1.0.4"
       sources."run-parallel-1.2.0"
@@ -8522,11 +8522,11 @@ in
       })
       sources."asynckit-0.4.0"
       sources."aws-sign2-0.7.0"
-      sources."aws4-1.12.0"
+      sources."aws4-1.13.0"
       sources."balanced-match-1.0.2"
       sources."bcrypt-pbkdf-1.0.2"
       sources."brace-expansion-2.0.1"
-      sources."braces-3.0.2"
+      sources."braces-3.0.3"
       sources."caseless-0.12.0"
       sources."chownr-2.0.0"
       sources."cjs-module-lexer-1.3.1"
@@ -8572,7 +8572,7 @@ in
       sources."fast-glob-3.3.2"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fastq-1.17.1"
-      sources."fill-range-7.0.1"
+      sources."fill-range-7.1.1"
       sources."foreground-child-3.1.1"
       sources."forever-agent-0.6.1"
       sources."form-data-4.0.0"
@@ -8593,7 +8593,7 @@ in
         ];
       })
       sources."getpass-0.1.7"
-      sources."glob-10.3.15"
+      sources."glob-10.3.16"
       sources."glob-parent-5.1.2"
       sources."graceful-fs-4.2.11"
       sources."har-schema-2.0.0"
@@ -8618,7 +8618,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."isexe-2.0.0"
       sources."isstream-0.1.2"
-      sources."jackspeak-2.3.6"
+      sources."jackspeak-3.1.2"
       sources."jsbn-0.1.1"
       sources."json-schema-0.4.0"
       sources."json-schema-traverse-0.4.1"
@@ -8634,7 +8634,7 @@ in
         ];
       })
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.5"
+      sources."micromatch-4.0.6"
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-9.0.1"
@@ -8665,7 +8665,7 @@ in
       })
       sources."peberminta-0.9.0"
       sources."performance-now-2.1.0"
-      sources."picomatch-2.3.1"
+      sources."picomatch-4.0.2"
       sources."proto-list-1.2.4"
       sources."protobufjs-7.2.6"
       sources."psl-1.9.0"
