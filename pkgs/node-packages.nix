@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001620" = {
+    "caniuse-lite-1.0.30001621" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001620";
+      version = "1.0.30001621";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001620.tgz";
-        sha512 = "WJvYsOjd1/BYUY6SNGUosK9DUidBPDTnOARHp3fSmFO1ekdxaY6nKRttEVrfMmYi80ctS0kz1wiWmm14fVc3ew==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001621.tgz";
+        sha512 = "+NLXZiviFFKX0fk8Piwv3PfLPGtRqJeq2TiNoUff/qB5KJgwecJTvCXDpmlyP/eCI/GUEmp/h/y5j0yckiiZrA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.777" = {
+    "electron-to-chromium-1.4.778" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.777";
+      version = "1.4.778";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.777.tgz";
-        sha512 = "n02NCwLJ3wexLfK/yQeqfywCblZqLcXphzmid5e8yVPdtEcida7li0A5WQKghHNG0FeOMCzeFOzEbtAh5riXFw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.778.tgz";
+        sha512 = "C6q/xcUJf/2yODRxAVCfIk4j3y3LMsD0ehiE2RQNV2cxc8XU62gR6vvYh3+etSUzlgTfil+qDHI1vubpdf0TOA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4225,13 +4225,13 @@ let
         sha512 = "8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==";
       };
     };
-    "micromatch-4.0.6" = {
+    "micromatch-4.0.7" = {
       name = "micromatch";
       packageName = "micromatch";
-      version = "4.0.6";
+      version = "4.0.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.6.tgz";
-        sha512 = "Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==";
+        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.7.tgz";
+        sha512 = "LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==";
       };
     };
     "mime-db-1.52.0" = {
@@ -5116,13 +5116,13 @@ let
         sha512 = "anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==";
       };
     };
-    "picomatch-4.0.2" = {
+    "picomatch-2.3.1" = {
       name = "picomatch";
       packageName = "picomatch";
-      version = "4.0.2";
+      version = "2.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz";
-        sha512 = "M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==";
+        url = "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz";
+        sha512 = "JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==";
       };
     };
     "pify-2.3.0" = {
@@ -7291,7 +7291,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001620"
+      sources."caniuse-lite-1.0.30001621"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7310,7 +7310,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.777"
+      sources."electron-to-chromium-1.4.778"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8193,7 +8193,7 @@ in
       sources."lodash-4.17.21"
       sources."merge-stream-2.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.6"
+      sources."micromatch-4.0.7"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.8"
@@ -8210,7 +8210,7 @@ in
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."path-type-4.0.0"
-      sources."picomatch-4.0.2"
+      sources."picomatch-2.3.1"
       sources."pify-2.3.0"
       sources."pinkie-2.0.4"
       (sources."pinkie-promise-1.0.0" // {
@@ -8412,9 +8412,9 @@ in
       sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.6"
+      sources."micromatch-4.0.7"
       sources."node-fetch-2.7.0"
-      sources."picomatch-4.0.2"
+      sources."picomatch-2.3.1"
       sources."queue-microtask-1.2.3"
       sources."reusify-1.0.4"
       sources."run-parallel-1.2.0"
@@ -8634,7 +8634,7 @@ in
         ];
       })
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.6"
+      sources."micromatch-4.0.7"
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-9.0.1"
@@ -8665,7 +8665,7 @@ in
       })
       sources."peberminta-0.9.0"
       sources."performance-now-2.1.0"
-      sources."picomatch-4.0.2"
+      sources."picomatch-2.3.1"
       sources."proto-list-1.2.4"
       sources."protobufjs-7.2.6"
       sources."psl-1.9.0"
