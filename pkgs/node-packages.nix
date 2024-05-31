@@ -373,6 +373,15 @@ let
         sha512 = "Cu96Sd2By9mCNTx2iyKOmq10v22jUVQv0lQnlGNy16oE9589yE+QADPbrMGCkA51cKZSg3Pu/aTJVTGfL/qjUA==";
       };
     };
+    "@eslint/config-array-0.15.1" = {
+      name = "_at_eslint_slash_config-array";
+      packageName = "@eslint/config-array";
+      version = "0.15.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@eslint/config-array/-/config-array-0.15.1.tgz";
+        sha512 = "K4gzNq+yymn/EVsXYmf+SBcBro8MTf+aXJZUphM96CdzUEr+ClGDvAbpmaEK+cGVigVXIgs9gNmvHAlrzzY5JQ==";
+      };
+    };
     "@eslint/eslintrc-0.3.0" = {
       name = "_at_eslint_slash_eslintrc";
       packageName = "@eslint/eslintrc";
@@ -409,13 +418,22 @@ let
         sha512 = "Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==";
       };
     };
-    "@eslint/js-9.3.0" = {
+    "@eslint/js-9.4.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "9.3.0";
+      version = "9.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-9.3.0.tgz";
-        sha512 = "niBqk8iwv96+yuTwjM6bWg8ovzAPF9qkICsGtcoa5/dmqcEMfdwNAX7+/OHcJHc7wj7XqPxH98oAHytFYlw6Sw==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-9.4.0.tgz";
+        sha512 = "fdI7VJjP3Rvc70lC4xkFXHB0fiPeojiL1PxVG6t1ZvXQrarj893PweuBTujxDUFk0Fxj4R7PIIAZ/aiiyZPZcg==";
+      };
+    };
+    "@eslint/object-schema-2.1.3" = {
+      name = "_at_eslint_slash_object-schema";
+      packageName = "@eslint/object-schema";
+      version = "2.1.3";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.3.tgz";
+        sha512 = "HAbhAYKfsAC2EkTqve00ibWIZlaU74Z1EHwAjYr4PXF0YU2VEA1zSIKSSpKszRLRWwHzzRZXvK632u+uXzvsvw==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -434,15 +452,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.11.14.tgz";
         sha512 = "3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==";
-      };
-    };
-    "@humanwhocodes/config-array-0.13.0" = {
-      name = "_at_humanwhocodes_slash_config-array";
-      packageName = "@humanwhocodes/config-array";
-      version = "0.13.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.13.0.tgz";
-        sha512 = "DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==";
       };
     };
     "@humanwhocodes/module-importer-1.0.1" = {
@@ -814,13 +823,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.12.13" = {
+    "@types/node-20.13.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.13";
+      version = "20.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.13.tgz";
-        sha512 = "gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.13.0.tgz";
+        sha512 = "FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -1849,13 +1858,13 @@ let
         sha512 = "CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==";
       };
     };
-    "debug-4.3.4" = {
+    "debug-4.3.5" = {
       name = "debug";
       packageName = "debug";
-      version = "4.3.4";
+      version = "4.3.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/debug/-/debug-4.3.4.tgz";
-        sha512 = "PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==";
+        url = "https://registry.npmjs.org/debug/-/debug-4.3.5.tgz";
+        sha512 = "pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==";
       };
     };
     "decompress-response-6.0.0" = {
@@ -2308,13 +2317,13 @@ let
         sha512 = "dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==";
       };
     };
-    "eslint-9.3.0" = {
+    "eslint-9.4.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "9.3.0";
+      version = "9.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-9.3.0.tgz";
-        sha512 = "5Iv4CsZW030lpUqHBapdPo3MJetAPtejVW8B84GIcIIv8+ohFaddXsrn1Gn8uD9ijDb+kcYKFUVmC8qG8B2ORQ==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-9.4.0.tgz";
+        sha512 = "sjc7Y8cUD1IlwYcTS9qPSvGjAC8Ne9LctpxKKu3x/1IC9bnOg98Zy6GxEJUfr1NojMgVPlyANXYns8oE2c1TAA==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -6976,10 +6985,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "9.3.0";
+    version = "9.4.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-9.3.0.tgz";
-      sha512 = "5Iv4CsZW030lpUqHBapdPo3MJetAPtejVW8B84GIcIIv8+ohFaddXsrn1Gn8uD9ijDb+kcYKFUVmC8qG8B2ORQ==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-9.4.0.tgz";
+      sha512 = "sjc7Y8cUD1IlwYcTS9qPSvGjAC8Ne9LctpxKKu3x/1IC9bnOg98Zy6GxEJUfr1NojMgVPlyANXYns8oE2c1TAA==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -6988,11 +6997,11 @@ in
         ];
       })
       sources."@eslint-community/regexpp-4.10.0"
+      sources."@eslint/config-array-0.15.1"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.3.0"
-      sources."@humanwhocodes/config-array-0.13.0"
+      sources."@eslint/js-9.4.0"
+      sources."@eslint/object-schema-2.1.3"
       sources."@humanwhocodes/module-importer-1.0.1"
-      sources."@humanwhocodes/object-schema-2.0.3"
       sources."@humanwhocodes/retry-0.3.0"
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
@@ -7011,10 +7020,10 @@ in
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.4"
+      sources."debug-4.3.5"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.3.0"
+      sources."eslint-9.4.0"
       sources."eslint-scope-8.0.1"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.0.1"
@@ -7124,7 +7133,7 @@ in
       sources."concat-map-0.0.1"
       sources."core_d-6.1.0"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.4"
+      sources."debug-4.3.5"
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
@@ -7305,7 +7314,7 @@ in
       sources."concat-map-0.0.1"
       sources."console-control-strings-1.1.0"
       sources."convert-source-map-2.0.0"
-      sources."debug-4.3.4"
+      sources."debug-4.3.5"
       sources."decompress-response-6.0.0"
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
@@ -7563,7 +7572,7 @@ in
           sources."which-2.0.2"
         ];
       })
-      sources."debug-4.3.4"
+      sources."debug-4.3.5"
       sources."eastasianwidth-0.2.0"
       sources."emoji-regex-9.2.2"
       sources."env-paths-2.2.1"
@@ -7822,7 +7831,12 @@ in
       sources."@babel/helper-validator-identifier-7.24.6"
       (sources."@babel/highlight-7.24.6" // {
         dependencies = [
+          sources."ansi-styles-3.2.1"
           sources."chalk-2.4.2"
+          sources."color-convert-1.9.3"
+          sources."color-name-1.1.3"
+          sources."has-flag-3.0.0"
+          sources."supports-color-5.5.0"
         ];
       })
       sources."@eslint/eslintrc-0.3.0"
@@ -7832,7 +7846,7 @@ in
       sources."ajv-6.12.6"
       sources."ansi-colors-4.1.3"
       sources."ansi-regex-5.0.1"
-      sources."ansi-styles-3.2.1"
+      sources."ansi-styles-4.3.0"
       sources."argparse-1.0.10"
       sources."array-buffer-byte-length-1.0.1"
       sources."array-includes-3.1.8"
@@ -7845,23 +7859,15 @@ in
       sources."brace-expansion-1.1.11"
       sources."call-bind-1.0.7"
       sources."callsites-3.1.0"
-      (sources."chalk-4.1.2" // {
-        dependencies = [
-          sources."ansi-styles-4.3.0"
-          sources."color-convert-2.0.1"
-          sources."color-name-1.1.4"
-          sources."has-flag-4.0.0"
-          sources."supports-color-7.2.0"
-        ];
-      })
-      sources."color-convert-1.9.3"
-      sources."color-name-1.1.3"
+      sources."chalk-4.1.2"
+      sources."color-convert-2.0.1"
+      sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
       sources."data-view-buffer-1.0.1"
       sources."data-view-byte-length-1.0.1"
       sources."data-view-byte-offset-1.0.0"
-      sources."debug-4.3.4"
+      sources."debug-4.3.5"
       sources."deep-is-0.1.4"
       sources."define-data-property-1.1.4"
       sources."define-properties-1.2.1"
@@ -7908,11 +7914,14 @@ in
       (sources."eslint-plugin-react-7.25.3" // {
         dependencies = [
           sources."doctrine-2.1.0"
-          sources."estraverse-5.3.0"
           sources."resolve-2.0.0-next.5"
         ];
       })
-      sources."eslint-scope-5.1.1"
+      (sources."eslint-scope-5.1.1" // {
+        dependencies = [
+          sources."estraverse-4.3.0"
+        ];
+      })
       (sources."eslint-utils-2.1.0" // {
         dependencies = [
           sources."eslint-visitor-keys-1.3.0"
@@ -7925,17 +7934,9 @@ in
         ];
       })
       sources."esprima-4.0.1"
-      (sources."esquery-1.5.0" // {
-        dependencies = [
-          sources."estraverse-5.3.0"
-        ];
-      })
-      (sources."esrecurse-4.3.0" // {
-        dependencies = [
-          sources."estraverse-5.3.0"
-        ];
-      })
-      sources."estraverse-4.3.0"
+      sources."esquery-1.5.0"
+      sources."esrecurse-4.3.0"
+      sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
@@ -7961,7 +7962,7 @@ in
       sources."graceful-fs-4.2.11"
       sources."has-1.0.4"
       sources."has-bigints-1.0.2"
-      sources."has-flag-3.0.0"
+      sources."has-flag-4.0.0"
       sources."has-property-descriptors-1.0.2"
       sources."has-proto-1.0.3"
       sources."has-symbols-1.0.3"
@@ -8076,13 +8077,7 @@ in
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."side-channel-1.0.6"
-      (sources."slice-ansi-4.0.0" // {
-        dependencies = [
-          sources."ansi-styles-4.3.0"
-          sources."color-convert-2.0.1"
-          sources."color-name-1.1.4"
-        ];
-      })
+      sources."slice-ansi-4.0.0"
       sources."spdx-correct-3.2.0"
       sources."spdx-exceptions-2.5.0"
       sources."spdx-expression-parse-3.0.1"
@@ -8098,7 +8093,7 @@ in
       sources."strip-ansi-6.0.1"
       sources."strip-bom-3.0.0"
       sources."strip-json-comments-3.1.1"
-      sources."supports-color-5.5.0"
+      sources."supports-color-7.2.0"
       sources."supports-preserve-symlinks-flag-1.0.0"
       (sources."table-6.8.2" // {
         dependencies = [
@@ -8149,7 +8144,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.12.13"
+      sources."@types/node-20.13.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8160,7 +8155,7 @@ in
       sources."clean-stack-2.2.0"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.4"
+      sources."debug-4.3.5"
       sources."dedent-0.7.0"
       sources."del-5.1.0"
       sources."dir-glob-3.0.1"
@@ -8498,7 +8493,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.12.13"
+      sources."@types/node-20.13.0"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
@@ -8547,7 +8542,7 @@ in
       sources."core-util-is-1.0.2"
       sources."cross-spawn-7.0.3"
       sources."dashdash-1.14.1"
-      sources."debug-4.3.4"
+      sources."debug-4.3.5"
       sources."deepmerge-4.3.1"
       sources."delayed-stream-1.0.0"
       sources."delegates-1.0.0"
