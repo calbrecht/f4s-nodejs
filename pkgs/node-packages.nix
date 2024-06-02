@@ -823,13 +823,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.13.0" = {
+    "@types/node-20.14.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.13.0";
+      version = "20.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.13.0.tgz";
-        sha512 = "FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.14.0.tgz";
+        sha512 = "5cHBxFGJx6L4s56Bubp4fglrEpmyJypsqI6RgzMfBHWUJQGWAAi8cWcgetEbZXHYXo9C2Fa4EEds/uSyS4cxmA==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -1471,13 +1471,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001625" = {
+    "caniuse-lite-1.0.30001626" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001625";
+      version = "1.0.30001626";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001625.tgz";
-        sha512 = "4KE9N2gcRH+HQhpeiRZXd+1niLB/XNLAhSy4z7fI8EzcbcPoAqjNInxVHTiTwWfTIV4w096XG8OtCOCQQKPv3w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001626.tgz";
+        sha512 = "JRW7kAH8PFJzoPCJhLSHgDgKg5348hsQ68aqb+slnzuB5QFERv846oA/mRChmlLAOdEDeOkRn3ynb1gSFnjt3w==";
       };
     };
     "cardinal-1.0.0" = {
@@ -7300,7 +7300,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001625"
+      sources."caniuse-lite-1.0.30001626"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -8144,7 +8144,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.13.0"
+      sources."@types/node-20.14.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8385,10 +8385,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "5.3.3";
+    version = "5.3.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.3.3.tgz";
-      sha512 = "GKqUdue8N1rUvBHN5XwmTSVECQuRU4FVlhRFd0Q37e4ppEcJAKV9jJoi8TQc+2ra5jc020aM8CMluXBCwIn2Pw==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.3.4.tgz";
+      sha512 = "9GEzJVOOyU7ZQbDI/uFc8N9FGuun6UZv1qB9bNUbehIb1gA4pOpkIYtqtfSq0XQSO25hMp8d/tzsmFJmeX+dQg==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -8493,7 +8493,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.13.0"
+      sources."@types/node-20.14.0"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
