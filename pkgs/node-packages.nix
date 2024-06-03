@@ -364,13 +364,13 @@ let
         sha512 = "1/sA4dwrzBAyeUoQ6oxahHKmrZvsnLCg4RfxW3ZFGGmQkSNQPFNLV9CUEFQP1x9EYXHTo5p6xdhZM1Ne9p/AfA==";
       };
     };
-    "@eslint-community/regexpp-4.10.0" = {
+    "@eslint-community/regexpp-4.10.1" = {
       name = "_at_eslint-community_slash_regexpp";
       packageName = "@eslint-community/regexpp";
-      version = "4.10.0";
+      version = "4.10.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.10.0.tgz";
-        sha512 = "Cu96Sd2By9mCNTx2iyKOmq10v22jUVQv0lQnlGNy16oE9589yE+QADPbrMGCkA51cKZSg3Pu/aTJVTGfL/qjUA==";
+        url = "https://registry.npmjs.org/@eslint-community/regexpp/-/regexpp-4.10.1.tgz";
+        sha512 = "Zm2NGpWELsQAD1xsJzGQpYfvICSsFkEpU0jxBjfdC6uNEWXcHnfs9hScFWtXVDVl+rBQJGrl4g1vcKIejpH9dA==";
       };
     };
     "@eslint/config-array-0.15.1" = {
@@ -985,13 +985,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.14.0" = {
+    "ajv-8.15.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.14.0";
+      version = "8.15.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.14.0.tgz";
-        sha512 = "oYs1UUtO97ZO2lJ4bwnWeQW8/zvOIQLGKcvPTsWmvc2SYgBb+upuNS5NxoLaMU4h8Ju3Nbj6Cq8mD2LQoqVKFA==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.15.0.tgz";
+        sha512 = "15BTtQUOsSrmHCy+B4VnAiJAJxJ8IFgu6fcjFQF3jQYZ78nLSQthlFg4ehp+NLIyfvFgOlxNsjKIEhydtFPVHQ==";
       };
     };
     "ansi-colors-4.1.3" = {
@@ -1471,13 +1471,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001626" = {
+    "caniuse-lite-1.0.30001627" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001626";
+      version = "1.0.30001627";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001626.tgz";
-        sha512 = "JRW7kAH8PFJzoPCJhLSHgDgKg5348hsQ68aqb+slnzuB5QFERv846oA/mRChmlLAOdEDeOkRn3ynb1gSFnjt3w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001627.tgz";
+        sha512 = "4zgNiB8nTyV/tHhwZrFs88ryjls/lHiqFhrxCW4qSTeuRByBVnPYpDInchOIySWknznucaf31Z4KYqjfbrecVw==";
       };
     };
     "cardinal-1.0.0" = {
@@ -2650,6 +2650,15 @@ let
         sha512 = "DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==";
       };
     };
+    "fast-uri-2.3.0" = {
+      name = "fast-uri";
+      packageName = "fast-uri";
+      version = "2.3.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/fast-uri/-/fast-uri-2.3.0.tgz";
+        sha512 = "eel5UKGn369gGEWOqBShmFJWfq/xSJvsgDzgLYC845GneayWvXBf0lJCBn5qTABfewy1ZDPoaR5OZCP+kssfuw==";
+      };
+    };
     "fastq-1.17.1" = {
       name = "fastq";
       packageName = "fastq";
@@ -3802,13 +3811,13 @@ let
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
       };
     };
-    "jackspeak-3.1.2" = {
+    "jackspeak-3.2.1" = {
       name = "jackspeak";
       packageName = "jackspeak";
-      version = "3.1.2";
+      version = "3.2.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.1.2.tgz";
-        sha512 = "kWmLKn2tRtfYMF/BakihVVRzBKOxz4gJMiL2Rj91WnAB5TPZumSH99R/Yf1qE1u4uRimvCSJfm6hnxohXeEXjQ==";
+        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.2.1.tgz";
+        sha512 = "i49Q2Ju2Tok3HsZqiRQg3U0dQonWEce5+TQ79TWtJzvxU19ITYOsxWgw9duQWPqCIksa8Q1SMgjdav7I+5LaSQ==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -6996,7 +7005,7 @@ in
           sources."eslint-visitor-keys-3.4.3"
         ];
       })
-      sources."@eslint-community/regexpp-4.10.0"
+      sources."@eslint-community/regexpp-4.10.1"
       sources."@eslint/config-array-0.15.1"
       sources."@eslint/eslintrc-3.1.0"
       sources."@eslint/js-9.4.0"
@@ -7104,7 +7113,7 @@ in
     };
     dependencies = [
       sources."@eslint-community/eslint-utils-4.4.0"
-      sources."@eslint-community/regexpp-4.10.0"
+      sources."@eslint-community/regexpp-4.10.1"
       sources."@eslint/eslintrc-2.1.4"
       sources."@eslint/js-8.57.0"
       sources."@humanwhocodes/config-array-0.11.14"
@@ -7300,7 +7309,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001626"
+      sources."caniuse-lite-1.0.30001627"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7591,7 +7600,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."jackspeak-3.1.2"
+      sources."jackspeak-3.2.1"
       sources."jsbn-1.1.0"
       sources."lru-cache-10.2.2"
       (sources."make-fetch-happen-13.0.1" // {
@@ -7941,6 +7950,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
+      sources."fast-uri-2.3.0"
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
       sources."flat-cache-3.2.0"
@@ -8097,7 +8107,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       (sources."table-6.8.2" // {
         dependencies = [
-          sources."ajv-8.14.0"
+          sources."ajv-8.15.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -8617,7 +8627,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."isexe-2.0.0"
       sources."isstream-0.1.2"
-      sources."jackspeak-3.1.2"
+      sources."jackspeak-3.2.1"
       sources."jsbn-0.1.1"
       sources."json-schema-0.4.0"
       sources."json-schema-traverse-0.4.1"
@@ -8802,15 +8812,14 @@ in
       sha512 = "HnNiHM5AOTXuM8ZpubzqgTy+7V5kFiMXVedOT2yjhvnxCw6pbMXcD/ymHaaT5v2ue0H8GGH4NFkvCEzcIcTJDg==";
     };
     dependencies = [
-      sources."ajv-8.14.0"
+      sources."ajv-8.15.0"
       sources."fast-deep-equal-3.1.3"
+      sources."fast-uri-2.3.0"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.2.1"
       sources."lodash-4.17.21"
-      sources."punycode-2.3.1"
       sources."request-light-0.5.8"
       sources."require-from-string-2.0.2"
-      sources."uri-js-4.4.1"
       sources."vscode-json-languageservice-4.1.8"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
