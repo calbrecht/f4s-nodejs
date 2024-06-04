@@ -823,13 +823,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.14.0" = {
+    "@types/node-20.14.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.14.0";
+      version = "20.14.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.14.0.tgz";
-        sha512 = "5cHBxFGJx6L4s56Bubp4fglrEpmyJypsqI6RgzMfBHWUJQGWAAi8cWcgetEbZXHYXo9C2Fa4EEds/uSyS4cxmA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.14.1.tgz";
+        sha512 = "T2MzSGEu+ysB/FkWfqmhV3PLyQlowdptmmgD20C6QxsS8Fmv5SjpZ1ayXaEC0S21/h5UJ9iA6W/5vSNU5l00OA==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -985,13 +985,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.15.0" = {
+    "ajv-8.16.0" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.15.0";
+      version = "8.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.15.0.tgz";
-        sha512 = "15BTtQUOsSrmHCy+B4VnAiJAJxJ8IFgu6fcjFQF3jQYZ78nLSQthlFg4ehp+NLIyfvFgOlxNsjKIEhydtFPVHQ==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.16.0.tgz";
+        sha512 = "F0twR8U1ZU67JIEtekUcLkXkoO5mMMmgGD8sK/xUFzJ805jxHQl92hImFAqqXMyMYjSPOyUPAwHYhB72g5sTXw==";
       };
     };
     "ansi-colors-4.1.3" = {
@@ -2101,13 +2101,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.788" = {
+    "electron-to-chromium-1.4.789" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.788";
+      version = "1.4.789";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.788.tgz";
-        sha512 = "ubp5+Ev/VV8KuRoWnfP2QF2Bg+O2ZFdb49DiiNbz2VmgkIqrnyYaqIOqj8A6K/3p1xV0QcU5hBQ1+BmB6ot1OA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.789.tgz";
+        sha512 = "0VbyiaXoT++Fi2vHGo2ThOeS6X3vgRCWrjPeO2FeIAWL6ItiSJ9BqlH8LfCXe3X1IdcG+S0iLoNaxQWhfZoGzQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2648,15 +2648,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz";
         sha512 = "DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==";
-      };
-    };
-    "fast-uri-2.3.0" = {
-      name = "fast-uri";
-      packageName = "fast-uri";
-      version = "2.3.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/fast-uri/-/fast-uri-2.3.0.tgz";
-        sha512 = "eel5UKGn369gGEWOqBShmFJWfq/xSJvsgDzgLYC845GneayWvXBf0lJCBn5qTABfewy1ZDPoaR5OZCP+kssfuw==";
       };
     };
     "fastq-1.17.1" = {
@@ -3811,13 +3802,13 @@ let
         sha512 = "Yljz7ffyPbrLpLngrMtZ7NduUgVvi6wG9RJ9IUcyCd59YQ911PBJphODUcbOVbqYfxe1wuYf/LJ8PauMRwsM/g==";
       };
     };
-    "jackspeak-3.2.1" = {
+    "jackspeak-3.2.5" = {
       name = "jackspeak";
       packageName = "jackspeak";
-      version = "3.2.1";
+      version = "3.2.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.2.1.tgz";
-        sha512 = "i49Q2Ju2Tok3HsZqiRQg3U0dQonWEce5+TQ79TWtJzvxU19ITYOsxWgw9duQWPqCIksa8Q1SMgjdav7I+5LaSQ==";
+        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.2.5.tgz";
+        sha512 = "a1hopwtr4NawFIrSmFgufzrN1Qy2BAfMJ0yScJBs/olJhTcctCy3YIDx4hTY2DOTJD1pUMTly80kmlYZxjZr5w==";
       };
     };
     "js-tokens-4.0.0" = {
@@ -6322,13 +6313,13 @@ let
         sha512 = "Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==";
       };
     };
-    "tslib-2.6.2" = {
+    "tslib-2.6.3" = {
       name = "tslib";
       packageName = "tslib";
-      version = "2.6.2";
+      version = "2.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz";
-        sha512 = "AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==";
+        url = "https://registry.npmjs.org/tslib/-/tslib-2.6.3.tgz";
+        sha512 = "xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==";
       };
     };
     "tsutils-2.29.0" = {
@@ -7328,7 +7319,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.788"
+      sources."electron-to-chromium-1.4.789"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7600,7 +7591,7 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."jackspeak-3.2.1"
+      sources."jackspeak-3.2.5"
       sources."jsbn-1.1.0"
       sources."lru-cache-10.2.2"
       (sources."make-fetch-happen-13.0.1" // {
@@ -7950,7 +7941,6 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
-      sources."fast-uri-2.3.0"
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
       sources."flat-cache-3.2.0"
@@ -8107,7 +8097,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       (sources."table-6.8.2" // {
         dependencies = [
-          sources."ajv-8.15.0"
+          sources."ajv-8.16.0"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -8154,7 +8144,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.14.0"
+      sources."@types/node-20.14.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8503,7 +8493,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.14.0"
+      sources."@types/node-20.14.1"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
@@ -8627,7 +8617,7 @@ in
       sources."is-typedarray-1.0.0"
       sources."isexe-2.0.0"
       sources."isstream-0.1.2"
-      sources."jackspeak-3.2.1"
+      sources."jackspeak-3.2.5"
       sources."jsbn-0.1.1"
       sources."json-schema-0.4.0"
       sources."json-schema-traverse-0.4.1"
@@ -8737,7 +8727,7 @@ in
       sources."to-regex-range-5.0.1"
       sources."tough-cookie-2.5.0"
       sources."tr46-0.0.3"
-      sources."tslib-2.6.2"
+      sources."tslib-2.6.3"
       sources."tunnel-agent-0.6.0"
       sources."turndown-7.1.3"
       sources."turndown-plugin-gfm-1.0.2"
@@ -8812,14 +8802,15 @@ in
       sha512 = "HnNiHM5AOTXuM8ZpubzqgTy+7V5kFiMXVedOT2yjhvnxCw6pbMXcD/ymHaaT5v2ue0H8GGH4NFkvCEzcIcTJDg==";
     };
     dependencies = [
-      sources."ajv-8.15.0"
+      sources."ajv-8.16.0"
       sources."fast-deep-equal-3.1.3"
-      sources."fast-uri-2.3.0"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.2.1"
       sources."lodash-4.17.21"
+      sources."punycode-2.3.1"
       sources."request-light-0.5.8"
       sources."require-from-string-2.0.2"
+      sources."uri-js-4.4.1"
       sources."vscode-json-languageservice-4.1.8"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
