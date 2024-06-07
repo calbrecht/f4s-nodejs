@@ -2101,13 +2101,13 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.793" = {
+    "electron-to-chromium-1.4.796" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.793";
+      version = "1.4.796";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.793.tgz";
-        sha512 = "eGGzOCtlwNLVoMgOAXKLvesX6X7HM/KMJ+3x/yjcCBbZfpFhQvZUFvhnHxJT3jHJ8RpstR5npd0krWLPTCoh0g==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.796.tgz";
+        sha512 = "NglN/xprcM+SHD2XCli4oC6bWe6kHoytcyLKCWXmRL854F0qhPhaYgUswUsglnPxYaNQIg2uMY4BvaomIf3kLA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7319,7 +7319,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.793"
+      sources."electron-to-chromium-1.4.796"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8556,7 +8556,11 @@ in
       sources."domutils-3.1.0"
       sources."eastasianwidth-0.2.0"
       sources."ecc-jsbn-0.1.2"
-      sources."editorconfig-1.0.4"
+      (sources."editorconfig-1.0.4" // {
+        dependencies = [
+          sources."minimatch-9.0.1"
+        ];
+      })
       sources."emitter-listener-1.1.2"
       sources."emoji-regex-9.2.2"
       sources."encoding-0.1.13"
@@ -8588,11 +8592,7 @@ in
         ];
       })
       sources."getpass-0.1.7"
-      (sources."glob-10.4.1" // {
-        dependencies = [
-          sources."minimatch-9.0.4"
-        ];
-      })
+      sources."glob-10.4.1"
       sources."glob-parent-5.1.2"
       sources."graceful-fs-4.2.11"
       sources."har-schema-2.0.0"
@@ -8636,7 +8636,7 @@ in
       sources."micromatch-4.0.7"
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
-      sources."minimatch-9.0.1"
+      sources."minimatch-9.0.4"
       sources."minipass-7.1.2"
       (sources."minizlib-2.1.2" // {
         dependencies = [
