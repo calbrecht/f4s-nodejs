@@ -1471,13 +1471,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001629" = {
+    "caniuse-lite-1.0.30001632" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001629";
+      version = "1.0.30001632";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001629.tgz";
-        sha512 = "c3dl911slnQhmxUIT4HhYzT7wnBK/XYpGnYLOj4nJBaRiw52Ibe7YxlDaAeRECvA786zCuExhxIUJ2K7nHMrBw==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001632.tgz";
+        sha512 = "udx3o7yHJfUxMLkGohMlVHCvFvWmirKh9JAH/d7WOLPetlH+LTL5cocMZ0t7oZx/mdlOWXti97xLZWc8uURRHg==";
       };
     };
     "cardinal-1.0.0" = {
@@ -1694,6 +1694,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/commander/-/commander-10.0.1.tgz";
         sha512 = "y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==";
+      };
+    };
+    "commander-11.1.0" = {
+      name = "commander";
+      packageName = "commander";
+      version = "11.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/commander/-/commander-11.1.0.tgz";
+        sha512 = "yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==";
       };
     };
     "commander-2.20.3" = {
@@ -2101,13 +2110,22 @@ let
         sha512 = "L9Qe08KWTlqYMVvMcTIvMAdl1cDUubzRNYL+WfA4bLDMHe4nemKkpmYzkznE1FwLKu0EEmy6obgQKzMJrg4x9Q==";
       };
     };
-    "electron-to-chromium-1.4.796" = {
+    "editorconfig-2.0.0" = {
+      name = "editorconfig";
+      packageName = "editorconfig";
+      version = "2.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/editorconfig/-/editorconfig-2.0.0.tgz";
+        sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
+      };
+    };
+    "electron-to-chromium-1.4.797" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.796";
+      version = "1.4.797";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.796.tgz";
-        sha512 = "NglN/xprcM+SHD2XCli4oC6bWe6kHoytcyLKCWXmRL854F0qhPhaYgUswUsglnPxYaNQIg2uMY4BvaomIf3kLA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.797.tgz";
+        sha512 = "RWMYymqyWwIdCEb7Psag5zyAHirYnB354ZREoF8c5QOHbt8AodF7lwVxGUnu5gzBVjzDo9R3XeTwy7pbvubxGw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4297,6 +4315,15 @@ let
         sha512 = "0jWhJpD/MdhPXwPuiRkCbfYfSKp2qnn2eOc279qI7f+osl/l+prKSrvhg157zSYvx/1nmgn2NqdT6k2Z7zSH9w==";
       };
     };
+    "minimatch-9.0.2" = {
+      name = "minimatch";
+      packageName = "minimatch";
+      version = "9.0.2";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/minimatch/-/minimatch-9.0.2.tgz";
+        sha512 = "PZOT9g5v2ojiTL7r1xF6plNHLtOeTpSlDI007As2NlA2aYBMfVom17yqa6QzhmDP8QOhn7LjHTg7DFCVSSa6yg==";
+      };
+    };
     "minimatch-9.0.4" = {
       name = "minimatch";
       packageName = "minimatch";
@@ -4567,13 +4594,13 @@ let
         sha512 = "+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==";
       };
     };
-    "node-abi-3.63.0" = {
+    "node-abi-3.64.0" = {
       name = "node-abi";
       packageName = "node-abi";
-      version = "3.63.0";
+      version = "3.64.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.63.0.tgz";
-        sha512 = "vAszCsOUrUxjGAmdnM/pq7gUgie0IRteCQMX6d4A534fQCR93EJU5qgzBvU6EkFfK27s0T3HEV3BOyJIr7OMYw==";
+        url = "https://registry.npmjs.org/node-abi/-/node-abi-3.64.0.tgz";
+        sha512 = "lxowHVCx3o1zfKJthjWh6WI8Eyi4gdTaK9bUc3oTjYv9j8sp5gSiufkOvoYZ1LgmZKngWUkS5a8G1RSuLWtPgg==";
       };
     };
     "node-addon-api-7.1.0" = {
@@ -7300,7 +7327,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001629"
+      sources."caniuse-lite-1.0.30001632"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7319,7 +7346,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.796"
+      sources."electron-to-chromium-1.4.797"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7427,7 +7454,7 @@ in
       sources."ms-2.1.2"
       sources."napi-build-utils-1.0.2"
       sources."negotiator-0.6.3"
-      (sources."node-abi-3.63.0" // {
+      (sources."node-abi-3.64.0" // {
         dependencies = [
           sources."semver-7.6.2"
         ];
@@ -8385,17 +8412,22 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "5.3.4";
+    version = "5.4.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.3.4.tgz";
-      sha512 = "9GEzJVOOyU7ZQbDI/uFc8N9FGuun6UZv1qB9bNUbehIb1gA4pOpkIYtqtfSq0XQSO25hMp8d/tzsmFJmeX+dQg==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.4.0.tgz";
+      sha512 = "YLCIBjnwdxvlwlurTA4Be7UfPXDzaWCJKzJwzO8rVjJH0QlbhPvo3FXkYOBXPLg81G4hb0ZbhSAi4+yrs7j5cQ==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
+      sources."@one-ini/wasm-0.1.1"
+      sources."balanced-match-1.0.2"
+      sources."brace-expansion-2.0.1"
       sources."braces-3.0.3"
+      sources."commander-11.1.0"
       sources."domino-2.1.6"
+      sources."editorconfig-2.0.0"
       sources."encoding-0.1.13"
       sources."fast-glob-3.3.2"
       sources."fastq-1.17.1"
@@ -8408,12 +8440,14 @@ in
       sources."is-number-7.0.0"
       sources."merge2-1.4.1"
       sources."micromatch-4.0.7"
+      sources."minimatch-9.0.2"
       sources."node-fetch-2.7.0"
       sources."picomatch-2.3.1"
       sources."queue-microtask-1.2.3"
       sources."reusify-1.0.4"
       sources."run-parallel-1.2.0"
       sources."safer-buffer-2.1.2"
+      sources."semver-7.6.2"
       sources."to-regex-range-5.0.1"
       sources."tr46-0.0.3"
       sources."turndown-7.1.3"
