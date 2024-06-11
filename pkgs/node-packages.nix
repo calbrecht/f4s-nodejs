@@ -2119,13 +2119,13 @@ let
         sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
       };
     };
-    "electron-to-chromium-1.4.797" = {
+    "electron-to-chromium-1.4.799" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.797";
+      version = "1.4.799";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.797.tgz";
-        sha512 = "RWMYymqyWwIdCEb7Psag5zyAHirYnB354ZREoF8c5QOHbt8AodF7lwVxGUnu5gzBVjzDo9R3XeTwy7pbvubxGw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.799.tgz";
+        sha512 = "3D3DwWkRTzrdEpntY0hMLYwj7SeBk1138CkPE8sBDSj3WzrzOiG2rHm3luw8jucpf+WiyLBCZyU9lMHyQI9M9Q==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -7346,7 +7346,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.797"
+      sources."electron-to-chromium-1.4.799"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7830,10 +7830,10 @@ in
   prettier = nodeEnv.buildNodePackage {
     name = "prettier";
     packageName = "prettier";
-    version = "3.3.1";
+    version = "3.3.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/prettier/-/prettier-3.3.1.tgz";
-      sha512 = "7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==";
+      url = "https://registry.npmjs.org/prettier/-/prettier-3.3.2.tgz";
+      sha512 = "rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==";
     };
     buildInputs = globalBuildInputs;
     meta = {
