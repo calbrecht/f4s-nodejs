@@ -427,13 +427,13 @@ let
         sha512 = "fdI7VJjP3Rvc70lC4xkFXHB0fiPeojiL1PxVG6t1ZvXQrarj893PweuBTujxDUFk0Fxj4R7PIIAZ/aiiyZPZcg==";
       };
     };
-    "@eslint/object-schema-2.1.3" = {
+    "@eslint/object-schema-2.1.4" = {
       name = "_at_eslint_slash_object-schema";
       packageName = "@eslint/object-schema";
-      version = "2.1.3";
+      version = "2.1.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.3.tgz";
-        sha512 = "HAbhAYKfsAC2EkTqve00ibWIZlaU74Z1EHwAjYr4PXF0YU2VEA1zSIKSSpKszRLRWwHzzRZXvK632u+uXzvsvw==";
+        url = "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.4.tgz";
+        sha512 = "BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==";
       };
     };
     "@gar/promisify-1.1.3" = {
@@ -2119,13 +2119,13 @@ let
         sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
       };
     };
-    "electron-to-chromium-1.4.799" = {
+    "electron-to-chromium-1.4.800" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.799";
+      version = "1.4.800";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.799.tgz";
-        sha512 = "3D3DwWkRTzrdEpntY0hMLYwj7SeBk1138CkPE8sBDSj3WzrzOiG2rHm3luw8jucpf+WiyLBCZyU9lMHyQI9M9Q==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.800.tgz";
+        sha512 = "G8yyAReBP8m0XaW9BBH5NOJe4ZGYDDsPYkgLCG8xU6HwGKzrT0Jj51uAHkt1D+9ZxHPoGFSSZqqSN7HxAiP+0g==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2803,13 +2803,13 @@ let
         sha512 = "jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==";
       };
     };
-    "foreground-child-3.1.1" = {
+    "foreground-child-3.2.0" = {
       name = "foreground-child";
       packageName = "foreground-child";
-      version = "3.1.1";
+      version = "3.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/foreground-child/-/foreground-child-3.1.1.tgz";
-        sha512 = "TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==";
+        url = "https://registry.npmjs.org/foreground-child/-/foreground-child-3.2.0.tgz";
+        sha512 = "CrWQNaEl1/6WeZoarcM9LHupTo3RpZO2Pdk1vktwzPiQTsJnAKJmm3TACKeG5UZbWDfaH2AbvYxzP96y0MT7fA==";
       };
     };
     "forever-agent-0.6.1" = {
@@ -4531,13 +4531,13 @@ let
         sha512 = "KpMNwdQsYz3O/SBS1qJ/o3sqUJ5wSb8gb0pul8CO0S56b9Y2ALm8zCfsjPXsqGFfoNBkDwZuZIAjhsZI03gYVQ==";
       };
     };
-    "nan-2.19.0" = {
+    "nan-2.20.0" = {
       name = "nan";
       packageName = "nan";
-      version = "2.19.0";
+      version = "2.20.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nan/-/nan-2.19.0.tgz";
-        sha512 = "nO1xXxfh/RWNxfd/XPfbIfFk5vgLsAxUR9y5O0cHMJu/AW9U95JLXqthYHjEp+8gQ5p96K9jUp8nbVOxCdRbtw==";
+        url = "https://registry.npmjs.org/nan/-/nan-2.20.0.tgz";
+        sha512 = "bk3gXBZDGILuuo/6sKtr0DQmSThYHLtNCdSdXk9YkxD/jK6X2vmCyyXBBxyqZ4XcnzTyYEAThfX3DCEnLf6igw==";
       };
     };
     "nanoid-3.3.7" = {
@@ -7027,7 +7027,7 @@ in
       sources."@eslint/config-array-0.15.1"
       sources."@eslint/eslintrc-3.1.0"
       sources."@eslint/js-9.4.0"
-      sources."@eslint/object-schema-2.1.3"
+      sources."@eslint/object-schema-2.1.4"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -7346,7 +7346,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.799"
+      sources."electron-to-chromium-1.4.800"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7605,7 +7605,7 @@ in
       sources."env-paths-2.2.1"
       sources."err-code-2.0.3"
       sources."exponential-backoff-3.1.1"
-      sources."foreground-child-3.1.1"
+      sources."foreground-child-3.2.0"
       sources."fs-minipass-3.0.3"
       sources."glob-10.4.1"
       sources."graceful-fs-4.2.11"
@@ -8296,7 +8296,7 @@ in
       sources."lodash.assign-4.2.0"
       sources."marked-0.3.19"
       sources."marked-terminal-1.7.0"
-      sources."nan-2.19.0"
+      sources."nan-2.20.0"
       sources."node-emoji-1.11.0"
       sources."redeyed-1.0.1"
       sources."strip-ansi-3.0.1"
@@ -8606,7 +8606,7 @@ in
       sources."fast-json-stable-stringify-2.1.0"
       sources."fastq-1.17.1"
       sources."fill-range-7.1.1"
-      sources."foreground-child-3.1.1"
+      sources."foreground-child-3.2.0"
       sources."forever-agent-0.6.1"
       sources."form-data-4.0.0"
       sources."fs-extra-11.1.1"
@@ -8680,7 +8680,7 @@ in
       sources."mkdirp-1.0.4"
       sources."module-details-from-path-1.0.3"
       sources."ms-2.1.2"
-      sources."nan-2.19.0"
+      sources."nan-2.20.0"
       sources."node-fetch-2.7.0"
       sources."nopt-7.2.1"
       sources."npmlog-5.0.1"
