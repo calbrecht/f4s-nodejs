@@ -823,13 +823,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.14.2" = {
+    "@types/node-20.14.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.14.2";
+      version = "20.14.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.14.2.tgz";
-        sha512 = "xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.14.3.tgz";
+        sha512 = "Nuzqa6WAxeGnve6SXqiPAM9rA++VQs+iLZ1DDd56y0gdvygSZlQvZuvdFPR3yLqkVxPu4WrO02iDEyH1g+wazw==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -992,6 +992,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/ajv/-/ajv-8.16.0.tgz";
         sha512 = "F0twR8U1ZU67JIEtekUcLkXkoO5mMMmgGD8sK/xUFzJ805jxHQl92hImFAqqXMyMYjSPOyUPAwHYhB72g5sTXw==";
+      };
+    };
+    "ajv-keywords-5.1.0" = {
+      name = "ajv-keywords";
+      packageName = "ajv-keywords";
+      version = "5.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-5.1.0.tgz";
+        sha512 = "YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==";
       };
     };
     "ansi-colors-4.1.3" = {
@@ -2497,13 +2506,13 @@ let
         sha512 = "OtIRv/2GyiF6o/d8K7MYKKbXrOUBIK6SfkIRM4Z0dY3w+LiQ0vy3F57m0Z71bjbyeiWFiHJ8brqnmE6H6/jEuw==";
       };
     };
-    "espree-10.0.1" = {
+    "espree-10.1.0" = {
       name = "espree";
       packageName = "espree";
-      version = "10.0.1";
+      version = "10.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-10.0.1.tgz";
-        sha512 = "MWkrWZbJsL2UwnjxTX3gG8FneachS/Mwg7tdGXce011sJd5b0JG54vat5KHnfSBODZ3Wvzd2WnjxyzsRoVv+ww==";
+        url = "https://registry.npmjs.org/espree/-/espree-10.1.0.tgz";
+        sha512 = "M1M6CpiE6ffoigIOWYO9UDP8TMUw9kqb21tf+08IgDYjCsOvCuDt4jQcZmoYxx+w7zlKw9/N0KXfto+I8/FrXA==";
       };
     };
     "espree-7.3.1" = {
@@ -7053,7 +7062,7 @@ in
       sources."eslint-9.5.0"
       sources."eslint-scope-8.0.1"
       sources."eslint-visitor-keys-4.0.0"
-      sources."espree-10.0.1"
+      sources."espree-10.1.0"
       sources."esquery-1.5.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -7249,10 +7258,10 @@ in
   import-js = nodeEnv.buildNodePackage {
     name = "import-js";
     packageName = "import-js";
-    version = "5.1.0";
+    version = "6.0.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/import-js/-/import-js-5.1.0.tgz";
-      sha512 = "p1haBy7wgvbbTcG0/gWAkXIvnsYXJ6lYnSHb1KOnvZXCSdExb0LgNWmaWIYqAJP4RvIv0CTOvGeDSk6/ef3cow==";
+      url = "https://registry.npmjs.org/import-js/-/import-js-6.0.0.tgz";
+      sha512 = "ikrcbAqIegw2F60xpG+6mJjd7fr4IjtZwA9VznxJgJMvOnAe6WX8XsEyhOv8R03f1hlB6zxQv+NsIoZXLoydoQ==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
@@ -7280,11 +7289,7 @@ in
       sources."@babel/plugin-syntax-typescript-7.24.7"
       sources."@babel/runtime-7.24.7"
       sources."@babel/template-7.24.7"
-      (sources."@babel/traverse-7.24.7" // {
-        dependencies = [
-          sources."globals-11.12.0"
-        ];
-      })
+      sources."@babel/traverse-7.24.7"
       sources."@babel/types-7.24.7"
       sources."@colors/colors-1.6.0"
       sources."@dabh/diagnostics-2.0.3"
@@ -7306,6 +7311,8 @@ in
       sources."agent-base-6.0.2"
       sources."agentkeepalive-4.5.0"
       sources."aggregate-error-3.1.0"
+      sources."ajv-8.16.0"
+      sources."ajv-keywords-5.1.0"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
       sources."aproba-2.0.0"
@@ -7356,6 +7363,7 @@ in
       sources."escalade-3.1.2"
       sources."escape-string-regexp-1.0.5"
       sources."expand-template-2.0.3"
+      sources."fast-deep-equal-3.1.3"
       sources."fb-watchman-2.0.2"
       sources."fecha-4.2.3"
       sources."file-uri-to-path-1.0.0"
@@ -7372,7 +7380,7 @@ in
       sources."gensync-1.0.0-beta.2"
       sources."github-from-package-0.0.0"
       sources."glob-7.2.3"
-      sources."globals-12.4.0"
+      sources."globals-11.12.0"
       sources."graceful-fs-4.2.11"
       sources."has-flag-3.0.0"
       sources."has-unicode-2.0.1"
@@ -7397,6 +7405,7 @@ in
       sources."js-tokens-4.0.0"
       sources."jsbn-1.1.0"
       sources."jsesc-2.5.2"
+      sources."json-schema-traverse-1.0.0"
       sources."json5-2.2.3"
       sources."kuler-2.0.0"
       sources."lodash-4.17.21"
@@ -7478,9 +7487,11 @@ in
       sources."promise-inflight-1.0.1"
       sources."promise-retry-2.0.1"
       sources."pump-3.0.0"
+      sources."punycode-2.3.1"
       sources."rc-1.2.8"
       sources."readable-stream-3.6.2"
       sources."regenerator-runtime-0.14.1"
+      sources."require-from-string-2.0.2"
       sources."require-relative-0.8.7"
       sources."retry-0.12.0"
       sources."rimraf-3.0.2"
@@ -7522,10 +7533,10 @@ in
       sources."to-fast-properties-2.0.0"
       sources."triple-beam-1.4.1"
       sources."tunnel-agent-0.6.0"
-      sources."type-fest-0.8.1"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
       sources."update-browserslist-db-1.0.16"
+      sources."uri-js-4.4.1"
       sources."util-deprecate-1.0.2"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
@@ -8171,7 +8182,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.14.2"
+      sources."@types/node-20.14.3"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8527,7 +8538,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.14.2"
+      sources."@types/node-20.14.3"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
