@@ -823,13 +823,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.14.5" = {
+    "@types/node-20.14.6" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.14.5";
+      version = "20.14.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.14.5.tgz";
-        sha512 = "aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.14.6.tgz";
+        sha512 = "JbA0XIJPL1IiNnU7PFxDXyfAwcwVVrOoqyzzyQTyMeVhBzkJVMSkC1LlVsRQ2lpqiY4n6Bb9oCS6lzDKVQxbZw==";
       };
     };
     "@types/shimmer-1.0.5" = {
@@ -2128,13 +2128,13 @@ let
         sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
       };
     };
-    "electron-to-chromium-1.4.805" = {
+    "electron-to-chromium-1.4.806" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.805";
+      version = "1.4.806";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.805.tgz";
-        sha512 = "8W4UJwX/w9T0QSzINJckTKG6CYpAUTqsaWcWIsdud3I1FYJcMgW9QqT1/4CBff/pP/TihWh13OmiyY8neto6vw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.806.tgz";
+        sha512 = "nkoEX2QIB8kwCOtvtgwhXWy2IHVcOLQZu9Qo36uaGB835mdX/h8uLRlosL6QIhLVUnAiicXRW00PwaPZC74Nrg==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3046,13 +3046,13 @@ let
         sha512 = "SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==";
       };
     };
-    "glob-10.4.1" = {
+    "glob-10.4.2" = {
       name = "glob";
       packageName = "glob";
-      version = "10.4.1";
+      version = "10.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-10.4.1.tgz";
-        sha512 = "2jelhlq3E4ho74ZyVLN03oKdAZVUa6UDZzFLVH1H7dnoax+y9qyaq8zBkfDIggjniU19z0wU18y16jMB2eyVIw==";
+        url = "https://registry.npmjs.org/glob/-/glob-10.4.2.tgz";
+        sha512 = "GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==";
       };
     };
     "glob-7.2.3" = {
@@ -5033,6 +5033,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz";
         sha512 = "R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==";
+      };
+    };
+    "package-json-from-dist-1.0.0" = {
+      name = "package-json-from-dist";
+      packageName = "package-json-from-dist";
+      version = "1.0.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/package-json-from-dist/-/package-json-from-dist-1.0.0.tgz";
+        sha512 = "dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==";
       };
     };
     "parent-module-1.0.1" = {
@@ -7353,7 +7362,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.805"
+      sources."electron-to-chromium-1.4.806"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7618,7 +7627,7 @@ in
       sources."exponential-backoff-3.1.1"
       sources."foreground-child-3.2.1"
       sources."fs-minipass-3.0.3"
-      sources."glob-10.4.1"
+      sources."glob-10.4.2"
       sources."graceful-fs-4.2.11"
       sources."http-cache-semantics-4.1.1"
       sources."http-proxy-agent-7.0.2"
@@ -7666,6 +7675,7 @@ in
       sources."negotiator-0.6.3"
       sources."nopt-7.2.1"
       sources."p-map-4.0.0"
+      sources."package-json-from-dist-1.0.0"
       sources."path-key-3.1.1"
       sources."path-scurry-1.11.1"
       sources."proc-log-3.0.0"
@@ -8182,7 +8192,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.14.5"
+      sources."@types/node-20.14.6"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -8538,7 +8548,7 @@ in
       sources."@protobufjs/utf8-1.1.0"
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
-      sources."@types/node-20.14.5"
+      sources."@types/node-20.14.6"
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.16"
       sources."abbrev-2.0.0"
@@ -8637,7 +8647,7 @@ in
         ];
       })
       sources."getpass-0.1.7"
-      sources."glob-10.4.1"
+      sources."glob-10.4.2"
       sources."glob-parent-5.1.2"
       sources."graceful-fs-4.2.11"
       sources."har-schema-2.0.0"
@@ -8698,6 +8708,7 @@ in
       sources."oauth-sign-0.9.0"
       sources."object-assign-4.1.1"
       sources."once-1.4.0"
+      sources."package-json-from-dist-1.0.0"
       sources."parseley-0.12.1"
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
