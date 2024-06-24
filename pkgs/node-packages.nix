@@ -2128,13 +2128,13 @@ let
         sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
       };
     };
-    "electron-to-chromium-1.4.810" = {
+    "electron-to-chromium-1.4.811" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.810";
+      version = "1.4.811";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.810.tgz";
-        sha512 = "Kaxhu4T7SJGpRQx99tq216gCq2nMxJo+uuT6uzz9l8TVN2stL7M06MIIXAtr9jsrLs2Glflgf2vMQRepxawOdQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.811.tgz";
+        sha512 = "CDyzcJ5XW78SHzsIOdn27z8J4ist8eaFLhdto2hSMSJQgsiwvbv2fbizcKUICryw1Wii1TI/FEkvzvJsR3awrA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -3973,13 +3973,13 @@ let
         sha512 = "XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==";
       };
     };
-    "jsonc-parser-3.2.1" = {
+    "jsonc-parser-3.3.1" = {
       name = "jsonc-parser";
       packageName = "jsonc-parser";
-      version = "3.2.1";
+      version = "3.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.2.1.tgz";
-        sha512 = "AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==";
+        url = "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.3.1.tgz";
+        sha512 = "HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==";
       };
     };
     "jsonfile-6.1.0" = {
@@ -6637,22 +6637,22 @@ let
         sha512 = "ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==";
       };
     };
-    "vscode-css-languageservice-6.2.14" = {
+    "vscode-css-languageservice-6.3.0" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "6.2.14";
+      version = "6.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.2.14.tgz";
-        sha512 = "5UPQ9Y1sUTnuMyaMBpO7LrBkqjhEJb5eAwdUlDp+Uez8lry+Tspnk3+3p2qWS4LlNsr4p3v9WkZxUf1ltgFpgw==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.3.0.tgz";
+        sha512 = "nU92imtkgzpCL0xikrIb8WvedV553F2BENzgz23wFuok/HLN5BeQmroMy26pUwFxV2eV8oNRmYCUv8iO7kSMhw==";
       };
     };
-    "vscode-html-languageservice-5.2.0" = {
+    "vscode-html-languageservice-5.3.0" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "5.2.0";
+      version = "5.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.2.0.tgz";
-        sha512 = "cdNMhyw57/SQzgUUGSIMQ66jikqEN6nBNyhx5YuOyj9310+eY9zw8Q0cXpiKzDX8aHYFewQEXRnigl06j/TVwQ==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.3.0.tgz";
+        sha512 = "C4Z3KsP5Ih+fjHpiBc5jxmvCl+4iEwvXegIrzu2F5pktbWvQaBT3YkVPk8N+QlSSMk8oCG6PKtZ/Sq2YHb5e8g==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -7362,7 +7362,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.810"
+      sources."electron-to-chromium-1.4.811"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -8795,12 +8795,12 @@ in
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
       sources."verror-1.10.0"
-      (sources."vscode-css-languageservice-6.2.14" // {
+      (sources."vscode-css-languageservice-6.3.0" // {
         dependencies = [
           sources."@vscode/l10n-0.0.18"
         ];
       })
-      (sources."vscode-html-languageservice-5.2.0" // {
+      (sources."vscode-html-languageservice-5.3.0" // {
         dependencies = [
           sources."@vscode/l10n-0.0.18"
         ];
@@ -8861,7 +8861,7 @@ in
       sources."ajv-8.16.0"
       sources."fast-deep-equal-3.1.3"
       sources."json-schema-traverse-1.0.0"
-      sources."jsonc-parser-3.2.1"
+      sources."jsonc-parser-3.3.1"
       sources."lodash-4.17.21"
       sources."punycode-2.3.1"
       sources."request-light-0.5.8"
