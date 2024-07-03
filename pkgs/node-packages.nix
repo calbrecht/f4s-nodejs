@@ -922,13 +922,13 @@ let
         sha512 = "nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==";
       };
     };
-    "acorn-8.12.0" = {
+    "acorn-8.12.1" = {
       name = "acorn";
       packageName = "acorn";
-      version = "8.12.0";
+      version = "8.12.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn/-/acorn-8.12.0.tgz";
-        sha512 = "RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==";
+        url = "https://registry.npmjs.org/acorn/-/acorn-8.12.1.tgz";
+        sha512 = "tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==";
       };
     };
     "acorn-import-assertions-1.9.0" = {
@@ -1462,13 +1462,13 @@ let
         sha512 = "P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==";
       };
     };
-    "caniuse-lite-1.0.30001639" = {
+    "caniuse-lite-1.0.30001640" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001639";
+      version = "1.0.30001640";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001639.tgz";
-        sha512 = "eFHflNTBIlFwP2AIKaYuBQN/apnUoKNhBdza8ZnW/h2di4LCZ4xFqYlxUxo+LQ76KFI1PGcC1QDxMbxTZpSCAg==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001640.tgz";
+        sha512 = "lA4VMpW0PSUrFnkmVuEKBUovSWKhj7puyCg8StBChgu298N1AtuF1sKWEvfDuimSEDbhlb/KqPKC3fs1HbuQUA==";
       };
     };
     "cardinal-1.0.0" = {
@@ -6421,13 +6421,13 @@ let
         sha512 = "gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==";
       };
     };
-    "update-browserslist-db-1.0.16" = {
+    "update-browserslist-db-1.1.0" = {
       name = "update-browserslist-db";
       packageName = "update-browserslist-db";
-      version = "1.0.16";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.16.tgz";
-        sha512 = "KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==";
+        url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.0.tgz";
+        sha512 = "EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==";
       };
     };
     "uri-js-4.4.1" = {
@@ -6862,7 +6862,7 @@ in
       sources."@nodelib/fs.scandir-2.1.5"
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
-      sources."acorn-8.12.0"
+      sources."acorn-8.12.1"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -6970,7 +6970,7 @@ in
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
       sources."@ungap/structured-clone-1.2.0"
-      sources."acorn-8.12.0"
+      sources."acorn-8.12.1"
       sources."acorn-jsx-5.3.2"
       sources."ajv-6.12.6"
       sources."ansi-regex-5.0.1"
@@ -7154,7 +7154,7 @@ in
           sources."yallist-4.0.0"
         ];
       })
-      sources."caniuse-lite-1.0.30001639"
+      sources."caniuse-lite-1.0.30001640"
       sources."chalk-2.4.2"
       sources."chownr-1.1.4"
       sources."clean-stack-2.2.0"
@@ -7355,7 +7355,7 @@ in
       sources."tunnel-agent-0.6.0"
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
-      sources."update-browserslist-db-1.0.16"
+      sources."update-browserslist-db-1.1.0"
       sources."uri-js-4.4.1"
       sources."util-deprecate-1.0.2"
       sources."which-2.0.2"
@@ -8306,10 +8306,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.11.1";
+    version = "1.11.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.11.1.tgz";
-      sha512 = "MkmX6WjAyUdBKHVVC6e5SN2wc3nE6EcZsEHkMXI48W8yzxn7u/6ALYf79YFXWlfq/zl5Y6XObEuNnUczl32xKQ==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.11.2.tgz";
+      sha512 = "VgX/CMYe7vfXtqLlyqouKhtLmvPa41rrJYLCnMpElz2FZiXfrxXuaeU2l7yc7QhIgc2fcgKdvKKTCGtL0doFUA==";
     };
     dependencies = [
       sources."@azure/abort-controller-2.1.2"
@@ -8365,7 +8365,7 @@ in
       sources."@types/shimmer-1.0.5"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
-      sources."acorn-8.12.0"
+      sources."acorn-8.12.1"
       sources."acorn-import-assertions-1.9.0"
       sources."agent-base-6.0.2"
       sources."ansi-regex-5.0.1"
