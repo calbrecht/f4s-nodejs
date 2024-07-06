@@ -2092,13 +2092,13 @@ let
         sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
       };
     };
-    "electron-to-chromium-1.4.817" = {
+    "electron-to-chromium-1.4.818" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.817";
+      version = "1.4.818";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.817.tgz";
-        sha512 = "3znu+lZMIbTe8ZOs360OMJvVroVF2NpNI8T5jfLnDetVvj0uNmIucZzQVYMSJfsu9f47Ssox1Gt46PR+R+1JUg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.818.tgz";
+        sha512 = "eGvIk2V0dGImV9gWLq8fDfTTsCAeMDwZqEPMr+jMInxZdnp9Us8UpovYpRCf9NQ7VOFgrN2doNSgvISbsbNpxA==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2983,13 +2983,13 @@ let
         sha512 = "SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==";
       };
     };
-    "glob-10.4.2" = {
+    "glob-10.4.3" = {
       name = "glob";
       packageName = "glob";
-      version = "10.4.2";
+      version = "10.4.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/glob/-/glob-10.4.2.tgz";
-        sha512 = "GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==";
+        url = "https://registry.npmjs.org/glob/-/glob-10.4.3.tgz";
+        sha512 = "Q38SGlYRpVtDBPSWEylRyctn7uDeTp4NQERTLiCT1FqA9JXPYWqAVmQU6qh4r/zMM5ehxTcbaO8EjhWnvEhmyg==";
       };
     };
     "glob-7.2.3" = {
@@ -3721,13 +3721,13 @@ let
         sha512 = "LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ==";
       };
     };
-    "jackspeak-3.4.0" = {
+    "jackspeak-3.4.1" = {
       name = "jackspeak";
       packageName = "jackspeak";
-      version = "3.4.0";
+      version = "3.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.4.0.tgz";
-        sha512 = "JVYhQnN59LVPFCEcVa2C3CrEKYacvjRfqIQl+h8oi91aLYQVWRYbxjPcv1bUiUy/kLmQaANrYfNMCO3kuEDHfw==";
+        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.4.1.tgz";
+        sha512 = "U23pQPDnmYybVkYjObcuYMk43VRlMLLqLI+RdZy8s8WV8WsxO9SnqSroKaluuvcNOdCAlauKszDwd+umbot5Mg==";
       };
     };
     "js-cookie-3.0.5" = {
@@ -4036,13 +4036,13 @@ let
         sha512 = "9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==";
       };
     };
-    "lru-cache-10.3.0" = {
+    "lru-cache-10.3.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "10.3.0";
+      version = "10.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.3.0.tgz";
-        sha512 = "CQl19J/g+Hbjbv4Y3mFNNXFEL/5t/KCg8POCuUqd4rMKjGG+j1ybER83hxV58zL+dFI1PTkt3GNFSHRt+d8qEQ==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.3.1.tgz";
+        sha512 = "9/8QXrtbGeMB6LxwQd4x1tIMnsmUxMvIH/qWGsccz6bt9Uln3S+sgAaqfQNhbGA8ufzs2fHuP/yqapGgP9Hh2g==";
       };
     };
     "lru-cache-5.1.1" = {
@@ -7173,7 +7173,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.817"
+      sources."electron-to-chromium-1.4.818"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7438,7 +7438,7 @@ in
       sources."exponential-backoff-3.1.1"
       sources."foreground-child-3.2.1"
       sources."fs-minipass-3.0.3"
-      sources."glob-10.4.2"
+      sources."glob-10.4.3"
       sources."graceful-fs-4.2.11"
       sources."http-cache-semantics-4.1.1"
       sources."http-proxy-agent-7.0.2"
@@ -7449,9 +7449,9 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."jackspeak-3.4.0"
+      sources."jackspeak-3.4.1"
       sources."jsbn-1.1.0"
-      sources."lru-cache-10.3.0"
+      sources."lru-cache-10.3.1"
       (sources."make-fetch-happen-13.0.1" // {
         dependencies = [
           sources."proc-log-4.2.0"
@@ -8448,7 +8448,7 @@ in
         ];
       })
       sources."get-uri-6.0.3"
-      (sources."glob-10.4.2" // {
+      (sources."glob-10.4.3" // {
         dependencies = [
           sources."minimatch-9.0.5"
         ];
@@ -8473,7 +8473,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."isexe-2.0.0"
-      sources."jackspeak-3.4.0"
+      sources."jackspeak-3.4.1"
       sources."js-cookie-3.0.5"
       sources."jsbn-1.1.0"
       sources."jsonfile-6.1.0"
