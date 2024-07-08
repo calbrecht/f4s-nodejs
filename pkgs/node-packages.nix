@@ -850,13 +850,13 @@ let
         sha512 = "MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==";
       };
     };
-    "@types/shimmer-1.0.5" = {
+    "@types/shimmer-1.2.0" = {
       name = "_at_types_slash_shimmer";
       packageName = "@types/shimmer";
-      version = "1.0.5";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/shimmer/-/shimmer-1.0.5.tgz";
-        sha512 = "9Hp0ObzwwO57DpLFF0InUjUm/II8GmKAvzbefxQTihCb7KI6yc9yzf0nLc4mVdby5N4DRCgQM2wCup9KTieeww==";
+        url = "https://registry.npmjs.org/@types/shimmer/-/shimmer-1.2.0.tgz";
+        sha512 = "UE7oxhQLLd9gub6JKIAhDq06T0F6FnztwMNRvYgjeQSBeMc1ZG/tA47EwfduvkuQS8apbkM/lpLpWsaCeYsXVg==";
       };
     };
     "@types/triple-beam-1.3.5" = {
@@ -2092,13 +2092,13 @@ let
         sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
       };
     };
-    "electron-to-chromium-1.4.818" = {
+    "electron-to-chromium-1.4.819" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.818";
+      version = "1.4.819";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.818.tgz";
-        sha512 = "eGvIk2V0dGImV9gWLq8fDfTTsCAeMDwZqEPMr+jMInxZdnp9Us8UpovYpRCf9NQ7VOFgrN2doNSgvISbsbNpxA==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.819.tgz";
+        sha512 = "8RwI6gKUokbHWcN3iRij/qpvf/wCbIVY5slODi85werwqUQwpFXM+dvUBND93Qh7SB0pW3Hlq3/wZsqQ3M9Jaw==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -2524,13 +2524,13 @@ let
         sha512 = "eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==";
       };
     };
-    "esquery-1.5.0" = {
+    "esquery-1.6.0" = {
       name = "esquery";
       packageName = "esquery";
-      version = "1.5.0";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/esquery/-/esquery-1.5.0.tgz";
-        sha512 = "YQLXUplAwJgCydQ78IMJywZCceoqk1oH01OERdSAJc/7U2AylwjhSCLDEtqwg811idIS/9fIU5GjG73IgjKMVg==";
+        url = "https://registry.npmjs.org/esquery/-/esquery-1.6.0.tgz";
+        sha512 = "ca9pw9fomFcKPvFLXhBKUK90ZvGibiGOvRJNbjljY7s7uq/5YO4BOzcYtJqExdx99rF6aAcnRxHmcUHcz6sQsg==";
       };
     };
     "esrecurse-4.3.0" = {
@@ -3721,13 +3721,13 @@ let
         sha512 = "LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ==";
       };
     };
-    "jackspeak-3.4.1" = {
+    "jackspeak-3.4.2" = {
       name = "jackspeak";
       packageName = "jackspeak";
-      version = "3.4.1";
+      version = "3.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.4.1.tgz";
-        sha512 = "U23pQPDnmYybVkYjObcuYMk43VRlMLLqLI+RdZy8s8WV8WsxO9SnqSroKaluuvcNOdCAlauKszDwd+umbot5Mg==";
+        url = "https://registry.npmjs.org/jackspeak/-/jackspeak-3.4.2.tgz";
+        sha512 = "qH3nOSj8q/8+Eg8LUPOq3C+6HWkpUioIjDsq1+D4zY91oZvpPttw8GwtF1nReRYKXl+1AORyFqtm2f5Q1SB6/Q==";
       };
     };
     "js-cookie-3.0.5" = {
@@ -4036,13 +4036,13 @@ let
         sha512 = "9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==";
       };
     };
-    "lru-cache-10.3.1" = {
+    "lru-cache-10.4.1" = {
       name = "lru-cache";
       packageName = "lru-cache";
-      version = "10.3.1";
+      version = "10.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.3.1.tgz";
-        sha512 = "9/8QXrtbGeMB6LxwQd4x1tIMnsmUxMvIH/qWGsccz6bt9Uln3S+sgAaqfQNhbGA8ufzs2fHuP/yqapGgP9Hh2g==";
+        url = "https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.1.tgz";
+        sha512 = "8h/JsUc/2+Dm9RPJnBAmObGnUqTMmsIKThxixMLOkrebSihRhTV0wLD/8BSk6OU6Pbj8hiDTbsI3fLjBJSlhDg==";
       };
     };
     "lru-cache-5.1.1" = {
@@ -6883,7 +6883,7 @@ in
       sources."eslint-scope-8.0.1"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
-      sources."esquery-1.5.0"
+      sources."esquery-1.6.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -6997,7 +6997,7 @@ in
       sources."eslint-scope-7.2.2"
       sources."eslint-visitor-keys-3.4.3"
       sources."espree-9.6.1"
-      sources."esquery-1.5.0"
+      sources."esquery-1.6.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -7173,7 +7173,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.818"
+      sources."electron-to-chromium-1.4.819"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7449,9 +7449,9 @@ in
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-lambda-1.0.1"
       sources."isexe-2.0.0"
-      sources."jackspeak-3.4.1"
+      sources."jackspeak-3.4.2"
       sources."jsbn-1.1.0"
-      sources."lru-cache-10.3.1"
+      sources."lru-cache-10.4.1"
       (sources."make-fetch-happen-13.0.1" // {
         dependencies = [
           sources."proc-log-4.2.0"
@@ -7793,7 +7793,7 @@ in
         ];
       })
       sources."esprima-4.0.1"
-      sources."esquery-1.5.0"
+      sources."esquery-1.6.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
       sources."esutils-2.0.3"
@@ -8362,7 +8362,7 @@ in
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
       sources."@types/node-20.14.10"
-      sources."@types/shimmer-1.0.5"
+      sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
       sources."acorn-8.12.1"
@@ -8473,7 +8473,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."isexe-2.0.0"
-      sources."jackspeak-3.4.1"
+      sources."jackspeak-3.4.2"
       sources."js-cookie-3.0.5"
       sources."jsbn-1.1.0"
       sources."jsonfile-6.1.0"
