@@ -20,7 +20,7 @@
       node-packages = [
         "eslint"
         "eslint_d"
-        "import-js"
+        #"import-js"
         #"jison" # devDependency of jsonlint
         "jsonlint"
         "node-gyp"
