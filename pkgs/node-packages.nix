@@ -418,13 +418,13 @@ let
         sha512 = "Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==";
       };
     };
-    "@eslint/js-9.6.0" = {
+    "@eslint/js-9.7.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "9.6.0";
+      version = "9.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-9.6.0.tgz";
-        sha512 = "D9B0/3vNg44ZeWbYMpBoXqNP4j6eQD5vNwIlGAuFRRzK/WtT/jvDQW3Bi9kkf3PMDMlM7Yi+73VLUsn5bJcl8A==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-9.7.0.tgz";
+        sha512 = "ChuWDQenef8OSFnvuxv0TCVxEwmu3+hPNKvM9B34qpM0rDRbjL8t5QkQeHHeAfsKQjuH9wS82WeCi1J/owatng==";
       };
     };
     "@eslint/object-schema-2.1.4" = {
@@ -994,13 +994,13 @@ let
         sha512 = "j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==";
       };
     };
-    "ajv-8.16.0" = {
+    "ajv-8.17.1" = {
       name = "ajv";
       packageName = "ajv";
-      version = "8.16.0";
+      version = "8.17.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ajv/-/ajv-8.16.0.tgz";
-        sha512 = "F0twR8U1ZU67JIEtekUcLkXkoO5mMMmgGD8sK/xUFzJ805jxHQl92hImFAqqXMyMYjSPOyUPAwHYhB72g5sTXw==";
+        url = "https://registry.npmjs.org/ajv/-/ajv-8.17.1.tgz";
+        sha512 = "B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==";
       };
     };
     "ajv-keywords-5.1.0" = {
@@ -2317,13 +2317,13 @@ let
         sha512 = "dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==";
       };
     };
-    "eslint-9.6.0" = {
+    "eslint-9.7.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "9.6.0";
+      version = "9.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-9.6.0.tgz";
-        sha512 = "ElQkdLMEEqQNM9Njff+2Y4q2afHk7JpkPvrd7Xh7xefwgQynqPxwf55J7di9+MEibWUGdNjFF9ITG9Pck5M84w==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-9.7.0.tgz";
+        sha512 = "FzJ9D/0nGiCGBf8UXO/IGLTgLVzIxze1zpfA8Ton2mjLovXdAPlYDv+MQDcqj3TmrhAGYfOpz9RfR+ent0AgAw==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -2425,13 +2425,13 @@ let
         sha512 = "dOt21O7lTMhDM+X9mB4GX+DZrZtCUJPL/wlcTqxyrx5IvO0IYtILdtrQGQp+8n5S0gwSVmOf9NQrjMOgfQZlIg==";
       };
     };
-    "eslint-scope-8.0.1" = {
+    "eslint-scope-8.0.2" = {
       name = "eslint-scope";
       packageName = "eslint-scope";
-      version = "8.0.1";
+      version = "8.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.0.1.tgz";
-        sha512 = "pL8XjgP4ZOmmwfFE8mEhSxA7ZY4C+LWyqjQ3o4yWkkmD0qcMT9kkW3zWHOczhWcjTSgqycYAgwSlXvZltv65og==";
+        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.0.2.tgz";
+        sha512 = "6E4xmrTw5wtxnLA5wYL3WDfhZ/1bUBGOXV0zQvVRDOtrR8D0p6W7fs3JweNYhwRYeGvd/1CKX2se0/2s7Q/nJA==";
       };
     };
     "eslint-utils-2.1.0" = {
@@ -2630,6 +2630,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz";
         sha512 = "DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==";
+      };
+    };
+    "fast-uri-3.0.1" = {
+      name = "fast-uri";
+      packageName = "fast-uri";
+      version = "3.0.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/fast-uri/-/fast-uri-3.0.1.tgz";
+        sha512 = "MWipKbbYiYI0UC7cl8m/i/IWTqfC8YXsqjzybjddLsFjStroQzsHXkc73JutMvBiXmOvapk+axIl79ig5t55Bw==";
       };
     };
     "fastq-1.17.1" = {
@@ -6832,10 +6841,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "9.6.0";
+    version = "9.7.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-9.6.0.tgz";
-      sha512 = "ElQkdLMEEqQNM9Njff+2Y4q2afHk7JpkPvrd7Xh7xefwgQynqPxwf55J7di9+MEibWUGdNjFF9ITG9Pck5M84w==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-9.7.0.tgz";
+      sha512 = "FzJ9D/0nGiCGBf8UXO/IGLTgLVzIxze1zpfA8Ton2mjLovXdAPlYDv+MQDcqj3TmrhAGYfOpz9RfR+ent0AgAw==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -6846,7 +6855,7 @@ in
       sources."@eslint-community/regexpp-4.11.0"
       sources."@eslint/config-array-0.17.0"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.6.0"
+      sources."@eslint/js-9.7.0"
       sources."@eslint/object-schema-2.1.4"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
@@ -6870,8 +6879,8 @@ in
       sources."debug-4.3.5"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.6.0"
-      sources."eslint-scope-8.0.1"
+      sources."eslint-9.7.0"
+      sources."eslint-scope-8.0.2"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
       sources."esquery-1.6.0"
@@ -7122,7 +7131,7 @@ in
       sources."agent-base-6.0.2"
       sources."agentkeepalive-4.5.0"
       sources."aggregate-error-3.1.0"
-      sources."ajv-8.16.0"
+      sources."ajv-8.17.1"
       sources."ajv-keywords-5.1.0"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-3.2.1"
@@ -7175,6 +7184,7 @@ in
       sources."escape-string-regexp-1.0.5"
       sources."expand-template-2.0.3"
       sources."fast-deep-equal-3.1.3"
+      sources."fast-uri-3.0.1"
       sources."fb-watchman-2.0.2"
       sources."fecha-4.2.3"
       sources."file-uri-to-path-1.0.0"
@@ -7298,7 +7308,6 @@ in
       sources."promise-inflight-1.0.1"
       sources."promise-retry-2.0.1"
       sources."pump-3.0.0"
-      sources."punycode-2.3.1"
       sources."rc-1.2.8"
       sources."readable-stream-3.6.2"
       sources."regenerator-runtime-0.14.1"
@@ -7347,7 +7356,6 @@ in
       sources."unique-filename-1.1.1"
       sources."unique-slug-2.0.2"
       sources."update-browserslist-db-1.1.0"
-      sources."uri-js-4.4.1"
       sources."util-deprecate-1.0.2"
       sources."which-2.0.2"
       sources."wide-align-1.1.5"
@@ -7787,6 +7795,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
+      sources."fast-uri-3.0.1"
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
       sources."flat-cache-3.2.0"
@@ -7943,7 +7952,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       (sources."table-6.8.2" // {
         dependencies = [
-          sources."ajv-8.16.0"
+          sources."ajv-8.17.1"
           sources."json-schema-traverse-1.0.0"
         ];
       })
@@ -8631,15 +8640,14 @@ in
       sha512 = "N47AqBDCMQmh6mBLmI6oqxryHRzi33aPFPsJhYy3VTUGCdLHYjGh4FZzpUjRlphaADBBkDmnkM/++KNIOHi5Rw==";
     };
     dependencies = [
-      sources."ajv-8.16.0"
+      sources."ajv-8.17.1"
       sources."fast-deep-equal-3.1.3"
+      sources."fast-uri-3.0.1"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.3.1"
       sources."lodash-4.17.21"
-      sources."punycode-2.3.1"
       sources."request-light-0.5.8"
       sources."require-from-string-2.0.2"
-      sources."uri-js-4.4.1"
       sources."vscode-json-languageservice-4.1.8"
       sources."vscode-jsonrpc-6.0.0"
       sources."vscode-languageserver-7.0.0"
