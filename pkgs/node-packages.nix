@@ -2092,13 +2092,13 @@ let
         sha512 = "s1NQ63WQ7RNXH6Efb2cwuyRlfpbtdZubvfNe4vCuoyGPewNPY7vah8JUSOFBiJ+jr99Qh8t0xKv0oITc1dclgw==";
       };
     };
-    "electron-to-chromium-1.4.826" = {
+    "electron-to-chromium-1.4.827" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.826";
+      version = "1.4.827";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.826.tgz";
-        sha512 = "zULpSu/wQI4X9qWAHabbi0ZUfJ/bEFTA6bfdXlg6HSf5XS7A8vMdzpJC4r5Ws/5E5NGdrNHmXgvGewGuHMxhPQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.827.tgz";
+        sha512 = "VY+J0e4SFcNfQy19MEoMdaIcZLmDCprqvBtkii1WTCTQHpRvf5N8+3kTYCgL/PcntvwQvmMJWTuDPsq+IlhWKQ==";
       };
     };
     "emitter-listener-1.1.2" = {
@@ -4495,13 +4495,13 @@ let
         sha512 = "ThjYBfoDNr08AWx6hGaRbfPwxKV9kVzAzOzlLKbk2CuqXE2xnCh+cbAGnwM3t8Lq4v9rUB7VfondlkBckcJrVA==";
       };
     };
-    "node-addon-api-7.1.0" = {
+    "node-addon-api-7.1.1" = {
       name = "node-addon-api";
       packageName = "node-addon-api";
-      version = "7.1.0";
+      version = "7.1.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.0.tgz";
-        sha512 = "mNcltoe1R8o7STTegSOHdnJNN7s5EUvhoS7ShnTHDyOSd+8H+UdWODq6qSv67PjC8Zc5JRT8+oLAMCr0SIXw7g==";
+        url = "https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz";
+        sha512 = "5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==";
       };
     };
     "node-emoji-1.11.0" = {
@@ -7164,7 +7164,7 @@ in
       sources."deep-extend-0.6.0"
       sources."delegates-1.0.0"
       sources."detect-libc-2.0.3"
-      sources."electron-to-chromium-1.4.826"
+      sources."electron-to-chromium-1.4.827"
       sources."emoji-regex-8.0.0"
       sources."enabled-2.0.0"
       sources."encoding-0.1.13"
@@ -7279,7 +7279,7 @@ in
           sources."semver-7.6.2"
         ];
       })
-      sources."node-addon-api-7.1.0"
+      sources."node-addon-api-7.1.1"
       (sources."node-gyp-8.4.1" // {
         dependencies = [
           sources."semver-7.6.2"
