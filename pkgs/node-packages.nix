@@ -2866,13 +2866,13 @@ let
         sha512 = "1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==";
       };
     };
-    "is-core-module-2.14.0" = {
+    "is-core-module-2.15.0" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.14.0";
+      version = "2.15.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.14.0.tgz";
-        sha512 = "a5dFJih5ZLYlRtDc0dZWP7RiKr6xIKzmn/oAYCDvdLThadVgyJwlaoQPmRtMSpz+rk0OGAgIu+TcM9HUF0fk1A==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.15.0.tgz";
+        sha512 = "Dd+Lb2/zvk9SKy1TGCt1wFJFo/MWBPMX5x7KcvLajWTGuomczdQX61PvY5yK6SVACwpoexWo81IfFyoKY2QnTA==";
       };
     };
     "is-data-view-1.0.1" = {
@@ -4720,13 +4720,13 @@ let
         sha512 = "BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
       };
     };
-    "semver-7.6.2" = {
+    "semver-7.6.3" = {
       name = "semver";
       packageName = "semver";
-      version = "7.6.2";
+      version = "7.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/semver/-/semver-7.6.2.tgz";
-        sha512 = "FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==";
+        url = "https://registry.npmjs.org/semver/-/semver-7.6.3.tgz";
+        sha512 = "oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==";
       };
     };
     "set-blocking-2.0.0" = {
@@ -6162,7 +6162,7 @@ in
       sources."proc-log-4.2.0"
       sources."promise-retry-2.0.1"
       sources."retry-0.12.0"
-      sources."semver-7.6.2"
+      sources."semver-7.6.3"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
       sources."signal-exit-4.1.0"
@@ -6510,7 +6510,7 @@ in
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
       sources."is-callable-1.2.7"
-      sources."is-core-module-2.14.0"
+      sources."is-core-module-2.15.0"
       sources."is-data-view-1.0.1"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
@@ -6601,7 +6601,7 @@ in
       sources."rimraf-3.0.2"
       sources."safe-array-concat-1.1.2"
       sources."safe-regex-test-1.0.3"
-      sources."semver-7.6.2"
+      sources."semver-7.6.3"
       sources."set-function-length-1.2.2"
       sources."set-function-name-2.0.2"
       sources."shebang-command-2.0.0"
@@ -6847,7 +6847,7 @@ in
       sources."hasown-2.0.2"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-core-module-2.14.0"
+      sources."is-core-module-2.15.0"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."minimatch-3.1.2"
@@ -6950,7 +6950,7 @@ in
       sources."reusify-1.0.4"
       sources."run-parallel-1.2.0"
       sources."safer-buffer-2.1.2"
-      sources."semver-7.6.2"
+      sources."semver-7.6.3"
       sources."to-regex-range-5.0.1"
       sources."tr46-0.0.3"
       sources."turndown-7.1.3"
@@ -7138,7 +7138,7 @@ in
       sources."inherits-2.0.4"
       sources."ini-1.3.8"
       sources."ip-address-9.0.5"
-      sources."is-core-module-2.14.0"
+      sources."is-core-module-2.15.0"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-glob-4.0.3"
@@ -7220,7 +7220,7 @@ in
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."selderee-0.11.0"
-      sources."semver-7.6.2"
+      sources."semver-7.6.3"
       sources."set-blocking-2.0.0"
       sources."shebang-command-2.0.0"
       sources."shebang-regex-3.0.0"
