@@ -769,13 +769,13 @@ let
         sha512 = "JY8+kTEkjbA+kAVNWDtpfW2lqsrDALfDXuxOs74KLPu2y13fy/9WB52V4LfYVTVcW1/jYOXjTxNS2gPZIDh1iw==";
       };
     };
-    "applicationinsights-native-metrics-0.0.10" = {
+    "applicationinsights-native-metrics-0.0.11" = {
       name = "applicationinsights-native-metrics";
       packageName = "applicationinsights-native-metrics";
-      version = "0.0.10";
+      version = "0.0.11";
       src = fetchurl {
-        url = "https://registry.npmjs.org/applicationinsights-native-metrics/-/applicationinsights-native-metrics-0.0.10.tgz";
-        sha512 = "uruIWFcc/sEowcRvNz0mKMWMsPs2trSzegjCtjTqsSBk8EbnctTNMJtPdye7w46say+BwosNHRW3zYiBmY8CIg==";
+        url = "https://registry.npmjs.org/applicationinsights-native-metrics/-/applicationinsights-native-metrics-0.0.11.tgz";
+        sha512 = "NxzsyeFj5iwhSEzkHluIoNYb1DcMtlttQZjJCJ8QQroZ5H9nCDS77Y9BpfphR5tqMcfNNjuQuiRcdPhQk75QRw==";
       };
     };
     "aproba-1.2.0" = {
@@ -7042,7 +7042,7 @@ in
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-6.2.1"
       sources."applicationinsights-2.7.3"
-      sources."applicationinsights-native-metrics-0.0.10"
+      sources."applicationinsights-native-metrics-0.0.11"
       sources."aproba-2.0.0"
       sources."are-we-there-yet-2.0.0"
       sources."ast-types-0.13.4"
