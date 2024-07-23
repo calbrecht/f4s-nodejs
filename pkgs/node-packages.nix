@@ -526,13 +526,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-20.14.11" = {
+    "@types/node-20.14.12" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.14.11";
+      version = "20.14.12";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.14.11.tgz";
-        sha512 = "kprQpL8MMeszbz6ojB5/tU8PLN4kesnN8Gjzw349rDlNgsSzg90lAVj3llK99Dh7JON+t9AuscPPFW6mPbTnSA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.14.12.tgz";
+        sha512 = "r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -5359,13 +5359,13 @@ let
         sha512 = "/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==";
       };
     };
-    "typescript-5.5.3" = {
+    "typescript-5.5.4" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.5.3";
+      version = "5.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.5.3.tgz";
-        sha512 = "/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.5.4.tgz";
+        sha512 = "Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -6674,7 +6674,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-20.14.11"
+      sources."@types/node-20.14.12"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6864,7 +6864,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-5.5.3"
+      sources."typescript-5.5.4"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -6880,10 +6880,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "5.5.3";
+    version = "5.5.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-5.5.3.tgz";
-      sha512 = "/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.5.4.tgz";
+      sha512 = "Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -7032,7 +7032,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-20.14.11"
+      sources."@types/node-20.14.12"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
@@ -7261,7 +7261,7 @@ in
       sources."tslib-2.6.3"
       sources."turndown-7.2.0"
       sources."turndown-plugin-gfm-1.0.2"
-      sources."typescript-5.5.3"
+      sources."typescript-5.5.4"
       sources."undici-types-5.26.5"
       sources."universalify-2.0.1"
       sources."util-deprecate-1.0.2"
