@@ -4558,13 +4558,13 @@ let
         sha512 = "Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==";
       };
     };
-    "require-in-the-middle-7.3.0" = {
+    "require-in-the-middle-7.4.0" = {
       name = "require-in-the-middle";
       packageName = "require-in-the-middle";
-      version = "7.3.0";
+      version = "7.4.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/require-in-the-middle/-/require-in-the-middle-7.3.0.tgz";
-        sha512 = "nQFEv9gRw6SJAwWD2LrL0NmQvAcO7FBwJbwmr2ttPAacfy0xuiOjE5zt+zM4xDyuyvUaxBi/9gb2SoCyNEVJcw==";
+        url = "https://registry.npmjs.org/require-in-the-middle/-/require-in-the-middle-7.4.0.tgz";
+        sha512 = "X34iHADNbNDfr6OTStIAHWSAvvKQRYgLO6duASaVf7J2VA3lvmNYboAHOuLC2huav1IwgZJtyEcJCKVzFxOSMQ==";
       };
     };
     "resolve-1.22.8" = {
@@ -7206,7 +7206,7 @@ in
       sources."proxy-from-env-1.1.0"
       sources."queue-microtask-1.2.3"
       sources."readable-stream-3.6.2"
-      sources."require-in-the-middle-7.3.0"
+      sources."require-in-the-middle-7.4.0"
       sources."resolve-1.22.8"
       sources."reusify-1.0.4"
       (sources."rimraf-3.0.2" // {
