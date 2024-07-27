@@ -1363,13 +1363,13 @@ let
         sha512 = "CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==";
       };
     };
-    "debug-4.3.5" = {
+    "debug-4.3.6" = {
       name = "debug";
       packageName = "debug";
-      version = "4.3.5";
+      version = "4.3.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/debug/-/debug-4.3.5.tgz";
-        sha512 = "pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==";
+        url = "https://registry.npmjs.org/debug/-/debug-4.3.6.tgz";
+        sha512 = "O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==";
       };
     };
     "dedent-0.7.0" = {
@@ -5850,7 +5850,7 @@ in
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.5"
+      sources."debug-4.3.6"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
       sources."eslint-9.8.0"
@@ -5963,7 +5963,7 @@ in
       sources."concat-map-0.0.1"
       sources."core_d-6.1.0"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.5"
+      sources."debug-4.3.6"
       sources."deep-is-0.1.4"
       sources."doctrine-3.0.0"
       sources."escape-string-regexp-4.0.0"
@@ -6104,7 +6104,7 @@ in
           sources."which-2.0.2"
         ];
       })
-      sources."debug-4.3.5"
+      sources."debug-4.3.6"
       sources."eastasianwidth-0.2.0"
       sources."emoji-regex-9.2.2"
       sources."env-paths-2.2.1"
@@ -6396,7 +6396,7 @@ in
       sources."data-view-buffer-1.0.1"
       sources."data-view-byte-length-1.0.1"
       sources."data-view-byte-offset-1.0.0"
-      sources."debug-4.3.5"
+      sources."debug-4.3.6"
       sources."deep-is-0.1.4"
       sources."define-data-property-1.1.4"
       sources."define-properties-1.2.1"
@@ -6685,7 +6685,7 @@ in
       sources."clean-stack-2.2.0"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.5"
+      sources."debug-4.3.6"
       sources."dedent-0.7.0"
       sources."del-5.1.0"
       sources."dir-glob-3.0.1"
@@ -7075,7 +7075,7 @@ in
       sources."continuation-local-storage-3.2.1"
       sources."cross-spawn-7.0.3"
       sources."data-uri-to-buffer-6.0.2"
-      sources."debug-4.3.5"
+      sources."debug-4.3.6"
       sources."deepmerge-4.3.1"
       sources."degenerator-5.0.1"
       sources."delayed-stream-1.0.0"
