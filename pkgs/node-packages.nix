@@ -6851,10 +6851,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.11.5";
+    version = "1.11.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.11.5.tgz";
-      sha512 = "3gi/wFkKMENtRrP5Vo/A+/rN/ywyqxtPwRVUMJJFbm2NOlk4eyq4XirbuOH7U9e4P/iBhdCvZrk+AF/HmsnnXw==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.11.6.tgz";
+      sha512 = "0dOkR1xf7I9rTMoiexlNENQ58hnQEeUG/isM/EBQt9DBVFb6rJvEB7nnioc/BMWfxYlwS+dcZEus0GPF3JY6Vw==";
     };
     dependencies = [
       sources."@azure/abort-controller-2.1.2"
