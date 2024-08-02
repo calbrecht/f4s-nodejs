@@ -58,13 +58,13 @@ let
         sha512 = "ffGIw+Qs8bNKNLxz5UPkz4/VBM/EZY07mPve1ZYFqYUdPwFqRj0RPk0U7LZMOfT7GCck9YjuT1Rfp1PApNl1ng==";
       };
     };
-    "@azure/logger-1.1.3" = {
+    "@azure/logger-1.1.4" = {
       name = "_at_azure_slash_logger";
       packageName = "@azure/logger";
-      version = "1.1.3";
+      version = "1.1.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.1.3.tgz";
-        sha512 = "J8/cIKNQB1Fc9fuYqBVnrppiUtW+5WWJPCj/tAokC5LdSTwkWWttN+jsRgw9BLYD7JDBx7PceiqOBxJJ1tQz3Q==";
+        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.1.4.tgz";
+        sha512 = "4IXXzcCdLdlXuCG+8UKEwLA1T1NHqUfanhXYHiQTn+6sfWCZXduqbtXDGceg3Ce5QxTGo7EqmbV6Bi+aqKuClQ==";
       };
     };
     "@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5" = {
@@ -490,13 +490,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.0.2" = {
+    "@types/node-22.1.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.0.2";
+      version = "22.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.0.2.tgz";
-        sha512 = "yPL6DyFwY5PiMVEwymNeqUTKsDczQBJ/5T7W/46RwLU/VH+AA8aT5TZkvBviLKLbbm0hlfftEkGrNzfRk/fofQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.1.0.tgz";
+        sha512 = "AOmuRF0R2/5j1knA3c6G3HOk523Ga+l+ZXltX8SF1+5oqcXijjfTd8fY3XRZqSihEu9XhtQnKYLmkFaoxgsJHw==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -5269,13 +5269,13 @@ let
         sha512 = "z4o1fvKUojIWh9XuaVLUDdf86RQiq13AC1dmHbTpoyuu+bquHms76v16CjycCbec87J7z0k//SiQVk0sMdFmpQ==";
       };
     };
-    "undici-types-6.11.1" = {
+    "undici-types-6.13.0" = {
       name = "undici-types";
       packageName = "undici-types";
-      version = "6.11.1";
+      version = "6.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/undici-types/-/undici-types-6.11.1.tgz";
-        sha512 = "mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==";
+        url = "https://registry.npmjs.org/undici-types/-/undici-types-6.13.0.tgz";
+        sha512 = "xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==";
       };
     };
     "unique-filename-3.0.0" = {
@@ -5819,10 +5819,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "14.0.1";
+    version = "14.0.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-14.0.1.tgz";
-      sha512 = "p4KLtwHc2KWaHauAN3FX1Dex6QBHI4miYthwHwO4y58iwIcZ/wZ/fLGqH1f62hW/BQRkxB3i/l9jW9/piRg2hQ==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-14.0.2.tgz";
+      sha512 = "6Zd3r/EQcbkwm+3HEu110sSLgExZ3ikWiZ9OPKtaXPukTGZetdYY54xUdSkJ0xZGfsMudroA09tuWw6LIDYfXA==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -6557,7 +6557,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.0.2"
+      sources."@types/node-22.1.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6638,7 +6638,7 @@ in
       sources."slash-3.0.0"
       sources."strip-final-newline-2.0.0"
       sources."to-regex-range-5.0.1"
-      sources."undici-types-6.11.1"
+      sources."undici-types-6.13.0"
       sources."universalify-2.0.1"
       sources."which-2.0.2"
       (sources."which-promise-1.0.0" // {
@@ -6879,7 +6879,7 @@ in
           sources."@azure/abort-controller-1.1.0"
         ];
       })
-      sources."@azure/logger-1.1.3"
+      sources."@azure/logger-1.1.4"
       sources."@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5"
       sources."@bmewburn/js-beautify-1.15.2"
       sources."@bmewburn/vscode-html-languageserver-1.11.0"
@@ -6915,7 +6915,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.0.2"
+      sources."@types/node-22.1.0"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
@@ -7145,7 +7145,7 @@ in
       sources."turndown-7.2.0"
       sources."turndown-plugin-gfm-1.0.2"
       sources."typescript-5.5.4"
-      sources."undici-types-6.11.1"
+      sources."undici-types-6.13.0"
       sources."universalify-2.0.1"
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
