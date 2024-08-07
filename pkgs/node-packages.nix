@@ -2137,13 +2137,13 @@ let
         sha512 = "jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==";
       };
     };
-    "foreground-child-3.2.1" = {
+    "foreground-child-3.3.0" = {
       name = "foreground-child";
       packageName = "foreground-child";
-      version = "3.2.1";
+      version = "3.3.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/foreground-child/-/foreground-child-3.2.1.tgz";
-        sha512 = "PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA==";
+        url = "https://registry.npmjs.org/foreground-child/-/foreground-child-3.3.0.tgz";
+        sha512 = "Ld2g8rrAyMYFXBhEqMz8ZAHBi4J4uS1i/CxGMDnjyFWddMXLVcDp051DZfu+t7+ab7Wv6SMqpWmyFIj5UbfFvg==";
       };
     };
     "form-data-4.0.0" = {
@@ -5993,7 +5993,7 @@ in
       sources."env-paths-2.2.1"
       sources."err-code-2.0.3"
       sources."exponential-backoff-3.1.1"
-      sources."foreground-child-3.2.1"
+      sources."foreground-child-3.3.0"
       sources."fs-minipass-3.0.3"
       sources."glob-10.4.5"
       sources."graceful-fs-4.2.11"
@@ -6983,7 +6983,7 @@ in
       sources."fast-glob-3.3.2"
       sources."fastq-1.17.1"
       sources."fill-range-7.1.1"
-      sources."foreground-child-3.2.1"
+      sources."foreground-child-3.3.0"
       sources."form-data-4.0.0"
       sources."fs-extra-11.2.0"
       (sources."fs-minipass-2.1.0" // {
