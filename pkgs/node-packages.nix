@@ -2623,13 +2623,13 @@ let
         sha512 = "cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==";
       };
     };
-    "ignore-5.3.1" = {
+    "ignore-5.3.2" = {
       name = "ignore";
       packageName = "ignore";
-      version = "5.3.1";
+      version = "5.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ignore/-/ignore-5.3.1.tgz";
-        sha512 = "5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==";
+        url = "https://registry.npmjs.org/ignore/-/ignore-5.3.2.tgz";
+        sha512 = "hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==";
       };
     };
     "ignore-walk-3.0.4" = {
@@ -5773,7 +5773,7 @@ in
       sources."glob-parent-6.0.2"
       sources."globals-14.0.0"
       sources."has-flag-4.0.0"
-      sources."ignore-5.3.1"
+      sources."ignore-5.3.2"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
       sources."is-extglob-2.1.1"
@@ -5890,7 +5890,7 @@ in
       sources."glob-parent-6.0.2"
       sources."globals-14.0.0"
       sources."has-flag-4.0.0"
-      sources."ignore-5.3.1"
+      sources."ignore-5.3.2"
       sources."import-fresh-3.3.0"
       sources."imurmurhash-0.1.4"
       sources."is-extglob-2.1.1"
@@ -6329,7 +6329,7 @@ in
       })
       (sources."eslint-plugin-node-11.1.0" // {
         dependencies = [
-          sources."ignore-5.3.1"
+          sources."ignore-5.3.2"
           sources."semver-6.3.1"
         ];
       })
@@ -6596,7 +6596,7 @@ in
       sources."globby-10.0.2"
       sources."graceful-fs-4.2.11"
       sources."human-signals-1.1.1"
-      sources."ignore-5.3.1"
+      sources."ignore-5.3.2"
       sources."indent-string-4.0.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
