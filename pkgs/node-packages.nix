@@ -67,13 +67,13 @@ let
         sha512 = "4IXXzcCdLdlXuCG+8UKEwLA1T1NHqUfanhXYHiQTn+6sfWCZXduqbtXDGceg3Ce5QxTGo7EqmbV6Bi+aqKuClQ==";
       };
     };
-    "@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5" = {
+    "@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.6" = {
       name = "_at_azure_slash_opentelemetry-instrumentation-azure-sdk";
       packageName = "@azure/opentelemetry-instrumentation-azure-sdk";
-      version = "1.0.0-beta.5";
+      version = "1.0.0-beta.6";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/opentelemetry-instrumentation-azure-sdk/-/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5.tgz";
-        sha512 = "fsUarKQDvjhmBO4nIfaZkfNSApm1hZBzcvpNbSrXdcUBxu7lRvKsV5DnwszX7cnhLyVOW9yl1uigtRQ1yDANjA==";
+        url = "https://registry.npmjs.org/@azure/opentelemetry-instrumentation-azure-sdk/-/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.6.tgz";
+        sha512 = "JP6TJ7vDNX6r0gN2+EQBINTNqZ86frl1RAj5STtbLP1ClgIhcdXXb0hvq7CuEOv7InrroHMDoEYG80OQcWChug==";
       };
     };
     "@babel/code-frame-7.24.7" = {
@@ -301,6 +301,15 @@ let
         sha512 = "3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==";
       };
     };
+    "@opentelemetry/api-logs-0.52.1" = {
+      name = "_at_opentelemetry_slash_api-logs";
+      packageName = "@opentelemetry/api-logs";
+      version = "0.52.1";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@opentelemetry/api-logs/-/api-logs-0.52.1.tgz";
+        sha512 = "qnSqB2DQ9TPP96dl8cDubDvrUyWc0/sK81xHTK8eSUspzDM3bsewX903qclQFvVhgStjRWdC5bLb3kQqMkfV5A==";
+      };
+    };
     "@opentelemetry/core-1.25.1" = {
       name = "_at_opentelemetry_slash_core";
       packageName = "@opentelemetry/core";
@@ -310,13 +319,13 @@ let
         sha512 = "GeT/l6rBYWVQ4XArluLVB6WWQ8flHbdb6r2FCHC3smtdOAbrJBIv35tpV/yp9bmYUJf+xmZpu9DRTIeJVhFbEQ==";
       };
     };
-    "@opentelemetry/instrumentation-0.41.2" = {
+    "@opentelemetry/instrumentation-0.52.1" = {
       name = "_at_opentelemetry_slash_instrumentation";
       packageName = "@opentelemetry/instrumentation";
-      version = "0.41.2";
+      version = "0.52.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/instrumentation/-/instrumentation-0.41.2.tgz";
-        sha512 = "rxU72E0pKNH6ae2w5+xgVYZLzc5mlxAbGzF4shxMVK8YC2QQsfN38B2GPbj0jvrKWWNUElfclQ+YTykkNg/grw==";
+        url = "https://registry.npmjs.org/@opentelemetry/instrumentation/-/instrumentation-0.52.1.tgz";
+        sha512 = "uXJbYU/5/MBHjMp1FqrILLRuiJCs3Ofk0MeRDk8g1S1gD47U8X3JnSwcMO1rtRo1x1a7zKaQHaoYu49p/4eSKw==";
       };
     };
     "@opentelemetry/resources-1.25.1" = {
@@ -562,13 +571,13 @@ let
         sha512 = "tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==";
       };
     };
-    "acorn-import-assertions-1.9.0" = {
-      name = "acorn-import-assertions";
-      packageName = "acorn-import-assertions";
-      version = "1.9.0";
+    "acorn-import-attributes-1.9.5" = {
+      name = "acorn-import-attributes";
+      packageName = "acorn-import-attributes";
+      version = "1.9.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/acorn-import-assertions/-/acorn-import-assertions-1.9.0.tgz";
-        sha512 = "cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==";
+        url = "https://registry.npmjs.org/acorn-import-attributes/-/acorn-import-attributes-1.9.5.tgz";
+        sha512 = "n02Vykv5uA3eHGM/Z2dQrcD56kL8TyDb2p1+0P83PClMnC/nc+anbQRhIOWnSq4Ke/KvDPrY3C9hDtC/A3eHnQ==";
       };
     };
     "acorn-jsx-5.3.2" = {
@@ -2650,13 +2659,13 @@ let
         sha512 = "veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==";
       };
     };
-    "import-in-the-middle-1.4.2" = {
+    "import-in-the-middle-1.11.0" = {
       name = "import-in-the-middle";
       packageName = "import-in-the-middle";
-      version = "1.4.2";
+      version = "1.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/import-in-the-middle/-/import-in-the-middle-1.4.2.tgz";
-        sha512 = "9WOz1Yh/cvO/p69sxRmhyQwrIGGSp7EIdcb+fFNVi7CzQGQB8U1/1XrKVSbEd/GNOAeM0peJtmi7+qphe7NvAw==";
+        url = "https://registry.npmjs.org/import-in-the-middle/-/import-in-the-middle-1.11.0.tgz";
+        sha512 = "5DimNQGoe0pLUHbR9qK84iWaWjjbsxiqXnw6Qz64+azRgleqv9k2kTt5fw7QsOpmaGYtuxxursnPPsnTKEx10Q==";
       };
     };
     "imurmurhash-0.1.4" = {
@@ -6891,7 +6900,7 @@ in
         ];
       })
       sources."@azure/logger-1.1.4"
-      sources."@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.5"
+      sources."@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.6"
       sources."@bmewburn/js-beautify-1.15.2"
       sources."@bmewburn/vscode-html-languageserver-1.11.0"
       sources."@isaacs/cliui-8.0.2"
@@ -6908,8 +6917,9 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@one-ini/wasm-0.1.1"
       sources."@opentelemetry/api-1.9.0"
+      sources."@opentelemetry/api-logs-0.52.1"
       sources."@opentelemetry/core-1.25.1"
-      sources."@opentelemetry/instrumentation-0.41.2"
+      sources."@opentelemetry/instrumentation-0.52.1"
       sources."@opentelemetry/resources-1.25.1"
       sources."@opentelemetry/sdk-trace-base-1.25.1"
       sources."@opentelemetry/semantic-conventions-1.25.1"
@@ -6931,7 +6941,7 @@ in
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
       sources."acorn-8.12.1"
-      sources."acorn-import-assertions-1.9.0"
+      sources."acorn-import-attributes-1.9.5"
       sources."agent-base-6.0.2"
       sources."ansi-regex-5.0.1"
       sources."ansi-styles-6.2.1"
@@ -7027,7 +7037,7 @@ in
       sources."http-proxy-agent-5.0.0"
       sources."https-proxy-agent-5.0.1"
       sources."iconv-lite-0.6.3"
-      sources."import-in-the-middle-1.4.2"
+      sources."import-in-the-middle-1.11.0"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."ini-1.3.8"
