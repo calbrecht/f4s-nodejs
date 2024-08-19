@@ -499,13 +499,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.4.0" = {
+    "@types/node-22.4.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.4.0";
+      version = "22.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.4.0.tgz";
-        sha512 = "49AbMDwYUz7EXxKU/r7mXOsxwFr4BYbvB7tWYxVuLdb2ibd30ijjXINSMAHiEEZk5PCRBmW1gUeisn2VMKt3cQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.4.1.tgz";
+        sha512 = "1tbpb9325+gPnKK0dMm+/LMriX0vKxf6RnB0SZUqfyVkQ4fMgUSySqhxE/y8Jvs4NyF1yHzTfG9KlnkIODxPKg==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -5287,13 +5287,13 @@ let
         sha512 = "z4o1fvKUojIWh9XuaVLUDdf86RQiq13AC1dmHbTpoyuu+bquHms76v16CjycCbec87J7z0k//SiQVk0sMdFmpQ==";
       };
     };
-    "undici-types-6.19.6" = {
+    "undici-types-6.19.8" = {
       name = "undici-types";
       packageName = "undici-types";
-      version = "6.19.6";
+      version = "6.19.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/undici-types/-/undici-types-6.19.6.tgz";
-        sha512 = "e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==";
+        url = "https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz";
+        sha512 = "ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==";
       };
     };
     "unique-filename-3.0.0" = {
@@ -6577,7 +6577,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.4.0"
+      sources."@types/node-22.4.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6658,7 +6658,7 @@ in
       sources."slash-3.0.0"
       sources."strip-final-newline-2.0.0"
       sources."to-regex-range-5.0.1"
-      sources."undici-types-6.19.6"
+      sources."undici-types-6.19.8"
       sources."universalify-2.0.1"
       sources."which-2.0.2"
       (sources."which-promise-1.0.0" // {
@@ -6880,10 +6880,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.12.3";
+    version = "1.12.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.12.3.tgz";
-      sha512 = "/DjNTwPajzSSzORMO9w4AexB49Y6Gqrt9OJ0Z6MeuF1Pwj6fkut85ikzl45hSho8KlofoAERKH3O2G93fwCK/Q==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.12.4.tgz";
+      sha512 = "A/MWB/8dlPMiaKiXsXShWyj/8DhGt4+HUN3awds72PcxplcsnzlCUTuTaCg3ASPSxLgV7XhMAPW0AD20HHypVg==";
     };
     dependencies = [
       sources."@azure/abort-controller-2.1.2"
@@ -6936,7 +6936,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.4.0"
+      sources."@types/node-22.4.1"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
@@ -7166,7 +7166,7 @@ in
       sources."turndown-7.2.0"
       sources."turndown-plugin-gfm-1.0.2"
       sources."typescript-5.5.4"
-      sources."undici-types-6.19.6"
+      sources."undici-types-6.19.8"
       sources."universalify-2.0.1"
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
