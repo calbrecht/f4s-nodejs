@@ -499,13 +499,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.4.1" = {
+    "@types/node-22.5.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.4.1";
+      version = "22.5.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.4.1.tgz";
-        sha512 = "1tbpb9325+gPnKK0dMm+/LMriX0vKxf6RnB0SZUqfyVkQ4fMgUSySqhxE/y8Jvs4NyF1yHzTfG9KlnkIODxPKg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.5.0.tgz";
+        sha512 = "DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -2776,13 +2776,13 @@ let
         sha512 = "1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==";
       };
     };
-    "is-core-module-2.15.0" = {
+    "is-core-module-2.15.1" = {
       name = "is-core-module";
       packageName = "is-core-module";
-      version = "2.15.0";
+      version = "2.15.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.15.0.tgz";
-        sha512 = "Dd+Lb2/zvk9SKy1TGCt1wFJFo/MWBPMX5x7KcvLajWTGuomczdQX61PvY5yK6SVACwpoexWo81IfFyoKY2QnTA==";
+        url = "https://registry.npmjs.org/is-core-module/-/is-core-module-2.15.1.tgz";
+        sha512 = "z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==";
       };
     };
     "is-data-view-1.0.1" = {
@@ -4306,13 +4306,13 @@ let
         sha512 = "vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==";
       };
     };
-    "protobufjs-7.3.2" = {
+    "protobufjs-7.3.3" = {
       name = "protobufjs";
       packageName = "protobufjs";
-      version = "7.3.2";
+      version = "7.3.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.3.2.tgz";
-        sha512 = "RXyHaACeqXeqAKGLDl68rQKbmObRsTIn4TYVUUug1KfS47YWCo5MacGITEryugIgZqORCvJWEk4l449POg5Txg==";
+        url = "https://registry.npmjs.org/protobufjs/-/protobufjs-7.3.3.tgz";
+        sha512 = "HaYi2CVjiPoBR1d2zTVKVHXr9IUnpJizCjUu19vxdD3B8o4z+vfOHpIEB1358w8nv8dfUNEfDHFvMsH7QlLt/Q==";
       };
     };
     "proxy-agent-6.4.0" = {
@@ -6413,7 +6413,7 @@ in
       sources."is-bigint-1.0.4"
       sources."is-boolean-object-1.1.2"
       sources."is-callable-1.2.7"
-      sources."is-core-module-2.15.0"
+      sources."is-core-module-2.15.1"
       sources."is-data-view-1.0.1"
       sources."is-date-object-1.0.5"
       sources."is-extglob-2.1.1"
@@ -6577,7 +6577,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.4.1"
+      sources."@types/node-22.5.0"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6750,7 +6750,7 @@ in
       sources."hasown-2.0.2"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
-      sources."is-core-module-2.15.0"
+      sources."is-core-module-2.15.1"
       sources."js-tokens-4.0.0"
       sources."js-yaml-3.14.1"
       sources."minimatch-3.1.2"
@@ -6936,7 +6936,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.4.1"
+      sources."@types/node-22.5.0"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
@@ -7042,7 +7042,7 @@ in
       sources."inherits-2.0.4"
       sources."ini-1.3.8"
       sources."ip-address-9.0.5"
-      sources."is-core-module-2.15.0"
+      sources."is-core-module-2.15.1"
       sources."is-extglob-2.1.1"
       sources."is-fullwidth-code-point-3.0.0"
       sources."is-glob-4.0.3"
@@ -7098,7 +7098,7 @@ in
       sources."peberminta-0.9.0"
       sources."picomatch-2.3.1"
       sources."proto-list-1.2.4"
-      sources."protobufjs-7.3.2"
+      sources."protobufjs-7.3.3"
       (sources."proxy-agent-6.4.0" // {
         dependencies = [
           sources."agent-base-7.1.1"
