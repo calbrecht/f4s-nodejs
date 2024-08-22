@@ -355,6 +355,15 @@ let
         sha512 = "ZDjMJJQRlyk8A1KZFCc+bCbsyrn1wTwdNt56F7twdfUfnHUZUq77/WfONCj8p72NZOyP7pNTdUWSTYC3GTbuuQ==";
       };
     };
+    "@opentelemetry/semantic-conventions-1.26.0" = {
+      name = "_at_opentelemetry_slash_semantic-conventions";
+      packageName = "@opentelemetry/semantic-conventions";
+      version = "1.26.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.26.0.tgz";
+        sha512 = "U9PJlOswJPSgQVPI+XEuNLElyFWkb0hAiMg+DExD9V0St03X2lPHGMdxMY/LrVmoukuIpXJ12oyrOtEZ4uXFkw==";
+      };
+    };
     "@protobufjs/aspromise-1.1.2" = {
       name = "_at_protobufjs_slash_aspromise";
       packageName = "@protobufjs/aspromise";
@@ -6918,11 +6927,23 @@ in
       sources."@one-ini/wasm-0.1.1"
       sources."@opentelemetry/api-1.9.0"
       sources."@opentelemetry/api-logs-0.52.1"
-      sources."@opentelemetry/core-1.25.1"
+      (sources."@opentelemetry/core-1.25.1" // {
+        dependencies = [
+          sources."@opentelemetry/semantic-conventions-1.25.1"
+        ];
+      })
       sources."@opentelemetry/instrumentation-0.52.1"
-      sources."@opentelemetry/resources-1.25.1"
-      sources."@opentelemetry/sdk-trace-base-1.25.1"
-      sources."@opentelemetry/semantic-conventions-1.25.1"
+      (sources."@opentelemetry/resources-1.25.1" // {
+        dependencies = [
+          sources."@opentelemetry/semantic-conventions-1.25.1"
+        ];
+      })
+      (sources."@opentelemetry/sdk-trace-base-1.25.1" // {
+        dependencies = [
+          sources."@opentelemetry/semantic-conventions-1.25.1"
+        ];
+      })
+      sources."@opentelemetry/semantic-conventions-1.26.0"
       sources."@protobufjs/aspromise-1.1.2"
       sources."@protobufjs/base64-1.1.2"
       sources."@protobufjs/codegen-2.0.4"
