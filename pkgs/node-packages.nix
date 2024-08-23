@@ -139,13 +139,13 @@ let
         sha512 = "G/M/tIiMrTAxEWRfLfQJMmGNX28IxBg4PBz8XqQhqUHLFI6TL2htpIB1iQCj144V5ee/JaKyT9/WZ0MGZWfA7A==";
       };
     };
-    "@eslint/config-array-0.17.1" = {
+    "@eslint/config-array-0.18.0" = {
       name = "_at_eslint_slash_config-array";
       packageName = "@eslint/config-array";
-      version = "0.17.1";
+      version = "0.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/config-array/-/config-array-0.17.1.tgz";
-        sha512 = "BlYOpej8AQ8Ev9xVqroV7a02JK3SkBAaN9GfMMH9W6Ch8FlQlkjGw4Ir7+FgYwfirivAf4t+GtzuAxqfukmISA==";
+        url = "https://registry.npmjs.org/@eslint/config-array/-/config-array-0.18.0.tgz";
+        sha512 = "fTxvnS1sRMu3+JjXwJG0j/i4RT9u4qJ+lqS/yCGap4lH4zZGzQ7tu+xZqQmcMZq5OBZDL4QRxQzRjkWcGt8IVw==";
       };
     };
     "@eslint/eslintrc-0.3.0" = {
@@ -166,13 +166,13 @@ let
         sha512 = "4Bfj15dVJdoy3RfZmmo86RK1Fwzn6SstsvK9JS+BaVKqC6QQQQyXekNaC+g+LKNgkQ+2VhGAzm6hO40AhMR3zQ==";
       };
     };
-    "@eslint/js-9.9.0" = {
+    "@eslint/js-9.9.1" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "9.9.0";
+      version = "9.9.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-9.9.0.tgz";
-        sha512 = "hhetes6ZHP3BlXLxmd8K2SNgkhNSi+UcecbnwWKwpP7kyi/uC75DJ1lOOBO3xrC4jyojtGE3YxKZPHfk4yrgug==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-9.9.1.tgz";
+        sha512 = "xIDQRsfg5hNBqHz04H1R3scSVwmI+KUbqjsQKHKQ1DAUSaUjYPReZZmS/5PNiKu1fUvzDd6H7DEDKACSEhu+TQ==";
       };
     };
     "@eslint/object-schema-2.1.4" = {
@@ -1759,13 +1759,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-9.9.0" = {
+    "eslint-9.9.1" = {
       name = "eslint";
       packageName = "eslint";
-      version = "9.9.0";
+      version = "9.9.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-9.9.0.tgz";
-        sha512 = "JfiKJrbx0506OEerjK2Y1QlldtBxkAlLxT5OEcRF8uaQ86noDe2k31Vw9rnSWv+MXZHj7OOUV/dA0AhdLFcyvA==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-9.9.1.tgz";
+        sha512 = "dHvhrbfr4xFQ9/dq+jcVneZMyRYLjggWjk6RVsIiHsP8Rz6yZ8LvZ//iU4TrZF+SXWG+JkNF2OyiZRvzgRDqMg==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -3361,13 +3361,13 @@ let
         sha512 = "8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==";
       };
     };
-    "micromatch-4.0.7" = {
+    "micromatch-4.0.8" = {
       name = "micromatch";
       packageName = "micromatch";
-      version = "4.0.7";
+      version = "4.0.8";
       src = fetchurl {
-        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.7.tgz";
-        sha512 = "LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==";
+        url = "https://registry.npmjs.org/micromatch/-/micromatch-4.0.8.tgz";
+        sha512 = "PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==";
       };
     };
     "mime-db-1.52.0" = {
@@ -5161,13 +5161,13 @@ let
         sha512 = "Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==";
       };
     };
-    "tslib-2.6.3" = {
+    "tslib-2.7.0" = {
       name = "tslib";
       packageName = "tslib";
-      version = "2.6.3";
+      version = "2.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/tslib/-/tslib-2.6.3.tgz";
-        sha512 = "xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==";
+        url = "https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz";
+        sha512 = "gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==";
       };
     };
     "tsutils-2.29.0" = {
@@ -5734,10 +5734,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "9.9.0";
+    version = "9.9.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-9.9.0.tgz";
-      sha512 = "JfiKJrbx0506OEerjK2Y1QlldtBxkAlLxT5OEcRF8uaQ86noDe2k31Vw9rnSWv+MXZHj7OOUV/dA0AhdLFcyvA==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-9.9.1.tgz";
+      sha512 = "dHvhrbfr4xFQ9/dq+jcVneZMyRYLjggWjk6RVsIiHsP8Rz6yZ8LvZ//iU4TrZF+SXWG+JkNF2OyiZRvzgRDqMg==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -5746,9 +5746,9 @@ in
         ];
       })
       sources."@eslint-community/regexpp-4.11.0"
-      sources."@eslint/config-array-0.17.1"
+      sources."@eslint/config-array-0.18.0"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.9.0"
+      sources."@eslint/js-9.9.1"
       sources."@eslint/object-schema-2.1.4"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
@@ -5772,7 +5772,7 @@ in
       sources."debug-4.3.6"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.9.0"
+      sources."eslint-9.9.1"
       sources."eslint-scope-8.0.2"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
@@ -5859,9 +5859,9 @@ in
         ];
       })
       sources."@eslint-community/regexpp-4.11.0"
-      sources."@eslint/config-array-0.17.1"
+      sources."@eslint/config-array-0.18.0"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.9.0"
+      sources."@eslint/js-9.9.1"
       sources."@eslint/object-schema-2.1.4"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
@@ -5889,7 +5889,7 @@ in
       sources."debug-4.3.6"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.9.0"
+      sources."eslint-9.9.1"
       sources."eslint-scope-8.0.2"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
@@ -6630,7 +6630,7 @@ in
       sources."lodash-4.17.21"
       sources."merge-stream-2.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.7"
+      sources."micromatch-4.0.8"
       sources."mimic-fn-2.1.0"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.8"
@@ -6854,7 +6854,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-number-7.0.0"
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.7"
+      sources."micromatch-4.0.8"
       sources."minimatch-9.0.2"
       sources."node-fetch-2.7.0"
       sources."picomatch-2.3.1"
@@ -7082,7 +7082,7 @@ in
         ];
       })
       sources."merge2-1.4.1"
-      sources."micromatch-4.0.7"
+      sources."micromatch-4.0.8"
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."minimatch-9.0.1"
@@ -7183,7 +7183,7 @@ in
       })
       sources."to-regex-range-5.0.1"
       sources."tr46-0.0.3"
-      sources."tslib-2.6.3"
+      sources."tslib-2.7.0"
       sources."turndown-7.2.0"
       sources."turndown-plugin-gfm-1.0.2"
       sources."typescript-5.5.4"
