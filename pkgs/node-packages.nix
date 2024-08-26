@@ -1795,13 +1795,13 @@ let
         sha512 = "WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==";
       };
     };
-    "eslint-module-utils-2.8.1" = {
+    "eslint-module-utils-2.8.2" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.8.1";
+      version = "2.8.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.8.1.tgz";
-        sha512 = "rXDXR3h7cs7dy9RNpUlQf80nX31XWJEyGq1tRMo+6GsO5VmTe4UTwtmonAD4ZkAsrfMVDA2wlGJ3790Ys+D49Q==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.8.2.tgz";
+        sha512 = "3XnC5fDyc8M4J2E8pt8pmSVRX2M+5yWMCfI/kDZwauQeFgzQOuhcRBFKjTeJagqgk4sFKxe1mvNVnaWwImx/Tg==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -5377,22 +5377,22 @@ let
         sha512 = "DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==";
       };
     };
-    "vscode-css-languageservice-6.3.0" = {
+    "vscode-css-languageservice-6.3.1" = {
       name = "vscode-css-languageservice";
       packageName = "vscode-css-languageservice";
-      version = "6.3.0";
+      version = "6.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.3.0.tgz";
-        sha512 = "nU92imtkgzpCL0xikrIb8WvedV553F2BENzgz23wFuok/HLN5BeQmroMy26pUwFxV2eV8oNRmYCUv8iO7kSMhw==";
+        url = "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.3.1.tgz";
+        sha512 = "1BzTBuJfwMc3A0uX4JBdJgoxp74cjj4q2mDJdp49yD/GuAq4X0k5WtK6fNcMYr+FfJ9nqgR6lpfCSZDkARJ5qQ==";
       };
     };
-    "vscode-html-languageservice-5.3.0" = {
+    "vscode-html-languageservice-5.3.1" = {
       name = "vscode-html-languageservice";
       packageName = "vscode-html-languageservice";
-      version = "5.3.0";
+      version = "5.3.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.3.0.tgz";
-        sha512 = "C4Z3KsP5Ih+fjHpiBc5jxmvCl+4iEwvXegIrzu2F5pktbWvQaBT3YkVPk8N+QlSSMk8oCG6PKtZ/Sq2YHb5e8g==";
+        url = "https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.3.1.tgz";
+        sha512 = "ysUh4hFeW/WOWz/TO9gm08xigiSsV/FOAZ+DolgJfeLftna54YdmZ4A+lIn46RbdO3/Qv5QHTn1ZGqmrXQhZyA==";
       };
     };
     "vscode-json-languageservice-4.1.8" = {
@@ -6332,7 +6332,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.8.1" // {
+      (sources."eslint-module-utils-2.8.2" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -7191,8 +7191,8 @@ in
       sources."universalify-2.0.1"
       sources."util-deprecate-1.0.2"
       sources."uuid-8.3.2"
-      sources."vscode-css-languageservice-6.3.0"
-      sources."vscode-html-languageservice-5.3.0"
+      sources."vscode-css-languageservice-6.3.1"
+      sources."vscode-html-languageservice-5.3.1"
       sources."vscode-jsonrpc-8.2.0"
       sources."vscode-languageserver-9.0.1"
       sources."vscode-languageserver-protocol-3.17.5"
