@@ -1786,13 +1786,13 @@ let
         sha512 = "WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==";
       };
     };
-    "eslint-module-utils-2.8.2" = {
+    "eslint-module-utils-2.9.0" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.8.2";
+      version = "2.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.8.2.tgz";
-        sha512 = "3XnC5fDyc8M4J2E8pt8pmSVRX2M+5yWMCfI/kDZwauQeFgzQOuhcRBFKjTeJagqgk4sFKxe1mvNVnaWwImx/Tg==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.9.0.tgz";
+        sha512 = "McVbYmwA3NEKwRQY5g4aWMdcZE5xZxV8i8l7CqJSrameuGSQJtSWaL/LxTEzSKKaCcOhlpDR8XEfYXWPrdo/ZQ==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -4144,13 +4144,13 @@ let
         sha512 = "XIxfHpEuSJbITd1H3EeQwpcZbTLHc+VVr8ANI9t5sit565tsI4/xK3KWTUFE2e6QiangUkh3B0jihzmGnNrRsQ==";
       };
     };
-    "picocolors-1.0.1" = {
+    "picocolors-1.1.0" = {
       name = "picocolors";
       packageName = "picocolors";
-      version = "1.0.1";
+      version = "1.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/picocolors/-/picocolors-1.0.1.tgz";
-        sha512 = "anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==";
+        url = "https://registry.npmjs.org/picocolors/-/picocolors-1.1.0.tgz";
+        sha512 = "TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==";
       };
     };
     "picomatch-2.3.1" = {
@@ -6323,7 +6323,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.8.2" // {
+      (sources."eslint-module-utils-2.9.0" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -6473,7 +6473,7 @@ in
       sources."path-key-3.1.1"
       sources."path-parse-1.0.7"
       sources."path-type-3.0.0"
-      sources."picocolors-1.0.1"
+      sources."picocolors-1.1.0"
       sources."pify-3.0.0"
       (sources."pkg-conf-3.1.0" // {
         dependencies = [
@@ -6759,7 +6759,7 @@ in
       sources."once-1.4.0"
       sources."path-is-absolute-1.0.1"
       sources."path-parse-1.0.7"
-      sources."picocolors-1.0.1"
+      sources."picocolors-1.1.0"
       sources."resolve-1.22.8"
       sources."semver-5.7.2"
       sources."sprintf-js-1.0.3"
