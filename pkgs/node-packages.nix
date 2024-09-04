@@ -499,13 +499,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.5.2" = {
+    "@types/node-22.5.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.5.2";
+      version = "22.5.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.5.2.tgz";
-        sha512 = "acJsPTEqYqulZS/Yp/S3GgeE6GZ0qYODUR8aVr/DkhHQ8l9nd4j5x1/ZJy9/gHrRlFMqkO6i0I3E27Alu4jjPg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.5.4.tgz";
+        sha512 = "FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -6577,7 +6577,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.5.2"
+      sources."@types/node-22.5.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6936,7 +6936,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.5.2"
+      sources."@types/node-22.5.4"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
