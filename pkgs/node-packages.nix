@@ -166,13 +166,13 @@ let
         sha512 = "4Bfj15dVJdoy3RfZmmo86RK1Fwzn6SstsvK9JS+BaVKqC6QQQQyXekNaC+g+LKNgkQ+2VhGAzm6hO40AhMR3zQ==";
       };
     };
-    "@eslint/js-9.9.1" = {
+    "@eslint/js-9.10.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "9.9.1";
+      version = "9.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-9.9.1.tgz";
-        sha512 = "xIDQRsfg5hNBqHz04H1R3scSVwmI+KUbqjsQKHKQ1DAUSaUjYPReZZmS/5PNiKu1fUvzDd6H7DEDKACSEhu+TQ==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-9.10.0.tgz";
+        sha512 = "fuXtbiP5GWIn8Fz+LWoOMVf/Jxm+aajZYkhi6CuEm4SxymFM+eUWzbO9qXT+L0iCkL5+KGYMCSGxo686H19S1g==";
       };
     };
     "@eslint/object-schema-2.1.4" = {
@@ -182,6 +182,15 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@eslint/object-schema/-/object-schema-2.1.4.tgz";
         sha512 = "BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==";
+      };
+    };
+    "@eslint/plugin-kit-0.1.0" = {
+      name = "_at_eslint_slash_plugin-kit";
+      packageName = "@eslint/plugin-kit";
+      version = "0.1.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.1.0.tgz";
+        sha512 = "autAXT203ixhqei9xt+qkYOvY8l6LAFIdT2UXc/RPNeUVfqRF1BV94GTJyVPFKT8nFM6MyVJhjLj9E8JWvf5zQ==";
       };
     };
     "@humanwhocodes/module-importer-1.0.1" = {
@@ -1318,13 +1327,13 @@ let
         sha512 = "CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==";
       };
     };
-    "debug-4.3.6" = {
+    "debug-4.3.7" = {
       name = "debug";
       packageName = "debug";
-      version = "4.3.6";
+      version = "4.3.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/debug/-/debug-4.3.6.tgz";
-        sha512 = "O/09Bd4Z1fBrU4VzkhFqVgpPzaGbw6Sm9FEkBT1A/YBXQFGuuSxa1dN2nxgxS34JmKXqYx8CZAwEVoJFImUXIg==";
+        url = "https://registry.npmjs.org/debug/-/debug-4.3.7.tgz";
+        sha512 = "Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==";
       };
     };
     "dedent-0.7.0" = {
@@ -1750,13 +1759,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-9.9.1" = {
+    "eslint-9.10.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "9.9.1";
+      version = "9.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-9.9.1.tgz";
-        sha512 = "dHvhrbfr4xFQ9/dq+jcVneZMyRYLjggWjk6RVsIiHsP8Rz6yZ8LvZ//iU4TrZF+SXWG+JkNF2OyiZRvzgRDqMg==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-9.10.0.tgz";
+        sha512 = "Y4D0IgtBZfOcOUAIQTSXBKoNGfY0REGqHJG6+Q81vNippW5YlKjHFj4soMxamKK1NXHUWuBZTLdU3Km+L/pcHw==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -1786,13 +1795,13 @@ let
         sha512 = "WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==";
       };
     };
-    "eslint-module-utils-2.9.0" = {
+    "eslint-module-utils-2.11.0" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.9.0";
+      version = "2.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.9.0.tgz";
-        sha512 = "McVbYmwA3NEKwRQY5g4aWMdcZE5xZxV8i8l7CqJSrameuGSQJtSWaL/LxTEzSKKaCcOhlpDR8XEfYXWPrdo/ZQ==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.11.0.tgz";
+        sha512 = "gbBE5Hitek/oG6MUVj6sFuzEjA/ClzNflVrLovHi/JgLdC7fiN5gLAY1WIPW1a0V5I999MnsrvVrCOGmmVqDBQ==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -3566,15 +3575,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz";
         sha512 = "Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==";
-      };
-    };
-    "ms-2.1.2" = {
-      name = "ms";
-      packageName = "ms";
-      version = "2.1.2";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz";
-        sha512 = "sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==";
       };
     };
     "ms-2.1.3" = {
@@ -5725,10 +5725,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "9.9.1";
+    version = "9.10.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-9.9.1.tgz";
-      sha512 = "dHvhrbfr4xFQ9/dq+jcVneZMyRYLjggWjk6RVsIiHsP8Rz6yZ8LvZ//iU4TrZF+SXWG+JkNF2OyiZRvzgRDqMg==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-9.10.0.tgz";
+      sha512 = "Y4D0IgtBZfOcOUAIQTSXBKoNGfY0REGqHJG6+Q81vNippW5YlKjHFj4soMxamKK1NXHUWuBZTLdU3Km+L/pcHw==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -5739,8 +5739,9 @@ in
       sources."@eslint-community/regexpp-4.11.0"
       sources."@eslint/config-array-0.18.0"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.9.1"
+      sources."@eslint/js-9.10.0"
       sources."@eslint/object-schema-2.1.4"
+      sources."@eslint/plugin-kit-0.1.0"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -5760,10 +5761,10 @@ in
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.6"
+      sources."debug-4.3.7"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.9.1"
+      sources."eslint-9.10.0"
       sources."eslint-scope-8.0.2"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
@@ -5799,7 +5800,7 @@ in
       sources."locate-path-6.0.0"
       sources."lodash.merge-4.6.2"
       sources."minimatch-3.1.2"
-      sources."ms-2.1.2"
+      sources."ms-2.1.3"
       sources."natural-compare-1.4.0"
       sources."optionator-0.9.4"
       sources."p-limit-3.1.0"
@@ -5852,8 +5853,9 @@ in
       sources."@eslint-community/regexpp-4.11.0"
       sources."@eslint/config-array-0.18.0"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.9.1"
+      sources."@eslint/js-9.10.0"
       sources."@eslint/object-schema-2.1.4"
+      sources."@eslint/plugin-kit-0.1.0"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -5877,10 +5879,10 @@ in
       sources."color-name-1.1.4"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.6"
+      sources."debug-4.3.7"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.9.1"
+      sources."eslint-9.10.0"
       sources."eslint-scope-8.0.2"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
@@ -5916,7 +5918,7 @@ in
       sources."locate-path-6.0.0"
       sources."lodash.merge-4.6.2"
       sources."minimatch-3.1.2"
-      sources."ms-2.1.2"
+      sources."ms-2.1.3"
       sources."natural-compare-1.4.0"
       sources."optionator-0.9.4"
       sources."p-limit-3.1.0"
@@ -6007,7 +6009,7 @@ in
           sources."which-2.0.2"
         ];
       })
-      sources."debug-4.3.6"
+      sources."debug-4.3.7"
       sources."eastasianwidth-0.2.0"
       sources."emoji-regex-9.2.2"
       sources."env-paths-2.2.1"
@@ -6055,7 +6057,7 @@ in
         ];
       })
       sources."mkdirp-1.0.4"
-      sources."ms-2.1.2"
+      sources."ms-2.1.3"
       sources."negotiator-0.6.3"
       sources."nopt-7.2.1"
       sources."p-map-4.0.0"
@@ -6299,7 +6301,7 @@ in
       sources."data-view-buffer-1.0.1"
       sources."data-view-byte-length-1.0.1"
       sources."data-view-byte-offset-1.0.0"
-      sources."debug-4.3.6"
+      sources."debug-4.3.7"
       sources."deep-is-0.1.4"
       sources."define-data-property-1.1.4"
       sources."define-properties-1.2.1"
@@ -6323,7 +6325,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.9.0" // {
+      (sources."eslint-module-utils-2.11.0" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -6446,7 +6448,7 @@ in
       sources."loose-envify-1.4.0"
       sources."minimatch-3.1.2"
       sources."minimist-1.2.8"
-      sources."ms-2.1.2"
+      sources."ms-2.1.3"
       sources."natural-compare-1.4.0"
       (sources."normalize-package-data-2.5.0" // {
         dependencies = [
@@ -6588,7 +6590,7 @@ in
       sources."clean-stack-2.2.0"
       sources."concat-map-0.0.1"
       sources."cross-spawn-7.0.3"
-      sources."debug-4.3.6"
+      sources."debug-4.3.7"
       sources."dedent-0.7.0"
       sources."del-5.1.0"
       sources."dir-glob-3.0.1"
@@ -6626,7 +6628,7 @@ in
       sources."minimatch-3.1.2"
       sources."minimist-1.2.8"
       sources."mkdirp-0.5.6"
-      sources."ms-2.1.2"
+      sources."ms-2.1.3"
       sources."mustache-2.3.2"
       sources."nanoid-3.3.7"
       sources."npm-run-path-4.0.1"
@@ -6979,7 +6981,7 @@ in
       sources."continuation-local-storage-3.2.1"
       sources."cross-spawn-7.0.3"
       sources."data-uri-to-buffer-6.0.2"
-      sources."debug-4.3.6"
+      sources."debug-4.3.7"
       sources."deepmerge-4.3.1"
       sources."degenerator-5.0.1"
       sources."delayed-stream-1.0.0"
@@ -7073,7 +7075,7 @@ in
       })
       sources."mkdirp-1.0.4"
       sources."module-details-from-path-1.0.3"
-      sources."ms-2.1.2"
+      sources."ms-2.1.3"
       sources."nan-2.20.0"
       sources."netmask-2.0.2"
       sources."node-fetch-2.7.0"
