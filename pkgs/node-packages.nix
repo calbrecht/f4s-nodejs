@@ -1075,13 +1075,13 @@ let
         sha512 = "bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==";
       };
     };
-    "cjs-module-lexer-1.4.0" = {
+    "cjs-module-lexer-1.4.1" = {
       name = "cjs-module-lexer";
       packageName = "cjs-module-lexer";
-      version = "1.4.0";
+      version = "1.4.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.4.0.tgz";
-        sha512 = "N1NGmowPlGBLsOZLPvm48StN04V4YvQRL0i6b7ctrVY3epjP/ct7hFLOItz6pDIvRjwpfPxi52a2UWV2ziir8g==";
+        url = "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.4.1.tgz";
+        sha512 = "cuSVIHi9/9E/+821Qjdvngor+xpnlwnuwIyZOaLmHBVdXL+gP+I6QQB9VkO7RI77YIcTV+S1W9AreJ5eN63JBA==";
       };
     };
     "clean-stack-2.2.0" = {
@@ -6964,7 +6964,7 @@ in
       sources."brace-expansion-2.0.1"
       sources."braces-3.0.3"
       sources."chownr-2.0.0"
-      sources."cjs-module-lexer-1.4.0"
+      sources."cjs-module-lexer-1.4.1"
       (sources."cls-hooked-4.2.2" // {
         dependencies = [
           sources."semver-5.7.2"
