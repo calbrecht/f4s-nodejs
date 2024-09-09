@@ -670,13 +670,13 @@ let
         sha512 = "quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==";
       };
     };
-    "ansi-regex-6.0.1" = {
+    "ansi-regex-6.1.0" = {
       name = "ansi-regex";
       packageName = "ansi-regex";
-      version = "6.0.1";
+      version = "6.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.0.1.tgz";
-        sha512 = "n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==";
+        url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.1.0.tgz";
+        sha512 = "7HSX4QQb4CspciLpVFwyRe79O3xsIZDDLER21kERQ71oaPodF8jL725AgJMFAYbooIqolJoRLuM81SpeUkpkvA==";
       };
     };
     "ansi-styles-1.0.0" = {
@@ -5260,13 +5260,13 @@ let
         sha512 = "/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==";
       };
     };
-    "typescript-5.5.4" = {
+    "typescript-5.6.2" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.5.4";
+      version = "5.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.5.4.tgz";
-        sha512 = "Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz";
+        sha512 = "NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -6085,7 +6085,7 @@ in
       })
       (sources."strip-ansi-7.1.0" // {
         dependencies = [
-          sources."ansi-regex-6.0.1"
+          sources."ansi-regex-6.1.0"
         ];
       })
       sources."strip-ansi-cjs-6.0.1"
@@ -6769,7 +6769,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-5.5.4"
+      sources."typescript-5.6.2"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -6785,10 +6785,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "5.5.4";
+    version = "5.6.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-5.5.4.tgz";
-      sha512 = "Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz";
+      sha512 = "NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6882,10 +6882,10 @@ in
   intelephense = nodeEnv.buildNodePackage {
     name = "intelephense";
     packageName = "intelephense";
-    version = "1.12.5";
+    version = "1.12.6";
     src = fetchurl {
-      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.12.5.tgz";
-      sha512 = "vPgLchztmSCWsUeZk3L56HO4MpS95Wh4/RTSCzLE3nkZQkQWwbbtaOgzV7g/pYMBcSrtBq93CuNOAI5q1lDlEw==";
+      url = "https://registry.npmjs.org/intelephense/-/intelephense-1.12.6.tgz";
+      sha512 = "/ZvZ/aI9LgISxQ32QYSfwhJN3ckFWfi7AnAN0IWPENynQCNzpFlGS6/s2TVeh7Kafarly7lCW/Pt0XI4+B/M7Q==";
     };
     dependencies = [
       sources."@azure/abort-controller-2.1.2"
@@ -7152,7 +7152,7 @@ in
       sources."string_decoder-1.3.0"
       (sources."strip-ansi-7.1.0" // {
         dependencies = [
-          sources."ansi-regex-6.0.1"
+          sources."ansi-regex-6.1.0"
         ];
       })
       sources."strip-ansi-cjs-6.0.1"
@@ -7167,7 +7167,7 @@ in
       sources."tslib-2.7.0"
       sources."turndown-7.2.0"
       sources."turndown-plugin-gfm-1.0.2"
-      sources."typescript-5.5.4"
+      sources."typescript-5.6.2"
       sources."undici-types-6.19.8"
       sources."universalify-2.0.1"
       sources."util-deprecate-1.0.2"
