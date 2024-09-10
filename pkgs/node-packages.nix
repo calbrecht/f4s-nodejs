@@ -4333,13 +4333,13 @@ let
         sha512 = "D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==";
       };
     };
-    "pump-3.0.0" = {
+    "pump-3.0.1" = {
       name = "pump";
       packageName = "pump";
-      version = "3.0.0";
+      version = "3.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/pump/-/pump-3.0.0.tgz";
-        sha512 = "LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==";
+        url = "https://registry.npmjs.org/pump/-/pump-3.0.1.tgz";
+        sha512 = "2ynnAmUu45oUSq51AQbeugLkMSKaz8FqVpZ6ykTqzOVkzXe8u/ezkGsYrFJqKZx+D9cVxoDrSbR7CeAwxFa5cQ==";
       };
     };
     "punycode-2.3.1" = {
@@ -6648,7 +6648,7 @@ in
           sources."pinkie-1.0.0"
         ];
       })
-      sources."pump-3.0.0"
+      sources."pump-3.0.1"
       sources."queue-microtask-1.2.3"
       sources."read-file-relative-1.2.0"
       sources."reusify-1.0.4"
