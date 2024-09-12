@@ -22,13 +22,13 @@ let
         sha512 = "nBrLsEWm4J2u5LpAPjxADTlq3trDgVZZXHNKabeXZtpq3d3AbN/KGO82R87rdDz5/lYB024rtEf10/q0urNgsA==";
       };
     };
-    "@azure/core-auth-1.7.2" = {
+    "@azure/core-auth-1.8.0" = {
       name = "_at_azure_slash_core-auth";
       packageName = "@azure/core-auth";
-      version = "1.7.2";
+      version = "1.8.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.7.2.tgz";
-        sha512 = "Igm/S3fDYmnMq1uKS38Ae1/m37B3zigdlZw+kocwEhh5GjyKjPrXKO2J6rzpC1wAxrNil/jX9BJRqBshyjnF3g==";
+        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.8.0.tgz";
+        sha512 = "YvFMowkXzLbXNM11yZtVLhUCmuG0ex7JKOH366ipjmHBhL3vpDcPAeWF+jf0X+jVXwFqo3UhsWUq4kH0ZPdu/g==";
       };
     };
     "@azure/core-rest-pipeline-1.10.1" = {
@@ -6889,7 +6889,7 @@ in
     };
     dependencies = [
       sources."@azure/abort-controller-2.1.2"
-      sources."@azure/core-auth-1.7.2"
+      sources."@azure/core-auth-1.8.0"
       (sources."@azure/core-rest-pipeline-1.10.1" // {
         dependencies = [
           sources."@azure/abort-controller-1.1.0"
