@@ -5839,10 +5839,10 @@ in
   eslint_d = nodeEnv.buildNodePackage {
     name = "eslint_d";
     packageName = "eslint_d";
-    version = "14.0.3";
+    version = "14.0.4";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-14.0.3.tgz";
-      sha512 = "snX6TeAGQvkdiq4hnNTQTKVzjz7rO0jH2JeKV9AB+nLVg0y1cJt2ns3RhWrTIuBZcRQISiES4lMT1uzBqZpPQg==";
+      url = "https://registry.npmjs.org/eslint_d/-/eslint_d-14.0.4.tgz";
+      sha512 = "VZuLiR03gKOCbXptTSrjfhmL4GBfGswyq2gJWUSDqMSc37XR2ryuKUtnLe1Y3+cphI7Rn7S9sHgXAFYDno3RiQ==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
