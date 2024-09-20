@@ -166,13 +166,13 @@ let
         sha512 = "4Bfj15dVJdoy3RfZmmo86RK1Fwzn6SstsvK9JS+BaVKqC6QQQQyXekNaC+g+LKNgkQ+2VhGAzm6hO40AhMR3zQ==";
       };
     };
-    "@eslint/js-9.10.0" = {
+    "@eslint/js-9.11.0" = {
       name = "_at_eslint_slash_js";
       packageName = "@eslint/js";
-      version = "9.10.0";
+      version = "9.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/js/-/js-9.10.0.tgz";
-        sha512 = "fuXtbiP5GWIn8Fz+LWoOMVf/Jxm+aajZYkhi6CuEm4SxymFM+eUWzbO9qXT+L0iCkL5+KGYMCSGxo686H19S1g==";
+        url = "https://registry.npmjs.org/@eslint/js/-/js-9.11.0.tgz";
+        sha512 = "LPkkenkDqyzTFauZLLAPhIb48fj6drrfMvRGSL9tS3AcZBSVTllemLSNyCvHNNL2t797S/6DJNSIwRwXgMO/eQ==";
       };
     };
     "@eslint/object-schema-2.1.4" = {
@@ -184,13 +184,13 @@ let
         sha512 = "BsWiH1yFGjXXS2yvrf5LyuoSIIbPrGUWob917o+BTKuZ7qJdxX8aJLRxs1fS9n6r7vESrq1OUqb68dANcFXuQQ==";
       };
     };
-    "@eslint/plugin-kit-0.1.0" = {
+    "@eslint/plugin-kit-0.2.0" = {
       name = "_at_eslint_slash_plugin-kit";
       packageName = "@eslint/plugin-kit";
-      version = "0.1.0";
+      version = "0.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.1.0.tgz";
-        sha512 = "autAXT203ixhqei9xt+qkYOvY8l6LAFIdT2UXc/RPNeUVfqRF1BV94GTJyVPFKT8nFM6MyVJhjLj9E8JWvf5zQ==";
+        url = "https://registry.npmjs.org/@eslint/plugin-kit/-/plugin-kit-0.2.0.tgz";
+        sha512 = "vH9PiIMMwvhCx31Af3HiGzsVNULDbyVkHXwlemn/B0TFj/00ho3y55efXrUZTfQipxoHC5u4xq6zblww1zm1Ig==";
       };
     };
     "@humanwhocodes/module-importer-1.0.1" = {
@@ -1759,13 +1759,13 @@ let
         sha512 = "fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==";
       };
     };
-    "eslint-9.10.0" = {
+    "eslint-9.11.0" = {
       name = "eslint";
       packageName = "eslint";
-      version = "9.10.0";
+      version = "9.11.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint/-/eslint-9.10.0.tgz";
-        sha512 = "Y4D0IgtBZfOcOUAIQTSXBKoNGfY0REGqHJG6+Q81vNippW5YlKjHFj4soMxamKK1NXHUWuBZTLdU3Km+L/pcHw==";
+        url = "https://registry.npmjs.org/eslint/-/eslint-9.11.0.tgz";
+        sha512 = "yVS6XODx+tMFMDFcG4+Hlh+qG7RM6cCJXtQhCKLSsr3XkLvWggHjCqjfh0XsPPnt1c56oaT6PMgW9XWQQjdHXA==";
       };
     };
     "eslint-config-standard-16.0.3" = {
@@ -5725,10 +5725,10 @@ in
   eslint = nodeEnv.buildNodePackage {
     name = "eslint";
     packageName = "eslint";
-    version = "9.10.0";
+    version = "9.11.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/eslint/-/eslint-9.10.0.tgz";
-      sha512 = "Y4D0IgtBZfOcOUAIQTSXBKoNGfY0REGqHJG6+Q81vNippW5YlKjHFj4soMxamKK1NXHUWuBZTLdU3Km+L/pcHw==";
+      url = "https://registry.npmjs.org/eslint/-/eslint-9.11.0.tgz";
+      sha512 = "yVS6XODx+tMFMDFcG4+Hlh+qG7RM6cCJXtQhCKLSsr3XkLvWggHjCqjfh0XsPPnt1c56oaT6PMgW9XWQQjdHXA==";
     };
     dependencies = [
       (sources."@eslint-community/eslint-utils-4.4.0" // {
@@ -5739,9 +5739,9 @@ in
       sources."@eslint-community/regexpp-4.11.1"
       sources."@eslint/config-array-0.18.0"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.10.0"
+      sources."@eslint/js-9.11.0"
       sources."@eslint/object-schema-2.1.4"
-      sources."@eslint/plugin-kit-0.1.0"
+      sources."@eslint/plugin-kit-0.2.0"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -5764,7 +5764,7 @@ in
       sources."debug-4.3.7"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.10.0"
+      sources."eslint-9.11.0"
       sources."eslint-scope-8.0.2"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
@@ -5853,9 +5853,9 @@ in
       sources."@eslint-community/regexpp-4.11.1"
       sources."@eslint/config-array-0.18.0"
       sources."@eslint/eslintrc-3.1.0"
-      sources."@eslint/js-9.10.0"
+      sources."@eslint/js-9.11.0"
       sources."@eslint/object-schema-2.1.4"
-      sources."@eslint/plugin-kit-0.1.0"
+      sources."@eslint/plugin-kit-0.2.0"
       sources."@humanwhocodes/module-importer-1.0.1"
       sources."@humanwhocodes/retry-0.3.0"
       sources."@nodelib/fs.scandir-2.1.5"
@@ -5882,7 +5882,7 @@ in
       sources."debug-4.3.7"
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
-      sources."eslint-9.10.0"
+      sources."eslint-9.11.0"
       sources."eslint-scope-8.0.2"
       sources."eslint-visitor-keys-4.0.0"
       sources."espree-10.1.0"
