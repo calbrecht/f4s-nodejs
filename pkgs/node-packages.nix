@@ -1822,13 +1822,13 @@ let
         sha512 = "WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==";
       };
     };
-    "eslint-module-utils-2.11.0" = {
+    "eslint-module-utils-2.11.1" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.11.0";
+      version = "2.11.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.11.0.tgz";
-        sha512 = "gbBE5Hitek/oG6MUVj6sFuzEjA/ClzNflVrLovHi/JgLdC7fiN5gLAY1WIPW1a0V5I999MnsrvVrCOGmmVqDBQ==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.11.1.tgz";
+        sha512 = "EwcbfLOhwVMAfatfqLecR2yv3dE5+kQ8kx+Rrt0DvDXEVwW86KQ/xbMDQhtp5l42VXukD5SOF8mQQHbaNtO0CQ==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -6358,7 +6358,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.11.0" // {
+      (sources."eslint-module-utils-2.11.1" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
