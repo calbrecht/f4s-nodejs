@@ -535,13 +535,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.6.1" = {
+    "@types/node-22.7.1" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.6.1";
+      version = "22.7.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.6.1.tgz";
-        sha512 = "V48tCfcKb/e6cVUigLAaJDAILdMP0fUW6BidkPK4GpGjXcfbnoHasCZDwz3N3yVt5we2RHm4XTQCpv0KJz9zqw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.7.1.tgz";
+        sha512 = "adOMRLVmleuWs/5V/w5/l7o0chDK/az+5ncCsIapTKogsu/3MVWvSgP58qVTXi5IwpfGt8pMobNq9rOWtJyu5Q==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -3037,13 +3037,13 @@ let
         sha512 = "OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==";
       };
     };
-    "jiti-1.21.6" = {
+    "jiti-2.0.0" = {
       name = "jiti";
       packageName = "jiti";
-      version = "1.21.6";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-1.21.6.tgz";
-        sha512 = "2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.0.0.tgz";
+        sha512 = "CJ7e7Abb779OTRv3lomfp7Mns/Sy1+U4pcAx5VbjxCZD5ZM/VJaXPpPjNKjtSvWQy/H86E49REXR34dl1JEz9w==";
       };
     };
     "js-cookie-3.0.5" = {
@@ -5503,15 +5503,6 @@ let
         sha512 = "mb1bvRJN8SVznADSGWM9u/b07H7Ecg0I3OgXDuLdn307rl/J3A9YD6/eYOssqhecL27hK1IPZAsaqh00i/Jljg==";
       };
     };
-    "vscode-languageserver-textdocument-1.0.11" = {
-      name = "vscode-languageserver-textdocument";
-      packageName = "vscode-languageserver-textdocument";
-      version = "1.0.11";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.11.tgz";
-        sha512 = "X+8T3GoiwTVlJbicx/sIAF+yuJAqz8VvwJyoMVhwEMoEKE/fkDmrqUgDMyBECcM2A2frVZIUj5HI/ErRXCfOeA==";
-      };
-    };
     "vscode-languageserver-textdocument-1.0.12" = {
       name = "vscode-languageserver-textdocument";
       packageName = "vscode-languageserver-textdocument";
@@ -5566,13 +5557,13 @@ let
         sha512 = "AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==";
       };
     };
-    "web-tree-sitter-0.22.5" = {
+    "web-tree-sitter-0.23.0" = {
       name = "web-tree-sitter";
       packageName = "web-tree-sitter";
-      version = "0.22.5";
+      version = "0.23.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.22.5.tgz";
-        sha512 = "rGX2jRXjcGOhf35zWyO0i/+Wjz4/KVUYN9Oh3AhDsZ0fGOgTIkw/bMhqwvc8L7HgMK8rqDq9RcROWc7lnsnhWg==";
+        url = "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.23.0.tgz";
+        sha512 = "p1T+ju2H30fpVX2q5yr+Wv/NfdMMWMjQp9Q+4eEPrHAJpPFh9DPfI2Yr9L1f5SA5KPE+g1cNUqPbpihxUDzmVw==";
       };
     };
     "webidl-conversions-3.0.1" = {
@@ -5820,7 +5811,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."jiti-1.21.6"
+      sources."jiti-2.0.0"
       sources."js-yaml-4.1.0"
       sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
@@ -5941,7 +5932,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."jiti-1.21.6"
+      sources."jiti-2.0.0"
       sources."js-yaml-4.1.0"
       sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
@@ -6612,7 +6603,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.6.1"
+      sources."@types/node-22.7.1"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6853,10 +6844,10 @@ in
   bash-language-server = nodeEnv.buildNodePackage {
     name = "bash-language-server";
     packageName = "bash-language-server";
-    version = "5.4.0";
+    version = "5.4.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.4.0.tgz";
-      sha512 = "YLCIBjnwdxvlwlurTA4Be7UfPXDzaWCJKzJwzO8rVjJH0QlbhPvo3FXkYOBXPLg81G4hb0ZbhSAi4+yrs7j5cQ==";
+      url = "https://registry.npmjs.org/bash-language-server/-/bash-language-server-5.4.2.tgz";
+      sha512 = "3N2INRlio63A5CwvDz2sZEWFp46H3sm7OD2IU/kr8MSYKAIRt/xD23arT7daJfYKLC+I6ijWsvaFs9tP6Bo00Q==";
     };
     dependencies = [
       sources."@nodelib/fs.scandir-2.1.5"
@@ -6895,9 +6886,9 @@ in
       sources."vscode-jsonrpc-8.0.2"
       sources."vscode-languageserver-8.0.2"
       sources."vscode-languageserver-protocol-3.17.2"
-      sources."vscode-languageserver-textdocument-1.0.11"
+      sources."vscode-languageserver-textdocument-1.0.12"
       sources."vscode-languageserver-types-3.17.2"
-      sources."web-tree-sitter-0.22.5"
+      sources."web-tree-sitter-0.23.0"
       sources."webidl-conversions-3.0.1"
       sources."whatwg-url-5.0.0"
       sources."zod-3.22.4"
@@ -6971,7 +6962,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.6.1"
+      sources."@types/node-22.7.1"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
