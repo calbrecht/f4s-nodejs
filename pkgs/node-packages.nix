@@ -535,13 +535,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.7.1" = {
+    "@types/node-22.7.3" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.7.1";
+      version = "22.7.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.7.1.tgz";
-        sha512 = "adOMRLVmleuWs/5V/w5/l7o0chDK/az+5ncCsIapTKogsu/3MVWvSgP58qVTXi5IwpfGt8pMobNq9rOWtJyu5Q==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.7.3.tgz";
+        sha512 = "qXKfhXXqGTyBskvWEzJZPUxSslAiLaB6JGP1ic/XTH9ctGgzdgYguuLP1C601aRTSDNlLb0jbKqXjZ48GNraSA==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -1822,13 +1822,13 @@ let
         sha512 = "WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==";
       };
     };
-    "eslint-module-utils-2.11.1" = {
+    "eslint-module-utils-2.12.0" = {
       name = "eslint-module-utils";
       packageName = "eslint-module-utils";
-      version = "2.11.1";
+      version = "2.12.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.11.1.tgz";
-        sha512 = "EwcbfLOhwVMAfatfqLecR2yv3dE5+kQ8kx+Rrt0DvDXEVwW86KQ/xbMDQhtp5l42VXukD5SOF8mQQHbaNtO0CQ==";
+        url = "https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.12.0.tgz";
+        sha512 = "wALZ0HFoytlyh/1+4wuZ9FJCD/leWHQzzrxJ8+rebyReSLk7LApMyd3WJaLVoN+D5+WIdJyDK1c6JnE65V4Zyg==";
       };
     };
     "eslint-plugin-es-3.0.1" = {
@@ -2074,13 +2074,13 @@ let
         sha512 = "DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==";
       };
     };
-    "fast-uri-3.0.1" = {
+    "fast-uri-3.0.2" = {
       name = "fast-uri";
       packageName = "fast-uri";
-      version = "3.0.1";
+      version = "3.0.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/fast-uri/-/fast-uri-3.0.1.tgz";
-        sha512 = "MWipKbbYiYI0UC7cl8m/i/IWTqfC8YXsqjzybjddLsFjStroQzsHXkc73JutMvBiXmOvapk+axIl79ig5t55Bw==";
+        url = "https://registry.npmjs.org/fast-uri/-/fast-uri-3.0.2.tgz";
+        sha512 = "GR6f0hD7XXyNJa25Tb9BuIdN0tdr+0BMi6/CJPH3wJO1JjNG3n/VsSw38AwRdKZABm8lGbPfakLRkYzx2V9row==";
       };
     };
     "fastq-1.17.1" = {
@@ -2695,13 +2695,13 @@ let
         sha512 = "veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==";
       };
     };
-    "import-in-the-middle-1.11.0" = {
+    "import-in-the-middle-1.11.1" = {
       name = "import-in-the-middle";
       packageName = "import-in-the-middle";
-      version = "1.11.0";
+      version = "1.11.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/import-in-the-middle/-/import-in-the-middle-1.11.0.tgz";
-        sha512 = "5DimNQGoe0pLUHbR9qK84iWaWjjbsxiqXnw6Qz64+azRgleqv9k2kTt5fw7QsOpmaGYtuxxursnPPsnTKEx10Q==";
+        url = "https://registry.npmjs.org/import-in-the-middle/-/import-in-the-middle-1.11.1.tgz";
+        sha512 = "lGdg70ECFGv/OHQXL/IPhcxkFPeQ7YA4zborlA54XHVr58oM50QNxItRiayHMqj1MspC5Y9zaHf+QHod/gq7Ug==";
       };
     };
     "imurmurhash-0.1.4" = {
@@ -4054,13 +4054,13 @@ let
         sha512 = "5NPgf87AT2STgwa2ntRMr45jTKrYBGkVU36yT0ig/n/GMAa3oPqhZfIQ2kMEimReg0+t9kZViDVZ83qfVUlckg==";
       };
     };
-    "package-json-from-dist-1.0.0" = {
+    "package-json-from-dist-1.0.1" = {
       name = "package-json-from-dist";
       packageName = "package-json-from-dist";
-      version = "1.0.0";
+      version = "1.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/package-json-from-dist/-/package-json-from-dist-1.0.0.tgz";
-        sha512 = "dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==";
+        url = "https://registry.npmjs.org/package-json-from-dist/-/package-json-from-dist-1.0.1.tgz";
+        sha512 = "UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==";
       };
     };
     "parent-module-1.0.1" = {
@@ -6085,7 +6085,7 @@ in
       sources."negotiator-0.6.3"
       sources."nopt-7.2.1"
       sources."p-map-4.0.0"
-      sources."package-json-from-dist-1.0.0"
+      sources."package-json-from-dist-1.0.1"
       sources."path-key-3.1.1"
       sources."path-scurry-1.11.1"
       sources."proc-log-4.2.0"
@@ -6349,7 +6349,7 @@ in
           sources."debug-3.2.7"
         ];
       })
-      (sources."eslint-module-utils-2.11.1" // {
+      (sources."eslint-module-utils-2.12.0" // {
         dependencies = [
           sources."debug-3.2.7"
         ];
@@ -6399,7 +6399,7 @@ in
       sources."fast-deep-equal-3.1.3"
       sources."fast-json-stable-stringify-2.1.0"
       sources."fast-levenshtein-2.0.6"
-      sources."fast-uri-3.0.1"
+      sources."fast-uri-3.0.2"
       sources."file-entry-cache-6.0.1"
       sources."find-up-2.1.0"
       sources."flat-cache-3.2.0"
@@ -6603,7 +6603,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.7.1"
+      sources."@types/node-22.7.3"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6962,7 +6962,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.7.1"
+      sources."@types/node-22.7.3"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
@@ -7063,7 +7063,7 @@ in
       sources."http-proxy-agent-5.0.0"
       sources."https-proxy-agent-5.0.1"
       sources."iconv-lite-0.6.3"
-      sources."import-in-the-middle-1.11.0"
+      sources."import-in-the-middle-1.11.1"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."ini-1.3.8"
@@ -7115,7 +7115,7 @@ in
         ];
       })
       sources."pac-resolver-7.0.1"
-      sources."package-json-from-dist-1.0.0"
+      sources."package-json-from-dist-1.0.1"
       sources."parseley-0.12.1"
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
@@ -7247,7 +7247,7 @@ in
     dependencies = [
       sources."ajv-8.17.1"
       sources."fast-deep-equal-3.1.3"
-      sources."fast-uri-3.0.1"
+      sources."fast-uri-3.0.2"
       sources."json-schema-traverse-1.0.0"
       sources."jsonc-parser-3.3.1"
       sources."lodash-4.17.21"
