@@ -535,13 +535,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.7.3" = {
+    "@types/node-22.7.4" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.7.3";
+      version = "22.7.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.7.3.tgz";
-        sha512 = "qXKfhXXqGTyBskvWEzJZPUxSslAiLaB6JGP1ic/XTH9ctGgzdgYguuLP1C601aRTSDNlLb0jbKqXjZ48GNraSA==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.7.4.tgz";
+        sha512 = "y+NPi1rFzDs1NdQHHToqeiX2TIS79SWEAw9GYhkkx8bD0ChpfqC+n2j5OXOCpzfojBEBt6DnEnnG9MY0zk1XLg==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -1885,13 +1885,13 @@ let
         sha512 = "2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==";
       };
     };
-    "eslint-scope-8.0.2" = {
+    "eslint-scope-8.1.0" = {
       name = "eslint-scope";
       packageName = "eslint-scope";
-      version = "8.0.2";
+      version = "8.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.0.2.tgz";
-        sha512 = "6E4xmrTw5wtxnLA5wYL3WDfhZ/1bUBGOXV0zQvVRDOtrR8D0p6W7fs3JweNYhwRYeGvd/1CKX2se0/2s7Q/nJA==";
+        url = "https://registry.npmjs.org/eslint-scope/-/eslint-scope-8.1.0.tgz";
+        sha512 = "14dSvlhaVhKKsa9Fx1l8A17s7ah7Ef7wCakJ10LYk6+GYmP9yDti2oq2SEwcyndt6knfcZyhyxwY3i9yL78EQw==";
       };
     };
     "eslint-utils-2.1.0" = {
@@ -1930,22 +1930,22 @@ let
         sha512 = "wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==";
       };
     };
-    "eslint-visitor-keys-4.0.0" = {
+    "eslint-visitor-keys-4.1.0" = {
       name = "eslint-visitor-keys";
       packageName = "eslint-visitor-keys";
-      version = "4.0.0";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.0.0.tgz";
-        sha512 = "OtIRv/2GyiF6o/d8K7MYKKbXrOUBIK6SfkIRM4Z0dY3w+LiQ0vy3F57m0Z71bjbyeiWFiHJ8brqnmE6H6/jEuw==";
+        url = "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.1.0.tgz";
+        sha512 = "Q7lok0mqMUSf5a/AdAZkA5a/gHcO6snwQClVNNvFKCAVlxXucdU8pKydU5ZVZjBx5xr37vGbFFWtLQYreLzrZg==";
       };
     };
-    "espree-10.1.0" = {
+    "espree-10.2.0" = {
       name = "espree";
       packageName = "espree";
-      version = "10.1.0";
+      version = "10.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/espree/-/espree-10.1.0.tgz";
-        sha512 = "M1M6CpiE6ffoigIOWYO9UDP8TMUw9kqb21tf+08IgDYjCsOvCuDt4jQcZmoYxx+w7zlKw9/N0KXfto+I8/FrXA==";
+        url = "https://registry.npmjs.org/espree/-/espree-10.2.0.tgz";
+        sha512 = "upbkBJbckcCNBDBDXEbuhjbP68n+scUd3k/U2EkyM9nw+I/jPiL4cLF/Al06CF96wRltFda16sxDFrxsI1v0/g==";
       };
     };
     "espree-7.3.1" = {
@@ -5786,9 +5786,9 @@ in
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
       sources."eslint-9.11.1"
-      sources."eslint-scope-8.0.2"
-      sources."eslint-visitor-keys-4.0.0"
-      sources."espree-10.1.0"
+      sources."eslint-scope-8.1.0"
+      sources."eslint-visitor-keys-4.1.0"
+      sources."espree-10.2.0"
       sources."esquery-1.6.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -5907,9 +5907,9 @@ in
       sources."deep-is-0.1.4"
       sources."escape-string-regexp-4.0.0"
       sources."eslint-9.11.1"
-      sources."eslint-scope-8.0.2"
-      sources."eslint-visitor-keys-4.0.0"
-      sources."espree-10.1.0"
+      sources."eslint-scope-8.1.0"
+      sources."eslint-visitor-keys-4.1.0"
+      sources."espree-10.2.0"
       sources."esquery-1.6.0"
       sources."esrecurse-4.3.0"
       sources."estraverse-5.3.0"
@@ -6603,7 +6603,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.7.3"
+      sources."@types/node-22.7.4"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6962,7 +6962,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.7.3"
+      sources."@types/node-22.7.4"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
