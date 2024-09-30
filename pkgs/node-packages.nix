@@ -2695,13 +2695,13 @@ let
         sha512 = "veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==";
       };
     };
-    "import-in-the-middle-1.11.1" = {
+    "import-in-the-middle-1.11.2" = {
       name = "import-in-the-middle";
       packageName = "import-in-the-middle";
-      version = "1.11.1";
+      version = "1.11.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/import-in-the-middle/-/import-in-the-middle-1.11.1.tgz";
-        sha512 = "lGdg70ECFGv/OHQXL/IPhcxkFPeQ7YA4zborlA54XHVr58oM50QNxItRiayHMqj1MspC5Y9zaHf+QHod/gq7Ug==";
+        url = "https://registry.npmjs.org/import-in-the-middle/-/import-in-the-middle-1.11.2.tgz";
+        sha512 = "gK6Rr6EykBcc6cVWRSBR5TWf8nn6hZMYSRYqCcHa0l0d1fPK7JSYo6+Mlmck76jIX9aL/IZ71c06U2VpFwl1zA==";
       };
     };
     "imurmurhash-0.1.4" = {
@@ -7063,7 +7063,7 @@ in
       sources."http-proxy-agent-5.0.0"
       sources."https-proxy-agent-5.0.1"
       sources."iconv-lite-0.6.3"
-      sources."import-in-the-middle-1.11.1"
+      sources."import-in-the-middle-1.11.2"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
       sources."ini-1.3.8"
