@@ -3037,13 +3037,13 @@ let
         sha512 = "OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==";
       };
     };
-    "jiti-2.0.0" = {
+    "jiti-2.1.0" = {
       name = "jiti";
       packageName = "jiti";
-      version = "2.0.0";
+      version = "2.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/jiti/-/jiti-2.0.0.tgz";
-        sha512 = "CJ7e7Abb779OTRv3lomfp7Mns/Sy1+U4pcAx5VbjxCZD5ZM/VJaXPpPjNKjtSvWQy/H86E49REXR34dl1JEz9w==";
+        url = "https://registry.npmjs.org/jiti/-/jiti-2.1.0.tgz";
+        sha512 = "Nftp80J8poC3u+93ZxpjstsgfQ5d0o5qyD6yStv32sgnWr74xRxBppEwsUoA/GIdrJpgGRkC1930YkLcAsFdSw==";
       };
     };
     "js-cookie-3.0.5" = {
@@ -5811,7 +5811,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."jiti-2.0.0"
+      sources."jiti-2.1.0"
       sources."js-yaml-4.1.0"
       sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
@@ -5932,7 +5932,7 @@ in
       sources."is-glob-4.0.3"
       sources."is-path-inside-3.0.3"
       sources."isexe-2.0.0"
-      sources."jiti-2.0.0"
+      sources."jiti-2.1.0"
       sources."js-yaml-4.1.0"
       sources."json-buffer-3.0.1"
       sources."json-schema-traverse-0.4.1"
