@@ -67,13 +67,13 @@ let
         sha512 = "4IXXzcCdLdlXuCG+8UKEwLA1T1NHqUfanhXYHiQTn+6sfWCZXduqbtXDGceg3Ce5QxTGo7EqmbV6Bi+aqKuClQ==";
       };
     };
-    "@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.6" = {
+    "@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.7" = {
       name = "_at_azure_slash_opentelemetry-instrumentation-azure-sdk";
       packageName = "@azure/opentelemetry-instrumentation-azure-sdk";
-      version = "1.0.0-beta.6";
+      version = "1.0.0-beta.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/opentelemetry-instrumentation-azure-sdk/-/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.6.tgz";
-        sha512 = "JP6TJ7vDNX6r0gN2+EQBINTNqZ86frl1RAj5STtbLP1ClgIhcdXXb0hvq7CuEOv7InrroHMDoEYG80OQcWChug==";
+        url = "https://registry.npmjs.org/@azure/opentelemetry-instrumentation-azure-sdk/-/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.7.tgz";
+        sha512 = "boG33EDRcbw0Jo2cRgB6bccSirKOzYdYFMdcSsnOajLCLfJ8WIve3vxUMi7YZKxM8txZX/0cwzUU6crXmYxXZg==";
       };
     };
     "@babel/code-frame-7.25.7" = {
@@ -337,13 +337,13 @@ let
         sha512 = "3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==";
       };
     };
-    "@opentelemetry/api-logs-0.52.1" = {
+    "@opentelemetry/api-logs-0.53.0" = {
       name = "_at_opentelemetry_slash_api-logs";
       packageName = "@opentelemetry/api-logs";
-      version = "0.52.1";
+      version = "0.53.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/api-logs/-/api-logs-0.52.1.tgz";
-        sha512 = "qnSqB2DQ9TPP96dl8cDubDvrUyWc0/sK81xHTK8eSUspzDM3bsewX903qclQFvVhgStjRWdC5bLb3kQqMkfV5A==";
+        url = "https://registry.npmjs.org/@opentelemetry/api-logs/-/api-logs-0.53.0.tgz";
+        sha512 = "8HArjKx+RaAI8uEIgcORbZIPklyh1YLjPSBus8hjRmvLi6DeFzgOcdZ7KwPabKj8mXF8dX0hyfAyGfycz0DbFw==";
       };
     };
     "@opentelemetry/core-1.26.0" = {
@@ -355,13 +355,13 @@ let
         sha512 = "1iKxXXE8415Cdv0yjG3G6hQnB5eVEsJce3QaawX8SjDn0mAS0ZM8fAbZZJD4ajvhC15cePvosSCut404KrIIvQ==";
       };
     };
-    "@opentelemetry/instrumentation-0.52.1" = {
+    "@opentelemetry/instrumentation-0.53.0" = {
       name = "_at_opentelemetry_slash_instrumentation";
       packageName = "@opentelemetry/instrumentation";
-      version = "0.52.1";
+      version = "0.53.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@opentelemetry/instrumentation/-/instrumentation-0.52.1.tgz";
-        sha512 = "uXJbYU/5/MBHjMp1FqrILLRuiJCs3Ofk0MeRDk8g1S1gD47U8X3JnSwcMO1rtRo1x1a7zKaQHaoYu49p/4eSKw==";
+        url = "https://registry.npmjs.org/@opentelemetry/instrumentation/-/instrumentation-0.53.0.tgz";
+        sha512 = "DMwg0hy4wzf7K73JJtl95m/e0boSoWhH07rfvHvYzQtBD3Bmv0Wc1x733vyZBqmFm8OjJD0/pfiUg1W3JjFX0A==";
       };
     };
     "@opentelemetry/resources-1.26.0" = {
@@ -553,13 +553,13 @@ let
         sha512 = "K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==";
       };
     };
-    "@types/node-22.7.4" = {
+    "@types/node-22.7.5" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.7.4";
+      version = "22.7.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.7.4.tgz";
-        sha512 = "y+NPi1rFzDs1NdQHHToqeiX2TIS79SWEAw9GYhkkx8bD0ChpfqC+n2j5OXOCpzfojBEBt6DnEnnG9MY0zk1XLg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.7.5.tgz";
+        sha512 = "jML7s2NAzMWc//QSJ1a3prpk78cOPchGvXJsC3C6R6PSMoooztvRVQEz89gmBTBY1SPMaqo5teB4uNHPdetShQ==";
       };
     };
     "@types/shimmer-1.2.0" = {
@@ -5305,13 +5305,13 @@ let
         sha512 = "/OxDN6OtAk5KBpGb28T+HZc2M+ADtvRxXrKKbUwtsLgdoxgX13hyy7ek6bFRl5+aBs2yZzB0c4CnQfAtVypW/g==";
       };
     };
-    "typescript-5.6.2" = {
+    "typescript-5.6.3" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.6.2";
+      version = "5.6.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz";
-        sha512 = "NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz";
+        sha512 = "hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==";
       };
     };
     "unbox-primitive-1.0.2" = {
@@ -6605,7 +6605,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@types/glob-7.2.0"
       sources."@types/minimatch-5.1.2"
-      sources."@types/node-22.7.4"
+      sources."@types/node-22.7.5"
       sources."aggregate-error-3.1.0"
       sources."array-find-1.0.0"
       sources."array-union-2.1.0"
@@ -6795,7 +6795,7 @@ in
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."tslib-1.14.1"
       sources."tsutils-2.29.0"
-      sources."typescript-5.6.2"
+      sources."typescript-5.6.3"
       sources."wrappy-1.0.2"
     ];
     buildInputs = globalBuildInputs;
@@ -6811,10 +6811,10 @@ in
   typescript = nodeEnv.buildNodePackage {
     name = "typescript";
     packageName = "typescript";
-    version = "5.6.2";
+    version = "5.6.3";
     src = fetchurl {
-      url = "https://registry.npmjs.org/typescript/-/typescript-5.6.2.tgz";
-      sha512 = "NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==";
+      url = "https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz";
+      sha512 = "hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==";
     };
     buildInputs = globalBuildInputs;
     meta = {
@@ -6928,7 +6928,7 @@ in
         ];
       })
       sources."@azure/logger-1.1.4"
-      sources."@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.6"
+      sources."@azure/opentelemetry-instrumentation-azure-sdk-1.0.0-beta.7"
       sources."@bmewburn/js-beautify-1.15.2"
       sources."@bmewburn/vscode-html-languageserver-1.11.0"
       sources."@isaacs/cliui-8.0.2"
@@ -6945,9 +6945,9 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@one-ini/wasm-0.1.1"
       sources."@opentelemetry/api-1.9.0"
-      sources."@opentelemetry/api-logs-0.52.1"
+      sources."@opentelemetry/api-logs-0.53.0"
       sources."@opentelemetry/core-1.26.0"
-      sources."@opentelemetry/instrumentation-0.52.1"
+      sources."@opentelemetry/instrumentation-0.53.0"
       sources."@opentelemetry/resources-1.26.0"
       sources."@opentelemetry/sdk-trace-base-1.26.0"
       sources."@opentelemetry/semantic-conventions-1.27.0"
@@ -6964,7 +6964,7 @@ in
       sources."@selderee/plugin-htmlparser2-0.11.0"
       sources."@tootallnate/once-2.0.0"
       sources."@tootallnate/quickjs-emscripten-0.23.0"
-      sources."@types/node-22.7.4"
+      sources."@types/node-22.7.5"
       sources."@types/shimmer-1.2.0"
       sources."@vscode/l10n-0.0.18"
       sources."abbrev-2.0.0"
@@ -7193,7 +7193,7 @@ in
       sources."tslib-2.7.0"
       sources."turndown-7.2.0"
       sources."turndown-plugin-gfm-1.0.2"
-      sources."typescript-5.6.2"
+      sources."typescript-5.6.3"
       sources."undici-types-6.19.8"
       sources."universalify-2.0.1"
       sources."util-deprecate-1.0.2"
