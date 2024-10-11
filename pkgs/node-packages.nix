@@ -3640,13 +3640,13 @@ let
         sha512 = "KpMNwdQsYz3O/SBS1qJ/o3sqUJ5wSb8gb0pul8CO0S56b9Y2ALm8zCfsjPXsqGFfoNBkDwZuZIAjhsZI03gYVQ==";
       };
     };
-    "nan-2.21.0" = {
+    "nan-2.22.0" = {
       name = "nan";
       packageName = "nan";
-      version = "2.21.0";
+      version = "2.22.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/nan/-/nan-2.21.0.tgz";
-        sha512 = "MCpOGmdWvAOMi4RWnpxS5G24l7dVMtdSHtV87I3ltjaLdFOTO74HVJ+DfYiAXjxGKsYR/UCmm1rBwhMN7KqS1A==";
+        url = "https://registry.npmjs.org/nan/-/nan-2.22.0.tgz";
+        sha512 = "nbajikzWTMwsW+eSsNm3QwlOs7het9gGJU5dDZzRTQGk03vyBOauxgI4VakDzE0PtsGTmXPsXTbbjVhRwR5mpw==";
       };
     };
     "nanoid-3.3.7" = {
@@ -6730,7 +6730,7 @@ in
       sources."lodash.assign-4.2.0"
       sources."marked-0.3.19"
       sources."marked-terminal-1.7.0"
-      sources."nan-2.21.0"
+      sources."nan-2.22.0"
       sources."node-emoji-1.11.0"
       sources."redeyed-1.0.1"
       sources."strip-ansi-3.0.1"
@@ -7102,7 +7102,7 @@ in
       sources."mkdirp-1.0.4"
       sources."module-details-from-path-1.0.3"
       sources."ms-2.1.3"
-      sources."nan-2.21.0"
+      sources."nan-2.22.0"
       sources."netmask-2.0.2"
       sources."node-fetch-2.7.0"
       sources."nopt-7.2.1"
