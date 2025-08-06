@@ -1,12 +1,8 @@
 {
   description = "nodejs tooling.";
 
-  nixConfig = {
-    flake-registry = https://github.com/calbrecht/f4s-registry/raw/main/flake-registry.json;
-  };
-
   inputs = {
-    pkgs-src = { url = github:calbrecht/f4s-nodejs?dir=pkgs; flake = false; };
+    pkgs-src = { url = "github:calbrecht/f4s-nodejs?dir=pkgs"; flake = false; };
   };
 
   outputs = { self, nixpkgs, pkgs-src }:
@@ -16,7 +12,7 @@
         inherit system;
         overlays = [ self.overlay ];
       };
-      pkgs-dir = pkgs-src + /pkgs;
+      pkgs-dir = pkgs-src; #+ /pkgs;
       node-packages = [
         "eslint"
         "eslint_d"
