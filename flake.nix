@@ -65,6 +65,7 @@
           #nodejs_legacy = prev.nodejs;
           #nodejs = prev.nodejs_latest;
           #
+          utillinux = prev.util-linux;
           nodePackages = prev.nodePackages // _nodePackages // {
             eslint_d = (_nodePackages.eslint_d.override {
               dontNpmInstall = true;
