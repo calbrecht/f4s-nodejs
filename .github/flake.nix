@@ -16,20 +16,6 @@
     in
     {
       packages."${system}" = {
-        flake-update = pkgs.writeScriptBin "flake-update" ''
-          #!${pkgs.stdenv.shell}
-          set -xeu
-
-          user_name=''${git_user_name:-$(${git_bin} config user.name)}
-          user_mail=''${git_user_mail:-$(${git_bin} config user.email)}
-
-          ${git_bin} config user.name "$user_name"
-          ${git_bin} config user.email "$user_mail"
-
-          ${nix_bin} flake update --commit-lock-file
-          ${git_bin} push >&2
-        '';
-
         commit-and-push = pkgs.writeScriptBin "commit-and-push" ''
           #!${pkgs.stdenv.shell}
           set -xeu
@@ -71,7 +57,6 @@
           #!${pkgs.stdenv.shell}
           set -xeu
 
-          . ${self.packages."${system}".flake-update}/bin/flake-update && \
           . ${self.packages."${system}".pnpm-update}/bin/pnpm-update && \
           . ${self.packages."${system}".hash-update}/bin/hash-update && \
           . ${self.packages."${system}".commit-and-push}/bin/commit-and-push || \
