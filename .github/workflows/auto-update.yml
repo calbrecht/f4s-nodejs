@@ -13,11 +13,8 @@ jobs:
       git_user_name: github-actions
       git_user_mail: github-actions@github.com
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
-        # Nix Flakes doesn't work on shallow clones
-        fetch-depth: 0
-        repository: calbrecht/f4s-nodejs
-        ref: main
-    - uses: cachix/install-nix-action@v22
+        fetch-tags: true
+    - uses: cachix/install-nix-action@v31
     - run: nix run .github#auto-update
