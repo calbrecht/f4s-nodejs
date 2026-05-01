@@ -15,14 +15,14 @@ importers:
         specifier: ^5.6.0
         version: 5.6.0
       eslint:
-        specifier: ^10.2.1
-        version: 10.2.1(supports-color@10.2.2)
+        specifier: ^10.3.0
+        version: 10.3.0(supports-color@10.2.2)
       eslint_d:
         specifier: ^15.0.2
         version: 15.0.2
       intelephense:
-        specifier: ^1.18.0
-        version: 1.18.0
+        specifier: ^1.18.1
+        version: 1.18.1
       node-gyp:
         specifier: ^12.3.0
         version: 12.3.0
@@ -839,8 +839,8 @@ packages:
     resolution: {integrity: sha512-tD40eHxA35h0PEIZNeIjkHoDR4YjjJp34biM0mDvplBe//mB+IHCqHDGV7pxF+7MklTvighcCPPZC7ynWyjdTA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  eslint@10.2.1:
-    resolution: {integrity: sha512-wiyGaKsDgqXvF40P8mDwiUp/KQjE1FdrIEJsM8PZ3XCiniTMXS3OHWWUe5FI5agoCnr8x4xPrTDZuxsBlNHl+Q==}
+  eslint@10.3.0:
+    resolution: {integrity: sha512-XbEXaRva5cF0ZQB8w6MluHA0kZZfV2DuCMJ3ozyEOHLwDpZX2Lmm/7Pp0xdJmI0GL1W05VH5VwIFHEm1Vcw2gw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
@@ -1145,16 +1145,16 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  intelephense@1.18.0:
-    resolution: {integrity: sha512-jcYnpH7maMhruQEN7Bj8J8RzFzMCQIw2GCHR6jBCEuMZJqGQvJ5FfXz7X6MXhxYak7832fN06Pr/Wh4OsP8fNw==}
+  intelephense@1.18.1:
+    resolution: {integrity: sha512-7TxZlpb1Dzo2DEBV04ef+n26bUE/StcQdP6yAPdNzoxXktvgbEFsHEIy8G8kv52rdWjdTU77ZMGxpIxzJpPzUg==}
     hasBin: true
 
   internal-slot@1.1.0:
     resolution: {integrity: sha512-4gd7VpWNQNB4UKKCFFVcp1AVv+FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804/yHlglp3uxgluOqAPLw==}
     engines: {node: '>= 0.4'}
 
-  ip-address@10.1.1:
-    resolution: {integrity: sha512-1FMu8/N15Ck1BL551Jf42NYIoin2unWjLQ2Fze/DXryJRl5twqtwNHlO39qERGbIOcKYWHdgRryhOC+NG4eaLw==}
+  ip-address@10.2.0:
+    resolution: {integrity: sha512-/+S6j4E9AHvW9SWMSEY9Xfy66O5PWvVEJ08O0y5JGyEKQpojb0K0GKpz/v5HJ/G0vi3D2sjGK78119oXZeE0qA==}
     engines: {node: '>= 12'}
 
   is-array-buffer@3.0.5:
@@ -2300,9 +2300,9 @@ snapshots:
       vscode-languageserver-types: 3.17.5
       vscode-uri: 3.1.0
 
-  '@eslint-community/eslint-utils@4.9.1(eslint@10.2.1)':
+  '@eslint-community/eslint-utils@4.9.1(eslint@10.3.0)':
     dependencies:
-      eslint: 10.2.1(supports-color@10.2.2)
+      eslint: 10.3.0(supports-color@10.2.2)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.2': {}
@@ -3138,9 +3138,9 @@ snapshots:
 
   eslint-visitor-keys@5.0.1: {}
 
-  eslint@10.2.1(supports-color@10.2.2):
+  eslint@10.3.0(supports-color@10.2.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.2.1)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@10.3.0)
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5(supports-color@10.2.2)
       '@eslint/config-helpers': 0.5.5
@@ -3218,7 +3218,7 @@ snapshots:
   eslint_d@15.0.2:
     dependencies:
       debug: 4.4.3(supports-color@10.2.2)
-      eslint: 10.2.1(supports-color@10.2.2)
+      eslint: 10.3.0(supports-color@10.2.2)
       supports-color: 10.2.2
     transitivePeerDependencies:
       - jiti
@@ -3534,7 +3534,7 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  intelephense@1.18.0:
+  intelephense@1.18.1:
     dependencies:
       '@bmewburn/js-beautify': 1.15.4
       '@bmewburn/vscode-html-languageserver': 1.11.1
@@ -3562,7 +3562,7 @@ snapshots:
       hasown: 2.0.3
       side-channel: 1.1.0
 
-  ip-address@10.1.1: {}
+  ip-address@10.2.0: {}
 
   is-array-buffer@3.0.5:
     dependencies:
@@ -4324,7 +4324,7 @@ snapshots:
 
   socks@2.8.8:
     dependencies:
-      ip-address: 10.1.1
+      ip-address: 10.2.0
       smart-buffer: 4.2.0
 
   source-map@0.6.1:
