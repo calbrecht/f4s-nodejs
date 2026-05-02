@@ -21,8 +21,8 @@ importers:
         specifier: ^15.0.2
         version: 15.0.2
       intelephense:
-        specifier: ^1.18.1
-        version: 1.18.1
+        specifier: ^1.18.2
+        version: 1.18.2
       node-gyp:
         specifier: ^12.3.0
         version: 12.3.0
@@ -1145,8 +1145,8 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  intelephense@1.18.1:
-    resolution: {integrity: sha512-7TxZlpb1Dzo2DEBV04ef+n26bUE/StcQdP6yAPdNzoxXktvgbEFsHEIy8G8kv52rdWjdTU77ZMGxpIxzJpPzUg==}
+  intelephense@1.18.2:
+    resolution: {integrity: sha512-CK6KHeUDFFDpdwIvpQfNAnQkpQioYjJj/FmD5ZVtrQZ/P3P8qupIFxA/oHiuDeQYJtkzYCyADCnDSfFro+5uFQ==}
     hasBin: true
 
   internal-slot@1.1.0:
@@ -3534,7 +3534,7 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  intelephense@1.18.1:
+  intelephense@1.18.2:
     dependencies:
       '@bmewburn/js-beautify': 1.15.4
       '@bmewburn/vscode-html-languageserver': 1.11.1
