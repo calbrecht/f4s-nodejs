@@ -45,8 +45,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       typescript-language-server:
-        specifier: ^5.2.0
-        version: 5.2.0
+        specifier: ^5.3.0
+        version: 5.3.0
       yaml-language-server:
         specifier: ^1.23.0
         version: 1.23.0
@@ -1798,8 +1798,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.8.0:
-    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
+  semver@7.8.1:
+    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2034,8 +2034,8 @@ packages:
     resolution: {integrity: sha512-3KS2b+kL7fsuk/eJZ7EQdnEmQoaho/r6KUef7hxvltNA5DR8NAUM+8wJMbJyZ4G9/7i3v5zPBIMN5aybAh2/Jg==}
     engines: {node: '>= 0.4'}
 
-  typescript-language-server@5.2.0:
-    resolution: {integrity: sha512-K+Fu46SgN+bzh0sbKk04hFHq0kWCljvBN9iHx6ej6pXHigrV6H9W/LENIliEkiUVoymiLmEotEBE2XHYnQCo1w==}
+  typescript-language-server@5.3.0:
+    resolution: {integrity: sha512-5puofxZHgFdAYtfNpmwCAvgtaYgg8wrUnH30m7Ze3QuguId5RNRadKASpOpyDxTyUdAF51FjhTdjntLw/EuWcQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2349,7 +2349,7 @@ snapshots:
       https-proxy-agent: 7.0.6
       node-fetch: 2.7.0
       nopt: 8.1.0
-      semver: 7.8.0
+      semver: 7.8.1
       tar: 7.5.15
     transitivePeerDependencies:
       - encoding
@@ -2860,7 +2860,7 @@ snapshots:
       '@one-ini/wasm': 0.2.0
       commander: 13.1.0
       minimatch: 10.0.1
-      semver: 7.8.0
+      semver: 7.8.1
 
   emitter-listener@1.1.2:
     dependencies:
@@ -3160,7 +3160,7 @@ snapshots:
       optionator: 0.9.4
       progress: 2.0.3
       regexpp: 3.2.0
-      semver: 7.8.0
+      semver: 7.8.1
       strip-ansi: 6.0.1
       strip-json-comments: 3.1.1
       table: 6.9.0
@@ -3826,7 +3826,7 @@ snapshots:
       graceful-fs: 4.2.11
       nopt: 9.0.0
       proc-log: 6.1.0
-      semver: 7.8.0
+      semver: 7.8.1
       tar: 7.5.15
       tinyglobby: 0.2.16
       undici: 6.25.0
@@ -4186,7 +4186,7 @@ snapshots:
 
   semver@7.7.4: {}
 
-  semver@7.8.0: {}
+  semver@7.8.1: {}
 
   set-function-length@1.2.2:
     dependencies:
@@ -4517,7 +4517,7 @@ snapshots:
       possible-typed-array-names: 1.1.0
       reflect.getprototypeof: 1.0.10
 
-  typescript-language-server@5.2.0:
+  typescript-language-server@5.3.0:
     dependencies:
       vscode-jsonrpc: 5.0.1
       vscode-languageserver-protocol: 3.17.5
