@@ -48,8 +48,8 @@ importers:
         specifier: ^5.3.0
         version: 5.3.0
       yaml-language-server:
-        specifier: ^1.23.0
-        version: 1.23.0
+        specifier: ^1.24.0
+        version: 1.24.0
 
 packages:
 
@@ -2093,10 +2093,6 @@ packages:
   vscode-html-languageservice@5.6.2:
     resolution: {integrity: sha512-ulCrSnFnfQ16YzvwnYUgEbUEl/ZG7u2eV27YhvLObSHKkb8fw1Z9cgsnUwjTEeDIdJDoTDTDpxuhQwoenoLNMg==}
 
-  vscode-json-languageservice@4.1.8:
-    resolution: {integrity: sha512-0vSpg6Xd9hfV+eZAaYN63xVVMOTmJ4GgHxXnkLCh+9RsQBkWKIghzLhW2B9ebfG+LQQg8uLtsQ2aUKjTgE+QOg==}
-    engines: {npm: '>=7.0.0'}
-
   vscode-jsonrpc@5.0.1:
     resolution: {integrity: sha512-JvONPptw3GAQGXlVV2utDcHx0BiY34FupW/kI6mZ5x06ER5DdPG/tXWMVHjTNULF5uKPOUUD0SaXg5QaubJL0A==}
     engines: {node: '>=8.0.0 || >=10.0.0'}
@@ -2141,9 +2137,6 @@ packages:
   vscode-languageserver@9.0.1:
     resolution: {integrity: sha512-woByF3PDpkHFUreUa7Hos7+pUWdeWMXRd26+ZX2A8cFx6v/JPTtd4/uN0/jB6XQHYaOlHbio03NTHCqrgG5n7g==}
     hasBin: true
-
-  vscode-nls@5.2.0:
-    resolution: {integrity: sha512-RAaHx7B14ZU04EU31pT+rKz2/zSl7xMsfIZuo8pd+KZO6PXtQmpevpq3vxvWNcrGbdmhM/rr5Uw5Mz+NBfhVng==}
 
   vscode-uri@3.1.0:
     resolution: {integrity: sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==}
@@ -2205,8 +2198,8 @@ packages:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
 
-  yaml-language-server@1.23.0:
-    resolution: {integrity: sha512-3qVyCOexLCWw06PQa5kRPwvMWMZ/eZeCRWUvgD6a0OkqL/4iCnxy2WumbWifa937Uo5xhyWJ0uxlU39ljhNh7A==}
+  yaml-language-server@1.24.0:
+    resolution: {integrity: sha512-+HGcwu4M7IC+UDhDZScTZR8qsl2MMj/X1E5e83QcWzWn2pctj0fv8HHdrHHcbc1KB3CuRPJ4gc1Nm36D0iCu0g==}
     hasBin: true
 
   yaml@2.8.3:
@@ -4614,14 +4607,6 @@ snapshots:
       vscode-languageserver-types: 3.17.5
       vscode-uri: 3.1.0
 
-  vscode-json-languageservice@4.1.8:
-    dependencies:
-      jsonc-parser: 3.3.1
-      vscode-languageserver-textdocument: 1.0.12
-      vscode-languageserver-types: 3.18.0
-      vscode-nls: 5.2.0
-      vscode-uri: 3.1.0
-
   vscode-jsonrpc@5.0.1: {}
 
   vscode-jsonrpc@8.0.2: {}
@@ -4660,8 +4645,6 @@ snapshots:
   vscode-languageserver@9.0.1:
     dependencies:
       vscode-languageserver-protocol: 3.17.5
-
-  vscode-nls@5.2.0: {}
 
   vscode-uri@3.1.0: {}
 
@@ -4741,18 +4724,19 @@ snapshots:
 
   yallist@5.0.0: {}
 
-  yaml-language-server@1.23.0:
+  yaml-language-server@1.24.0:
     dependencies:
       '@vscode/l10n': 0.0.18
       ajv: 8.20.0
       ajv-draft-04: 1.0.0(ajv@8.20.0)
       ajv-i18n: 4.2.0(ajv@8.20.0)
+      jsonc-parser: 3.3.1
+      picomatch: 4.0.5
       prettier: 3.9.4
       request-light: 0.5.8
-      vscode-json-languageservice: 4.1.8
       vscode-languageserver: 9.0.1
       vscode-languageserver-textdocument: 1.0.12
-      vscode-languageserver-types: 3.18.0
+      vscode-languageserver-types: 3.17.5
       vscode-uri: 3.1.0
       yaml: 2.8.3
 
