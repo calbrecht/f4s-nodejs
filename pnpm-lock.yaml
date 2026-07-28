@@ -428,8 +428,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  acorn@8.17.0:
-    resolution: {integrity: sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==}
+  acorn@8.18.0:
+    resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -565,8 +565,8 @@ packages:
   brace-expansion@1.1.16:
     resolution: {integrity: sha512-IDw48K2/2kRkg9LdJxurvq3lV3aBgq0REY89duEqFRthjlPdXHKMj7EnQOXVckxzgisinf3nHfrcE2FufFLXMw==}
 
-  brace-expansion@2.1.2:
-    resolution: {integrity: sha512-w5JZcKgdhDOgOwm8H+KgbosopHMuGcl6qbulwjtz3SM7I7P3yW1eAjzMPLrIE+NQ9vjgANKHWeMHnrT0OXW1oA==}
+  brace-expansion@2.1.3:
+    resolution: {integrity: sha512-DRdx5neNsG/QXbniLFWi2YmC/68oeOOmKz6zOjVk6ZS1ZLXgLIKqVEc6hWsmkjBbgii0SwaBTcJ5XKj5gzY/4A==}
 
   brace-expansion@5.0.8:
     resolution: {integrity: sha512-JZyDyq3D4AUifKTPOB7DELf6XsB3WdPuNxCtob1vFXPsSXhdAiHBWJ/tJ8HAc9aH84BK+5JFZLNkJKx3G9kzQg==}
@@ -2681,21 +2681,21 @@ snapshots:
 
   abbrev@5.0.0: {}
 
-  acorn-import-attributes@1.9.5(acorn@8.17.0):
+  acorn-import-attributes@1.9.5(acorn@8.18.0):
     dependencies:
-      acorn: 8.17.0
+      acorn: 8.18.0
 
   acorn-jsx@5.3.2(acorn@7.4.1):
     dependencies:
       acorn: 7.4.1
 
-  acorn-jsx@5.3.2(acorn@8.17.0):
+  acorn-jsx@5.3.2(acorn@8.18.0):
     dependencies:
-      acorn: 8.17.0
+      acorn: 8.18.0
 
   acorn@7.4.1: {}
 
-  acorn@8.17.0: {}
+  acorn@8.18.0: {}
 
   agent-base@7.1.4: {}
 
@@ -2851,7 +2851,7 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  brace-expansion@2.1.2:
+  brace-expansion@2.1.3:
     dependencies:
       balanced-match: 1.0.2
 
@@ -3394,8 +3394,8 @@ snapshots:
 
   espree@11.2.0:
     dependencies:
-      acorn: 8.17.0
-      acorn-jsx: 5.3.2(acorn@8.17.0)
+      acorn: 8.18.0
+      acorn-jsx: 5.3.2(acorn@8.18.0)
       eslint-visitor-keys: 5.0.1
 
   espree@7.3.1:
@@ -3690,8 +3690,8 @@ snapshots:
 
   import-in-the-middle@2.0.6:
     dependencies:
-      acorn: 8.17.0
-      acorn-import-attributes: 1.9.5(acorn@8.17.0)
+      acorn: 8.18.0
+      acorn-import-attributes: 1.9.5(acorn@8.18.0)
       cjs-module-lexer: 2.2.0
       module-details-from-path: 1.0.4
 
@@ -3986,7 +3986,7 @@ snapshots:
 
   minimatch@10.0.1:
     dependencies:
-      brace-expansion: 2.1.2
+      brace-expansion: 2.1.3
 
   minimatch@10.2.6:
     dependencies:
