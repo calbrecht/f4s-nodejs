@@ -18,7 +18,7 @@
       }:
       let
         x86_64 = "x86_64-linux";
-        nodejsToolsHash = "sha256-0e8++LOo55bUzjsaSOknGAHLkFVK6CYK9FVtD23nM9s=";
+        nodejsToolsHash = "sha256-d6e+OInOBfwe81S+pFQtFi7O1j0IWpgdlSfRA8DBDhM=";
       in
       {
         systems = [ x86_64 ];
