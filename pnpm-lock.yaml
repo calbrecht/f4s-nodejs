@@ -2213,8 +2213,8 @@ packages:
   undici-types@8.9.0:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
-  undici@8.10.2:
-    resolution: {integrity: sha512-/y4/bH9YNU5hi9NIrpOuvGXFcxrj3CMrV+/AYpowAYTpHn8gX/XPFjNy766FPoYY0miQhdW977JFWKGNhBdwyQ==}
+  undici@8.11.0:
+    resolution: {integrity: sha512-AdzuGcAkzhbha3GgCSoUBx2P0quwym6qdFNCQz/fDGZc8w9XJ741wHUbt2kTmfPz+ZIOMkySFkiY7RXmiDDC8w==}
     engines: {node: '>=22.19.0'}
 
   universalify@2.0.1:
@@ -4097,7 +4097,7 @@ snapshots:
       semver: 7.8.5
       tar: 7.5.22
       tinyglobby: 0.2.17
-      undici: 8.10.2
+      undici: 8.11.0
       which: 7.0.0
 
   nopt@10.0.1:
@@ -4826,7 +4826,7 @@ snapshots:
 
   undici-types@8.9.0: {}
 
-  undici@8.10.2: {}
+  undici@8.11.0: {}
 
   universalify@2.0.1: {}
 
