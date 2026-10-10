@@ -45,11 +45,11 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
       typescript-language-server:
-        specifier: ^6.0.1
-        version: 6.0.1
+        specifier: ^6.0.2
+        version: 6.0.2
       yaml-language-server:
-        specifier: ^1.24.0
-        version: 1.24.0
+        specifier: ^1.25.0
+        version: 1.25.0
 
 packages:
 
@@ -290,8 +290,8 @@ packages:
     resolution: {integrity: sha512-zmPitbQ8+6zNutpwgcQuLcsEpn/Cj54Kbn7L5pX0Os5kdWplB7xPgEh/g+SWOB/qmows2gpuCaPyduq8ZZRnxA==}
     deprecated: This is a stub types definition. minimatch provides its own type definitions, so you do not need this installed.
 
-  '@types/node@26.6.4':
-    resolution: {integrity: sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==}
+  '@types/node@26.6.5':
+    resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     resolution: {integrity: sha512-MTKKkWB7p/0E9xi1d1tHtZ5PiLkGEMIq88pK2CubZjOsLtYTLqhgIgi6zepFa+9GHZ6h05NMCkQxGKiPXMxXtQ==}
@@ -2191,8 +2191,8 @@ packages:
     resolution: {integrity: sha512-phPGCwqr2+Qo0fwniCE8e4pKnGu/yFb5nD5Y8bf0EEeiI5GklnACYA9GFy/DrAeRrKHXvHn+1SUsOWgJp6RO+g==}
     engines: {node: '>= 0.4'}
 
-  typescript-language-server@6.0.1:
-    resolution: {integrity: sha512-c5hEHM/7rdFRbQWoHXuddyJ53oF0M2dKeXQOYdwUek556oarltKeumKJGLp/ZMcGV7gW30mGn1MR3V5GDiLiKg==}
+  typescript-language-server@6.0.2:
+    resolution: {integrity: sha512-Ph7Ql+xkUJvMamnkh1h+aKP6HxLR7lrWIYkPn9/LZBkJdJZgtIj7OoVhkDYtQ7zFPTPmqZHOVXaUKGyz9M2q1Q==}
     engines: {node: '>=22.22.2'}
     hasBin: true
 
@@ -2347,8 +2347,8 @@ packages:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
 
-  yaml-language-server@1.24.0:
-    resolution: {integrity: sha512-+HGcwu4M7IC+UDhDZScTZR8qsl2MMj/X1E5e83QcWzWn2pctj0fv8HHdrHHcbc1KB3CuRPJ4gc1Nm36D0iCu0g==}
+  yaml-language-server@1.25.0:
+    resolution: {integrity: sha512-SDMkX/TWbP7yzTpvB5PAvirdfwlB+oqkXRZLQ6jR4f1XP42cF/mVeN35Mc1TIG2Dh0dpW82V3NSZ7vaVrdSyZw==}
     hasBin: true
 
   yaml@2.8.3:
@@ -2642,7 +2642,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 6.0.0
-      '@types/node': 26.6.4
+      '@types/node': 26.6.5
 
   '@types/json-schema@7.0.15': {}
 
@@ -2652,7 +2652,7 @@ snapshots:
     dependencies:
       minimatch: 10.2.6
 
-  '@types/node@26.6.4':
+  '@types/node@26.6.5':
     dependencies:
       undici-types: 8.9.0
 
@@ -4800,7 +4800,7 @@ snapshots:
       possible-typed-array-names: 1.1.0
       reflect.getprototypeof: 1.0.10
 
-  typescript-language-server@6.0.1:
+  typescript-language-server@6.0.2:
     dependencies:
       vscode-jsonrpc: 5.0.1
       vscode-languageserver-protocol: 3.18.4
@@ -4989,7 +4989,7 @@ snapshots:
 
   yallist@5.0.0: {}
 
-  yaml-language-server@1.24.0:
+  yaml-language-server@1.25.0:
     dependencies:
       '@vscode/l10n': 0.0.18
       ajv: 8.20.0
