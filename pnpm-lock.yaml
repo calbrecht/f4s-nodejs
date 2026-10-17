@@ -15,8 +15,8 @@ importers:
         specifier: ^5.8.1
         version: 5.8.1
       eslint:
-        specifier: ^10.12.0
-        version: 10.12.0(supports-color@10.2.2)
+        specifier: ^10.13.0
+        version: 10.13.0(supports-color@10.2.2)
       eslint_d:
         specifier: ^15.0.3
         version: 15.0.3
@@ -48,8 +48,8 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2
       yaml-language-server:
-        specifier: ^1.25.0
-        version: 1.25.0
+        specifier: ^2.0.0
+        version: 2.0.0
 
 packages:
 
@@ -956,8 +956,8 @@ packages:
     resolution: {integrity: sha512-tD40eHxA35h0PEIZNeIjkHoDR4YjjJp34biM0mDvplBe//mB+IHCqHDGV7pxF+7MklTvighcCPPZC7ynWyjdTA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  eslint@10.12.0:
-    resolution: {integrity: sha512-npHjrHb2o4ehH3mE+YuxABR+0gyb0aVWCIolgJDArwCiHEIsonBm3ZKjel5b0U5+a+MbEvIyRCGCzD3eKKK2NA==}
+  eslint@10.13.0:
+    resolution: {integrity: sha512-UohDjD4zSzEwhf58M3O7vc/ycc8O1I7dNlhtD0WxE8Px8EHNJKtUwzBqrzeGhisRuv2ag4sAYswszCJRgKXYUg==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
@@ -2280,6 +2280,10 @@ packages:
     resolution: {integrity: sha512-/cG04Fiq99rEtoDrfPpv0k6NyUFlck5GNtZLQZv1rxkBkc/4FrJNvEKTN5k1Si3O1hRguP++ciYlX9cdjdYxFQ==}
     hasBin: true
 
+  vscode-languageserver@10.1.2:
+    resolution: {integrity: sha512-pXPWde3RytdeBVEs6PulOOT5OpeXC5GkWRpcT11f5rNn41jviQsAYPyAqJ/0oVGETQLKPJtYbHNiMPlfLb0NTQ==}
+    hasBin: true
+
   vscode-languageserver@9.0.1:
     resolution: {integrity: sha512-woByF3PDpkHFUreUa7Hos7+pUWdeWMXRd26+ZX2A8cFx6v/JPTtd4/uN0/jB6XQHYaOlHbio03NTHCqrgG5n7g==}
     hasBin: true
@@ -2347,8 +2351,9 @@ packages:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
 
-  yaml-language-server@1.25.0:
-    resolution: {integrity: sha512-SDMkX/TWbP7yzTpvB5PAvirdfwlB+oqkXRZLQ6jR4f1XP42cF/mVeN35Mc1TIG2Dh0dpW82V3NSZ7vaVrdSyZw==}
+  yaml-language-server@2.0.0:
+    resolution: {integrity: sha512-vT6ZEMTkXJA9Ixo07ByLgPkkt/L22fJdVDGAoB3EpPq3DCfKkMYeEeZdK5ECU6alwFUofhETo94/OV8GUxGuBg==}
+    engines: {node: '>=22.13.0'}
     hasBin: true
 
   yaml@2.8.3:
@@ -2455,9 +2460,9 @@ snapshots:
       hashery: 1.5.1
       keyv: 5.6.0
 
-  '@eslint-community/eslint-utils@4.10.1(eslint@10.12.0)':
+  '@eslint-community/eslint-utils@4.10.1(eslint@10.13.0)':
     dependencies:
-      eslint: 10.12.0(supports-color@10.2.2)
+      eslint: 10.13.0(supports-color@10.2.2)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.2': {}
@@ -3357,9 +3362,9 @@ snapshots:
 
   eslint-visitor-keys@5.0.1: {}
 
-  eslint@10.12.0(supports-color@10.2.2):
+  eslint@10.13.0(supports-color@10.2.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.10.1(eslint@10.12.0)
+      '@eslint-community/eslint-utils': 4.10.1(eslint@10.13.0)
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5(supports-color@10.2.2)
       '@eslint/config-helpers': 0.7.0
@@ -3437,7 +3442,7 @@ snapshots:
   eslint_d@15.0.3:
     dependencies:
       debug: 4.4.3(supports-color@10.2.2)
-      eslint: 10.12.0(supports-color@10.2.2)
+      eslint: 10.13.0(supports-color@10.2.2)
       supports-color: 10.2.2
     transitivePeerDependencies:
       - jiti
@@ -4905,6 +4910,10 @@ snapshots:
     dependencies:
       vscode-languageserver-protocol: 3.18.3
 
+  vscode-languageserver@10.1.2:
+    dependencies:
+      vscode-languageserver-protocol: 3.18.4
+
   vscode-languageserver@9.0.1:
     dependencies:
       vscode-languageserver-protocol: 3.17.5
@@ -4989,7 +4998,7 @@ snapshots:
 
   yallist@5.0.0: {}
 
-  yaml-language-server@1.25.0:
+  yaml-language-server@2.0.0:
     dependencies:
       '@vscode/l10n': 0.0.18
       ajv: 8.20.0
@@ -4999,9 +5008,9 @@ snapshots:
       picomatch: 4.0.7
       prettier: 3.9.10
       request-light: 0.5.8
-      vscode-languageserver: 9.0.1
+      vscode-languageserver: 10.1.2
       vscode-languageserver-textdocument: 1.0.15
-      vscode-languageserver-types: 3.17.5
+      vscode-languageserver-types: 3.18.4
       vscode-uri: 3.2.0
       yaml: 2.8.3
 
